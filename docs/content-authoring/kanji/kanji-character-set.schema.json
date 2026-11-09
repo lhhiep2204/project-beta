@@ -1,0 +1,347 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Development-time editorial Kanji authoring only; not a selected runtime package or independent/release certification.",
+  "$id": "urn:projectbeta:editorial-kanji-character-set:0.1-draft",
+  "title": "Editorial Kanji character set",
+  "type": "object",
+  "properties": {
+    "format_version": {
+      "const": "0.1-draft"
+    },
+    "artifact_type": {
+      "const": "editorial_kanji_character_set"
+    },
+    "source_level_label": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "N5",
+        "N4"
+      ]
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entry"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "format_version",
+    "artifact_type",
+    "source_level_label",
+    "entries"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "bilingual": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "vi": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "en",
+        "vi"
+      ],
+      "additionalProperties": false
+    },
+    "segment": {
+      "type": "object",
+      "properties": {
+        "base": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ruby": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[ぁ-ゖァ-ヺーゔゕゖ]+$",
+          "description": "Contextual kana reading for a Kanji-bearing segment or a source-written uppercase Latin abbreviation such as CD, ATM or JR. This is editorial reading metadata; runtime display policy is not selected."
+        }
+      },
+      "required": [
+        "base"
+      ],
+      "additionalProperties": false
+    },
+    "japanese": {
+      "type": "object",
+      "properties": {
+        "segments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/segment"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "segments"
+      ],
+      "additionalProperties": false
+    },
+    "sourceRef": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "N5_KANJI",
+            "N4_KANJI"
+          ]
+        },
+        "pdf_page_start": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pdf_page_end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "basis": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "character_reading_and_meaning",
+            "compound_word_reading",
+            "unit_character_and_word_scope"
+          ]
+        }
+      },
+      "required": [
+        "source_id",
+        "pdf_page_start",
+        "pdf_page_end",
+        "basis"
+      ],
+      "additionalProperties": false
+    },
+    "word": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uuid"
+        },
+        "japanese": {
+          "$ref": "#/$defs/japanese"
+        },
+        "kana_reading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "meanings": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          },
+          "minItems": 1
+        },
+        "origin": {
+          "const": "source_aligned_lexical_item"
+        }
+      },
+      "required": [
+        "id",
+        "japanese",
+        "kana_reading",
+        "meanings",
+        "source_refs",
+        "origin"
+      ],
+      "additionalProperties": false
+    },
+    "entry": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uuid"
+        },
+        "source_character_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "character": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[㐀-鿿]$"
+        },
+        "han_viet": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "meanings": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "on_readings": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[ァ-ヺー.・()（）-]+$"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "kun_readings": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[ぁ-ゖー.・()（）-]+$"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "reading_scope": {
+          "const": "readings_listed_in_reference"
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/word"
+          },
+          "minItems": 1
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          },
+          "minItems": 1
+        },
+        "origin": {
+          "const": "source_aligned_character_fact_with_authored_meanings"
+        }
+      },
+      "required": [
+        "id",
+        "source_character_number",
+        "character",
+        "han_viet",
+        "meanings",
+        "on_readings",
+        "kun_readings",
+        "reading_scope",
+        "examples",
+        "source_refs",
+        "origin"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "N5_KANJI",
+            "N4_KANJI"
+          ]
+        },
+        "pdf_pages": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "source_id",
+        "pdf_pages"
+      ],
+      "additionalProperties": false
+    },
+    "milestone": {
+      "type": "object",
+      "properties": {
+        "global_lesson_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "reference_volume": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "Elementary I",
+            "Elementary II"
+          ]
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        }
+      },
+      "required": [
+        "global_lesson_number",
+        "reference_volume",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "start": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "may_include_earlier_material": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "may_include_earlier_material"
+      ],
+      "additionalProperties": false
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "self_review": {
+          "const": "accepted_for_batch_authoring"
+        },
+        "independent_review": {
+          "const": "not_claimed"
+        },
+        "release_status": {
+          "const": "draft_not_for_release"
+        }
+      },
+      "required": [
+        "self_review",
+        "independent_review",
+        "release_status"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

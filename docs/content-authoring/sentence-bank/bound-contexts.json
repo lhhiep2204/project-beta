@@ -1,0 +1,3854 @@
+{
+  "version": 1,
+  "reviewer": "primary agent; B-U-51 delegated self-review",
+  "date": "2026-11-08",
+  "contexts": [
+    {
+      "key": "vocabulary:167e9197-dfb5-49b7-87dd-c962d54f8fcd:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "リンさん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Linh (polite address)",
+        "vi": "anh/chị Linh"
+      },
+      "speech_text": "リンさん",
+      "label": {
+        "en": "Pronunciation in context: Linh (polite address)",
+        "vi": "Phát âm trong ngữ cảnh: anh/chị Linh"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:52947d1d-5d72-450a-856a-fe0c231a9a27:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "アキちゃん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Aki (affectionate address to a child)",
+        "vi": "bé Aki (cách gọi thân mật)"
+      },
+      "speech_text": "アキちゃん",
+      "label": {
+        "en": "Pronunciation in context: Aki (affectionate address to a child)",
+        "vi": "Phát âm trong ngữ cảnh: bé Aki (cách gọi thân mật)"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:760f5fea-b6c0-468b-8d09-d66944a9b3f6:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "ベトナム"
+          },
+          {
+            "base": "人",
+            "ruby": "じん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "a Vietnamese person",
+        "vi": "người Việt Nam"
+      },
+      "speech_text": "ベトナムじん",
+      "label": {
+        "en": "Pronunciation in context: a Vietnamese person",
+        "vi": "Phát âm trong ngữ cảnh: người Việt Nam"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:00728ee8-2781-47b7-aff6-d88b81e183b1:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三歳",
+            "ruby": "さんさい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "three years old",
+        "vi": "ba tuổi"
+      },
+      "speech_text": "さんさい",
+      "label": {
+        "en": "Pronunciation in context: three years old",
+        "vi": "Phát âm trong ngữ cảnh: ba tuổi"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:f694e9c8-e5ee-425b-ad56-5f416b503c4c:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "ベトナムから"
+          },
+          {
+            "base": "来",
+            "ruby": "き"
+          },
+          {
+            "base": "ました。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I came from Vietnam.",
+        "vi": "Tôi đến từ Việt Nam."
+      },
+      "speech_text": "ベトナムからきました。",
+      "label": {
+        "en": "Pronunciation in context: I came from Vietnam.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi đến từ Việt Nam."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:af4f0f8a-7f1a-48c0-8ab0-eeed810247e7:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "こちらはエミさんです。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "This is Emi.",
+        "vi": "Đây là Emi."
+      },
+      "speech_text": "こちらわエミさんです。",
+      "label": {
+        "en": "Pronunciation in context: This is Emi.",
+        "vi": "Phát âm trong ngữ cảnh: Đây là Emi."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:b2e54ee5-b0ac-4768-a283-4db3eb62c1eb:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "日本語",
+            "ruby": "にほんご"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Japanese language",
+        "vi": "tiếng Nhật"
+      },
+      "speech_text": "にほんご",
+      "label": {
+        "en": "Pronunciation in context: Japanese language",
+        "vi": "Phát âm trong ngữ cảnh: tiếng Nhật"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:8ddd48c1-5a1e-42bd-9ea2-47cea79f14d4:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二階",
+            "ruby": "にかい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "second floor",
+        "vi": "tầng hai"
+      },
+      "speech_text": "にかい",
+      "label": {
+        "en": "Pronunciation in context: second floor",
+        "vi": "Phát âm trong ngữ cảnh: tầng hai"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:8ddd48c1-5a1e-42bd-9ea2-47cea79f14d4:voiced",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三階",
+            "ruby": "さんがい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "third floor",
+        "vi": "tầng ba"
+      },
+      "speech_text": "さんがい",
+      "label": {
+        "en": "Pronunciation in context: third floor",
+        "vi": "Phát âm trong ngữ cảnh: tầng ba"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:0bf83488-7c31-4caa-ba89-19ad81f229f1:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "百円",
+            "ruby": "ひゃくえん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "one hundred yen",
+        "vi": "một trăm yên"
+      },
+      "speech_text": "ひゃくえん",
+      "label": {
+        "en": "Pronunciation in context: one hundred yen",
+        "vi": "Phát âm trong ngữ cảnh: một trăm yên"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:b735e789-f490-44b3-8267-a0286aa11477:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "九時",
+            "ruby": "くじ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "nine o'clock",
+        "vi": "chín giờ"
+      },
+      "speech_text": "くじ",
+      "label": {
+        "en": "Pronunciation in context: nine o'clock",
+        "vi": "Phát âm trong ngữ cảnh: chín giờ"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:287a82a3-c69f-4d8d-ae91-8df769648158:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "五分",
+            "ruby": "ごふん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "five minutes",
+        "vi": "năm phút"
+      },
+      "speech_text": "ごふん",
+      "label": {
+        "en": "Pronunciation in context: five minutes",
+        "vi": "Phát âm trong ngữ cảnh: năm phút"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:287a82a3-c69f-4d8d-ae91-8df769648158:p_sound",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三分",
+            "ruby": "さんぷん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "three minutes",
+        "vi": "ba phút"
+      },
+      "speech_text": "さんぷん",
+      "label": {
+        "en": "Pronunciation in context: three minutes",
+        "vi": "Phát âm trong ngữ cảnh: ba phút"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:43c294e1-5df5-4c93-a6d6-2d31df9fe961:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "九時",
+            "ruby": "くじ"
+          },
+          {
+            "base": "から"
+          },
+          {
+            "base": "働",
+            "ruby": "はたら"
+          },
+          {
+            "base": "きます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I work from nine o'clock.",
+        "vi": "Tôi làm việc từ chín giờ."
+      },
+      "speech_text": "くじからはたらきます。",
+      "label": {
+        "en": "Pronunciation in context: I work from nine o'clock.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi làm việc từ chín giờ."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:ad48019c-92b2-4a14-b5b6-453a74232b27:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "五時",
+            "ruby": "ごじ"
+          },
+          {
+            "base": "まで"
+          },
+          {
+            "base": "働",
+            "ruby": "はたら"
+          },
+          {
+            "base": "きます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I work until five o'clock.",
+        "vi": "Tôi làm việc đến năm giờ."
+      },
+      "speech_text": "ごじまではたらきます。",
+      "label": {
+        "en": "Pronunciation in context: I work until five o'clock.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi làm việc đến năm giờ."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:b73d18b3-a2fa-4982-9255-8e35dbcddd76:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "パンと"
+          },
+          {
+            "base": "卵",
+            "ruby": "たまご"
+          },
+          {
+            "base": "を"
+          },
+          {
+            "base": "食",
+            "ruby": "た"
+          },
+          {
+            "base": "べます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I eat bread and eggs.",
+        "vi": "Tôi ăn bánh mì và trứng."
+      },
+      "speech_text": "パンとたまごをたべます。",
+      "label": {
+        "en": "Pronunciation in context: I eat bread and eggs.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi ăn bánh mì và trứng."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:ed9bf8af-2a11-49b9-ad13-5b46483ca3c4:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二千二十六年",
+            "ruby": "にせんにじゅうろくねん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "the year 2026",
+        "vi": "năm 2026"
+      },
+      "speech_text": "にせんにじゅうろくねん",
+      "label": {
+        "en": "Pronunciation in context: the year 2026",
+        "vi": "Phát âm trong ngữ cảnh: năm 2026"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:c07d33dc-90b7-4f50-96bc-c411aed44cfb:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "五月",
+            "ruby": "ごがつ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "May",
+        "vi": "tháng Năm"
+      },
+      "speech_text": "ごがつ",
+      "label": {
+        "en": "Pronunciation in context: May",
+        "vi": "Phát âm trong ngữ cảnh: tháng Năm"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:e21a20ff-d690-4870-ba17-937a5c3a00e5:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三十日",
+            "ruby": "さんじゅうにち"
+          }
+        ]
+      },
+      "translation": {
+        "en": "the thirtieth day of the month",
+        "vi": "ngày ba mươi"
+      },
+      "speech_text": "さんじゅうにち",
+      "label": {
+        "en": "Pronunciation in context: the thirtieth day of the month",
+        "vi": "Phát âm trong ngữ cảnh: ngày ba mươi"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:189e2893-15b8-41f6-a610-b4830dd5faf0:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二番線",
+            "ruby": "にばんせん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "platform two",
+        "vi": "sân ga số hai"
+      },
+      "speech_text": "にばんせん",
+      "label": {
+        "en": "Pronunciation in context: platform two",
+        "vi": "Phát âm trong ngữ cảnh: sân ga số hai"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:5b990a98-7194-4ceb-9111-8e3d010bfbdb:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "この"
+          },
+          {
+            "base": "店",
+            "ruby": "みせ"
+          },
+          {
+            "base": "は"
+          },
+          {
+            "base": "高",
+            "ruby": "たか"
+          },
+          {
+            "base": "いですが、おいしいです。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "This restaurant is expensive, but the food is delicious.",
+        "vi": "Quán này đắt nhưng đồ ăn ngon."
+      },
+      "speech_text": "このみせわたかいですが、おいしいです。",
+      "label": {
+        "en": "Pronunciation in context: This restaurant is expensive, but the food is delicious.",
+        "vi": "Phát âm trong ngữ cảnh: Quán này đắt nhưng đồ ăn ngon."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:449af0d7-4b86-40b7-b150-0caea836c548:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "もう"
+          },
+          {
+            "base": "九時",
+            "ruby": "くじ"
+          },
+          {
+            "base": "です。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "It is already nine o'clock.",
+        "vi": "Đã chín giờ rồi."
+      },
+      "speech_text": "もうくじです。",
+      "label": {
+        "en": "Pronunciation in context: It is already nine o'clock.",
+        "vi": "Phát âm trong ngữ cảnh: Đã chín giờ rồi."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:bc7da51a-7250-4003-b826-3857c43c9fd7:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "雨",
+            "ruby": "あめ"
+          },
+          {
+            "base": "ですから、"
+          },
+          {
+            "base": "行",
+            "ruby": "い"
+          },
+          {
+            "base": "きません。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I will not go because it is raining.",
+        "vi": "Vì trời mưa nên tôi không đi."
+      },
+      "speech_text": "あめですから、いきません。",
+      "label": {
+        "en": "Pronunciation in context: I will not go because it is raining.",
+        "vi": "Phát âm trong ngữ cảnh: Vì trời mưa nên tôi không đi."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:4976b0d8-179f-4731-b911-91f82a562b50:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "本屋",
+            "ruby": "ほんや"
+          }
+        ]
+      },
+      "translation": {
+        "en": "bookshop",
+        "vi": "hiệu sách"
+      },
+      "speech_text": "ほんや",
+      "label": {
+        "en": "Pronunciation in context: bookshop",
+        "vi": "Phát âm trong ngữ cảnh: hiệu sách"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:396c5e6c-1bc9-4f0a-bf02-aafca4b9b587:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "本",
+            "ruby": "ほん"
+          },
+          {
+            "base": "や"
+          },
+          {
+            "base": "新聞",
+            "ruby": "しんぶん"
+          },
+          {
+            "base": "などがあります。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "There are books, newspapers and other things.",
+        "vi": "Có sách, báo và những thứ khác."
+      },
+      "speech_text": "ほんやしんぶんなどがあります。",
+      "label": {
+        "en": "Pronunciation in context: There are books, newspapers and other things.",
+        "vi": "Phát âm trong ngữ cảnh: Có sách, báo và những thứ khác."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:728495cd-0bdf-4674-8594-314978b1444b:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三人",
+            "ruby": "さんにん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "three people",
+        "vi": "ba người"
+      },
+      "speech_text": "さんにん",
+      "label": {
+        "en": "Pronunciation in context: three people",
+        "vi": "Phát âm trong ngữ cảnh: ba người"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:2e05af94-8c7a-4b57-b84f-262416612ee1:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二台",
+            "ruby": "にだい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two machines or vehicles",
+        "vi": "hai chiếc máy hoặc xe"
+      },
+      "speech_text": "にだい",
+      "label": {
+        "en": "Pronunciation in context: two machines or vehicles",
+        "vi": "Phát âm trong ngữ cảnh: hai chiếc máy hoặc xe"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:d751a105-5afc-425f-aa1b-65fac6e14d56:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二枚",
+            "ruby": "にまい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two flat objects",
+        "vi": "hai tấm"
+      },
+      "speech_text": "にまい",
+      "label": {
+        "en": "Pronunciation in context: two flat objects",
+        "vi": "Phát âm trong ngữ cảnh: hai tấm"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:1de36c6a-5f2a-4e64-a48b-4a7940c132d1:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二回",
+            "ruby": "にかい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "twice",
+        "vi": "hai lần"
+      },
+      "speech_text": "にかい",
+      "label": {
+        "en": "Pronunciation in context: twice",
+        "vi": "Phát âm trong ngữ cảnh: hai lần"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:394c38b0-fcf8-44cd-ac86-162420add9ed:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二時間",
+            "ruby": "にじかん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two hours",
+        "vi": "hai giờ đồng hồ"
+      },
+      "speech_text": "にじかん",
+      "label": {
+        "en": "Pronunciation in context: two hours",
+        "vi": "Phát âm trong ngữ cảnh: hai giờ đồng hồ"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:8e2f3424-975b-476a-b100-08b0adb9a72b:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二週間",
+            "ruby": "にしゅうかん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two weeks",
+        "vi": "hai tuần"
+      },
+      "speech_text": "にしゅうかん",
+      "label": {
+        "en": "Pronunciation in context: two weeks",
+        "vi": "Phát âm trong ngữ cảnh: hai tuần"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:f13a989e-1615-415d-8aa4-c182f39c8660:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二か月",
+            "ruby": "にかげつ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two months",
+        "vi": "hai tháng"
+      },
+      "speech_text": "にかげつ",
+      "label": {
+        "en": "Pronunciation in context: two months",
+        "vi": "Phát âm trong ngữ cảnh: hai tháng"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:14fb7723-da18-4ae6-a36d-2a858d6103d6:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二年",
+            "ruby": "にねん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two years",
+        "vi": "hai năm"
+      },
+      "speech_text": "にねん",
+      "label": {
+        "en": "Pronunciation in context: two years",
+        "vi": "Phát âm trong ngữ cảnh: hai năm"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:55c9a276-b61b-4945-9b4a-61367de32194:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "一時間",
+            "ruby": "いちじかん"
+          },
+          {
+            "base": "ぐらいかかります。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "It takes about an hour.",
+        "vi": "Mất khoảng một giờ."
+      },
+      "speech_text": "いちじかんぐらいかかります。",
+      "label": {
+        "en": "Pronunciation in context: It takes about an hour.",
+        "vi": "Phát âm trong ngữ cảnh: Mất khoảng một giờ."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:7453e06b-9ebd-4e99-9123-c93f21e432f0:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "水",
+            "ruby": "みず"
+          },
+          {
+            "base": "だけ"
+          },
+          {
+            "base": "飲",
+            "ruby": "の"
+          },
+          {
+            "base": "みます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I drink only water.",
+        "vi": "Tôi chỉ uống nước."
+      },
+      "speech_text": "みずだけのみます。",
+      "label": {
+        "en": "Pronunciation in context: I drink only water.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi chỉ uống nước."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:8857b910-a115-4554-a2eb-bcbf9772f5bc:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "ちょっと"
+          },
+          {
+            "base": "駅",
+            "ruby": "えき"
+          },
+          {
+            "base": "まで"
+          },
+          {
+            "base": "行",
+            "ruby": "い"
+          },
+          {
+            "base": "ってきます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I am just going to the station and coming back.",
+        "vi": "Tôi ra ga một chút rồi về."
+      },
+      "speech_text": "ちょっとえきまでいってきます。",
+      "label": {
+        "en": "Pronunciation in context: I am just going to the station and coming back.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi ra ga một chút rồi về."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:adfbb6f8-9edd-4219-bcfc-627888f536b0:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "九時",
+            "ruby": "くじ"
+          },
+          {
+            "base": "ごろ"
+          },
+          {
+            "base": "行",
+            "ruby": "い"
+          },
+          {
+            "base": "きます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I will go around nine o'clock.",
+        "vi": "Tôi sẽ đi khoảng chín giờ."
+      },
+      "speech_text": "くじごろいきます。",
+      "label": {
+        "en": "Pronunciation in context: I will go around nine o'clock.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi sẽ đi khoảng chín giờ."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:bbc0a5ee-49c9-4d70-acdb-6db75df369fd:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "受付",
+            "ruby": "うけつけ"
+          },
+          {
+            "base": "でございます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "This is reception (formal).",
+        "vi": "Đây là quầy lễ tân ạ."
+      },
+      "speech_text": "うけつけでございます。",
+      "label": {
+        "en": "Pronunciation in context: This is reception (formal).",
+        "vi": "Phát âm trong ngữ cảnh: Đây là quầy lễ tân ạ."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:c90d41d7-9878-419a-b14e-a3bc7b20de98:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "書",
+            "ruby": "か"
+          },
+          {
+            "base": "き"
+          },
+          {
+            "base": "方",
+            "ruby": "かた"
+          }
+        ]
+      },
+      "translation": {
+        "en": "how to write",
+        "vi": "cách viết"
+      },
+      "speech_text": "かきかた",
+      "label": {
+        "en": "Pronunciation in context: how to write",
+        "vi": "Phát âm trong ngữ cảnh: cách viết"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:68f46c45-71bb-4d6f-b700-20dbfc8e6593:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "もう"
+          },
+          {
+            "base": "一度",
+            "ruby": "いちど"
+          },
+          {
+            "base": "お"
+          },
+          {
+            "base": "願",
+            "ruby": "ねが"
+          },
+          {
+            "base": "いします。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "One more time, please.",
+        "vi": "Xin nhắc lại một lần nữa."
+      },
+      "speech_text": "もういちどおねがいします。",
+      "label": {
+        "en": "Pronunciation in context: One more time, please.",
+        "vi": "Phát âm trong ngữ cảnh: Xin nhắc lại một lần nữa."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:eeb2ea44-148c-4c3e-91ba-042ab9808036:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二番",
+            "ruby": "にばん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "number two",
+        "vi": "số hai"
+      },
+      "speech_text": "にばん",
+      "label": {
+        "en": "Pronunciation in context: number two",
+        "vi": "Phát âm trong ngữ cảnh: số hai"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:d9e30ef9-b101-44db-a380-3e41ce017a34:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二、三日",
+            "ruby": "にさんにち"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two or three days",
+        "vi": "hai, ba ngày"
+      },
+      "speech_text": "にさんにち",
+      "label": {
+        "en": "Pronunciation in context: two or three days",
+        "vi": "Phát âm trong ngữ cảnh: hai, ba ngày"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:9d23b4ab-41bb-4b1e-85a6-a1c12bc7a8d6:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "五時",
+            "ruby": "ごじ"
+          },
+          {
+            "base": "までに"
+          },
+          {
+            "base": "来",
+            "ruby": "き"
+          },
+          {
+            "base": "てください。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Please come by five o'clock.",
+        "vi": "Xin hãy đến trước hoặc đúng năm giờ."
+      },
+      "speech_text": "ごじまでにきてください。",
+      "label": {
+        "en": "Pronunciation in context: Please come by five o'clock.",
+        "vi": "Phát âm trong ngữ cảnh: Xin hãy đến trước hoặc đúng năm giờ."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:dc24dc4b-8489-4dd0-a9ea-39321255f34f:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二",
+            "ruby": "に"
+          },
+          {
+            "base": "メートル"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two meters",
+        "vi": "hai mét"
+      },
+      "speech_text": "にメートル",
+      "label": {
+        "en": "Pronunciation in context: two meters",
+        "vi": "Phát âm trong ngữ cảnh: hai mét"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:d87a056f-fab9-48c2-a466-423ce2616e81:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "アキ"
+          },
+          {
+            "base": "君",
+            "ruby": "くん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Aki (familiar address)",
+        "vi": "Aki (cách gọi thân mật)"
+      },
+      "speech_text": "アキくん",
+      "label": {
+        "en": "Pronunciation in context: Aki (familiar address)",
+        "vi": "Phát âm trong ngữ cảnh: Aki (cách gọi thân mật)"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:dc01c195-75c4-4163-9145-cdd561e56e97:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "この"
+          },
+          {
+            "base": "店",
+            "ruby": "みせ"
+          },
+          {
+            "base": "は"
+          },
+          {
+            "base": "高",
+            "ruby": "たか"
+          },
+          {
+            "base": "いけど、おいしい。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "This restaurant is expensive, but the food is delicious (casual).",
+        "vi": "Quán này đắt nhưng đồ ăn ngon (thân mật)."
+      },
+      "speech_text": "このみせわたかいけど、おいしい。",
+      "label": {
+        "en": "Pronunciation in context: This restaurant is expensive, but the food is delicious (casual).",
+        "vi": "Phát âm trong ngữ cảnh: Quán này đắt nhưng đồ ăn ngon (thân mật)."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:61b61bfb-7d3a-48d1-923b-d989ae78d8dc:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "日本",
+            "ruby": "にほん"
+          },
+          {
+            "base": "について"
+          },
+          {
+            "base": "話",
+            "ruby": "はな"
+          },
+          {
+            "base": "します。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I will talk about Japan.",
+        "vi": "Tôi sẽ nói về Nhật Bản."
+      },
+      "speech_text": "にほんについてはなします。",
+      "label": {
+        "en": "Pronunciation in context: I will talk about Japan.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi sẽ nói về Nhật Bản."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:c731222d-7b97-4964-9b83-2890e9fb33fb:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "茶",
+            "ruby": "ちゃ"
+          },
+          {
+            "base": "でも"
+          },
+          {
+            "base": "飲",
+            "ruby": "の"
+          },
+          {
+            "base": "みませんか。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Would you like some tea or something?",
+        "vi": "Anh/chị uống trà hay gì đó nhé?"
+      },
+      "speech_text": "おちゃでものみませんか。",
+      "label": {
+        "en": "Pronunciation in context: Would you like some tea or something?",
+        "vi": "Phát âm trong ngữ cảnh: Anh/chị uống trà hay gì đó nhé?"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:37165000-8890-474f-b64a-1d17a702704c:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二",
+            "ruby": "ふた"
+          },
+          {
+            "base": "つ"
+          },
+          {
+            "base": "目",
+            "ruby": "め"
+          }
+        ]
+      },
+      "translation": {
+        "en": "the second item",
+        "vi": "cái thứ hai"
+      },
+      "speech_text": "ふたつめ",
+      "label": {
+        "en": "Pronunciation in context: the second item",
+        "vi": "Phát âm trong ngữ cảnh: cái thứ hai"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:24b9d4b6-d679-40f9-a49a-6a606cfd0154:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "大阪弁",
+            "ruby": "おおさかべん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Osaka dialect",
+        "vi": "phương ngữ Osaka"
+      },
+      "speech_text": "おおさかべん",
+      "label": {
+        "en": "Pronunciation in context: Osaka dialect",
+        "vi": "Phát âm trong ngữ cảnh: phương ngữ Osaka"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:4582f2ce-384f-448a-a2c6-4a0865439686:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "こんな"
+          },
+          {
+            "base": "本",
+            "ruby": "ほん"
+          },
+          {
+            "base": "が"
+          },
+          {
+            "base": "好",
+            "ruby": "す"
+          },
+          {
+            "base": "きです。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I like books like this.",
+        "vi": "Tôi thích loại sách như thế này."
+      },
+      "speech_text": "こんなほんがすきです。",
+      "label": {
+        "en": "Pronunciation in context: I like books like this.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi thích loại sách như thế này."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:372e8829-38ef-46b6-b2de-49b4575f00b3:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "そんな"
+          },
+          {
+            "base": "話",
+            "ruby": "はなし"
+          },
+          {
+            "base": "は"
+          },
+          {
+            "base": "知",
+            "ruby": "し"
+          },
+          {
+            "base": "りません。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I do not know about that kind of story.",
+        "vi": "Tôi không biết chuyện như thế."
+      },
+      "speech_text": "そんなはなしわしりません。",
+      "label": {
+        "en": "Pronunciation in context: I do not know about that kind of story.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi không biết chuyện như thế."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:9273c92d-8b2c-4176-939f-0fc23600c920:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "あんな"
+          },
+          {
+            "base": "家",
+            "ruby": "いえ"
+          },
+          {
+            "base": "に"
+          },
+          {
+            "base": "住",
+            "ruby": "す"
+          },
+          {
+            "base": "みたいです。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I want to live in a house like that one over there.",
+        "vi": "Tôi muốn sống trong ngôi nhà như ngôi nhà đằng kia."
+      },
+      "speech_text": "あんないえにすみたいです。",
+      "label": {
+        "en": "Pronunciation in context: I want to live in a house like that one over there.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi muốn sống trong ngôi nhà như ngôi nhà đằng kia."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:a5a60202-ed09-4b4e-9337-b9995f4d3643:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "貿易会社",
+            "ruby": "ぼうえきがいしゃ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "trading company",
+        "vi": "công ty thương mại"
+      },
+      "speech_text": "ぼうえきがいしゃ",
+      "label": {
+        "en": "Pronunciation in context: trading company",
+        "vi": "Phát âm trong ngữ cảnh: công ty thương mại"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:5b63fd0f-0454-4125-b273-00e1c31a062d:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "リン"
+          },
+          {
+            "base": "様",
+            "ruby": "さま"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Linh (formal respectful address)",
+        "vi": "kính gửi anh/chị Linh"
+      },
+      "speech_text": "リンさま",
+      "label": {
+        "en": "Pronunciation in context: Linh (formal respectful address)",
+        "vi": "Phát âm trong ngữ cảnh: kính gửi anh/chị Linh"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:34d08f08-b670-43b5-998c-ad8a2e65ab5a:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "日本語教室",
+            "ruby": "にほんごきょうしつ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Japanese language class",
+        "vi": "lớp tiếng Nhật"
+      },
+      "speech_text": "にほんごきょうしつ",
+      "label": {
+        "en": "Pronunciation in context: Japanese language class",
+        "vi": "Phát âm trong ngữ cảnh: lớp tiếng Nhật"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:7ac96859-5460-48a9-91fb-01c54a0f3b74:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三年後",
+            "ruby": "さんねんご"
+          }
+        ]
+      },
+      "translation": {
+        "en": "three years later",
+        "vi": "ba năm sau"
+      },
+      "speech_text": "さんねんご",
+      "label": {
+        "en": "Pronunciation in context: three years later",
+        "vi": "Phát âm trong ngữ cảnh: ba năm sau"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:7c17feea-84d2-4706-9f21-71874f9117e9:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "百円",
+            "ruby": "ひゃくえん"
+          },
+          {
+            "base": "しかありません。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I have only one hundred yen.",
+        "vi": "Tôi chỉ có một trăm yên."
+      },
+      "speech_text": "ひゃくえんしかありません。",
+      "label": {
+        "en": "Pronunciation in context: I have only one hundred yen.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi chỉ có một trăm yên."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:df0a1e0a-c0c5-4b2e-ab04-13039645755e:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "音楽家",
+            "ruby": "おんがくか"
+          }
+        ]
+      },
+      "translation": {
+        "en": "musician",
+        "vi": "nhạc sĩ"
+      },
+      "speech_text": "おんがくか",
+      "label": {
+        "en": "Pronunciation in context: musician",
+        "vi": "Phát âm trong ngữ cảnh: nhạc sĩ"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:caf14653-6b09-4060-b960-89664421388d:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "洗濯機",
+            "ruby": "せんたくき"
+          }
+        ]
+      },
+      "translation": {
+        "en": "washing machine",
+        "vi": "máy giặt"
+      },
+      "speech_text": "せんたくき",
+      "label": {
+        "en": "Pronunciation in context: washing machine",
+        "vi": "Phát âm trong ngữ cảnh: máy giặt"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:8b53127b-91be-4fcc-8fa8-ac3879ba7e94:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "右側",
+            "ruby": "みぎがわ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "right side",
+        "vi": "phía bên phải"
+      },
+      "speech_text": "みぎがわ",
+      "label": {
+        "en": "Pronunciation in context: right side",
+        "vi": "Phát âm trong ngữ cảnh: phía bên phải"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:aa41e9c1-b57a-48f6-9b67-92546c87db68:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "この"
+          },
+          {
+            "base": "辺",
+            "ruby": "へん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "around here",
+        "vi": "quanh đây"
+      },
+      "speech_text": "このへん",
+      "label": {
+        "en": "Pronunciation in context: around here",
+        "vi": "Phát âm trong ngữ cảnh: quanh đây"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:8c3636e5-cb01-4fd0-b887-109051e8e55b:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "駅",
+            "ruby": "えき"
+          },
+          {
+            "base": "の"
+          },
+          {
+            "base": "方",
+            "ruby": "ほう"
+          },
+          {
+            "base": "へ"
+          },
+          {
+            "base": "行",
+            "ruby": "い"
+          },
+          {
+            "base": "きます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I am going toward the station.",
+        "vi": "Tôi đi về phía nhà ga."
+      },
+      "speech_text": "えきのほうえいきます。",
+      "label": {
+        "en": "Pronunciation in context: I am going toward the station.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi đi về phía nhà ga."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:9ca1784b-a30d-43ad-baae-1e9efee41ae0:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "本",
+            "ruby": "ほん"
+          },
+          {
+            "base": "とか、"
+          },
+          {
+            "base": "雑誌",
+            "ruby": "ざっし"
+          },
+          {
+            "base": "とかを"
+          },
+          {
+            "base": "読",
+            "ruby": "よ"
+          },
+          {
+            "base": "みます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I read things such as books and magazines.",
+        "vi": "Tôi đọc sách, tạp chí và những thứ tương tự."
+      },
+      "speech_text": "ほんとか、ざっしとかをよみます。",
+      "label": {
+        "en": "Pronunciation in context: I read things such as books and magazines.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi đọc sách, tạp chí và những thứ tương tự."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:3b8c31a4-e1b7-4048-9e79-dc87b803d43a:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "ある"
+          },
+          {
+            "base": "日",
+            "ruby": "ひ"
+          },
+          {
+            "base": "、"
+          },
+          {
+            "base": "友達",
+            "ruby": "ともだち"
+          },
+          {
+            "base": "に"
+          },
+          {
+            "base": "会",
+            "ruby": "あ"
+          },
+          {
+            "base": "いました。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "One day, I met a friend.",
+        "vi": "Một ngày nọ, tôi đã gặp một người bạn."
+      },
+      "speech_text": "あるひ、ともだちにあいました。",
+      "label": {
+        "en": "Pronunciation in context: One day, I met a friend.",
+        "vi": "Phát âm trong ngữ cảnh: Một ngày nọ, tôi đã gặp một người bạn."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:187b9d9b-69b0-4a4c-9c23-161cad3a5231:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二号",
+            "ruby": "にごう"
+          }
+        ]
+      },
+      "translation": {
+        "en": "number two",
+        "vi": "số hai"
+      },
+      "speech_text": "にごう",
+      "label": {
+        "en": "Pronunciation in context: number two",
+        "vi": "Phát âm trong ngữ cảnh: số hai"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:047f5224-737d-4dec-8e5a-0070ac438441:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "駅",
+            "ruby": "えき"
+          },
+          {
+            "base": "の"
+          },
+          {
+            "base": "方",
+            "ruby": "ほう"
+          },
+          {
+            "base": "へ"
+          },
+          {
+            "base": "行",
+            "ruby": "い"
+          },
+          {
+            "base": "きます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I am going toward the station.",
+        "vi": "Tôi đi về phía nhà ga."
+      },
+      "speech_text": "えきのほうえいきます。",
+      "label": {
+        "en": "Pronunciation in context: I am going toward the station.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi đi về phía nhà ga."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:02d90afb-d9c1-4f10-b3b2-2235ef9dad62:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "国際会議",
+            "ruby": "こくさいかいぎ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "international conference",
+        "vi": "hội nghị quốc tế"
+      },
+      "speech_text": "こくさいかいぎ",
+      "label": {
+        "en": "Pronunciation in context: international conference",
+        "vi": "Phát âm trong ngữ cảnh: hội nghị quốc tế"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:b635f70a-9aae-422e-b5e7-738ded0faf38:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "会議中",
+            "ruby": "かいぎちゅう"
+          }
+        ]
+      },
+      "translation": {
+        "en": "in a meeting",
+        "vi": "đang họp"
+      },
+      "speech_text": "かいぎちゅう",
+      "label": {
+        "en": "Pronunciation in context: in a meeting",
+        "vi": "Phát âm trong ngữ cảnh: đang họp"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:a238f501-eb73-4eaa-882e-e52fc4a8ed59:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "どういう"
+          },
+          {
+            "base": "意味",
+            "ruby": "いみ"
+          },
+          {
+            "base": "ですか。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "What does it mean?",
+        "vi": "Có nghĩa là gì?"
+      },
+      "speech_text": "どういういみですか。",
+      "label": {
+        "en": "Pronunciation in context: What does it mean?",
+        "vi": "Phát âm trong ngữ cảnh: Có nghĩa là gì?"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:286847bd-2cc2-4563-838f-41547d2aaf6e:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "いくら"
+          },
+          {
+            "base": "食",
+            "ruby": "た"
+          },
+          {
+            "base": "べても、"
+          },
+          {
+            "base": "太",
+            "ruby": "ふと"
+          },
+          {
+            "base": "りません。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "No matter how much I eat, I do not gain weight.",
+        "vi": "Dù ăn bao nhiêu, tôi cũng không tăng cân."
+      },
+      "speech_text": "いくらたべても、ふとりません。",
+      "label": {
+        "en": "Pronunciation in context: No matter how much I eat, I do not gain weight.",
+        "vi": "Phát âm trong ngữ cảnh: Dù ăn bao nhiêu, tôi cũng không tăng cân."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:ca551af2-148a-49fd-bffe-c5bd3c6122a3:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "あと"
+          },
+          {
+            "base": "五分",
+            "ruby": "ごふん"
+          },
+          {
+            "base": "です。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "There are five more minutes.",
+        "vi": "Còn năm phút nữa."
+      },
+      "speech_text": "あとごふんです。",
+      "label": {
+        "en": "Pronunciation in context: There are five more minutes.",
+        "vi": "Phát âm trong ngữ cảnh: Còn năm phút nữa."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:afb488b7-37dd-4f90-b61f-d0e403b6c88e:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "五分",
+            "ruby": "ごふん"
+          },
+          {
+            "base": "ほど"
+          },
+          {
+            "base": "待",
+            "ruby": "ま"
+          },
+          {
+            "base": "ちます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I will wait about five minutes.",
+        "vi": "Tôi sẽ chờ khoảng năm phút."
+      },
+      "speech_text": "ごふんほどまちます。",
+      "label": {
+        "en": "Pronunciation in context: I will wait about five minutes.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi sẽ chờ khoảng năm phút."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:c24fb36f-c3fb-4c9a-a95b-f759baf774a6:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "パンかごはんを"
+          },
+          {
+            "base": "食",
+            "ruby": "た"
+          },
+          {
+            "base": "べます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I eat bread or rice.",
+        "vi": "Tôi ăn bánh mì hoặc cơm."
+      },
+      "speech_text": "パンかごはんをたべます。",
+      "label": {
+        "en": "Pronunciation in context: I eat bread or rice.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi ăn bánh mì hoặc cơm."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:35869ea4-6dd8-47d9-986a-00957c693174:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二人分",
+            "ruby": "ふたりぶん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "a portion for two people",
+        "vi": "phần dành cho hai người"
+      },
+      "speech_text": "ふたりぶん",
+      "label": {
+        "en": "Pronunciation in context: a portion for two people",
+        "vi": "Phát âm trong ngữ cảnh: phần dành cho hai người"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:c8c23d3b-83f1-4652-9b29-763b2d77b944:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "百",
+            "ruby": "ひゃく"
+          },
+          {
+            "base": "グラム"
+          }
+        ]
+      },
+      "translation": {
+        "en": "one hundred grams",
+        "vi": "một trăm gam"
+      },
+      "speech_text": "ひゃくグラム",
+      "label": {
+        "en": "Pronunciation in context: one hundred grams",
+        "vi": "Phát âm trong ngữ cảnh: một trăm gam"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:09fddd29-1729-42a3-927f-fef81c5b647d:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二個",
+            "ruby": "にこ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two small items",
+        "vi": "hai cái nhỏ"
+      },
+      "speech_text": "にこ",
+      "label": {
+        "en": "Pronunciation in context: two small items",
+        "vi": "Phát âm trong ngữ cảnh: hai cái nhỏ"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:449bfa1c-343e-4b6a-9292-4152da4ec0bf:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二十一世紀",
+            "ruby": "にじゅういっせいき"
+          }
+        ]
+      },
+      "translation": {
+        "en": "the twenty-first century",
+        "vi": "thế kỷ hai mươi mốt"
+      },
+      "speech_text": "にじゅういっせいき",
+      "label": {
+        "en": "Pronunciation in context: the twenty-first century",
+        "vi": "Phát âm trong ngữ cảnh: thế kỷ hai mươi mốt"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:568944ca-ecc2-4bad-af9a-662f29b2564e:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "大勢",
+            "ruby": "おおぜい"
+          },
+          {
+            "base": "の"
+          },
+          {
+            "base": "人",
+            "ruby": "ひと"
+          },
+          {
+            "base": "が"
+          },
+          {
+            "base": "来",
+            "ruby": "き"
+          },
+          {
+            "base": "ました。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Many people came.",
+        "vi": "Nhiều người đã đến."
+      },
+      "speech_text": "おおぜいのひとがきました。",
+      "label": {
+        "en": "Pronunciation in context: Many people came.",
+        "vi": "Phát âm trong ngữ cảnh: Nhiều người đã đến."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:e80e2132-37e6-4e49-9315-8945a8be0bae:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "世界中",
+            "ruby": "せかいじゅう"
+          }
+        ]
+      },
+      "translation": {
+        "en": "all over the world",
+        "vi": "khắp thế giới"
+      },
+      "speech_text": "せかいじゅう",
+      "label": {
+        "en": "Pronunciation in context: all over the world",
+        "vi": "Phát âm trong ngữ cảnh: khắp thế giới"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:3a1adf14-3925-4182-9907-a6a8ace54c54:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二十一世紀",
+            "ruby": "にじゅういっせいき"
+          }
+        ]
+      },
+      "translation": {
+        "en": "the twenty-first century",
+        "vi": "thế kỷ hai mươi mốt"
+      },
+      "speech_text": "にじゅういっせいき",
+      "label": {
+        "en": "Pronunciation in context: the twenty-first century",
+        "vi": "Phát âm trong ngữ cảnh: thế kỷ hai mươi mốt"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:4e9ce80c-1c34-41d0-b10c-65176ed08c0b:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "これは"
+          },
+          {
+            "base": "理由",
+            "ruby": "りゆう"
+          },
+          {
+            "base": "の"
+          },
+          {
+            "base": "一",
+            "ruby": "ひと"
+          },
+          {
+            "base": "つです。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "This is one of the reasons.",
+        "vi": "Đây là một trong những lý do."
+      },
+      "speech_text": "これわりゆうのひとつです。",
+      "label": {
+        "en": "Pronunciation in context: This is one of the reasons.",
+        "vi": "Phát âm trong ngữ cảnh: Đây là một trong những lý do."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:893f131a-ea29-47d5-a6ea-3df221f1d468:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二",
+            "ruby": "に"
+          },
+          {
+            "base": "キロ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two kilometers (distance context)",
+        "vi": "hai kilômét (ngữ cảnh khoảng cách)"
+      },
+      "speech_text": "にキロ",
+      "label": {
+        "en": "Pronunciation in context: two kilometers (distance context)",
+        "vi": "Phát âm trong ngữ cảnh: hai kilômét (ngữ cảnh khoảng cách)"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:bc08b5d2-cde1-41b5-85b3-07b98ef5bf3e:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "大",
+            "ruby": "おお"
+          },
+          {
+            "base": "きな"
+          },
+          {
+            "base": "家",
+            "ruby": "いえ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "a large house",
+        "vi": "một ngôi nhà lớn"
+      },
+      "speech_text": "おおきないえ",
+      "label": {
+        "en": "Pronunciation in context: a large house",
+        "vi": "Phát âm trong ngữ cảnh: một ngôi nhà lớn"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:c7b5e3f5-84fd-4d41-a099-d40dafeae9d4:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "小",
+            "ruby": "ちい"
+          },
+          {
+            "base": "さな"
+          },
+          {
+            "base": "家",
+            "ruby": "いえ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "a small house",
+        "vi": "một ngôi nhà nhỏ"
+      },
+      "speech_text": "ちいさないえ",
+      "label": {
+        "en": "Pronunciation in context: a small house",
+        "vi": "Phát âm trong ngữ cảnh: một ngôi nhà nhỏ"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:2958e2e7-0b4a-48c5-a122-22a4dd95a5a5:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "日本製",
+            "ruby": "にほんせい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "made in Japan",
+        "vi": "sản xuất tại Nhật Bản"
+      },
+      "speech_text": "にほんせい",
+      "label": {
+        "en": "Pronunciation in context: made in Japan",
+        "vi": "Phát âm trong ngữ cảnh: sản xuất tại Nhật Bản"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:537534c6-6b24-40bb-a3ad-c6648c043ada:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "リンという"
+          },
+          {
+            "base": "人",
+            "ruby": "ひと"
+          },
+          {
+            "base": "です。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "It is a person called Linh.",
+        "vi": "Đó là một người tên Linh."
+      },
+      "speech_text": "リンというひとです。",
+      "label": {
+        "en": "Pronunciation in context: It is a person called Linh.",
+        "vi": "Phát âm trong ngữ cảnh: Đó là một người tên Linh."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:3b2709e2-7d64-4531-93da-f7a45d39e165:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二冊",
+            "ruby": "にさつ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two bound volumes",
+        "vi": "hai quyển"
+      },
+      "speech_text": "にさつ",
+      "label": {
+        "en": "Pronunciation in context: two bound volumes",
+        "vi": "Phát âm trong ngữ cảnh: hai quyển"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:061b5835-179a-4b3a-b021-652af8d6fdf0:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二点",
+            "ruby": "にてん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two points",
+        "vi": "hai điểm"
+      },
+      "speech_text": "にてん",
+      "label": {
+        "en": "Pronunciation in context: two points",
+        "vi": "Phát âm trong ngữ cảnh: hai điểm"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:f9746158-cba1-4c9f-b454-bdbd8c1964ff:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "電気代",
+            "ruby": "でんきだい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "electricity cost",
+        "vi": "tiền điện"
+      },
+      "speech_text": "でんきだい",
+      "label": {
+        "en": "Pronunciation in context: electricity cost",
+        "vi": "Phát âm trong ngữ cảnh: tiền điện"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:801c844b-2d25-4ff9-934b-e2f75c770c59:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "本屋",
+            "ruby": "ほんや"
+          }
+        ]
+      },
+      "translation": {
+        "en": "bookshop",
+        "vi": "hiệu sách"
+      },
+      "speech_text": "ほんや",
+      "label": {
+        "en": "Pronunciation in context: bookshop",
+        "vi": "Phát âm trong ngữ cảnh: hiệu sách"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:5f7e1507-be28-426e-a15b-81b10967ec0d:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二号室",
+            "ruby": "にごうしつ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "room number two",
+        "vi": "phòng số hai"
+      },
+      "speech_text": "にごうしつ",
+      "label": {
+        "en": "Pronunciation in context: room number two",
+        "vi": "Phát âm trong ngữ cảnh: phòng số hai"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:735ecb35-bae7-40fb-9cc3-54257c1b9822:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二便",
+            "ruby": "にびん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "flight number two",
+        "vi": "chuyến bay số hai"
+      },
+      "speech_text": "にびん",
+      "label": {
+        "en": "Pronunciation in context: flight number two",
+        "vi": "Phát âm trong ngữ cảnh: chuyến bay số hai"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:a578ebb8-1cba-430d-8536-e2902f238cff:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二個",
+            "ruby": "にこ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two small items",
+        "vi": "hai cái nhỏ"
+      },
+      "speech_text": "にこ",
+      "label": {
+        "en": "Pronunciation in context: two small items",
+        "vi": "Phát âm trong ngữ cảnh: hai cái nhỏ"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:2ebf8fcc-02ea-4873-8bdb-52a8626c6065:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二本",
+            "ruby": "にほん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two long objects",
+        "vi": "hai vật dài"
+      },
+      "speech_text": "にほん",
+      "label": {
+        "en": "Pronunciation in context: two long objects",
+        "vi": "Phát âm trong ngữ cảnh: hai vật dài"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:2ebf8fcc-02ea-4873-8bdb-52a8626c6065:voiced",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三本",
+            "ruby": "さんぼん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "three long objects",
+        "vi": "ba vật dài"
+      },
+      "speech_text": "さんぼん",
+      "label": {
+        "en": "Pronunciation in context: three long objects",
+        "vi": "Phát âm trong ngữ cảnh: ba vật dài"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:2ebf8fcc-02ea-4873-8bdb-52a8626c6065:p_sound",
+      "japanese": {
+        "segments": [
+          {
+            "base": "一本",
+            "ruby": "いっぽん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "one long object",
+        "vi": "một vật dài"
+      },
+      "speech_text": "いっぽん",
+      "label": {
+        "en": "Pronunciation in context: one long object",
+        "vi": "Phát âm trong ngữ cảnh: một vật dài"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:efaf8f13-81f9-403c-a427-96f460c365ba:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二杯",
+            "ruby": "にはい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two cupfuls",
+        "vi": "hai cốc"
+      },
+      "speech_text": "にはい",
+      "label": {
+        "en": "Pronunciation in context: two cupfuls",
+        "vi": "Phát âm trong ngữ cảnh: hai cốc"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:efaf8f13-81f9-403c-a427-96f460c365ba:voiced",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三杯",
+            "ruby": "さんばい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "three cupfuls",
+        "vi": "ba cốc"
+      },
+      "speech_text": "さんばい",
+      "label": {
+        "en": "Pronunciation in context: three cupfuls",
+        "vi": "Phát âm trong ngữ cảnh: ba cốc"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:efaf8f13-81f9-403c-a427-96f460c365ba:p_sound",
+      "japanese": {
+        "segments": [
+          {
+            "base": "一杯",
+            "ruby": "いっぱい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "one cupful",
+        "vi": "một cốc"
+      },
+      "speech_text": "いっぱい",
+      "label": {
+        "en": "Pronunciation in context: one cupful",
+        "vi": "Phát âm trong ngữ cảnh: một cốc"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:97d661c7-88d5-49ea-bc35-e215f86189b1:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二",
+            "ruby": "に"
+          },
+          {
+            "base": "センチ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two centimeters",
+        "vi": "hai xentimét"
+      },
+      "speech_text": "にセンチ",
+      "label": {
+        "en": "Pronunciation in context: two centimeters",
+        "vi": "Phát âm trong ngữ cảnh: hai xentimét"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:74abe0d4-d433-4168-b7b3-b92ecd330252:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二",
+            "ruby": "に"
+          },
+          {
+            "base": "ミリ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two millimeters",
+        "vi": "hai milimét"
+      },
+      "speech_text": "にミリ",
+      "label": {
+        "en": "Pronunciation in context: two millimeters",
+        "vi": "Phát âm trong ngữ cảnh: hai milimét"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:0bf5486a-3868-4b58-acd2-30451b2be856:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "百",
+            "ruby": "ひゃく"
+          },
+          {
+            "base": "グラム"
+          }
+        ]
+      },
+      "translation": {
+        "en": "one hundred grams",
+        "vi": "một trăm gam"
+      },
+      "speech_text": "ひゃくグラム",
+      "label": {
+        "en": "Pronunciation in context: one hundred grams",
+        "vi": "Phát âm trong ngữ cảnh: một trăm gam"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:c288842a-2963-4799-966b-b99e629a67ce:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三人以上",
+            "ruby": "さんにんいじょう"
+          }
+        ]
+      },
+      "translation": {
+        "en": "three people or more",
+        "vi": "từ ba người trở lên"
+      },
+      "speech_text": "さんにんいじょう",
+      "label": {
+        "en": "Pronunciation in context: three people or more",
+        "vi": "Phát âm trong ngữ cảnh: từ ba người trở lên"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:9eaf099b-1449-425a-96ca-9b19d0ebe167:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三人以下",
+            "ruby": "さんにんいか"
+          }
+        ]
+      },
+      "translation": {
+        "en": "three people or fewer",
+        "vi": "từ ba người trở xuống"
+      },
+      "speech_text": "さんにんいか",
+      "label": {
+        "en": "Pronunciation in context: three people or fewer",
+        "vi": "Phát âm trong ngữ cảnh: từ ba người trở xuống"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:d7b7b9af-dadc-46d4-9b64-aa3a249afb71:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "店員",
+            "ruby": "てんいん"
+          },
+          {
+            "base": "さん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "shop assistant (polite address)",
+        "vi": "anh/chị nhân viên cửa hàng"
+      },
+      "speech_text": "てんいんさん",
+      "label": {
+        "en": "Pronunciation in context: shop assistant (polite address)",
+        "vi": "Phát âm trong ngữ cảnh: anh/chị nhân viên cửa hàng"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:38a51e7c-c82a-4568-b8a5-bf575a97a476:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "一",
+            "ruby": "ひと"
+          },
+          {
+            "base": "つずつ"
+          },
+          {
+            "base": "取",
+            "ruby": "と"
+          },
+          {
+            "base": "ってください。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Please take one each.",
+        "vi": "Mỗi người xin hãy lấy một cái."
+      },
+      "speech_text": "ひとつずつとってください。",
+      "label": {
+        "en": "Pronunciation in context: Please take one each.",
+        "vi": "Phát âm trong ngữ cảnh: Mỗi người xin hãy lấy một cái."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:9101bf23-fc23-4ba0-9045-a524a08c591c:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "ある"
+          },
+          {
+            "base": "日",
+            "ruby": "ひ"
+          },
+          {
+            "base": "、"
+          },
+          {
+            "base": "友達",
+            "ruby": "ともだち"
+          },
+          {
+            "base": "に"
+          },
+          {
+            "base": "会",
+            "ruby": "あ"
+          },
+          {
+            "base": "いました。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "One day, I met a friend.",
+        "vi": "Một ngày nọ, tôi đã gặp một người bạn."
+      },
+      "speech_text": "あるひ、ともだちにあいました。",
+      "label": {
+        "en": "Pronunciation in context: One day, I met a friend.",
+        "vi": "Phát âm trong ngữ cảnh: Một ngày nọ, tôi đã gặp một người bạn."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:ffa6d1ec-9c77-483c-bc0a-d5919742c9de:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "ある"
+          },
+          {
+            "base": "日",
+            "ruby": "ひ"
+          },
+          {
+            "base": "、"
+          },
+          {
+            "base": "友達",
+            "ruby": "ともだち"
+          },
+          {
+            "base": "に"
+          },
+          {
+            "base": "会",
+            "ruby": "あ"
+          },
+          {
+            "base": "いました。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "One day, I met a friend.",
+        "vi": "Một ngày nọ, tôi đã gặp một người bạn."
+      },
+      "speech_text": "あるひ、ともだちにあいました。",
+      "label": {
+        "en": "Pronunciation in context: One day, I met a friend.",
+        "vi": "Phát âm trong ngữ cảnh: Một ngày nọ, tôi đã gặp một người bạn."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:1377f13b-c005-40e3-bcb1-e7ffd335f65b:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "この"
+          },
+          {
+            "base": "本",
+            "ruby": "ほん"
+          },
+          {
+            "base": "はアキさんによって"
+          },
+          {
+            "base": "書",
+            "ruby": "か"
+          },
+          {
+            "base": "かれました。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "This book was written by Aki.",
+        "vi": "Cuốn sách này do Aki viết."
+      },
+      "speech_text": "このほんわアキさんによってかかれました。",
+      "label": {
+        "en": "Pronunciation in context: This book was written by Aki.",
+        "vi": "Phát âm trong ngữ cảnh: Cuốn sách này do Aki viết."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:18bcd9ee-cd91-4fa2-a5c9-c3c24e9698ff:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二倍",
+            "ruby": "にばい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "twice as much",
+        "vi": "gấp hai lần"
+      },
+      "speech_text": "にばい",
+      "label": {
+        "en": "Pronunciation in context: twice as much",
+        "vi": "Phát âm trong ngữ cảnh: gấp hai lần"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:e9396747-c7f6-448e-8ee1-28e933c15955:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "この"
+          },
+          {
+            "base": "写真",
+            "ruby": "しゃしん"
+          },
+          {
+            "base": "みたいにしてください。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Please make it like this photo.",
+        "vi": "Xin làm giống bức ảnh này."
+      },
+      "speech_text": "このしゃしんみたいにしてください。",
+      "label": {
+        "en": "Pronunciation in context: Please make it like this photo.",
+        "vi": "Phát âm trong ngữ cảnh: Xin làm giống bức ảnh này."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:f90b31f5-aa87-42cf-9bfa-2e7092e49840:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二位",
+            "ruby": "にい"
+          }
+        ]
+      },
+      "translation": {
+        "en": "second place",
+        "vi": "hạng hai"
+      },
+      "speech_text": "にい",
+      "label": {
+        "en": "Pronunciation in context: second place",
+        "vi": "Phát âm trong ngữ cảnh: hạng hai"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:a9585fc3-dbfe-4a43-9fff-3f520fc67c30:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "アキさんの"
+          },
+          {
+            "base": "所",
+            "ruby": "ところ"
+          },
+          {
+            "base": "へ"
+          },
+          {
+            "base": "行",
+            "ruby": "い"
+          },
+          {
+            "base": "きます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I am going to Aki's place.",
+        "vi": "Tôi đi đến chỗ Aki."
+      },
+      "speech_text": "アキさんのところえいきます。",
+      "label": {
+        "en": "Pronunciation in context: I am going to Aki's place.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi đi đến chỗ Aki."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:082ab68c-7146-47aa-979c-cb05079667fa:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "天気予報",
+            "ruby": "てんきよほう"
+          },
+          {
+            "base": "によると、"
+          },
+          {
+            "base": "雨",
+            "ruby": "あめ"
+          },
+          {
+            "base": "だそうです。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "According to the weather forecast, it will rain.",
+        "vi": "Theo dự báo thời tiết, nghe nói trời sẽ mưa."
+      },
+      "speech_text": "てんきよほうによると、あめだそうです。",
+      "label": {
+        "en": "Pronunciation in context: According to the weather forecast, it will rain.",
+        "vi": "Phát âm trong ngữ cảnh: Theo dự báo thời tiết, nghe nói trời sẽ mưa."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:dc6421ee-08c9-4b37-b0a8-e49b9a95cd45:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三年間",
+            "ruby": "さんねんかん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "for three years",
+        "vi": "trong ba năm"
+      },
+      "speech_text": "さんねんかん",
+      "label": {
+        "en": "Pronunciation in context: for three years",
+        "vi": "Phát âm trong ngữ cảnh: trong ba năm"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:1b4918a0-96f7-4fb6-9718-7fd43b914bab:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二",
+            "ruby": "に"
+          },
+          {
+            "base": "パーセント"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two percent",
+        "vi": "hai phần trăm"
+      },
+      "speech_text": "にパーセント",
+      "label": {
+        "en": "Pronunciation in context: two percent",
+        "vi": "Phát âm trong ngữ cảnh: hai phần trăm"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:f1c512a0-fc8b-4c7c-a1ff-fc616abb3a10:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "リン"
+          },
+          {
+            "base": "様",
+            "ruby": "さま"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Linh (formal respectful address)",
+        "vi": "kính gửi anh/chị Linh"
+      },
+      "speech_text": "リンさま",
+      "label": {
+        "en": "Pronunciation in context: Linh (formal respectful address)",
+        "vi": "Phát âm trong ngữ cảnh: kính gửi anh/chị Linh"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:d59b838d-065d-46ad-be99-e1c84462b6ba:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "リンといいます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "My name is Linh.",
+        "vi": "Tôi tên là Linh."
+      },
+      "speech_text": "リンといいます。",
+      "label": {
+        "en": "Pronunciation in context: My name is Linh.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi tên là Linh."
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "vocabulary:35abfbf3-8c7f-47dc-a838-bab623e0137e:standard",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二年三組",
+            "ruby": "にねんさんくみ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "year two, class three",
+        "vi": "khối hai, lớp ba"
+      },
+      "speech_text": "にねんさんくみ",
+      "label": {
+        "en": "Pronunciation in context: year two, class three",
+        "vi": "Phát âm trong ngữ cảnh: khối hai, lớp ba"
+      },
+      "review_note": "Primary B-U-51 review: exact source form/sense, complete context, contextual reading and VI/EN. Context is independently authored; source refs certify the lexical entry, not this new wording."
+    },
+    {
+      "key": "word:692577c5-488d-4c58-bf78-b4160ac8c9e3",
+      "japanese": {
+        "segments": [
+          {
+            "base": "月曜日",
+            "ruby": "げつようび"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Monday",
+        "vi": "thứ Hai"
+      },
+      "speech_text": "げつようび",
+      "label": {
+        "en": "Pronunciation in context: Monday",
+        "vi": "Phát âm trong ngữ cảnh: thứ Hai"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:4fb650a9-cb91-4b3d-a7d2-d807b4cd9f13",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三十日",
+            "ruby": "さんじゅうにち"
+          }
+        ]
+      },
+      "translation": {
+        "en": "the thirtieth day of the month",
+        "vi": "ngày ba mươi"
+      },
+      "speech_text": "さんじゅうにち",
+      "label": {
+        "en": "Pronunciation in context: the thirtieth day of the month",
+        "vi": "Phát âm trong ngữ cảnh: ngày ba mươi"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:a19fa934-0cc0-4e32-9941-97ff37e5b568",
+      "japanese": {
+        "segments": [
+          {
+            "base": "五月",
+            "ruby": "ごがつ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "May",
+        "vi": "tháng Năm"
+      },
+      "speech_text": "ごがつ",
+      "label": {
+        "en": "Pronunciation in context: May",
+        "vi": "Phát âm trong ngữ cảnh: tháng Năm"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:21915333-239d-45f9-996a-7c5eccd5ae1e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二か月",
+            "ruby": "にかげつ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two months",
+        "vi": "hai tháng"
+      },
+      "speech_text": "にかげつ",
+      "label": {
+        "en": "Pronunciation in context: two months",
+        "vi": "Phát âm trong ngữ cảnh: hai tháng"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:3f6613eb-32d3-434d-8ae6-71142cd87991",
+      "japanese": {
+        "segments": [
+          {
+            "base": "百円",
+            "ruby": "ひゃくえん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "one hundred yen",
+        "vi": "một trăm yên"
+      },
+      "speech_text": "ひゃくえん",
+      "label": {
+        "en": "Pronunciation in context: one hundred yen",
+        "vi": "Phát âm trong ngữ cảnh: một trăm yên"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:2481d6ea-ccdb-4a35-8764-8d76fed90ccb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "ベトナム"
+          },
+          {
+            "base": "人",
+            "ruby": "じん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "a Vietnamese person",
+        "vi": "người Việt Nam"
+      },
+      "speech_text": "ベトナムじん",
+      "label": {
+        "en": "Pronunciation in context: a Vietnamese person",
+        "vi": "Phát âm trong ngữ cảnh: người Việt Nam"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:ace895d2-e653-49cd-8d17-434360dda088",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三人",
+            "ruby": "さんにん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "three people",
+        "vi": "ba người"
+      },
+      "speech_text": "さんにん",
+      "label": {
+        "en": "Pronunciation in context: three people",
+        "vi": "Phát âm trong ngữ cảnh: ba người"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:5667c0a2-9b71-4531-b363-ec073fd121f0",
+      "japanese": {
+        "segments": [
+          {
+            "base": "九時",
+            "ruby": "くじ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "nine o'clock",
+        "vi": "chín giờ"
+      },
+      "speech_text": "くじ",
+      "label": {
+        "en": "Pronunciation in context: nine o'clock",
+        "vi": "Phát âm trong ngữ cảnh: chín giờ"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:bd309d19-5fed-4fc8-86b9-c8af1df4597c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "九時半",
+            "ruby": "くじはん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "half past nine",
+        "vi": "chín giờ rưỡi"
+      },
+      "speech_text": "くじはん",
+      "label": {
+        "en": "Pronunciation in context: half past nine",
+        "vi": "Phát âm trong ngữ cảnh: chín giờ rưỡi"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:48763c6f-9168-403c-b71c-1832c11c5431",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二時間",
+            "ruby": "にじかん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two hours",
+        "vi": "hai giờ đồng hồ"
+      },
+      "speech_text": "にじかん",
+      "label": {
+        "en": "Pronunciation in context: two hours",
+        "vi": "Phát âm trong ngữ cảnh: hai giờ đồng hồ"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:944cbf9f-2c59-4ae4-8bfe-f690bb286fc9",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二時間半",
+            "ruby": "にじかんはん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two and a half hours",
+        "vi": "hai giờ rưỡi"
+      },
+      "speech_text": "にじかんはん",
+      "label": {
+        "en": "Pronunciation in context: two and a half hours",
+        "vi": "Phát âm trong ngữ cảnh: hai giờ rưỡi"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:837b253a-415f-4bbc-b85c-ffda77a7c368",
+      "japanese": {
+        "segments": [
+          {
+            "base": "子供",
+            "ruby": "こども"
+          },
+          {
+            "base": "の"
+          },
+          {
+            "base": "時",
+            "ruby": "とき"
+          },
+          {
+            "base": "、よく"
+          },
+          {
+            "base": "泳",
+            "ruby": "およ"
+          },
+          {
+            "base": "ぎました。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I often swam when I was a child.",
+        "vi": "Khi còn nhỏ, tôi thường bơi."
+      },
+      "speech_text": "こどものとき、よくおよぎました。",
+      "label": {
+        "en": "Pronunciation in context: I often swam when I was a child.",
+        "vi": "Phát âm trong ngữ cảnh: Khi còn nhỏ, tôi thường bơi."
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:0ccb8204-e88a-4b27-a609-47332243027f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "五分",
+            "ruby": "ごふん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "five minutes",
+        "vi": "năm phút"
+      },
+      "speech_text": "ごふん",
+      "label": {
+        "en": "Pronunciation in context: five minutes",
+        "vi": "Phát âm trong ngữ cảnh: năm phút"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:1cc81970-3995-4968-b841-55369b7cc7c9",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三分",
+            "ruby": "さんぷん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "three minutes",
+        "vi": "ba phút"
+      },
+      "speech_text": "さんぷん",
+      "label": {
+        "en": "Pronunciation in context: three minutes",
+        "vi": "Phát âm trong ngữ cảnh: ba phút"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:adeee957-bc3e-4e05-8861-c110575da930",
+      "japanese": {
+        "segments": [
+          {
+            "base": "食事",
+            "ruby": "しょくじ"
+          },
+          {
+            "base": "の"
+          },
+          {
+            "base": "前",
+            "ruby": "まえ"
+          },
+          {
+            "base": "に"
+          },
+          {
+            "base": "手",
+            "ruby": "て"
+          },
+          {
+            "base": "を"
+          },
+          {
+            "base": "洗",
+            "ruby": "あら"
+          },
+          {
+            "base": "います。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I wash my hands before meals.",
+        "vi": "Tôi rửa tay trước bữa ăn."
+      },
+      "speech_text": "しょくじのまえにてをあらいます。",
+      "label": {
+        "en": "Pronunciation in context: I wash my hands before meals.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi rửa tay trước bữa ăn."
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:dd1432dc-67af-4885-b5f4-e471d2b91a27",
+      "japanese": {
+        "segments": [
+          {
+            "base": "夏休",
+            "ruby": "なつやす"
+          },
+          {
+            "base": "み"
+          }
+        ]
+      },
+      "translation": {
+        "en": "summer vacation",
+        "vi": "kỳ nghỉ hè"
+      },
+      "speech_text": "なつやすみ",
+      "label": {
+        "en": "Pronunciation in context: summer vacation",
+        "vi": "Phát âm trong ngữ cảnh: kỳ nghỉ hè"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:ab6e25ea-84c2-47b6-b14b-814bb6045a73",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二週間",
+            "ruby": "にしゅうかん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two weeks",
+        "vi": "hai tuần"
+      },
+      "speech_text": "にしゅうかん",
+      "label": {
+        "en": "Pronunciation in context: two weeks",
+        "vi": "Phát âm trong ngữ cảnh: hai tuần"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:1d429abb-c5e8-4e55-9865-02c373712fc1",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二年",
+            "ruby": "にねん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two years",
+        "vi": "hai năm"
+      },
+      "speech_text": "にねん",
+      "label": {
+        "en": "Pronunciation in context: two years",
+        "vi": "Phát âm trong ngữ cảnh: hai năm"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:403e4935-a0cc-46eb-a5f3-bece9a1858d4",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二年前",
+            "ruby": "にねんまえ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two years ago",
+        "vi": "hai năm trước"
+      },
+      "speech_text": "にねんまえ",
+      "label": {
+        "en": "Pronunciation in context: two years ago",
+        "vi": "Phát âm trong ngữ cảnh: hai năm trước"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:d7c43329-b54b-464d-a648-677aa097a3d7",
+      "japanese": {
+        "segments": [
+          {
+            "base": "東京駅",
+            "ruby": "とうきょうえき"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Tokyo Station",
+        "vi": "ga Tokyo"
+      },
+      "speech_text": "とうきょうえき",
+      "label": {
+        "en": "Pronunciation in context: Tokyo Station",
+        "vi": "Phát âm trong ngữ cảnh: ga Tokyo"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:54659656-97b7-4eed-a676-51336911acaf",
+      "japanese": {
+        "segments": [
+          {
+            "base": "日本語",
+            "ruby": "にほんご"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Japanese language",
+        "vi": "tiếng Nhật"
+      },
+      "speech_text": "にほんご",
+      "label": {
+        "en": "Pronunciation in context: Japanese language",
+        "vi": "Phát âm trong ngữ cảnh: tiếng Nhật"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:ef9bf13e-ec70-4e9e-8317-c6c3d1afdbce",
+      "japanese": {
+        "segments": [
+          {
+            "base": "書",
+            "ruby": "か"
+          },
+          {
+            "base": "き"
+          },
+          {
+            "base": "方",
+            "ruby": "かた"
+          }
+        ]
+      },
+      "translation": {
+        "en": "how to write",
+        "vi": "cách viết"
+      },
+      "speech_text": "かきかた",
+      "label": {
+        "en": "Pronunciation in context: how to write",
+        "vi": "Phát âm trong ngữ cảnh: cách viết"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:ff2e7bb0-5ce8-4198-b46f-8c8df94645df",
+      "japanese": {
+        "segments": [
+          {
+            "base": "駅",
+            "ruby": "えき"
+          },
+          {
+            "base": "の"
+          },
+          {
+            "base": "方",
+            "ruby": "ほう"
+          },
+          {
+            "base": "へ"
+          },
+          {
+            "base": "行",
+            "ruby": "い"
+          },
+          {
+            "base": "きます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I am going toward the station.",
+        "vi": "Tôi đi về phía nhà ga."
+      },
+      "speech_text": "えきのほうえいきます。",
+      "label": {
+        "en": "Pronunciation in context: I am going toward the station.",
+        "vi": "Phát âm trong ngữ cảnh: Tôi đi về phía nhà ga."
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:0533ab58-290b-465e-b5a5-383de8649e7f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二十度",
+            "ruby": "にじゅうど"
+          }
+        ]
+      },
+      "translation": {
+        "en": "twenty degrees",
+        "vi": "hai mươi độ"
+      },
+      "speech_text": "にじゅうど",
+      "label": {
+        "en": "Pronunciation in context: twenty degrees",
+        "vi": "Phát âm trong ngữ cảnh: hai mươi độ"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:1a7af61e-5064-454b-a7f2-a349b5e2c1b6",
+      "japanese": {
+        "segments": [
+          {
+            "base": "本屋",
+            "ruby": "ほんや"
+          }
+        ]
+      },
+      "translation": {
+        "en": "bookshop",
+        "vi": "hiệu sách"
+      },
+      "speech_text": "ほんや",
+      "label": {
+        "en": "Pronunciation in context: bookshop",
+        "vi": "Phát âm trong ngữ cảnh: hiệu sách"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:dd1ba655-4c1c-4259-af8b-5c4b4402c6dd",
+      "japanese": {
+        "segments": [
+          {
+            "base": "百円",
+            "ruby": "ひゃくえん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "one hundred yen",
+        "vi": "một trăm yên"
+      },
+      "speech_text": "ひゃくえん",
+      "label": {
+        "en": "Pronunciation in context: one hundred yen",
+        "vi": "Phát âm trong ngữ cảnh: một trăm yên"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:bb71f37f-56d1-412a-b989-acef6f0e1c73",
+      "japanese": {
+        "segments": [
+          {
+            "base": "五分",
+            "ruby": "ごふん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "five minutes",
+        "vi": "năm phút"
+      },
+      "speech_text": "ごふん",
+      "label": {
+        "en": "Pronunciation in context: five minutes",
+        "vi": "Phát âm trong ngữ cảnh: năm phút"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:31db924e-0914-4d9d-9e33-0b0a7ad7e337",
+      "japanese": {
+        "segments": [
+          {
+            "base": "九時半",
+            "ruby": "くじはん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "half past nine",
+        "vi": "chín giờ rưỡi"
+      },
+      "speech_text": "くじはん",
+      "label": {
+        "en": "Pronunciation in context: half past nine",
+        "vi": "Phát âm trong ngữ cảnh: chín giờ rưỡi"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:033b32ea-4921-49d1-8175-3e836f206d87",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二時間半",
+            "ruby": "にじかんはん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two and a half hours",
+        "vi": "hai giờ rưỡi"
+      },
+      "speech_text": "にじかんはん",
+      "label": {
+        "en": "Pronunciation in context: two and a half hours",
+        "vi": "Phát âm trong ngữ cảnh: hai giờ rưỡi"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:280bd10f-567a-4603-b2a3-b547dc1b50db",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二週間",
+            "ruby": "にしゅうかん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two weeks",
+        "vi": "hai tuần"
+      },
+      "speech_text": "にしゅうかん",
+      "label": {
+        "en": "Pronunciation in context: two weeks",
+        "vi": "Phát âm trong ngữ cảnh: hai tuần"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:e1867005-3542-45ec-b87a-bb773d3ce754",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二年",
+            "ruby": "にねん"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two years",
+        "vi": "hai năm"
+      },
+      "speech_text": "にねん",
+      "label": {
+        "en": "Pronunciation in context: two years",
+        "vi": "Phát âm trong ngữ cảnh: hai năm"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:9323f33a-a2d6-43f0-bc6f-8ddce7a3cddb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二年前",
+            "ruby": "にねんまえ"
+          }
+        ]
+      },
+      "translation": {
+        "en": "two years ago",
+        "vi": "hai năm trước"
+      },
+      "speech_text": "にねんまえ",
+      "label": {
+        "en": "Pronunciation in context: two years ago",
+        "vi": "Phát âm trong ngữ cảnh: hai năm trước"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:d7ff6eda-7017-4e65-b7db-6b331cfc48c3",
+      "japanese": {
+        "segments": [
+          {
+            "base": "東京駅",
+            "ruby": "とうきょうえき"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Tokyo Station",
+        "vi": "ga Tokyo"
+      },
+      "speech_text": "とうきょうえき",
+      "label": {
+        "en": "Pronunciation in context: Tokyo Station",
+        "vi": "Phát âm trong ngữ cảnh: ga Tokyo"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:c53f127b-4793-4db2-ab02-00bcd9093fd9",
+      "japanese": {
+        "segments": [
+          {
+            "base": "日本語",
+            "ruby": "にほんご"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Japanese language",
+        "vi": "tiếng Nhật"
+      },
+      "speech_text": "にほんご",
+      "label": {
+        "en": "Pronunciation in context: Japanese language",
+        "vi": "Phát âm trong ngữ cảnh: tiếng Nhật"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    },
+    {
+      "key": "word:d6ca6aa5-73b5-4024-9544-b98fd2ca9819",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二十度",
+            "ruby": "にじゅうど"
+          }
+        ]
+      },
+      "translation": {
+        "en": "twenty degrees",
+        "vi": "hai mươi độ"
+      },
+      "speech_text": "にじゅうど",
+      "label": {
+        "en": "Pronunciation in context: twenty degrees",
+        "vi": "Phát âm trong ngữ cảnh: hai mươi độ"
+      },
+      "review_note": "Primary B-U-51 review: exact contextual lexical reading and VI/EN; independently authored complete context. No standalone Kanji reading was selected."
+    }
+  ]
+}

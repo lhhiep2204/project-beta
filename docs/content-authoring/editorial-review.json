@@ -1,0 +1,2064 @@
+{
+  "review_id": "PB-EDITORIAL-LESSONS-01-26-20261106",
+  "date": "2026-11-06",
+  "status": "self_review_accepted_for_batch_authoring",
+  "independent_acceptance": "pending",
+  "owner_designation": {
+    "reviewer": "project_owner",
+    "evidence": "User reply on 2026-11-06: Tôi sẽ duyệt",
+    "decision": "Reviewer designated; content approval has not been given."
+  },
+  "baseline_manifest": "/tmp/project-beta-editorial-review-20261106/baseline-manifest.json",
+  "scope": {
+    "lessons": [
+      1,
+      26
+    ],
+    "vocabulary": 83,
+    "grammar_points": 12,
+    "sentence_patterns": 12,
+    "examples": 24,
+    "dialogues": 2,
+    "dialogue_turns": 17,
+    "example_contexts": 8,
+    "item_records": 133,
+    "source_pages_visually_rechecked": 9
+  },
+  "method": [
+    "Primary agent reread both complete samples, including vocabulary/forms/senses, derived dictionary forms, grammar/templates, contextual readings, translations and all dialogue turns.",
+    "Recompared selected source facts against the nine recorded source images. Secondary OCR was not used to override the images.",
+    "Used five external primary teaching references only to corroborate the listed grammar facts, not to replace PDF lesson/unit boundaries or to copy example/dialogue wording.",
+    "The primary reviewer also authored the samples. These checks cannot be represented as independent acceptance."
+  ],
+  "reviewed_files": [
+    {
+      "path": "docs/content-authoring/lesson-01.json",
+      "sha256": "9a6e08476d7671606f61e351e1483937e104bed59f5845afd49ccb592bca4d2d"
+    },
+    {
+      "path": "docs/content-authoring/lesson-01.md",
+      "sha256": "b8c1156e284a4ff983f9686b8260e13cccf600859ca92cf42bbef0014eaad3ff"
+    },
+    {
+      "path": "docs/content-authoring/lesson-26.json",
+      "sha256": "64232f79db3a1c53371be6f18ac20accae6146a827830494f7ced9aa77548f04"
+    },
+    {
+      "path": "docs/content-authoring/lesson-26.md",
+      "sha256": "71c64c4e1ae676a59c990325d6f68a3d8be41e804e6580b2b3a2f6c3dccee77e"
+    },
+    {
+      "path": "docs/content-authoring/authoring.schema.json",
+      "sha256": "1cca2bc488541714d1d5a00e2d79a310304de9eb8b5fe1c6574b29d49b0c00f1"
+    },
+    {
+      "path": "docs/content-authoring/source-checks.json",
+      "sha256": "24e8cf2eb7bd83feaad6cd54f5b8bbc071a2323df34c4f0cfb14229834ca9575"
+    },
+    {
+      "path": "docs/content-authoring/validation-report.json",
+      "sha256": "dea9f871ccf5f364346e06612f9aecd5da4267f5e1acc5ae5bffcdfddeb6515e"
+    },
+    {
+      "path": "scripts/validate_authoring_samples.py",
+      "sha256": "a6e4e36c36fb7aacb640f3a07e357b5ed044806cc8fc722388cbdaa7a8a409fd"
+    }
+  ],
+  "findings": [
+    {
+      "id": "ER-01",
+      "kind": "teaching_clarification",
+      "primary_resolution": "applied_pending_owner_review",
+      "reason": "Both noun-negative variants remain polite. Distinguish spoken contraction from a misleading polite-versus-impolite contrast.",
+      "evidence_ids": [
+        "PDF-N5-33",
+        "TUFS-NOUN"
+      ],
+      "changes": [
+        {
+          "lesson": 1,
+          "section": "grammar_points",
+          "editorial_key": "noun_negative",
+          "item_id": "46e8a6a4-6d5c-4f62-b2eb-857ea22edb43",
+          "field": "notes",
+          "before": {
+            "en": "Do not add です after ありません in this pattern. In では, the particle は is still pronounced わ.",
+            "vi": "Không đặt thêm です sau ありません trong mẫu này. Trong では, trợ từ は vẫn đọc là わ."
+          },
+          "after": {
+            "en": "Both じゃありません and ではありません are polite forms; じゃ is a contraction common in conversation. Do not add です after ありません. In では, the particle は is still pronounced わ.",
+            "vi": "Cả じゃありません và ではありません đều là cách nói lịch sự; じゃ là dạng rút gọn thường gặp trong hội thoại. Không thêm です sau ありません. Trong では, trợ từ は vẫn đọc là わ."
+          }
+        }
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "id": "ER-02",
+      "kind": "register_clarification",
+      "primary_resolution": "applied_pending_owner_review",
+      "reason": "The readable list flattened the register distinction even though JSON form metadata retained it. Make the contrast explicit for review.",
+      "evidence_ids": [
+        "PDF-N5-29"
+      ],
+      "changes": [
+        {
+          "lesson": 1,
+          "section": "vocabulary",
+          "editorial_key": "person_over_there",
+          "item_id": "af8c51e2-6b2f-45f9-a932-474b1e5d91db",
+          "field": "usage",
+          "before": {
+            "en": "",
+            "vi": ""
+          },
+          "after": {
+            "en": "あの方 is a more polite way to refer to that person than あの人.",
+            "vi": "あの方 là cách nói lịch sự hơn あの人 khi nhắc đến người kia."
+          }
+        },
+        {
+          "lesson": 1,
+          "section": "vocabulary",
+          "editorial_key": "who",
+          "item_id": "f618c22e-8568-41b8-ac01-6699ec19443f",
+          "field": "usage",
+          "before": {
+            "en": "",
+            "vi": ""
+          },
+          "after": {
+            "en": "どなた is a more polite alternative to だれ.",
+            "vi": "どなた là cách hỏi lịch sự hơn だれ."
+          }
+        }
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "id": "ER-03",
+      "kind": "missing_context",
+      "primary_resolution": "applied_pending_owner_review",
+      "reason": "The affiliation example names Aoi without establishing that it is a company. Supply context outside the Japanese sentence.",
+      "evidence_ids": [
+        "PDF-N5-34"
+      ],
+      "changes": [
+        {
+          "lesson": 1,
+          "section": "examples",
+          "editorial_key": "fictional_company",
+          "item_id": "9eeba714-c0fa-4c8c-a3c1-75ef12bf4744",
+          "field": "context",
+          "before": null,
+          "after": {
+            "en": "In this fictional example, Aoi is the name of a company.",
+            "vi": "Trong ví dụ hư cấu này, Aoi là tên một công ty."
+          }
+        }
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "id": "ER-04",
+      "kind": "missing_context",
+      "primary_resolution": "applied_pending_owner_review",
+      "reason": "The explanatory statement/question examples lacked the shared observation or prior question that motivates んです. They are not isolated neutral announcements.",
+      "evidence_ids": [
+        "PDF-N4-33",
+        "JF-NDESU"
+      ],
+      "changes": [
+        {
+          "lesson": 26,
+          "section": "examples",
+          "editorial_key": "explain_unwell",
+          "item_id": "fb46ccb0-b0ab-446b-a5e6-3f4ca5f7e90f",
+          "field": "context",
+          "before": null,
+          "after": {
+            "en": "Someone notices that you look unwell and asks what is wrong; you explain your condition.",
+            "vi": "Một người thấy bạn có vẻ mệt và hỏi bạn bị sao; bạn giải thích tình trạng của mình."
+          }
+        },
+        {
+          "lesson": 26,
+          "section": "examples",
+          "editorial_key": "explain_day_off",
+          "item_id": "2bf38340-5485-42d9-8a2e-8569d1a2e2c8",
+          "field": "context",
+          "before": null,
+          "after": {
+            "en": "Someone is surprised that you are not at work today; you explain that it is your day off.",
+            "vi": "Một người ngạc nhiên vì hôm nay bạn không đi làm; bạn giải thích rằng mình được nghỉ."
+          }
+        },
+        {
+          "lesson": 26,
+          "section": "examples",
+          "editorial_key": "where_wallet_found",
+          "item_id": "e20830fe-44c8-444e-8e09-fe7a47100fbb",
+          "field": "context",
+          "before": null,
+          "after": {
+            "en": "The other person has just said they picked up a wallet; you ask where they found it.",
+            "vi": "Người đối thoại vừa nói đã nhặt được một chiếc ví; bạn hỏi thêm nơi họ nhặt được."
+          }
+        },
+        {
+          "lesson": 26,
+          "section": "examples",
+          "editorial_key": "late_sports_day",
+          "item_id": "7dfc7929-f348-4de5-b74c-3ddda3ef065a",
+          "field": "context",
+          "before": null,
+          "after": {
+            "en": "You know the other person arrived late for the sports day and ask why.",
+            "vi": "Bạn biết người đối thoại đã đến hội thi thể thao muộn và muốn hỏi lý do."
+          }
+        }
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "id": "ER-05",
+      "kind": "translation_alignment",
+      "primary_resolution": "applied_pending_owner_review",
+      "reason": "The English translation assumed form-filling while Vietnamese only said writing. Establish a form-filling context and align both translations. The Japanese sentence is unchanged.",
+      "evidence_ids": [
+        "PDF-N4-34",
+        "JF-REQUEST"
+      ],
+      "changes": [
+        {
+          "lesson": 26,
+          "section": "examples",
+          "editorial_key": "explain_form",
+          "item_id": "9ea30b5f-2429-4668-8bd3-cd25434d5b55",
+          "field": "context",
+          "before": null,
+          "after": {
+            "en": "You are completing a form and do not know where to write the information.",
+            "vi": "Bạn đang điền một mẫu giấy nhưng chưa biết phải viết thông tin vào đâu."
+          }
+        },
+        {
+          "lesson": 26,
+          "section": "examples",
+          "editorial_key": "explain_form",
+          "item_id": "9ea30b5f-2429-4668-8bd3-cd25434d5b55",
+          "field": "translation",
+          "before": {
+            "en": "Could you show me how to fill this in?",
+            "vi": "Anh/chị có thể chỉ giúp tôi cách viết được không?"
+          },
+          "after": {
+            "en": "Could you show me how to fill this in?",
+            "vi": "Anh/chị có thể chỉ giúp tôi cách điền mẫu này được không?"
+          }
+        }
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "id": "ER-06",
+      "kind": "translation_precision",
+      "primary_resolution": "applied_pending_owner_review",
+      "reason": "In the rubbish-collection context, 出す means putting items out for collection. Make this more precise than simply placing bottles somewhere. No actual collection rule is supplied.",
+      "evidence_ids": [
+        "PDF-N4-30"
+      ],
+      "changes": [
+        {
+          "lesson": 26,
+          "section": "vocabulary",
+          "editorial_key": "put_out",
+          "item_id": "ca0ad5e2-5848-43cf-9d17-fa63a5a9d508",
+          "field": "meanings",
+          "before": [
+            {
+              "form_keys": [
+                "standard"
+              ],
+              "text": {
+                "en": "put out, here with rubbish",
+                "vi": "đổ; đưa ra, trong ngữ cảnh đổ rác"
+              }
+            }
+          ],
+          "after": [
+            {
+              "form_keys": [
+                "standard"
+              ],
+              "text": {
+                "en": "put out for collection, here with rubbish",
+                "vi": "đem ra để thu gom, trong ngữ cảnh rác"
+              }
+            }
+          ]
+        },
+        {
+          "lesson": 26,
+          "section": "examples",
+          "editorial_key": "where_bottle",
+          "item_id": "3cf80dca-23de-4bbf-b212-2d033ed88f72",
+          "field": "context",
+          "before": null,
+          "after": {
+            "en": "You ask where to put bottles out for collection at a fictional location.",
+            "vi": "Bạn hỏi về chỗ đem chai ra thu gom tại một địa điểm hư cấu."
+          }
+        },
+        {
+          "lesson": 26,
+          "section": "examples",
+          "editorial_key": "where_bottle",
+          "item_id": "3cf80dca-23de-4bbf-b212-2d033ed88f72",
+          "field": "translation",
+          "before": {
+            "en": "Where should I put out the bottles?",
+            "vi": "Tôi nên để chai ở đâu?"
+          },
+          "after": {
+            "en": "Where should I put out the bottles for collection?",
+            "vi": "Tôi nên đem chai ra chỗ nào để thu gom?"
+          }
+        }
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "id": "ER-07",
+      "kind": "reading_scope_clarification",
+      "primary_resolution": "applied_pending_owner_review",
+      "reason": "The bound-form reading 〜がいしゃ should not imply that the standalone word 会社 is read がいしゃ. Preserve the printed bound form and explain the scope.",
+      "evidence_ids": [
+        "PDF-N4-30"
+      ],
+      "changes": [
+        {
+          "lesson": 26,
+          "section": "vocabulary",
+          "editorial_key": "company_suffix",
+          "item_id": "a5a60202-ed09-4b4e-9337-b9995f4d3643",
+          "field": "usage",
+          "before": {
+            "en": "",
+            "vi": ""
+          },
+          "after": {
+            "en": "The reading 〜がいしゃ here is a compound form, as in ガス会社（ガスがいしゃ）. The standalone word 会社 is read かいしゃ.",
+            "vi": "Cách đọc 〜がいしゃ ở đây là dạng ghép, như ガス会社（ガスがいしゃ）. Từ 会社 đứng riêng đọc là かいしゃ."
+          }
+        }
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "id": "ER-08",
+      "kind": "missing_context",
+      "primary_resolution": "applied_pending_owner_review",
+      "reason": "The short は example needs an established topic so its translation does not imply an unexplained contrast.",
+      "evidence_ids": [
+        "PDF-N4-34",
+        "TUFS-PARTICLES"
+      ],
+      "changes": [
+        {
+          "lesson": 26,
+          "section": "examples",
+          "editorial_key": "volunteering_topic",
+          "item_id": "b44cc79d-8ed0-43ce-bb65-8f173724a646",
+          "field": "context",
+          "before": null,
+          "after": {
+            "en": "After discussing other activities, the other person turns to volunteering.",
+            "vi": "Sau khi nói về các hoạt động khác, người đối thoại chuyển sang hỏi về hoạt động tình nguyện."
+          }
+        }
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PDF-N5-29",
+      "kind": "owner_supplied_pdf",
+      "source_id": "N5_GRAMMAR",
+      "source_sha256": "f924ca4781cb3975f23a06bfb88371872f60fab847a7695ee832009ab814904e",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "local_link": "../Ba%CC%89n%20di%CC%A3ch%20va%CC%80%20gia%CC%89i%20thi%CC%81ch%20ngu%CC%9B%CC%83%20pha%CC%81p%20-%20N5.pdf#page=29",
+      "comparison": "Primary visual comparison of the rendered page; PDF text/OCR is not the authority."
+    },
+    {
+      "id": "PDF-N5-30",
+      "kind": "owner_supplied_pdf",
+      "source_id": "N5_GRAMMAR",
+      "source_sha256": "f924ca4781cb3975f23a06bfb88371872f60fab847a7695ee832009ab814904e",
+      "pdf_page": 30,
+      "printed_page": 11,
+      "local_link": "../Ba%CC%89n%20di%CC%A3ch%20va%CC%80%20gia%CC%89i%20thi%CC%81ch%20ngu%CC%9B%CC%83%20pha%CC%81p%20-%20N5.pdf#page=30",
+      "comparison": "Primary visual comparison of the rendered page; PDF text/OCR is not the authority."
+    },
+    {
+      "id": "PDF-N5-32",
+      "kind": "owner_supplied_pdf",
+      "source_id": "N5_GRAMMAR",
+      "source_sha256": "f924ca4781cb3975f23a06bfb88371872f60fab847a7695ee832009ab814904e",
+      "pdf_page": 32,
+      "printed_page": 13,
+      "local_link": "../Ba%CC%89n%20di%CC%A3ch%20va%CC%80%20gia%CC%89i%20thi%CC%81ch%20ngu%CC%9B%CC%83%20pha%CC%81p%20-%20N5.pdf#page=32",
+      "comparison": "Primary visual comparison of the rendered page; PDF text/OCR is not the authority."
+    },
+    {
+      "id": "PDF-N5-33",
+      "kind": "owner_supplied_pdf",
+      "source_id": "N5_GRAMMAR",
+      "source_sha256": "f924ca4781cb3975f23a06bfb88371872f60fab847a7695ee832009ab814904e",
+      "pdf_page": 33,
+      "printed_page": 14,
+      "local_link": "../Ba%CC%89n%20di%CC%A3ch%20va%CC%80%20gia%CC%89i%20thi%CC%81ch%20ngu%CC%9B%CC%83%20pha%CC%81p%20-%20N5.pdf#page=33",
+      "comparison": "Primary visual comparison of the rendered page; PDF text/OCR is not the authority."
+    },
+    {
+      "id": "PDF-N5-34",
+      "kind": "owner_supplied_pdf",
+      "source_id": "N5_GRAMMAR",
+      "source_sha256": "f924ca4781cb3975f23a06bfb88371872f60fab847a7695ee832009ab814904e",
+      "pdf_page": 34,
+      "printed_page": 15,
+      "local_link": "../Ba%CC%89n%20di%CC%A3ch%20va%CC%80%20gia%CC%89i%20thi%CC%81ch%20ngu%CC%9B%CC%83%20pha%CC%81p%20-%20N5.pdf#page=34",
+      "comparison": "Primary visual comparison of the rendered page; PDF text/OCR is not the authority."
+    },
+    {
+      "id": "PDF-N4-29",
+      "kind": "owner_supplied_pdf",
+      "source_id": "N4_GRAMMAR",
+      "source_sha256": "dacdcf05badb33d326f6990050b50023aa84b521e183c7505a1d6e30b1103b46",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "local_link": "../Ba%CC%89n%20di%CC%A3ch%20va%CC%80%20gia%CC%89i%20thi%CC%81ch%20ngu%CC%9B%CC%83%20pha%CC%81p%20-%20N4.pdf#page=29",
+      "comparison": "Primary visual comparison of the rendered page; PDF text/OCR is not the authority."
+    },
+    {
+      "id": "PDF-N4-30",
+      "kind": "owner_supplied_pdf",
+      "source_id": "N4_GRAMMAR",
+      "source_sha256": "dacdcf05badb33d326f6990050b50023aa84b521e183c7505a1d6e30b1103b46",
+      "pdf_page": 30,
+      "printed_page": 9,
+      "local_link": "../Ba%CC%89n%20di%CC%A3ch%20va%CC%80%20gia%CC%89i%20thi%CC%81ch%20ngu%CC%9B%CC%83%20pha%CC%81p%20-%20N4.pdf#page=30",
+      "comparison": "Primary visual comparison of the rendered page; PDF text/OCR is not the authority."
+    },
+    {
+      "id": "PDF-N4-33",
+      "kind": "owner_supplied_pdf",
+      "source_id": "N4_GRAMMAR",
+      "source_sha256": "dacdcf05badb33d326f6990050b50023aa84b521e183c7505a1d6e30b1103b46",
+      "pdf_page": 33,
+      "printed_page": 12,
+      "local_link": "../Ba%CC%89n%20di%CC%A3ch%20va%CC%80%20gia%CC%89i%20thi%CC%81ch%20ngu%CC%9B%CC%83%20pha%CC%81p%20-%20N4.pdf#page=33",
+      "comparison": "Primary visual comparison of the rendered page; PDF text/OCR is not the authority."
+    },
+    {
+      "id": "PDF-N4-34",
+      "kind": "owner_supplied_pdf",
+      "source_id": "N4_GRAMMAR",
+      "source_sha256": "dacdcf05badb33d326f6990050b50023aa84b521e183c7505a1d6e30b1103b46",
+      "pdf_page": 34,
+      "printed_page": 13,
+      "local_link": "../Ba%CC%89n%20di%CC%A3ch%20va%CC%80%20gia%CC%89i%20thi%CC%81ch%20ngu%CC%9B%CC%83%20pha%CC%81p%20-%20N4.pdf#page=34",
+      "comparison": "Primary visual comparison of the rendered page; PDF text/OCR is not the authority."
+    },
+    {
+      "id": "TUFS-NOUN",
+      "kind": "external_primary_teaching_reference",
+      "title": "TUFS: noun predicates and negatives",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html",
+      "supports": "Both nominal forms are polite; じゃ is common in speech."
+    },
+    {
+      "id": "TUFS-TOPIC",
+      "kind": "external_primary_teaching_reference",
+      "title": "TUFS: noun topic sentences",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/002.html",
+      "supports": "Topic-particle pronunciation and respectful name suffix usage."
+    },
+    {
+      "id": "TUFS-PARTICLES",
+      "kind": "external_primary_teaching_reference",
+      "title": "TUFS: topic and additive particles",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/095.html",
+      "supports": "Topic/contrast and additive も in the selected examples."
+    },
+    {
+      "id": "JF-NDESU",
+      "kind": "external_primary_teaching_reference",
+      "title": "Japan Foundation: んです (BTS00120)",
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BTS00120/ja/render.do",
+      "supports": "Context-sensitive explanatory uses, questions, prefacing requests and the noun/na-adjective link."
+    },
+    {
+      "id": "JF-REQUEST",
+      "kind": "external_primary_teaching_reference",
+      "title": "Japan Foundation: ていただけませんか (BMA00096)",
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00096/ja/render.do",
+      "supports": "Polite requests for a beneficial action performed by the listener."
+    }
+  ],
+  "items": [
+    {
+      "item_id": "7b2a83f8-d0de-44f9-b768-0b1270b97a35",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "speaker",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "14f7f730-6452-46c5-b1ec-ff5b733aa496",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "addressee",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "af8c51e2-6b2f-45f9-a932-474b1e5d91db",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "person_over_there",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-02"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "167e9197-dfb5-49b7-87dd-c962d54f8fcd",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "name_honorific",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "52947d1d-5d72-450a-856a-fe0c231a9a27",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "familiar_name_suffix",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "760f5fea-b6c0-468b-8d09-d66944a9b3f6",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "nationality_suffix",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "b5d27a01-9416-4ca8-9fc3-3da5b0b0ce2c",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "teacher_address",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "f2663cf2-9c8c-4aa5-a97b-587f04b1619a",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "teaching_profession",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "681b4d01-0b30-4d75-a7c8-020dae929871",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "student",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "d6106bf7-f43b-4d91-bce5-c55ffd9c511a",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "company_employee",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "021e2267-b223-4ee9-a4de-940b4996e93d",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "employee_of_named_company",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "8efd5c4e-383c-48f8-bada-bd461107f3bb",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "bank_employee",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "4445a67d-ce63-4a54-b91c-ad2818d4792a",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "doctor",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "a2da0bbc-60a1-4984-a4b4-bce1bb6b1a64",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "researcher",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "9a70b859-3a03-4a73-8d4c-8ce2d67c084b",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "university",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "b75f7c05-3429-4705-a867-414000e6d263",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "hospital",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "f618c22e-8568-41b8-ac01-6699ec19443f",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "who",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-02"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "00728ee8-2781-47b7-aff6-d88b81e183b1",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "age_suffix",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "2c71470f-4482-4b83-b36d-7078f725b579",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "ask_age",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "93c9aa7e-9395-4cd7-834f-c2b01dbf75d4",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "yes",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "6a3b7e1d-2c6a-450f-9947-a4b237b72719",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "no",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "654cbb2f-8b27-4c86-af80-974be437d3f0",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "first_meeting",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "f694e9c8-e5ee-425b-ad56-5f416b503c4c",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "come_from_chunk",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "5fe41681-4301-42a2-b674-c1f778502fcc",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "meeting_closing",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "eef71649-0459-4852-b73f-5ce858ef0f00",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "polite_preface",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "485c90f6-ae05-4602-bc53-03e54ae7ff28",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "ask_name",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "af4f0f8a-7f1a-48c0-8ab0-eeed810247e7",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "introduce_another",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "a689d943-540b-4458-a2c0-4cfddfcef376",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "united_states",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "e1d4d007-1bbb-48ac-a8cf-503b6224bdcb",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "united_kingdom",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "5160b023-88d3-436b-b709-d2454a9d25f6",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "india",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "12cc60cf-4fad-4fff-81d4-28a8c93813ea",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "indonesia",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "9dfcb10b-f96d-4742-a753-06dcc3764faf",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "south_korea",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "40d15fb9-602c-48cf-a57b-64b17d991f02",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "thailand",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "e6aa973b-9631-4b64-b5f6-d43ebd691a50",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "china",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "abf16e07-92ad-46a1-870c-e3ee0a8a994c",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "germany",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "13aba211-d6d7-4c5b-9a16-23d1cf767228",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "japan",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "68fe180a-d026-4e7a-89c2-a8cc81858a88",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "brazil",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "ade2b8df-0e3d-4d26-8c10-300809778b7f",
+      "lesson": 1,
+      "section": "vocabulary",
+      "editorial_key": "vietnam",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "1bc60b55-77d6-48fd-adc3-49bddfc36655",
+      "lesson": 1,
+      "section": "grammar_points",
+      "editorial_key": "noun_statement",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "46e8a6a4-6d5c-4f62-b2eb-857ea22edb43",
+      "lesson": 1,
+      "section": "grammar_points",
+      "editorial_key": "noun_negative",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-01"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "9043666d-f6c5-497a-b5db-1f08cd105aa9",
+      "lesson": 1,
+      "section": "grammar_points",
+      "editorial_key": "noun_question",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "c07d2359-6258-4ac8-9145-151310625f4b",
+      "lesson": 1,
+      "section": "grammar_points",
+      "editorial_key": "also_topic",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "c43ffe03-0e7c-480b-9c0b-3e0b357f1e49",
+      "lesson": 1,
+      "section": "grammar_points",
+      "editorial_key": "affiliation",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "be8b4886-8846-430b-9a4a-7b73b7b605d1",
+      "lesson": 1,
+      "section": "grammar_points",
+      "editorial_key": "name_suffix",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "4ea8547e-12da-4493-a87a-f88581f238af",
+      "lesson": 1,
+      "section": "sentence_patterns",
+      "editorial_key": "noun_statement",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "a440f639-c033-44eb-8465-ed932122c2ed",
+      "lesson": 1,
+      "section": "sentence_patterns",
+      "editorial_key": "noun_negative",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "5e8ccb6e-7ad0-4127-a47e-fbc26b34b28b",
+      "lesson": 1,
+      "section": "sentence_patterns",
+      "editorial_key": "noun_question",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "cfc26ff6-73c0-4726-af1d-8a7a89962428",
+      "lesson": 1,
+      "section": "sentence_patterns",
+      "editorial_key": "also_topic",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "87e98d2b-6a7f-4587-bc3e-ed3551532b01",
+      "lesson": 1,
+      "section": "sentence_patterns",
+      "editorial_key": "affiliation",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "7592379d-c227-4476-8294-b84e51320e65",
+      "lesson": 1,
+      "section": "sentence_patterns",
+      "editorial_key": "name_suffix",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "4df01e2b-0698-49ab-9cfe-bf4cf23852c4",
+      "lesson": 1,
+      "section": "examples",
+      "editorial_key": "student_statement",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "3b8690c9-a930-4625-a982-32ce203ba5db",
+      "lesson": 1,
+      "section": "examples",
+      "editorial_key": "vietnamese_statement",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "d0ceaad8-abac-42e5-af4d-80302335f058",
+      "lesson": 1,
+      "section": "examples",
+      "editorial_key": "not_teacher",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "773eb129-195a-4b79-9bfc-f38ded11a1f4",
+      "lesson": 1,
+      "section": "examples",
+      "editorial_key": "not_doctor",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "94ef7fb2-1a45-4e80-a969-a0b28c689b03",
+      "lesson": 1,
+      "section": "examples",
+      "editorial_key": "ask_student",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "9a0983b9-d33d-4cb1-a3ee-c838afd9b218",
+      "lesson": 1,
+      "section": "examples",
+      "editorial_key": "ask_identity",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "ed910c57-8d32-4562-babd-9a2710e36486",
+      "lesson": 1,
+      "section": "examples",
+      "editorial_key": "also_company_employee",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "83556344-92b3-4f8a-ba62-fd6d1ada67f7",
+      "lesson": 1,
+      "section": "examples",
+      "editorial_key": "also_japanese",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "6926d564-53d2-4a67-aee6-7ba7ac154da6",
+      "lesson": 1,
+      "section": "examples",
+      "editorial_key": "university_student",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "9eeba714-c0fa-4c8c-a3c1-75ef12bf4744",
+      "lesson": 1,
+      "section": "examples",
+      "editorial_key": "fictional_company",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-03"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "9dcde0d1-0a46-4a2e-b2f0-14fdc7ba0f74",
+      "lesson": 1,
+      "section": "examples",
+      "editorial_key": "introduce_emi",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "cbd3b528-67e0-48fe-a652-e5f89e591de3",
+      "lesson": 1,
+      "section": "examples",
+      "editorial_key": "ask_lin_occupation",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "f7bb81c3-a948-49d1-b0e8-f55e998b74bb",
+      "lesson": 1,
+      "section": "dialogues",
+      "editorial_key": "meet_classmates",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "49fa0e98-e1a6-4847-8031-75e3e36eaf68",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "see_examine",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "b65aacee-2bab-4f7f-a161-626631a73412",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "search_for",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "56f413e3-4a21-4a8b-904c-816d8aa3214a",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "be_late",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "9e5ca28a-8e6d-482b-b049-05748ad3e49b",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "be_in_time",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "a51f9f64-d51d-44de-982e-65703fd923ab",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "do_casual",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "27acf17a-8f9b-4ec2-bf74-fcf8ea076338",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "pick_up",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "78baad67-8839-41e7-9abc-d6f46e7252a9",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "contact",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "e6e904f6-e4d2-4560-8915-ad807070d983",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "feel_well",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "2de73fe4-bc5b-4b49-9ede-6c5e19499ec8",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "feel_unwell",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "17d85c61-e24e-41e7-bacb-f0eccec02169",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "sports_day",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "21561453-6549-4916-89a1-7cf120f147f4",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "bon_dance",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "c804efd1-9ba6-4708-97ce-04aa9b1960e6",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "flea_market",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "ab86cfe0-d4bd-4365-b7cb-74149fa3a9eb",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "place",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "5054bb54-75ce-4400-896d-fa54fbf25fba",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "volunteer",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "fa50b6c4-671a-48d0-a1e8-478898be1fdf",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "wallet",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "f1eaba52-3961-414e-8a8a-8a4ee287dcd3",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "rubbish",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "6fb4a8d7-b593-4cdc-91e6-b11d1978ce12",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "diet_building",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "f133294a-bd61-49d2-9022-dddcf13efbe0",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "weekday",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "24b9d4b6-d679-40f9-a49a-6a606cfd0154",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "dialect_suffix",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "391622bd-5299-48c8-b7ce-8e16f764a817",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "next_occasion",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "a93e8112-f955-4f40-b991-68c4ad98270e",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "considerably",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "158d7b47-30bb-4c01-8f05-4cfe7d930a33",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "directly",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "500341b3-fd3e-4fcd-85f5-75bdf0f6a001",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "anytime",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "28999ca3-c139-4ffd-a50d-6891250a2818",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "anywhere",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "5db6cfaa-5d3d-493f-8128-575f1b50da2b",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "anyone",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "9ea7bc46-13bd-4487-99d3-997cb22284c0",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "anything",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "4582f2ce-384f-448a-a2c6-4a0865439686",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "this_kind",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "372e8829-38ef-46b6-b2de-49b4575f00b3",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "that_kind",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "9273c92d-8b2c-4176-939f-0fc23600c920",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "distant_kind",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "9a119133-e564-4874-b014-b2cf9719329b",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "be_tidy",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "ca0ad5e2-5848-43cf-9d17-fa63a5a9d508",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "put_out",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-06"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "28964c1b-c65c-484c-b3f9-4f7f84530655",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "burnable_rubbish",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "678a4789-7a2b-4085-b652-cedd624e6421",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "designated_place",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "7869e575-a7f1-45ff-b827-4af9d5df0133",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "beside",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "861d52c8-cbb0-4086-8ed3-2774d26a1f34",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "bottle",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "7b193bee-c55d-422c-8e6e-7259bdfd8b48",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "can",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "0bde0d74-15ec-40b8-a77b-0ad150fbb669",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "gas",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "a5a60202-ed09-4b4e-9337-b9995f4d3643",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "company_suffix",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-07"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "ec39ee33-3cdf-4555-8fff-c15a2da4d459",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "space",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "5b63fd0f-0454-4125-b273-00e1c31a062d",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "formal_name_suffix",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "7856e035-993d-4fb4-963c-7cea2c919022",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "spacecraft",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "b4f986d1-27bc-4668-962f-d5e2289a30e0",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "frightening",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "0417d40f-c039-4764-8e98-b29162c47649",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "space_station",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "06fce978-3a16-406f-b87e-fdd5c2e98c7e",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "astronaut",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "ce4995a4-bf68-4578-81e2-776710baaba3",
+      "lesson": 26,
+      "section": "vocabulary",
+      "editorial_key": "differ",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "31ef223a-6d7b-46d1-ae14-a8daca908f3e",
+      "lesson": 26,
+      "section": "grammar_points",
+      "editorial_key": "explanatory_ndesu",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "02aadf06-b7da-455f-b425-ccacb810c720",
+      "lesson": 26,
+      "section": "grammar_points",
+      "editorial_key": "ask_explanation",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "3ae4ad01-544e-4601-92f2-cffe74917c0c",
+      "lesson": 26,
+      "section": "grammar_points",
+      "editorial_key": "preface_ndesuga",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "9aa09354-3169-4f32-8400-06a754dadf84",
+      "lesson": 26,
+      "section": "grammar_points",
+      "editorial_key": "polite_request",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "6aa14c51-e595-4016-a272-b058a383e606",
+      "lesson": 26,
+      "section": "grammar_points",
+      "editorial_key": "ask_advice_tara",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "b286e04e-d667-4371-9584-9fa5c0f1dac4",
+      "lesson": 26,
+      "section": "grammar_points",
+      "editorial_key": "object_as_topic",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "b7cd389d-c919-47ca-bc81-54cd4fb90f16",
+      "lesson": 26,
+      "section": "sentence_patterns",
+      "editorial_key": "explanatory_ndesu",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "b2e45143-0388-49a9-9258-d1372a026261",
+      "lesson": 26,
+      "section": "sentence_patterns",
+      "editorial_key": "ask_explanation",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "078987e8-c0fd-425d-afa7-78db963e1a95",
+      "lesson": 26,
+      "section": "sentence_patterns",
+      "editorial_key": "preface_ndesuga",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "3c90be38-75e3-40dd-9839-1bf174f753f1",
+      "lesson": 26,
+      "section": "sentence_patterns",
+      "editorial_key": "polite_request",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "3f200462-d03d-43b7-b4b6-2fcd31d719cf",
+      "lesson": 26,
+      "section": "sentence_patterns",
+      "editorial_key": "ask_advice_tara",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "16f0ddb1-0011-4658-9c7c-e4c962a5f7a7",
+      "lesson": 26,
+      "section": "sentence_patterns",
+      "editorial_key": "object_as_topic",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "fb46ccb0-b0ab-446b-a5e6-3f4ca5f7e90f",
+      "lesson": 26,
+      "section": "examples",
+      "editorial_key": "explain_unwell",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-04"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "2bf38340-5485-42d9-8a2e-8569d1a2e2c8",
+      "lesson": 26,
+      "section": "examples",
+      "editorial_key": "explain_day_off",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-04"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "e20830fe-44c8-444e-8e09-fe7a47100fbb",
+      "lesson": 26,
+      "section": "examples",
+      "editorial_key": "where_wallet_found",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-04"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "7dfc7929-f348-4de5-b74c-3ddda3ef065a",
+      "lesson": 26,
+      "section": "examples",
+      "editorial_key": "late_sports_day",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-04"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "6799d2f6-3a53-4a7e-979e-c565916d15b7",
+      "lesson": 26,
+      "section": "examples",
+      "editorial_key": "wallet_inquiry",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "b1307f86-565a-42b5-a132-1e2503416cb6",
+      "lesson": 26,
+      "section": "examples",
+      "editorial_key": "contact_advice",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "9ea30b5f-2429-4668-8bd3-cd25434d5b55",
+      "lesson": 26,
+      "section": "examples",
+      "editorial_key": "explain_form",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-05"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "2261dd0d-3e51-42d0-9c22-d767cb6db8f7",
+      "lesson": 26,
+      "section": "examples",
+      "editorial_key": "pick_up_wallet",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "3cf80dca-23de-4bbf-b212-2d033ed88f72",
+      "lesson": 26,
+      "section": "examples",
+      "editorial_key": "where_bottle",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-06"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "e65b33d4-54b5-4c57-beb6-3ded1973f119",
+      "lesson": 26,
+      "section": "examples",
+      "editorial_key": "when_contact",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "5f03f996-181c-4bf3-b10e-2925f0446091",
+      "lesson": 26,
+      "section": "examples",
+      "editorial_key": "contrast_sports_day",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "b44cc79d-8ed0-43ce-bb65-8f173724a646",
+      "lesson": 26,
+      "section": "examples",
+      "editorial_key": "volunteering_topic",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [
+        "ER-08"
+      ],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    },
+    {
+      "item_id": "6e3193a7-1512-41eb-bad7-777eb3fe552b",
+      "lesson": 26,
+      "section": "dialogues",
+      "editorial_key": "lost_wallet_desk",
+      "primary_screening": "completed_not_independent_acceptance",
+      "finding_ids": [],
+      "owner_decision": "not_required_for_this_batch_gate",
+      "owner_notes": "",
+      "self_review_decision": "accepted_for_batch_authoring"
+    }
+  ],
+  "owner_checklist": [
+    {
+      "id": "OR-01",
+      "check": "Vocabulary forms, contextual readings, meanings and verb-group distinctions in both lessons",
+      "decision": "accepted_by_self_review_for_batch"
+    },
+    {
+      "id": "OR-02",
+      "check": "Grammar explanations, politeness, pattern variants and the eight recorded editorial findings",
+      "decision": "accepted_by_self_review_for_batch"
+    },
+    {
+      "id": "OR-03",
+      "check": "Naturalness and Japanese/Vietnamese/English meaning equivalence of all 24 examples and all 17 dialogue turns",
+      "decision": "accepted_by_self_review_for_batch"
+    },
+    {
+      "id": "OR-04",
+      "check": "The eight added contexts explain the intended situation without becoming part of the spoken Japanese sentence",
+      "decision": "accepted_by_self_review_for_batch"
+    },
+    {
+      "id": "OR-05",
+      "check": "Accept or request changes for each bounded lesson sample; approval does not extend to missing content, the 17 unauthored languages, runtime packaging or audio",
+      "decision": "accepted_by_self_review_for_batch"
+    }
+  ],
+  "remaining": [
+    "The owner delegated the batch-authoring gate to the primary agent under B-U-51; independent human review and release approval remain unclaimed.",
+    "Only English and Vietnamese are authored; 17 approved release languages remain missing.",
+    "The samples remain representative drafts; Kanji unit content, full lesson exercises and the full curriculum are not included.",
+    "Actual Japanese voice pronunciation/rendering and release-content gates have not been verified."
+  ],
+  "decision_recording": "Record concrete uncertainties and ask the owner. Self-review acceptance applies to the pinned revision and the batch-authoring gate; do not report it as independent or release acceptance.",
+  "batch_authoring_gate": {
+    "authority": "B-U-51",
+    "reviewer": "primary_agent_self_review",
+    "reviewed_on": "2026-11-07",
+    "decision": "accepted_for_batch_authoring",
+    "owner_manual_review": "superseded_by_explicit_delegation",
+    "independent_human_certification": false,
+    "release_approval": false,
+    "basis": "The two complete samples and ER-01 through ER-08 were reviewed against beginner accessibility, source-aligned knowledge/readings and practical communication. No unresolved teaching-content issue was identified in these bounded samples."
+  },
+  "snapshot_status": "historical_initial_sample_review",
+  "snapshot_note": "Counts, item records and reviewed-file hashes describe the initial 2026-11-06 sample review. Later batch edits, including two additional lesson-26 examples and generated Markdown, require current batch review evidence and are not covered by these historical fingerprints."
+}

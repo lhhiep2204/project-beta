@@ -1,0 +1,1869 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "44447f36-a8b4-4755-87f2-9f3781a4604c",
+  "editorial_key": "kanji_unit_04",
+  "reference_unit_number": 4,
+  "source_level_label": "N5",
+  "title": {
+    "en": "Time and daily schedules",
+    "vi": "Thời gian và lịch hàng ngày"
+  },
+  "character_glyphs": [
+    "今",
+    "朝",
+    "昼",
+    "晩",
+    "時",
+    "分",
+    "半",
+    "午",
+    "前",
+    "後",
+    "休",
+    "毎",
+    "何"
+  ],
+  "word_examples": [
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "今",
+            "ruby": "いま"
+          }
+        ]
+      },
+      "kana_reading": "いま",
+      "meanings": {
+        "en": "now",
+        "vi": "bây giờ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 187,
+          "pdf_page_end": 187,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "c0f149b6-237f-4f21-be75-ed363ad513a7"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "今朝",
+            "ruby": "けさ"
+          }
+        ]
+      },
+      "kana_reading": "けさ",
+      "meanings": {
+        "en": "this morning",
+        "vi": "sáng nay"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 187,
+          "pdf_page_end": 187,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "02966f66-91d2-4349-8b95-4b1f5511226f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "今晩",
+            "ruby": "こんばん"
+          }
+        ]
+      },
+      "kana_reading": "こんばん",
+      "meanings": {
+        "en": "this evening; tonight",
+        "vi": "tối nay"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 187,
+          "pdf_page_end": 187,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "0536e7f0-76d8-47f0-a7cb-ae702f551112"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "今週",
+            "ruby": "こんしゅう"
+          }
+        ]
+      },
+      "kana_reading": "こんしゅう",
+      "meanings": {
+        "en": "this week",
+        "vi": "tuần này"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 187,
+          "pdf_page_end": 187,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "9506fae1-348b-41d4-94da-890456121eb7"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "今年",
+            "ruby": "ことし"
+          }
+        ]
+      },
+      "kana_reading": "ことし",
+      "meanings": {
+        "en": "this year",
+        "vi": "năm nay"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 187,
+          "pdf_page_end": 187,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "4e809a07-b277-4965-b814-435ed1f3bbfa"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "朝",
+            "ruby": "あさ"
+          }
+        ]
+      },
+      "kana_reading": "あさ",
+      "meanings": {
+        "en": "morning",
+        "vi": "buổi sáng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 187,
+          "pdf_page_end": 187,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "9b45b155-e540-4675-b68d-30c50f4c89b6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "朝",
+            "ruby": "あさ"
+          },
+          {
+            "base": "ごはん"
+          }
+        ]
+      },
+      "kana_reading": "あさごはん",
+      "meanings": {
+        "en": "breakfast",
+        "vi": "bữa sáng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 187,
+          "pdf_page_end": 187,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "665a8bd0-dda1-4697-b313-c109ff127612"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "毎朝",
+            "ruby": "まいあさ"
+          }
+        ]
+      },
+      "kana_reading": "まいあさ",
+      "meanings": {
+        "en": "every morning",
+        "vi": "hàng sáng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 187,
+          "pdf_page_end": 187,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "49c4ac00-abbb-43d5-8e55-3acd60d7ee5f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "昼",
+            "ruby": "ひる"
+          }
+        ]
+      },
+      "kana_reading": "ひる",
+      "meanings": {
+        "en": "noon; daytime",
+        "vi": "trưa; ban ngày"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 187,
+          "pdf_page_end": 187,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "93efd16f-b4b9-4ea0-8e38-d23e82dadd20"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "昼",
+            "ruby": "ひる"
+          },
+          {
+            "base": "ごはん"
+          }
+        ]
+      },
+      "kana_reading": "ひるごはん",
+      "meanings": {
+        "en": "lunch",
+        "vi": "bữa trưa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 187,
+          "pdf_page_end": 187,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "2750c9be-d51d-4d26-a727-a832e242eca3"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "昼休",
+            "ruby": "ひるやす"
+          },
+          {
+            "base": "み"
+          }
+        ]
+      },
+      "kana_reading": "ひるやすみ",
+      "meanings": {
+        "en": "lunch break",
+        "vi": "giờ nghỉ trưa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 187,
+          "pdf_page_end": 187,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "3591dd4d-8b0a-458f-af2e-c799a3ecaa69"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "晩",
+            "ruby": "ばん"
+          }
+        ]
+      },
+      "kana_reading": "ばん",
+      "meanings": {
+        "en": "evening",
+        "vi": "buổi tối"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "d4ba946d-87c5-4538-8163-c81f9dc7c5bb"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "晩",
+            "ruby": "ばん"
+          },
+          {
+            "base": "ごはん"
+          }
+        ]
+      },
+      "kana_reading": "ばんごはん",
+      "meanings": {
+        "en": "dinner",
+        "vi": "bữa tối"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "7bdca0cc-8dc4-4282-bcd0-bddf70c973fe"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "毎晩",
+            "ruby": "まいばん"
+          }
+        ]
+      },
+      "kana_reading": "まいばん",
+      "meanings": {
+        "en": "every evening",
+        "vi": "hàng tối"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "8b0f1835-ae03-4fef-8f20-b5e379caa173"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "時間",
+            "ruby": "じかん"
+          }
+        ]
+      },
+      "kana_reading": "じかん",
+      "meanings": {
+        "en": "time",
+        "vi": "thời gian"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "35401607-38c9-4d25-a9a4-3ffcf5e514d1"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "時計",
+            "ruby": "とけい"
+          }
+        ]
+      },
+      "kana_reading": "とけい",
+      "meanings": {
+        "en": "clock; watch",
+        "vi": "đồng hồ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "4453deb0-fbc6-4912-bdbd-3fde01244cae"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "時々",
+            "ruby": "ときどき"
+          }
+        ]
+      },
+      "kana_reading": "ときどき",
+      "meanings": {
+        "en": "sometimes",
+        "vi": "thỉnh thoảng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "02aa2e04-7365-4669-9e3e-2426599eb7f8"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "自分",
+            "ruby": "じぶん"
+          },
+          {
+            "base": "で"
+          }
+        ]
+      },
+      "kana_reading": "じぶんで",
+      "meanings": {
+        "en": "by oneself",
+        "vi": "tự mình"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "92a595b8-1909-4745-aa43-ed0c4659927f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "半分",
+            "ruby": "はんぶん"
+          }
+        ]
+      },
+      "kana_reading": "はんぶん",
+      "meanings": {
+        "en": "half",
+        "vi": "một nửa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "d8b9f43c-f50c-450f-a003-434479f33d04"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "午前",
+            "ruby": "ごぜん"
+          }
+        ]
+      },
+      "kana_reading": "ごぜん",
+      "meanings": {
+        "en": "morning; a.m.",
+        "vi": "buổi sáng; trước trưa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "46c40eb4-f681-41be-af68-fe6cec6f08b8"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "午後",
+            "ruby": "ごご"
+          }
+        ]
+      },
+      "kana_reading": "ごご",
+      "meanings": {
+        "en": "afternoon; p.m.",
+        "vi": "buổi chiều; sau trưa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "5e6a1581-b1e7-4eda-89ea-c445fef11e97"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "前",
+            "ruby": "まえ"
+          }
+        ]
+      },
+      "kana_reading": "まえ",
+      "meanings": {
+        "en": "front; before",
+        "vi": "phía trước; trước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "8f98ed01-2da3-436f-a3b4-562946b0a6b6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "名前",
+            "ruby": "なまえ"
+          }
+        ]
+      },
+      "kana_reading": "なまえ",
+      "meanings": {
+        "en": "name",
+        "vi": "tên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "c2477d65-2fa8-45c3-bc76-80f4e71134ea"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "駅前",
+            "ruby": "えきまえ"
+          }
+        ]
+      },
+      "kana_reading": "えきまえ",
+      "meanings": {
+        "en": "in front of the station",
+        "vi": "trước nhà ga"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "4bbe0759-2157-497f-ba36-f5b72661afc9"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "後",
+            "ruby": "うし"
+          },
+          {
+            "base": "ろ"
+          }
+        ]
+      },
+      "kana_reading": "うしろ",
+      "meanings": {
+        "en": "behind",
+        "vi": "phía sau"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "290145f4-65c9-4b38-9ebd-e67ebd61c582"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "休",
+            "ruby": "やす"
+          },
+          {
+            "base": "み"
+          }
+        ]
+      },
+      "kana_reading": "やすみ",
+      "meanings": {
+        "en": "rest; holiday",
+        "vi": "nghỉ ngơi; ngày nghỉ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "489b9463-4df3-45df-8661-1dc352519786"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "春休",
+            "ruby": "はるやす"
+          },
+          {
+            "base": "み"
+          }
+        ]
+      },
+      "kana_reading": "はるやすみ",
+      "meanings": {
+        "en": "spring vacation",
+        "vi": "kỳ nghỉ xuân"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "be0a2ecc-2ad6-449c-a7fa-2db2b128564f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "夏休",
+            "ruby": "なつやす"
+          },
+          {
+            "base": "み"
+          }
+        ]
+      },
+      "kana_reading": "なつやすみ",
+      "meanings": {
+        "en": "summer vacation",
+        "vi": "kỳ nghỉ hè"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "fa8fef25-bd61-40df-b48f-077af8c62158"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "冬休",
+            "ruby": "ふゆやす"
+          },
+          {
+            "base": "み"
+          }
+        ]
+      },
+      "kana_reading": "ふゆやすみ",
+      "meanings": {
+        "en": "winter vacation",
+        "vi": "kỳ nghỉ đông"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "34709d84-1f2e-4efb-ba10-e705c3aebd5b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "休",
+            "ruby": "やす"
+          },
+          {
+            "base": "みます"
+          }
+        ]
+      },
+      "kana_reading": "やすみます",
+      "meanings": {
+        "en": "rest; take a day off",
+        "vi": "nghỉ ngơi; nghỉ làm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "ba08c262-627b-4967-aee3-7093d235e396"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "毎週",
+            "ruby": "まいしゅう"
+          }
+        ]
+      },
+      "kana_reading": "まいしゅう",
+      "meanings": {
+        "en": "every week",
+        "vi": "hàng tuần"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "1f0d1175-5ede-4bc1-8400-e8a288e61b7a"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "毎年",
+            "ruby": "まいとし"
+          }
+        ]
+      },
+      "kana_reading": "まいとし",
+      "meanings": {
+        "en": "every year",
+        "vi": "hàng năm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "13309c94-8342-4f1b-ad99-7e0a812063f3"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "毎年",
+            "ruby": "まいねん"
+          }
+        ]
+      },
+      "kana_reading": "まいねん",
+      "meanings": {
+        "en": "every year",
+        "vi": "hàng năm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "34c7d495-9556-434e-ad73-3cb9a5657cc0"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "何",
+            "ruby": "なに"
+          }
+        ]
+      },
+      "kana_reading": "なに",
+      "meanings": {
+        "en": "what",
+        "vi": "cái gì"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "751898af-4867-4704-b853-46e263a72234"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "何",
+            "ruby": "なん"
+          }
+        ]
+      },
+      "kana_reading": "なん",
+      "meanings": {
+        "en": "what; how many (before counters)",
+        "vi": "gì; bao nhiêu (trước từ đếm)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "45857f81-341f-4588-891f-5551b8ff1000"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "1時",
+            "ruby": "いちじ"
+          }
+        ]
+      },
+      "kana_reading": "いちじ",
+      "meanings": {
+        "en": "one o'clock",
+        "vi": "một giờ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 57,
+          "pdf_page_end": 57,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "1776c186-c8d5-45dd-a36a-667410252a91"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "4時5分",
+            "ruby": "よじごふん"
+          }
+        ]
+      },
+      "kana_reading": "よじごふん",
+      "meanings": {
+        "en": "five past four",
+        "vi": "bốn giờ năm phút"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 57,
+          "pdf_page_end": 57,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "be0e3b61-60b8-44de-b975-3870aebc2e7b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "9時10分",
+            "ruby": "くじじゅっぷん"
+          }
+        ]
+      },
+      "kana_reading": "くじじゅっぷん",
+      "meanings": {
+        "en": "ten past nine",
+        "vi": "chín giờ mười phút"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 57,
+          "pdf_page_end": 57,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "77087d5b-f97f-4c42-ae2c-9a6535b8c6a9"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "10時半",
+            "ruby": "じゅうじはん"
+          }
+        ]
+      },
+      "kana_reading": "じゅうじはん",
+      "meanings": {
+        "en": "half past ten",
+        "vi": "mười giờ rưỡi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 57,
+          "pdf_page_end": 57,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "bfe9f681-f466-43ab-a0b1-d8d17473fe6c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "午前",
+            "ruby": "ごぜん"
+          },
+          {
+            "base": "9時",
+            "ruby": "くじ"
+          }
+        ]
+      },
+      "kana_reading": "ごぜんくじ",
+      "meanings": {
+        "en": "9 a.m.",
+        "vi": "chín giờ sáng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 58,
+          "pdf_page_end": 58,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "8db5d03f-e776-42bf-a80f-95d41c216650"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "午後",
+            "ruby": "ごご"
+          },
+          {
+            "base": "4時",
+            "ruby": "よじ"
+          }
+        ]
+      },
+      "kana_reading": "ごごよじ",
+      "meanings": {
+        "en": "4 p.m.",
+        "vi": "bốn giờ chiều"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 58,
+          "pdf_page_end": 58,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "d6712e79-9b6d-4297-8387-6fb589470466"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "何時",
+            "ruby": "なんじ"
+          }
+        ]
+      },
+      "kana_reading": "なんじ",
+      "meanings": {
+        "en": "what time",
+        "vi": "mấy giờ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 58,
+          "pdf_page_end": 58,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "5b68c272-2a8e-49b5-a8a3-7310db727ced"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "何月何日",
+            "ruby": "なんがつなんにち"
+          }
+        ]
+      },
+      "kana_reading": "なんがつなんにち",
+      "meanings": {
+        "en": "what month and day",
+        "vi": "ngày mấy tháng mấy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 58,
+          "pdf_page_end": 58,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "327b9f03-0257-4d85-a5d9-63cae5862f3b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "時",
+            "ruby": "じ"
+          }
+        ]
+      },
+      "kana_reading": "～じ",
+      "meanings": {
+        "en": "o'clock",
+        "vi": "giờ (chỉ thời điểm)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "5667c0a2-9b71-4531-b363-ec073fd121f0"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "時半",
+            "ruby": "じはん"
+          }
+        ]
+      },
+      "kana_reading": "～じはん",
+      "meanings": {
+        "en": "half past an hour",
+        "vi": "giờ rưỡi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "bd309d19-5fed-4fc8-86b9-c8af1df4597c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "時間",
+            "ruby": "じかん"
+          }
+        ]
+      },
+      "kana_reading": "～じかん",
+      "meanings": {
+        "en": "hours (duration)",
+        "vi": "tiếng; giờ (thời lượng)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "48763c6f-9168-403c-b71c-1832c11c5431"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "時間半",
+            "ruby": "じかんはん"
+          }
+        ]
+      },
+      "kana_reading": "～じかんはん",
+      "meanings": {
+        "en": "hours and a half",
+        "vi": "tiếng rưỡi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "944cbf9f-2c59-4ae4-8bfe-f690bb286fc9"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～の"
+          },
+          {
+            "base": "時",
+            "ruby": "とき"
+          }
+        ]
+      },
+      "kana_reading": "～のとき",
+      "meanings": {
+        "en": "at the time of; when",
+        "vi": "khi; vào lúc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "837b253a-415f-4bbc-b85c-ffda77a7c368"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "分",
+            "ruby": "ふん"
+          }
+        ]
+      },
+      "kana_reading": "～ふん",
+      "meanings": {
+        "en": "minutes (counter reading)",
+        "vi": "phút (cách đọc từ đếm)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "0ccb8204-e88a-4b27-a609-47332243027f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "分",
+            "ruby": "ぷん"
+          }
+        ]
+      },
+      "kana_reading": "～ぷん",
+      "meanings": {
+        "en": "minutes (alternate counter reading)",
+        "vi": "phút (cách đọc biến âm)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "1cc81970-3995-4968-b841-55369b7cc7c9"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "前",
+            "ruby": "まえ"
+          }
+        ]
+      },
+      "kana_reading": "～まえ",
+      "meanings": {
+        "en": "before",
+        "vi": "trước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "adeee957-bc3e-4e05-8861-c110575da930"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "休",
+            "ruby": "やす"
+          },
+          {
+            "base": "み"
+          }
+        ]
+      },
+      "kana_reading": "～やすみ",
+      "meanings": {
+        "en": "vacation; break of a specified kind",
+        "vi": "kỳ nghỉ; đợt nghỉ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "dd1432dc-67af-4885-b5f4-e471d2b91a27"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "今日",
+            "ruby": "きょう"
+          }
+        ]
+      },
+      "kana_reading": "きょう",
+      "meanings": {
+        "en": "today",
+        "vi": "hôm nay"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "4300e735-8cd6-4414-8eeb-ef96e9d3e5c5"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "今月",
+            "ruby": "こんげつ"
+          }
+        ]
+      },
+      "kana_reading": "こんげつ",
+      "meanings": {
+        "en": "this month",
+        "vi": "tháng này"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a228c466-c5fb-4936-a049-1107bda0b5d5"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "毎日",
+            "ruby": "まいにち"
+          }
+        ]
+      },
+      "kana_reading": "まいにち",
+      "meanings": {
+        "en": "every day",
+        "vi": "hàng ngày"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a30ede97-24ce-4ceb-bbde-df0e3bfbcb38"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "毎月",
+            "ruby": "まいつき"
+          }
+        ]
+      },
+      "kana_reading": "まいつき",
+      "meanings": {
+        "en": "every month",
+        "vi": "hàng tháng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 56,
+          "pdf_page_end": 56,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "ce21a322-6141-461e-b96a-7bfdb1201cdd"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 5,
+    "reference_volume": "Elementary I",
+    "evidence": {
+      "source_id": "N5_KANJI",
+      "pdf_pages": [
+        6,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 1,
+    "end": 5,
+    "may_include_earlier_material": false
+  },
+  "relationship": "group_scope",
+  "source_refs": [
+    {
+      "source_id": "N5_KANJI",
+      "pdf_page_start": 56,
+      "pdf_page_end": 59,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

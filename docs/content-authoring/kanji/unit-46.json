@@ -1,0 +1,505 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "ff9eade9-fd2c-4b6b-bb13-81a904ecb286",
+  "editorial_key": "kanji_unit_46",
+  "reference_unit_number": 46,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 46: lesson 46 reading words",
+    "vi": "Kanji bài 46: từ đọc của bài 46"
+  },
+  "character_glyphs": [
+    "彼",
+    "因",
+    "係",
+    "卒",
+    "業",
+    "相",
+    "談",
+    "女",
+    "原",
+    "員",
+    "乾",
+    "届",
+    "焼",
+    "具",
+    "合",
+    "半",
+    "年",
+    "前",
+    "片",
+    "渡",
+    "向",
+    "入",
+    "学"
+  ],
+  "word_examples": [
+    {
+      "id": "5ec318d7-73ea-4e6d-aacd-94bbde8ef915",
+      "japanese": {
+        "segments": [
+          {
+            "base": "彼",
+            "ruby": "かれ"
+          }
+        ]
+      },
+      "kana_reading": "かれ",
+      "meanings": {
+        "en": "he; boyfriend",
+        "vi": "anh ấy; bạn trai"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c3fffa53-e0ad-4d1d-9c66-141594324941",
+      "japanese": {
+        "segments": [
+          {
+            "base": "彼女",
+            "ruby": "かのじょ"
+          }
+        ]
+      },
+      "kana_reading": "かのじょ",
+      "meanings": {
+        "en": "she; girlfriend",
+        "vi": "cô ấy; bạn gái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "49a7be0a-d99b-4d0e-866a-3b56f7286aea",
+      "japanese": {
+        "segments": [
+          {
+            "base": "原因",
+            "ruby": "げんいん"
+          }
+        ]
+      },
+      "kana_reading": "げんいん",
+      "meanings": {
+        "en": "cause",
+        "vi": "nguyên nhân"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "de3cbc38-a36f-41da-9a7c-1609c6ebc711",
+      "japanese": {
+        "segments": [
+          {
+            "base": "係員",
+            "ruby": "かかりいん"
+          }
+        ]
+      },
+      "kana_reading": "かかりいん",
+      "meanings": {
+        "en": "person in charge",
+        "vi": "nhân viên phụ trách"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "018963dd-ee2c-4780-a151-9839358f981a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "卒業",
+            "ruby": "そつぎょう"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "そつぎょうする",
+      "meanings": {
+        "en": "graduate",
+        "vi": "tốt nghiệp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0589ba63-f79b-4339-91d5-c81a2e8397e0",
+      "japanese": {
+        "segments": [
+          {
+            "base": "相談",
+            "ruby": "そうだん"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "そうだんする",
+      "meanings": {
+        "en": "consult",
+        "vi": "trao đổi; tư vấn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4e4a3770-4d02-4336-8f30-f8e9b65f957a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "乾",
+            "ruby": "かわ"
+          },
+          {
+            "base": "く"
+          }
+        ]
+      },
+      "kana_reading": "かわく",
+      "meanings": {
+        "en": "dry out",
+        "vi": "khô"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "588278d2-2ec4-446f-842b-08d2f7aa2026",
+      "japanese": {
+        "segments": [
+          {
+            "base": "届",
+            "ruby": "とど"
+          },
+          {
+            "base": "く"
+          }
+        ]
+      },
+      "kana_reading": "とどく",
+      "meanings": {
+        "en": "arrive; be delivered",
+        "vi": "đến; được gửi tới"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b1719c47-b959-4d43-9ede-51b5c0fbdd80",
+      "japanese": {
+        "segments": [
+          {
+            "base": "焼",
+            "ruby": "や"
+          },
+          {
+            "base": "く"
+          }
+        ]
+      },
+      "kana_reading": "やく",
+      "meanings": {
+        "en": "grill; bake",
+        "vi": "nướng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ceaf898b-7eda-486c-87e2-ae0956aaef31",
+      "japanese": {
+        "segments": [
+          {
+            "base": "焼",
+            "ruby": "や"
+          },
+          {
+            "base": "ける"
+          }
+        ]
+      },
+      "kana_reading": "やける",
+      "meanings": {
+        "en": "be baked; burn",
+        "vi": "chín; cháy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c34b94b5-d6d5-4189-ad70-4e2ccd9880ab",
+      "japanese": {
+        "segments": [
+          {
+            "base": "具合",
+            "ruby": "ぐあい"
+          }
+        ]
+      },
+      "kana_reading": "ぐあい",
+      "meanings": {
+        "en": "condition",
+        "vi": "tình trạng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b59e3892-63ce-42c7-b36e-a4082af413bf",
+      "japanese": {
+        "segments": [
+          {
+            "base": "半年前",
+            "ruby": "はんとしまえ"
+          }
+        ]
+      },
+      "kana_reading": "はんとしまえ",
+      "meanings": {
+        "en": "half a year ago",
+        "vi": "nửa năm trước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9e77bf92-a6aa-4c89-84f8-2776ec2e8987",
+      "japanese": {
+        "segments": [
+          {
+            "base": "片",
+            "ruby": "かた"
+          },
+          {
+            "base": "づく"
+          }
+        ]
+      },
+      "kana_reading": "かたづく",
+      "meanings": {
+        "en": "be tidied up",
+        "vi": "được dọn gọn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9915390f-942a-485b-8d1b-f9a66b93ced1",
+      "japanese": {
+        "segments": [
+          {
+            "base": "渡",
+            "ruby": "わた"
+          },
+          {
+            "base": "す"
+          }
+        ]
+      },
+      "kana_reading": "わたす",
+      "meanings": {
+        "en": "hand over",
+        "vi": "trao"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "1fc17ec7-1654-4ebf-a84d-fc83776c6450",
+      "japanese": {
+        "segments": [
+          {
+            "base": "向",
+            "ruby": "む"
+          },
+          {
+            "base": "かう"
+          }
+        ]
+      },
+      "kana_reading": "むかう",
+      "meanings": {
+        "en": "head toward",
+        "vi": "hướng tới"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "97d2d732-752c-4d67-afd7-a07dadf5ee9b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "入学",
+            "ruby": "にゅうがく"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "にゅうがくする",
+      "meanings": {
+        "en": "enter a school",
+        "vi": "nhập học"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 124,
+          "pdf_page_end": 127,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 46,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 46,
+    "end": 46,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 124,
+      "pdf_page_end": 127,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

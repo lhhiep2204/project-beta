@@ -1,0 +1,1122 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "20c0fed4-f960-4fed-8e64-4f4b4780aaa6",
+  "editorial_key": "kanji_unit_20",
+  "reference_unit_number": 20,
+  "source_level_label": "N5",
+  "title": {
+    "en": "Rooms, songs and meaning",
+    "vi": "Phòng, bài hát và ý nghĩa"
+  },
+  "character_glyphs": [
+    "部",
+    "屋",
+    "室",
+    "窓",
+    "開",
+    "閉",
+    "歌",
+    "意",
+    "味",
+    "天",
+    "考"
+  ],
+  "word_examples": [
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "部屋",
+            "ruby": "へや"
+          }
+        ]
+      },
+      "kana_reading": "へや",
+      "meanings": {
+        "en": "room",
+        "vi": "phòng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "9133d0cc-fe7e-4fe3-9f51-1d7657ca27f5"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "パン"
+          },
+          {
+            "base": "屋",
+            "ruby": "や"
+          }
+        ]
+      },
+      "kana_reading": "パンや",
+      "meanings": {
+        "en": "bakery",
+        "vi": "tiệm bánh mì"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "fb5f5031-b323-4809-8084-10a69b113e4f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "花屋",
+            "ruby": "はなや"
+          }
+        ]
+      },
+      "kana_reading": "はなや",
+      "meanings": {
+        "en": "florist",
+        "vi": "cửa hàng hoa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "8aee7a2e-16e4-4a66-8e13-d2883331dade"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "肉屋",
+            "ruby": "にくや"
+          }
+        ]
+      },
+      "kana_reading": "にくや",
+      "meanings": {
+        "en": "butcher's shop",
+        "vi": "cửa hàng thịt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "6a4d0ace-da19-4c84-8265-5162a9dcd418"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "魚屋",
+            "ruby": "さかなや"
+          }
+        ]
+      },
+      "kana_reading": "さかなや",
+      "meanings": {
+        "en": "fish shop",
+        "vi": "cửa hàng cá"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "11c4454b-5128-4128-8153-fdb4578f59b6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "電気屋",
+            "ruby": "でんきや"
+          }
+        ]
+      },
+      "kana_reading": "でんきや",
+      "meanings": {
+        "en": "electrical-appliance shop",
+        "vi": "cửa hàng đồ điện"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "fed0d2dd-39fd-4693-a0ac-0908b817c0d5"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "自転車屋",
+            "ruby": "じてんしゃや"
+          }
+        ]
+      },
+      "kana_reading": "じてんしゃや",
+      "meanings": {
+        "en": "bicycle shop",
+        "vi": "cửa hàng xe đạp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "359d899a-a972-4537-85f5-2cf416e6163f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "酒屋",
+            "ruby": "さかや"
+          }
+        ]
+      },
+      "kana_reading": "さかや",
+      "meanings": {
+        "en": "liquor shop",
+        "vi": "cửa hàng rượu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "84133eb6-e1f3-4dea-856f-785c412dca32"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "窓",
+            "ruby": "まど"
+          }
+        ]
+      },
+      "kana_reading": "まど",
+      "meanings": {
+        "en": "window",
+        "vi": "cửa sổ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "0c1c17ae-2be0-4129-9458-34bce26352e6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "開",
+            "ruby": "あ"
+          },
+          {
+            "base": "けます"
+          }
+        ]
+      },
+      "kana_reading": "あけます",
+      "meanings": {
+        "en": "open something",
+        "vi": "mở"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 210,
+          "pdf_page_end": 210,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "978bdcd0-1317-4278-9f55-034a1a84f720"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "開",
+            "ruby": "あ"
+          },
+          {
+            "base": "きます"
+          }
+        ]
+      },
+      "kana_reading": "あきます",
+      "meanings": {
+        "en": "open (intransitive)",
+        "vi": "mở ra"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 210,
+          "pdf_page_end": 210,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "92156448-a2f1-452a-b092-61851d5e1ded"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "閉",
+            "ruby": "し"
+          },
+          {
+            "base": "めます"
+          }
+        ]
+      },
+      "kana_reading": "しめます",
+      "meanings": {
+        "en": "close something",
+        "vi": "đóng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 210,
+          "pdf_page_end": 210,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "f919d3f6-699d-4248-9fe9-b8298f845694"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "閉",
+            "ruby": "し"
+          },
+          {
+            "base": "まります"
+          }
+        ]
+      },
+      "kana_reading": "しまります",
+      "meanings": {
+        "en": "close (intransitive)",
+        "vi": "đóng lại"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 210,
+          "pdf_page_end": 210,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "86699aa4-da67-4876-81e5-1880a7618b73"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "歌",
+            "ruby": "うた"
+          }
+        ]
+      },
+      "kana_reading": "うた",
+      "meanings": {
+        "en": "song",
+        "vi": "bài hát"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 210,
+          "pdf_page_end": 210,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "22174094-b5bc-4e51-b803-bc71a352a567"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "歌",
+            "ruby": "うた"
+          },
+          {
+            "base": "います"
+          }
+        ]
+      },
+      "kana_reading": "うたいます",
+      "meanings": {
+        "en": "sing",
+        "vi": "hát"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 210,
+          "pdf_page_end": 210,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "24b3c864-7698-4725-b43d-3526b16c8762"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "意味",
+            "ruby": "いみ"
+          }
+        ]
+      },
+      "kana_reading": "いみ",
+      "meanings": {
+        "en": "meaning",
+        "vi": "ý nghĩa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 210,
+          "pdf_page_end": 210,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "cad3346e-08c9-4210-abe5-8590494a24f8"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "天気",
+            "ruby": "てんき"
+          }
+        ]
+      },
+      "kana_reading": "てんき",
+      "meanings": {
+        "en": "weather",
+        "vi": "thời tiết"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 210,
+          "pdf_page_end": 210,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "ab56153c-44b7-458d-8305-cbe76db89118"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "考",
+            "ruby": "かんが"
+          },
+          {
+            "base": "えます"
+          }
+        ]
+      },
+      "kana_reading": "かんがえます",
+      "meanings": {
+        "en": "think; consider",
+        "vi": "suy nghĩ; cân nhắc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 210,
+          "pdf_page_end": 210,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "cb2a1098-129a-42a2-9a19-768c392e15d5"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "屋",
+            "ruby": "や"
+          }
+        ]
+      },
+      "kana_reading": "～や",
+      "meanings": {
+        "en": "shop (after the goods sold)",
+        "vi": "cửa hàng (sau tên mặt hàng)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "1a7af61e-5064-454b-a7f2-a349b5e2c1b6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "教室",
+            "ruby": "きょうしつ"
+          }
+        ]
+      },
+      "kana_reading": "きょうしつ",
+      "meanings": {
+        "en": "classroom",
+        "vi": "phòng học"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 198,
+          "pdf_page_end": 198,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "5d2aa0ab-e867-438d-b2c8-ea5dcb26a01d"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "本屋",
+            "ruby": "ほんや"
+          }
+        ]
+      },
+      "kana_reading": "ほんや",
+      "meanings": {
+        "en": "bookshop",
+        "vi": "hiệu sách"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 186,
+          "pdf_page_end": 186,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "67b546bf-2730-406c-80d3-7197dadc63c3"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "歩",
+            "ruby": "ある"
+          },
+          {
+            "base": "きます"
+          }
+        ]
+      },
+      "kana_reading": "あるきます",
+      "meanings": {
+        "en": "walk",
+        "vi": "đi bộ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 198,
+          "pdf_page_end": 198,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "8606d52a-78be-44de-9a60-c4efe39ab8eb"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "着",
+            "ruby": "つ"
+          },
+          {
+            "base": "きます"
+          }
+        ]
+      },
+      "kana_reading": "つきます",
+      "meanings": {
+        "en": "arrive",
+        "vi": "đến nơi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 206,
+          "pdf_page_end": 206,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "f5c32f45-bf4e-41af-ab86-9f3e80da871e"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "山",
+            "ruby": "やま"
+          }
+        ]
+      },
+      "kana_reading": "やま",
+      "meanings": {
+        "en": "mountain",
+        "vi": "núi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "ece902da-f1b6-4661-9166-e66e869a9b7b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "川",
+            "ruby": "かわ"
+          }
+        ]
+      },
+      "kana_reading": "かわ",
+      "meanings": {
+        "en": "river",
+        "vi": "sông"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "66e5d388-1b9a-444b-b729-b3659ba7471a"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "自分",
+            "ruby": "じぶん"
+          },
+          {
+            "base": "で"
+          }
+        ]
+      },
+      "kana_reading": "じぶんで",
+      "meanings": {
+        "en": "by oneself",
+        "vi": "tự mình"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "e4bf7761-ef0a-497f-a46d-28a5d3bdbf84"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "料理",
+            "ruby": "りょうり"
+          }
+        ]
+      },
+      "kana_reading": "りょうり",
+      "meanings": {
+        "en": "cooking; cuisine; dish",
+        "vi": "nấu ăn; món ăn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "fa9ef50c-d7b9-482e-a209-03132da02c0d"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "作",
+            "ruby": "つく"
+          },
+          {
+            "base": "ります"
+          }
+        ]
+      },
+      "kana_reading": "つくります",
+      "meanings": {
+        "en": "make; produce; cook",
+        "vi": "làm; sản xuất; nấu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 200,
+          "pdf_page_end": 200,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "5e849feb-5979-4fb2-9ca5-e2ded4aeb697"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "水",
+            "ruby": "みず"
+          }
+        ]
+      },
+      "kana_reading": "みず",
+      "meanings": {
+        "en": "water",
+        "vi": "nước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "75e7ac8c-ef6a-42a7-b03b-559f31965838"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "家族",
+            "ruby": "かぞく"
+          }
+        ]
+      },
+      "kana_reading": "かぞく",
+      "meanings": {
+        "en": "family",
+        "vi": "gia đình"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "ea2182b4-468c-4e17-9369-f516f9ddda9f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "日本語",
+            "ruby": "にほんご"
+          }
+        ]
+      },
+      "kana_reading": "にほんご",
+      "meanings": {
+        "en": "Japanese language",
+        "vi": "tiếng Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "334595ab-a6ab-48ca-90b0-0e30f9bfb1f1"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "駅",
+            "ruby": "えき"
+          }
+        ]
+      },
+      "kana_reading": "えき",
+      "meanings": {
+        "en": "station",
+        "vi": "nhà ga"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 190,
+          "pdf_page_end": 190,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "5bb89fee-9f9a-4de5-bf03-67027e806e6c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "悪",
+            "ruby": "わる"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "わるい",
+      "meanings": {
+        "en": "bad",
+        "vi": "xấu; tệ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 201,
+          "pdf_page_end": 201,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 132,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "f3a145f9-0405-44a7-9ff6-f0612fad6232"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 25,
+    "reference_volume": "Elementary I",
+    "evidence": {
+      "source_id": "N5_KANJI",
+      "pdf_pages": [
+        6,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 25,
+    "end": 25,
+    "may_include_earlier_material": true
+  },
+  "relationship": "lesson_milestone_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N5_KANJI",
+      "pdf_page_start": 132,
+      "pdf_page_end": 135,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

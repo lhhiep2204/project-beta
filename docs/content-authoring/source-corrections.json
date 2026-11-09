@@ -1,0 +1,170 @@
+{
+  "purpose": "Source discrepancies and ambiguous glosses found during visual review, resolved by owner confirmation B-U-57 using the authored values. Source PDFs remain reference originals.",
+  "decision": "apply_authored_values_owner_confirmed",
+  "items": [
+    {
+      "id": "SRC-01",
+      "source_id": "N5_KANJI",
+      "pdf_page": 204,
+      "source_character_number": 172,
+      "item": "自動車",
+      "source_value": "xe đạp",
+      "proposed_value": {
+        "vi": "xe ô tô",
+        "en": "car; automobile"
+      },
+      "basis": "The same source correctly translates 自動車 on PDF190 under 車58 and 自59.",
+      "references": [
+        "https://dictionary.cambridge.org/dictionary/japanese-english/%E8%87%AA%E5%8B%95%E8%BB%8A"
+      ],
+      "review_status": "owner_confirmed",
+      "draft_disposition": "retain_corroborated_authored_value",
+      "owner_decision": "apply_authored_value_confirmed",
+      "confirmation_reference": "B-U-57"
+    },
+    {
+      "id": "SRC-02",
+      "source_id": "N4_KANJI",
+      "pdf_page": 188,
+      "source_character_number": 231,
+      "item": "必",
+      "source_value": "THIẾT",
+      "proposed_value": "TẤT",
+      "basis": "Visually confirmed source label differs from the standard Sino-Vietnamese dictionary reading.",
+      "references": [
+        "https://hvdic.thivien.net/wpy/%E5%BF%85"
+      ],
+      "review_status": "owner_confirmed",
+      "draft_disposition": "retain_corroborated_authored_value",
+      "owner_decision": "apply_authored_value_confirmed",
+      "confirmation_reference": "B-U-57"
+    },
+    {
+      "id": "SRC-03",
+      "source_id": "N4_KANJI",
+      "pdf_page": 199,
+      "source_character_number": 301,
+      "item": "隅",
+      "source_value": "ÔI",
+      "proposed_value": "NGUNG",
+      "basis": "Visually confirmed source label differs from the standard Sino-Vietnamese dictionary reading.",
+      "references": [
+        "https://hvdic.thivien.net/whv/%E9%9A%85"
+      ],
+      "review_status": "owner_confirmed",
+      "draft_disposition": "retain_corroborated_authored_value",
+      "owner_decision": "apply_authored_value_confirmed",
+      "confirmation_reference": "B-U-57"
+    },
+    {
+      "id": "SRC-04",
+      "source_id": "N4_KANJI",
+      "pdf_page": 224,
+      "source_character_number": 454,
+      "item": "界",
+      "source_value": "がい",
+      "proposed_value": "カイ",
+      "basis": "The source itself gives 世界 as せかい; Kanjipedia lists the character On reading カイ.",
+      "references": [
+        "https://www.kanjipedia.jp/kanji/0000794700"
+      ],
+      "review_status": "owner_confirmed",
+      "draft_disposition": "retain_corroborated_authored_value",
+      "owner_decision": "apply_authored_value_confirmed",
+      "confirmation_reference": "B-U-57"
+    },
+    {
+      "id": "SRC-05",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 95,
+      "reference_lesson_number": 37,
+      "vocabulary_id": "f1ace8d1-0f58-4423-931f-77a28d826779",
+      "vocabulary_key": "word_15",
+      "item": "発明します",
+      "source_value": "giải thích, thuyết trình",
+      "proposed_value": {
+        "vi": "phát minh",
+        "en": "invent"
+      },
+      "classification": "incorrect_gloss",
+      "basis": "Primary and author visually checked the printed line. The authored basic meaning distinguishes the lexical sense from an incorrect or contextually ambiguous Vietnamese source gloss.",
+      "references": [
+        "https://dictionary.cambridge.org/ja/dictionary/japanese-english/%E7%99%BA%E6%98%8E"
+      ],
+      "review_status": "owner_confirmed",
+      "draft_disposition": "retain_corroborated_authored_value",
+      "owner_decision": "apply_authored_value_confirmed",
+      "confirmation_reference": "B-U-57"
+    },
+    {
+      "id": "SRC-06",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 137,
+      "reference_lesson_number": 44,
+      "vocabulary_id": "aa4ec9fb-f706-49cb-8283-925f1f81aa4c",
+      "vocabulary_key": "word_14",
+      "item": "太い",
+      "source_value": "đậm",
+      "proposed_value": {
+        "vi": "to (bề ngang)",
+        "en": "thick in diameter"
+      },
+      "classification": "ambiguous_gloss",
+      "basis": "Primary and author visually checked the printed line. The authored basic meaning distinguishes the lexical sense from an incorrect or contextually ambiguous Vietnamese source gloss.",
+      "references": [
+        "https://www.erin.jpf.go.jp/materials/vocabulary/download/erin_lesson18_vocabulary_list.pdf"
+      ],
+      "review_status": "owner_confirmed",
+      "draft_disposition": "retain_corroborated_authored_value",
+      "owner_decision": "apply_authored_value_confirmed",
+      "confirmation_reference": "B-U-57"
+    },
+    {
+      "id": "SRC-07",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 137,
+      "reference_lesson_number": 44,
+      "vocabulary_id": "432f7376-8c84-4b98-9dca-a26672cbc592",
+      "vocabulary_key": "word_15",
+      "item": "細い",
+      "source_value": "nhạt",
+      "proposed_value": {
+        "vi": "mảnh",
+        "en": "slender"
+      },
+      "classification": "ambiguous_gloss",
+      "basis": "Primary and author visually checked the printed line. The authored basic meaning distinguishes the lexical sense from an incorrect or contextually ambiguous Vietnamese source gloss.",
+      "references": [
+        "https://www.erin.jpf.go.jp/materials/vocabulary/download/erin_lesson18_vocabulary_list.pdf"
+      ],
+      "review_status": "owner_confirmed",
+      "draft_disposition": "retain_corroborated_authored_value",
+      "owner_decision": "apply_authored_value_confirmed",
+      "confirmation_reference": "B-U-57"
+    }
+  ],
+  "owner_instruction_date": "2026-11-07",
+  "owner_instruction": "If the source was seen clearly without misreading, continue keeping the current values and proceed; still mark these items as requiring checking.",
+  "release_disposition": "not_cleared_by_this_authoring_decision",
+  "additional_owner_instruction_date": "2026-11-07",
+  "additional_owner_instruction": "Giữ nghĩa đúng và đánh dấu cả 3 để kiểm tra lại",
+  "decision_references": [
+    "B-U-55",
+    "B-U-56",
+    "B-U-57"
+  ],
+  "confirmation": {
+    "decision_reference": "B-U-57",
+    "date": "2026-11-07",
+    "instruction": "confirm là sửa tất cả theo Bản thảo đang giữ",
+    "scope": [
+      "SRC-01",
+      "SRC-02",
+      "SRC-03",
+      "SRC-04",
+      "SRC-05",
+      "SRC-06",
+      "SRC-07"
+    ]
+  }
+}

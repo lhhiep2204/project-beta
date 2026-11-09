@@ -1,0 +1,643 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "bddd9df5-2314-4f8b-9435-593b00fd5b76",
+  "editorial_key": "kanji_unit_40",
+  "reference_unit_number": 40,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 40: lesson 40 reading words",
+    "vi": "Kanji bài 40: từ đọc của bài 40"
+  },
+  "character_glyphs": [
+    "靴",
+    "都",
+    "返",
+    "表",
+    "発",
+    "確",
+    "残",
+    "合",
+    "事",
+    "会",
+    "数",
+    "若",
+    "心",
+    "配",
+    "以",
+    "下",
+    "忘",
+    "年",
+    "二",
+    "次",
+    "便",
+    "本",
+    "三",
+    "十",
+    "無",
+    "料"
+  ],
+  "word_examples": [
+    {
+      "id": "9e972633-6b8a-4526-aeae-f5332c117f72",
+      "japanese": {
+        "segments": [
+          {
+            "base": "靴",
+            "ruby": "くつ"
+          }
+        ]
+      },
+      "kana_reading": "くつ",
+      "meanings": {
+        "en": "shoes",
+        "vi": "giày"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d31fd8e5-a88f-4662-9bbf-9e09f62aa11b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "都合",
+            "ruby": "つごう"
+          }
+        ]
+      },
+      "kana_reading": "つごう",
+      "meanings": {
+        "en": "circumstances; convenience",
+        "vi": "điều kiện; sự thuận tiện"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5c9806c5-88f3-484b-b553-38feb98be2c3",
+      "japanese": {
+        "segments": [
+          {
+            "base": "返事",
+            "ruby": "へんじ"
+          }
+        ]
+      },
+      "kana_reading": "へんじ",
+      "meanings": {
+        "en": "reply",
+        "vi": "câu trả lời"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c9e39ed4-9766-4d56-aa60-fd16323654a9",
+      "japanese": {
+        "segments": [
+          {
+            "base": "表",
+            "ruby": "おもて"
+          }
+        ]
+      },
+      "kana_reading": "おもて",
+      "meanings": {
+        "en": "front; face of a sheet",
+        "vi": "mặt trước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2d1cd630-16d0-46ca-8f4f-5893e066c8ce",
+      "japanese": {
+        "segments": [
+          {
+            "base": "発表",
+            "ruby": "はっぴょう"
+          }
+        ]
+      },
+      "kana_reading": "はっぴょう",
+      "meanings": {
+        "en": "presentation",
+        "vi": "việc trình bày"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d7fbd8b8-0990-4f73-b299-6fabdc340981",
+      "japanese": {
+        "segments": [
+          {
+            "base": "発表会",
+            "ruby": "はっぴょうかい"
+          }
+        ]
+      },
+      "kana_reading": "はっぴょうかい",
+      "meanings": {
+        "en": "presentation event; recital",
+        "vi": "buổi trình bày; buổi biểu diễn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "09da6c3b-8d68-4bc7-bf1a-74d768df1b72",
+      "japanese": {
+        "segments": [
+          {
+            "base": "確",
+            "ruby": "たし"
+          },
+          {
+            "base": "かめる"
+          }
+        ]
+      },
+      "kana_reading": "たしかめる",
+      "meanings": {
+        "en": "check; make sure",
+        "vi": "kiểm tra"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9a022ffe-f5ca-4b7a-a819-bd0fbf330bac",
+      "japanese": {
+        "segments": [
+          {
+            "base": "残",
+            "ruby": "のこ"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "のこる",
+      "meanings": {
+        "en": "remain",
+        "vi": "còn lại"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2a482a1f-3b4d-480d-941f-5c251f0e62d9",
+      "japanese": {
+        "segments": [
+          {
+            "base": "数",
+            "ruby": "かぞ"
+          },
+          {
+            "base": "える"
+          }
+        ]
+      },
+      "kana_reading": "かぞえる",
+      "meanings": {
+        "en": "count",
+        "vi": "đếm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c9ac264d-e98f-4c3f-adbd-fba3b3acbe9b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "若",
+            "ruby": "わか"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "わかい",
+      "meanings": {
+        "en": "young",
+        "vi": "trẻ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2df61af4-5366-47b3-9eb4-fa7d71f99adb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "心配",
+            "ruby": "しんぱい"
+          }
+        ]
+      },
+      "kana_reading": "しんぱい",
+      "meanings": {
+        "en": "worried",
+        "vi": "lo lắng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2c99cf00-6444-48a1-b3ea-ef62b35d715a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "以下",
+            "ruby": "いか"
+          }
+        ]
+      },
+      "kana_reading": "いか",
+      "meanings": {
+        "en": "at or below",
+        "vi": "trở xuống"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a5ef6c9f-d1d2-4229-95d7-1baed0585469",
+      "japanese": {
+        "segments": [
+          {
+            "base": "忘年会",
+            "ruby": "ぼうねんかい"
+          }
+        ]
+      },
+      "kana_reading": "ぼうねんかい",
+      "meanings": {
+        "en": "year-end party",
+        "vi": "tiệc tất niên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b8985102-e6dc-4e1f-ba14-d53c83b105ff",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二次会",
+            "ruby": "にじかい"
+          }
+        ]
+      },
+      "kana_reading": "にじかい",
+      "meanings": {
+        "en": "after-party",
+        "vi": "tăng hai"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "1aa93812-532e-45a5-a304-1f0c58914e3a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "合",
+            "ruby": "あ"
+          },
+          {
+            "base": "う"
+          }
+        ]
+      },
+      "kana_reading": "あう",
+      "meanings": {
+        "en": "fit; match",
+        "vi": "hợp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b4b95aa8-018d-455d-8022-7b53117c73b8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "便",
+            "ruby": "びん"
+          }
+        ]
+      },
+      "kana_reading": "びん",
+      "meanings": {
+        "en": "flight; scheduled service",
+        "vi": "chuyến"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a03ab973-7aef-4d62-af80-9fada432ebb6",
+      "japanese": {
+        "segments": [
+          {
+            "base": "本",
+            "ruby": "ほん"
+          }
+        ]
+      },
+      "kana_reading": "ほん",
+      "meanings": {
+        "en": "long cylindrical objects (counter)",
+        "vi": "cái; chai (vật dài)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "03352438-90d8-4c6f-b00f-7320c7c8d81d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三本",
+            "ruby": "さんぼん"
+          }
+        ]
+      },
+      "kana_reading": "さんぼん",
+      "meanings": {
+        "en": "three long cylindrical items",
+        "vi": "ba chai; ba vật dài"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "bfe22fb2-c334-4074-9a97-cba5ff2bbd9e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二十本",
+            "ruby": "にじゅっぽん"
+          }
+        ]
+      },
+      "kana_reading": "にじゅっぽん",
+      "meanings": {
+        "en": "twenty long cylindrical items",
+        "vi": "hai mươi vật dài"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d5d824f6-1d48-42b7-a172-e3c91d046040",
+      "japanese": {
+        "segments": [
+          {
+            "base": "無料",
+            "ruby": "むりょう"
+          }
+        ]
+      },
+      "kana_reading": "むりょう",
+      "meanings": {
+        "en": "free of charge",
+        "vi": "miễn phí"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "1b763164-6c49-475a-9ebf-bbaefea05213",
+      "japanese": {
+        "segments": [
+          {
+            "base": "本",
+            "ruby": "ぼん"
+          }
+        ]
+      },
+      "kana_reading": "ぼん",
+      "meanings": {
+        "en": "counter for long cylindrical objects; reading depends on the preceding number",
+        "vi": "trợ số từ cho vật dài; cách đọc thay đổi theo số đứng trước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 96,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "07ef3902-7c6d-4d71-af65-8ccd99c357e2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "本",
+            "ruby": "ぽん"
+          }
+        ]
+      },
+      "kana_reading": "ぽん",
+      "meanings": {
+        "en": "counter for long cylindrical objects; reading depends on the preceding number",
+        "vi": "trợ số từ cho vật dài; cách đọc thay đổi theo số đứng trước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 96,
+          "pdf_page_end": 96,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 40,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 40,
+    "end": 40,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 96,
+      "pdf_page_end": 99,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

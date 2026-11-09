@@ -1,0 +1,713 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "63b081ac-d31c-40be-a98e-e9b63eb1c969",
+  "editorial_key": "kanji_unit_32",
+  "reference_unit_number": 32,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 32: lesson 32 reading words",
+    "vi": "Kanji bài 32: từ đọc của bài 32"
+  },
+  "character_glyphs": [
+    "星",
+    "雪",
+    "空",
+    "夕",
+    "済",
+    "合",
+    "込",
+    "方",
+    "経",
+    "試",
+    "間",
+    "冷",
+    "練",
+    "習",
+    "勝",
+    "続",
+    "遊",
+    "最",
+    "近",
+    "国",
+    "際",
+    "水",
+    "道",
+    "調",
+    "子",
+    "月",
+    "今",
+    "夜",
+    "十",
+    "分",
+    "運",
+    "動",
+    "電",
+    "話",
+    "港",
+    "結",
+    "婚"
+  ],
+  "word_examples": [
+    {
+      "id": "82a33107-cdaf-4ce1-bd44-a960e9324141",
+      "japanese": {
+        "segments": [
+          {
+            "base": "星",
+            "ruby": "ほし"
+          }
+        ]
+      },
+      "kana_reading": "ほし",
+      "meanings": {
+        "en": "star",
+        "vi": "ngôi sao"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5f44e7f5-2454-4334-bef4-a4b534f01181",
+      "japanese": {
+        "segments": [
+          {
+            "base": "雪",
+            "ruby": "ゆき"
+          }
+        ]
+      },
+      "kana_reading": "ゆき",
+      "meanings": {
+        "en": "snow",
+        "vi": "tuyết"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0ca16fd3-111c-4a71-b814-e3738f141fc8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "空",
+            "ruby": "そら"
+          }
+        ]
+      },
+      "kana_reading": "そら",
+      "meanings": {
+        "en": "sky",
+        "vi": "bầu trời"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "26440809-8f84-49d8-9a5f-e346b83774f2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "夕方",
+            "ruby": "ゆうがた"
+          }
+        ]
+      },
+      "kana_reading": "ゆうがた",
+      "meanings": {
+        "en": "late afternoon",
+        "vi": "chiều muộn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7d30a494-c331-4ee2-825c-ea99aa882742",
+      "japanese": {
+        "segments": [
+          {
+            "base": "経済",
+            "ruby": "けいざい"
+          }
+        ]
+      },
+      "kana_reading": "けいざい",
+      "meanings": {
+        "en": "economy",
+        "vi": "kinh tế"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c2815453-d807-4c1c-b54b-dacccff32e5a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "試合",
+            "ruby": "しあい"
+          }
+        ]
+      },
+      "kana_reading": "しあい",
+      "meanings": {
+        "en": "match; game",
+        "vi": "trận đấu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f275a910-6b89-497c-be67-b277d8ef87df",
+      "japanese": {
+        "segments": [
+          {
+            "base": "間に合",
+            "ruby": "まにあ"
+          },
+          {
+            "base": "う"
+          }
+        ]
+      },
+      "kana_reading": "まにあう",
+      "meanings": {
+        "en": "be in time",
+        "vi": "kịp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a581efa4-bc11-4a63-9b1a-6e22b6eb5b40",
+      "japanese": {
+        "segments": [
+          {
+            "base": "込",
+            "ruby": "こ"
+          },
+          {
+            "base": "む"
+          }
+        ]
+      },
+      "kana_reading": "こむ",
+      "meanings": {
+        "en": "be crowded",
+        "vi": "đông đúc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6a310de7-df8d-48a1-9eaa-ecfe6aecf143",
+      "japanese": {
+        "segments": [
+          {
+            "base": "冷",
+            "ruby": "ひ"
+          },
+          {
+            "base": "やす"
+          }
+        ]
+      },
+      "kana_reading": "ひやす",
+      "meanings": {
+        "en": "chill; cool something",
+        "vi": "làm lạnh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "af9f0c09-812b-4c37-a5b2-12e40660ffa3",
+      "japanese": {
+        "segments": [
+          {
+            "base": "練習",
+            "ruby": "れんしゅう"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "れんしゅうする",
+      "meanings": {
+        "en": "practice",
+        "vi": "luyện tập"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "49aa1402-e448-4974-94a9-e6852e4a5b31",
+      "japanese": {
+        "segments": [
+          {
+            "base": "勝",
+            "ruby": "か"
+          },
+          {
+            "base": "つ"
+          }
+        ]
+      },
+      "kana_reading": "かつ",
+      "meanings": {
+        "en": "win",
+        "vi": "thắng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0e60f20b-98d4-4bcd-96bb-617e26603160",
+      "japanese": {
+        "segments": [
+          {
+            "base": "続",
+            "ruby": "つづ"
+          },
+          {
+            "base": "く"
+          }
+        ]
+      },
+      "kana_reading": "つづく",
+      "meanings": {
+        "en": "continue (intransitive)",
+        "vi": "tiếp diễn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2f75b830-db84-4fdb-af98-edc1e9df595d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "遊",
+            "ruby": "あそ"
+          },
+          {
+            "base": "ぶ"
+          }
+        ]
+      },
+      "kana_reading": "あそぶ",
+      "meanings": {
+        "en": "play",
+        "vi": "chơi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "edce45ce-2134-4a05-89f3-a990ff2fc119",
+      "japanese": {
+        "segments": [
+          {
+            "base": "最近",
+            "ruby": "さいきん"
+          }
+        ]
+      },
+      "kana_reading": "さいきん",
+      "meanings": {
+        "en": "recently",
+        "vi": "gần đây"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2c972402-6dc8-4210-81c3-095418a6fd44",
+      "japanese": {
+        "segments": [
+          {
+            "base": "国際",
+            "ruby": "こくさい"
+          }
+        ]
+      },
+      "kana_reading": "こくさい",
+      "meanings": {
+        "en": "international",
+        "vi": "quốc tế"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "77877ebe-f262-4c75-8152-f56f39539b03",
+      "japanese": {
+        "segments": [
+          {
+            "base": "水道",
+            "ruby": "すいどう"
+          }
+        ]
+      },
+      "kana_reading": "すいどう",
+      "meanings": {
+        "en": "water supply",
+        "vi": "nước máy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8ac9aa71-e7f1-4a0c-9572-f0b79f173183",
+      "japanese": {
+        "segments": [
+          {
+            "base": "調子",
+            "ruby": "ちょうし"
+          }
+        ]
+      },
+      "kana_reading": "ちょうし",
+      "meanings": {
+        "en": "condition",
+        "vi": "tình trạng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "cc98a767-9db6-4ab4-a68c-6b148318f52b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "月",
+            "ruby": "つき"
+          }
+        ]
+      },
+      "kana_reading": "つき",
+      "meanings": {
+        "en": "moon",
+        "vi": "mặt trăng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ccdd6821-3993-4295-bf78-c6cf6f3089d2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "今夜",
+            "ruby": "こんや"
+          }
+        ]
+      },
+      "kana_reading": "こんや",
+      "meanings": {
+        "en": "tonight",
+        "vi": "tối nay"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "624a6d5e-9919-4109-8a24-8022ff5800db",
+      "japanese": {
+        "segments": [
+          {
+            "base": "十分",
+            "ruby": "じゅうぶん"
+          }
+        ]
+      },
+      "kana_reading": "じゅうぶん",
+      "meanings": {
+        "en": "enough",
+        "vi": "đủ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "884b59db-e7f5-4559-a362-97e0bb537f6f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "運動",
+            "ruby": "うんどう"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "うんどうする",
+      "meanings": {
+        "en": "exercise",
+        "vi": "vận động"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "33e0fee7-7286-460c-a20c-c8e806d3de05",
+      "japanese": {
+        "segments": [
+          {
+            "base": "国際電話",
+            "ruby": "こくさいでんわ"
+          }
+        ]
+      },
+      "kana_reading": "こくさいでんわ",
+      "meanings": {
+        "en": "international telephone call",
+        "vi": "cuộc gọi quốc tế"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0e32fdf7-6053-401b-a6c7-6959bc1e270f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "国際空港",
+            "ruby": "こくさいくうこう"
+          }
+        ]
+      },
+      "kana_reading": "こくさいくうこう",
+      "meanings": {
+        "en": "international airport",
+        "vi": "sân bay quốc tế"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7fa27a77-d523-475e-b771-ba7e9eb3e7a2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "国際結婚",
+            "ruby": "こくさいけっこん"
+          }
+        ]
+      },
+      "kana_reading": "こくさいけっこん",
+      "meanings": {
+        "en": "international marriage",
+        "vi": "hôn nhân giữa người khác quốc tịch"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 62,
+          "pdf_page_end": 65,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 32,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 32,
+    "end": 32,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 62,
+      "pdf_page_end": 65,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

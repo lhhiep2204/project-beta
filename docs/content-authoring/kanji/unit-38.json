@@ -1,0 +1,778 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "7b15e900-1bab-4dfa-99e1-fa999209520a",
+  "editorial_key": "kanji_unit_38",
+  "reference_unit_number": 38,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 38: lesson 38 reading words",
+    "vi": "Kanji bài 38: từ đọc của bài 38"
+  },
+  "character_glyphs": [
+    "卵",
+    "村",
+    "岸",
+    "工",
+    "製",
+    "冊",
+    "無",
+    "海",
+    "場",
+    "理",
+    "難",
+    "速",
+    "育",
+    "負",
+    "散",
+    "歩",
+    "赤",
+    "研",
+    "究",
+    "室",
+    "習",
+    "慣",
+    "危",
+    "続",
+    "変",
+    "見",
+    "学",
+    "小",
+    "大",
+    "初",
+    "日",
+    "本",
+    "自",
+    "動",
+    "車",
+    "一",
+    "二"
+  ],
+  "word_examples": [
+    {
+      "id": "8fae534c-2c5b-4029-bc14-533937219742",
+      "japanese": {
+        "segments": [
+          {
+            "base": "卵",
+            "ruby": "たまご"
+          }
+        ]
+      },
+      "kana_reading": "たまご",
+      "meanings": {
+        "en": "egg",
+        "vi": "trứng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e777886d-6bb8-40f1-8029-b9228ce217f4",
+      "japanese": {
+        "segments": [
+          {
+            "base": "村",
+            "ruby": "むら"
+          }
+        ]
+      },
+      "kana_reading": "むら",
+      "meanings": {
+        "en": "village",
+        "vi": "làng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "87d47bdf-3181-428f-941a-0f96521db5fd",
+      "japanese": {
+        "segments": [
+          {
+            "base": "海岸",
+            "ruby": "かいがん"
+          }
+        ]
+      },
+      "kana_reading": "かいがん",
+      "meanings": {
+        "en": "seashore",
+        "vi": "bờ biển"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "98aba38e-0b5e-41f7-bbb4-633c79f31132",
+      "japanese": {
+        "segments": [
+          {
+            "base": "工場",
+            "ruby": "こうじょう"
+          }
+        ]
+      },
+      "kana_reading": "こうじょう",
+      "meanings": {
+        "en": "factory",
+        "vi": "nhà máy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "da0de95d-4dba-40e6-b412-1421f58ec015",
+      "japanese": {
+        "segments": [
+          {
+            "base": "製",
+            "ruby": "せい"
+          }
+        ]
+      },
+      "kana_reading": "せい",
+      "meanings": {
+        "en": "made in",
+        "vi": "sản xuất tại"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "51864fe8-db01-4364-ad3f-9bdc53ca531f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "冊",
+            "ruby": "さつ"
+          }
+        ]
+      },
+      "kana_reading": "さつ",
+      "meanings": {
+        "en": "bound volumes (counter)",
+        "vi": "quyển"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "793f6f38-9fc6-4517-aeab-7209e96083cd",
+      "japanese": {
+        "segments": [
+          {
+            "base": "無理",
+            "ruby": "むり"
+          }
+        ]
+      },
+      "kana_reading": "むり",
+      "meanings": {
+        "en": "excessive; unreasonable",
+        "vi": "quá sức"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "46ff81fe-6b44-4fb4-9b22-b220da3e0648",
+      "japanese": {
+        "segments": [
+          {
+            "base": "難",
+            "ruby": "むずか"
+          },
+          {
+            "base": "しい"
+          }
+        ]
+      },
+      "kana_reading": "むずかしい",
+      "meanings": {
+        "en": "difficult",
+        "vi": "khó"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2ab0473a-8e38-4bcd-a43b-6262bd32382a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "速",
+            "ruby": "はや"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "はやい",
+      "meanings": {
+        "en": "fast",
+        "vi": "nhanh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d1ab2ec8-1123-4594-b288-b65d66d3e489",
+      "japanese": {
+        "segments": [
+          {
+            "base": "育",
+            "ruby": "そだ"
+          },
+          {
+            "base": "てる"
+          }
+        ]
+      },
+      "kana_reading": "そだてる",
+      "meanings": {
+        "en": "raise; grow",
+        "vi": "nuôi; trồng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8ecf5a9f-c17c-4e3d-b512-63107305fa77",
+      "japanese": {
+        "segments": [
+          {
+            "base": "負",
+            "ruby": "ま"
+          },
+          {
+            "base": "ける"
+          }
+        ]
+      },
+      "kana_reading": "まける",
+      "meanings": {
+        "en": "lose a contest",
+        "vi": "thua"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "93a11539-143f-4a82-9951-a24a4fd5a9cb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "散歩",
+            "ruby": "さんぽ"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "さんぽする",
+      "meanings": {
+        "en": "take a walk",
+        "vi": "đi dạo"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "56aed63a-08ca-42f5-a2b0-01316ca2b340",
+      "japanese": {
+        "segments": [
+          {
+            "base": "赤",
+            "ruby": "あか"
+          },
+          {
+            "base": "ちゃん"
+          }
+        ]
+      },
+      "kana_reading": "あかちゃん",
+      "meanings": {
+        "en": "baby",
+        "vi": "em bé"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "cd66783e-d7f2-4ae7-8463-e5c1c90ccbd3",
+      "japanese": {
+        "segments": [
+          {
+            "base": "研究室",
+            "ruby": "けんきゅうしつ"
+          }
+        ]
+      },
+      "kana_reading": "けんきゅうしつ",
+      "meanings": {
+        "en": "research room",
+        "vi": "phòng nghiên cứu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "004efdf6-d9df-40db-a0f9-455d722a0300",
+      "japanese": {
+        "segments": [
+          {
+            "base": "習慣",
+            "ruby": "しゅうかん"
+          }
+        ]
+      },
+      "kana_reading": "しゅうかん",
+      "meanings": {
+        "en": "habit; custom",
+        "vi": "thói quen; tập quán"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6a731a46-4e2a-4bfa-8e8e-7b6181ce5459",
+      "japanese": {
+        "segments": [
+          {
+            "base": "危",
+            "ruby": "あぶ"
+          },
+          {
+            "base": "ない"
+          }
+        ]
+      },
+      "kana_reading": "あぶない",
+      "meanings": {
+        "en": "dangerous",
+        "vi": "nguy hiểm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "494fb4d7-3703-4490-b96e-75bee548c5b5",
+      "japanese": {
+        "segments": [
+          {
+            "base": "続",
+            "ruby": "つづ"
+          },
+          {
+            "base": "ける"
+          }
+        ]
+      },
+      "kana_reading": "つづける",
+      "meanings": {
+        "en": "continue something",
+        "vi": "tiếp tục"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f2cba77d-1a75-4567-8fd0-daa6f4b93d1b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "変",
+            "ruby": "か"
+          },
+          {
+            "base": "える"
+          }
+        ]
+      },
+      "kana_reading": "かえる",
+      "meanings": {
+        "en": "change something",
+        "vi": "thay đổi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d372291f-7b13-4d7b-baa5-c11035d746b0",
+      "japanese": {
+        "segments": [
+          {
+            "base": "見学",
+            "ruby": "けんがく"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "けんがくする",
+      "meanings": {
+        "en": "visit for observation",
+        "vi": "tham quan học tập"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7eb3ec17-88cc-4b4b-9d48-44eba5383950",
+      "japanese": {
+        "segments": [
+          {
+            "base": "小",
+            "ruby": "ちい"
+          },
+          {
+            "base": "さな"
+          }
+        ]
+      },
+      "kana_reading": "ちいさな",
+      "meanings": {
+        "en": "small",
+        "vi": "nhỏ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "90fa0c7e-2aff-4a3b-bced-0587200bd9f0",
+      "japanese": {
+        "segments": [
+          {
+            "base": "大",
+            "ruby": "おお"
+          },
+          {
+            "base": "きな"
+          }
+        ]
+      },
+      "kana_reading": "おおきな",
+      "meanings": {
+        "en": "large",
+        "vi": "lớn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7cb227c5-8c78-40f2-860a-e12389a4cd8f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "初",
+            "ruby": "はじ"
+          },
+          {
+            "base": "めて"
+          }
+        ]
+      },
+      "kana_reading": "はじめて",
+      "meanings": {
+        "en": "for the first time",
+        "vi": "lần đầu tiên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "64a81bae-c82f-49f0-8195-9f9123165ad2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "日本製",
+            "ruby": "にほんせい"
+          }
+        ]
+      },
+      "kana_reading": "にほんせい",
+      "meanings": {
+        "en": "made in Japan",
+        "vi": "sản xuất tại Nhật Bản"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b5242380-9ac8-4673-8c4b-0c548bce7957",
+      "japanese": {
+        "segments": [
+          {
+            "base": "自動車工場",
+            "ruby": "じどうしゃこうじょう"
+          }
+        ]
+      },
+      "kana_reading": "じどうしゃこうじょう",
+      "meanings": {
+        "en": "automobile factory",
+        "vi": "nhà máy ô tô"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a07988a3-d3ea-4098-82e4-37c8863d97f8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "一冊",
+            "ruby": "いっさつ"
+          }
+        ]
+      },
+      "kana_reading": "いっさつ",
+      "meanings": {
+        "en": "one bound volume",
+        "vi": "một quyển"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d80e2da9-9676-4b04-8fdf-cc18ab88aafb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二冊",
+            "ruby": "にさつ"
+          }
+        ]
+      },
+      "kana_reading": "にさつ",
+      "meanings": {
+        "en": "two bound volumes",
+        "vi": "hai quyển"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 38,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 38,
+    "end": 38,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 88,
+      "pdf_page_end": 91,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

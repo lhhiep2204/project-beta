@@ -1,0 +1,4939 @@
+{
+  "format_version": "1.0",
+  "task": "P0-T03",
+  "date": "2026-11-08",
+  "status": "primary_self_review_complete",
+  "reviewer": "primary_agent",
+  "authority": [
+    "B-U-51",
+    "B-U-52",
+    "DS-U-25",
+    "DS-U-26",
+    "DS-U-43"
+  ],
+  "independent_human_review": "not_claimed",
+  "native_tts_review": "not_performed",
+  "release_approval": "not_claimed",
+  "method": [
+    "Compared both official modern-kana table images and the full loanword Table 1/Table 2 image; reconciled source cells to stable item IDs.",
+    "Reviewed all 301 glyph/context/reading/English/Vietnamese/guidance tuples as authoring content. Reviewed uncommon contexts separately; explicitly labelled sound transcriptions, proper names, historical expansions and modern-equivalent demonstrations.",
+    "Compared conditional spellings and historical correspondences with the linked Agency for Cultural Affairs text. Unicode is used only for glyph identity, composition, repetition and ligature semantics. The publisher dictionary resolves the uncommon ぢょ word; this is bounded lexical verification, not a new full-corpus source review.",
+    "Created item-level content digests only after correcting the findings below. Validators reject stale review pins; structural success alone cannot produce review acceptance.",
+    "Final counterpart review added ヂャ/ヂュ/ヂョ as three explicitly labelled Katakana reference transcriptions of the already-reviewed conditional Hiragana contexts. No new foreign sound or loanword-table claim."
+  ],
+  "visual_sources": [
+    {
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/img/1000004198_50on1.gif",
+      "sha256": "13070b4a38ebe6f1c78c06b56f80b44011fdeb35f9b1dc879de5b0371183e94c",
+      "scope": "All direct table cells, including underlined ぢ/づ/を; nasal ん in the text."
+    },
+    {
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/img/1000005394_50on2.gif",
+      "sha256": "eca8c79d6676291b0e897d4590b331fcf487c727eebb5e18a74028cb8539a28d",
+      "scope": "All 36 contracted cells, including the three conditional ぢ forms."
+    },
+    {
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gairai/img/94381301_01.png",
+      "sha256": "1e3a7c3eeb3f7244172280e0d54f31ba922a550879438b3f7c17ce26af29ddfc",
+      "scope": "Table 1 direct/contracted/special forms, 13 extended Table 1 forms and all 20 Table 2 forms."
+    }
+  ],
+  "findings": [
+    {
+      "id": "KANA-R01",
+      "resolution": "Replaced シ→シャツ with シール: シャ did not demonstrate the uncombined シ cell.",
+      "entries": [
+        "571f598c-b95a-4ac8-9fb9-4579e967ac76"
+      ]
+    },
+    {
+      "id": "KANA-R02",
+      "resolution": "Replaced the uncombined ヴ example ヴィヴァルディ with source-listed ヴラマンク; both ヴ occurrences in the former were combined with a small vowel.",
+      "entries": [
+        "8004e121-1b06-4b5a-ade2-869b30afc2dc"
+      ]
+    },
+    {
+      "id": "KANA-R03",
+      "resolution": "Mapped the conditional ぢゃ/ぢゅ/ぢょ table cells to a labelled reference group with actual lexical contexts rather than silently omitting them.",
+      "entries": [
+        "32f1e107-2b5e-49a4-9358-d5042276c35a",
+        "e593bee2-4abd-472d-b096-c6a48f63666b",
+        "dbd31822-7ac4-4a0f-99dd-167caae41b6e",
+        "11d22a52-72ae-4d4e-b4e5-db60daa0b312",
+        "fc90b79d-4d1f-4e37-89e0-9c0a0d591176",
+        "09835f90-2acb-407d-9a25-b889accc1966"
+      ]
+    },
+    {
+      "id": "KANA-R04",
+      "resolution": "Reference glyphs use explicit expanded or modern-equivalent word contexts. ゕ/ゖ use clearly labelled modern base-letter contexts; no invented historical word use or isolated mark speech is asserted.",
+      "entries": [
+        "32f1e107-2b5e-49a4-9358-d5042276c35a",
+        "e593bee2-4abd-472d-b096-c6a48f63666b",
+        "dbd31822-7ac4-4a0f-99dd-167caae41b6e",
+        "8177a5d4-1729-4dfd-8043-87fd6508a9d0",
+        "7b94ffb5-9d11-4aa9-8402-0a44fb8974c8",
+        "0ed6dea7-14d9-450d-aee1-db76155853be",
+        "f4860f26-b898-4ecc-9e9f-750b474fafce",
+        "a1714d80-4e68-4d08-b73d-2ac6c909f9ff",
+        "11404d21-0375-44e3-b432-ab201e46115d",
+        "ed062814-2e05-4f36-aa52-fa6a70379a07",
+        "c344707f-81ee-4999-a376-97cfbb703d1e",
+        "a9701f07-d98e-45c2-a27c-04e2cdf86227",
+        "9d2c4a4e-a97b-4dd2-bd31-bfa42ab9efec",
+        "ed594ca2-2a7f-44b4-8258-a5b1ee8d7f26",
+        "ccd624f9-d455-419d-a645-4212bbf6960e",
+        "d68f7ad4-5444-4eac-ae58-58e7ac63fa85",
+        "6ae6e07d-9bfe-4cce-a060-8e45bc2fd831",
+        "aa95e9df-214b-4989-a4ff-a10268423578",
+        "32a8ebbf-53d5-4748-b78e-b031f505d89d",
+        "ac1556fd-f7c5-42f5-ad4a-1c7373174a3c",
+        "2eb2729a-ceab-4a37-ace0-df8d38f1cd88",
+        "aab24d48-497c-4401-8f87-1be30c18f608",
+        "e94524f5-8d00-4b82-85b1-5589796d09d5",
+        "7d31cbb9-4b29-45fd-8d69-483169c97fae",
+        "c400bf40-3257-489b-8fca-74c7ed06c427",
+        "7c193b41-1dab-4b7c-bd22-7660b66bed61"
+      ]
+    },
+    {
+      "id": "KANA-R05",
+      "resolution": "Restored the conventional 教 spelling in ヒンドゥー教 with full contextual ruby.",
+      "entries": [
+        "dc1fa14b-f224-459d-9ca4-e0d16291b2ab"
+      ]
+    }
+  ],
+  "input_digests": {
+    "inventory.json": "a7379474b3e39cd311d4bb20af7e200deb751359ec72945cd5b5dd5b60d660b3",
+    "source-inventory.json": "e16da4ee39d3906f32227b79096bf48adef0ff4757892ca1f7171b76eb73ded2",
+    "kana.schema.json": "e63d08442d128966ab99b49030ba5dacb15a02fefd5ad73f1222d17d89775859"
+  },
+  "items": [
+    {
+      "entry_id": "a10cc555-bf2c-4e39-a0cf-a7aa4fe65e98",
+      "key": "hiragana:basic:あ",
+      "entry_digest": "68428c952f13d3cde0fe7a8ef32aa9e48e0158c8301807ff8f3427f9e48d8e84",
+      "example_ids": [
+        "50c8319f-0e0f-4ace-9e90-892364ce1ddc"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "a31687c6-4d22-4ce5-8399-008029f92455",
+      "key": "katakana:basic:ア",
+      "entry_digest": "4d196f695d663ef8342af78af1cdaf7355db49ec8106bead6f912a82616a99ee",
+      "example_ids": [
+        "e1f7673a-ffc8-4008-9cd1-e6f7783a2ac7"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "04a6c34b-01cc-44a5-830d-b44d75f2371c",
+      "key": "hiragana:basic:い",
+      "entry_digest": "c4aa70967a02fc4855543939488e233a1d132445f4fe94a515b8c0084090626e",
+      "example_ids": [
+        "6beecc6c-af45-4a94-bde7-f20a358a87cf"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "ca368fa9-c4f0-4371-b3bf-2d00ef4eddd7",
+      "key": "katakana:basic:イ",
+      "entry_digest": "837723c6b0210ba2274904de7e4c5eccbe35b742f45dadbdb4406c6e7b4c2805",
+      "example_ids": [
+        "dab203a3-59be-4e9c-8ccc-7afd47ce8f4e"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f4bd2b9f-f058-4518-a335-8b5b8f77c8b8",
+      "key": "hiragana:basic:う",
+      "entry_digest": "ed41de3c7c8507a9ae9055d1771e3a83483167554e0ac512c32fca6d3c1bd477",
+      "example_ids": [
+        "4a912c82-129f-47e8-b3aa-f9e30f37c0c8"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "627ffe57-597b-4ab1-84b0-66425a453db9",
+      "key": "katakana:basic:ウ",
+      "entry_digest": "99aaf2ab45032ee6d738e311609b75d09e55cb72de3b39a8ec62501ac743b1cc",
+      "example_ids": [
+        "e65a0a6f-fea0-46f4-847b-9ab84825e77a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "9a4af029-86d2-4f34-a9aa-3e79c5b3053c",
+      "key": "hiragana:basic:え",
+      "entry_digest": "5b9796cf21dee8186508e8fbfc80633d8267fb9d4e80f0993b43579c7972ebd9",
+      "example_ids": [
+        "c1b6c0af-7da7-4158-8925-f4f32044cac0"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "022edb67-ccbb-4f1a-9f30-026e055cc0f1",
+      "key": "katakana:basic:エ",
+      "entry_digest": "cd37a234e8d53b76f4391059481b0b70d92797b798c02c2deaab353fa0adabb3",
+      "example_ids": [
+        "94f24e36-cbbb-4d53-9ceb-bef3e0ab3d69"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "b77f66f1-b438-470b-b3e0-6465dcd863fb",
+      "key": "hiragana:basic:お",
+      "entry_digest": "1b2637ae39ef9872d709d46ccccdaccb3d57e9a279d658a9c504c1b1b9382c87",
+      "example_ids": [
+        "a0469a1a-2f9f-4935-bffb-ed920c2aadf3"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8478a01c-57f5-4610-b23f-1509b67c260f",
+      "key": "katakana:basic:オ",
+      "entry_digest": "93a0a62debee45fa3000e143f14bd08139b8167db230b4cc8c32a49c47572d37",
+      "example_ids": [
+        "e45a138f-959d-4e65-8c99-e01f4a1a3ca2"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2144cb6f-1999-4a2c-80ce-6abdd56ccdaa",
+      "key": "hiragana:basic:か",
+      "entry_digest": "830422d60f20fbca31e71918d29dae73051cef017f2148e01240aa3b13a49cb2",
+      "example_ids": [
+        "b352bc3a-45c1-461d-91d4-469a5db49c3c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "464fdd88-8654-4170-a37a-a36f2e46b7a5",
+      "key": "katakana:basic:カ",
+      "entry_digest": "71f29c21a62e569dae21f6c74b0e68c2c663c4a360c352939aa215ff71006608",
+      "example_ids": [
+        "9841cdc6-ddc3-4196-a3a1-20319833d162"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f53cd6c1-aeeb-474e-9184-117c52316e3e",
+      "key": "hiragana:basic:き",
+      "entry_digest": "1c19dbbbd8a2298a5956711b05b0d6ee4d36b1628aac10d0ed6876a4c81da459",
+      "example_ids": [
+        "ec020840-e637-49d1-a681-096f50938ed9"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "138bfb8a-fbc3-4f7c-ae07-6f7d398b90c9",
+      "key": "katakana:basic:キ",
+      "entry_digest": "9b44bc88ae9951a68db5e01a40b0fbfc66b29b23297e099f2a009008ccdd5a8e",
+      "example_ids": [
+        "67327b9f-7c83-4852-9f79-2c98beff5b4b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "331c4e69-8ded-4b24-a126-2236857ec51f",
+      "key": "hiragana:basic:く",
+      "entry_digest": "03985fdfb0b29474b1a7e8d35969718892df84ae11796799c8c035d1bde09d1f",
+      "example_ids": [
+        "a6eefc2b-1f19-4b69-a482-2ac53286c28d"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "0d3ba1fb-cbaf-4cde-8f6b-34e0d895cf2b",
+      "key": "katakana:basic:ク",
+      "entry_digest": "dfb1ec20aa9c2ee80e5131927b64e58f95480433eb62beec4adbe333804fd2f8",
+      "example_ids": [
+        "3f57119d-06ca-4f83-9bc1-7a0ccc647d07"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "a2abbea7-44d0-4a0d-bc60-74ab2cbf21a2",
+      "key": "hiragana:basic:け",
+      "entry_digest": "2b8b7b051ee52dae22a92c4aae22912ebb8fc32c084f33cea69aef59bab887e9",
+      "example_ids": [
+        "7692959e-a4ca-43ed-ab70-f603dfe2ff81"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "564a06f4-8d7e-49d9-b58e-950715fdee9b",
+      "key": "katakana:basic:ケ",
+      "entry_digest": "54ede7299b202878936b444e5a38e85dfbcbce167ba082f1df04fc249ea7ada8",
+      "example_ids": [
+        "dd670388-0f79-4c0a-b886-93a309d2556d"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "7dc6a497-d59b-4dc0-8574-915fbc9de630",
+      "key": "hiragana:basic:こ",
+      "entry_digest": "467c1a9422a168e6fb6d9387b17e1de7f6f48170b7b332b656a107b2fce1107d",
+      "example_ids": [
+        "70928cc0-6a4b-4105-9244-4abd034f9322"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "534b46f7-a678-4594-8c90-e68e6839dbeb",
+      "key": "katakana:basic:コ",
+      "entry_digest": "f08e004090d1141f1829e7d040a4632b814d16d248f7c6cc77cdac7b65b751af",
+      "example_ids": [
+        "08e5a204-b516-4595-b2c3-6ff93e5065db"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "cf87032c-44b6-43df-a5fa-b38c42aa5f8e",
+      "key": "hiragana:basic:さ",
+      "entry_digest": "9a2579ded1134579b16387d689525c396e05eff3044e376c88e83a5096b6521e",
+      "example_ids": [
+        "f8330427-6afa-4e12-844b-536a8b65a2c9"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "39f4dc15-737b-4a64-a3da-7eba89916c3b",
+      "key": "katakana:basic:サ",
+      "entry_digest": "79c2ac83ced97295c1925fe2196a599a1403c608072f28e9bc0ab606232e251b",
+      "example_ids": [
+        "f4b9b88b-2391-4adf-ac64-51a0fdc8145a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "d258e453-87bb-4e76-8d86-fa38a580d690",
+      "key": "hiragana:basic:し",
+      "entry_digest": "53a3b875ad1c6413fbf88063d97d83e32a79b1724ef3ca6365dadf70d1355597",
+      "example_ids": [
+        "797aa1ef-2ce0-4eeb-96cf-e287c0d38581"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "571f598c-b95a-4ac8-9fb9-4579e967ac76",
+      "key": "katakana:basic:シ",
+      "entry_digest": "ed156875a606dfe63329df8152922d2974136f1be9cde46b6bde27ff7cd879c1",
+      "example_ids": [
+        "897c6dc7-96ea-4d2b-868b-76063b41c669"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "4ba14420-bfad-46a7-941e-0eecaf54a1c2",
+      "key": "hiragana:basic:す",
+      "entry_digest": "1541d72491d6ee0f9e58c3632b9f0d354eb21db5e09e69f0ba47c662ce9789fb",
+      "example_ids": [
+        "b95561ad-95c1-4e92-a703-e8491067cef1"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "da5252ed-9e70-4e6f-bf36-56e6e97896a7",
+      "key": "katakana:basic:ス",
+      "entry_digest": "ead65f7df03e83c712a4ba1a69044b43b4ae48a74280b6744d2faac6f7d612f1",
+      "example_ids": [
+        "fad83ecc-c045-4453-bbec-9a19f0343dab"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8728b895-215f-4384-83c1-d3b08a40f4d1",
+      "key": "hiragana:basic:せ",
+      "entry_digest": "9c2b1e92eed7820f5a29c2239799a9febf793024f1cad674e7d00ad418b18633",
+      "example_ids": [
+        "f65a6ac8-b815-47df-a108-5c77f2afc669"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "4c1219e8-e272-4337-8974-50c84c730d21",
+      "key": "katakana:basic:セ",
+      "entry_digest": "dd527f58f8d92051715a6379b25992b9c50b51543eaa3885e3157c66ac795166",
+      "example_ids": [
+        "ad77dd7b-ac74-41c5-83db-0f430f110cef"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "92d18fd9-e1f1-406c-b01b-d7ebaa9f5b99",
+      "key": "hiragana:basic:そ",
+      "entry_digest": "79feb4b8d95e62d289214e916775d09abf4036dc82d9a7dc7d1e2d329826459f",
+      "example_ids": [
+        "4be05278-beb5-4dd1-8b3f-8be4a1fe5777"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "30e0e14a-fbb3-413e-8fb9-bfaeff2bf873",
+      "key": "katakana:basic:ソ",
+      "entry_digest": "c05ade6e4a36ba296a1970d1f0a598d1468ebda4ea7164eb66c23934fd0339b8",
+      "example_ids": [
+        "016e3857-e0e8-4b64-b7d4-c0c471823728"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "bc67124f-b159-4b76-9872-6be47d2fe3da",
+      "key": "hiragana:basic:た",
+      "entry_digest": "fedb6e883832b9f26549908f7e0cd3de93eb1c5194f57f844face09bca000a3f",
+      "example_ids": [
+        "886c1436-f5be-40ee-ba8d-0c246c0e42b8"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e4891310-d81a-4d73-9e83-39257ef93211",
+      "key": "katakana:basic:タ",
+      "entry_digest": "30fae17b3b25cd6b1691fffc0154cde5bf73ab0936a440f20e4a40b33d07e090",
+      "example_ids": [
+        "7e0792d3-6707-4ad4-83e6-3b44c799af40"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3cd0e22c-6eac-4c17-b8e1-95a4d4698d2a",
+      "key": "hiragana:basic:ち",
+      "entry_digest": "45c4df1ab3de3fba0efb4e7d6acfb4d8870c99b283548de66a57d9b703bd118e",
+      "example_ids": [
+        "3e9398ea-0275-4832-99c0-f68d43acabed"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "ab9791d1-223c-4c72-a74a-8bbdd821c942",
+      "key": "katakana:basic:チ",
+      "entry_digest": "e414f5e1c162fe60086242d2fac7e69b1d3d07301bea2ccb865c92788c1d5a1f",
+      "example_ids": [
+        "fb285d4d-a9d1-4923-8271-a2c45d950e50"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e90a765f-4399-41d0-b25b-625f0c6f7b15",
+      "key": "hiragana:basic:つ",
+      "entry_digest": "db0c7590c131a8a7600fc0fa109d3d617a0f4163859082f15626ebf1a1a4153b",
+      "example_ids": [
+        "362acc88-3803-4b2d-9f9f-f3adfaa1a2d9"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "b74a99ad-40a2-4882-a87c-431832bf1c22",
+      "key": "katakana:basic:ツ",
+      "entry_digest": "5c4223320cce58b47a149aef2e05ccf23a9fb96a14603e5bdc04e055a980b16e",
+      "example_ids": [
+        "d89e3eac-e708-4021-8710-0b7653a3bb70"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "b2bfd526-04a7-456d-b51b-427a9fd8da08",
+      "key": "hiragana:basic:て",
+      "entry_digest": "83c6178b56c8db441a020145320d1f082d1a499791222c31c5139e4ff5008bc9",
+      "example_ids": [
+        "e9d290c2-bfd2-47a1-941d-5b4bd409477b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "bcceeb64-c853-4f42-ba84-fe4f7d6f8f04",
+      "key": "katakana:basic:テ",
+      "entry_digest": "6678147ad07b48536f3a5945efca1452791751229c9cc31f2e2b0ccf39d67ca2",
+      "example_ids": [
+        "cd29af72-68f4-4d5d-97f4-2883d9e1edfe"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "4ce00af0-ec20-4bae-8d1e-1ed7eed61c67",
+      "key": "hiragana:basic:と",
+      "entry_digest": "b40ca7b2d44926117e15423ece3de921ea876b0c43f84972bfe32e28ea24fc1f",
+      "example_ids": [
+        "f4ddf264-8a1b-40f8-90b5-34c84e70eb8e"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "5739b316-1579-4dd7-8ad7-7a79af8161e1",
+      "key": "katakana:basic:ト",
+      "entry_digest": "20e80ca1bcd706061539eada9618d88afc424aa45965c9864f337f61d072f5d2",
+      "example_ids": [
+        "df614aa8-28b3-4cc9-9db2-8d84b5a2c341"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "85e55a19-edeb-434b-9ddb-1cfad4f9aca2",
+      "key": "hiragana:basic:な",
+      "entry_digest": "3cbe02871e04b6b8aefcf8af006fbcdf6ef3c045919ea4faea50d81353a6b625",
+      "example_ids": [
+        "0b053498-26b7-4eb3-8526-80cfd88c19c7"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "a866300b-bc13-4299-a139-6771be9acc6a",
+      "key": "katakana:basic:ナ",
+      "entry_digest": "99bc7aca64d7e31c215f3b6eb5f420245337e429c16ad0d2446e1794ee6e4ed8",
+      "example_ids": [
+        "c59a9c24-9205-4e77-9b3d-8fd7d47c6711"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "5fc85715-dac5-437e-aa85-1c767d1f8c87",
+      "key": "hiragana:basic:に",
+      "entry_digest": "57b9d4959e19a548e50056e297c709e9b39b75abad69d13a50eaa7066411f78d",
+      "example_ids": [
+        "e05bed91-7dc0-4eb2-807c-833b683846ff"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "eaf38aeb-32ae-43fd-aa00-367d8d5c5d93",
+      "key": "katakana:basic:ニ",
+      "entry_digest": "e48af9c155685599ce0a54ca0ba5854eab7013081eb1cfbbd4cd3d6b39bd5ebc",
+      "example_ids": [
+        "1a634dd0-bd5e-40c1-bfe8-49aa6797cebf"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "86ba8281-62be-4dce-96fa-7dfef37422bb",
+      "key": "hiragana:basic:ぬ",
+      "entry_digest": "57ec3017dd4985594976129bcbf00375c10719ab8d0b5036df72102fb1110a74",
+      "example_ids": [
+        "978d434d-91f6-4ad3-a6b1-a80e942055d2"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "4ee7aaef-aa7d-419c-80d7-c85d6f449ef0",
+      "key": "katakana:basic:ヌ",
+      "entry_digest": "ee9510c09e5469a465ce379238139cb6f893c3c93e25e9b5af3a4889752c13a7",
+      "example_ids": [
+        "07cc8b46-9365-4c52-96dc-7f0bb360a5e5"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "accba1f3-3259-4d51-b36e-cf6a9174df9e",
+      "key": "hiragana:basic:ね",
+      "entry_digest": "7e2acc327a210e899c6703347939e7532a3dd563e24eaa776a44dc36c467003b",
+      "example_ids": [
+        "20179440-753b-44cc-81ea-8c739a571548"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2976bd69-768f-4f02-a701-3c87231e907a",
+      "key": "katakana:basic:ネ",
+      "entry_digest": "cf06083ad15715e9f0b34d25c2c697ec70240a04486dccb3208d5357e5f5091d",
+      "example_ids": [
+        "b49bc317-505d-4de4-88c6-c679221f2b99"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f0eb1751-e37c-4bf5-99b7-932edca82f44",
+      "key": "hiragana:basic:の",
+      "entry_digest": "2f4ba7d0e35e2882fa26447a0e940c7ab18aab53713ec30ae585aece6efb3fad",
+      "example_ids": [
+        "d5405447-625e-45f0-8938-81c3c584e347"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e6d637cb-cf69-4b7a-8e79-c19bf4b62be3",
+      "key": "katakana:basic:ノ",
+      "entry_digest": "f146b6beb81b0159a6b1d77ae0e55a06198b905a484021e92970fb2418266097",
+      "example_ids": [
+        "a605f667-1988-4b14-be4e-0008025e7903"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "dcbe7cb8-525d-429c-99e1-eee4c018ef7c",
+      "key": "hiragana:basic:は",
+      "entry_digest": "c21b17b28bb3c4c33e4d1655d7855add6d560fbf56b2a5b348fb48257d7b9ca3",
+      "example_ids": [
+        "fcc4a86e-99a1-46e4-83d7-83b1d022df66"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2ee4e78c-1a1f-4cb5-8ea6-96e85592ebf3",
+      "key": "katakana:basic:ハ",
+      "entry_digest": "636bfed211d43ef69d8bf299c9994a1bedf83bd96fb07948ea174bbcc88756e4",
+      "example_ids": [
+        "bc36d647-1e25-4044-93a2-a056e6d3c95f"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "07b77cc6-3672-4548-87d7-55cc7464e184",
+      "key": "hiragana:basic:ひ",
+      "entry_digest": "0b7bcff274fe3cfd5b6757879844e0bd6d80425bb3c7518d9205a4d036e61c0d",
+      "example_ids": [
+        "ebe04902-b6f4-4af7-81ae-4d932f344c98"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "5134d6e3-fe43-4765-96b8-3a94c5417321",
+      "key": "katakana:basic:ヒ",
+      "entry_digest": "aa175dab055f9cedc6af37bb03a8ca354d00c2edf50e27bcdaaf5d5775c29943",
+      "example_ids": [
+        "6027f837-0962-4abb-a744-acbba18e5b43"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "41d2e305-ab1f-4fcc-9f46-86448de90062",
+      "key": "hiragana:basic:ふ",
+      "entry_digest": "dcfbff121d97ed10d27b20a8975332eba2c2aac3e32b577e022c23daec021ebf",
+      "example_ids": [
+        "1116263a-10fa-4c89-80fb-d4e245d71222"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "9453d270-42a3-4dcd-a951-60bba56065b0",
+      "key": "katakana:basic:フ",
+      "entry_digest": "d6608f48bed04e9d7a944a98a03ed471327bb87db0485a94c4e553582439816c",
+      "example_ids": [
+        "ef640ab5-65db-41b2-965b-88130f8a8cca"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "21298b15-588e-4a93-a0af-b9cdf469e876",
+      "key": "hiragana:basic:へ",
+      "entry_digest": "23be9bce6291c5f4fae351c4b4572126060cdc4ef8e20d07871e320df0550911",
+      "example_ids": [
+        "fd0c73e9-4bba-4772-bbd6-9384e9c30c66"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8cd96c52-1001-4978-b169-f6f05e689bee",
+      "key": "katakana:basic:ヘ",
+      "entry_digest": "e79affa086df4be7ab0980a10ec2b52d3dc9dc7f58195b0a19143edd6ae4d183",
+      "example_ids": [
+        "e3c16b5a-0d64-4d4d-8bbb-13abb6d888b4"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "c4d18223-2fed-4ed3-9904-c998ff293c11",
+      "key": "hiragana:basic:ほ",
+      "entry_digest": "4cf07be5e2b1312e5d7d3da7bdbe6171c2262f04e40af6a61507e807fc112093",
+      "example_ids": [
+        "fe802267-80d9-48c2-9c2c-69d9910127a8"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "95591cfd-96fd-4b59-9ff3-188d5c723427",
+      "key": "katakana:basic:ホ",
+      "entry_digest": "8f9be196d2ca062df0e3e0ff3a15c7e21523b751793eab3e2cd7d8b150ad264c",
+      "example_ids": [
+        "06edd20f-aee2-4450-961c-9bf93a410687"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8adb7eb2-371a-48ab-b219-7ce312009eb2",
+      "key": "hiragana:basic:ま",
+      "entry_digest": "a2edcfb3a591f385433a6231261b7467e106c7d7805bbfdbb51613ad87c7904d",
+      "example_ids": [
+        "f69d0b8f-375c-411f-9119-16053c16c3ee"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "477a56c2-44df-45e9-bb36-a598bca8fccf",
+      "key": "katakana:basic:マ",
+      "entry_digest": "5181f3eddbec52c2634595c2a634a9e1c32f6d7c74f0881645401871a68aacb1",
+      "example_ids": [
+        "d642213c-cc25-4aaf-a7ac-c8b67d0dec71"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2e3ad52f-6e96-440b-a718-a6d99d30dee5",
+      "key": "hiragana:basic:み",
+      "entry_digest": "1fe200de91d3c2776303326413b90e51bd0d3313a14fcf584ebb571ff63869c6",
+      "example_ids": [
+        "0e898a63-4c1a-4538-b622-7cbd26083561"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "9b371ecd-a849-4fb3-bfc9-f55563fcd017",
+      "key": "katakana:basic:ミ",
+      "entry_digest": "8d3aaaa68462e4c47215ed7dc3a4fda6367b378a71a12119dae72f44bd146a0a",
+      "example_ids": [
+        "a1e9e170-98f0-4960-8a09-a8ba10fd3f74"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "14f7b043-7c4d-47e8-8c86-ac893a78b2d6",
+      "key": "hiragana:basic:む",
+      "entry_digest": "2b12a913e973aeeb9a0992267ba680cb79e6a684d5777f5592ab23bdbfe37ced",
+      "example_ids": [
+        "f0371cf9-1f6e-4fec-9972-fe149fa6d97e"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "07dd10b3-24b6-4822-b4b9-c82caf3ba810",
+      "key": "katakana:basic:ム",
+      "entry_digest": "a6cb234bb1046d63131c96d29732118ab83ec64dc9c148b0ef590a923ed4f496",
+      "example_ids": [
+        "e50421a9-05a6-4970-bb50-374ac2cb58be"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "32c93357-f18f-43fa-a5aa-28fd3837d264",
+      "key": "hiragana:basic:め",
+      "entry_digest": "19a3b27c81b6c256653c4d2a565a7fee1a9c6034805642dbce29b452c48a297b",
+      "example_ids": [
+        "43982a87-7778-420b-9d2e-ed3d71616c53"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "acbb2544-b4ba-4d56-acfa-f7a507515371",
+      "key": "katakana:basic:メ",
+      "entry_digest": "733e58998a4dd24afea9ed44827f452df17091c8c1f010d60a1dd6e311f43f5d",
+      "example_ids": [
+        "350c58f5-c1c0-4ed5-87ed-76a5c07470c2"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "eccd5ee3-773c-44c3-bebc-3713379c2dc0",
+      "key": "hiragana:basic:も",
+      "entry_digest": "d3377484d8f1acfb497c538e3592d19da822a8f53a2823332230816b0667b27e",
+      "example_ids": [
+        "53b9f889-4136-467d-a3af-2cca8cbf6c4d"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "59e20b09-7ec9-40ab-8e8c-d84e09ae6a55",
+      "key": "katakana:basic:モ",
+      "entry_digest": "6c1000c6b24aaf7e2119ae79ae740f071df667fabab9c8688d98a94751bd5984",
+      "example_ids": [
+        "3591246a-facc-43ba-afe6-3042d962ebf9"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "481189f3-f1b0-4b80-81c8-7f68883f7d76",
+      "key": "hiragana:basic:や",
+      "entry_digest": "2dc3d3365a0ddcdf864811b475213701588b32b62c030513b0a57e2f5aeca7c2",
+      "example_ids": [
+        "0ea89e5b-706c-4e80-ba07-ac1f62f0902b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "331e2d67-2405-40b4-81c6-f85ba28a17db",
+      "key": "katakana:basic:ヤ",
+      "entry_digest": "017822d395319098237d3d8906674426b1f6ba5fe6c83eeac44aab16b79c9ad1",
+      "example_ids": [
+        "664c9685-4296-4061-8f03-7b4533b92280"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "4d8515fe-5bc8-4015-a70f-7a26d1226d4f",
+      "key": "hiragana:basic:ゆ",
+      "entry_digest": "d46e81f89c8bef412515db950f35ec262bd5d55ef7131f6f7fd9675173a3e20c",
+      "example_ids": [
+        "1808dbff-dc8c-4812-ae05-03f2c6455795"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3f5a530a-4dd8-49ad-9ff5-337e7af94328",
+      "key": "katakana:basic:ユ",
+      "entry_digest": "952f25641936a2add7cf69d06c9184e98e05e10914ec1a4c6353ef867d10362a",
+      "example_ids": [
+        "46503de7-2a5d-4f13-a591-9a2260cdf56a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "ae97e09c-195f-4c64-b8fc-7419111efa25",
+      "key": "hiragana:basic:よ",
+      "entry_digest": "3c39d9a8127d5dca3a44d480d6da9103998f75d20b768949c3246f5f0b9f7b16",
+      "example_ids": [
+        "6e40f1e4-c4cd-423f-97e4-0fe0ee642e24"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "0066b65e-c8ee-426b-8ce0-d0b5749b1aac",
+      "key": "katakana:basic:ヨ",
+      "entry_digest": "3cbff106d279263f30c8edc1403903e4cfe992f63a0b0c43eb553f3c97424122",
+      "example_ids": [
+        "80735e00-6f30-436f-8ed3-abd031477943"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "030a20aa-626d-4027-8ad4-c0fd339f2e9e",
+      "key": "hiragana:basic:ら",
+      "entry_digest": "d166e49853d0897db08eef4a42d49ef121de1b0fe000c6129bc3841eda68f798",
+      "example_ids": [
+        "92902e75-8912-4860-84a8-ca63f524c4eb"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "6eb71ada-21fe-4963-aecf-f65bfc1a5b37",
+      "key": "katakana:basic:ラ",
+      "entry_digest": "c813485f75e900fc41b2dcaa35ade57185990f25e61d940411ec5d2c725115b2",
+      "example_ids": [
+        "1d9ec75a-7392-42da-9d03-92421f1ece6b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "ba74208e-dacc-491c-8d5c-4aa395a9a7c1",
+      "key": "hiragana:basic:り",
+      "entry_digest": "347fcf623750c4bc4eacc48cfff151883217fa1b739722d1f807dfeae32913b1",
+      "example_ids": [
+        "95ec0ed2-980c-4317-a432-6eed7846b68d"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "9b687c0e-46bc-4519-acc5-87b860f4ad3a",
+      "key": "katakana:basic:リ",
+      "entry_digest": "1bde70cb1a850243180009db0ba739e756bddb79b9ebb0d951fc76fa26628f35",
+      "example_ids": [
+        "66c9d98a-a0b6-4a2c-b22c-b687c4adeee6"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "721e9017-abfe-4886-b934-39f595fe55f3",
+      "key": "hiragana:basic:る",
+      "entry_digest": "9797d4fb3b6099fd1856d5622e799d637b7d63fc278ef8adb61e89b55b4b2b9d",
+      "example_ids": [
+        "1526f88d-66ad-447e-aeab-1f16960d6e36"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "76c9c4bf-d52d-466b-ab50-ace5efac69b5",
+      "key": "katakana:basic:ル",
+      "entry_digest": "92373f9080cfc99a20f518c3a5db6bd52f2f5daa975cdac2cfbf77424257014a",
+      "example_ids": [
+        "9a0dce91-8425-4b61-86f8-10dc336624ae"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3ef58200-2792-4a99-94f3-dee14b31793f",
+      "key": "hiragana:basic:れ",
+      "entry_digest": "909a3125635c2c919a79942cd930b98e915474ee580edf6b5825c56fe10b93c2",
+      "example_ids": [
+        "cebd176e-ee6b-4a00-9b85-7b68d1202b48"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e36ef673-6211-4491-aeb3-4fdfdba13bac",
+      "key": "katakana:basic:レ",
+      "entry_digest": "c0b43d6de297334f98f324212fef5b972db51e0642aa23d4d8c1db9124f675a7",
+      "example_ids": [
+        "a0b9b0dc-ec4e-4069-a97f-64cf9d289d0d"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e27c260a-c2c3-4017-9a61-e46b2dfbdea3",
+      "key": "hiragana:basic:ろ",
+      "entry_digest": "1752093967ea4c78c05a34b7afea4d25cce1272fc18782f96883841dc5b4eece",
+      "example_ids": [
+        "13a53b48-ab44-4f9e-8fbc-0a8928f29c95"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "50ba5b86-3c3b-4be1-aa66-76174fd2ee83",
+      "key": "katakana:basic:ロ",
+      "entry_digest": "e5a8b3c8cc6c99b5987e21e5fafcab7e1b764ba86c6a3cba36dcc1d9cb993b27",
+      "example_ids": [
+        "d7e2fc35-3e03-4798-883b-f670c7ae2cfe"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e3b14113-afd7-4e5a-98c3-0630984bdcda",
+      "key": "hiragana:basic:わ",
+      "entry_digest": "d5f18b5b803e4c78d014a33593744dcd567f183304c8dfb2d7c3f999365fa0ae",
+      "example_ids": [
+        "9ed9ff19-6bd4-497c-aa8a-71e4c03217a3"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "acf8f918-01a3-4a0b-9ca1-3b8275944cd2",
+      "key": "katakana:basic:ワ",
+      "entry_digest": "26303bae7c9ac0914c0eb780b23ac8e3e1e58f143a4880d11c097fa8ff40ae2f",
+      "example_ids": [
+        "ef388231-a78d-466c-8266-fd1f050b4b3c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "92105156-bbdb-41cc-8d62-5158ed1f1adf",
+      "key": "hiragana:basic:を",
+      "entry_digest": "0f80b342b3b3be548b308d032bbf5764268f993fd36e486e5fd28fcd724088ee",
+      "example_ids": [
+        "b5b7ef67-8b96-436d-85b5-0f036af5d23d"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3453c64f-cff5-4032-b624-41d172a80b6a",
+      "key": "katakana:basic:ヲ",
+      "entry_digest": "aefddbc1dab754cdc451b43e9527feaae416192e066fdad3214656eb94176ca4",
+      "example_ids": [
+        "769e7a77-5bd1-44b1-aabb-6bb122d4a0c8"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "89a831c4-9726-44ad-8254-48ba1ad372d4",
+      "key": "hiragana:basic:ん",
+      "entry_digest": "d8e75d12fc02c3992c247a1e2846a4c3db4eef91a33b27824a274f659d1415bd",
+      "example_ids": [
+        "a7d2b859-d82f-49a8-8c4e-1d2a45cc6069"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "4741ba6b-9509-4824-8408-92b02ac6f1a5",
+      "key": "katakana:basic:ン",
+      "entry_digest": "aaac01f04d41cefcba827f7c83448dac33e5bff77ce5ee5123af97feec9e6257",
+      "example_ids": [
+        "d709d0e0-db4b-4ecc-b34b-eae8a1a0af05"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "52f418b0-02d5-4379-b6b5-a714bebbf6c8",
+      "key": "hiragana:voiced:が",
+      "entry_digest": "1cfae5f03c35bd0aa6402e37ec1adc413ff3f58b8f75abb52e7eece4a4902088",
+      "example_ids": [
+        "7c9acdb7-7977-44a8-b3f6-232bd3db754c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "78f75eae-bf85-4542-a519-47fc6180ec5a",
+      "key": "katakana:voiced:ガ",
+      "entry_digest": "4247c311d20d0b60abbb47fd54190f2a7ee137b88ce577aa86e52294d7517283",
+      "example_ids": [
+        "ff824a6e-18b7-4f4a-a9d8-552bfd0c839b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "5a5c1551-2b27-41d8-ac4f-0b213854058e",
+      "key": "hiragana:voiced:ぎ",
+      "entry_digest": "0051c7abc9207d89d8953c50d9ebf1e78d3a94c1d9a736233c0773f4f6039c88",
+      "example_ids": [
+        "6ac35015-83c4-4411-872f-cc26f2b4051e"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "be0c815e-c549-4001-b422-c28bea5869b9",
+      "key": "katakana:voiced:ギ",
+      "entry_digest": "619d00c0b46e3cd008a1c4f4c73da681dfccb8e51a070a4fd9baf266b556573a",
+      "example_ids": [
+        "00c96207-edbc-4c0d-947d-0a45b1ee6304"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "7836fd60-da89-4c71-82c8-9d482a1f0487",
+      "key": "hiragana:voiced:ぐ",
+      "entry_digest": "e3e09742c1d523c27769e23be24269c70c1060f008911a5010d7d850b524c925",
+      "example_ids": [
+        "2a5958be-9b58-4f18-bb83-74b9f2d16f1c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "383763d5-a259-48f6-a23e-1c11d32aaab2",
+      "key": "katakana:voiced:グ",
+      "entry_digest": "6dcdd856b39ad05cc78a598bc0c08eddac19064c37ec22bde19df68532e87384",
+      "example_ids": [
+        "19b32291-b26a-4077-926f-5183f7fe0c8f"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "a431347c-25da-47cc-aa5f-ab3c1e64f64f",
+      "key": "hiragana:voiced:げ",
+      "entry_digest": "a4f01ce335b4b27046a543e38107a0921f3c1408241dfe10b64f4a57f2f15461",
+      "example_ids": [
+        "44202b4c-854a-4430-addc-21ddc5bc9231"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "5a4b713e-f430-43e0-a58a-4df7091e1f5f",
+      "key": "katakana:voiced:ゲ",
+      "entry_digest": "534787d3a8d429e71112572dab4fa381a839f3dac123e46c3a1f448854507007",
+      "example_ids": [
+        "b982ced2-3d21-45ec-bc3f-479fe5bc32e4"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f2695a31-d7f1-45db-a251-22d465c4799c",
+      "key": "hiragana:voiced:ご",
+      "entry_digest": "82bd19915f8e44cf04db8e4b78f0cb02465d3db2773ef09536bbcb6a19714714",
+      "example_ids": [
+        "a5b12f0c-33cf-40f7-9a94-af25e1bfb2f7"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "1c2d5921-5c82-4122-8aff-7324d1753f75",
+      "key": "katakana:voiced:ゴ",
+      "entry_digest": "5d23a20595751833bea75948a12f04008be3a8e7504357d9b167c896c01ff854",
+      "example_ids": [
+        "0edc6046-a4a6-4c4f-a27a-0b66718287c7"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "68f72a7f-8acb-4a06-a803-cf7207140d54",
+      "key": "hiragana:voiced:ざ",
+      "entry_digest": "8bc3732b06c723336e16b61bec1775bb7a0fa3fa305284e15a429de6ee7e536b",
+      "example_ids": [
+        "9d3dcbb3-8659-4ab5-a832-adc2eddb57e5"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "238a1f83-6cc8-470d-9610-250e7bc55be1",
+      "key": "katakana:voiced:ザ",
+      "entry_digest": "331b246ca32e3be9e771a7c755f154cb40e385b6d4e779aeaa9611c69871f377",
+      "example_ids": [
+        "2764e76d-b98d-477b-b689-f8d85a65cb5c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8b7a79a8-e388-434f-8bcb-27dd79225924",
+      "key": "hiragana:voiced:じ",
+      "entry_digest": "9e7bc92eccefc035aa3048f73d69e1aeb44a7062e9a801db8306ff1e53496a4e",
+      "example_ids": [
+        "1d22f666-11de-4c71-a1a9-6abc8d6d883b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "57fb4c8b-851e-4db8-9a47-959d55e5573f",
+      "key": "katakana:voiced:ジ",
+      "entry_digest": "b8e8e8c797ba80dd88e1da2a2f2aa8ccacc1852b51f95b2568d5a440de083ea8",
+      "example_ids": [
+        "be2e71ee-3601-4b37-b001-205ce9451eac"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "4a9fd545-8e74-4f30-9e99-56b88126d4ce",
+      "key": "hiragana:voiced:ず",
+      "entry_digest": "383a13ea9cdf5a257c74ac5e6d94052d6115364cefdf43f30ce589686f74fb31",
+      "example_ids": [
+        "dde7e4ca-1e54-48e3-b3f6-ffa6a29bc9be"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "216ce783-d0e1-4d5a-969c-6eed0654a6b6",
+      "key": "katakana:voiced:ズ",
+      "entry_digest": "5a94b91970711500bec958bde63d5e404c1a15a92fcae622633b79a136ebb19c",
+      "example_ids": [
+        "07f594eb-df70-4384-befd-bd5ad7ab6cb3"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "86205c48-86d1-44cd-a292-252a23d801ea",
+      "key": "hiragana:voiced:ぜ",
+      "entry_digest": "f88646dea56a96df4f898465d3b3ff98136bbcc192e8b367a8c21ba354c60e52",
+      "example_ids": [
+        "10c5b482-ffbf-4c18-9c09-bd67631c7e3e"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "dcd20f5f-6a77-4f93-a73a-bc8b47c5af25",
+      "key": "katakana:voiced:ゼ",
+      "entry_digest": "f262b57c22d68e30d0522a5139b45cac38f55a5699c3dd7f14fd559a99faa55b",
+      "example_ids": [
+        "9a0abfdf-5a96-4a40-87b9-54faeaf14c03"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "555d7f4d-8312-4ddd-812d-642f3d530aa4",
+      "key": "hiragana:voiced:ぞ",
+      "entry_digest": "ada5e47f8000e7c2d9cb47c30960322a068f728762d719461f692f894c511859",
+      "example_ids": [
+        "1387312f-f76f-4d7c-829e-7aa695d66db0"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "186ace13-9083-4f38-9656-cac0f7c6a49d",
+      "key": "katakana:voiced:ゾ",
+      "entry_digest": "1fc1b310f7b13dce96b84829fd20f683c4100f91234a5bf4c2c34a02f4cc7a17",
+      "example_ids": [
+        "59485c71-4f57-439f-a130-271839a9222a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "81cc474f-546f-4ce2-a7ca-9031198dea37",
+      "key": "hiragana:voiced:だ",
+      "entry_digest": "9d59b987a34ea4e6c2158be3ed7537817b89d6650a9aa614a892ca4033ec853e",
+      "example_ids": [
+        "6f91064d-bc63-409b-b408-b91ccfb29d91"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "63273186-b7cb-4f29-9477-3fba7d3079f1",
+      "key": "katakana:voiced:ダ",
+      "entry_digest": "4a7976782effa07b8e1163a55ebccf8247d24a629992eaeb0728b8045fbeaa35",
+      "example_ids": [
+        "6b0dd1b3-18d2-409f-ae44-b0bd649379e8"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "787c21d4-e96e-4dc7-a0e7-9449b1de1784",
+      "key": "hiragana:voiced:ぢ",
+      "entry_digest": "e1d8166212ee3e23e8d3ba6458e8759286f70f46a135a47972e42e003560944b",
+      "example_ids": [
+        "85048e62-90db-442e-9162-f605d5d184f2"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "c39a1fe4-828c-4b68-b3b9-c72867449e4d",
+      "key": "katakana:voiced:ヂ",
+      "entry_digest": "bf41da8a6c770580d0c1a970a8500a8962a6cbda9774c720af2bcc2280d520dd",
+      "example_ids": [
+        "9746844d-b5c7-437a-ae35-8c31c84d8a3b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8484fced-fd49-4b8a-960d-e0b7d6a2dca2",
+      "key": "hiragana:voiced:づ",
+      "entry_digest": "5e6982aaac3d234ae65791efd26d5466946e84da3d2c4d18c4baa47f43cd3d5e",
+      "example_ids": [
+        "14afb3e0-4776-4615-a6fe-0b70ce287d93"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "604b767c-4a26-4e17-88b9-8c83cf962ce1",
+      "key": "katakana:voiced:ヅ",
+      "entry_digest": "9dfb6e6edfc3cfca88d74800c33ec869593a79ed828a1ba17186171529329b78",
+      "example_ids": [
+        "062ecd50-b88a-421c-9c66-eab9d29a1d4a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "25ba1ef8-ee77-4652-bd34-fcb1970f0cb9",
+      "key": "hiragana:voiced:で",
+      "entry_digest": "63146f37a4bb534bf22e3868d0a91fb6911e7d5ca09c9134991850d08ccae359",
+      "example_ids": [
+        "a4c3774e-fb27-4932-ae53-5c2890c97fb9"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "96366f17-7e89-44a1-a737-ef0385ee8149",
+      "key": "katakana:voiced:デ",
+      "entry_digest": "4faf583a0140f5eb2cb3cd5a74e3ed81c424ebc8fb2b235916dfe2620e593418",
+      "example_ids": [
+        "ec8fea9f-b34b-4649-8e8b-014afdda23b5"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2a0fdae4-c801-4f8b-acfc-0417f0373270",
+      "key": "hiragana:voiced:ど",
+      "entry_digest": "76334f630d1e82c06809aa833812f919f14b469e486d9d499b3c2ea3ae14e4e4",
+      "example_ids": [
+        "492ab1c6-b261-47eb-89ba-a0e495a46cb3"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "cae43b42-102d-49ed-8dcc-b4cc3e71c9e9",
+      "key": "katakana:voiced:ド",
+      "entry_digest": "9e9461b3eed511e4c70a95b864f19bd41aef243f22bed48461a0a22a526231e9",
+      "example_ids": [
+        "578af553-0d0e-4510-b959-8b2c1934a23a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8836689a-ecd2-4957-a26f-ff33b4b388db",
+      "key": "hiragana:voiced:ば",
+      "entry_digest": "a8d372befea64f7bd5b5da28b00c11a83fef20c4379005cae50bb1471ebc6483",
+      "example_ids": [
+        "c6e6d231-4685-45d8-9ecf-7091ff4294e9"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "b6285bde-0588-424d-a60b-1fd0c700c2d0",
+      "key": "katakana:voiced:バ",
+      "entry_digest": "af9ea529af54cd05174816ba1fd4ce219aa13ee33d6f13c98493b4c23d352aba",
+      "example_ids": [
+        "df0d3503-72cc-4262-989f-b3f947404da9"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f706a999-c38a-42ae-bfa2-04f66fc412cf",
+      "key": "hiragana:voiced:び",
+      "entry_digest": "69b7e61c557ebd325277de34dc818e1b5f40ea416b95a9030e18f75008579f7c",
+      "example_ids": [
+        "07166ab2-ef6a-4815-a9cb-18ceea640b57"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2a0e529e-11bd-4eb1-aaf5-a5ba462ce2e5",
+      "key": "katakana:voiced:ビ",
+      "entry_digest": "69b73d89eb8ee71fa60a2e3749e7fc1bcdb251eb271d9784dd881ef93004d0e2",
+      "example_ids": [
+        "492f1c46-51ad-4e91-8cd3-342a8460ff5c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "a1ba3cae-75e6-4986-95e4-1eb145446b9b",
+      "key": "hiragana:voiced:ぶ",
+      "entry_digest": "55acac77b4a9fb9406c4186cb81cf0fec9fa00d6e2b9b65502bdd4b2d7b965e3",
+      "example_ids": [
+        "ea764886-acbe-444c-a3ae-8bb817df918f"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "55e87c54-2137-454f-aeb3-8bb8e0165434",
+      "key": "katakana:voiced:ブ",
+      "entry_digest": "3c42f585915cac1645667d4bf14b4acc6c1b7a57a7e3b5498aced5dd12dad47e",
+      "example_ids": [
+        "15f8420d-c10d-4edb-bdd4-fa5cd241e052"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "38749049-fbef-43ee-979d-da5089dd1efd",
+      "key": "hiragana:voiced:べ",
+      "entry_digest": "1042cb12d4f2cbcae8feb34adebb86688b894e0fe438ebba8cb7e7d89a49cc46",
+      "example_ids": [
+        "5a2a8536-543c-49d8-a190-154106d92307"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f71ca354-cc58-4956-86a2-be80411093e9",
+      "key": "katakana:voiced:ベ",
+      "entry_digest": "bc4709c61f6dce4b4e48d048693b0b63171786d9a60108f16d8b71c1d1620598",
+      "example_ids": [
+        "bfdbb3f6-cf6e-434d-8295-a06837c7c0cb"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "719dbc48-61c6-460c-a1bc-52766748f7a8",
+      "key": "hiragana:voiced:ぼ",
+      "entry_digest": "e7d6540aacc147bdc124b0e3ab327808863ca9dca07a4f61e91c244d5aadcaf4",
+      "example_ids": [
+        "c3355482-bb49-44c0-80bd-8e1e367dbabc"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3d003421-375a-47b9-85a0-1d023f25971a",
+      "key": "katakana:voiced:ボ",
+      "entry_digest": "c02d9884e7083af283f600ed3e5279ad466afe18c1ca420611e0ea6f43a304bd",
+      "example_ids": [
+        "568770f7-fd30-429d-b8f9-61d51a9a6dfb"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "97c34c11-3c96-47e0-8a89-e44ec533abf3",
+      "key": "hiragana:voiced:ぱ",
+      "entry_digest": "7caef4830249e1274edac6f6e35a00b57459849b70c77382b3a826c36acd4aac",
+      "example_ids": [
+        "7cdd13d8-af6a-4d11-b72b-05d6170aee56"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8db5ed7b-4cc8-466d-8576-355e6e7f7d44",
+      "key": "katakana:voiced:パ",
+      "entry_digest": "6db27410fb0cc45c97bcfe588e13eaeb29bd0b57e45e90f39c3e02c34710c855",
+      "example_ids": [
+        "3a2e3a3b-8167-46f3-93c1-ef07bf7c768b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "38f86ffd-1135-4849-b0e2-12dde6de1491",
+      "key": "hiragana:voiced:ぴ",
+      "entry_digest": "221e237e4f781d8acda0f19a619e8dcd7c212071891622603fbbe13203827045",
+      "example_ids": [
+        "cbdb285f-6218-4c1c-a9ca-60e24929f88c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "5c18e738-09af-4ef6-b1f5-d247f4271ea0",
+      "key": "katakana:voiced:ピ",
+      "entry_digest": "7f5b7b1c0897087f4269e883e3429cd5af2315cd6a351e48299b1062362bf76b",
+      "example_ids": [
+        "9834539c-3d7b-49c7-8ad2-dcae4f94a1e7"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "dff169a7-054e-4ec4-bd1e-6d8f1b2d9b9c",
+      "key": "hiragana:voiced:ぷ",
+      "entry_digest": "e88f6653d6a98bec9c992700b8d4566cffadeca33f59fd31989ec597f24cd74f",
+      "example_ids": [
+        "4c65eb07-2aea-4988-9c2b-031a84ed6158"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "1268a26a-692d-4b4c-b103-f261ec07db39",
+      "key": "katakana:voiced:プ",
+      "entry_digest": "3bb82358dd2fa10ef2ad958fe69c67a0dffc84fc89daabfc10bd06b990fe65c3",
+      "example_ids": [
+        "377b4237-2e3b-4272-97c9-b2ad56fcaa00"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f17c5e45-c5f1-4349-a652-90a6c3cd57eb",
+      "key": "hiragana:voiced:ぺ",
+      "entry_digest": "e53e11193ebc385e90b526e6c0bd25b676f89dc72382795c8b223dde2c77525a",
+      "example_ids": [
+        "07e5f6c0-0928-4731-a8cd-03adb866b841"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8bf82044-cacd-41cb-8d75-1b0397cf35c7",
+      "key": "katakana:voiced:ペ",
+      "entry_digest": "bda5efbf1037659b1dde5d15529a15a94dd2c4f397a3914fc63c8dc3bed49a0e",
+      "example_ids": [
+        "95df398d-1859-4787-b1b7-7421d528c2c5"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "db8ec660-a383-45c6-a3fc-657a22a4c0be",
+      "key": "hiragana:voiced:ぽ",
+      "entry_digest": "0364544f54ce6d9c4d08c26dcb323f81da0410b18ad6848b2682c5fedc63c036",
+      "example_ids": [
+        "c7d99f91-ee59-4b02-a521-cb52a184a004"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "96891ced-67e9-41ee-8808-d6f50a9007ea",
+      "key": "katakana:voiced:ポ",
+      "entry_digest": "bf4d36679d79c590822033bc171fd9210bb1fdd162d0fc68562fa8ea47071dc1",
+      "example_ids": [
+        "f386d61e-298a-46e8-a1de-56802c4af3f4"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "a2b51ff5-52d3-41a7-a718-c7634189388d",
+      "key": "hiragana:contracted:きゃ",
+      "entry_digest": "f3e9206d3bee7d81feed924daf800d883ea1ac405f7c7d9cf2a820fe9a132964",
+      "example_ids": [
+        "cc945cda-184e-40a3-bddf-dc0e58ca4043"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "81636d05-7fd0-425e-93a5-ace1fa7f8749",
+      "key": "katakana:contracted:キャ",
+      "entry_digest": "8d65205687d3fc7acd4c08d5fc025f3f81977629852457bbd2a3b726c16708d0",
+      "example_ids": [
+        "edcf3b75-2626-4ecb-801e-0e586cc5c60b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "5d30822d-7d30-45ea-97a7-4663d6421734",
+      "key": "hiragana:contracted:きゅ",
+      "entry_digest": "634fa950c437ec07f7230b089e4f2c53d913343aba97e27e20123ad848d63763",
+      "example_ids": [
+        "c54708c0-b872-4e08-a515-50c390054c52"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e0216503-7e31-4738-a00f-bdc8f55d2d01",
+      "key": "katakana:contracted:キュ",
+      "entry_digest": "7f1d5924b0f572e28e155bebed9fc237dd8e3ee6ab337103329cdefa6848f3c2",
+      "example_ids": [
+        "c469971a-987f-4af9-8516-e116829aa374"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "47ffb6d9-4745-4bab-a6f2-25bb5bb0750b",
+      "key": "hiragana:contracted:きょ",
+      "entry_digest": "3eef4197a8084012f64ae2fd2b45890107be881ef65475ea59fa1209e9469c34",
+      "example_ids": [
+        "77f8c524-01e7-4f84-b5a6-90a0bb29ea1b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "0737b748-7189-4642-8ccb-2bccaf30c07e",
+      "key": "katakana:contracted:キョ",
+      "entry_digest": "59acf8638e5957693ac688134e88cda95130f203451f868f89bd3f61d5c0b355",
+      "example_ids": [
+        "a42461d0-a69c-4b75-93b9-ef06f2585eb3"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "c89d98e8-ff5c-487f-9ef5-a1e48d4cfc9b",
+      "key": "hiragana:contracted:しゃ",
+      "entry_digest": "0feafe9daeb69b9783fcd7395735b6aeae140e9cd614a2a464b4ebda534f4026",
+      "example_ids": [
+        "6dfb0f89-ad3c-46d8-ba8d-7efcc098646a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2fc031cf-8b96-4722-9703-808a87175096",
+      "key": "katakana:contracted:シャ",
+      "entry_digest": "df670f822d6e5bb8268dc402e58063a79b83bfca2c60c99a42cb2ad981020c8e",
+      "example_ids": [
+        "10d93f37-2ebe-47ae-a9bb-01cbf55996d6"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "5d680c32-dd9e-44db-8913-20d4f12a9c5e",
+      "key": "hiragana:contracted:しゅ",
+      "entry_digest": "a9ee4e633700fde2cc17904bb7c7e443a281d1e2cb17bee644f9961365c0d94d",
+      "example_ids": [
+        "7855ab8d-7301-4d55-b49f-5c593c3c0201"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "43d721db-2527-498d-a980-2f17e2349e9f",
+      "key": "katakana:contracted:シュ",
+      "entry_digest": "c6a1f0f75b9c5c82ea486963aaee365129ef0a9931e0cfb88a6751f3b0501c8c",
+      "example_ids": [
+        "645c3dd0-46da-4b59-826a-dfef9c2912ac"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "6116d7bf-83d7-4f3e-8500-98eda29ec141",
+      "key": "hiragana:contracted:しょ",
+      "entry_digest": "0336e00805df25137b0cd107965ae540a79d72de72ea0973134884e0350713d9",
+      "example_ids": [
+        "73ba8b96-4c58-454f-99bf-2614ba211ad9"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "1614d570-84c0-4aa8-983c-9c7ed05d0d9a",
+      "key": "katakana:contracted:ショ",
+      "entry_digest": "2ff6256eaec4cbb5ff4a5fc4ce514b2076c19e0ebabff1da4b8331bce1f0b34a",
+      "example_ids": [
+        "eaef2b55-7667-474b-bdfd-3f2b5a5fa138"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "0624db91-cfc9-4c68-a9f4-874090b4e98f",
+      "key": "hiragana:contracted:ちゃ",
+      "entry_digest": "8ba6a73116df9c2fe852f4983485a6c298bf1c1ca8e74b4dbc4378a48f989df0",
+      "example_ids": [
+        "2527b76e-c39e-4efd-94af-671f58142976"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "edd29eb8-f948-4fb7-8036-22b76d98dbb8",
+      "key": "katakana:contracted:チャ",
+      "entry_digest": "09681898e947305565d352c82c6366cc452ebb0a9e17bd955d37e71c12211527",
+      "example_ids": [
+        "8cbd16a1-90a8-47d6-b600-f2ca7814deda"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8081f58e-8af8-43d9-92e9-25650a4a72d6",
+      "key": "hiragana:contracted:ちゅ",
+      "entry_digest": "7b44ab3f625a323cd23c4f5126e9e521122c84c2bb371088ddea4ec01477153c",
+      "example_ids": [
+        "1f89d1b7-6a65-46a8-ad17-dca3c1927029"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "1d6297ee-ebf6-4a54-aca0-6c5a8595d94c",
+      "key": "katakana:contracted:チュ",
+      "entry_digest": "b8a72f687ba7bbb2f1afeeae7211cbfec71cdbb73c2bd1a2dd0f4345082e2d03",
+      "example_ids": [
+        "f5110c62-c5ca-4fed-b348-f2f0f0faf82b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e5a6bea5-012e-4a98-a59c-6b5c0d5bccea",
+      "key": "hiragana:contracted:ちょ",
+      "entry_digest": "0573ecae303feb2bbfd8e7e6bc0d8bc618ce1db2db0a366d194fafc0008f7465",
+      "example_ids": [
+        "f53fd98e-453e-4898-9231-e5fe0bae3a4e"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2c864301-8bf6-423e-8dd7-69a5f61f9a34",
+      "key": "katakana:contracted:チョ",
+      "entry_digest": "a44dc78f62f26c7a8ec4d561ceb3d04852646f39492c7706b43232fb0a8b20c5",
+      "example_ids": [
+        "fc979395-8279-4cb0-b276-5cccc8871c72"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "80be1998-51a5-493a-8cf3-02acb3fd01df",
+      "key": "hiragana:contracted:にゃ",
+      "entry_digest": "b316d082918a647cbdfbea56a5e28dc426727f0c4bf223958d176154a13df49b",
+      "example_ids": [
+        "7508842c-4735-4330-89cc-9b0b333f99e6"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f67b66af-be68-4aca-a63f-5943fd65c29c",
+      "key": "katakana:contracted:ニャ",
+      "entry_digest": "93da3f42e54a065a1309d535be0c5d430e74ca155a64897f8626c0de2e8cca5d",
+      "example_ids": [
+        "c93b082f-8134-46d8-ba4f-a38e6e69bdcd"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "4b42e49b-6924-40eb-81a7-cc98d97517c2",
+      "key": "hiragana:contracted:にゅ",
+      "entry_digest": "79e64d1a741b15f68b3f699106143d4b475c26367e74479bb7647d33c0c9f0d5",
+      "example_ids": [
+        "86f83e49-e4bd-49c4-8d56-4ebbcae1d500"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "16aa603f-e943-4dca-bac6-30d3ba0f6fc9",
+      "key": "katakana:contracted:ニュ",
+      "entry_digest": "8a6c02d131e16d8b32cac4549e50b553bba9a6b51e5dc6b78e73bce338a0aa2e",
+      "example_ids": [
+        "887f6e5f-0fb5-4711-aa63-447e61e601df"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "757422c1-5ec6-4942-8647-ed043c180c2e",
+      "key": "hiragana:contracted:にょ",
+      "entry_digest": "80b35602bf48a15dcd1f3c70ec7e35662406a752fcfe640ec9e2cfc51389a7e3",
+      "example_ids": [
+        "705a494e-245e-40c3-9ff3-e396e4ff3294"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3f1c4bff-fbf9-49bc-a324-859547154c94",
+      "key": "katakana:contracted:ニョ",
+      "entry_digest": "62bc116f8717a1d224627ae70ee5ed807f3dea373d25b8cb5aaddde36bb59fb6",
+      "example_ids": [
+        "82ee99ff-d6a2-4fec-9ae6-f2c1f7055eb9"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2f044d9e-a6cb-45f8-9ba3-c5db1488aa47",
+      "key": "hiragana:contracted:ひゃ",
+      "entry_digest": "5fad8366351f23e0c6246109eddbfaeadd7530a97e7e0dfefb10270da65b2f4a",
+      "example_ids": [
+        "2083b40d-05df-45e8-a01a-bc97ae2e2a2f"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "14c6f07e-98b6-4670-98bb-6db3cb80d627",
+      "key": "katakana:contracted:ヒャ",
+      "entry_digest": "a90116c7583dc6ac59d1718152d163596b24bcb6f163c1e086f067a54bcdc063",
+      "example_ids": [
+        "91dbb24a-66d9-4c23-9ad5-5cb77457f79c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "aedd06d6-cf03-4d2f-bd07-0d6cd124cd6b",
+      "key": "hiragana:contracted:ひゅ",
+      "entry_digest": "9f9b0d6257b2c9e4cf5bfabd0ad535b9b096aee2d7e5a4a3f26e0e2526f390bd",
+      "example_ids": [
+        "22702376-7824-4e94-951b-f3c87d2f7c62"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "553fae1b-e432-4818-ab3d-57915cd89415",
+      "key": "katakana:contracted:ヒュ",
+      "entry_digest": "c0edd0aae056fece5a05bf6fd035cfa6e64b0fe0ccf91dd6c34e7e2bbc10790e",
+      "example_ids": [
+        "6a38fc7f-4e99-427c-a4cb-a50896031a2c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "a5bb75eb-1710-4605-8b79-92c7ba4eb37e",
+      "key": "hiragana:contracted:ひょ",
+      "entry_digest": "ca48b5040f1d193587e535a99f17916beb49611ce9292e1163fb98d936217b4d",
+      "example_ids": [
+        "369baa3f-0a75-4340-8503-e5e6573a13d2"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "4a8c6d04-899b-4f28-8206-57a3851f38ed",
+      "key": "katakana:contracted:ヒョ",
+      "entry_digest": "06c38af25180645b40dd71c00dbb87e6ad27912529dc8a6225a9a4248a463030",
+      "example_ids": [
+        "bda87c9b-23f5-4ea4-8254-2e082ae0cb46"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "d7b93b61-4d35-4842-8f3a-82db7bb1f57b",
+      "key": "hiragana:contracted:みゃ",
+      "entry_digest": "4b01c21943f8d03f8c4bfa0b17e7167b0467f0956671daaa85dc5356920407f8",
+      "example_ids": [
+        "3eb2e17d-a22a-4b3e-8f09-188be7e652db"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "991da264-8a48-4a18-96d2-9caafe2fa6f3",
+      "key": "katakana:contracted:ミャ",
+      "entry_digest": "32d5f2334f619059df495d93fcd984accfdcbfee639e492e19ff0f35528ce343",
+      "example_ids": [
+        "bdb27e46-5990-412d-98be-a587203dbdca"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "000f9a1f-0a5b-43d8-95ab-1078bb41afdc",
+      "key": "hiragana:contracted:みゅ",
+      "entry_digest": "8cfdd2d81e26ab3ec5141dd34fbc935aa04b15881397e021b2b2a705701748df",
+      "example_ids": [
+        "97714bcd-5927-415c-8a91-84a03319f81e"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "a6ec5a57-0825-4de4-a6d0-1a9841a8a42e",
+      "key": "katakana:contracted:ミュ",
+      "entry_digest": "ee7810db68f7854caced005907e8bb702f7dfe2eb4eec7f54de07acbca378921",
+      "example_ids": [
+        "4110bda0-62ff-461d-974b-9443a7b195bb"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "101a55c9-a209-46c1-843b-1ea1116fe3d8",
+      "key": "hiragana:contracted:みょ",
+      "entry_digest": "7f118826d85e47af0476a40ae7af269be349638e6cf80b100c0be61ddfc45dde",
+      "example_ids": [
+        "7b592268-08b3-4711-8566-f752aebd5cea"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "0c0687ef-ff23-4f9a-9d5c-59d0c0fbdbe5",
+      "key": "katakana:contracted:ミョ",
+      "entry_digest": "e0a36b5cb285d2225fe6eb827c402c734a13a0b543f3200127dd899892d7d936",
+      "example_ids": [
+        "4a5f484f-c69c-40a3-86b0-18709414a985"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "0a914f3e-0007-40a8-abbb-eed318e552f5",
+      "key": "hiragana:contracted:りゃ",
+      "entry_digest": "8279d33fe40cea81841475cd2e5a3bf4a00e251d7057aa89f2d4e49d322bc4f3",
+      "example_ids": [
+        "e3a2b6a3-c09e-4efa-9942-ee83b57bb7ad"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "5461ba2d-712d-4f71-b4ec-d0affa2adb0a",
+      "key": "katakana:contracted:リャ",
+      "entry_digest": "2c12eba67b7eae4fdae3a390dfc050a72e8f4b8b1272143d98128817cd3afece",
+      "example_ids": [
+        "58b45b7d-d1b5-416d-a005-f97575067e87"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "258c1c3f-bd56-44fa-a251-310a44b1823e",
+      "key": "hiragana:contracted:りゅ",
+      "entry_digest": "947d1f7e362e10acfd5950a719cb1de4dad84b8ca85f2c3c522975b5042e891b",
+      "example_ids": [
+        "ca6621d3-7574-423e-ac49-aeca1c300d8f"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "6a260d65-fd54-45fb-8a85-7df877bb038f",
+      "key": "katakana:contracted:リュ",
+      "entry_digest": "a2a8d0f38b4042efef9a27938ee9bb479facd918b3dc0c74cb77477532771866",
+      "example_ids": [
+        "e57909c1-8c0b-41a6-aa71-b55034fc45d9"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "c15c1e80-9ba7-4e5f-9001-2c0eab4b45b2",
+      "key": "hiragana:contracted:りょ",
+      "entry_digest": "4cadbeb2c4f397c135b04d65cdcf2f726eece2edfaea0eae0c858b036a0ba4e1",
+      "example_ids": [
+        "77916727-fd57-470c-93c3-45cae50f3abc"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "bcc330c1-37aa-4d46-805a-1cbcf885f01a",
+      "key": "katakana:contracted:リョ",
+      "entry_digest": "df97bf719aa5bd300b9cfc4148f2a3aa57463c6e3010d03ef7bc42db6e13b960",
+      "example_ids": [
+        "ecf61ae3-1c05-4be1-b09d-cfd32da2e00e"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f7a6bae4-2d2f-4ddf-89b7-58c63d1004d3",
+      "key": "hiragana:contracted:ぎゃ",
+      "entry_digest": "8820f6ffc61867efcc4c01d9a8248b6c377cab9c4b1f2325df4a5b6b783358fd",
+      "example_ids": [
+        "190ba535-19a6-42c9-b082-e97a9ea52eb1"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e0aef397-b5ef-4d24-b3b5-b97dae30cf59",
+      "key": "katakana:contracted:ギャ",
+      "entry_digest": "98d26a3f0dce0768f73b978a839d5d26fd19cffb19f15c37bf327083232610a0",
+      "example_ids": [
+        "79563a78-51cb-4566-83d7-2642c41e0725"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "4aaaf8e6-e0f1-47aa-8872-49c61a32fc33",
+      "key": "hiragana:contracted:ぎゅ",
+      "entry_digest": "ea52c8e140e3c785ff760e0158c3ecdc259eee2f75691f1633d9adc00feb371e",
+      "example_ids": [
+        "523fa48e-fb77-4e61-8d48-e5a60d9e4d7f"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "43e2f58b-c74e-4770-a5d7-7178ba07375d",
+      "key": "katakana:contracted:ギュ",
+      "entry_digest": "60ce2b90ceeb1dc9d59314f1a7c94381248ca4dd305d4a46d16208231b0f2a7f",
+      "example_ids": [
+        "db24fe99-a921-4b83-af77-ed8bfbb5eaa1"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e939d299-1eff-4cf9-a230-e1ab71f42cf1",
+      "key": "hiragana:contracted:ぎょ",
+      "entry_digest": "eaa309dcf58e95ed79a50499db9d17f0abace3fa26cfa46889f5ed97f2382d53",
+      "example_ids": [
+        "1d49b45e-1282-44a6-8dcd-b8a3adfdbac4"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "cdb8bea6-0f97-4704-b711-a093d71a9c32",
+      "key": "katakana:contracted:ギョ",
+      "entry_digest": "3cf65a130530cbf6c854668c8a9854b2c46e6fc1a55b93f67cc16fda0ae7e249",
+      "example_ids": [
+        "ec7620d8-7a0a-4ceb-a37e-15c3c91b364e"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3bc1c404-ac93-4331-933c-951b5670c172",
+      "key": "hiragana:contracted:じゃ",
+      "entry_digest": "2c1825e6ba022df74892175e4c2ebc420fa6bafab914d5c605f08152fe37c2bf",
+      "example_ids": [
+        "63a701ec-b8af-44af-97a5-c7aeeec934e9"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "525f09fc-dd64-4af5-bffe-597fe8f2e0c2",
+      "key": "katakana:contracted:ジャ",
+      "entry_digest": "f873dbe8642cef408c960635e8df001e795af354224201db506a4f0d8827b3ae",
+      "example_ids": [
+        "2379ed77-19bc-4689-9b92-7bc7bc0a9d6b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "b572324c-b0e9-459b-9573-fb980ed2b174",
+      "key": "hiragana:contracted:じゅ",
+      "entry_digest": "3b2cfe859c9bedc77ce63a9c7762e132eca8ca7fb8b94c5c3e597cf625d64606",
+      "example_ids": [
+        "1294be36-5fba-45cf-969d-27b1b62f1f2f"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "0702b391-274b-414c-b911-af1075b9a89d",
+      "key": "katakana:contracted:ジュ",
+      "entry_digest": "16e7f19a5416995d5cd26307ba682fd27974c7876afa20fb1efc1d8fa6701115",
+      "example_ids": [
+        "17854f53-cdf8-40d9-af13-d67a62e30113"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "81216a7e-d005-4fc4-9b15-3b3e987a7b48",
+      "key": "hiragana:contracted:じょ",
+      "entry_digest": "5b718078972bb88e9a54a65d63fe86a7e93cd34343697a6e7dae7bd9d5b01dcb",
+      "example_ids": [
+        "26ce1965-cad2-49fc-b81d-76f6082402f3"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3ebbb880-300c-4c30-a9fe-3837bf7a97bd",
+      "key": "katakana:contracted:ジョ",
+      "entry_digest": "3e0f6e880d71fb6aac49b8a3f5858d093c240054a453e7f20f940f4a694c4031",
+      "example_ids": [
+        "a69fa837-1dab-4041-bedb-edd200a56bd0"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "718a4a96-f9f3-4d58-b83a-2c926df1d186",
+      "key": "hiragana:contracted:びゃ",
+      "entry_digest": "2495eeecfa3464d9e913ef7b4566110bcf78e1ee963691c068f0b857a46554d3",
+      "example_ids": [
+        "0558e00d-0647-4b20-b873-8d40eb3a2d4c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "18d6a178-9a13-4fd6-a459-f3c51536ad23",
+      "key": "katakana:contracted:ビャ",
+      "entry_digest": "b33708c65bcd02886d3ca1488a3f1ede04f6a2154c9fcf3027efbbd20a762518",
+      "example_ids": [
+        "bbf63d67-0f51-4fa0-9352-f1e99fd61878"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "a0f20024-7cd7-4756-a2d8-0cf52854ab53",
+      "key": "hiragana:contracted:びゅ",
+      "entry_digest": "68f77616ca6c2032ab7fd588e04eaaefc337f57f0dc593ca6dfce26955e01055",
+      "example_ids": [
+        "3cdf0976-0d4b-49d1-9030-9cce24ce92d6"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "ff63cf2f-12e7-40b4-a4b9-9e6f86b5041f",
+      "key": "katakana:contracted:ビュ",
+      "entry_digest": "d067e1b5ae73c93ee919bc4ce54ca81aa00036cdd6a738ba6f4bebca346fabd9",
+      "example_ids": [
+        "546bc555-c301-41ec-9480-b5291853d101"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "828faaaf-f267-498d-babe-cc4e4abdb1dd",
+      "key": "hiragana:contracted:びょ",
+      "entry_digest": "ec14c9b9fec9116eea5077a7698acd51751b7fe7b28a755019ca40dd265772fa",
+      "example_ids": [
+        "d4f7415a-2986-4a01-8fd7-b45991adb373"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "388968a1-248a-48f5-b1d1-3b9a7cf23d2d",
+      "key": "katakana:contracted:ビョ",
+      "entry_digest": "17c27b41c8372ed0e8a879323c73fd742d935f279e6083f8e1afb8921200a120",
+      "example_ids": [
+        "cfdf9005-f7b4-4cc6-8452-c818ccb93b39"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3fa9668e-a3a1-4dbd-b1c8-3d61aee627da",
+      "key": "hiragana:contracted:ぴゃ",
+      "entry_digest": "8facd4ab233dd7176df89f3bb3eb471431077eeb16b5930302f9ca7fd4a4f61a",
+      "example_ids": [
+        "0f3e006d-4c65-47cf-8864-63b319a032f7"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2ee556df-42cc-4577-8efa-7732ca638193",
+      "key": "katakana:contracted:ピャ",
+      "entry_digest": "e144ff52d2099e5d66580ce9a7c39e6abf2c99c84428ddfcd690036d09370613",
+      "example_ids": [
+        "1280755d-047d-4f54-9eb1-4cea7a32b6a5"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8b8b7b68-0e8c-48d2-878a-95c8b5d05ee4",
+      "key": "hiragana:contracted:ぴゅ",
+      "entry_digest": "8fac6ddb8566ae09c00a26ebc445abc36698f175ba657dbbac7cc6bcf7fa8a95",
+      "example_ids": [
+        "15ac0e76-a6dc-4869-9190-0a81e3e6eea8"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "4c97c7d6-4de2-4027-919d-780424ca927d",
+      "key": "katakana:contracted:ピュ",
+      "entry_digest": "2ff700394e7d132a633ed8cb887651d375767d2fa2edb15ddaa040ef4accf7c9",
+      "example_ids": [
+        "dae54918-6c77-4db9-b2dc-8f4907e24e36"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2ca743ec-995b-406a-b524-69674837898d",
+      "key": "hiragana:contracted:ぴょ",
+      "entry_digest": "853f873cfe97caa873c37108cc8bb412e0dc891362963ff237805e11795a3a35",
+      "example_ids": [
+        "1d814645-d755-4b40-9362-bfa32c5a9ff7"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "d2eb07cb-de21-4b48-a8de-dd3dbe7e9927",
+      "key": "katakana:contracted:ピョ",
+      "entry_digest": "1087c47d2b36d1fb0f42c3b5eccae1291b7f6edf6abea0662786fb89f9f68e61",
+      "example_ids": [
+        "afbcf3a2-ea8d-4905-9fdd-4daeb355830a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f0631d93-6390-4083-9482-4d23512f3496",
+      "key": "katakana:extended:シェ",
+      "entry_digest": "9537fa597bd5a743ed15d45bd38a8461d00d38f184a55dc4fb48af19e40aa77f",
+      "example_ids": [
+        "ced57343-099d-422c-b142-c77fcf1a7265"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3279b946-3079-451b-b7cf-4760947fd206",
+      "key": "katakana:extended:ジェ",
+      "entry_digest": "9077359ef667e0923118b380032fd94670d405557b27154a093fa904da587947",
+      "example_ids": [
+        "9d6eb63f-f15f-4ce8-9a9a-5f9f0361ecc3"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "fba8c63f-2210-4aac-a3df-d29b9ebd287f",
+      "key": "katakana:extended:チェ",
+      "entry_digest": "ea835366bde52593a60ddd39c3ad434d9ed6f5a20aeaf000c80caa94016db0ea",
+      "example_ids": [
+        "519449bb-a986-4308-a152-138cf02c2793"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "4d52ae26-5f62-4558-9f83-33941a378742",
+      "key": "katakana:extended:ツァ",
+      "entry_digest": "63cf7195b6ac777794056f3303bff57f71f583dd877ac486ea58436d4c793cbe",
+      "example_ids": [
+        "5d772b7f-5ce3-45d8-8b03-bfeda02493f5"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "81433800-31f4-4901-b324-4ba50381c5cb",
+      "key": "katakana:extended:ツェ",
+      "entry_digest": "782c2ed537127ec4eade6468123028132afb53efe9730219f9dee9dd140ecfd3",
+      "example_ids": [
+        "75e49154-4462-4cef-b00b-d35df8bc5fde"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "456655b6-995d-415f-9fc9-5ad89c6774c3",
+      "key": "katakana:extended:ツォ",
+      "entry_digest": "8984c987313a1286f3f70c54917aa0c40dc5d16e457102ddaf75d343f986656c",
+      "example_ids": [
+        "3769d08f-3315-4df4-8cab-553e23167a9a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "0d9443e3-6209-4c0d-a8b1-2b16eb7c52e5",
+      "key": "katakana:extended:ティ",
+      "entry_digest": "3a003948cdb672c7583ddf87ba06bfac4ee306ac7848986db4dd1b7f4edcef93",
+      "example_ids": [
+        "b1aed57a-78e4-486d-9d69-413fd019a24f"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f319e4e2-8aee-4ccf-8155-037eb51e15f4",
+      "key": "katakana:extended:ディ",
+      "entry_digest": "71133b507613221f0eb4127a0e2888a9198df9831533b1efa44bc5af550cbe99",
+      "example_ids": [
+        "b64a3691-eda0-42b6-8a2c-dcac53e8ea04"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8787207d-1326-4436-bca3-3a5e15510618",
+      "key": "katakana:extended:ファ",
+      "entry_digest": "319e9c8976df3518ec88ce828f8c373496ae0b0f87f09173abba711ef53d0306",
+      "example_ids": [
+        "ebbbe50a-f67e-4c9c-b085-2e2daaf749b7"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e9bbd722-6bc6-4a15-bf67-64c103211fd2",
+      "key": "katakana:extended:フィ",
+      "entry_digest": "e156f48262e39f8e9999034733577409516b326d36e80ab5a9ca1822d4af8793",
+      "example_ids": [
+        "cc1b63d1-ea2f-45e5-87a6-788a4c23e520"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "a31b67df-3d0b-44ae-89e7-5891f1aa776a",
+      "key": "katakana:extended:フェ",
+      "entry_digest": "da85263a0ad634298fe2545e3aa02beace362116d9842dfaf22d985003bfef7d",
+      "example_ids": [
+        "87734578-e482-4cf9-b4e6-f27f4350c304"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "c37f4e9e-4be2-4e2c-bda1-e6a6fe4f1149",
+      "key": "katakana:extended:フォ",
+      "entry_digest": "f2ff7975726e3700539281524c37ee9c6e55a0fd0f4c5db2bb0a49fb3abb2d9a",
+      "example_ids": [
+        "42dd03aa-014c-4fd1-a656-b8edb8ef20c2"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "d23a48c2-5bcb-443f-a530-3ddd2a8ec388",
+      "key": "katakana:extended:デュ",
+      "entry_digest": "3a486ad73d28eb4908aa0356f37b3e2b88604dd1d2eb7b1e6c8d7bbf5701aadc",
+      "example_ids": [
+        "5006944c-14c4-4640-91e3-b1f0384891f4"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f945d5a6-a37c-42cd-a921-8fc7e764d70c",
+      "key": "katakana:extended:イェ",
+      "entry_digest": "13aa343cdfd2c67d1ca53d308a74ac7e51d98bd87a22294417dc28c820d8009b",
+      "example_ids": [
+        "d020087b-b2c0-4327-b8b5-ff625dcd706d"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "720d9442-ec32-4ecb-92c8-8e2f711daa4b",
+      "key": "katakana:extended:ウィ",
+      "entry_digest": "d8a215e82abb95fa967d50659a84e1dc49bfbb2c7139cfe2bb797438281a8b83",
+      "example_ids": [
+        "b5fb1864-f708-439f-92fd-0fe548e1e9b2"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "d4508fc2-bf04-4fa8-b901-99dec363dc8a",
+      "key": "katakana:extended:ウェ",
+      "entry_digest": "c637dfc6a79013a6d0040aaa074714bcabe81869bcb18d5b6c73ba65db94f170",
+      "example_ids": [
+        "6e93f89b-9b14-4f9f-8e5d-800e5b011c59"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8a89690c-0307-43aa-8854-eb7431054b2b",
+      "key": "katakana:extended:ウォ",
+      "entry_digest": "32093a184a69db7c01e0bfaa6a1aab3962b4e9b4bc932de50b212fd295c81ac5",
+      "example_ids": [
+        "c9781efa-aabe-43b4-ad5d-0c7caf36da4f"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "62b84379-4a34-46ec-8388-8ce4eca8362a",
+      "key": "katakana:extended:クァ",
+      "entry_digest": "68df2299da6b66c0e3a0307fb8270831f796aa3788671228a4a53d4a2807ca39",
+      "example_ids": [
+        "cd07c83c-126e-4709-96f9-861e4d809363"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "862b0cf4-d206-4899-ae4d-f160b360a3b1",
+      "key": "katakana:extended:クィ",
+      "entry_digest": "b2afb7f454b18718ce3a84d8c514acf5a4b98742b55aa162db38a4add5e66eff",
+      "example_ids": [
+        "68c66164-5732-4bbc-a38e-0617eb56f727"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3fbb7f4c-33d7-4d45-bb59-af8f1ab6c7e2",
+      "key": "katakana:extended:クェ",
+      "entry_digest": "889837b2c4e6f1b036cac43cfc86b5f15fee6c9174086667e582cb96bd90162b",
+      "example_ids": [
+        "709b0f87-239d-4d38-86ee-c8696d76953a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "c297c82b-b72f-475b-bef5-1b73f83f55bd",
+      "key": "katakana:extended:クォ",
+      "entry_digest": "795ba29d2a6c9c66fd0815ad246de43abc907cc493f2c3435079079bb14d6680",
+      "example_ids": [
+        "434757fc-598e-43d0-b7f5-d0eaeedf0cf0"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "b608913e-d66b-4f81-b8bc-d0ac48c5a1c0",
+      "key": "katakana:extended:グァ",
+      "entry_digest": "847f4467227c0f743f6cf8c8668808f2fec528383fa09845e6da912eb2c3d93b",
+      "example_ids": [
+        "ca72b69e-e47c-47db-a837-7c8ee947c0f6"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "68755842-2630-4838-a313-3f137cf552d8",
+      "key": "katakana:extended:ツィ",
+      "entry_digest": "89777b019def707806af63c9bac152f702fe20a9da84eb8fd58d5c3f633917ec",
+      "example_ids": [
+        "d2690564-7040-493b-a50a-f2e1f872d47c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "5bf6a89b-9518-4ca1-87a3-7660bf4786d3",
+      "key": "katakana:extended:トゥ",
+      "entry_digest": "0837bbcec27fc1ef94024458e9e467f4a34e9eabcc1bbf8d258cc67657b41143",
+      "example_ids": [
+        "54c968d5-2652-4e46-9e9e-29fb6919f88b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "dc1fa14b-f224-459d-9ca4-e0d16291b2ab",
+      "key": "katakana:extended:ドゥ",
+      "entry_digest": "bc66988f8f4bbb6cc862a05c67fcc72206377312eb97047b63283587b64fd145",
+      "example_ids": [
+        "00739578-9ecb-4a7b-a8d0-d904310a48bd"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "d005b652-fb80-4602-a557-52c1b46b2f23",
+      "key": "katakana:extended:ヴァ",
+      "entry_digest": "462b0468fe773de5459b26c2ecd11b321161b93f122403edac95975d04dd3281",
+      "example_ids": [
+        "1360e1e5-4e44-4d05-ba62-7fab0c1bbc13"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2ad8dd09-fbdd-4345-ae8b-ef988b08f0f2",
+      "key": "katakana:extended:ヴィ",
+      "entry_digest": "f858688aff11103590b813757c6d5cdf2aca6f711cefa125e166eafdd702d85d",
+      "example_ids": [
+        "1d73c208-82d6-4bc1-b179-38f40842b919"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8004e121-1b06-4b5a-ade2-869b30afc2dc",
+      "key": "katakana:extended:ヴ",
+      "entry_digest": "6d4a3d08c3c5c007d2245d4e8b6ec9960005ca6bbb2853a99b3516931435fa0a",
+      "example_ids": [
+        "149b6fdc-b658-45c5-91f9-0b2a3931b8cf"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "08b7a085-c557-42fa-a8b1-ca83dc3b058f",
+      "key": "katakana:extended:ヴェ",
+      "entry_digest": "4c4b8b26beec70325987920151368129010c59ccbc8713c40ebb658a3bd65701",
+      "example_ids": [
+        "8565a21a-4272-4829-a2a0-86db3579b38c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "dc94371a-f7c0-4282-a40d-4193f7ffd21e",
+      "key": "katakana:extended:ヴォ",
+      "entry_digest": "99b740e09965dbbf6cd4e697777d7f13745ad5cb5c1bfd1816432be9abeab337",
+      "example_ids": [
+        "cd54c233-c56b-4b67-92fe-4cea84743800"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e8507f34-4c32-49c3-ad12-3f4daccb0bdb",
+      "key": "katakana:extended:テュ",
+      "entry_digest": "b9e806b235ad011bf747ab437d031f2c7f75d1d7b0c38dbf8ef74820c8d81fa4",
+      "example_ids": [
+        "66456046-b8ad-4600-8fe5-b2634810a281"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "c3bb3e23-d370-488e-a9ee-45ad4395b99e",
+      "key": "katakana:extended:フュ",
+      "entry_digest": "2b1f638d484739c06ff6b13d853ba14f2eda458a8ef1676b59154ed40e902046",
+      "example_ids": [
+        "7a703c06-3e21-4a3a-9c34-4b4f510d1429"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "330ac595-b1b2-429d-81e5-953f8d1f3c61",
+      "key": "katakana:extended:ヴュ",
+      "entry_digest": "992aa220265072131521a2c34159821c3bbe142c1dda30d00b471b13390a09e7",
+      "example_ids": [
+        "62c1a5ea-a40e-4bcd-b267-7f1bb4c88c38"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "b47637b7-59df-4ac5-b216-c7b65286a4ab",
+      "key": "hiragana:special:ぁ",
+      "entry_digest": "ea7bdee78d6d62f9f7d550660ce9dbcecde539ba602e0c768013cfe7009cb8db",
+      "example_ids": [
+        "f064a964-0d9b-4f8e-8008-a7ef1a45a9a2"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "27869e83-94d0-4df8-9642-15b421ca0d64",
+      "key": "hiragana:special:ぃ",
+      "entry_digest": "a85aedd27744b17a314035e5349a1afa47083868c556f45cbf308f2be4f2b16a",
+      "example_ids": [
+        "419192ef-c440-42c9-8004-b7150b4729e7"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3d5b0491-c2fc-4d98-877b-3a349aefe399",
+      "key": "hiragana:special:ぅ",
+      "entry_digest": "f42567449728598900a038437d73b2857da5d7ef3cbf1d723e5912d420578e02",
+      "example_ids": [
+        "9aacc4ab-ac58-4056-9ec2-702ff53b237f"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "388220a8-7ca2-4d4d-8ffd-a6b5f55d3cb1",
+      "key": "hiragana:special:ぇ",
+      "entry_digest": "1130d001e59ea31c25542659e679085c239915c4e2ccec5ade1114beb5a8e987",
+      "example_ids": [
+        "f71330e5-b0e0-4447-a18f-4ecba339e273"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "9edae959-4b74-4367-abe1-56c61b011ccc",
+      "key": "hiragana:special:ぉ",
+      "entry_digest": "d6b67671498f54bd5172e8e00c5334096628c9efed81448f11f85f97c553e973",
+      "example_ids": [
+        "e9862827-7d88-4819-a89b-2c28e950d682"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "fa5a10a0-d094-43ae-9606-e0cc36624a95",
+      "key": "hiragana:special:ゃ",
+      "entry_digest": "e0e8a4da190bd65f376f227e548bd25b2d66450343a92e2fa6134676d3206226",
+      "example_ids": [
+        "d1860cc6-2160-46df-ab91-fbfee7356316"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "066367b4-3fe2-4205-a7b4-ac4fae6fb8c7",
+      "key": "hiragana:special:ゅ",
+      "entry_digest": "4793c8b9a0260b3fae4a673eab1bf2c507ba0ca545d2cd81c2eff7013051b58d",
+      "example_ids": [
+        "6c8ca689-90c0-4d11-bb3c-c5657c36d4c3"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "a5f9be67-ef50-48a4-87e6-3ab251394f79",
+      "key": "hiragana:special:ょ",
+      "entry_digest": "ce4b30a247f1b4ad11f613257a903cda75bf981740803b22437478d100022116",
+      "example_ids": [
+        "2d4b277c-622e-4cc3-b08b-edd452c7a5b7"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2ebb82f4-768d-4497-8f24-4209e2f97900",
+      "key": "hiragana:special:っ",
+      "entry_digest": "08cdd770f10cb7bc1eddccabb5f9e2f070ceab3768e907487fc1686f81da4183",
+      "example_ids": [
+        "7653fb2f-3d15-45dd-8b4f-f6ddfb8919c2"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "dbd46e84-98ac-406c-8f11-1ce52ff8291b",
+      "key": "katakana:special:ァ",
+      "entry_digest": "ab9fb59e9c2a07c5f4583ae0a0a37105b9ab63fe999e4dacafcae49a5d6d0b22",
+      "example_ids": [
+        "7a43bebb-2205-4922-9d41-9ceb0f4b5762"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "ec2794f5-c2d4-4a1f-9a8e-080fd0a60d65",
+      "key": "katakana:special:ィ",
+      "entry_digest": "e0ae3e55f31d977814c9210b36ceb81e35a4379b6ebda4870020ab4001b18cc5",
+      "example_ids": [
+        "f6f8bf39-9aa8-45c3-9a2f-397bd49b079f"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "ab5491c9-c7db-42de-a4b2-4523b20cc7ec",
+      "key": "katakana:special:ゥ",
+      "entry_digest": "9022734d7b6a5c0bbeaab85260cf5097339fcdb97b3d91d0751ddeb79b15435c",
+      "example_ids": [
+        "b8c389b3-439d-4663-94a6-6fbd095e6f17"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "b74329b1-d383-4eb9-a154-483728a7b7d7",
+      "key": "katakana:special:ェ",
+      "entry_digest": "4e0c0a098da4fd04adaeda83b40bad24bd9627e05bf539e383b2079d8bce7033",
+      "example_ids": [
+        "a24b6931-aca3-4338-a480-e51d71614e71"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "3d926b57-fd29-451a-b566-814cb4ccfd91",
+      "key": "katakana:special:ォ",
+      "entry_digest": "78486268784c6ab7d7917bfdcb89772da2c732d06781ae2424373caacad0e50d",
+      "example_ids": [
+        "329c076a-ba70-44bc-b7ef-60e298087702"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "2675f25e-dfba-4efd-aefc-f285099ea47f",
+      "key": "katakana:special:ャ",
+      "entry_digest": "b76926e3c1d1ae49374fc9df7d82a4c636a1470f23013621966a6af2a710930a",
+      "example_ids": [
+        "3fe86ec6-069f-4a6c-b421-64508b875ca7"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "f4f29694-d615-43c2-84aa-782f2a38568f",
+      "key": "katakana:special:ュ",
+      "entry_digest": "3d562b8736f2e85fdb0ebdefb53a6eebaa97343c700abb5296cefa031317a300",
+      "example_ids": [
+        "ef5040ff-0ccc-46c1-8ac6-e4e677eef392"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "95b8651e-6761-48fc-96e0-9c63abe0e5fe",
+      "key": "katakana:special:ョ",
+      "entry_digest": "b613ebedd3d71eb0f486cb28362e629c5488079a5aa781ad42e2573c25950ed0",
+      "example_ids": [
+        "47bdded3-0b58-4b7e-b406-f9c8de373167"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "e93d5758-31c8-4909-8a35-a4cf2f24a236",
+      "key": "katakana:special:ッ",
+      "entry_digest": "7b92c6fe68bcc42bfaf0d843e6a2665fb78041e89589e26719d869e8e1edb1d6",
+      "example_ids": [
+        "a0eeda3e-f069-40dc-8d44-21afe39beb1a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "fd2bab5b-0291-4f69-a8a7-db8e320cbe35",
+      "key": "hiragana:long_vowel:ああ",
+      "entry_digest": "26098c8dbc5586ccdff98ebde441b0d1d4bfd79fcdb090a3f95e44234f2c6146",
+      "example_ids": [
+        "5969747a-1657-4231-8bfa-6b6c2e4fa319"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "8e306313-ae37-4090-9f89-b9dda3f471bc",
+      "key": "hiragana:long_vowel:いい",
+      "entry_digest": "2c96b33e35397f3ab50cf044bff0590da0e07a5d132d7b492921c663a870bb0f",
+      "example_ids": [
+        "ee2411ff-0615-41e4-a296-480cb6f69803"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "73d15bce-0b19-4a08-888f-d0d0fda1f9b5",
+      "key": "hiragana:long_vowel:うう",
+      "entry_digest": "f1c5552f80bb80209b903e7ffec970de7e02965fceb5c687c349b7b32f033730",
+      "example_ids": [
+        "69fdb659-29be-4bf7-84e4-fc6051c62e3a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "d8496a16-30b7-4a81-b6f4-11271aceea4d",
+      "key": "hiragana:long_vowel:ええ",
+      "entry_digest": "36bb938bd87fb1981d8a1e3a363f91d969282d3a1995093bda5e3a2c32feb016",
+      "example_ids": [
+        "55c9f75d-c1b6-4630-9632-5e739eb1b474"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "a13d035c-216b-43e6-89a9-a4d41d84c748",
+      "key": "hiragana:long_vowel:おう",
+      "entry_digest": "e8f33a52b68d317a10a7a5383e3312fdc5567f88c4262fe0ab49973f8074e3d5",
+      "example_ids": [
+        "eae43552-6275-4dfe-8095-93c30d2fb4f9"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "997e7e18-93e8-4823-916e-954160b0190c",
+      "key": "hiragana:long_vowel:おお",
+      "entry_digest": "387e35d0159d1eef6301109ae3b4672f78ebc503233c41b3933d4e3a2afabecc",
+      "example_ids": [
+        "187eb2ec-9531-4683-8b07-85301c91ee84"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "b11c9d5e-7554-414e-b14b-68dba16f0313",
+      "key": "hiragana:long_vowel:えい",
+      "entry_digest": "65e97f082dc868b8578b884d861f8ad35f129ed439d7b8274acea2c5163d09db",
+      "example_ids": [
+        "ec69b6ef-6862-42de-b655-a8d9467ed2de"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "39071119-1ca3-42e9-bc9f-73d7bc4c37fa",
+      "key": "hiragana:particle:は",
+      "entry_digest": "5f2fe3f6261ae1647b4e9750d6145aa20986d023e13b4d6ca61b862550527885",
+      "example_ids": [
+        "c71c8db7-3089-453c-a4b5-a9e4d55164dc"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "111303bf-4f04-4825-aab0-4fd05d34938d",
+      "key": "hiragana:particle:へ",
+      "entry_digest": "1fde66c5b1e378920980ca00c2bde38a844144d7d92e4c45b845edf82539ed77",
+      "example_ids": [
+        "1b32dc49-1344-4a8e-b6f8-ef39f01f3aa8"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "40127c9c-40ba-4a81-9f8c-edfb7987a9b2",
+      "key": "hiragana:particle:を",
+      "entry_digest": "3962297f39e95ea430bb3ec15bcf10ffd6eac0ebea39f43cc3d2467d0a48ae44",
+      "example_ids": [
+        "6aff7082-5130-4e1e-af2c-c2378af4e270"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "209cf176-c18e-4d57-8f31-62ea5577b60e",
+      "key": "shared:special:゛",
+      "entry_digest": "34dcf44bdb3fb9980878182db1435eca19d51b308c4f77c6069ca972d1c84dbd",
+      "example_ids": [
+        "7e29eacd-8e89-4850-99b8-0d41be73727b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "d1407a70-02b4-469f-a544-26a167000708",
+      "key": "shared:special:゜",
+      "entry_digest": "6e0530df0854e0d1c52605324eacd975ef1ed19e541ab6b6ed00cc0f987938aa",
+      "example_ids": [
+        "d8b7ce4b-151e-4466-8d37-0f127e73e910"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "c46b563b-8f98-41dc-9e8e-75afd9f9258d",
+      "key": "shared:special:ー",
+      "entry_digest": "6bc0491783cb77e71edfd96985ce356dd0a7b6f2298c7af897618e0d292aad3c",
+      "example_ids": [
+        "b8eb2a4d-c755-4dee-8751-7a81c4bc2dc5"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Glyph, complete example, contextual reading, VI/EN meaning and usage reviewed against the stated source scope."
+    },
+    {
+      "entry_id": "32f1e107-2b5e-49a4-9358-d5042276c35a",
+      "key": "hiragana:reference:ぢゃ",
+      "entry_digest": "b9ae5c09ad82804ec7c942edbdc30ecad6bf7ec45c19fd02fb3b3a4174c94115",
+      "example_ids": [
+        "ad30b6f0-f067-45f0-8e6d-31fc7864e2bc"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "e593bee2-4abd-472d-b096-c6a48f63666b",
+      "key": "hiragana:reference:ぢゅ",
+      "entry_digest": "7e7cf89a23e48f29adc37c39741589a04f22b877184c55890ee45db0a051167c",
+      "example_ids": [
+        "fee78809-8786-4e65-a702-4fa2e0dd22a4"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "dbd31822-7ac4-4a0f-99dd-167caae41b6e",
+      "key": "hiragana:reference:ぢょ",
+      "entry_digest": "b3ef904bc92b98b3769f73e3888dc116beedcce2318a0641568cec65b3aa23d1",
+      "example_ids": [
+        "6ac5d07e-5e6e-46b0-9c33-abbc10dd732c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "8177a5d4-1729-4dfd-8043-87fd6508a9d0",
+      "key": "hiragana:reference:ゎ",
+      "entry_digest": "03605282eb384e44ec892953689f3fcae104dd8567ba7089309cc257cbd2ca88",
+      "example_ids": [
+        "d926eee9-564a-4b98-a15a-0b764ad691ce"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "7b94ffb5-9d11-4aa9-8402-0a44fb8974c8",
+      "key": "hiragana:reference:ゐ",
+      "entry_digest": "3704bda1a6ed91614f03481862f62ae0c0f5c6ea58778aaf2501668698c6c662",
+      "example_ids": [
+        "71cfe4fc-9996-47b2-a34f-84d4ef52c63a"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "0ed6dea7-14d9-450d-aee1-db76155853be",
+      "key": "hiragana:reference:ゑ",
+      "entry_digest": "3cc1f6d360458e999fc1722d65e05d5b15cb764918fb1619f7a60a015f1033c5",
+      "example_ids": [
+        "c36d8bc4-a8ca-46b0-897f-0cf4fc12e98b"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "f4860f26-b898-4ecc-9e9f-750b474fafce",
+      "key": "hiragana:reference:ゔ",
+      "entry_digest": "57b04f74af974ea48e9ea1457a5970d1ae0d4b2d97fbcaf69008fc48871cb0b1",
+      "example_ids": [
+        "87b9624a-9ccf-48ef-bd51-4b99d5bfcd72"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "a1714d80-4e68-4d08-b73d-2ac6c909f9ff",
+      "key": "hiragana:reference:ゕ",
+      "entry_digest": "a23d9c0b1b67f7b4b64465f14ce727594d470ec6f909f29103ee3784e18b38ce",
+      "example_ids": [
+        "68d63490-4663-4ee9-bb3f-18546893011d"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "11404d21-0375-44e3-b432-ab201e46115d",
+      "key": "hiragana:reference:ゖ",
+      "entry_digest": "d87f3ef49bec223c87a46c08905853e262bacbd0f04ce5baac3b9c229ad4a2dd",
+      "example_ids": [
+        "f8e1c704-8af8-4846-a5a8-1329f6082337"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "ed062814-2e05-4f36-aa52-fa6a70379a07",
+      "key": "hiragana:reference:ゝ",
+      "entry_digest": "dfc8db5e783e110917a72c1a3318f16d9cc928405bb84c2e420a215d4e982951",
+      "example_ids": [
+        "dd5ea5ea-c221-4cbe-8c6d-dddf098ec701"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "c344707f-81ee-4999-a376-97cfbb703d1e",
+      "key": "hiragana:reference:ゞ",
+      "entry_digest": "0630ab659c910d1cf435e890661c55998b16f29ce87bc7742af88f24ba49bee8",
+      "example_ids": [
+        "fa1458f8-85fb-432c-bd26-596e1ee6108d"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "a9701f07-d98e-45c2-a27c-04e2cdf86227",
+      "key": "hiragana:reference:ゟ",
+      "entry_digest": "66358dca8d695bfe2f4bbda4bd1ba07d07e66e4fb422ded56f10c3cadf683050",
+      "example_ids": [
+        "d426a4f4-01fc-49d6-94bb-092b7b165c27"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "9d2c4a4e-a97b-4dd2-bd31-bfa42ab9efec",
+      "key": "katakana:reference:ヮ",
+      "entry_digest": "3f116568c0a3363755cc7325a757f65d23bda9bda847d92f2ce886d398e40432",
+      "example_ids": [
+        "59925c11-e22f-463b-8fae-e32d4e10334c"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "ed594ca2-2a7f-44b4-8258-a5b1ee8d7f26",
+      "key": "katakana:reference:ヰ",
+      "entry_digest": "744b0d5bf097aeff05db47e763053f36e28cef2562e85a35a67cc6af587093b0",
+      "example_ids": [
+        "01c4dbec-3ab2-4731-b7c4-9da99dcc4f8d"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "ccd624f9-d455-419d-a645-4212bbf6960e",
+      "key": "katakana:reference:ヱ",
+      "entry_digest": "5e395e5897989dc9eef5ebcbc29919f430e7d05268db3432845783e892561c0c",
+      "example_ids": [
+        "27ae52a7-55d0-49f4-8976-47f6f5222b57"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "d68f7ad4-5444-4eac-ae58-58e7ac63fa85",
+      "key": "katakana:reference:ヵ",
+      "entry_digest": "5f3010ebaf63e5d3d845ccdabf174de9228d247208036761b589dca13d4452ef",
+      "example_ids": [
+        "d2376be0-23b5-449d-838a-267482a55940"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "6ae6e07d-9bfe-4cce-a060-8e45bc2fd831",
+      "key": "katakana:reference:ヶ",
+      "entry_digest": "77dd6cfc10999cf3143b86c94062ba731e5998c5d15aac13876a3d4d8f207274",
+      "example_ids": [
+        "d2ba78ad-1f04-4c71-b9bc-c73843a11f8e"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "aa95e9df-214b-4989-a4ff-a10268423578",
+      "key": "katakana:reference:ヷ",
+      "entry_digest": "798b742142c3e30825dbdee2a15840da945828c7145726220f7b89c3f43ac36c",
+      "example_ids": [
+        "239c8076-828f-4951-8fcd-1790c5d56ec6"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "32a8ebbf-53d5-4748-b78e-b031f505d89d",
+      "key": "katakana:reference:ヸ",
+      "entry_digest": "e354803e4251b01d8c16e555aeb7984a55ab0e9b34664b0211a9b5437fa2302a",
+      "example_ids": [
+        "7d2d8616-c1d0-4580-a063-52e469632e8f"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "ac1556fd-f7c5-42f5-ad4a-1c7373174a3c",
+      "key": "katakana:reference:ヹ",
+      "entry_digest": "4233b135443ccd00baabd0bb24acad50d476eb05ff5970517d9998b906629d7c",
+      "example_ids": [
+        "79cdc964-2fab-429f-8fba-a0ccc17cacb6"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "2eb2729a-ceab-4a37-ace0-df8d38f1cd88",
+      "key": "katakana:reference:ヺ",
+      "entry_digest": "9d13d4f19b8cc1f2e6063ce3f35bb79b2231259fc25e9c4c979fb7babf894974",
+      "example_ids": [
+        "b53131e8-a71b-4fd4-a9af-a0ac5b37a8fd"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "aab24d48-497c-4401-8f87-1be30c18f608",
+      "key": "katakana:reference:ヽ",
+      "entry_digest": "ae5309038be6b6b34723d104326ec6bc1ccc740e27aee1185c92cb8033baeb86",
+      "example_ids": [
+        "3d933b20-3e3d-4cbc-87e1-b320412202fe"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "e94524f5-8d00-4b82-85b1-5589796d09d5",
+      "key": "katakana:reference:ヾ",
+      "entry_digest": "849903a532d3054f749d75c6d569145d18621050845b319a80afc22b19ee4d37",
+      "example_ids": [
+        "c4bef887-7ba1-4d90-9355-61418317ac30"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "7d31cbb9-4b29-45fd-8d69-483169c97fae",
+      "key": "katakana:reference:ヿ",
+      "entry_digest": "3e193fdd73c75379ae68124a49ea319313b270266f1dfd9c958f33f01a5893e1",
+      "example_ids": [
+        "3d6dbabd-a910-4559-803a-94148bb79c37"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "c400bf40-3257-489b-8fca-74c7ed06c427",
+      "key": "katakana:reference:クヮ",
+      "entry_digest": "c32b98a61f80a357e9c7b926ebcc8dc3ac77690811ffcce7259b7c3b84e1e28f",
+      "example_ids": [
+        "5304a4f7-85d0-4784-8c27-0a05d4256b9d"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "7c193b41-1dab-4b7c-bd22-7660b66bed61",
+      "key": "katakana:reference:グヮ",
+      "entry_digest": "47863e197b84edfe0a1ecbeb3b9a8eb68b30dde3d0f5b0b39b51a2c28e7496fd",
+      "example_ids": [
+        "491c3af2-8ec2-476a-abdc-e39962b4616e"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reference context, script/expansion label and modern reading reviewed; no reconstructed historical sound."
+    },
+    {
+      "entry_id": "11d22a52-72ae-4d4e-b4e5-db60daa0b312",
+      "key": "katakana:reference:ヂャ",
+      "entry_digest": "cef9a7772ed795a6221bffabfcd1a3bd885827fd9298b432688ec812ec26a5dd",
+      "example_ids": [
+        "e93f0055-2822-4414-8541-0a71d24fbe1d"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reviewed explicit Katakana counterpart transcription of the conditional Hiragana context; not an additional contrasting sound or ordinary loanword spelling."
+    },
+    {
+      "entry_id": "fc90b79d-4d1f-4e37-89e0-9c0a0d591176",
+      "key": "katakana:reference:ヂュ",
+      "entry_digest": "5bc45a4699b6bd0a38c05660d986fc91081d84e02729ec16df457a8a4b414df0",
+      "example_ids": [
+        "a1342b5c-f99f-4b05-98b5-ff50675e3049"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reviewed explicit Katakana counterpart transcription of the conditional Hiragana context; not an additional contrasting sound or ordinary loanword spelling."
+    },
+    {
+      "entry_id": "09835f90-2acb-407d-9a25-b889accc1966",
+      "key": "katakana:reference:ヂョ",
+      "entry_digest": "2b4a941006cbb4562805d018c87d6aa8544b20e8358328bc34517833c72210c7",
+      "example_ids": [
+        "7a1c4d8e-a47b-4464-9f12-5cce814c1041"
+      ],
+      "checks": [
+        "reading_context",
+        "source_coverage",
+        "usage_guidance",
+        "vi_en_meaning"
+      ],
+      "verdict": "accepted_for_authoring",
+      "note": "Reviewed explicit Katakana counterpart transcription of the conditional Hiragana context; not an additional contrasting sound or ordinary loanword spelling."
+    }
+  ],
+  "limits": [
+    "Primary-agent self-review under B-U-51, not independent human certification.",
+    "Source-table coverage is complete within the explicitly recorded standard-Japanese inventory. Not an exhaustive list of every foreign-sound spelling, Ainu or hentaigana codepoint.",
+    "English and Vietnamese authored; the other 17 approved languages remain T09/T12 gates.",
+    "Pronunciation targets are editorial contexts. No synthesized/recorded voice was listened to; no pitch-accent or reconstructed historical pronunciation certification.",
+    "No runtime bundle adoption, native kana UI, browser interaction, app/device/performance or release acceptance. T08.04 owns native rendering/playback.",
+    "Pre-existing repository drift observed before T03: source-reconciliation validator fails on lesson-01.json input pin; lesson-27–50 Markdown was stale. T03 does not recertify changed T02/T01/batch evidence."
+  ]
+}

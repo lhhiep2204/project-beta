@@ -1,0 +1,467 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "ade58795-166c-4921-a6bb-d5c7777c62b5",
+  "editorial_key": "kanji_unit_26",
+  "reference_unit_number": 26,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 26: lesson 26 reading words",
+    "vi": "Kanji bài 26: từ đọc của bài 26"
+  },
+  "character_glyphs": [
+    "議",
+    "駐",
+    "帽",
+    "横",
+    "市",
+    "役",
+    "所",
+    "会",
+    "国",
+    "事",
+    "堂",
+    "車",
+    "場",
+    "子",
+    "拾",
+    "捨",
+    "遅",
+    "遠",
+    "歳",
+    "運",
+    "動",
+    "今",
+    "度",
+    "気",
+    "分"
+  ],
+  "word_examples": [
+    {
+      "id": "e190bdcc-bfd9-4cd4-8869-f7d9b5471376",
+      "japanese": {
+        "segments": [
+          {
+            "base": "会議",
+            "ruby": "かいぎ"
+          }
+        ]
+      },
+      "kana_reading": "かいぎ",
+      "meanings": {
+        "en": "meeting",
+        "vi": "cuộc họp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d09645da-e6a6-45d6-b4c5-c84d3a3002e4",
+      "japanese": {
+        "segments": [
+          {
+            "base": "国会議事堂",
+            "ruby": "こっかいぎじどう"
+          }
+        ]
+      },
+      "kana_reading": "こっかいぎじどう",
+      "meanings": {
+        "en": "National Diet Building",
+        "vi": "tòa nhà Quốc hội Nhật Bản"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "37a42896-55ed-44b3-90d0-a66520353935",
+      "japanese": {
+        "segments": [
+          {
+            "base": "駐車場",
+            "ruby": "ちゅうしゃじょう"
+          }
+        ]
+      },
+      "kana_reading": "ちゅうしゃじょう",
+      "meanings": {
+        "en": "parking lot",
+        "vi": "bãi đỗ xe"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e95880fa-ccce-4831-84f4-78d04deda436",
+      "japanese": {
+        "segments": [
+          {
+            "base": "帽子",
+            "ruby": "ぼうし"
+          }
+        ]
+      },
+      "kana_reading": "ぼうし",
+      "meanings": {
+        "en": "hat",
+        "vi": "mũ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0112baa0-27f1-49b6-bfd7-25121a216e18",
+      "japanese": {
+        "segments": [
+          {
+            "base": "横",
+            "ruby": "よこ"
+          }
+        ]
+      },
+      "kana_reading": "よこ",
+      "meanings": {
+        "en": "side; beside",
+        "vi": "bên cạnh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4ec2464d-aa9a-499a-9236-a43292577417",
+      "japanese": {
+        "segments": [
+          {
+            "base": "市役所",
+            "ruby": "しやくしょ"
+          }
+        ]
+      },
+      "kana_reading": "しやくしょ",
+      "meanings": {
+        "en": "city office",
+        "vi": "tòa thị chính"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b28a4542-07e8-432c-90d0-eccd996e980b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "場所",
+            "ruby": "ばしょ"
+          }
+        ]
+      },
+      "kana_reading": "ばしょ",
+      "meanings": {
+        "en": "place",
+        "vi": "địa điểm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "110b0dad-4b57-4027-b075-7ea874d31325",
+      "japanese": {
+        "segments": [
+          {
+            "base": "拾",
+            "ruby": "ひろ"
+          },
+          {
+            "base": "う"
+          }
+        ]
+      },
+      "kana_reading": "ひろう",
+      "meanings": {
+        "en": "pick up",
+        "vi": "nhặt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "670c5a41-334c-4238-a34e-6795f926f119",
+      "japanese": {
+        "segments": [
+          {
+            "base": "捨",
+            "ruby": "す"
+          },
+          {
+            "base": "てる"
+          }
+        ]
+      },
+      "kana_reading": "すてる",
+      "meanings": {
+        "en": "discard",
+        "vi": "vứt bỏ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "85c5de6a-105b-4d3f-ae29-5346d15bd39a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "遅",
+            "ruby": "おく"
+          },
+          {
+            "base": "れる"
+          }
+        ]
+      },
+      "kana_reading": "おくれる",
+      "meanings": {
+        "en": "be late",
+        "vi": "đến muộn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9c374ae8-3f10-4079-9d1b-4defd48d5247",
+      "japanese": {
+        "segments": [
+          {
+            "base": "遠",
+            "ruby": "とお"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "とおい",
+      "meanings": {
+        "en": "far",
+        "vi": "xa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ef9dda5f-0d4a-4f5d-8ac4-1f721df14475",
+      "japanese": {
+        "segments": [
+          {
+            "base": "歳",
+            "ruby": "さい"
+          }
+        ]
+      },
+      "kana_reading": "さい",
+      "meanings": {
+        "en": "years old",
+        "vi": "tuổi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6eab7366-7bcc-42f1-9b4b-c992fe06bd31",
+      "japanese": {
+        "segments": [
+          {
+            "base": "運動会",
+            "ruby": "うんどうかい"
+          }
+        ]
+      },
+      "kana_reading": "うんどうかい",
+      "meanings": {
+        "en": "sports day",
+        "vi": "hội thao"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6eb56442-7575-489c-9c8b-a6e8a8bf8db9",
+      "japanese": {
+        "segments": [
+          {
+            "base": "今度",
+            "ruby": "こんど"
+          }
+        ]
+      },
+      "kana_reading": "こんど",
+      "meanings": {
+        "en": "this time; next time",
+        "vi": "lần này; lần tới"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5c76f93c-8cca-44be-a15e-48761e50e64b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "気分",
+            "ruby": "きぶん"
+          },
+          {
+            "base": "がいい"
+          }
+        ]
+      },
+      "kana_reading": "きぶんがいい",
+      "meanings": {
+        "en": "feel well",
+        "vi": "cảm thấy khỏe"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 36,
+          "pdf_page_end": 39,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 26,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 26,
+    "end": 26,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 36,
+      "pdf_page_end": 39,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

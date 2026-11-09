@@ -1,0 +1,890 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "a50c6f72-4bb3-4ded-b9b8-8ea108b814db",
+  "editorial_key": "kanji_unit_14",
+  "reference_unit_number": 14,
+  "source_level_label": "N5",
+  "title": {
+    "en": "Convenience, names and work",
+    "vi": "Sự tiện lợi, tên và công việc"
+  },
+  "character_glyphs": [
+    "便",
+    "利",
+    "元",
+    "気",
+    "親",
+    "有",
+    "名",
+    "地",
+    "鉄",
+    "仕",
+    "事"
+  ],
+  "word_examples": [
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "便利",
+            "ruby": "べんり"
+          },
+          {
+            "base": "な"
+          }
+        ]
+      },
+      "kana_reading": "べんりな",
+      "meanings": {
+        "en": "convenient",
+        "vi": "tiện lợi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 201,
+          "pdf_page_end": 201,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "67d6dfea-4739-494e-8257-f7ce63fa59e4"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "郵便局",
+            "ruby": "ゆうびんきょく"
+          }
+        ]
+      },
+      "kana_reading": "ゆうびんきょく",
+      "meanings": {
+        "en": "post office",
+        "vi": "bưu điện"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 201,
+          "pdf_page_end": 201,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "7c770803-356e-462d-8301-94d21e83f257"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "元気",
+            "ruby": "げんき"
+          },
+          {
+            "base": "な"
+          }
+        ]
+      },
+      "kana_reading": "げんきな",
+      "meanings": {
+        "en": "healthy; energetic",
+        "vi": "khỏe mạnh; đầy sức sống"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 201,
+          "pdf_page_end": 201,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "2cd1a30d-e34e-4f51-9e68-4a5c4eb966de"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "病気",
+            "ruby": "びょうき"
+          }
+        ]
+      },
+      "kana_reading": "びょうき",
+      "meanings": {
+        "en": "illness",
+        "vi": "bệnh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 201,
+          "pdf_page_end": 201,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "2a090f52-50ef-4628-be11-0d7a58753108"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "病気",
+            "ruby": "びょうき"
+          },
+          {
+            "base": "の"
+          }
+        ]
+      },
+      "kana_reading": "びょうきの",
+      "meanings": {
+        "en": "ill; sick",
+        "vi": "bị bệnh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 201,
+          "pdf_page_end": 201,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a707d983-02f3-4913-8582-106027143542"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "親",
+            "ruby": "おや"
+          }
+        ]
+      },
+      "kana_reading": "おや",
+      "meanings": {
+        "en": "parent",
+        "vi": "bố; mẹ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 201,
+          "pdf_page_end": 201,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "68e4c748-fa2d-400b-ae67-05c421436d33"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "両親",
+            "ruby": "りょうしん"
+          }
+        ]
+      },
+      "kana_reading": "りょうしん",
+      "meanings": {
+        "en": "parents",
+        "vi": "bố mẹ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 201,
+          "pdf_page_end": 201,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "d70943a5-0518-4d80-bf50-dc1c26751182"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "有名",
+            "ruby": "ゆうめい"
+          },
+          {
+            "base": "な"
+          }
+        ]
+      },
+      "kana_reading": "ゆうめいな",
+      "meanings": {
+        "en": "famous",
+        "vi": "nổi tiếng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 202,
+          "pdf_page_end": 202,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "dfaae726-20d7-45ae-9d8f-e568f334463f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "地図",
+            "ruby": "ちず"
+          }
+        ]
+      },
+      "kana_reading": "ちず",
+      "meanings": {
+        "en": "map",
+        "vi": "bản đồ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 202,
+          "pdf_page_end": 202,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "274fcfd9-47b5-471b-85d0-46a3730bc382"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "地価",
+            "ruby": "ちか"
+          }
+        ]
+      },
+      "kana_reading": "ちか",
+      "meanings": {
+        "en": "land price",
+        "vi": "giá đất"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 202,
+          "pdf_page_end": 202,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "8962d8ce-6de5-4ec8-ade6-782ecceffaba"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "地震",
+            "ruby": "じしん"
+          }
+        ]
+      },
+      "kana_reading": "じしん",
+      "meanings": {
+        "en": "earthquake",
+        "vi": "động đất"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 202,
+          "pdf_page_end": 202,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "d3af38fd-3370-4e26-ab02-3764cf2b63d6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "鉄",
+            "ruby": "てつ"
+          }
+        ]
+      },
+      "kana_reading": "てつ",
+      "meanings": {
+        "en": "iron",
+        "vi": "sắt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 202,
+          "pdf_page_end": 202,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "e57fa2a5-c83a-4c17-827e-98e0aab7dbc8"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "仕事",
+            "ruby": "しごと"
+          }
+        ]
+      },
+      "kana_reading": "しごと",
+      "meanings": {
+        "en": "work; job",
+        "vi": "công việc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 202,
+          "pdf_page_end": 202,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "071428e3-e7de-4d69-9e02-34533134b49b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "家事",
+            "ruby": "かじ"
+          }
+        ]
+      },
+      "kana_reading": "かじ",
+      "meanings": {
+        "en": "housework",
+        "vi": "việc nhà"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 202,
+          "pdf_page_end": 202,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "4ed6140b-67d8-433f-92c8-755e8390e74e"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "電気",
+            "ruby": "でんき"
+          },
+          {
+            "base": "をつけます"
+          }
+        ]
+      },
+      "kana_reading": "でんきをつけます",
+      "meanings": {
+        "en": "turn on the light",
+        "vi": "bật đèn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 105,
+          "pdf_page_end": 105,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "ff5d5270-7ae3-424c-a856-835b18237014"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "電気",
+            "ruby": "でんき"
+          }
+        ]
+      },
+      "kana_reading": "でんき",
+      "meanings": {
+        "en": "electricity",
+        "vi": "điện"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 190,
+          "pdf_page_end": 190,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "55ab7d42-26d3-49f7-937f-a7986266c743"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "親切",
+            "ruby": "しんせつ"
+          },
+          {
+            "base": "な"
+          }
+        ]
+      },
+      "kana_reading": "しんせつな",
+      "meanings": {
+        "en": "kind; helpful",
+        "vi": "tử tế; tốt bụng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 197,
+          "pdf_page_end": 197,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "084f1dea-d26d-4eaf-9a33-db0f98c67efa"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "名前",
+            "ruby": "なまえ"
+          }
+        ]
+      },
+      "kana_reading": "なまえ",
+      "meanings": {
+        "en": "name",
+        "vi": "tên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "15382b8e-2ab1-4251-90b9-0067f57083dc"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "地下鉄",
+            "ruby": "ちかてつ"
+          }
+        ]
+      },
+      "kana_reading": "ちかてつ",
+      "meanings": {
+        "en": "subway",
+        "vi": "tàu điện ngầm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 192,
+          "pdf_page_end": 192,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "63827eb0-4727-4efe-8ae1-62b3fe2413c4"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "見",
+            "ruby": "み"
+          },
+          {
+            "base": "せます"
+          }
+        ]
+      },
+      "kana_reading": "みせます",
+      "meanings": {
+        "en": "show",
+        "vi": "cho xem"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 195,
+          "pdf_page_end": 195,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "cfe777d0-28b3-4579-b8f1-07cb8ead27a4"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "出",
+            "ruby": "で"
+          },
+          {
+            "base": "かけます"
+          }
+        ]
+      },
+      "kana_reading": "でかけます",
+      "meanings": {
+        "en": "go out",
+        "vi": "đi ra ngoài"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 199,
+          "pdf_page_end": 199,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "33f9d674-d4ec-41e1-819e-991b2e97c18c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "人",
+            "ruby": "ひと"
+          }
+        ]
+      },
+      "kana_reading": "ひと",
+      "meanings": {
+        "en": "person",
+        "vi": "người"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 187,
+          "pdf_page_end": 187,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "bc572bbd-5a19-4674-98b2-994c0b83d5f2"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "友達",
+            "ruby": "ともだち"
+          }
+        ]
+      },
+      "kana_reading": "ともだち",
+      "meanings": {
+        "en": "friend",
+        "vi": "bạn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 196,
+          "pdf_page_end": 196,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "0c42ad4b-d499-4dfa-b4f9-b5c1f00f2908"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "駅",
+            "ruby": "えき"
+          }
+        ]
+      },
+      "kana_reading": "えき",
+      "meanings": {
+        "en": "station",
+        "vi": "nhà ga"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 190,
+          "pdf_page_end": 190,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "47a72f55-5da5-49d1-9fb0-6167afc5e569"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "写真",
+            "ruby": "しゃしん"
+          }
+        ]
+      },
+      "kana_reading": "しゃしん",
+      "meanings": {
+        "en": "photograph",
+        "vi": "ảnh chụp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 196,
+          "pdf_page_end": 196,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "e35f9233-cf6f-4df6-9586-46b08cf121e6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "会社",
+            "ruby": "かいしゃ"
+          }
+        ]
+      },
+      "kana_reading": "かいしゃ",
+      "meanings": {
+        "en": "company",
+        "vi": "công ty"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 185,
+          "pdf_page_end": 185,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 104,
+          "pdf_page_end": 104,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "f0176674-d3e8-4bbf-864b-a713974f17b7"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 20,
+    "reference_volume": "Elementary I",
+    "evidence": {
+      "source_id": "N5_KANJI",
+      "pdf_pages": [
+        6,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 16,
+    "end": 20,
+    "may_include_earlier_material": true
+  },
+  "relationship": "group_scope_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N5_KANJI",
+      "pdf_page_start": 104,
+      "pdf_page_end": 107,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

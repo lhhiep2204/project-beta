@@ -1,0 +1,608 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "ceaf9812-a9a2-4395-b9fd-00dd7c25b6e7",
+  "editorial_key": "kanji_unit_44",
+  "reference_unit_number": 44,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 44: lesson 44 reading words",
+    "vi": "Kanji bài 44: từ đọc của bài 44"
+  },
+  "character_glyphs": [
+    "頭",
+    "髪",
+    "薬",
+    "洋",
+    "痛",
+    "厚",
+    "薄",
+    "食",
+    "太",
+    "静",
+    "泣",
+    "笑",
+    "割",
+    "倍",
+    "空",
+    "気",
+    "安",
+    "全",
+    "眠",
+    "治",
+    "起",
+    "二",
+    "三"
+  ],
+  "word_examples": [
+    {
+      "id": "71f729a5-bbdf-4388-a000-811f8912997f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "頭",
+            "ruby": "あたま"
+          }
+        ]
+      },
+      "kana_reading": "あたま",
+      "meanings": {
+        "en": "head",
+        "vi": "đầu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "627b89f8-6711-428a-bea0-7b7c13ff387e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "髪",
+            "ruby": "かみ"
+          }
+        ]
+      },
+      "kana_reading": "かみ",
+      "meanings": {
+        "en": "hair",
+        "vi": "tóc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0ecda045-dcde-4122-94ac-b2617dfac69c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "薬",
+            "ruby": "くすり"
+          }
+        ]
+      },
+      "kana_reading": "くすり",
+      "meanings": {
+        "en": "medicine",
+        "vi": "thuốc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "98a784df-9701-4d50-b709-c210533259e8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "洋食",
+            "ruby": "ようしょく"
+          }
+        ]
+      },
+      "kana_reading": "ようしょく",
+      "meanings": {
+        "en": "Western food",
+        "vi": "món ăn phương Tây"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e7fcfb83-86f2-499b-8311-2bffff74518a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "痛",
+            "ruby": "いた"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "いたい",
+      "meanings": {
+        "en": "painful",
+        "vi": "đau"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f2671f7f-af5f-4796-b74a-9ec8eb2d2036",
+      "japanese": {
+        "segments": [
+          {
+            "base": "厚",
+            "ruby": "あつ"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "あつい",
+      "meanings": {
+        "en": "thick",
+        "vi": "dày"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4cad74e1-bfc1-483c-9422-1fce9cb014d6",
+      "japanese": {
+        "segments": [
+          {
+            "base": "薄",
+            "ruby": "うす"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "うすい",
+      "meanings": {
+        "en": "thin; weak in flavor",
+        "vi": "mỏng; nhạt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e91db37d-a6eb-4c41-bf3c-e6b77bccbb38",
+      "japanese": {
+        "segments": [
+          {
+            "base": "太",
+            "ruby": "ふと"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "ふとい",
+      "meanings": {
+        "en": "thick; stout",
+        "vi": "to; mập"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e851a9a3-6d60-4011-9c5d-406a5fa060ff",
+      "japanese": {
+        "segments": [
+          {
+            "base": "静",
+            "ruby": "しず"
+          },
+          {
+            "base": "か"
+          }
+        ]
+      },
+      "kana_reading": "しずか",
+      "meanings": {
+        "en": "quiet",
+        "vi": "yên tĩnh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "53cd8d9f-53de-4fb9-8444-8210d80edc44",
+      "japanese": {
+        "segments": [
+          {
+            "base": "泣",
+            "ruby": "な"
+          },
+          {
+            "base": "く"
+          }
+        ]
+      },
+      "kana_reading": "なく",
+      "meanings": {
+        "en": "cry",
+        "vi": "khóc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "95b03f59-3305-4d00-bd2b-7d9f4604ad64",
+      "japanese": {
+        "segments": [
+          {
+            "base": "笑",
+            "ruby": "わら"
+          },
+          {
+            "base": "う"
+          }
+        ]
+      },
+      "kana_reading": "わらう",
+      "meanings": {
+        "en": "laugh; smile",
+        "vi": "cười"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "433eb86c-8d8b-4d78-82a7-96099cbbee14",
+      "japanese": {
+        "segments": [
+          {
+            "base": "割",
+            "ruby": "わ"
+          },
+          {
+            "base": "れる"
+          }
+        ]
+      },
+      "kana_reading": "われる",
+      "meanings": {
+        "en": "break (intransitive)",
+        "vi": "bị vỡ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "35aad68c-0eb7-4e38-bddc-8b857b4d2ad4",
+      "japanese": {
+        "segments": [
+          {
+            "base": "倍",
+            "ruby": "ばい"
+          }
+        ]
+      },
+      "kana_reading": "ばい",
+      "meanings": {
+        "en": "times as much",
+        "vi": "lần; gấp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "57df0eaa-7a44-414a-9c11-c65e57aabd11",
+      "japanese": {
+        "segments": [
+          {
+            "base": "空気",
+            "ruby": "くうき"
+          }
+        ]
+      },
+      "kana_reading": "くうき",
+      "meanings": {
+        "en": "air",
+        "vi": "không khí"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b77ef802-b358-4fc6-bd2a-ef03693e6cb8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "安全",
+            "ruby": "あんぜん"
+          }
+        ]
+      },
+      "kana_reading": "あんぜん",
+      "meanings": {
+        "en": "safe",
+        "vi": "an toàn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2467cc75-b171-485e-865f-f0b868048498",
+      "japanese": {
+        "segments": [
+          {
+            "base": "眠",
+            "ruby": "ねむ"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "ねむる",
+      "meanings": {
+        "en": "sleep",
+        "vi": "ngủ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "784dfa34-ac3f-4e20-a61c-149e10bd4a8c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "治",
+            "ruby": "なお"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "なおる",
+      "meanings": {
+        "en": "recover; heal",
+        "vi": "khỏi; lành"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f314184f-f6e9-4d9b-93b4-dc1168ee856a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "起",
+            "ruby": "お"
+          },
+          {
+            "base": "きる"
+          }
+        ]
+      },
+      "kana_reading": "おきる",
+      "meanings": {
+        "en": "happen; occur",
+        "vi": "xảy ra"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "fd502c20-3d7e-4e3b-9e70-ef033814807a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二倍",
+            "ruby": "にばい"
+          }
+        ]
+      },
+      "kana_reading": "にばい",
+      "meanings": {
+        "en": "twice as much",
+        "vi": "gấp đôi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "48d9b178-e6e9-4cc9-b0da-74c26fd18500",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三倍",
+            "ruby": "さんばい"
+          }
+        ]
+      },
+      "kana_reading": "さんばい",
+      "meanings": {
+        "en": "three times as much",
+        "vi": "gấp ba"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 114,
+          "pdf_page_end": 117,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 44,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 44,
+    "end": 44,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 114,
+      "pdf_page_end": 117,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

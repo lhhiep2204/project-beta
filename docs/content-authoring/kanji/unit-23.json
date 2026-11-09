@@ -1,0 +1,409 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "044afe56-8c64-41ec-989f-a606eebd502b",
+  "editorial_key": "kanji_unit_23",
+  "reference_unit_number": 23,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 23: preparatory review",
+    "vi": "Kanji bài 23: ôn tập chuẩn bị"
+  },
+  "character_glyphs": [
+    "意",
+    "見",
+    "花",
+    "社",
+    "長",
+    "終",
+    "気",
+    "日",
+    "字",
+    "大",
+    "切",
+    "思",
+    "出",
+    "食",
+    "事",
+    "住",
+    "足"
+  ],
+  "word_examples": [
+    {
+      "id": "45f5624e-85ed-4554-b7f2-f667aee45763",
+      "japanese": {
+        "segments": [
+          {
+            "base": "意見",
+            "ruby": "いけん"
+          }
+        ]
+      },
+      "kana_reading": "いけん",
+      "meanings": {
+        "en": "opinion",
+        "vi": "ý kiến"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5f3b3234-91bd-4470-a700-56e6720927ec",
+      "japanese": {
+        "segments": [
+          {
+            "base": "花見",
+            "ruby": "はなみ"
+          }
+        ]
+      },
+      "kana_reading": "はなみ",
+      "meanings": {
+        "en": "cherry-blossom viewing",
+        "vi": "việc ngắm hoa anh đào"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3adc00b9-a6d0-48c8-bb6e-d665127cb327",
+      "japanese": {
+        "segments": [
+          {
+            "base": "社長",
+            "ruby": "しゃちょう"
+          }
+        ]
+      },
+      "kana_reading": "しゃちょう",
+      "meanings": {
+        "en": "company president",
+        "vi": "giám đốc công ty"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c4497605-6de5-44e3-a31e-035c389d1ff6",
+      "japanese": {
+        "segments": [
+          {
+            "base": "終",
+            "ruby": "お"
+          },
+          {
+            "base": "わり"
+          }
+        ]
+      },
+      "kana_reading": "おわり",
+      "meanings": {
+        "en": "end",
+        "vi": "phần cuối"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d4ec44ce-079e-4e07-aee5-bf3ecbaddc45",
+      "japanese": {
+        "segments": [
+          {
+            "base": "気",
+            "ruby": "き"
+          }
+        ]
+      },
+      "kana_reading": "き",
+      "meanings": {
+        "en": "attention; spirit",
+        "vi": "sự chú ý; tinh thần"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "347217b3-2bab-4e06-88dc-5c0dfd83d57e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "日",
+            "ruby": "ひ"
+          }
+        ]
+      },
+      "kana_reading": "ひ",
+      "meanings": {
+        "en": "day",
+        "vi": "ngày"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d0598572-bddf-432e-a35c-8410280287ae",
+      "japanese": {
+        "segments": [
+          {
+            "base": "字",
+            "ruby": "じ"
+          }
+        ]
+      },
+      "kana_reading": "じ",
+      "meanings": {
+        "en": "written character",
+        "vi": "chữ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "42342ff8-1651-4e35-b614-e1631b6b3bae",
+      "japanese": {
+        "segments": [
+          {
+            "base": "大切",
+            "ruby": "たいせつ"
+          }
+        ]
+      },
+      "kana_reading": "たいせつ",
+      "meanings": {
+        "en": "important; precious",
+        "vi": "quan trọng; quý"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "96f2a17a-9208-465b-b4d1-9f03d33eb398",
+      "japanese": {
+        "segments": [
+          {
+            "base": "思い出",
+            "ruby": "おもいだ"
+          },
+          {
+            "base": "す"
+          }
+        ]
+      },
+      "kana_reading": "おもいだす",
+      "meanings": {
+        "en": "recall",
+        "vi": "nhớ lại"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c7dcb34b-123e-4d0f-bf96-d019e1e9861d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "食事",
+            "ruby": "しょくじ"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "しょくじする",
+      "meanings": {
+        "en": "have a meal",
+        "vi": "ăn cơm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "79c296d2-c9d6-4a04-9874-192360b71c11",
+      "japanese": {
+        "segments": [
+          {
+            "base": "住",
+            "ruby": "す"
+          },
+          {
+            "base": "む"
+          }
+        ]
+      },
+      "kana_reading": "すむ",
+      "meanings": {
+        "en": "live",
+        "vi": "sống"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3d98d1b2-5166-4171-855d-5cf44a64189c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "足",
+            "ruby": "た"
+          },
+          {
+            "base": "りる"
+          }
+        ]
+      },
+      "kana_reading": "たりる",
+      "meanings": {
+        "en": "be enough",
+        "vi": "đủ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d3e33efc-7666-4d3a-895e-6472f84cfca4",
+      "japanese": {
+        "segments": [
+          {
+            "base": "気をつけます",
+            "ruby": "きをつけます"
+          }
+        ]
+      },
+      "kana_reading": "きをつけます",
+      "meanings": {
+        "en": "take care; pay attention",
+        "vi": "chú ý; cẩn thận"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 28,
+          "pdf_page_end": 28,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 25,
+    "reference_volume": "Elementary I",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 1,
+    "end": 25,
+    "may_include_earlier_material": true
+  },
+  "relationship": "previous_volume_review_or_supplement",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 28,
+      "pdf_page_end": 29,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

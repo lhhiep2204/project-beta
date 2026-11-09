@@ -1,0 +1,720 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "9d66c5b9-a006-4305-8c51-782f1473e8ee",
+  "editorial_key": "kanji_unit_34",
+  "reference_unit_number": 34,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 34: lesson 34 reading words",
+    "vi": "Kanji bài 34: từ đọc của bài 34"
+  },
+  "character_glyphs": [
+    "組",
+    "歯",
+    "菓",
+    "甘",
+    "苦",
+    "磨",
+    "浴",
+    "番",
+    "子",
+    "踊",
+    "質",
+    "問",
+    "立",
+    "回",
+    "次",
+    "家",
+    "具",
+    "説",
+    "明",
+    "書",
+    "図",
+    "茶",
+    "道",
+    "医",
+    "者",
+    "見",
+    "先",
+    "料",
+    "理",
+    "一",
+    "二",
+    "三"
+  ],
+  "word_examples": [
+    {
+      "id": "efdd8f67-d5da-47b0-8910-32103d391b19",
+      "japanese": {
+        "segments": [
+          {
+            "base": "番組",
+            "ruby": "ばんぐみ"
+          }
+        ]
+      },
+      "kana_reading": "ばんぐみ",
+      "meanings": {
+        "en": "program",
+        "vi": "chương trình"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6acbebbc-af68-43ff-bc52-af396cc8285d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "歯",
+            "ruby": "は"
+          }
+        ]
+      },
+      "kana_reading": "は",
+      "meanings": {
+        "en": "tooth; teeth",
+        "vi": "răng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a0a68dde-2a25-4679-8b81-69ee3785b160",
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "菓子",
+            "ruby": "かし"
+          }
+        ]
+      },
+      "kana_reading": "おかし",
+      "meanings": {
+        "en": "sweets",
+        "vi": "bánh kẹo"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6800692b-dc69-4fd1-87b1-95c74b52c150",
+      "japanese": {
+        "segments": [
+          {
+            "base": "甘",
+            "ruby": "あま"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "あまい",
+      "meanings": {
+        "en": "sweet",
+        "vi": "ngọt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "200bab09-f892-46a4-a276-e99bd5a4020d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "苦",
+            "ruby": "にが"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "にがい",
+      "meanings": {
+        "en": "bitter",
+        "vi": "đắng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6a6eac49-1895-49ab-a868-643cdcc05f8b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "磨",
+            "ruby": "みが"
+          },
+          {
+            "base": "く"
+          }
+        ]
+      },
+      "kana_reading": "みがく",
+      "meanings": {
+        "en": "polish; brush",
+        "vi": "đánh bóng; chải"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b9e7b6a1-2bd2-4d38-abb9-bd1481c9c236",
+      "japanese": {
+        "segments": [
+          {
+            "base": "浴",
+            "ruby": "あ"
+          },
+          {
+            "base": "びる"
+          }
+        ]
+      },
+      "kana_reading": "あびる",
+      "meanings": {
+        "en": "bathe; shower",
+        "vi": "tắm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8b6e1c1f-6b0d-4cb7-9eba-7a4b6e133ade",
+      "japanese": {
+        "segments": [
+          {
+            "base": "踊",
+            "ruby": "おど"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "おどる",
+      "meanings": {
+        "en": "dance",
+        "vi": "nhảy; múa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c4a39a8a-0b0a-4063-93fe-2283fa015a2c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "質問",
+            "ruby": "しつもん"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "しつもんする",
+      "meanings": {
+        "en": "ask a question",
+        "vi": "hỏi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0821011d-b076-4c68-aba2-e75c32d12f0d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "組み立",
+            "ruby": "くみた"
+          },
+          {
+            "base": "てる"
+          }
+        ]
+      },
+      "kana_reading": "くみたてる",
+      "meanings": {
+        "en": "assemble",
+        "vi": "lắp ráp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e556b155-fb1a-40a5-9d7e-cd56139f6097",
+      "japanese": {
+        "segments": [
+          {
+            "base": "回",
+            "ruby": "まわ"
+          },
+          {
+            "base": "す"
+          }
+        ]
+      },
+      "kana_reading": "まわす",
+      "meanings": {
+        "en": "turn something",
+        "vi": "xoay; vặn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c7002ed2-f4d7-4ad3-a345-2107e1a1207f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "次",
+            "ruby": "つぎ"
+          },
+          {
+            "base": "に"
+          }
+        ]
+      },
+      "kana_reading": "つぎに",
+      "meanings": {
+        "en": "next",
+        "vi": "tiếp theo"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e5c0e55c-b0ab-4649-8bdf-b1bbe4357a98",
+      "japanese": {
+        "segments": [
+          {
+            "base": "回",
+            "ruby": "かい"
+          }
+        ]
+      },
+      "kana_reading": "かい",
+      "meanings": {
+        "en": "times (counter)",
+        "vi": "lần"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b849d07b-6e71-458d-8615-0b3393f991d9",
+      "japanese": {
+        "segments": [
+          {
+            "base": "家具",
+            "ruby": "かぐ"
+          }
+        ]
+      },
+      "kana_reading": "かぐ",
+      "meanings": {
+        "en": "furniture",
+        "vi": "đồ nội thất"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "84dafc7b-e9ad-46be-8509-daf246a36bbe",
+      "japanese": {
+        "segments": [
+          {
+            "base": "説明書",
+            "ruby": "せつめいしょ"
+          }
+        ]
+      },
+      "kana_reading": "せつめいしょ",
+      "meanings": {
+        "en": "instruction manual",
+        "vi": "sách hướng dẫn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "25b1b0ed-dae2-4bfc-9f5a-e382e509924e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "図",
+            "ruby": "ず"
+          }
+        ]
+      },
+      "kana_reading": "ず",
+      "meanings": {
+        "en": "diagram",
+        "vi": "sơ đồ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5d6c26bc-1478-4126-ba5d-cc3a22bf93c4",
+      "japanese": {
+        "segments": [
+          {
+            "base": "茶道",
+            "ruby": "さどう"
+          }
+        ]
+      },
+      "kana_reading": "さどう",
+      "meanings": {
+        "en": "tea ceremony",
+        "vi": "trà đạo"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3cbd0a6a-b0c0-41c6-a01c-e5712f209a3d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "歯医者",
+            "ruby": "はいしゃ"
+          }
+        ]
+      },
+      "kana_reading": "はいしゃ",
+      "meanings": {
+        "en": "dentist",
+        "vi": "nha sĩ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ec9f82d5-4280-46a5-8484-a4cef1d474b0",
+      "japanese": {
+        "segments": [
+          {
+            "base": "見",
+            "ruby": "み"
+          },
+          {
+            "base": "つかる"
+          }
+        ]
+      },
+      "kana_reading": "みつかる",
+      "meanings": {
+        "en": "be found",
+        "vi": "được tìm thấy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b0874507-9847-47f7-92c0-e631dc089871",
+      "japanese": {
+        "segments": [
+          {
+            "base": "先",
+            "ruby": "さき"
+          },
+          {
+            "base": "に"
+          }
+        ]
+      },
+      "kana_reading": "さきに",
+      "meanings": {
+        "en": "before; ahead",
+        "vi": "trước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a7aeb0f1-ca2c-40d0-be57-cd83d63b23f6",
+      "japanese": {
+        "segments": [
+          {
+            "base": "料理番組",
+            "ruby": "りょうりばんぐみ"
+          }
+        ]
+      },
+      "kana_reading": "りょうりばんぐみ",
+      "meanings": {
+        "en": "cooking program",
+        "vi": "chương trình nấu ăn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b9e2851d-6519-4236-b93a-551c15da3fb4",
+      "japanese": {
+        "segments": [
+          {
+            "base": "一回",
+            "ruby": "いっかい"
+          }
+        ]
+      },
+      "kana_reading": "いっかい",
+      "meanings": {
+        "en": "once",
+        "vi": "một lần"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "dc47c1f3-586f-40cb-9008-087bd831972a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二回",
+            "ruby": "にかい"
+          }
+        ]
+      },
+      "kana_reading": "にかい",
+      "meanings": {
+        "en": "twice",
+        "vi": "hai lần"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6661b2c6-76ec-4111-b93b-5125a33ff2ff",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三回",
+            "ruby": "さんかい"
+          }
+        ]
+      },
+      "kana_reading": "さんかい",
+      "meanings": {
+        "en": "three times",
+        "vi": "ba lần"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 70,
+          "pdf_page_end": 73,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 34,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 34,
+    "end": 34,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 70,
+      "pdf_page_end": 73,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

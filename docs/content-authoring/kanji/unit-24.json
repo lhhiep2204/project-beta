@@ -1,0 +1,408 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "dc79ab35-80ff-4133-a42a-3bc7b24fa4d3",
+  "editorial_key": "kanji_unit_24",
+  "reference_unit_number": 24,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 24: preparatory review",
+    "vi": "Kanji bài 24: ôn tập chuẩn bị"
+  },
+  "character_glyphs": [
+    "試",
+    "験",
+    "問",
+    "題",
+    "答",
+    "耳",
+    "用",
+    "事",
+    "始",
+    "集",
+    "研",
+    "究",
+    "台",
+    "二",
+    "三",
+    "切",
+    "手",
+    "資",
+    "料"
+  ],
+  "word_examples": [
+    {
+      "id": "b6d15677-8d0b-4fe5-b459-d8e009373a75",
+      "japanese": {
+        "segments": [
+          {
+            "base": "試験",
+            "ruby": "しけん"
+          }
+        ]
+      },
+      "kana_reading": "しけん",
+      "meanings": {
+        "en": "examination",
+        "vi": "kỳ thi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c2bfbd69-bb48-46e6-a34c-b7b24390483c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "問題",
+            "ruby": "もんだい"
+          }
+        ]
+      },
+      "kana_reading": "もんだい",
+      "meanings": {
+        "en": "question; problem",
+        "vi": "câu hỏi; vấn đề"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9b9d14a4-6c05-4bcf-baa5-c68ddf7ef1fc",
+      "japanese": {
+        "segments": [
+          {
+            "base": "答",
+            "ruby": "こた"
+          },
+          {
+            "base": "え"
+          }
+        ]
+      },
+      "kana_reading": "こたえ",
+      "meanings": {
+        "en": "answer",
+        "vi": "câu trả lời"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "328f9d3f-4f76-4bfe-a2f0-cc1f93fa6a6f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "耳",
+            "ruby": "みみ"
+          }
+        ]
+      },
+      "kana_reading": "みみ",
+      "meanings": {
+        "en": "ear",
+        "vi": "tai"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "fe6c4181-dfa6-4b80-9fbc-336a81bd38ef",
+      "japanese": {
+        "segments": [
+          {
+            "base": "用事",
+            "ruby": "ようじ"
+          }
+        ]
+      },
+      "kana_reading": "ようじ",
+      "meanings": {
+        "en": "an errand; business",
+        "vi": "việc riêng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "648d33a0-45e7-42cd-bc39-29e8c8d18175",
+      "japanese": {
+        "segments": [
+          {
+            "base": "始",
+            "ruby": "はじ"
+          },
+          {
+            "base": "める"
+          }
+        ]
+      },
+      "kana_reading": "はじめる",
+      "meanings": {
+        "en": "begin something",
+        "vi": "bắt đầu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "73c880f5-2f99-4ece-b996-ec4281ca5650",
+      "japanese": {
+        "segments": [
+          {
+            "base": "集",
+            "ruby": "あつ"
+          },
+          {
+            "base": "める"
+          }
+        ]
+      },
+      "kana_reading": "あつめる",
+      "meanings": {
+        "en": "collect",
+        "vi": "sưu tập"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "89db9477-e09a-4b7a-aef9-a25e61aed9ae",
+      "japanese": {
+        "segments": [
+          {
+            "base": "研究",
+            "ruby": "けんきゅう"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "けんきゅうする",
+      "meanings": {
+        "en": "research",
+        "vi": "nghiên cứu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "47c0790e-fa91-4e82-82d5-8713fa81da94",
+      "japanese": {
+        "segments": [
+          {
+            "base": "台",
+            "ruby": "だい"
+          }
+        ]
+      },
+      "kana_reading": "だい",
+      "meanings": {
+        "en": "counter for machines",
+        "vi": "chiếc (máy móc)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "673274b3-2e21-4e06-bc56-3400e7fff66f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二台",
+            "ruby": "にだい"
+          }
+        ]
+      },
+      "kana_reading": "にだい",
+      "meanings": {
+        "en": "two machines or vehicles",
+        "vi": "hai chiếc máy hoặc xe"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4bec6a2c-27f0-4b88-86b7-f8b69d792d8e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "三台",
+            "ruby": "さんだい"
+          }
+        ]
+      },
+      "kana_reading": "さんだい",
+      "meanings": {
+        "en": "three machines or vehicles",
+        "vi": "ba chiếc máy hoặc xe"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2c5b2ef1-7829-4f0e-b077-d76d3af140b6",
+      "japanese": {
+        "segments": [
+          {
+            "base": "切手",
+            "ruby": "きって"
+          }
+        ]
+      },
+      "kana_reading": "きって",
+      "meanings": {
+        "en": "postage stamp",
+        "vi": "tem thư"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "29f8f982-14c6-4c4c-99a0-42033d290d65",
+      "japanese": {
+        "segments": [
+          {
+            "base": "資料",
+            "ruby": "しりょう"
+          }
+        ]
+      },
+      "kana_reading": "しりょう",
+      "meanings": {
+        "en": "materials; documents",
+        "vi": "tài liệu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 25,
+    "reference_volume": "Elementary I",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 1,
+    "end": 25,
+    "may_include_earlier_material": true
+  },
+  "relationship": "previous_volume_review_or_supplement",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 30,
+      "pdf_page_end": 31,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

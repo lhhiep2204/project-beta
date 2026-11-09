@@ -1,0 +1,277 @@
+# Kanji Unit 22: preparatory review
+
+Kanji bài 22: ôn tập chuẩn bị
+
+Japanese learning content with Vietnamese/English support. Draft under the delegated self-review gate; independent human and release acceptance are not claimed.
+
+## Source relationship
+
+Publisher lesson milestone: **25** (Elementary I). Relationship: `previous_volume_review_or_supplement`.
+
+Reference lesson scope: 1–25. Earlier material may recur.
+
+References: [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24).
+
+## Kanji
+
+On/Kun are the reference-listed subset, with source corrections linked to their recorded owner decisions. A dash means no reading of that class was listed. Okurigana notation belongs to the reading, not to a bare character to pronounce in isolation. Word readings are contextual. No stroke/radical content is included.
+
+| No. | Kanji | Hán-Việt | Vietnamese | English | On | Kun | Word example | Reference |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 16 | 六 | LỤC | sáu | six | ロク | むっ(つ), むい, む | 六日【むいか】: sáu ngày; ngày mùng sáu / six days; sixth day of the month; 六【むっ】つ: sáu cái / six items; 六【ろく】: sáu / six | [N5_KANJI PDF 183](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=183) |
+| 1 | 日 | NHẬT | mặt trời; ngày | sun; day | ニチ, ジツ | ひ, か | 日曜日【にちようび】: Chủ nhật / Sunday; 今日【きょう】: hôm nay / today; 毎日【まいにち】: hàng ngày / every day | [N5_KANJI PDF 181](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=181) |
+| 154 | 東 | ĐÔNG | phía đông | east | トウ | ひがし | 東京【とうきょう】: Tokyo / Tokyo; 東【ひがし】ヨーロッパ: Đông Âu / Eastern Europe; 東南【とうなん】アジア: Đông Nam Á / Southeast Asia | [N5_KANJI PDF 202](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=202) |
+| 158 | 京 | KINH | kinh đô | capital city | キョウ, ケイ | — | 京都【きょうと】: Kyoto / Kyoto; 東京【とうきょう】: Tokyo / Tokyo; 東京駅【とうきょうえき】: ga Tokyo / Tokyo Station | [N5_KANJI PDF 203](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=203) |
+| 184 | 着 | TRƯỚC | mặc; đến nơi | wear; arrive | チャク, ジャク | き(る), き(せる), つ(く), つ(ける) | 着【き】ます: mặc (áo; quần áo phần trên) / wear (upper-body clothing); 着【つ】きます: đến nơi / arrive; 着【き】せます: mặc cho ai / dress someone | [N5_KANJI PDF 206](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=206) |
+| 57 | 電 | ĐIỆN | điện | electricity | デン | — | 電車【でんしゃ】: tàu điện / train; 電気【でんき】: điện / electricity; 電話【でんわ】: điện thoại; cuộc gọi / telephone; phone call | [N5_KANJI PDF 190](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=190) |
+| 96 | 話 | THOẠI | nói; chuyện | speak; talk; story | ワ | はな(す), はなし | 話【はな】します: nói chuyện / speak; talk; 話【はなし】: câu chuyện / story; talk; 会話【かいわ】: hội thoại / conversation | [N5_KANJI PDF 195–196](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=195) |
+| 61 | 高 | CAO | cao; đắt; nâng lên | high; expensive; raise | コウ | たか(い), たか, たか(まる), たか(める) | 高【たか】い: cao; đắt / high; expensive; 円高【えんだか】: đồng yên tăng giá / appreciation of the yen; 高校生【こうこうせい】: học sinh trung học phổ thông / high-school student | [N5_KANJI PDF 191](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=191) |
+| 176 | 方 | PHƯƠNG | cách; hướng; người (lịch sự) | way; direction; person (polite) | ホウ | かた | あの方【かた】: vị kia (lịch sự) / that person (polite); 夕方【ゆうがた】: chiều muộn / late afternoon; early evening; 作【つく】り方【かた】: cách làm / how to make | [N5_KANJI PDF 205](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=205) |
+| 86 | 右 | HỮU | phải; bên phải | right | ウ, ユウ | みぎ | 右足【みぎあし】: chân phải / right foot; right leg; 右【みぎ】: bên phải / right; 右手【みぎて】: tay phải / right hand | [N5_KANJI PDF 194](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=194) |
+| 124 | 立 | LẬP | đứng; thành lập | stand; establish | リツ, リュウ | た(つ), た(てる) | 立【た】ちます: đứng / stand; 国立大学【こくりつだいがく】: đại học quốc lập / national university; 私立大学【しりつだいがく】: đại học tư thục / private university | [N5_KANJI PDF 199](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=199) |
+| 37 | 今 | KIM | bây giờ; hiện tại | now; present | コン, キン | いま | 今朝【けさ】: sáng nay / this morning; 今晩【こんばん】: tối nay / this evening; tonight; 今週【こんしゅう】: tuần này / this week | [N5_KANJI PDF 187](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=187) |
+| 6 | 金 | KIM | vàng; tiền | gold; money | キン, コン | かね, かな | 金曜日【きんようび】: thứ Sáu / Friday; お金【かね】: tiền / money; 金【きん】: vàng / gold | [N5_KANJI PDF 181](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=181) |
+| 165 | 曜 | DIỆU | thứ trong tuần (trong 曜日) | day of the week (in 曜日) | ヨウ | — | 日曜日【にちようび】: Chủ nhật / Sunday; 月曜日【げつようび】: thứ Hai / Monday; 火曜日【かようび】: thứ Ba / Tuesday | [N5_KANJI PDF 204](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=204) |
+| 100 | 友 | HỮU | bạn | friend | ユウ | とも | 友達【ともだち】: bạn / friend | [N5_KANJI PDF 196](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=196) |
+| 101 | 達 | ĐẠT | hậu tố số nhiều cho người; thành tố của từ 'bạn' | plural suffix for people; part of 'friend' | タツ | — | 友達【ともだち】: bạn / friend | [N5_KANJI PDF 196](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=196) |
+| 160 | 料 | LIỆU | nguyên liệu; tiền phí | material; fee | リョウ | — | 料理【りょうり】: nấu ăn; món ăn / cooking; cuisine; dish; 中国料理【ちゅうごくりょうり】: món ăn Trung Hoa / Chinese cuisine | [N5_KANJI PDF 203](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=203) |
+| 161 | 理 | LÝ | lý do; lý luận | reason; logic | リ | — | 料理【りょうり】: nấu ăn; món ăn / cooking; cuisine; dish; 中国料理【ちゅうごくりょうり】: món ăn Trung Hoa / Chinese cuisine | [N5_KANJI PDF 203](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=203) |
+| 81 | 食 | THỰC | ăn; thức ăn | eat; food | ショク, ジキ | た(べる), く(う), く(らう) | 食【た】べます: ăn / eat; 食【た】べ物【もの】: đồ ăn / food; 食堂【しょくどう】: nhà ăn / dining hall; cafeteria | [N5_KANJI PDF 193](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=193) |
+| 56 | 駅 | DỊCH | nhà ga | station | エキ | — | ～駅【えき】: ga (sau tên) / Station (after a name); 駅【えき】: nhà ga / station; 駅前【えきまえ】: trước nhà ga / in front of the station | [N5_KANJI PDF 190](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=190) |
+| 28 | 会 | HỘI | gặp; họp | meet; gather | カイ, エ | あ(う) | 会社【かいしゃ】: công ty / company; 会社員【かいしゃいん】: nhân viên công ty / company employee; 会【あ】います: gặp / meet | [N5_KANJI PDF 185](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=185) |
+| 51 | 来 | LAI | đến; sắp tới | come; next | ライ | く(る), きた(る), きた(す) | 来【き】ます: đến / come; 来週【らいしゅう】: tuần sau / next week; 来年【らいねん】: năm sau / next year | [N5_KANJI PDF 189](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=189) |
+| 53 | 週 | CHU | tuần | week | シュウ | — | ～週間【しゅうかん】: tuần (thời lượng) / weeks (duration); 先週【せんしゅう】: tuần trước / last week; 今週【こんしゅう】: tuần này / this week | [N5_KANJI PDF 190](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=190) |
+| 200 | 家 | GIA | nhà; gia đình | house; home; family | カ, ケ | いえ, や | 家内【かない】: vợ tôi / my wife; 家族【かぞく】: gia đình / family; 家【いえ】: nhà / house; home | [N5_KANJI PDF 208](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=208) |
+| 202 | 族 | TỘC | gia đình; dòng họ | family; clan | ゾク | — | 家族【かぞく】: gia đình / family | [N5_KANJI PDF 208](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=208) |
+| 104 | 写 | TẢ | sao chép; chụp ảnh | copy; photograph | シャ | うつ(す), うつ(る) | 写真【しゃしん】: ảnh chụp / photograph | [N5_KANJI PDF 196](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=196) |
+| 105 | 真 | CHÂN | sự thật; chân thực | truth; genuine | シン | ま | 写真【しゃしん】: ảnh chụp / photograph | [N5_KANJI PDF 196](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=196) |
+| 45 | 前 | TIỀN | phía trước; trước khi | front; before | ゼン | まえ | 午前【ごぜん】: buổi sáng; trước trưa / morning; a.m.; 名前【なまえ】: tên / name; 駅前【えきまえ】: trước nhà ga / in front of the station | [N5_KANJI PDF 188](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=188) |
+| 66 | 古 | CỔ | cũ | old | コ | ふる(い), ふる(す) | 古【ふる】い: cũ / old (of things); 古本【ふるほん】: sách cũ / used book | [N5_KANJI PDF 192](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=192) |
+| 421 | 若 | NHƯỢC | trẻ | young | ジャク, ニャク | わか.い, も.しくは | 若【わか】い: trẻ / young | [N4_KANJI PDF 219](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=219) |
+| 74 | 母 | MẪU | mẹ | mother | ボ | はは | お母【かあ】さん: mẹ (cách nói lịch sự) / mother (polite); 母【はは】: mẹ tôi / my mother | [N5_KANJI PDF 193](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=193) |
+| 73 | 父 | PHỤ | bố; cha | father | フ | ちち | お父【とう】さん: bố (cách nói lịch sự) / father (polite); 父【ちち】: bố tôi / my father | [N5_KANJI PDF 193](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=193) |
+| 136 | 少 | THIỂU | ít | few; little | ショウ | すこ(し), すく(ない) | 少【すく】ない: ít / few; little; 少【すこ】し: một ít / a little | [N5_KANJI PDF 200](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=200) |
+| 156 | 南 | NAM | phía nam | south | ナン, ナ | みなみ | 南【みなみ】アメリカ: Nam Mỹ / South America; 南【みなみ】: phía nam / south; 東南【とうなん】アジア: Đông Nam Á / Southeast Asia | [N5_KANJI PDF 203](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=203) |
+| 194 | 建 | KIẾN | xây dựng | build | ケン, コン | た(てる), た(つ) | 建物【たてもの】: tòa nhà / building | [N5_KANJI PDF 207](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=207) |
+| 83 | 物 | VẬT | đồ vật | thing; object | ブツ, モツ | もの | 飲【の】み物【もの】: đồ uống / drink; beverage; 建物【たてもの】: tòa nhà / building; 着物【きもの】: kimono / kimono | [N5_KANJI PDF 194](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=194) |
+| 110 | 英 | ANH | nước Anh; tiếng Anh; tài năng | England; English; talent | エイ | — | 英語【えいご】: tiếng Anh / English language | [N5_KANJI PDF 197](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=197) |
+| 111 | 語 | NGỮ | ngôn ngữ; kể chuyện | language; tell | ゴ | かた(る), かた(らう) | 英語【えいご】: tiếng Anh / English language; ～語【ご】: tiếng; ngôn ngữ (sau tên) / language (after a name); 日本語【にほんご】: tiếng Nhật / Japanese language | [N5_KANJI PDF 197](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=197) |
+| 93 | 聞 | VĂN | nghe; hỏi | hear; listen; ask | ブン, モン | き(く), き(こえる) | 聞【き】きます: nghe; hỏi / listen; hear; ask; 聞【き】こえます: nghe thấy / be audible; can hear; 新聞【しんぶん】: báo / newspaper | [N5_KANJI PDF 195](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=195) |
+| 65 | 新 | TÂN | mới | new | シン | あたら(しい), あら(た), にい | 新【あたら】しい: mới / new; 新聞【しんぶん】: báo / newspaper | [N5_KANJI PDF 191](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=191) |
+| 94 | 読 | ĐỘC | đọc | read | ドク, トク, トウ | よ(む) | 読【よ】みます: đọc / read; 読【よ】み方【かた】: cách đọc / how to read | [N5_KANJI PDF 195](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=195) |
+| 121 | 花 | HOA | hoa | flower | カ | はな | 花火【はなび】: pháo hoa / fireworks; 花見【はなみ】: ngắm hoa anh đào / cherry-blossom viewing; 花【はな】: hoa / flower | [N5_KANJI PDF 198](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=198) |
+| 68 | 白 | BẠCH | trắng | white | ハク, ビャク | しろ(い), しろ, しら | 白【しろ】い: trắng / white; 白【しろ】: màu trắng / white | [N5_KANJI PDF 192](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=192) |
+| 64 | 小 | TIỂU | nhỏ; bé | small | ショウ | ちい(さい), こ, お | 小【ちい】さい: nhỏ / small; 小学校【しょうがっこう】: trường tiểu học / elementary school; 小学生【しょうがくせい】: học sinh tiểu học / elementary-school pupil | [N5_KANJI PDF 191](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=191) |
+| 492 | 留 | LƯU | lưu; giữ | remain; keep | リュウ, ル | と.める, と.まる | 留学【りゅうがく】: việc du học / study abroad | [N4_KANJI PDF 230](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=230) |
+| 25 | 学 | HỌC | học tập | study; learning | ガク | まな(ぶ) | 学生【がくせい】: học sinh; sinh viên / student; 学校【がっこう】: trường học / school; 大学【だいがく】: đại học / university | [N5_KANJI PDF 185](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=185) |
+| 26 | 生 | SINH | sống; sinh ra; tươi | life; birth; fresh | セイ, ショウ | い(きる), い(かす), い(ける), う(まれる), う(む), お(う), は(える), は(やす), き, なま | 学生【がくせい】: học sinh; sinh viên / student; 小学生【しょうがくせい】: học sinh tiểu học / elementary-school pupil; 中学生【ちゅうがくせい】: học sinh trung học cơ sở / junior-high-school student | [N5_KANJI PDF 185](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=185) |
+| 11 | 一 | NHẤT | một | one | イチ, イツ | ひと(つ), ひと | 一日【いちにち】: một ngày / one day; 一日【ついたち】: ngày mùng một / first day of the month; 一【ひと】つ: một cái / one item | [N5_KANJI PDF 182](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=182) |
+| 2 | 月 | NGUYỆT | mặt trăng; tháng | moon; month | ゲツ, ガツ | つき | 月曜日【げつようび】: thứ Hai / Monday; 先月【せんげつ】: tháng trước / last month; 今月【こんげつ】: tháng này / this month | [N5_KANJI PDF 181](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=181) |
+| 33 | 本 | BẢN | sách; chính; thật | book; main; genuine | ホン | もと | 本屋【ほんや】: hiệu sách / bookshop; 古本【ふるほん】: sách cũ / used book; 本社【ほんしゃ】: trụ sở chính / head office | [N5_KANJI PDF 186](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=186) |
+| 203 | 兄 | HUYNH | anh trai | older brother | ケイ, キョウ | あに | お兄【にい】さん: anh trai (lịch sự) / older brother (polite); 兄弟【きょうだい】: anh chị em; anh em / siblings; brothers; 兄【あに】: anh trai tôi / my older brother | [N5_KANJI PDF 208](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=208) |
+| 164 | 足 | TÚC | chân; đủ; thêm | foot; leg; enough; add | ソク | あし, た(りる), た(る), た(す) | 足【た】ります: đủ / be enough; 足【あし】: chân / foot; leg; 右足【みぎあし】: chân phải / right foot; right leg | [N5_KANJI PDF 204](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=204) |
+| 137 | 長 | TRƯỜNG, TRƯỞNG | dài; người đứng đầu | long; head; leader | チョウ | なが(い) | 長【なが】い: dài / long; 社長【しゃちょう】: giám đốc công ty / company president; 部長【ぶちょう】: trưởng phòng / department manager | [N5_KANJI PDF 200](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=200) |
+| 138 | 短 | ĐOẢN | ngắn | short | タン | みじか(い) | 短【みじか】い: ngắn / short | [N5_KANJI PDF 200–201](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=200) |
+| 179 | 銀 | NGÂN | bạc | silver | ギン | — | 銀【ぎん】: bạc / silver; 銀行員【ぎんこういん】: nhân viên ngân hàng / bank employee; 銀行【ぎんこう】: ngân hàng / bank | [N5_KANJI PDF 206](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=206) |
+| 50 | 行 | HÀNH | đi; thực hiện | go; carry out | コウ, ギョウ, アン | い(く), ゆ(く), おこな(う) | 行【い】きます: đi / go; 銀行【ぎんこう】: ngân hàng / bank; 旅行【りょこう】: du lịch; chuyến đi / travel; trip | [N5_KANJI PDF 189](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=189) |
+| 30 | 員 | VIÊN | thành viên; nhân viên | member; employee | イン | — | 社員【しゃいん】: nhân viên của một công ty / employee of a company; 銀行員【ぎんこういん】: nhân viên ngân hàng / bank employee; 会社員【かいしゃいん】: nhân viên công ty / company employee | [N5_KANJI PDF 186](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=186) |
+| 188 | 春 | XUÂN | mùa xuân | spring | シュン | はる | 春【はる】: mùa xuân / spring; 春休【はるやす】み: kỳ nghỉ xuân / spring vacation | [N5_KANJI PDF 207](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=207) |
+| 127 | 入 | NHẬP | vào; đưa vào | enter; put in | ニュウ | はい(る), い(れる), い(る) | 入【はい】ります: vào / enter; 入【い】れます: cho vào / put in; 入【い】り口【ぐち】: lối vào / entrance | [N5_KANJI PDF 199](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=199) |
+| 54 | 去 | KHỨ | rời đi; đã qua | leave; past | キョ, コ | さ(る) | 去年【きょねん】: năm ngoái / last year | [N5_KANJI PDF 190](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=190) |
+| 55 | 年 | NIÊN | năm | year | ネン | とし | 去年【きょねん】: năm ngoái / last year; ～年【ねん】: năm (sau số) / years; year (after a number); ～年前【ねんまえ】: năm trước / years ago | [N5_KANJI PDF 190](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=190) |
+| 97 | 買 | MÃI | mua | buy | バイ | か(う) | 買【か】います: mua / buy; 買【か】い物【もの】: việc mua sắm / shopping; 買【か】い物【もの】します: đi mua sắm / go shopping | [N5_KANJI PDF 196](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=196) |
+| 69 | 赤 | XÍCH | đỏ | red | セキ, シャク | あか(い), あか, あか(らむ), あか(らめる) | 赤【あか】い: đỏ / red; 赤【あか】: màu đỏ / red | [N5_KANJI PDF 192](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=192) |
+| 117 | 教 | GIÁO | dạy; tôn giáo | teach; religion | キョウ | おし(える), おそ(わる) | 教【おし】えます: dạy; chỉ cho biết / teach; tell; 教室【きょうしつ】: phòng học / classroom; 教会【きょうかい】: nhà thờ / church | [N5_KANJI PDF 198](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=198) |
+| 212 | 室 | THẤT | phòng | room | シツ | むろ | 地下室【ちかしつ】: phòng tầng hầm / basement; 教室【きょうしつ】: phòng học / classroom; 病室【びょうしつ】: phòng bệnh / hospital room | [N5_KANJI PDF 209](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=209) |
+| 213 | 窓 | SONG | cửa sổ | window | ソウ | まど | 窓【まど】: cửa sổ / window | [N5_KANJI PDF 209](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=209) |
+| 88 | 外 | NGOẠI | ngoài; khác; nước ngoài | outside; other; foreign | ガイ, ゲ | そと, ほか, はず(す), はず(れる) | 外【そと】: bên ngoài / outside; 外国【がいこく】: nước ngoài / foreign country; abroad; 外国人【がいこくじん】: người nước ngoài / foreign person | [N5_KANJI PDF 194–195](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=194) |
+| 219 | 天 | THIÊN | trời | sky; heaven | テン | あめ, あま | 天気【てんき】: thời tiết / weather | [N5_KANJI PDF 210](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=210) |
+| 146 | 気 | KHÍ | khí; sức lực; tinh thần | air; energy; spirit | キ, ケ | — | 元気【げんき】な: khỏe mạnh; đầy sức sống / healthy; energetic; 病気【びょうき】: bệnh / illness; 病気【びょうき】の: bị bệnh / ill; sick | [N5_KANJI PDF 201](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=201) |
+| 62 | 安 | AN | rẻ; bình yên | cheap; peaceful | アン | やす(い) | 安【やす】い: rẻ / cheap; 円安【えんやす】: đồng yên giảm giá / depreciation of the yen | [N5_KANJI PDF 191](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=191) |
+| 168 | 寝 | TẨM | ngủ | sleep | シン | ね(る), ね(かす) | 寝【ね】ます: ngủ; đi ngủ / sleep; go to bed | [N5_KANJI PDF 204](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=204) |
+| 67 | 青 | THANH | xanh | blue; green | セイ, ショウ | あお(い), あお | 青【あお】い: xanh / blue; green; 青【あお】: màu xanh / blue; green | [N5_KANJI PDF 192](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=192) |
+| 183 | 服 | PHỤC | quần áo | clothes | フク | — | 服【ふく】: quần áo / clothes | [N5_KANJI PDF 206](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=206) |
+| 8 | 山 | SƠN | núi | mountain | サン | やま | 山【やま】: núi / mountain | [N5_KANJI PDF 182](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=182) |
+| 72 | 下 | HẠ | dưới; xuống; hạ | below; down; lower | カ, ゲ | した, しも, もと, さ(げる), さ(がる), くだ(る), くだ(す), くだ(さる), お(ろす), お(りる) | 下手【へた】な: kém; vụng / unskillful; poor at; 地下鉄【ちかてつ】: tàu điện ngầm / subway; 下【お】ろします: hạ xuống; dỡ xuống / lower; unload | [N5_KANJI PDF 192](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=192) |
+| 125 | 止 | CHỈ | dừng; ngăn lại | stop | シ | と(まる), と(める) | 止【と】めます: dừng; ngăn lại / stop something; 止【と】まります: dừng lại / stop (intransitive) | [N5_KANJI PDF 199](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=199) |
+| 71 | 上 | THƯỢNG | trên; lên; nâng | above; up; raise | ジョウ, ショウ | うえ, うわ, かみ, あ(げる), あ(がる), のぼ(る), のぼ(せる), のぼ(す) | 上手【じょうず】な: giỏi; khéo / skillful; good at; 上着【うわぎ】: áo khoác / jacket; outerwear; 上【うえ】: trên; bên trên / above; on top | [N5_KANJI PDF 192](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=192) |
+| 432 | 寺 | TỰ | chùa | Buddhist temple | ジ | てら | お寺【てら】: chùa / Buddhist temple | [N4_KANJI PDF 221](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=221) |
+| 122 | 歩 | BỘ | đi bộ | walk | ホ, ブ, フ | ある(く), あゆ(む) | 歩【ある】きます: đi bộ / walk; 歩【ある】いて: đi bộ / on foot; 歩道【ほどう】: vỉa hè / sidewalk | [N5_KANJI PDF 198–199](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=198) |
+| 31 | 医 | Y | y tế; y học | medicine; medical care | イ | — | 医者【いしゃ】: bác sĩ / doctor | [N5_KANJI PDF 186](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=186) |
+| 32 | 者 | GIẢ | người; người làm chuyên môn | person; practitioner | シャ | もの | 医者【いしゃ】: bác sĩ / doctor | [N5_KANJI PDF 186](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=186) |
+| 220 | 考 | KHẢO | suy nghĩ; cân nhắc | think; consider | コウ | かんが(える) | 考【かんが】えます: suy nghĩ; cân nhắc / think; consider; 考【かんが】え方【かた】: cách nghĩ / way of thinking | [N5_KANJI PDF 210](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=210) |
+| 142 | 早 | TẢO | sớm | early | ソウ, サッ | はや(い), はや(める), はや(まる) | 早【はや】い: sớm / early; 早【はや】く: sớm (trạng từ) / early (adverb) | [N5_KANJI PDF 201](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=201) |
+| 89 | 男 | NAM | đàn ông; nam; con trai | man; male; boy | ダン, ナン | おとこ | 男【おとこ】の人【ひと】: người đàn ông / man; 男【おとこ】の子【こ】: bé trai / boy | [N5_KANJI PDF 195](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=195) |
+| 36 | 人 | NHÂN | người; con người | person; people | ジン, ニン | ひと | 外国人【がいこくじん】: người nước ngoài / foreign person; 男【おとこ】の人【ひと】: người đàn ông / man; 女【おんな】の人【ひと】: người phụ nữ / woman | [N5_KANJI PDF 187](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=187) |
+| 167 | 思 | TƯ | nghĩ; cho rằng | think; suppose | シ | おも(う) | 思【おも】います: nghĩ; cho rằng / think; suppose | [N5_KANJI PDF 204](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=204) |
+| 185 | 音 | ÂM | âm thanh; tiếng động | sound | オン, イン | おと, ね | 音楽【おんがく】: âm nhạc / music; 音【おと】: âm thanh / sound | [N5_KANJI PDF 206](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=206) |
+| 186 | 楽 | LẠC | vui thú; dễ dàng | enjoyment; ease | ガク, ラク | たの(しい), たの(しむ) | 音楽【おんがく】: âm nhạc / music; 楽【たの】しい: vui; thú vị / enjoyable; fun; 楽【らく】な: nhàn; thoải mái / easy; comfortable | [N5_KANJI PDF 206](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=206) |
+| 217 | 意 | Ý | ý nghĩ; ý định; ý nghĩa | thought; intention; meaning | イ | — | 意味【いみ】: ý nghĩa / meaning; 意見【いけん】: ý kiến / opinion | [N5_KANJI PDF 210](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=210) |
+| 218 | 味 | VỊ | vị; mùi vị | taste; flavor | ミ | あじ, あじ(わう) | 意味【いみ】: ý nghĩa / meaning | [N5_KANJI PDF 210](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=210) |
+| 52 | 校 | HIỆU | trường học | school | コウ | — | 学校【がっこう】: trường học / school; 小学校【しょうがっこう】: trường tiểu học / elementary school; 中学校【ちゅうがっこう】: trường trung học cơ sở / junior high school | [N5_KANJI PDF 189–190](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=189) |
+| 63 | 大 | ĐẠI | lớn; rất | big; very | ダイ, タイ | おお(きい), おお, おお(いに) | 大【おお】きい: lớn; to / big; 大使館【たいしかん】: đại sứ quán / embassy; 大好【だいす】きな: rất thích / very fond of | [N5_KANJI PDF 191](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=191) |
+| 193 | 堂 | ĐƯỜNG | phòng lớn; hội trường | hall | ドウ | — | 食堂【しょくどう】: nhà ăn / dining hall; cafeteria; 学生食堂【がくせいしょくどう】: nhà ăn sinh viên / student cafeteria | [N5_KANJI PDF 207](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=207) |
+| 75 | 子 | TỬ | con; trẻ em | child | シ, ス | こ | 子【こ】ども: trẻ em / child; 男【おとこ】の子【こ】: bé trai / boy; 女【おんな】の子【こ】: bé gái / girl | [N5_KANJI PDF 193](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=193) |
+| 90 | 女 | NỮ | phụ nữ; nữ; con gái | woman; female; girl | ジョ, ニョ, ニョウ | おんな, め | 女【おんな】の人【ひと】: người phụ nữ / woman; 女【おんな】の子【こ】: bé gái / girl | [N5_KANJI PDF 195](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=195) |
+| 27 | 先 | TIÊN | trước; phía trước | ahead; previous | セン | さき | 先生【せんせい】: thầy; cô giáo / teacher; 先週【せんしゅう】: tuần trước / last week; 先月【せんげつ】: tháng trước / last month | [N5_KANJI PDF 185](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=185) |
+| 145 | 元 | NGUYÊN | gốc; nguyên bản | origin; original | ゲン, ガン | もと | 元気【げんき】な: khỏe mạnh; đầy sức sống / healthy; energetic | [N5_KANJI PDF 201](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=201) |
+| 129 | 売 | MẠI | bán | sell | バイ | う(る), う(れる) | 売【う】ります: bán / sell; 売店【ばいてん】: quầy bán hàng / kiosk; shop | [N5_KANJI PDF 199](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=199) |
+| 174 | 漢 | HÁN | Hán; chữ Hán | Chinese; Han | カン | — | 漢字【かんじ】: chữ Hán / kanji; Chinese character | [N5_KANJI PDF 205](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=205) |
+| 175 | 字 | TỰ | chữ | character; letter | ジ | あざ | 漢字【かんじ】: chữ Hán / kanji; Chinese character; ローマ字【じ】: chữ La-tinh; romaji / Roman letters; romaji; 字【じ】: chữ / character; letter | [N5_KANJI PDF 205](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=205) |
+| 92 | 書 | THƯ | viết; chữ viết; sách | write; writing; book | ショ | か(く) | 書【か】きます: viết / write; 書【か】き方【かた】: cách viết / how to write; 図書館【としょかん】: thư viện / library | [N5_KANJI PDF 195](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=195) |
+| 139 | 悪 | ÁC | xấu; có hại; ác | bad; harmful; evil | アク, オ | わる(い) | 悪【わる】い: xấu; tệ / bad | [N5_KANJI PDF 201](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=201) |
+| 70 | 黒 | HẮC | đen | black | コク | くろ(い), くろ | 黒【くろ】い: đen / black; 黒【くろ】: màu đen / black | [N5_KANJI PDF 192](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=192) |
+| 114 | 貸 | THẢI | cho vay; cho mượn | lend | タイ | か(す) | 貸【か】します: cho mượn; cho vay / lend | [N5_KANJI PDF 198](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=198) |
+| 87 | 左 | TẢ | trái; bên trái | left | サ | ひだり | 左足【ひだりあし】: chân trái / left foot; left leg; 左【ひだり】: bên trái / left; 左手【ひだりて】: tay trái / left hand | [N5_KANJI PDF 194](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=194) |
+| 109 | 店 | ĐIẾM | cửa hàng | shop | テン | みせ | 売店【ばいてん】: quầy bán hàng / kiosk; shop; 店【みせ】: cửa hàng / shop; 喫茶店【きっさてん】: quán cà phê; quán giải khát / coffee shop; café | [N5_KANJI PDF 197](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=197) |
+| 182 | 度 | ĐỘ | độ; lần | degree; occasion | ド, ト, タク | たび | 温度【おんど】: nhiệt độ / temperature; ～度【ど】: độ (từ đếm) / degrees (counter); 一度【いちど】: một lần / once | [N5_KANJI PDF 206](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=206) |
+| 134 | 広 | QUẢNG | rộng | wide; spacious | コウ | ひろ(い), ひろ(まる), ひろ(める), ひろ(がる), ひろ(げる) | 広【ひろ】い: rộng / wide; spacious | [N5_KANJI PDF 200](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=200) |
+| 211 | 屋 | ỐC | cửa hàng; nhà | shop; house | オク | や | 部屋【へや】: phòng / room; パン屋【や】: tiệm bánh mì / bakery; 花屋【はなや】: cửa hàng hoa / florist | [N5_KANJI PDF 209](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=209) |
+| 39 | 昼 | TRÚ | buổi trưa; ban ngày | noon; daytime | チュウ | ひる | 昼【ひる】ごはん: bữa trưa / lunch; 昼休【ひるやす】み: giờ nghỉ trưa / lunch break; 昼【ひる】: trưa; ban ngày / noon; daytime | [N5_KANJI PDF 187](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=187) |
+| 195 | 病 | BỆNH | bệnh; ốm | illness; sick | ビョウ, ヘイ | や(む), やまい | 病院【びょういん】: bệnh viện / hospital; 病室【びょうしつ】: phòng bệnh / hospital room; 国立病院【こくりつびょういん】: bệnh viện quốc lập / national hospital | [N5_KANJI PDF 207](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=207) |
+| 196 | 院 | VIỆN | viện; cơ sở công cộng | institution; public building | イン | — | 病院【びょういん】: bệnh viện / hospital; 国立病院【こくりつびょういん】: bệnh viện quốc lập / national hospital | [N5_KANJI PDF 207](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=207) |
+| 192 | 道 | ĐẠO | đường | road; path | ドウ, トウ | みち | 道【みち】: đường / road; way; 水道【すいどう】: nước máy; hệ thống cấp nước / water supply; 近道【ちかみち】: đường tắt / shortcut | [N5_KANJI PDF 207](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=207) |
+| 84 | 近 | CẬN | gần; lân cận; gần gũi | near; nearby; close | キン | ちか(い) | 近【ちか】く: gần đây; vùng lân cận / nearby; 近【ちか】くの: ở gần (bổ nghĩa danh từ) / nearby (modifying a noun); 近【ちか】い: gần / near | [N5_KANJI PDF 194](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=194) |
+| 112 | 送 | TỐNG | gửi; tiễn | send; see off | ソウ | おく(る) | 送【おく】ります: gửi; tiễn / send; see someone off | [N5_KANJI PDF 197](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=197) |
+| 198 | 運 | VẬN | chở; vận mệnh; vận may | carry; luck; fortune | ウン | はこ(ぶ) | 運【うん】: vận may; vận mệnh / luck; fortune; 運転【うんてん】: việc lái xe / driving; 運転【うんてん】します: lái xe / drive | [N5_KANJI PDF 208](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=208) |
+| 60 | 転 | CHUYỂN | quay; chuyển động quay | turn; roll | テン | ころ(がる), ころ(げる), ころ(がす), ころ(ぶ) | 運転【うんてん】: việc lái xe / driving; 運転【うんてん】します: lái xe / drive; 自転車【じてんしゃ】: xe đạp / bicycle | [N5_KANJI PDF 191](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=191) |
+| 98 | 起 | KHỞI | dậy; xảy ra; gây ra | rise; wake; cause | キ | お(きる), お(こす), お(こる) | 起【お】きます: thức dậy / get up; wake up | [N5_KANJI PDF 196](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=196) |
+| 119 | 勉 | MIỄN | cố gắng | make an effort | ベン | — | 勉強【べんきょう】: việc học / study; 勉強【べんきょう】します: học bài / study | [N5_KANJI PDF 198](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=198) |
+| 120 | 強 | CƯỜNG | mạnh; ép buộc | strong; force | キョウ, ゴウ | つよ(い), つよ(まる), つよ(める), し(いる) | 勉強【べんきょう】: việc học / study; 勉強【べんきょう】します: học bài / study; 強【つよ】い: mạnh / strong | [N5_KANJI PDF 198](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=198) |
+| 150 | 地 | ĐỊA | đất; mặt đất | earth; ground | チ, ジ | — | 地図【ちず】: bản đồ / map; 地価【ちか】: giá đất / land price; 地震【じしん】: động đất / earthquake | [N5_KANJI PDF 202](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=202) |
+| 177 | 図 | ĐỒ | sơ đồ; bản đồ; hình | diagram; map; figure | ズ, ト | はか(る) | 図書館【としょかん】: thư viện / library; 国立図書館【こくりつとしょかん】: thư viện quốc gia / national library; 地図【ちず】: bản đồ / map | [N5_KANJI PDF 205](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=205) |
+| 35 | 国 | QUỐC | đất nước; quốc gia | country; nation | コク | くに | 中国【ちゅうごく】: Trung Quốc / China; 中国人【ちゅうごくじん】: người Trung Quốc / Chinese person; 中国語【ちゅうごくご】: tiếng Trung / Chinese language | [N5_KANJI PDF 186–187](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=186) |
+| 201 | 内 | NỘI | bên trong | inside | ナイ, ダイ | うち | 家内【かない】: vợ tôi / my wife; 国内【こくない】の: trong nước; nội địa / domestic | [N5_KANJI PDF 208](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=208) |
+| 79 | 肉 | NHỤC | thịt | meat | ニク | — | 肉【にく】: thịt / meat; 肉屋【にくや】: cửa hàng thịt / butcher's shop | [N5_KANJI PDF 193](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=193) |
+| 22 | 千 | THIÊN | nghìn | thousand | セン | ち | 二千【にせん】: hai nghìn / two thousand; 三千【さんぜん】: ba nghìn / three thousand; 四千【よんせん】: bốn nghìn / four thousand | [N5_KANJI PDF 184](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=184) |
+| 24 | 円 | VIÊN | yên; hình tròn | yen; circle | エン | まる(い) | 円高【えんだか】: đồng yên tăng giá / appreciation of the yen; 円安【えんやす】: đồng yên giảm giá / depreciation of the yen; ～円【えん】: yên (sau số tiền) / yen (after an amount) | [N5_KANJI PDF 185](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=185) |
+| 173 | 同 | ĐỒNG | giống; cùng | same; together | ドウ | おな(じ) | 同【おな】じ: giống; cùng / same | [N5_KANJI PDF 205](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=205) |
+| 214 | 開 | KHAI | mở | open | カイ | ひら(く), ひら(ける), あ(く), あ(ける) | 開【あ】けます: mở / open something; 開【あ】きます: mở ra / open (intransitive) | [N5_KANJI PDF 210](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=210) |
+| 215 | 閉 | BẾ | đóng | close | ヘイ | と(じる), と(ざす), し(める), し(まる) | 閉【し】めます: đóng / close something; 閉【し】まります: đóng lại / close (intransitive) | [N5_KANJI PDF 210](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=210) |
+| 41 | 時 | THỜI | thời gian; giờ | time; hour | ジ | とき | 時間【じかん】: thời gian / time; 時計【とけい】: đồng hồ / clock; watch; 時々【ときどき】: thỉnh thoảng / sometimes | [N5_KANJI PDF 188](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=188) |
+| 85 | 間 | GIAN | giữa; khoảng thời gian | between; interval | カン, ケン | あいだ, ま | 間【あいだ】: giữa / between; 時間【じかん】: thời gian / time; 1時間【いちじかん】: một tiếng / one hour | [N5_KANJI PDF 194](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=194) |
+| 107 | 映 | ẢNH | phản chiếu; chiếu hình | reflect; project | エイ | うつ(る), うつ(す), は(える) | 映画【えいが】: phim / film; movie; 映画館【えいがかん】: rạp chiếu phim / cinema | [N5_KANJI PDF 197](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=197) |
+| 108 | 画 | HỌA, HOẠCH | tranh; nét chữ | picture; stroke | ガ, カク | — | 映画【えいが】: phim / film; movie; 映画館【えいがかん】: rạp chiếu phim / cinema; 画家【がか】: họa sĩ / painter | [N5_KANJI PDF 197](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=197) |
+| 12 | 二 | NHỊ | hai | two | ニ | ふた(つ), ふた | 二日【ふつか】: hai ngày; ngày mùng hai / two days; second day of the month; 二十日【はつか】: hai mươi ngày; ngày hai mươi / twenty days; twentieth day of the month; 二【ふた】つ: hai cái / two items | [N5_KANJI PDF 182](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=182) |
+| 20 | 十 | THẬP | mười | ten | ジュウ, ジッ | とお, と | 十日【とおか】: mười ngày; ngày mùng mười / ten days; tenth day of the month; 十【じゅう】: mười / ten; 十【とお】: mười cái / ten items | [N5_KANJI PDF 183](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=183) |
+| 42 | 分 | PHÂN | phút; phần; chia | minute; part; divide | フン, ブン, ブ | わ(かる), わ(かれる), わ(ける), わ(かつ) | 自分【じぶん】で: tự mình / by oneself; 半分【はんぶん】: một nửa / half; ～分【ふん】: phút (cách đọc từ đếm) / minutes (counter reading) | [N5_KANJI PDF 188](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N5.pdf#page=188) |
+
+## Common reading words
+
+| Word | Kana | Vietnamese | English | Reference |
+| --- | --- | --- | --- | --- |
+| 六日【むいか】 | むいか | ngày mùng sáu; sáu ngày | sixth day; six days | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 東京【とうきょう】 | とうきょう | Tokyo | Tokyo | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 着【つ】く | つく | đến | arrive | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 電話【でんわ】 | でんわ | điện thoại | telephone call | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 背【せ】 | せ | chiều cao; lưng | height; back | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 高【たか】い | たかい | cao; đắt | tall; expensive | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 方【かた】 | かた | vị; người (kính trọng) | person (respectful) | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 右【みぎ】 | みぎ | bên phải | right | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 立【た】つ | たつ | đứng | stand | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 今日【きょう】 | きょう | hôm nay | today | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 金曜日【きんようび】 | きんようび | thứ sáu | Friday | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 友達【ともだち】 | ともだち | bạn bè | friend | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 料理【りょうり】 | りょうり | món ăn; việc nấu ăn | cooking; dish | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 食【た】べる | たべる | ăn | eat | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 駅【えき】 | えき | nhà ga | station | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 会【あ】う | あう | gặp | meet | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 来週【らいしゅう】 | らいしゅう | tuần sau | next week | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 家族【かぞく】 | かぞく | gia đình | family | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 写真【しゃしん】 | しゃしん | ảnh | photograph | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 家【いえ】 | いえ | nhà | house; home | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 前【まえ】 | まえ | phía trước; trước | front; before | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 古【ふる】い | ふるい | cũ | old | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 若【わか】い | わかい | trẻ | young | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 母【はは】 | はは | mẹ (của mình) | mother (one's own) | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 父【ちち】 | ちち | bố (của mình) | father (one's own) | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 少【すこ】し | すこし | một chút | a little | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 南【みなみ】 | みなみ | phía nam | south | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 建物【たてもの】 | たてもの | tòa nhà | building | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 英語【えいご】 | えいご | tiếng Anh | English | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 聞【き】く | きく | nghe; hỏi | listen; ask | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 新聞【しんぶん】 | しんぶん | báo | newspaper | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 読【よ】む | よむ | đọc | read | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 花【はな】 | はな | hoa | flower | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 白【しろ】い | しろい | trắng | white | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 小【ちい】さい | ちいさい | nhỏ | small | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 留学生【りゅうがくせい】 | りゅうがくせい | du học sinh | international student | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 一か月【いっかげつ】 | いっかげつ | một tháng | one month | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 日本【にほん】 | にほん | Nhật Bản | Japan | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 兄【あに】 | あに | anh trai (của mình) | older brother (one's own) | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 足【あし】 | あし | chân | leg; foot | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 長【なが】い | ながい | dài | long | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 短【みじか】い | みじかい | ngắn | short in length | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 銀行員【ぎんこういん】 | ぎんこういん | nhân viên ngân hàng | bank employee | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 春【はる】 | はる | mùa xuân | spring | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 入【はい】る | はいる | vào | enter | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 去年【きょねん】 | きょねん | năm ngoái | last year | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 買【か】う | かう | mua | buy | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 赤【あか】い | あかい | đỏ | red | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 教室【きょうしつ】 | きょうしつ | phòng học | classroom | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 窓【まど】 | まど | cửa sổ | window | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 外【そと】 | そと | bên ngoài | outside | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 天気【てんき】 | てんき | thời tiết | weather | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 安【やす】い | やすい | rẻ | inexpensive | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 寝【ね】る | ねる | ngủ; đi ngủ | sleep; go to bed | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 青【あお】い | あおい | xanh lam | blue | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 服【ふく】 | ふく | quần áo | clothes | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 山【やま】 | やま | núi | mountain | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 下【した】 | した | bên dưới | under | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 止【と】める | とめる | dừng; đỗ | stop something; park | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 上【うえ】 | うえ | trên | above; on | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| お寺【てら】 | おてら | chùa | Buddhist temple | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 歩【ある】く | あるく | đi bộ | walk | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 医者【いしゃ】 | いしゃ | bác sĩ | doctor | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 考【かんが】える | かんがえる | suy nghĩ | think; consider | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 早【はや】く | はやく | sớm | early; soon | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 買い物【かいもの】 | かいもの | việc mua sắm | shopping | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 男の人【おとこのひと】 | おとこのひと | người đàn ông | man | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 思【おも】う | おもう | nghĩ | think | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 音楽【おんがく】 | おんがく | âm nhạc | music | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 音【おと】 | おと | âm thanh | sound | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 意味【いみ】 | いみ | ý nghĩa | meaning | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 学校【がっこう】 | がっこう | trường học | school | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 大学【だいがく】 | だいがく | đại học | university | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 食堂【しょくどう】 | しょくどう | nhà ăn | dining hall | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 着【き】る | きる | mặc | put on clothes | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 電気【でんき】 | でんき | điện; đèn | electricity; light | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 男の子【おとこのこ】 | おとこのこ | bé trai | boy | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 女の子【おんなのこ】 | おんなのこ | bé gái | girl | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 先生【せんせい】 | せんせい | giáo viên | teacher | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| お元気【げんき】 | おげんき | khỏe (lịch sự) | well; in good health (polite) | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 売【う】る | うる | bán | sell | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 小学生【しょうがくせい】 | しょうがくせい | học sinh tiểu học | elementary school pupil | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 漢字【かんじ】 | かんじ | chữ Hán | kanji | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 楽【たの】しい | たのしい | vui | enjoyable | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 書【か】く | かく | viết | write | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 悪【わる】い | わるい | xấu | bad | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 黒【くろ】い | くろい | đen | black | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 貸【か】す | かす | cho mượn | lend | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 左【ひだり】 | ひだり | bên trái | left | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 店【みせ】 | みせ | cửa hàng | shop | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 一度【いちど】 | いちど | một lần | once | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 広【ひろ】い | ひろい | rộng | spacious | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| パン屋【や】 | パンや | tiệm bánh mì | bakery | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 昼【ひる】 | ひる | ban ngày; trưa | daytime; noon | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 病院【びょういん】 | びょういん | bệnh viện | hospital | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 道【みち】 | みち | đường | road | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 近【ちか】い | ちかい | gần | near | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 送【おく】る | おくる | gửi; tiễn | send; see someone off | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 運転【うんてん】 | うんてん | việc lái xe | driving | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 起【お】きる | おきる | thức dậy | get up | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 勉強【べんきょう】 | べんきょう | việc học | study | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 地図【ちず】 | ちず | bản đồ | map | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 国【くに】 | くに | đất nước | country | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 家内【かない】 | かない | vợ (của mình) | wife (one's own) | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 肉【にく】 | にく | thịt | meat | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 千円【せんえん】 | せんえん | một nghìn yên | one thousand yen | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 同【おな】じ | おなじ | giống nhau | same | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 開【あ】ける | あける | mở | open something | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 閉【し】める | しめる | đóng | close something | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 一時間【いちじかん】 | いちじかん | một giờ | one hour | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 映画【えいが】 | えいが | phim | film | [N4_KANJI PDF 24–27](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 二十分【にじゅっぷん】 | にじゅっぷん | hai mươi phút | twenty minutes | [N4_KANJI PDF 24](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+| 一か月前【いっかげつまえ】 | いっかげつまえ | một tháng trước | one month ago | [N4_KANJI PDF 24](../../Sa%CC%81ch%20Kanji%20ba%CC%80i%20ho%CC%A3c%20-%20N4.pdf#page=24) |
+
+[Structured unit JSON](unit-22.json). [Content index](../content-index.md).

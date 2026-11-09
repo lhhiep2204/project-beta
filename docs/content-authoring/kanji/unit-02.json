@@ -1,0 +1,2824 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "aa727f97-7771-4244-b006-fac71dadc442",
+  "editorial_key": "kanji_unit_02",
+  "reference_unit_number": 2,
+  "source_level_label": "N5",
+  "title": {
+    "en": "Numbers, dates and money",
+    "vi": "Số, ngày tháng và tiền"
+  },
+  "character_glyphs": [
+    "一",
+    "二",
+    "三",
+    "四",
+    "五",
+    "六",
+    "七",
+    "八",
+    "九",
+    "十",
+    "百",
+    "千",
+    "万",
+    "円"
+  ],
+  "word_examples": [
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "一",
+            "ruby": "いち"
+          }
+        ]
+      },
+      "kana_reading": "いち",
+      "meanings": {
+        "en": "one",
+        "vi": "một"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "5c887c8b-8586-429d-96c7-33236668e10a"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "一日",
+            "ruby": "いちにち"
+          }
+        ]
+      },
+      "kana_reading": "いちにち",
+      "meanings": {
+        "en": "one day",
+        "vi": "một ngày"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "88a973e6-afab-4168-bad1-a81e9d8ac90d"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "一日",
+            "ruby": "ついたち"
+          }
+        ]
+      },
+      "kana_reading": "ついたち",
+      "meanings": {
+        "en": "first day of the month",
+        "vi": "ngày mùng một"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "dd29eb84-b3e6-4315-8c7e-73dfab1a9a59"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "一",
+            "ruby": "ひと"
+          },
+          {
+            "base": "つ"
+          }
+        ]
+      },
+      "kana_reading": "ひとつ",
+      "meanings": {
+        "en": "one item",
+        "vi": "một cái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "5fc0edd0-656a-4c80-bb6a-2b41b68442fd"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "一人",
+            "ruby": "ひとり"
+          }
+        ]
+      },
+      "kana_reading": "ひとり",
+      "meanings": {
+        "en": "one person",
+        "vi": "một người"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "432af082-be9a-41ac-a111-a8f760f40591"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "一度",
+            "ruby": "いちど"
+          }
+        ]
+      },
+      "kana_reading": "いちど",
+      "meanings": {
+        "en": "once",
+        "vi": "một lần"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "9b5850e8-a03c-46cc-aff3-c292f40e7803"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "一度",
+            "ruby": "いちど"
+          },
+          {
+            "base": "も"
+          }
+        ]
+      },
+      "kana_reading": "いちども",
+      "meanings": {
+        "en": "not even once (with a negative)",
+        "vi": "chưa lần nào (đi với phủ định)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a34ba088-536d-4672-8e8a-78b0a15fd1d0"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "二",
+            "ruby": "に"
+          }
+        ]
+      },
+      "kana_reading": "に",
+      "meanings": {
+        "en": "two",
+        "vi": "hai"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "109a485a-8091-4aaa-b348-6faaec2f63f5"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "二日",
+            "ruby": "ふつか"
+          }
+        ]
+      },
+      "kana_reading": "ふつか",
+      "meanings": {
+        "en": "two days; second day of the month",
+        "vi": "hai ngày; ngày mùng hai"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "10d008f3-1ba2-4706-a0e5-e42c233ead19"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "二十日",
+            "ruby": "はつか"
+          }
+        ]
+      },
+      "kana_reading": "はつか",
+      "meanings": {
+        "en": "twenty days; twentieth day of the month",
+        "vi": "hai mươi ngày; ngày hai mươi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "2a24cb66-7318-4e12-a747-5cb7be1da9e8"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "二",
+            "ruby": "ふた"
+          },
+          {
+            "base": "つ"
+          }
+        ]
+      },
+      "kana_reading": "ふたつ",
+      "meanings": {
+        "en": "two items",
+        "vi": "hai cái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "daf0aa99-bf7d-46a2-a836-c96352d94b91"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "二人",
+            "ruby": "ふたり"
+          }
+        ]
+      },
+      "kana_reading": "ふたり",
+      "meanings": {
+        "en": "two people",
+        "vi": "hai người"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "c7a51af2-4b94-4f18-9719-734c5a070d4f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "三",
+            "ruby": "さん"
+          }
+        ]
+      },
+      "kana_reading": "さん",
+      "meanings": {
+        "en": "three",
+        "vi": "ba"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "80b6143e-b312-43b1-a779-54b36bc59187"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "三日",
+            "ruby": "みっか"
+          }
+        ]
+      },
+      "kana_reading": "みっか",
+      "meanings": {
+        "en": "three days; third day of the month",
+        "vi": "ba ngày; ngày mùng ba"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "6a35e214-9f71-4920-81d3-e2a72986d91c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "三",
+            "ruby": "みっ"
+          },
+          {
+            "base": "つ"
+          }
+        ]
+      },
+      "kana_reading": "みっつ",
+      "meanings": {
+        "en": "three items",
+        "vi": "ba cái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a4f9018f-9d69-430a-813f-f73b762ccd7d"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "四",
+            "ruby": "し"
+          }
+        ]
+      },
+      "kana_reading": "し",
+      "meanings": {
+        "en": "four",
+        "vi": "bốn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "787cf69d-ffc4-4a34-8f61-4816043ffc2b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "四",
+            "ruby": "よん"
+          }
+        ]
+      },
+      "kana_reading": "よん",
+      "meanings": {
+        "en": "four",
+        "vi": "bốn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "63a01969-a109-4bad-b45d-604ccea0cb11"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "四日",
+            "ruby": "よっか"
+          }
+        ]
+      },
+      "kana_reading": "よっか",
+      "meanings": {
+        "en": "four days; fourth day of the month",
+        "vi": "bốn ngày; ngày mùng bốn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "1a4e53a0-7fee-47c2-8696-2354cb37d79d"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "四",
+            "ruby": "よっ"
+          },
+          {
+            "base": "つ"
+          }
+        ]
+      },
+      "kana_reading": "よっつ",
+      "meanings": {
+        "en": "four items",
+        "vi": "bốn cái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "eebfcaea-3c70-4844-8077-46587c425648"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "五",
+            "ruby": "ご"
+          }
+        ]
+      },
+      "kana_reading": "ご",
+      "meanings": {
+        "en": "five",
+        "vi": "năm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "96ec5a39-37bb-4d6c-96a2-03c4eee22da0"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "五日",
+            "ruby": "いつか"
+          }
+        ]
+      },
+      "kana_reading": "いつか",
+      "meanings": {
+        "en": "five days; fifth day of the month",
+        "vi": "năm ngày; ngày mùng năm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "f7d8d2a0-7f04-4e73-9de0-b7f997f9aa18"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "五",
+            "ruby": "いつ"
+          },
+          {
+            "base": "つ"
+          }
+        ]
+      },
+      "kana_reading": "いつつ",
+      "meanings": {
+        "en": "five items",
+        "vi": "năm cái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "6bc72d98-65f1-40b7-a41c-6440c00f8beb"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "六",
+            "ruby": "ろく"
+          }
+        ]
+      },
+      "kana_reading": "ろく",
+      "meanings": {
+        "en": "six",
+        "vi": "sáu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "b02c4678-720e-47ec-acf4-02b03e788865"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "六日",
+            "ruby": "むいか"
+          }
+        ]
+      },
+      "kana_reading": "むいか",
+      "meanings": {
+        "en": "six days; sixth day of the month",
+        "vi": "sáu ngày; ngày mùng sáu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "eec0414e-68c6-497c-b632-18c224dbb919"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "六",
+            "ruby": "むっ"
+          },
+          {
+            "base": "つ"
+          }
+        ]
+      },
+      "kana_reading": "むっつ",
+      "meanings": {
+        "en": "six items",
+        "vi": "sáu cái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "db0477b5-4d86-47df-8bb4-e3d06080f0f9"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "七",
+            "ruby": "しち"
+          }
+        ]
+      },
+      "kana_reading": "しち",
+      "meanings": {
+        "en": "seven",
+        "vi": "bảy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "291a05ac-f021-4580-a71c-f79450b8756d"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "七",
+            "ruby": "なな"
+          }
+        ]
+      },
+      "kana_reading": "なな",
+      "meanings": {
+        "en": "seven",
+        "vi": "bảy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "6c77667b-19ed-46c3-81f0-d0ae164e2d0b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "七日",
+            "ruby": "なのか"
+          }
+        ]
+      },
+      "kana_reading": "なのか",
+      "meanings": {
+        "en": "seven days; seventh day of the month",
+        "vi": "bảy ngày; ngày mùng bảy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "418d15fd-6219-41cb-8278-fc7abf7c48fb"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "七",
+            "ruby": "なな"
+          },
+          {
+            "base": "つ"
+          }
+        ]
+      },
+      "kana_reading": "ななつ",
+      "meanings": {
+        "en": "seven items",
+        "vi": "bảy cái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a39d12c7-9002-4e6f-bae4-6b01d4c517e9"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "八",
+            "ruby": "はち"
+          }
+        ]
+      },
+      "kana_reading": "はち",
+      "meanings": {
+        "en": "eight",
+        "vi": "tám"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "eafb800d-85e7-4d63-ae66-53c8d16e25d9"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "八日",
+            "ruby": "ようか"
+          }
+        ]
+      },
+      "kana_reading": "ようか",
+      "meanings": {
+        "en": "eight days; eighth day of the month",
+        "vi": "tám ngày; ngày mùng tám"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "f1071524-0479-4d0d-9e04-a2580533ede8"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "八",
+            "ruby": "やっ"
+          },
+          {
+            "base": "つ"
+          }
+        ]
+      },
+      "kana_reading": "やっつ",
+      "meanings": {
+        "en": "eight items",
+        "vi": "tám cái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "e45de32d-e9e1-4547-8166-30255ad24350"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "九",
+            "ruby": "きゅう"
+          }
+        ]
+      },
+      "kana_reading": "きゅう",
+      "meanings": {
+        "en": "nine",
+        "vi": "chín"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "2a54e7f8-3501-4739-b06c-f6ad42db0e3b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "九",
+            "ruby": "く"
+          }
+        ]
+      },
+      "kana_reading": "く",
+      "meanings": {
+        "en": "nine",
+        "vi": "chín"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a3b7fdeb-f671-411a-8bda-c256a550e5d7"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "九日",
+            "ruby": "ここのか"
+          }
+        ]
+      },
+      "kana_reading": "ここのか",
+      "meanings": {
+        "en": "nine days; ninth day of the month",
+        "vi": "chín ngày; ngày mùng chín"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "17bc1597-2fee-47ff-b5c7-171ad268d832"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "九",
+            "ruby": "ここの"
+          },
+          {
+            "base": "つ"
+          }
+        ]
+      },
+      "kana_reading": "ここのつ",
+      "meanings": {
+        "en": "nine items",
+        "vi": "chín cái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "2f5e949b-7085-4530-ae21-732603e3b5af"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "十",
+            "ruby": "じゅう"
+          }
+        ]
+      },
+      "kana_reading": "じゅう",
+      "meanings": {
+        "en": "ten",
+        "vi": "mười"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "1c4e6756-2944-45c9-824a-2efc6e1f4113"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "十日",
+            "ruby": "とおか"
+          }
+        ]
+      },
+      "kana_reading": "とおか",
+      "meanings": {
+        "en": "ten days; tenth day of the month",
+        "vi": "mười ngày; ngày mùng mười"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "045fdba5-ce6a-4e68-a69f-1250f2a0aca4"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "十",
+            "ruby": "とお"
+          }
+        ]
+      },
+      "kana_reading": "とお",
+      "meanings": {
+        "en": "ten items",
+        "vi": "mười cái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 183,
+          "pdf_page_end": 183,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a1436d27-ff3e-43f6-893f-78385d15840c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "十四日",
+            "ruby": "じゅうよっか"
+          }
+        ]
+      },
+      "kana_reading": "じゅうよっか",
+      "meanings": {
+        "en": "fourteen days; fourteenth day of the month",
+        "vi": "mười bốn ngày; ngày mười bốn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "da93c2a3-9615-4cb8-9e09-60ae8a89600f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "二十四日",
+            "ruby": "にじゅうよっか"
+          }
+        ]
+      },
+      "kana_reading": "にじゅうよっか",
+      "meanings": {
+        "en": "twenty-four days; twenty-fourth day of the month",
+        "vi": "hai mươi bốn ngày; ngày hai mươi bốn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "e22bf6ed-55b9-4e87-87ac-75c06ea13f9b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "百",
+            "ruby": "ひゃく"
+          }
+        ]
+      },
+      "kana_reading": "ひゃく",
+      "meanings": {
+        "en": "one hundred",
+        "vi": "một trăm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "216fc596-734f-4c62-96e5-52077c61251b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "二百",
+            "ruby": "にひゃく"
+          }
+        ]
+      },
+      "kana_reading": "にひゃく",
+      "meanings": {
+        "en": "two hundred",
+        "vi": "hai trăm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "660f5596-8042-42bf-9f4e-3f04b98259a6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "三百",
+            "ruby": "さんびゃく"
+          }
+        ]
+      },
+      "kana_reading": "さんびゃく",
+      "meanings": {
+        "en": "three hundred",
+        "vi": "ba trăm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "ac595728-dfa1-48f3-b0e1-a005be24163c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "四百",
+            "ruby": "よんひゃく"
+          }
+        ]
+      },
+      "kana_reading": "よんひゃく",
+      "meanings": {
+        "en": "four hundred",
+        "vi": "bốn trăm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "3c76a9c6-6e32-4a27-9f39-27c558553a52"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "五百",
+            "ruby": "ごひゃく"
+          }
+        ]
+      },
+      "kana_reading": "ごひゃく",
+      "meanings": {
+        "en": "five hundred",
+        "vi": "năm trăm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "6589a53b-973d-45da-868b-b1a1aaccf419"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "六百",
+            "ruby": "ろっぴゃく"
+          }
+        ]
+      },
+      "kana_reading": "ろっぴゃく",
+      "meanings": {
+        "en": "six hundred",
+        "vi": "sáu trăm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "66124078-786e-462a-bb99-bfffd95ef15f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "七百",
+            "ruby": "ななひゃく"
+          }
+        ]
+      },
+      "kana_reading": "ななひゃく",
+      "meanings": {
+        "en": "seven hundred",
+        "vi": "bảy trăm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "e711a21e-b2ff-4d4f-86b0-da0bcf99b62e"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "八百",
+            "ruby": "はっぴゃく"
+          }
+        ]
+      },
+      "kana_reading": "はっぴゃく",
+      "meanings": {
+        "en": "eight hundred",
+        "vi": "tám trăm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "b844d723-c827-42c2-b30a-01499fd71a72"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "九百",
+            "ruby": "きゅうひゃく"
+          }
+        ]
+      },
+      "kana_reading": "きゅうひゃく",
+      "meanings": {
+        "en": "nine hundred",
+        "vi": "chín trăm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "5de439a8-1c53-49d8-bd09-e7cf6942e05e"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "千",
+            "ruby": "せん"
+          }
+        ]
+      },
+      "kana_reading": "せん",
+      "meanings": {
+        "en": "one thousand",
+        "vi": "một nghìn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "191d3e09-e843-422b-8b4e-450f517c52c5"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "二千",
+            "ruby": "にせん"
+          }
+        ]
+      },
+      "kana_reading": "にせん",
+      "meanings": {
+        "en": "two thousand",
+        "vi": "hai nghìn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "3834b7a3-3040-41ab-a8b9-d5d182bf301e"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "三千",
+            "ruby": "さんぜん"
+          }
+        ]
+      },
+      "kana_reading": "さんぜん",
+      "meanings": {
+        "en": "three thousand",
+        "vi": "ba nghìn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "0dcf4278-f8f8-4584-ae0d-3b11e5ff58b1"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "四千",
+            "ruby": "よんせん"
+          }
+        ]
+      },
+      "kana_reading": "よんせん",
+      "meanings": {
+        "en": "four thousand",
+        "vi": "bốn nghìn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "aaa0b0a8-a291-4a87-b136-eb0f22a2400c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "五千",
+            "ruby": "ごせん"
+          }
+        ]
+      },
+      "kana_reading": "ごせん",
+      "meanings": {
+        "en": "five thousand",
+        "vi": "năm nghìn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "2c06a160-2393-498e-90bc-fb241c105df4"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "六千",
+            "ruby": "ろくせん"
+          }
+        ]
+      },
+      "kana_reading": "ろくせん",
+      "meanings": {
+        "en": "six thousand",
+        "vi": "sáu nghìn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "d5934922-c139-40c2-8d97-8f87dd4e7fab"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "七千",
+            "ruby": "ななせん"
+          }
+        ]
+      },
+      "kana_reading": "ななせん",
+      "meanings": {
+        "en": "seven thousand",
+        "vi": "bảy nghìn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "50be7ea8-d0bf-4b6d-8298-3adc1323cdbc"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "八千",
+            "ruby": "はっせん"
+          }
+        ]
+      },
+      "kana_reading": "はっせん",
+      "meanings": {
+        "en": "eight thousand",
+        "vi": "tám nghìn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "93573854-91d3-41f8-b6d5-0108cb77639f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "九千",
+            "ruby": "きゅうせん"
+          }
+        ]
+      },
+      "kana_reading": "きゅうせん",
+      "meanings": {
+        "en": "nine thousand",
+        "vi": "chín nghìn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "5febcee6-2378-4632-a08c-7ac9ceba0789"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "万",
+            "ruby": "まん"
+          }
+        ]
+      },
+      "kana_reading": "まん",
+      "meanings": {
+        "en": "ten thousand",
+        "vi": "một vạn; mười nghìn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "85df99dc-9fc8-4807-96c7-2266b6bbf85f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "一万",
+            "ruby": "いちまん"
+          }
+        ]
+      },
+      "kana_reading": "いちまん",
+      "meanings": {
+        "en": "ten thousand",
+        "vi": "một vạn; mười nghìn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "c2274e8b-4c70-4461-b009-d5062b1b9cae"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "一万円",
+            "ruby": "いちまんえん"
+          }
+        ]
+      },
+      "kana_reading": "いちまんえん",
+      "meanings": {
+        "en": "ten thousand yen",
+        "vi": "mười nghìn yên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "220fb0bb-aa02-4243-a9c6-ab74043be1fd"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "十万円",
+            "ruby": "じゅうまんえん"
+          }
+        ]
+      },
+      "kana_reading": "じゅうまんえん",
+      "meanings": {
+        "en": "one hundred thousand yen",
+        "vi": "một trăm nghìn yên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "6ea9554a-6e8a-47e6-a66f-60148cc10271"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "百万円",
+            "ruby": "ひゃくまんえん"
+          }
+        ]
+      },
+      "kana_reading": "ひゃくまんえん",
+      "meanings": {
+        "en": "one million yen",
+        "vi": "một triệu yên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "506e211d-030b-4efa-9ea2-06564db79098"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "円高",
+            "ruby": "えんだか"
+          }
+        ]
+      },
+      "kana_reading": "えんだか",
+      "meanings": {
+        "en": "appreciation of the yen",
+        "vi": "đồng yên tăng giá"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 185,
+          "pdf_page_end": 185,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "82b11e09-f755-4726-8e4a-3a26b661bb04"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "円安",
+            "ruby": "えんやす"
+          }
+        ]
+      },
+      "kana_reading": "えんやす",
+      "meanings": {
+        "en": "depreciation of the yen",
+        "vi": "đồng yên giảm giá"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 185,
+          "pdf_page_end": 185,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "b7476749-d651-44f8-84c8-1935a6369b69"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "一月",
+            "ruby": "いちがつ"
+          }
+        ]
+      },
+      "kana_reading": "いちがつ",
+      "meanings": {
+        "en": "January",
+        "vi": "tháng Một"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 49,
+          "pdf_page_end": 49,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "5df4895f-8db7-4ce4-b282-ed9017eac9ad"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "二月",
+            "ruby": "にがつ"
+          }
+        ]
+      },
+      "kana_reading": "にがつ",
+      "meanings": {
+        "en": "February",
+        "vi": "tháng Hai"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 49,
+          "pdf_page_end": 49,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "bf1cea8f-b971-4808-a616-379048eb58f5"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "三月",
+            "ruby": "さんがつ"
+          }
+        ]
+      },
+      "kana_reading": "さんがつ",
+      "meanings": {
+        "en": "March",
+        "vi": "tháng Ba"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 49,
+          "pdf_page_end": 49,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "9f4121cc-c511-435c-8a47-79afd29e4e58"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "四月",
+            "ruby": "しがつ"
+          }
+        ]
+      },
+      "kana_reading": "しがつ",
+      "meanings": {
+        "en": "April",
+        "vi": "tháng Tư"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 49,
+          "pdf_page_end": 49,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "45ed5d60-566c-47a4-ba9b-0f1e29096c5f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "五月",
+            "ruby": "ごがつ"
+          }
+        ]
+      },
+      "kana_reading": "ごがつ",
+      "meanings": {
+        "en": "May",
+        "vi": "tháng Năm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 49,
+          "pdf_page_end": 49,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "6d2b543c-ec4b-432b-a0ed-6acd735570ef"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "六月",
+            "ruby": "ろくがつ"
+          }
+        ]
+      },
+      "kana_reading": "ろくがつ",
+      "meanings": {
+        "en": "June",
+        "vi": "tháng Sáu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 49,
+          "pdf_page_end": 49,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a92f223b-6f10-4ad1-bf60-a0e7a735463f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "七月",
+            "ruby": "しちがつ"
+          }
+        ]
+      },
+      "kana_reading": "しちがつ",
+      "meanings": {
+        "en": "July",
+        "vi": "tháng Bảy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 49,
+          "pdf_page_end": 49,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "ed2ad9e4-9dd1-46e7-9146-3df9b709250d"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "一月一日",
+            "ruby": "いちがつついたち"
+          }
+        ]
+      },
+      "kana_reading": "いちがつついたち",
+      "meanings": {
+        "en": "January 1",
+        "vi": "ngày 1 tháng 1"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 49,
+          "pdf_page_end": 49,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "393f4849-8228-45c1-9ae3-31409242ffa7"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "三月三日",
+            "ruby": "さんがつみっか"
+          }
+        ]
+      },
+      "kana_reading": "さんがつみっか",
+      "meanings": {
+        "en": "March 3",
+        "vi": "ngày 3 tháng 3"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 49,
+          "pdf_page_end": 49,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "0539015e-06ff-4e3c-aac9-12a101033753"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "五月五日",
+            "ruby": "ごがついつか"
+          }
+        ]
+      },
+      "kana_reading": "ごがついつか",
+      "meanings": {
+        "en": "May 5",
+        "vi": "ngày 5 tháng 5"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 49,
+          "pdf_page_end": 49,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "ea045e90-328d-406f-b4ea-7d550e7910f8"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "七月七日",
+            "ruby": "しちがつなのか"
+          }
+        ]
+      },
+      "kana_reading": "しちがつなのか",
+      "meanings": {
+        "en": "July 7",
+        "vi": "ngày 7 tháng 7"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 49,
+          "pdf_page_end": 49,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "19d4cfc2-aa67-4e84-b6da-87ee61a92540"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "八月",
+            "ruby": "はちがつ"
+          }
+        ]
+      },
+      "kana_reading": "はちがつ",
+      "meanings": {
+        "en": "August",
+        "vi": "tháng Tám"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 50,
+          "pdf_page_end": 50,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "7bf68ead-cc78-4b99-9b54-3f748d32032d"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "九月",
+            "ruby": "くがつ"
+          }
+        ]
+      },
+      "kana_reading": "くがつ",
+      "meanings": {
+        "en": "September",
+        "vi": "tháng Chín"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 50,
+          "pdf_page_end": 50,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "68477f3f-c86a-4703-b43c-bf47b5337b40"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "十月",
+            "ruby": "じゅうがつ"
+          }
+        ]
+      },
+      "kana_reading": "じゅうがつ",
+      "meanings": {
+        "en": "October",
+        "vi": "tháng Mười"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 50,
+          "pdf_page_end": 50,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "08486d19-90cb-42c7-b3eb-e5d66de3f1bc"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "十一月",
+            "ruby": "じゅういちがつ"
+          }
+        ]
+      },
+      "kana_reading": "じゅういちがつ",
+      "meanings": {
+        "en": "November",
+        "vi": "tháng Mười Một"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 50,
+          "pdf_page_end": 50,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a709f4da-135d-4d3d-abd5-bdeb044469b9"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "十二月",
+            "ruby": "じゅうにがつ"
+          }
+        ]
+      },
+      "kana_reading": "じゅうにがつ",
+      "meanings": {
+        "en": "December",
+        "vi": "tháng Mười Hai"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 50,
+          "pdf_page_end": 50,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "bc3e2a0e-53aa-4397-a483-b9b465778087"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "十一日",
+            "ruby": "じゅういちにち"
+          }
+        ]
+      },
+      "kana_reading": "じゅういちにち",
+      "meanings": {
+        "en": "eleven days; eleventh day of the month",
+        "vi": "mười một ngày; ngày mười một"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 50,
+          "pdf_page_end": 50,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "0074e163-04b0-403f-8fa9-ed20aa089742"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "一円",
+            "ruby": "いちえん"
+          }
+        ]
+      },
+      "kana_reading": "いちえん",
+      "meanings": {
+        "en": "one yen",
+        "vi": "một yên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 50,
+          "pdf_page_end": 50,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "ba7d78bf-e56b-411b-ad07-09cca39902f8"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "十円",
+            "ruby": "じゅうえん"
+          }
+        ]
+      },
+      "kana_reading": "じゅうえん",
+      "meanings": {
+        "en": "ten yen",
+        "vi": "mười yên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 50,
+          "pdf_page_end": 50,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "b5b8f2e0-08c3-43e5-a365-5de5a398a069"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "百円",
+            "ruby": "ひゃくえん"
+          }
+        ]
+      },
+      "kana_reading": "ひゃくえん",
+      "meanings": {
+        "en": "one hundred yen",
+        "vi": "một trăm yên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 50,
+          "pdf_page_end": 50,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "223face2-0eec-4019-90df-53093c28d5ea"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "千円",
+            "ruby": "せんえん"
+          }
+        ]
+      },
+      "kana_reading": "せんえん",
+      "meanings": {
+        "en": "one thousand yen",
+        "vi": "một nghìn yên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 50,
+          "pdf_page_end": 50,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "c0b66c61-a299-4b93-9e7c-aba05bbdcfe6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "円",
+            "ruby": "えん"
+          }
+        ]
+      },
+      "kana_reading": "～えん",
+      "meanings": {
+        "en": "yen (after an amount)",
+        "vi": "yên (sau số tiền)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 185,
+          "pdf_page_end": 185,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 48,
+          "pdf_page_end": 48,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "3f6613eb-32d3-434d-8ae6-71142cd87991"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 5,
+    "reference_volume": "Elementary I",
+    "evidence": {
+      "source_id": "N5_KANJI",
+      "pdf_pages": [
+        6,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 1,
+    "end": 5,
+    "may_include_earlier_material": false
+  },
+  "relationship": "group_scope",
+  "source_refs": [
+    {
+      "source_id": "N5_KANJI",
+      "pdf_page_start": 48,
+      "pdf_page_end": 51,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

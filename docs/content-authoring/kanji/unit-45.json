@@ -1,0 +1,519 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "e8dc8129-7542-40eb-a0ef-c36e5cf83ad6",
+  "editorial_key": "kanji_unit_45",
+  "reference_unit_number": 45,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 45: lesson 45 reading words",
+    "vi": "Kanji bài 45: từ đọc của bài 45"
+  },
+  "character_glyphs": [
+    "点",
+    "皆",
+    "資",
+    "給",
+    "賃",
+    "値",
+    "段",
+    "料",
+    "家",
+    "風",
+    "働",
+    "残",
+    "念",
+    "番",
+    "中",
+    "止",
+    "場",
+    "合",
+    "知",
+    "急",
+    "無",
+    "理",
+    "以",
+    "上"
+  ],
+  "word_examples": [
+    {
+      "id": "2e738037-9c22-4f6d-9031-3c9d10e2caa0",
+      "japanese": {
+        "segments": [
+          {
+            "base": "点",
+            "ruby": "てん"
+          }
+        ]
+      },
+      "kana_reading": "てん",
+      "meanings": {
+        "en": "point; score",
+        "vi": "điểm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "43a6d51e-0416-4b88-a670-7ffb5a3d4164",
+      "japanese": {
+        "segments": [
+          {
+            "base": "皆",
+            "ruby": "みな"
+          },
+          {
+            "base": "さん"
+          }
+        ]
+      },
+      "kana_reading": "みなさん",
+      "meanings": {
+        "en": "everyone",
+        "vi": "mọi người"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d4c0461d-138a-495b-8622-b776805da458",
+      "japanese": {
+        "segments": [
+          {
+            "base": "資料",
+            "ruby": "しりょう"
+          }
+        ]
+      },
+      "kana_reading": "しりょう",
+      "meanings": {
+        "en": "materials; documents",
+        "vi": "tài liệu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ec135c1f-38b5-470f-8a13-d69eefef2a45",
+      "japanese": {
+        "segments": [
+          {
+            "base": "給料",
+            "ruby": "きゅうりょう"
+          }
+        ]
+      },
+      "kana_reading": "きゅうりょう",
+      "meanings": {
+        "en": "salary",
+        "vi": "tiền lương"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9a02be9a-da54-4af7-b235-818843f7401c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "家賃",
+            "ruby": "やちん"
+          }
+        ]
+      },
+      "kana_reading": "やちん",
+      "meanings": {
+        "en": "rent for a home",
+        "vi": "tiền thuê nhà"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b9bb59ce-daac-4e89-83a0-a88d295aa8b9",
+      "japanese": {
+        "segments": [
+          {
+            "base": "値段",
+            "ruby": "ねだん"
+          }
+        ]
+      },
+      "kana_reading": "ねだん",
+      "meanings": {
+        "en": "price",
+        "vi": "giá cả"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "feb5bdb9-97a7-4db1-8ada-fb6bc3cd4c5d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "風",
+            "ruby": "かぜ"
+          }
+        ]
+      },
+      "kana_reading": "かぜ",
+      "meanings": {
+        "en": "wind",
+        "vi": "gió"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8974f7d7-836e-435b-b007-aab2ab6f736b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "働",
+            "ruby": "はたら"
+          },
+          {
+            "base": "く"
+          }
+        ]
+      },
+      "kana_reading": "はたらく",
+      "meanings": {
+        "en": "work",
+        "vi": "làm việc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "499bb279-a1f1-4c26-bbd9-d37dcb1815f6",
+      "japanese": {
+        "segments": [
+          {
+            "base": "残念",
+            "ruby": "ざんねん"
+          }
+        ]
+      },
+      "kana_reading": "ざんねん",
+      "meanings": {
+        "en": "regrettable",
+        "vi": "đáng tiếc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "04ac3a61-61a2-4307-8433-f5e7f8def0b7",
+      "japanese": {
+        "segments": [
+          {
+            "base": "119番",
+            "ruby": "ひゃくじゅうきゅうばん"
+          }
+        ]
+      },
+      "kana_reading": "ひゃくじゅうきゅうばん",
+      "meanings": {
+        "en": "119 emergency number (fire and ambulance)",
+        "vi": "số 119 gọi cứu hỏa và cấp cứu tại Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "87eeffbb-02dd-4d0e-ad17-ea5e1fdd84fc",
+      "japanese": {
+        "segments": [
+          {
+            "base": "110番",
+            "ruby": "ひゃくとおばん"
+          }
+        ]
+      },
+      "kana_reading": "ひゃくとおばん",
+      "meanings": {
+        "en": "110 emergency police number",
+        "vi": "số 110 gọi cảnh sát tại Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6ccd8b36-4e97-449b-b046-49b7e427634a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "中止",
+            "ruby": "ちゅうし"
+          }
+        ]
+      },
+      "kana_reading": "ちゅうし",
+      "meanings": {
+        "en": "cancellation",
+        "vi": "sự hủy bỏ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5f4afba1-ce9a-42d8-b9fd-d5a5fd2ccd13",
+      "japanese": {
+        "segments": [
+          {
+            "base": "場合",
+            "ruby": "ばあい"
+          }
+        ]
+      },
+      "kana_reading": "ばあい",
+      "meanings": {
+        "en": "case; situation",
+        "vi": "trường hợp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "12d20cc9-3b1a-4c3a-b0ce-971c2a1c6aea",
+      "japanese": {
+        "segments": [
+          {
+            "base": "知",
+            "ruby": "し"
+          },
+          {
+            "base": "らせる"
+          }
+        ]
+      },
+      "kana_reading": "しらせる",
+      "meanings": {
+        "en": "inform",
+        "vi": "thông báo"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "70ce3557-2969-494c-90e7-f57e573632ba",
+      "japanese": {
+        "segments": [
+          {
+            "base": "急",
+            "ruby": "きゅう"
+          },
+          {
+            "base": "に"
+          }
+        ]
+      },
+      "kana_reading": "きゅうに",
+      "meanings": {
+        "en": "suddenly",
+        "vi": "đột ngột"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c13e6f98-c246-40e9-83a7-695b0c708013",
+      "japanese": {
+        "segments": [
+          {
+            "base": "無理",
+            "ruby": "むり"
+          },
+          {
+            "base": "に"
+          }
+        ]
+      },
+      "kana_reading": "むりに",
+      "meanings": {
+        "en": "forcibly; beyond one's capacity",
+        "vi": "cố ép; quá sức"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3f7f527b-9365-4594-a638-0e9a4b95382b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "以上",
+            "ruby": "いじょう"
+          },
+          {
+            "base": "です"
+          }
+        ]
+      },
+      "kana_reading": "いじょうです",
+      "meanings": {
+        "en": "that is all",
+        "vi": "xin hết"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 118,
+          "pdf_page_end": 121,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 45,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 45,
+    "end": 45,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 118,
+      "pdf_page_end": 121,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

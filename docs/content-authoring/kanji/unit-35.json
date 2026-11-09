@@ -1,0 +1,741 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "df5f631f-1fa4-47b7-869e-34e03105f202",
+  "editorial_key": "kanji_unit_35",
+  "reference_unit_number": 35,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 35: lesson 35 reading words",
+    "vi": "Kanji bài 35: từ đọc của bài 35"
+  },
+  "character_glyphs": [
+    "葉",
+    "橋",
+    "向",
+    "島",
+    "港",
+    "活",
+    "湯",
+    "生",
+    "昔",
+    "涼",
+    "結",
+    "婚",
+    "変",
+    "換",
+    "押",
+    "受",
+    "付",
+    "屋",
+    "上",
+    "近",
+    "所",
+    "夜",
+    "行",
+    "機",
+    "会",
+    "熱",
+    "正",
+    "入",
+    "力",
+    "側",
+    "学"
+  ],
+  "word_examples": [
+    {
+      "id": "279893c1-4610-4490-90cc-01c8dad27653",
+      "japanese": {
+        "segments": [
+          {
+            "base": "葉",
+            "ruby": "は"
+          }
+        ]
+      },
+      "kana_reading": "は",
+      "meanings": {
+        "en": "leaf",
+        "vi": "lá"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "20bcde70-b1f3-425f-8a0a-a7812d73ff8e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "橋",
+            "ruby": "はし"
+          }
+        ]
+      },
+      "kana_reading": "はし",
+      "meanings": {
+        "en": "bridge",
+        "vi": "cầu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3ffa7b84-18f9-4498-bf38-1cdceb7bc9e9",
+      "japanese": {
+        "segments": [
+          {
+            "base": "向",
+            "ruby": "む"
+          },
+          {
+            "base": "こう"
+          }
+        ]
+      },
+      "kana_reading": "むこう",
+      "meanings": {
+        "en": "the other side",
+        "vi": "phía bên kia"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "526968a6-e8ed-4657-98e1-f84bd45fe36a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "島",
+            "ruby": "しま"
+          }
+        ]
+      },
+      "kana_reading": "しま",
+      "meanings": {
+        "en": "island",
+        "vi": "đảo"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f01fcc7e-e066-4c5e-8c40-22adad505992",
+      "japanese": {
+        "segments": [
+          {
+            "base": "港",
+            "ruby": "みなと"
+          }
+        ]
+      },
+      "kana_reading": "みなと",
+      "meanings": {
+        "en": "harbor",
+        "vi": "cảng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3ee0aefd-aaf2-4b40-8564-2c62d7b474d9",
+      "japanese": {
+        "segments": [
+          {
+            "base": "生活",
+            "ruby": "せいかつ"
+          }
+        ]
+      },
+      "kana_reading": "せいかつ",
+      "meanings": {
+        "en": "daily life",
+        "vi": "sinh hoạt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "168879e7-ddc2-4012-8aef-4880ba2ff389",
+      "japanese": {
+        "segments": [
+          {
+            "base": "湯",
+            "ruby": "ゆ"
+          }
+        ]
+      },
+      "kana_reading": "ゆ",
+      "meanings": {
+        "en": "hot water",
+        "vi": "nước nóng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "30367e32-a5e9-4a8a-8a05-fba1c2becbf0",
+      "japanese": {
+        "segments": [
+          {
+            "base": "昔",
+            "ruby": "むかし"
+          }
+        ]
+      },
+      "kana_reading": "むかし",
+      "meanings": {
+        "en": "long ago",
+        "vi": "ngày xưa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "dcda6136-3c52-4ef5-be43-064c18242b3b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "涼",
+            "ruby": "すず"
+          },
+          {
+            "base": "しい"
+          }
+        ]
+      },
+      "kana_reading": "すずしい",
+      "meanings": {
+        "en": "cool (pleasant weather)",
+        "vi": "mát mẻ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e0f99c75-6eaf-46c0-b6b3-352b29dfc3d8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "結婚",
+            "ruby": "けっこん"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "けっこんする",
+      "meanings": {
+        "en": "marry",
+        "vi": "kết hôn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5fbef76f-7a52-4668-86e5-370366274eba",
+      "japanese": {
+        "segments": [
+          {
+            "base": "変",
+            "ruby": "か"
+          },
+          {
+            "base": "わる"
+          }
+        ]
+      },
+      "kana_reading": "かわる",
+      "meanings": {
+        "en": "change (intransitive)",
+        "vi": "thay đổi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "056dd116-ef2b-4b81-a6bd-e17c4d264227",
+      "japanese": {
+        "segments": [
+          {
+            "base": "換",
+            "ruby": "か"
+          },
+          {
+            "base": "える"
+          }
+        ]
+      },
+      "kana_reading": "かえる",
+      "meanings": {
+        "en": "exchange",
+        "vi": "đổi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d9c54cff-1f9d-4c2b-be75-7db66e316f8b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "押",
+            "ruby": "お"
+          },
+          {
+            "base": "す"
+          }
+        ]
+      },
+      "kana_reading": "おす",
+      "meanings": {
+        "en": "push; press",
+        "vi": "ấn; đẩy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2f230c36-4f9e-4525-853d-d98081ab4a22",
+      "japanese": {
+        "segments": [
+          {
+            "base": "受付",
+            "ruby": "うけつけ"
+          }
+        ]
+      },
+      "kana_reading": "うけつけ",
+      "meanings": {
+        "en": "reception desk",
+        "vi": "quầy tiếp tân"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6f8f0e67-4fde-4087-a2a2-1617339a0052",
+      "japanese": {
+        "segments": [
+          {
+            "base": "屋上",
+            "ruby": "おくじょう"
+          }
+        ]
+      },
+      "kana_reading": "おくじょう",
+      "meanings": {
+        "en": "rooftop",
+        "vi": "sân thượng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "64cf539c-292a-4e1e-a939-e39f10184ded",
+      "japanese": {
+        "segments": [
+          {
+            "base": "近所",
+            "ruby": "きんじょ"
+          }
+        ]
+      },
+      "kana_reading": "きんじょ",
+      "meanings": {
+        "en": "neighborhood",
+        "vi": "vùng lân cận"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a0f725bb-c402-4951-9581-8742c0e78b4d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "所",
+            "ruby": "ところ"
+          }
+        ]
+      },
+      "kana_reading": "ところ",
+      "meanings": {
+        "en": "place",
+        "vi": "nơi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "70b0d63e-b461-436f-8575-1fd9764473d5",
+      "japanese": {
+        "segments": [
+          {
+            "base": "夜行",
+            "ruby": "やこう"
+          },
+          {
+            "base": "バス"
+          }
+        ]
+      },
+      "kana_reading": "やこうバス",
+      "meanings": {
+        "en": "overnight bus",
+        "vi": "xe buýt chạy đêm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "03216622-d0e8-4ba7-b945-1bedeb84d02b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "機会",
+            "ruby": "きかい"
+          }
+        ]
+      },
+      "kana_reading": "きかい",
+      "meanings": {
+        "en": "opportunity",
+        "vi": "cơ hội"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "816d3239-7638-40c3-9edd-ba688589f869",
+      "japanese": {
+        "segments": [
+          {
+            "base": "熱",
+            "ruby": "あつ"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "あつい",
+      "meanings": {
+        "en": "hot to the touch",
+        "vi": "nóng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "29c8eb1f-2506-4173-afba-899d9cac2acb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "正",
+            "ruby": "ただ"
+          },
+          {
+            "base": "しい"
+          }
+        ]
+      },
+      "kana_reading": "ただしい",
+      "meanings": {
+        "en": "correct",
+        "vi": "đúng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "29dbc3b7-5ef1-4504-a480-43de983b4c6e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "入力",
+            "ruby": "にゅうりょく"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "にゅうりょくする",
+      "meanings": {
+        "en": "enter data",
+        "vi": "nhập dữ liệu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0de31795-6d0a-49b8-92ae-8b090e9a7c6c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "付",
+            "ruby": "つ"
+          },
+          {
+            "base": "ける"
+          }
+        ]
+      },
+      "kana_reading": "つける",
+      "meanings": {
+        "en": "attach",
+        "vi": "gắn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c6585433-2457-421e-ae12-0ed15433d6b8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "向こう側",
+            "ruby": "むこうがわ"
+          }
+        ]
+      },
+      "kana_reading": "むこうがわ",
+      "meanings": {
+        "en": "the opposite side",
+        "vi": "phía bên kia"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c379b1a5-9639-47a6-8dc5-c8f07517d465",
+      "japanese": {
+        "segments": [
+          {
+            "base": "学生生活",
+            "ruby": "がくせいせいかつ"
+          }
+        ]
+      },
+      "kana_reading": "がくせいせいかつ",
+      "meanings": {
+        "en": "student life",
+        "vi": "cuộc sống sinh viên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 74,
+          "pdf_page_end": 77,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 35,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 35,
+    "end": 35,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 74,
+      "pdf_page_end": 77,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

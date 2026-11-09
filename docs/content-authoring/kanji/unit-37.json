@@ -1,0 +1,634 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "fb7b4c8f-71b4-47f0-8287-d8abbaeab206",
+  "editorial_key": "kanji_unit_37",
+  "reference_unit_number": 37,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 37: lesson 37 reading words",
+    "vi": "Kanji bài 37: từ đọc của bài 37"
+  },
+  "character_glyphs": [
+    "絵",
+    "寺",
+    "池",
+    "石",
+    "油",
+    "原",
+    "輸",
+    "料",
+    "出",
+    "入",
+    "呼",
+    "頼",
+    "注",
+    "意",
+    "招",
+    "待",
+    "金",
+    "色",
+    "本",
+    "物",
+    "大",
+    "変",
+    "汚",
+    "行",
+    "中",
+    "製",
+    "品",
+    "世",
+    "界",
+    "日"
+  ],
+  "word_examples": [
+    {
+      "id": "2a77d4bc-d221-4a5b-80c4-f1db5ffb9504",
+      "japanese": {
+        "segments": [
+          {
+            "base": "絵",
+            "ruby": "え"
+          }
+        ]
+      },
+      "kana_reading": "え",
+      "meanings": {
+        "en": "picture",
+        "vi": "tranh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2c433327-edc0-47da-aa41-ed1e09d51529",
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "寺",
+            "ruby": "てら"
+          }
+        ]
+      },
+      "kana_reading": "おてら",
+      "meanings": {
+        "en": "Buddhist temple",
+        "vi": "chùa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "dadbd334-22f3-47b2-b3d3-5d5f8787ee35",
+      "japanese": {
+        "segments": [
+          {
+            "base": "池",
+            "ruby": "いけ"
+          }
+        ]
+      },
+      "kana_reading": "いけ",
+      "meanings": {
+        "en": "pond",
+        "vi": "ao"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ad6ab1e7-e12d-4467-84e7-187d4a9f5fac",
+      "japanese": {
+        "segments": [
+          {
+            "base": "石油",
+            "ruby": "せきゆ"
+          }
+        ]
+      },
+      "kana_reading": "せきゆ",
+      "meanings": {
+        "en": "petroleum",
+        "vi": "dầu mỏ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e381c97b-0ae7-48f4-859b-92b8d8e4ac3e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "原料",
+            "ruby": "げんりょう"
+          }
+        ]
+      },
+      "kana_reading": "げんりょう",
+      "meanings": {
+        "en": "raw materials",
+        "vi": "nguyên liệu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0f349289-cb51-440c-aedf-33fab6068cd8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "輸出",
+            "ruby": "ゆしゅつ"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "ゆしゅつする",
+      "meanings": {
+        "en": "export",
+        "vi": "xuất khẩu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b904d8c7-5bf8-45f3-8d4d-14f2fbcb0ede",
+      "japanese": {
+        "segments": [
+          {
+            "base": "輸入",
+            "ruby": "ゆにゅう"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "ゆにゅうする",
+      "meanings": {
+        "en": "import",
+        "vi": "nhập khẩu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "29089764-35cc-4f93-88a7-03d023f35fca",
+      "japanese": {
+        "segments": [
+          {
+            "base": "呼",
+            "ruby": "よ"
+          },
+          {
+            "base": "ぶ"
+          }
+        ]
+      },
+      "kana_reading": "よぶ",
+      "meanings": {
+        "en": "call",
+        "vi": "gọi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "38831f68-2dfe-4a40-9c06-3ab4131fc48e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "頼",
+            "ruby": "たの"
+          },
+          {
+            "base": "む"
+          }
+        ]
+      },
+      "kana_reading": "たのむ",
+      "meanings": {
+        "en": "ask a favor",
+        "vi": "nhờ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ec1c085e-4b66-4153-a843-44945f602826",
+      "japanese": {
+        "segments": [
+          {
+            "base": "注意",
+            "ruby": "ちゅうい"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "ちゅういする",
+      "meanings": {
+        "en": "warn; pay attention",
+        "vi": "nhắc nhở; chú ý"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b709d3ad-7d8e-4373-8659-0d6961505329",
+      "japanese": {
+        "segments": [
+          {
+            "base": "招待",
+            "ruby": "しょうたい"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "しょうたいする",
+      "meanings": {
+        "en": "invite",
+        "vi": "mời"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c757745d-4cf7-4d9a-a7d3-165784ef2c1c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "金",
+            "ruby": "きん"
+          }
+        ]
+      },
+      "kana_reading": "きん",
+      "meanings": {
+        "en": "gold",
+        "vi": "vàng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "89298d61-f706-4ba7-9e40-57db80a92a28",
+      "japanese": {
+        "segments": [
+          {
+            "base": "金色",
+            "ruby": "きんいろ"
+          }
+        ]
+      },
+      "kana_reading": "きんいろ",
+      "meanings": {
+        "en": "gold color",
+        "vi": "màu vàng kim"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d1b314c3-83b7-4278-8e09-ab5285ca1e1d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "本物",
+            "ruby": "ほんもの"
+          }
+        ]
+      },
+      "kana_reading": "ほんもの",
+      "meanings": {
+        "en": "the real thing",
+        "vi": "đồ thật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3224fda6-31a4-4331-bd9d-0af061343427",
+      "japanese": {
+        "segments": [
+          {
+            "base": "大変",
+            "ruby": "たいへん"
+          }
+        ]
+      },
+      "kana_reading": "たいへん",
+      "meanings": {
+        "en": "difficult; demanding",
+        "vi": "vất vả"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7e7f92c7-71fc-4916-a6c2-c64f5c81c93d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "汚",
+            "ruby": "よご"
+          },
+          {
+            "base": "す"
+          }
+        ]
+      },
+      "kana_reading": "よごす",
+      "meanings": {
+        "en": "make dirty",
+        "vi": "làm bẩn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ed9c40e0-ded2-4266-91c6-3c066368e352",
+      "japanese": {
+        "segments": [
+          {
+            "base": "行",
+            "ruby": "おこな"
+          },
+          {
+            "base": "う"
+          }
+        ]
+      },
+      "kana_reading": "おこなう",
+      "meanings": {
+        "en": "conduct; hold",
+        "vi": "tiến hành; tổ chức"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2302a8a0-7c44-4dd4-8578-b0532723ae1c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "中",
+            "ruby": "じゅう"
+          }
+        ]
+      },
+      "kana_reading": "じゅう",
+      "meanings": {
+        "en": "throughout; all over",
+        "vi": "khắp; toàn bộ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f3cb0790-b5b5-4083-8c17-f54a9d3b9c7b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "製品",
+            "ruby": "せいひん"
+          }
+        ]
+      },
+      "kana_reading": "せいひん",
+      "meanings": {
+        "en": "manufactured product",
+        "vi": "sản phẩm chế tạo"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ad11d095-94ad-43a2-b4fb-16dd8bf40c3e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "世界中",
+            "ruby": "せかいじゅう"
+          }
+        ]
+      },
+      "kana_reading": "せかいじゅう",
+      "meanings": {
+        "en": "all over the world",
+        "vi": "khắp thế giới"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "537a49f1-dbd9-4978-b623-223f5d93d890",
+      "japanese": {
+        "segments": [
+          {
+            "base": "日本中",
+            "ruby": "にほんじゅう"
+          }
+        ]
+      },
+      "kana_reading": "にほんじゅう",
+      "meanings": {
+        "en": "all over Japan",
+        "vi": "khắp Nhật Bản"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 84,
+          "pdf_page_end": 87,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 37,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 37,
+    "end": 37,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 84,
+      "pdf_page_end": 87,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

@@ -1,0 +1,645 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "6098e070-2020-4b0e-b026-488362694df6",
+  "editorial_key": "kanji_unit_39",
+  "reference_unit_number": 39,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 39: lesson 39 reading words",
+    "vi": "Kanji bài 39: từ đọc của bài 39"
+  },
+  "character_glyphs": [
+    "震",
+    "交",
+    "代",
+    "複",
+    "雑",
+    "狭",
+    "恥",
+    "地",
+    "通",
+    "困",
+    "死",
+    "倒",
+    "大",
+    "勢",
+    "途",
+    "中",
+    "火",
+    "事",
+    "見",
+    "合",
+    "汚",
+    "答",
+    "安",
+    "心",
+    "電",
+    "気",
+    "話",
+    "修",
+    "理"
+  ],
+  "word_examples": [
+    {
+      "id": "c282253e-fa1e-43ff-a08d-0ddac572da44",
+      "japanese": {
+        "segments": [
+          {
+            "base": "地震",
+            "ruby": "じしん"
+          }
+        ]
+      },
+      "kana_reading": "じしん",
+      "meanings": {
+        "en": "earthquake",
+        "vi": "động đất"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2665b1d3-9607-4815-809f-3d86c93ad259",
+      "japanese": {
+        "segments": [
+          {
+            "base": "交通",
+            "ruby": "こうつう"
+          }
+        ]
+      },
+      "kana_reading": "こうつう",
+      "meanings": {
+        "en": "traffic; transportation",
+        "vi": "giao thông"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "caee4486-3f04-4317-967d-cf948ff9384f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "代",
+            "ruby": "だい"
+          }
+        ]
+      },
+      "kana_reading": "だい",
+      "meanings": {
+        "en": "charge; cost",
+        "vi": "tiền phí"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9a670ea6-2259-4855-846d-908d8d93dd59",
+      "japanese": {
+        "segments": [
+          {
+            "base": "複雑",
+            "ruby": "ふくざつ"
+          }
+        ]
+      },
+      "kana_reading": "ふくざつ",
+      "meanings": {
+        "en": "complicated",
+        "vi": "phức tạp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d9060eb3-41f9-4c5f-8259-6ae7dc23e909",
+      "japanese": {
+        "segments": [
+          {
+            "base": "狭",
+            "ruby": "せま"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "せまい",
+      "meanings": {
+        "en": "narrow",
+        "vi": "hẹp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a034e969-9f13-4240-86cb-395cb6837f46",
+      "japanese": {
+        "segments": [
+          {
+            "base": "恥",
+            "ruby": "は"
+          },
+          {
+            "base": "ずかしい"
+          }
+        ]
+      },
+      "kana_reading": "はずかしい",
+      "meanings": {
+        "en": "embarrassed",
+        "vi": "xấu hổ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "cb3f179d-603a-42ee-aff1-827bb43730ed",
+      "japanese": {
+        "segments": [
+          {
+            "base": "困",
+            "ruby": "こま"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "こまる",
+      "meanings": {
+        "en": "be in difficulty",
+        "vi": "gặp khó khăn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3e8f1356-1be1-4181-82cb-721a811aa706",
+      "japanese": {
+        "segments": [
+          {
+            "base": "死",
+            "ruby": "し"
+          },
+          {
+            "base": "ぬ"
+          }
+        ]
+      },
+      "kana_reading": "しぬ",
+      "meanings": {
+        "en": "die",
+        "vi": "chết"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "35d55214-cf08-4981-a855-24595a1085bb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "倒",
+            "ruby": "たお"
+          },
+          {
+            "base": "れる"
+          }
+        ]
+      },
+      "kana_reading": "たおれる",
+      "meanings": {
+        "en": "fall over; collapse",
+        "vi": "ngã; đổ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "95c563f0-6bbe-4b08-9b19-d9b931991b85",
+      "japanese": {
+        "segments": [
+          {
+            "base": "大勢",
+            "ruby": "おおぜい"
+          }
+        ]
+      },
+      "kana_reading": "おおぜい",
+      "meanings": {
+        "en": "many people",
+        "vi": "đông người"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e988331b-98c6-4342-a4e3-abf54d2bb694",
+      "japanese": {
+        "segments": [
+          {
+            "base": "途中",
+            "ruby": "とちゅう"
+          },
+          {
+            "base": "で"
+          }
+        ]
+      },
+      "kana_reading": "とちゅうで",
+      "meanings": {
+        "en": "on the way",
+        "vi": "giữa đường"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d42c8804-8fd1-44d2-b678-b531e45de075",
+      "japanese": {
+        "segments": [
+          {
+            "base": "火事",
+            "ruby": "かじ"
+          }
+        ]
+      },
+      "kana_reading": "かじ",
+      "meanings": {
+        "en": "fire (disaster)",
+        "vi": "hỏa hoạn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f4391eb1-cf81-47c4-bc95-1c201ba9f62b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "見合",
+            "ruby": "みあ"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "おみあい",
+      "meanings": {
+        "en": "meeting for a prospective marriage",
+        "vi": "buổi gặp mặt xem mắt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c3a366ac-622d-45e5-9455-51361d85cea1",
+      "japanese": {
+        "segments": [
+          {
+            "base": "汚",
+            "ruby": "きたな"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "きたない",
+      "meanings": {
+        "en": "dirty",
+        "vi": "bẩn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "191033dc-2dc1-49eb-9b90-3a68033de76f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "通",
+            "ruby": "とお"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "とおる",
+      "meanings": {
+        "en": "pass through",
+        "vi": "đi qua"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "881277f5-56d9-4abf-8460-102e24380164",
+      "japanese": {
+        "segments": [
+          {
+            "base": "答",
+            "ruby": "こた"
+          },
+          {
+            "base": "える"
+          }
+        ]
+      },
+      "kana_reading": "こたえる",
+      "meanings": {
+        "en": "answer",
+        "vi": "trả lời"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "71947242-3112-4c3c-9e92-c71934ff03c5",
+      "japanese": {
+        "segments": [
+          {
+            "base": "安心",
+            "ruby": "あんしん"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "あんしんする",
+      "meanings": {
+        "en": "feel reassured",
+        "vi": "yên tâm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "dd002abd-45ab-4f15-a698-6e95632d2bc6",
+      "japanese": {
+        "segments": [
+          {
+            "base": "電気代",
+            "ruby": "でんきだい"
+          }
+        ]
+      },
+      "kana_reading": "でんきだい",
+      "meanings": {
+        "en": "electricity charge",
+        "vi": "tiền điện"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3b567399-6f98-47fd-8301-87bdbf8290be",
+      "japanese": {
+        "segments": [
+          {
+            "base": "ガス"
+          },
+          {
+            "base": "代",
+            "ruby": "だい"
+          }
+        ]
+      },
+      "kana_reading": "ガスだい",
+      "meanings": {
+        "en": "gas charge",
+        "vi": "tiền ga"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ad997373-c765-4d71-b6e3-cb00a1c9edaa",
+      "japanese": {
+        "segments": [
+          {
+            "base": "電話代",
+            "ruby": "でんわだい"
+          }
+        ]
+      },
+      "kana_reading": "でんわだい",
+      "meanings": {
+        "en": "telephone charge",
+        "vi": "tiền điện thoại"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5d7d1203-7998-48ae-a6a1-7dc87c49d98d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "修理代",
+            "ruby": "しゅうりだい"
+          }
+        ]
+      },
+      "kana_reading": "しゅうりだい",
+      "meanings": {
+        "en": "repair cost",
+        "vi": "tiền sửa chữa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 92,
+          "pdf_page_end": 95,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 39,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 39,
+    "end": 39,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 92,
+      "pdf_page_end": 95,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

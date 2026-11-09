@@ -1,0 +1,544 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "e539e07f-e773-4bbf-8de7-04eb29b282ac",
+  "editorial_key": "kanji_unit_25",
+  "reference_unit_number": 25,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 25: preparatory review",
+    "vi": "Kanji bài 25: ôn tập chuẩn bị"
+  },
+  "character_glyphs": [
+    "飯",
+    "場",
+    "正",
+    "世",
+    "界",
+    "急",
+    "特",
+    "売",
+    "月",
+    "行",
+    "県",
+    "低",
+    "弱",
+    "不",
+    "便",
+    "朝",
+    "昼",
+    "晩",
+    "高",
+    "知",
+    "山",
+    "口",
+    "秋",
+    "田"
+  ],
+  "word_examples": [
+    {
+      "id": "4fd96837-48c8-4c81-9bb4-f93f32d6c865",
+      "japanese": {
+        "segments": [
+          {
+            "base": "ご"
+          },
+          {
+            "base": "飯",
+            "ruby": "はん"
+          }
+        ]
+      },
+      "kana_reading": "ごはん",
+      "meanings": {
+        "en": "rice; meal",
+        "vi": "cơm; bữa ăn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "cf21c2c9-48f8-4d01-b9f3-327cc65db6e1",
+      "japanese": {
+        "segments": [
+          {
+            "base": "売り場",
+            "ruby": "うりば"
+          }
+        ]
+      },
+      "kana_reading": "うりば",
+      "meanings": {
+        "en": "sales section",
+        "vi": "quầy bán hàng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "aef1dee2-924f-489b-93d4-26b9f4892e38",
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "正月",
+            "ruby": "しょうがつ"
+          }
+        ]
+      },
+      "kana_reading": "おしょうがつ",
+      "meanings": {
+        "en": "New Year",
+        "vi": "Tết năm mới"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f1e5d954-dc3e-41e2-972a-5da6edfff8bb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "世界",
+            "ruby": "せかい"
+          }
+        ]
+      },
+      "kana_reading": "せかい",
+      "meanings": {
+        "en": "world",
+        "vi": "thế giới"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a7dad3b1-37fb-4323-8fbd-65521870504e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "急行",
+            "ruby": "きゅうこう"
+          }
+        ]
+      },
+      "kana_reading": "きゅうこう",
+      "meanings": {
+        "en": "express train",
+        "vi": "tàu tốc hành"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ccd8be42-7ae3-4850-bc7b-3381dd4c6705",
+      "japanese": {
+        "segments": [
+          {
+            "base": "特急",
+            "ruby": "とっきゅう"
+          }
+        ]
+      },
+      "kana_reading": "とっきゅう",
+      "meanings": {
+        "en": "limited express",
+        "vi": "tàu tốc hành đặc biệt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3e763453-a273-47cb-9af8-8b2430e1e6d5",
+      "japanese": {
+        "segments": [
+          {
+            "base": "県",
+            "ruby": "けん"
+          }
+        ]
+      },
+      "kana_reading": "けん",
+      "meanings": {
+        "en": "prefecture",
+        "vi": "tỉnh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "228be8f0-e6c6-48e7-86d0-617adc445980",
+      "japanese": {
+        "segments": [
+          {
+            "base": "低",
+            "ruby": "ひく"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "ひくい",
+      "meanings": {
+        "en": "low",
+        "vi": "thấp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "42001e26-7d50-405f-90f3-0a70831e76c9",
+      "japanese": {
+        "segments": [
+          {
+            "base": "弱",
+            "ruby": "よわ"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "よわい",
+      "meanings": {
+        "en": "weak",
+        "vi": "yếu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "27e7d09f-211b-44a5-a715-5d0d593c79f7",
+      "japanese": {
+        "segments": [
+          {
+            "base": "不便",
+            "ruby": "ふべん"
+          }
+        ]
+      },
+      "kana_reading": "ふべん",
+      "meanings": {
+        "en": "inconvenient",
+        "vi": "bất tiện"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3afab218-beee-4a30-bb36-661d14176833",
+      "japanese": {
+        "segments": [
+          {
+            "base": "急",
+            "ruby": "いそ"
+          },
+          {
+            "base": "ぐ"
+          }
+        ]
+      },
+      "kana_reading": "いそぐ",
+      "meanings": {
+        "en": "hurry",
+        "vi": "vội"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0750741c-4864-41e4-8076-3ecec82e11fb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "特",
+            "ruby": "とく"
+          },
+          {
+            "base": "に"
+          }
+        ]
+      },
+      "kana_reading": "とくに",
+      "meanings": {
+        "en": "especially",
+        "vi": "đặc biệt là"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "51b88536-d0d4-44d5-9d17-ce82294438a7",
+      "japanese": {
+        "segments": [
+          {
+            "base": "朝ご飯",
+            "ruby": "あさごはん"
+          }
+        ]
+      },
+      "kana_reading": "あさごはん",
+      "meanings": {
+        "en": "breakfast",
+        "vi": "bữa sáng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0a68f498-5c63-4b27-9eb2-f167fd80c706",
+      "japanese": {
+        "segments": [
+          {
+            "base": "昼ご飯",
+            "ruby": "ひるごはん"
+          }
+        ]
+      },
+      "kana_reading": "ひるごはん",
+      "meanings": {
+        "en": "lunch",
+        "vi": "bữa trưa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6359ce71-ab15-44bb-9237-e8a76617395f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "晩ご飯",
+            "ruby": "ばんごはん"
+          }
+        ]
+      },
+      "kana_reading": "ばんごはん",
+      "meanings": {
+        "en": "dinner",
+        "vi": "bữa tối"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 33,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "adaaf378-75ee-4417-a417-ae7a05fa009c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "高知県",
+            "ruby": "こうちけん"
+          }
+        ]
+      },
+      "kana_reading": "こうちけん",
+      "meanings": {
+        "en": "Kochi Prefecture",
+        "vi": "tỉnh Kochi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 32,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e930a92b-43fa-4fab-925a-fe1325adcdbf",
+      "japanese": {
+        "segments": [
+          {
+            "base": "山口県",
+            "ruby": "やまぐちけん"
+          }
+        ]
+      },
+      "kana_reading": "やまぐちけん",
+      "meanings": {
+        "en": "Yamaguchi Prefecture",
+        "vi": "tỉnh Yamaguchi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 32,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "38eb5caa-07a5-4a65-849b-51c25b401626",
+      "japanese": {
+        "segments": [
+          {
+            "base": "秋田県",
+            "ruby": "あきたけん"
+          }
+        ]
+      },
+      "kana_reading": "あきたけん",
+      "meanings": {
+        "en": "Akita Prefecture",
+        "vi": "tỉnh Akita"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 32,
+          "pdf_page_end": 32,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 25,
+    "reference_volume": "Elementary I",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 1,
+    "end": 25,
+    "may_include_earlier_material": true
+  },
+  "relationship": "previous_volume_review_or_supplement",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 32,
+      "pdf_page_end": 33,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

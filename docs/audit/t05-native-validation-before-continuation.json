@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "task": "P0-T05",
+  "started": "2026-11-08",
+  "date": "2026-11-09",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "taskStatus": {
+    "T05": "in_progress",
+    "T05.01": "done",
+    "T05.02": "in_progress"
+  },
+  "scope": "Bounded native renderer/playback proof. Simulator callbacks and injected event/voice tests do not establish offline listening or physical audio acceptance. No browser simulation is counted as an app test.",
+  "environment": {
+    "scheme": "ProjectBeta",
+    "project": "ios/ProjectBeta/ProjectBeta.xcodeproj",
+    "device": "iPhone 18 Pro Simulator",
+    "simulatorID": "1D398D22-DBA1-425B-82E9-5B48F0370BF1",
+    "os": "iOS 27.2",
+    "sdk": "iPhoneSimulator27.2.sdk",
+    "swift": "6",
+    "deploymentTarget": "27.0",
+    "physicalDeviceUsed": false
+  },
+  "nativeTestsPassed": 10,
+  "nativeTestsFailed": 0,
+  "nativeTestsSkipped": 0,
+  "nativeBuildWarnings": 0,
+  "nativeTestResult": "/Users/hoanghieple/Library/Developer/XcodeBuildMCP/workspaces/project-beta-3d2b8abbddfc/result-bundles/test_sim_2026-11-08T17-02-31-141Z_pid2362_de2040f5.xcresult",
+  "nativeTestLog": {
+    "path": "/Users/hoanghieple/Library/Developer/XcodeBuildMCP/workspaces/project-beta-3d2b8abbddfc/logs/test_sim_2026-11-08T17-02-31-141Z_pid2362_5a8bb577.log",
+    "sha256": "bcb465c081b1187cb04c386b394642af7b435180ecbf059862adc967c30f2df6"
+  },
+  "releaseCompile": {
+    "status": "passed",
+    "scope": "Simulator compilation only; not release or content approval",
+    "warnings": 0,
+    "log": "/Users/hoanghieple/Library/Developer/XcodeBuildMCP/workspaces/project-beta-3d2b8abbddfc/logs/build_sim_2026-11-08T17-04-59-585Z_pid2362_77583f32.log",
+    "debugProofPayloadAbsent": true
+  },
+  "inputHashes": {
+    "docs/content-authoring/sentence-bank/speech.json": "14c5d83abc3da35a34571c7261681da22f569570ef54f47631560a0558a54f36",
+    "docs/content-authoring/lesson-01.json": "7d9a72aeb9b330b057fba4a4fa7e947c61b26364be08ea822ee05ef9c953add2",
+    "docs/content-authoring/lesson-05.json": "55e8ec11a87bde7c8175b28525abf2292ac269469f833d5d55b6d526c5645582",
+    "docs/content-authoring/lesson-10.json": "db6b040631271c69c3cc686f2e39b5ffd9b0194755b3294fe5b41c9e5f16f443",
+    "docs/content-authoring/lesson-16.json": "8581a9572589c686953ef471744e4e299fd92606e2fe71a7d61c45ba71e149df",
+    "docs/content-authoring/lesson-26.json": "52d56572504b9760dbdded30824aeb0d0bf6e7f06004e6729ce5244e402cda44",
+    "docs/content-authoring/lesson-50.json": "9b06ef7f2565f52243eafc55f9ac0c82cba991f7a1d9eb6245680d6eba04c07b",
+    "docs/content-authoring/sentence-bank/bound-contexts.json": "13fb889c6f8c2af29032a6717e4c5b82ed3829b701010756521d7711d728c29e",
+    "docs/content-authoring/sentence-bank/validation-report.json": "a042646adcda1cbe9cdad23a601f26ff81e4eaef05a422accd0657627dd21f58"
+  },
+  "implementationHashes": {
+    "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/JapaneseText.swift": "aff6ab8cc653ed306c42eb9b2fca6eec5ac8e3ba72dff8f19b9b83cae92e2e13",
+    "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofData.swift": "4d5b2deedc6c06c72fa6a97b6f7f5958217faaab7807a9465b5e65daaac657e0",
+    "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofView.swift": "a16fb06bb996347d9641fe0304221d9ba5c65a45dfc44bba346d9ce3c8e3ca17",
+    "ios/ProjectBeta/ProjectBeta/Playback/PlaybackCoordinator.swift": "5568f0623ee521354c9047c51c2d0ff02e717e2f4bd41945dd7294a39da47340",
+    "ios/ProjectBeta/ProjectBeta/App/ProjectBetaApp.swift": "ddda8f6929945a7f78c72db25ec9aff5ef7bb1a1274f2483d996d73206bf10d7",
+    "ios/ProjectBeta/ProjectBeta/Assets.xcassets/AccentColor.colorset/Contents.json": "16321fb3ae0ea97c2dc728e850413fd8906cc11adca76d388dabf365e902e9c2",
+    "ios/ProjectBeta/ProjectBetaTests/ProjectBetaTests.swift": "3e10592f2634dbf32ab288968e97d29cf6cb3f1a4130192054e13e203dd65186",
+    "ios/ProjectBeta/ProjectBetaUITests/ProjectBetaUITests.swift": "c33e05628655aab27205fa59ad99124454174d425256b79062c322f861f3eaed",
+    "ios/ProjectBeta/ProjectBeta.xcodeproj/project.xcproj": "cb729eb35e605a80b3ca9520ef8268c5954ad87123e114f16d43b7c4596a3c65",
+    "scripts/build_native_proof.py": "82bcc80f3b1e56ca4f2a083af5c9b42f2cb2332e44247a9cedb6ad172bfad8a6"
+  },
+  "fixture": {
+    "vocabularyAndExampleRows": 26,
+    "dialogueTurns": 8,
+    "dialogueID": "f7bb81c3-a948-49d1-b0e8-f55e998b74bb",
+    "referenceLessons": [
+      1,
+      5,
+      10,
+      16,
+      26,
+      50
+    ],
+    "retainedKeys": "exact entity/form or parent-dialogue/turn ordinal; no new curriculum IDs",
+    "coverage": [
+      "N5/N4 original long examples",
+      "ATM/JR contextual ruby",
+      "は/へ particle projections",
+      "standard/polite person forms",
+      "reviewed bound contexts",
+      "complete unchanged lesson-1 dialogue"
+    ],
+    "productionIntegration": false,
+    "sourceCurriculumOrPDFsModified": false
+  },
+  "componentTests": [
+    "restartReplacementAndStaleCallbacks",
+    "soloTurnReplacesDialogueAndDoesNotContinue",
+    "missingVoiceInvalidTargetAndAudioFailure",
+    "owningSceneDepartureAndNotificationsNeverResume",
+    "nativeRubyFitsAllTextWithoutChangingIdentityOrSpeech",
+    "reviewedFixtureHasExactVariantsContextsAndDialogue"
+  ],
+  "rendererMatrix": {
+    "rowsAndTurns": 34,
+    "textWidthsPt": [
+      180,
+      280,
+      640
+    ],
+    "systemContentCategories": [
+      "large",
+      "extraExtraExtraLarge",
+      "accessibilityExtraExtraExtraLarge"
+    ],
+    "ruby": [
+      true,
+      false
+    ],
+    "layoutsChecked": 612,
+    "assertions": [
+      "all UTF-16 text covered in order",
+      "each visible authored ruby base remains on one line",
+      "typographic widths fit effective layout width",
+      "overwide indivisible runs increase effective layout width without reducing the font",
+      "display identity and authored speech unchanged"
+    ],
+    "nativeUICaptures": [
+      "Light LTR",
+      "Light forced RTL",
+      "accessibility3 narrow forced RTL, ruby on/off and vertical scroll",
+      "Dark forced RTL",
+      "landscape while a real dialogue request remains active"
+    ],
+    "rtlLimit": "forced native SwiftUI layout direction; not translated Arabic/Hebrew locale acceptance"
+  },
+  "playbackEvidence": {
+    "realNativeUI": [
+      "Apple Japanese system voice produced a didStart callback (REAL_SYSTEM_VOICE_PHASE=playing in test log)",
+      "separate Stop clears state",
+      "full-dialogue title restart",
+      "rotation preserves active request",
+      "Home/background/foreground stops with no auto-resume",
+      "logical departure and return keep playback idle"
+    ],
+    "injectedNativeComponent": [
+      "per-turn actual-callback model sequencing",
+      "same-target restart and new-target replacement",
+      "fresh token each utterance; reject late/duplicate callbacks",
+      "solo turn does not resume its former dialogue",
+      "missing voice, invalid bound target and audio-start failure/retry",
+      "owning scene departure only",
+      "posted system-deactivation, route-loss, media-reset and background notifications; no resumption recommendation handled"
+    ],
+    "injectedNativeUI": [
+      "missing Japanese voice preserves readable form and shows setup guidance"
+    ],
+    "listeningPerformed": false,
+    "networkDisabled": false,
+    "silentModeTested": false,
+    "realInterruptionTested": false,
+    "realHeadphoneDisconnectTested": false
+  },
+  "screenshots": [
+    {
+      "name": "injected-missing-voice-guidance_0_FE8C0C78-1F06-49C1-816E-5A6F775D2B44.png",
+      "path": "/tmp/beta-t05-evidence/final/3B7119F3-F7A9-4817-9563-F7457A41F532.png",
+      "sha256": "3feef84bdc4bfa27baac7572ea63517b8c20c0e57a15ae9b14c95e6d3878a978",
+      "test": "ProjectBetaUITests/testMissingVoiceKeepsReadingAndShowsGuidance()",
+      "visuallyInspected": true
+    },
+    {
+      "name": "ruby-off--proof-dark--proof-rtl_0_E217A280-B5F0-492D-B189-757032CEFDE9.png",
+      "path": "/tmp/beta-t05-evidence/final/0CF97604-C2B2-4E7E-AE6F-38EE28056FAA.png",
+      "sha256": "4c666c3f447365a27e73f0b3d363871e2df2ec63794e2e7f8b1296a9c9a636dc",
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "visuallyInspected": false
+    },
+    {
+      "name": "ruby-on--proof-dark--proof-rtl_0_EE6AB752-3F41-4454-B1AA-65697C8FBBC2.png",
+      "path": "/tmp/beta-t05-evidence/final/DA816759-CF99-471F-8868-5366AFCDEE1D.png",
+      "sha256": "9a9e28f6272d096e6566f37860fff5aa34b3e2b59b1981179083d915e2533a5d",
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "visuallyInspected": true
+    },
+    {
+      "name": "large-rtl-bottom_0_72D76B90-A4F9-40EE-86C7-E3F3CA11F80D.png",
+      "path": "/tmp/beta-t05-evidence/final/4F324592-D61E-41E8-A2F8-EC15A03C0A28.png",
+      "sha256": "047012b9f29f5db17ceb1cdf34794697145166f493d2d5892bccf2f88511ab4d",
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "visuallyInspected": false
+    },
+    {
+      "name": "ruby-off--proof-large--proof-narrow--proof-rtl_0_0D7D3C8B-083F-49F5-9A5C-09798F5747A7.png",
+      "path": "/tmp/beta-t05-evidence/final/299FBE69-72E7-4B6F-B076-92F7F1EE66B6.png",
+      "sha256": "b8017fdf330d72bd68e298cd962c1cac079e8ecb33d3ec4ceed09a49101c357c",
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "visuallyInspected": false
+    },
+    {
+      "name": "ruby-on--proof-large--proof-narrow--proof-rtl_0_97F96F58-BDDE-48C0-BB40-47374AD51B44.png",
+      "path": "/tmp/beta-t05-evidence/final/85F7AEDB-33DB-4DE2-9763-151CCFBF9498.png",
+      "sha256": "a3239e4f5bbe317b9e008e98cc94a40c4d0a9241145888fab2d069a86f14c617",
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "visuallyInspected": true
+    },
+    {
+      "name": "ruby-off--proof-rtl_0_7E1B17D6-5178-4799-94A0-3665C92DA6FA.png",
+      "path": "/tmp/beta-t05-evidence/final/80D03D2F-8F7E-4E05-B1C4-01F26AFB04E5.png",
+      "sha256": "83c4843232d1c08c92f382fee2218cd2bbe40bc2bf0a1ab2e46f2e4715e50f89",
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "visuallyInspected": false
+    },
+    {
+      "name": "ruby-on--proof-rtl_0_02717F4C-6B6A-4FC8-B202-CAEF210AF71E.png",
+      "path": "/tmp/beta-t05-evidence/final/1EA8E6BE-BD83-413E-8463-103CB96EC408.png",
+      "sha256": "91c66b357eef1ae1f60a0722c4f5922c1ff5853b95fdb393ca0a2c4c0d4257eb",
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "visuallyInspected": false
+    },
+    {
+      "name": "ruby-off-_0_6AA28B20-962E-4FB4-8FEB-81ED788E9E76.png",
+      "path": "/tmp/beta-t05-evidence/final/EEFA789B-562B-4BA7-A638-1E5B236E6726.png",
+      "sha256": "a03290a212f33847e77f11c76d1a47295d8100e2084ce2472c4f1c4deebb9d86",
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "visuallyInspected": true
+    },
+    {
+      "name": "ruby-on-_0_43BE40E6-DB26-45CF-A2CA-8D79759E3309.png",
+      "path": "/tmp/beta-t05-evidence/final/F7A2B78C-E21C-40B7-A50B-2A0F3D7B8D37.png",
+      "sha256": "150140f8500c538ee1bf0db64e84b3f7c06d087d3f2f283b95f53417b01f2ff3",
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "visuallyInspected": true
+    },
+    {
+      "name": "dialogue-playing-landscape_0_BAE81A71-35C3-44F0-A003-CE872C042983.png",
+      "path": "/tmp/beta-t05-evidence/final/18743254-6AE7-47DE-BA3E-35D722C6C53C.png",
+      "sha256": "58e87877494b396011b47f72c476ad47bd1d01227cd3311373c91636f8053d89",
+      "test": "ProjectBetaUITests/testRealDialogueGeometryBackgroundDepartureAndNoResume()",
+      "visuallyInspected": true
+    },
+    {
+      "name": "real-system-voice-result-idle_0_B5A9A693-5CA8-4E93-991B-5DC5F9A724DF.png",
+      "path": "/tmp/beta-t05-evidence/final/2DE180F5-DBAE-467C-8A8C-C335015D2752.png",
+      "sha256": "2ccef6543c48e1d6a3bc851a440fd63b29c28d2ab1e6397a473fa5ecec5562ec",
+      "test": "ProjectBetaUITests/testRealVoiceDiscoveryAndStopOrGuidance()",
+      "visuallyInspected": false
+    },
+    {
+      "name": "real-system-voice-playing_0_D86108C4-9BDB-4C60-BE96-01CC4191FA78.png",
+      "path": "/tmp/beta-t05-evidence/final/25C6888F-AB7A-410E-81AF-84935ED81F61.png",
+      "sha256": "d42ea5db84bcee0aaad6fc390545ecc9ab7a35c86708a83c5a910a94e0e74abc",
+      "test": "ProjectBetaUITests/testRealVoiceDiscoveryAndStopOrGuidance()",
+      "visuallyInspected": true
+    }
+  ],
+  "externalArtifactPolicy": "Captures/logs/xcresult are outside the repository. Their paths are local to this workstation; hashes index the inspected run. Exported temporary screenshots may need re-export from xcresult.",
+  "reproduction": [
+    "Run README content/authoring validators before changing reviewed fixture inputs.",
+    "python3 scripts/build_native_proof.py --check",
+    "Use Xcode MCP test_sim with the ProjectBeta scheme, Debug, the discovered iPhone 18 Pro / iOS 27.2 simulator and all tests.",
+    "Use -native-proof to launch the DEBUG harness; -proof-renderer/-proof-rtl/-proof-large/-proof-narrow/-proof-dark select representative layout cases.",
+    "Use -proof-dialogue for the fixed script; -proof-missing-voice is explicitly an injected unavailable-voice case.",
+    "Use Xcode MCP build_sim in Release and verify the proof data/screen/payload are excluded."
+  ],
+  "missingEvidence": [
+    "Network-disabled Japanese playback and pronunciation listening (particles, Latin abbreviations, form variants and bound contexts).",
+    "Physical silent-switch/media-volume playback.",
+    "Actual phone/audio interruption and headset removal, followed by no auto-resume.",
+    "Native full-dialogue completion and solo-turn listening beyond deterministic callback tests."
+  ],
+  "outOfScope": [
+    "iPad/Duo, real Arabic/Hebrew localization, specialized Accessibility, performance, full learning-screen/runtime integration and release acceptance are outside this bounded proof."
+  ]
+}

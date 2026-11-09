@@ -1,0 +1,310 @@
+{
+  "version": 1,
+  "task": "T01.02",
+  "phase": "development",
+  "date": "2026-11-09",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "recordedAt": "2026-11-09T20:33:59.929358+07:00",
+  "ownerInstruction": "Thực hiện T01-02",
+  "taskStatus": "in_progress",
+  "e2eStatus": "not_run",
+  "scope": "Re-execution of the existing bounded DEBUG native proof. No implementation, curriculum, identifiers, requirements or historical evidence pins changed. Simulator callbacks and injected notifications do not establish offline pronunciation or physical audio acceptance.",
+  "repository": {
+    "head": "0288c8d0b5e2d6a5a0380a0203d1db5e869b9674",
+    "workingTree": "Existing staged/unstaged work retained. Exact native source/content baseline is identified by the hashes below."
+  },
+  "previousEvidence": {
+    "path": "docs/audit/t05-native-validation.json",
+    "sha256": "d7bba15066c280e2f735542e0eec40b2526116c1439b5eabacfb99798450fefa",
+    "unchanged": true
+  },
+  "environment": {
+    "scheme": "ProjectBeta",
+    "configuration": "Debug",
+    "architecture": "arm64",
+    "deviceId": "1D398D22-DBA1-425B-82E9-5B48F0370BF1",
+    "deviceName": "iPhone 18 Pro",
+    "modelName": "iPhone 18 Pro",
+    "osBuildNumber": "24B8117",
+    "osVersion": "27.2",
+    "platform": "iOS Simulator",
+    "physicalDeviceUsed": false,
+    "physicalDeviceAvailability": "Owner previously confirmed no physical iPhone; no new hardware availability is asserted.",
+    "japaneseVoiceIdentity": "The existing harness records Japanese voice availability and real callbacks, not the selected voice identifier. No voice-specific listening acceptance is claimed."
+  },
+  "nativeTests": {
+    "passed": 14,
+    "failed": 0,
+    "skipped": 0,
+    "component": 8,
+    "realAdapterIntegration": 2,
+    "ui": 4,
+    "result": "Passed",
+    "xcresult": "/Users/hoanghieple/Library/Developer/XcodeBuildMCP/workspaces/project-beta-3d2b8abbddfc/result-bundles/test_sim_2026-11-09T13-25-29-581Z_pid63006_3f4d250f.xcresult",
+    "summary": {
+      "path": "/tmp/beta-t01-02-20261109/test-summary.json",
+      "sha256": "36948d79a7761da0c96119629b815ea266d916aec19472ad4422657c94064e46"
+    },
+    "log": {
+      "path": "/Users/hoanghieple/Library/Developer/XcodeBuildMCP/workspaces/project-beta-3d2b8abbddfc/logs/test_sim_2026-11-09T13-25-29-581Z_pid63006_f162d947.log",
+      "sha256": "a95a737ba3f3f0484d1b9697583ca8af435ff1df21d7af8a30ccef9b568e25ca"
+    },
+    "debugBuild": "TEST BUILD SUCCEEDED",
+    "releaseBuild": "Not rerun; historical Release compilation evidence remains in the previous report.",
+    "filters": [
+      "ProjectBetaTests",
+      "ProjectBetaUITests/ProjectBetaUITests"
+    ],
+    "extraArgs": [
+      "-parallel-testing-enabled",
+      "NO"
+    ],
+    "transport": "MCP test_sim returned an RPC timeout after 300 seconds. The same Xcode run continued and ended with TEST EXECUTE SUCCEEDED; xcresult independently reports 14 passed / 0 failed / 0 skipped. No duplicate run was started."
+  },
+  "observedLogMarkers": {
+    "T05_REAL_DIALOGUE_COMPLETED turns=8": "All eight fixed turns received ordered real start/finish callbacks.",
+    "T05_REAL_REPLACEMENT_SOLO_COMPLETED noDialogueResume=true": "Solo replacement finished without continuing the former dialogue.",
+    "T05_REAL_STOP_STABLE=true": "Explicit Stop stayed idle during the tested 750 ms interval.",
+    "T05_INJECTED_MEDIA_RESET_REAL_DRIVER rebuilt=2 explicitRetryFinished=true noAutoResume=true": "Injected loss/reset rebuilt the real synthesizer; only explicit retry spoke.",
+    "REAL_SYSTEM_VOICE_PHASE=playing": "Native UI observed the real system start callback."
+  },
+  "inputHashes": {
+    "docs/content-authoring/sentence-bank/speech.json": "14c5d83abc3da35a34571c7261681da22f569570ef54f47631560a0558a54f36",
+    "docs/content-authoring/lesson-01.json": "7d9a72aeb9b330b057fba4a4fa7e947c61b26364be08ea822ee05ef9c953add2",
+    "docs/content-authoring/lesson-05.json": "55e8ec11a87bde7c8175b28525abf2292ac269469f833d5d55b6d526c5645582",
+    "docs/content-authoring/lesson-10.json": "db6b040631271c69c3cc686f2e39b5ffd9b0194755b3294fe5b41c9e5f16f443",
+    "docs/content-authoring/lesson-16.json": "8581a9572589c686953ef471744e4e299fd92606e2fe71a7d61c45ba71e149df",
+    "docs/content-authoring/lesson-26.json": "52d56572504b9760dbdded30824aeb0d0bf6e7f06004e6729ce5244e402cda44",
+    "docs/content-authoring/lesson-50.json": "9b06ef7f2565f52243eafc55f9ac0c82cba991f7a1d9eb6245680d6eba04c07b",
+    "docs/content-authoring/sentence-bank/bound-contexts.json": "13fb889c6f8c2af29032a6717e4c5b82ed3829b701010756521d7711d728c29e",
+    "docs/content-authoring/sentence-bank/validation-report.json": "a042646adcda1cbe9cdad23a601f26ff81e4eaef05a422accd0657627dd21f58"
+  },
+  "implementationHashes": {
+    "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/JapaneseText.swift": "aff6ab8cc653ed306c42eb9b2fca6eec5ac8e3ba72dff8f19b9b83cae92e2e13",
+    "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofData.swift": "4d5b2deedc6c06c72fa6a97b6f7f5958217faaab7807a9465b5e65daaac657e0",
+    "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofView.swift": "4fe4b76defad6f01f7e44d1fa4b475219af5c5c50eb6c7a30013e11fe8badf59",
+    "ios/ProjectBeta/ProjectBeta/Playback/PlaybackCoordinator.swift": "6bb1c0b84200bbccf1b274b8da845e86aab1bbc753382ef1e01fcfa469ca3a6c",
+    "ios/ProjectBeta/ProjectBeta/App/ProjectBetaApp.swift": "ddda8f6929945a7f78c72db25ec9aff5ef7bb1a1274f2483d996d73206bf10d7",
+    "ios/ProjectBeta/ProjectBeta/Assets.xcassets/AccentColor.colorset/Contents.json": "16321fb3ae0ea97c2dc728e850413fd8906cc11adca76d388dabf365e902e9c2",
+    "ios/ProjectBeta/ProjectBetaTests/ProjectBetaTests.swift": "d5167aff953681d145f8e5145921fffd7839fcaf4c5f7c47a6481ead02426eb9",
+    "ios/ProjectBeta/ProjectBetaUITests/ProjectBetaUITests.swift": "c33e05628655aab27205fa59ad99124454174d425256b79062c322f861f3eaed",
+    "ios/ProjectBeta/ProjectBeta.xcodeproj/project.xcproj": "cb729eb35e605a80b3ca9520ef8268c5954ad87123e114f16d43b7c4596a3c65",
+    "scripts/build_native_proof.py": "82bcc80f3b1e56ca4f2a083af5c9b42f2cb2332e44247a9cedb6ad172bfad8a6"
+  },
+  "screenshots": [
+    {
+      "test": "ProjectBetaUITests/testMissingVoiceKeepsReadingAndShowsGuidance()",
+      "name": "injected-missing-voice-guidance_0_C3AF1022-E20D-4A51-92C7-A6568DA4DAD1.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/C284B6FB-7765-4E9E-9013-01C7BCE2D4B4.png",
+      "sha256": "38293b42ade27be116a3394526b27bdf4228c55908b5fb66e8bbd2aa94336bcd",
+      "visuallyInspected": true,
+      "observation": "Injected missing-voice guidance remains readable with Japanese/meaning and speaker controls; no Stop."
+    },
+    {
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "name": "ruby-off--proof-dark--proof-rtl_0_AD3C33A6-7B80-4B7A-A4FD-A069AA53F073.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/37A65475-A6FE-4F2E-81AC-6B0EC7AF8F2B.png",
+      "sha256": "094445066256e4812ba88cf88d0ac70b89e59c5ec0e10645b58a79f0bd3c547e",
+      "visuallyInspected": false
+    },
+    {
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "name": "ruby-on--proof-dark--proof-rtl_0_81388E7B-16C1-43B4-B1BD-06A5B0CEFDE0.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/92C32426-54BB-41CA-8D36-942992AE845E.png",
+      "sha256": "094445066256e4812ba88cf88d0ac70b89e59c5ec0e10645b58a79f0bd3c547e",
+      "visuallyInspected": false
+    },
+    {
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "name": "large-rtl-bottom_0_954CB1A1-7DB2-4751-825C-CFFB86B712CD.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/2A49348E-67C9-4D73-8865-B2FBE606FED7.png",
+      "sha256": "9c07663205f5f9e6b9157d63157d79ce4cb75ced70601410f28f4352a6d97177",
+      "visuallyInspected": false
+    },
+    {
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "name": "ruby-off--proof-large--proof-narrow--proof-rtl_0_818AB78F-2217-4078-8FB2-EF1D14AB6371.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/A969E447-8FF7-44AC-9521-FC23270456E5.png",
+      "sha256": "3d3dcc1789965678fee9e78d7f102b60d0cca6a84e2a2e801a898a98b85532e8",
+      "visuallyInspected": false
+    },
+    {
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "name": "ruby-on--proof-large--proof-narrow--proof-rtl_0_97330CA8-5008-4BF1-A0DB-B8F63D8978CA.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/B5F181BC-DD69-4C09-9589-354A7C8CF7E2.png",
+      "sha256": "e55df92f5f9e9451ae964c39fbc8b9fa75bc2446766cbf8c2e97dbd4b201f752",
+      "visuallyInspected": false
+    },
+    {
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "name": "ruby-off--proof-rtl_0_02887444-DAC5-49AE-96AC-3E1CB97F5818.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/BA76FCCD-5AF3-4628-8DEF-1239FD88FEAB.png",
+      "sha256": "ecd625567fe7ee854957ab3027d37709d95fb727988cbbb1039360490c4c5c95",
+      "visuallyInspected": false
+    },
+    {
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "name": "ruby-on--proof-rtl_0_3BF25A2D-C866-4368-A629-F0B12B21CC3D.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/8A883E58-5369-4D69-A03C-703C224FB061.png",
+      "sha256": "92d4e4475e9a85b887627b9f90625d007731ddc0219c12d895633b99246b216a",
+      "visuallyInspected": false
+    },
+    {
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "name": "ruby-off-_0_9B000C64-F333-42D0-9E07-8FA2E13A426F.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/6C41F181-2D3E-4970-9839-9ECBD40BEB59.png",
+      "sha256": "a22633cf6270f2f85132e8851c69748ea3e278606c00379565c6385c722fdd20",
+      "visuallyInspected": false
+    },
+    {
+      "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+      "name": "ruby-on-_0_F9004B15-D0E9-46F9-8A86-76D82FD3EFC7.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/81291E30-FDF3-4AAA-84DC-BA9079FF5C1F.png",
+      "sha256": "0275acb6374c2118f6a6138603cbc68d75a7b810b741da0d03c8a3fafb06b06a",
+      "visuallyInspected": false
+    },
+    {
+      "test": "ProjectBetaUITests/testRealDialogueGeometryBackgroundDepartureAndNoResume()",
+      "name": "dialogue-playing-landscape_0_A3B70CFD-7039-4BB4-9012-09BD5B095C0F.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/28040A52-9494-4604-9E21-43BFD5C8204D.png",
+      "sha256": "2d10dccfe7a77120d1039fd78227619ac82598a6fa8144ca105c22535c0f22ba",
+      "visuallyInspected": true,
+      "observation": "Landscape retains playing state and accessible Stop. Lower dialogue content is offscreen; this is not a whole-dialogue visual review."
+    },
+    {
+      "test": "ProjectBetaUITests/testRealVoiceDiscoveryAndStopOrGuidance()",
+      "name": "real-system-voice-result-idle_0_C6140998-E58E-4F65-A76D-2AE50B653394.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/14F5417B-78F7-44B2-A097-83E8C890E78C.png",
+      "sha256": "207af337ba5eccb618d73b4ac3e03ede400f950eb6fe1540083fd6a1ec0030f6",
+      "visuallyInspected": true,
+      "observation": "After Stop: idle, no Stop, speaker waves or active-turn highlight; reading remains."
+    },
+    {
+      "test": "ProjectBetaUITests/testRealVoiceDiscoveryAndStopOrGuidance()",
+      "name": "real-system-voice-playing_0_4CB2F068-C8B9-4744-8B63-E1AF7D5F322E.png",
+      "path": "/tmp/beta-t01-02-20261109/captures/77B896FA-B5A7-481F-B540-D516B97D1B8C.png",
+      "sha256": "a72b70258cb74cba778f11b15120869cab06b316f0bdd5a15673e389935cc36d",
+      "visuallyInspected": true,
+      "observation": "Playing shows Stop, speaker waves and first-turn highlight."
+    }
+  ],
+  "visualReview": {
+    "exported": 13,
+    "inspected": 4,
+    "scope": "Four playback-specific final-run captures inspected. Nine renderer attachments exported but not visually reviewed in this run."
+  },
+  "diagnostics": {
+    "scope": "Retained raw runtime diagnostics despite successful callbacks; no audio listening performed.",
+    "counts": {
+      "VoiceDBClient": 66,
+      "unsafeForcedSync": 21,
+      "mDataByteSize (0)": 10,
+      "AudioQueue underflow": 4
+    },
+    "xcresultRuntimeWarnings": []
+  },
+  "e2eCases": [
+    {
+      "id": "T01.02-E2E-01",
+      "status": "not_run",
+      "reason": "No physical iPhone. Network-disabled playback/listening, silent mode/media volume and listening to exact targets/full dialogue/solo turn were not performed. Simulator callback success is supporting evidence only."
+    },
+    {
+      "id": "T01.02-E2E-02",
+      "status": "not_run",
+      "reason": "No physical iPhone with active headset route. Actual interruption and headset removal/no-auto-resume were not performed. Native background/departure passed separately; injected system events are supporting evidence only."
+    }
+  ],
+  "listeningPerformed": false,
+  "networkDisabled": false,
+  "silentModeTested": false,
+  "realInterruptionTested": false,
+  "realHeadphoneDisconnectTested": false,
+  "actualOSMediaResetPerformed": false,
+  "repositoryChecks": [
+    {
+      "command": "python3 scripts/validate_authoring_samples.py --self-test",
+      "exitCode": 0,
+      "log": "/tmp/beta-t01-02-20261109/check-0.log",
+      "logSHA256": "3bf185ed48f08ebd98eb99a52a61ff8b4a8c047d401d65c12cfcc614bf1420a0"
+    },
+    {
+      "command": "python3 scripts/validate_authoring_batch.py --complete --self-test",
+      "exitCode": 0,
+      "log": "/tmp/beta-t01-02-20261109/check-1.log",
+      "logSHA256": "52a914e175d16bc977a263fd9972e3faba06fe720962c47966658ab65df33729"
+    },
+    {
+      "command": "python3 scripts/validate_kana.py --complete --self-test --check",
+      "exitCode": 0,
+      "log": "/tmp/beta-t01-02-20261109/check-2.log",
+      "logSHA256": "4efdb7cb3f5c6694ae97ea2456da01d6a9c59dc518e8580ddf6470e8701c5aea"
+    },
+    {
+      "command": "python3 scripts/validate_sentence_bank.py --complete --self-test --check",
+      "exitCode": 0,
+      "log": "/tmp/beta-t01-02-20261109/check-3.log",
+      "logSHA256": "71e84b44b79956344d0c8aefb2a93352d4a5754db3fc46886d628a8482322f80"
+    },
+    {
+      "command": "python3 scripts/validate_source_reconciliation.py --complete --self-test --check",
+      "exitCode": 0,
+      "log": "/tmp/beta-t01-02-20261109/check-4.log",
+      "logSHA256": "8388430455d964b26a0e697b3848310d16f8dd4a698721a5fd70e2f97f06f8e3"
+    },
+    {
+      "command": "python3 scripts/validate_localization.py --self-test --check",
+      "exitCode": 0,
+      "log": "/tmp/beta-t01-02-20261109/check-5.log",
+      "logSHA256": "3a730921beb71a275401af43d099a1536175a73230497d50975a17c3fb54d8d3"
+    },
+    {
+      "command": "python3 scripts/render_authoring_content.py --check",
+      "exitCode": 0,
+      "log": "/tmp/beta-t01-02-20261109/check-6.log",
+      "logSHA256": "a0933ee4b08de1b001a74eb3d1a32cf8292c6b2cfa9d3faf8583d6888b854e82"
+    },
+    {
+      "command": "python3 scripts/sync_project_review.py --check",
+      "exitCode": 0,
+      "log": "/tmp/beta-t01-02-20261109/final-check-0.log",
+      "logSHA256": "dbf607dd6bea4b3d5b40b999eeaaf5f2c98e793aee10578fa02ea288a04ada0d"
+    },
+    {
+      "command": "python3 scripts/audit_project_docs.py",
+      "exitCode": 0,
+      "log": "/tmp/beta-t01-02-20261109/final-check-1.log",
+      "logSHA256": "9b2ab359dad6cbc564cbd34abdee31b5e88d643319433a5ac010fe40b60168d4"
+    },
+    {
+      "command": "python3 scripts/build_native_proof.py --check",
+      "exitCode": 0,
+      "scope": "Existing reviewed fixture was checked before the native run; no regeneration or source changes."
+    }
+  ],
+  "reproduction": [
+    "python3 scripts/build_native_proof.py --check",
+    "Discover the installed iPhone 18 Pro / iOS 27.2 simulator and set ProjectBeta Debug defaults.",
+    "Run XcodeBuildMCP test_sim with -parallel-testing-enabled NO and filters ProjectBetaTests and ProjectBetaUITests/ProjectBetaUITests. If the RPC times out, inspect the same run log/xcresult before retrying.",
+    "Export attachments with xcresulttool; inspect captures before claiming visual review."
+  ],
+  "closure": "Keep T01.02 in_progress and both physical_audio E2E cases not_run until their actual required physical listening/audio evidence exists. Do not substitute browser tests, injected notifications or synthesizer callbacks.",
+  "fixture": {
+    "path": "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofData.swift",
+    "dialogueID": "f7bb81c3-a948-49d1-b0e8-f55e998b74bb",
+    "orderedTurnIDs": [
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:0",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:1",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:2",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:3",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:4",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:5",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:6",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:7"
+    ],
+    "soloReplacementAndResetRetryTarget": "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:2",
+    "missingVoiceUITarget": "vocabulary:af8c51e2-6b2f-45f9-a932-474b1e5d91db:standard",
+    "rendererRowsChecked": 26,
+    "playbackListeningTargets": "None; real adapter callbacks covered the fixed dialogue and solo replacement/reset retry only. The complete 26-row speech listening matrix remains unperformed."
+  }
+}

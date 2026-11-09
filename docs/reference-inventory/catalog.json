@@ -1,0 +1,4257 @@
+{
+  "catalog_version": 1,
+  "as_of_local_date": "2026-11-06",
+  "purpose": "Development-time reference inventory and source navigation for ProjectBeta. Not an app content schema or release dataset.",
+  "page_conventions": {
+    "pdf_pages": "One-based file page positions, including covers and blanks.",
+    "printed_pages": "Visible book numbering, or expected sequence at documented blank/numbering exceptions. Ranges are inclusive.",
+    "body_offsets": "Offsets apply only to the main numbered body. Separate booklet/appendix locations explicitly provide their own PDF and printed ranges.",
+    "level_labels": "N5/N4 are the owner-provided filename labels. Textbook volumes and the 2nd edition were checked from covers/title pages. Individual JLPT item levels have not been classified.",
+    "kanji_relationships": "N5 uses grouped reference scopes and publisher milestones. N4 units 21–25 are preparatory review/supplement through Elementary I lesson 25; units 26–50 map to same-numbered Elementary II lessons. Scope does not imply every word belongs exclusively to that lesson.",
+    "product_boundary": "Publisher milestones do not decide application learned-prefix state, widget eligibility across levels, or final independently authored item counts."
+  },
+  "totals": {
+    "sources": 6,
+    "pdf_pages": 1451,
+    "lessons": 50,
+    "kanji_units": 50,
+    "start_page_headers_checked": 150
+  },
+  "sources": [
+    {
+      "id": "N5_MAIN",
+      "level_label_from_filename": "N5",
+      "volume": "Elementary I",
+      "edition": 2,
+      "role": "main",
+      "relative_path": "docs/ Minna no Nihongo - N5.pdf",
+      "filename": " Minna no Nihongo - N5.pdf",
+      "page_count": 265,
+      "size_bytes": 15004865,
+      "sha256": "b28e396e4f69679cf1152cd30077e9da02cf2fd328a2e882b94f89a3996db2cd",
+      "toc_pdf_pages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "body_printed_to_pdf_offset": 16,
+      "body_text_layer": "no_usable_body_text",
+      "source_integrity_audit": "All pages rendered; overview/pagination inspection found no missing lesson. This is not a sentence-level editorial approval."
+    },
+    {
+      "id": "N5_GRAMMAR",
+      "level_label_from_filename": "N5",
+      "volume": "Elementary I",
+      "edition": 2,
+      "role": "grammar",
+      "relative_path": "docs/Bản dịch và giải thích ngữ pháp - N5.pdf",
+      "filename": "Bản dịch và giải thích ngữ pháp - N5.pdf",
+      "page_count": 201,
+      "size_bytes": 5765674,
+      "sha256": "f924ca4781cb3975f23a06bfb88371872f60fab847a7695ee832009ab814904e",
+      "toc_pdf_pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "body_printed_to_pdf_offset": 19,
+      "body_text_layer": "present_but_requires_review",
+      "source_integrity_audit": "All pages rendered; overview/pagination inspection found no missing lesson. This is not a sentence-level editorial approval."
+    },
+    {
+      "id": "N5_KANJI",
+      "level_label_from_filename": "N5",
+      "volume": "Elementary I",
+      "edition": 2,
+      "role": "kanji",
+      "relative_path": "docs/Sách Kanji bài học - N5.pdf",
+      "filename": "Sách Kanji bài học - N5.pdf",
+      "page_count": 218,
+      "size_bytes": 19072462,
+      "sha256": "f5412c43c2d27a5ea8714d32a14c7874568904fc39bb8d0d39cdd2d582230eba",
+      "toc_pdf_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "body_printed_to_pdf_offset": 17,
+      "body_text_layer": "no_usable_body_text",
+      "source_integrity_audit": "All pages rendered; overview/pagination inspection found no missing lesson. This is not a sentence-level editorial approval."
+    },
+    {
+      "id": "N4_MAIN",
+      "level_label_from_filename": "N4",
+      "volume": "Elementary II",
+      "edition": 2,
+      "role": "main",
+      "relative_path": "docs/Sách giáo khoa - Minna no Nihongo - N4.pdf",
+      "filename": "Sách giáo khoa - Minna no Nihongo - N4.pdf",
+      "page_count": 330,
+      "size_bytes": 33596723,
+      "sha256": "5d0ce9b33bab69e0f6b81d019f12594d95be4ee6a629085410e33fd3687e0008",
+      "toc_pdf_pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "body_printed_to_pdf_offset": 20,
+      "body_text_layer": "no_usable_body_text",
+      "source_integrity_audit": "All pages rendered; overview/pagination inspection found no missing lesson. This is not a sentence-level editorial approval."
+    },
+    {
+      "id": "N4_GRAMMAR",
+      "level_label_from_filename": "N4",
+      "volume": "Elementary II",
+      "edition": 2,
+      "role": "grammar",
+      "relative_path": "docs/Bản dịch và giải thích ngữ pháp - N4.pdf",
+      "filename": "Bản dịch và giải thích ngữ pháp - N4.pdf",
+      "page_count": 181,
+      "size_bytes": 5731766,
+      "sha256": "dacdcf05badb33d326f6990050b50023aa84b521e183c7505a1d6e30b1103b46",
+      "toc_pdf_pages": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "body_printed_to_pdf_offset": 21,
+      "body_text_layer": "present_but_requires_review",
+      "source_integrity_audit": "All pages rendered; overview/pagination inspection found no missing lesson. This is not a sentence-level editorial approval."
+    },
+    {
+      "id": "N4_KANJI",
+      "level_label_from_filename": "N4",
+      "volume": "Elementary II",
+      "edition": 2,
+      "role": "kanji",
+      "relative_path": "docs/Sách Kanji bài học - N4.pdf",
+      "filename": "Sách Kanji bài học - N4.pdf",
+      "page_count": 256,
+      "size_bytes": 17361442,
+      "sha256": "5452c782813de18b941ff71e1a1037af459e271948a59f3a0ad288bd10530b31",
+      "toc_pdf_pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "body_printed_to_pdf_offset": 18,
+      "body_text_layer": "no_usable_body_text",
+      "source_integrity_audit": "All pages rendered; overview/pagination inspection found no missing lesson. This is not a sentence-level editorial approval."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "REF_LESSON_01",
+      "number": 1,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 22,
+        "pdf_page_end": 29,
+        "printed_page_start": 6,
+        "printed_page_end": 13,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 29,
+        "pdf_page_end": 34,
+        "printed_page_start": 10,
+        "printed_page_end": 15,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_01",
+        "REF_KANJI_UNIT_02",
+        "REF_KANJI_UNIT_03",
+        "REF_KANJI_UNIT_04",
+        "REF_KANJI_UNIT_05"
+      ]
+    },
+    {
+      "id": "REF_LESSON_02",
+      "number": 2,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 30,
+        "pdf_page_end": 37,
+        "printed_page_start": 14,
+        "printed_page_end": 21,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 35,
+        "pdf_page_end": 40,
+        "printed_page_start": 16,
+        "printed_page_end": 21,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_01",
+        "REF_KANJI_UNIT_02",
+        "REF_KANJI_UNIT_03",
+        "REF_KANJI_UNIT_04",
+        "REF_KANJI_UNIT_05"
+      ]
+    },
+    {
+      "id": "REF_LESSON_03",
+      "number": 3,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 38,
+        "pdf_page_end": 45,
+        "printed_page_start": 22,
+        "printed_page_end": 29,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 41,
+        "pdf_page_end": 46,
+        "printed_page_start": 22,
+        "printed_page_end": 27,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_01",
+        "REF_KANJI_UNIT_02",
+        "REF_KANJI_UNIT_03",
+        "REF_KANJI_UNIT_04",
+        "REF_KANJI_UNIT_05"
+      ]
+    },
+    {
+      "id": "REF_LESSON_04",
+      "number": 4,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 48,
+        "pdf_page_end": 55,
+        "printed_page_start": 32,
+        "printed_page_end": 39,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 47,
+        "pdf_page_end": 52,
+        "printed_page_start": 28,
+        "printed_page_end": 33,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_01",
+        "REF_KANJI_UNIT_02",
+        "REF_KANJI_UNIT_03",
+        "REF_KANJI_UNIT_04",
+        "REF_KANJI_UNIT_05"
+      ]
+    },
+    {
+      "id": "REF_LESSON_05",
+      "number": 5,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 56,
+        "pdf_page_end": 63,
+        "printed_page_start": 40,
+        "printed_page_end": 47,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 53,
+        "pdf_page_end": 58,
+        "printed_page_start": 34,
+        "printed_page_end": 39,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_01",
+        "REF_KANJI_UNIT_02",
+        "REF_KANJI_UNIT_03",
+        "REF_KANJI_UNIT_04",
+        "REF_KANJI_UNIT_05"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_01",
+        "REF_KANJI_UNIT_02",
+        "REF_KANJI_UNIT_03",
+        "REF_KANJI_UNIT_04",
+        "REF_KANJI_UNIT_05"
+      ]
+    },
+    {
+      "id": "REF_LESSON_06",
+      "number": 6,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 64,
+        "pdf_page_end": 71,
+        "printed_page_start": 48,
+        "printed_page_end": 55,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 59,
+        "pdf_page_end": 64,
+        "printed_page_start": 40,
+        "printed_page_end": 45,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_06",
+        "REF_KANJI_UNIT_07",
+        "REF_KANJI_UNIT_08",
+        "REF_KANJI_UNIT_09",
+        "REF_KANJI_UNIT_10"
+      ]
+    },
+    {
+      "id": "REF_LESSON_07",
+      "number": 7,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 72,
+        "pdf_page_end": 79,
+        "printed_page_start": 56,
+        "printed_page_end": 63,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 65,
+        "pdf_page_end": 70,
+        "printed_page_start": 46,
+        "printed_page_end": 51,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_06",
+        "REF_KANJI_UNIT_07",
+        "REF_KANJI_UNIT_08",
+        "REF_KANJI_UNIT_09",
+        "REF_KANJI_UNIT_10"
+      ]
+    },
+    {
+      "id": "REF_LESSON_08",
+      "number": 8,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 82,
+        "pdf_page_end": 89,
+        "printed_page_start": 66,
+        "printed_page_end": 73,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 71,
+        "pdf_page_end": 76,
+        "printed_page_start": 52,
+        "printed_page_end": 57,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_06",
+        "REF_KANJI_UNIT_07",
+        "REF_KANJI_UNIT_08",
+        "REF_KANJI_UNIT_09",
+        "REF_KANJI_UNIT_10"
+      ]
+    },
+    {
+      "id": "REF_LESSON_09",
+      "number": 9,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 90,
+        "pdf_page_end": 97,
+        "printed_page_start": 74,
+        "printed_page_end": 81,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 77,
+        "pdf_page_end": 82,
+        "printed_page_start": 58,
+        "printed_page_end": 63,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_06",
+        "REF_KANJI_UNIT_07",
+        "REF_KANJI_UNIT_08",
+        "REF_KANJI_UNIT_09",
+        "REF_KANJI_UNIT_10"
+      ]
+    },
+    {
+      "id": "REF_LESSON_10",
+      "number": 10,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 98,
+        "pdf_page_end": 105,
+        "printed_page_start": 82,
+        "printed_page_end": 89,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 83,
+        "pdf_page_end": 88,
+        "printed_page_start": 64,
+        "printed_page_end": 69,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_06",
+        "REF_KANJI_UNIT_07",
+        "REF_KANJI_UNIT_08",
+        "REF_KANJI_UNIT_09",
+        "REF_KANJI_UNIT_10"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_06",
+        "REF_KANJI_UNIT_07",
+        "REF_KANJI_UNIT_08",
+        "REF_KANJI_UNIT_09",
+        "REF_KANJI_UNIT_10"
+      ]
+    },
+    {
+      "id": "REF_LESSON_11",
+      "number": 11,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 106,
+        "pdf_page_end": 113,
+        "printed_page_start": 90,
+        "printed_page_end": 97,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 89,
+        "pdf_page_end": 94,
+        "printed_page_start": 70,
+        "printed_page_end": 75,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_11",
+        "REF_KANJI_UNIT_12"
+      ]
+    },
+    {
+      "id": "REF_LESSON_12",
+      "number": 12,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 114,
+        "pdf_page_end": 121,
+        "printed_page_start": 98,
+        "printed_page_end": 105,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 95,
+        "pdf_page_end": 100,
+        "printed_page_start": 76,
+        "printed_page_end": 81,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_11",
+        "REF_KANJI_UNIT_12"
+      ]
+    },
+    {
+      "id": "REF_LESSON_13",
+      "number": 13,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 126,
+        "pdf_page_end": 133,
+        "printed_page_start": 110,
+        "printed_page_end": 117,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 101,
+        "pdf_page_end": 106,
+        "printed_page_start": 82,
+        "printed_page_end": 87,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_11",
+        "REF_KANJI_UNIT_12"
+      ]
+    },
+    {
+      "id": "REF_LESSON_14",
+      "number": 14,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 134,
+        "pdf_page_end": 141,
+        "printed_page_start": 118,
+        "printed_page_end": 125,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 107,
+        "pdf_page_end": 112,
+        "printed_page_start": 88,
+        "printed_page_end": 93,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_11",
+        "REF_KANJI_UNIT_12"
+      ]
+    },
+    {
+      "id": "REF_LESSON_15",
+      "number": 15,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 142,
+        "pdf_page_end": 149,
+        "printed_page_start": 126,
+        "printed_page_end": 133,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 113,
+        "pdf_page_end": 118,
+        "printed_page_start": 94,
+        "printed_page_end": 99,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_11",
+        "REF_KANJI_UNIT_12"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_11",
+        "REF_KANJI_UNIT_12"
+      ]
+    },
+    {
+      "id": "REF_LESSON_16",
+      "number": 16,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 150,
+        "pdf_page_end": 157,
+        "printed_page_start": 134,
+        "printed_page_end": 141,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 119,
+        "pdf_page_end": 124,
+        "printed_page_start": 100,
+        "printed_page_end": 105,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_13",
+        "REF_KANJI_UNIT_14",
+        "REF_KANJI_UNIT_15"
+      ]
+    },
+    {
+      "id": "REF_LESSON_17",
+      "number": 17,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 160,
+        "pdf_page_end": 167,
+        "printed_page_start": 144,
+        "printed_page_end": 151,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 125,
+        "pdf_page_end": 130,
+        "printed_page_start": 106,
+        "printed_page_end": 111,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_13",
+        "REF_KANJI_UNIT_14",
+        "REF_KANJI_UNIT_15"
+      ]
+    },
+    {
+      "id": "REF_LESSON_18",
+      "number": 18,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 168,
+        "pdf_page_end": 175,
+        "printed_page_start": 152,
+        "printed_page_end": 159,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 131,
+        "pdf_page_end": 136,
+        "printed_page_start": 112,
+        "printed_page_end": 117,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_13",
+        "REF_KANJI_UNIT_14",
+        "REF_KANJI_UNIT_15"
+      ]
+    },
+    {
+      "id": "REF_LESSON_19",
+      "number": 19,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 176,
+        "pdf_page_end": 183,
+        "printed_page_start": 160,
+        "printed_page_end": 167,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 137,
+        "pdf_page_end": 142,
+        "printed_page_start": 118,
+        "printed_page_end": 123,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_13",
+        "REF_KANJI_UNIT_14",
+        "REF_KANJI_UNIT_15"
+      ]
+    },
+    {
+      "id": "REF_LESSON_20",
+      "number": 20,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 186,
+        "pdf_page_end": 193,
+        "printed_page_start": 170,
+        "printed_page_end": 177,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 143,
+        "pdf_page_end": 148,
+        "printed_page_start": 124,
+        "printed_page_end": 129,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_13",
+        "REF_KANJI_UNIT_14",
+        "REF_KANJI_UNIT_15"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_13",
+        "REF_KANJI_UNIT_14",
+        "REF_KANJI_UNIT_15"
+      ]
+    },
+    {
+      "id": "REF_LESSON_21",
+      "number": 21,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 194,
+        "pdf_page_end": 201,
+        "printed_page_start": 178,
+        "printed_page_end": 185,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 149,
+        "pdf_page_end": 154,
+        "printed_page_start": 130,
+        "printed_page_end": 135,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_16"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_16"
+      ]
+    },
+    {
+      "id": "REF_LESSON_22",
+      "number": 22,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 202,
+        "pdf_page_end": 209,
+        "printed_page_start": 186,
+        "printed_page_end": 193,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 155,
+        "pdf_page_end": 160,
+        "printed_page_start": 136,
+        "printed_page_end": 141,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_17"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_17"
+      ]
+    },
+    {
+      "id": "REF_LESSON_23",
+      "number": 23,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 212,
+        "pdf_page_end": 219,
+        "printed_page_start": 196,
+        "printed_page_end": 203,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 161,
+        "pdf_page_end": 166,
+        "printed_page_start": 142,
+        "printed_page_end": 147,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_18"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_18"
+      ]
+    },
+    {
+      "id": "REF_LESSON_24",
+      "number": 24,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 220,
+        "pdf_page_end": 227,
+        "printed_page_start": 204,
+        "printed_page_end": 211,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 167,
+        "pdf_page_end": 172,
+        "printed_page_start": 148,
+        "printed_page_end": 153,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_19"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_19"
+      ]
+    },
+    {
+      "id": "REF_LESSON_25",
+      "number": 25,
+      "level_label_from_filename": "N5",
+      "main": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 228,
+        "pdf_page_end": 235,
+        "printed_page_start": 212,
+        "printed_page_end": 219,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 173,
+        "pdf_page_end": 178,
+        "printed_page_start": 154,
+        "printed_page_end": 159,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_20",
+        "REF_KANJI_UNIT_21",
+        "REF_KANJI_UNIT_22",
+        "REF_KANJI_UNIT_23",
+        "REF_KANJI_UNIT_24",
+        "REF_KANJI_UNIT_25"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_20"
+      ]
+    },
+    {
+      "id": "REF_LESSON_26",
+      "number": 26,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 22,
+        "pdf_page_end": 29,
+        "printed_page_start": 2,
+        "printed_page_end": 9,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 29,
+        "pdf_page_end": 34,
+        "printed_page_start": 8,
+        "printed_page_end": 13,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_26"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_26"
+      ]
+    },
+    {
+      "id": "REF_LESSON_27",
+      "number": 27,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 30,
+        "pdf_page_end": 37,
+        "printed_page_start": 10,
+        "printed_page_end": 17,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 35,
+        "pdf_page_end": 40,
+        "printed_page_start": 14,
+        "printed_page_end": 19,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_27"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_27"
+      ]
+    },
+    {
+      "id": "REF_LESSON_28",
+      "number": 28,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 38,
+        "pdf_page_end": 45,
+        "printed_page_start": 18,
+        "printed_page_end": 25,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 41,
+        "pdf_page_end": 46,
+        "printed_page_start": 20,
+        "printed_page_end": 25,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_28"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_28"
+      ]
+    },
+    {
+      "id": "REF_LESSON_29",
+      "number": 29,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 46,
+        "pdf_page_end": 53,
+        "printed_page_start": 26,
+        "printed_page_end": 33,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 47,
+        "pdf_page_end": 52,
+        "printed_page_start": 26,
+        "printed_page_end": 31,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_29"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_29"
+      ]
+    },
+    {
+      "id": "REF_LESSON_30",
+      "number": 30,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 54,
+        "pdf_page_end": 61,
+        "printed_page_start": 34,
+        "printed_page_end": 41,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 53,
+        "pdf_page_end": 58,
+        "printed_page_start": 32,
+        "printed_page_end": 37,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_30"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_30"
+      ]
+    },
+    {
+      "id": "REF_LESSON_31",
+      "number": 31,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 64,
+        "pdf_page_end": 71,
+        "printed_page_start": 44,
+        "printed_page_end": 51,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 59,
+        "pdf_page_end": 64,
+        "printed_page_start": 38,
+        "printed_page_end": 43,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_31"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_31"
+      ]
+    },
+    {
+      "id": "REF_LESSON_32",
+      "number": 32,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 72,
+        "pdf_page_end": 79,
+        "printed_page_start": 52,
+        "printed_page_end": 59,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 65,
+        "pdf_page_end": 70,
+        "printed_page_start": 44,
+        "printed_page_end": 49,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_32"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_32"
+      ]
+    },
+    {
+      "id": "REF_LESSON_33",
+      "number": 33,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 80,
+        "pdf_page_end": 87,
+        "printed_page_start": 60,
+        "printed_page_end": 67,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 71,
+        "pdf_page_end": 76,
+        "printed_page_start": 50,
+        "printed_page_end": 55,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_33"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_33"
+      ]
+    },
+    {
+      "id": "REF_LESSON_34",
+      "number": 34,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 88,
+        "pdf_page_end": 95,
+        "printed_page_start": 68,
+        "printed_page_end": 75,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 77,
+        "pdf_page_end": 82,
+        "printed_page_start": 56,
+        "printed_page_end": 61,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_34"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_34"
+      ]
+    },
+    {
+      "id": "REF_LESSON_35",
+      "number": 35,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 96,
+        "pdf_page_end": 103,
+        "printed_page_start": 76,
+        "printed_page_end": 83,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 83,
+        "pdf_page_end": 88,
+        "printed_page_start": 62,
+        "printed_page_end": 67,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_35"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_35"
+      ]
+    },
+    {
+      "id": "REF_LESSON_36",
+      "number": 36,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 108,
+        "pdf_page_end": 115,
+        "printed_page_start": 88,
+        "printed_page_end": 95,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 89,
+        "pdf_page_end": 94,
+        "printed_page_start": 68,
+        "printed_page_end": 73,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_36"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_36"
+      ]
+    },
+    {
+      "id": "REF_LESSON_37",
+      "number": 37,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 116,
+        "pdf_page_end": 123,
+        "printed_page_start": 96,
+        "printed_page_end": 103,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 95,
+        "pdf_page_end": 100,
+        "printed_page_start": 74,
+        "printed_page_end": 79,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_37"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_37"
+      ]
+    },
+    {
+      "id": "REF_LESSON_38",
+      "number": 38,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 124,
+        "pdf_page_end": 131,
+        "printed_page_start": 104,
+        "printed_page_end": 111,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 101,
+        "pdf_page_end": 106,
+        "printed_page_start": 80,
+        "printed_page_end": 85,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_38"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_38"
+      ]
+    },
+    {
+      "id": "REF_LESSON_39",
+      "number": 39,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 132,
+        "pdf_page_end": 139,
+        "printed_page_start": 112,
+        "printed_page_end": 119,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 107,
+        "pdf_page_end": 112,
+        "printed_page_start": 86,
+        "printed_page_end": 91,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_39"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_39"
+      ]
+    },
+    {
+      "id": "REF_LESSON_40",
+      "number": 40,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 140,
+        "pdf_page_end": 147,
+        "printed_page_start": 120,
+        "printed_page_end": 127,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 113,
+        "pdf_page_end": 118,
+        "printed_page_start": 92,
+        "printed_page_end": 97,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_40"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_40"
+      ]
+    },
+    {
+      "id": "REF_LESSON_41",
+      "number": 41,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 150,
+        "pdf_page_end": 157,
+        "printed_page_start": 130,
+        "printed_page_end": 137,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 119,
+        "pdf_page_end": 124,
+        "printed_page_start": 98,
+        "printed_page_end": 103,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_41"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_41"
+      ]
+    },
+    {
+      "id": "REF_LESSON_42",
+      "number": 42,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 158,
+        "pdf_page_end": 165,
+        "printed_page_start": 138,
+        "printed_page_end": 145,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 125,
+        "pdf_page_end": 130,
+        "printed_page_start": 104,
+        "printed_page_end": 109,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_42"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_42"
+      ]
+    },
+    {
+      "id": "REF_LESSON_43",
+      "number": 43,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 166,
+        "pdf_page_end": 173,
+        "printed_page_start": 146,
+        "printed_page_end": 153,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 131,
+        "pdf_page_end": 136,
+        "printed_page_start": 110,
+        "printed_page_end": 115,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_43"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_43"
+      ]
+    },
+    {
+      "id": "REF_LESSON_44",
+      "number": 44,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 174,
+        "pdf_page_end": 181,
+        "printed_page_start": 154,
+        "printed_page_end": 161,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 137,
+        "pdf_page_end": 142,
+        "printed_page_start": 116,
+        "printed_page_end": 121,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_44"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_44"
+      ]
+    },
+    {
+      "id": "REF_LESSON_45",
+      "number": 45,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 182,
+        "pdf_page_end": 189,
+        "printed_page_start": 162,
+        "printed_page_end": 169,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 143,
+        "pdf_page_end": 148,
+        "printed_page_start": 122,
+        "printed_page_end": 127,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_45"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_45"
+      ]
+    },
+    {
+      "id": "REF_LESSON_46",
+      "number": 46,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 192,
+        "pdf_page_end": 199,
+        "printed_page_start": 172,
+        "printed_page_end": 179,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 149,
+        "pdf_page_end": 154,
+        "printed_page_start": 128,
+        "printed_page_end": 133,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_46"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_46"
+      ]
+    },
+    {
+      "id": "REF_LESSON_47",
+      "number": 47,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 200,
+        "pdf_page_end": 207,
+        "printed_page_start": 180,
+        "printed_page_end": 187,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 155,
+        "pdf_page_end": 160,
+        "printed_page_start": 134,
+        "printed_page_end": 139,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_47"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_47"
+      ]
+    },
+    {
+      "id": "REF_LESSON_48",
+      "number": 48,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 208,
+        "pdf_page_end": 215,
+        "printed_page_start": 188,
+        "printed_page_end": 195,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 161,
+        "pdf_page_end": 166,
+        "printed_page_start": 140,
+        "printed_page_end": 145,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_48"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_48"
+      ]
+    },
+    {
+      "id": "REF_LESSON_49",
+      "number": 49,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 216,
+        "pdf_page_end": 223,
+        "printed_page_start": 196,
+        "printed_page_end": 203,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 167,
+        "pdf_page_end": 172,
+        "printed_page_start": 146,
+        "printed_page_end": 151,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_49"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_49"
+      ]
+    },
+    {
+      "id": "REF_LESSON_50",
+      "number": 50,
+      "level_label_from_filename": "N4",
+      "main": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 224,
+        "pdf_page_end": 231,
+        "printed_page_start": 204,
+        "printed_page_end": 211,
+        "range_end_inclusive": true
+      },
+      "translation_and_grammar": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 173,
+        "pdf_page_end": 178,
+        "printed_page_start": 152,
+        "printed_page_end": 157,
+        "range_end_inclusive": true
+      },
+      "kanji_units_at_publisher_milestone": [
+        "REF_KANJI_UNIT_50"
+      ],
+      "kanji_reference_units": [
+        "REF_KANJI_UNIT_50"
+      ]
+    }
+  ],
+  "kanji_units": [
+    {
+      "id": "REF_KANJI_UNIT_01",
+      "number": 1,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 44,
+        "pdf_page_end": 47,
+        "printed_page_start": 27,
+        "printed_page_end": 30,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 5,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope",
+      "reference_lesson_scope": {
+        "start": 1,
+        "end": 5,
+        "may_include_earlier_material": false
+      },
+      "group_units": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_02",
+      "number": 2,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 48,
+        "pdf_page_end": 51,
+        "printed_page_start": 31,
+        "printed_page_end": 34,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 5,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope",
+      "reference_lesson_scope": {
+        "start": 1,
+        "end": 5,
+        "may_include_earlier_material": false
+      },
+      "group_units": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_03",
+      "number": 3,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 52,
+        "pdf_page_end": 55,
+        "printed_page_start": 35,
+        "printed_page_end": 38,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 5,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope",
+      "reference_lesson_scope": {
+        "start": 1,
+        "end": 5,
+        "may_include_earlier_material": false
+      },
+      "group_units": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_04",
+      "number": 4,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 56,
+        "pdf_page_end": 59,
+        "printed_page_start": 39,
+        "printed_page_end": 42,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 5,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope",
+      "reference_lesson_scope": {
+        "start": 1,
+        "end": 5,
+        "may_include_earlier_material": false
+      },
+      "group_units": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_05",
+      "number": 5,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 60,
+        "pdf_page_end": 63,
+        "printed_page_start": 43,
+        "printed_page_end": 46,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 5,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope",
+      "reference_lesson_scope": {
+        "start": 1,
+        "end": 5,
+        "may_include_earlier_material": false
+      },
+      "group_units": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_06",
+      "number": 6,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 68,
+        "pdf_page_end": 71,
+        "printed_page_start": 51,
+        "printed_page_end": 54,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 10,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 6,
+        "end": 10,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        6,
+        10
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_07",
+      "number": 7,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 72,
+        "pdf_page_end": 75,
+        "printed_page_start": 55,
+        "printed_page_end": 58,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 10,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 6,
+        "end": 10,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        6,
+        10
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_08",
+      "number": 8,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 76,
+        "pdf_page_end": 79,
+        "printed_page_start": 59,
+        "printed_page_end": 62,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 10,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 6,
+        "end": 10,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        6,
+        10
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_09",
+      "number": 9,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 80,
+        "pdf_page_end": 83,
+        "printed_page_start": 63,
+        "printed_page_end": 66,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 10,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 6,
+        "end": 10,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        6,
+        10
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_10",
+      "number": 10,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 84,
+        "pdf_page_end": 87,
+        "printed_page_start": 67,
+        "printed_page_end": 70,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 10,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 6,
+        "end": 10,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        6,
+        10
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_11",
+      "number": 11,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 92,
+        "pdf_page_end": 95,
+        "printed_page_start": 75,
+        "printed_page_end": 78,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 15,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 11,
+        "end": 15,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_12",
+      "number": 12,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 96,
+        "pdf_page_end": 99,
+        "printed_page_start": 79,
+        "printed_page_end": 82,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 15,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 11,
+        "end": 15,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_13",
+      "number": 13,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 100,
+        "pdf_page_end": 103,
+        "printed_page_start": 83,
+        "printed_page_end": 86,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 20,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 16,
+        "end": 20,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        13,
+        15
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_14",
+      "number": 14,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 104,
+        "pdf_page_end": 107,
+        "printed_page_start": 87,
+        "printed_page_end": 90,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 20,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 16,
+        "end": 20,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        13,
+        15
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_15",
+      "number": 15,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 108,
+        "pdf_page_end": 111,
+        "printed_page_start": 91,
+        "printed_page_end": 94,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 20,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "group_scope_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 16,
+        "end": 20,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        13,
+        15
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_16",
+      "number": 16,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 116,
+        "pdf_page_end": 119,
+        "printed_page_start": 99,
+        "printed_page_end": 102,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 21,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "lesson_milestone_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 21,
+        "end": 21,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        16,
+        16
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_17",
+      "number": 17,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 120,
+        "pdf_page_end": 123,
+        "printed_page_start": 103,
+        "printed_page_end": 106,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 22,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "lesson_milestone_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 22,
+        "end": 22,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        17,
+        17
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_18",
+      "number": 18,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 124,
+        "pdf_page_end": 127,
+        "printed_page_start": 107,
+        "printed_page_end": 110,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 23,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "lesson_milestone_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 23,
+        "end": 23,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        18,
+        18
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_19",
+      "number": 19,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 128,
+        "pdf_page_end": 131,
+        "printed_page_start": 111,
+        "printed_page_end": 114,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 24,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "lesson_milestone_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 24,
+        "end": 24,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        19,
+        19
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_20",
+      "number": 20,
+      "level_label_from_filename": "N5",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 132,
+        "pdf_page_end": 135,
+        "printed_page_start": 115,
+        "printed_page_end": 118,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 25,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N5_KANJI",
+          "pdf_pages": [
+            6,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      },
+      "relationship": "lesson_milestone_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 25,
+        "end": 25,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        20,
+        20
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_21",
+      "number": 21,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 20,
+        "pdf_page_end": 23,
+        "printed_page_start": 2,
+        "printed_page_end": 5,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 25,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "previous_volume_review_or_supplement",
+      "reference_lesson_scope": {
+        "start": 1,
+        "end": 25,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        21,
+        25
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_22",
+      "number": 22,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 24,
+        "pdf_page_end": 27,
+        "printed_page_start": 6,
+        "printed_page_end": 9,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 25,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "previous_volume_review_or_supplement",
+      "reference_lesson_scope": {
+        "start": 1,
+        "end": 25,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        21,
+        25
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_23",
+      "number": 23,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 28,
+        "pdf_page_end": 29,
+        "printed_page_start": 10,
+        "printed_page_end": 11,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 25,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "previous_volume_review_or_supplement",
+      "reference_lesson_scope": {
+        "start": 1,
+        "end": 25,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        21,
+        25
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_24",
+      "number": 24,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 30,
+        "pdf_page_end": 31,
+        "printed_page_start": 12,
+        "printed_page_end": 13,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 25,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "previous_volume_review_or_supplement",
+      "reference_lesson_scope": {
+        "start": 1,
+        "end": 25,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        21,
+        25
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_25",
+      "number": 25,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 32,
+        "pdf_page_end": 33,
+        "printed_page_start": 14,
+        "printed_page_end": 15,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 25,
+        "reference_volume": "Elementary I",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "previous_volume_review_or_supplement",
+      "reference_lesson_scope": {
+        "start": 1,
+        "end": 25,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        21,
+        25
+      ],
+      "supplementary_locations": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 34,
+          "pdf_page_end": 34,
+          "printed_page_start": 16,
+          "printed_page_end": 16,
+          "range_end_inclusive": true
+        }
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_26",
+      "number": 26,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 36,
+        "pdf_page_end": 39,
+        "printed_page_start": 18,
+        "printed_page_end": 21,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 26,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 26,
+        "end": 26,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        26,
+        26
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_27",
+      "number": 27,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 40,
+        "pdf_page_end": 43,
+        "printed_page_start": 22,
+        "printed_page_end": 25,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 27,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 27,
+        "end": 27,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        27,
+        27
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_28",
+      "number": 28,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 44,
+        "pdf_page_end": 47,
+        "printed_page_start": 26,
+        "printed_page_end": 29,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 28,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 28,
+        "end": 28,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        28,
+        28
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_29",
+      "number": 29,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 48,
+        "pdf_page_end": 51,
+        "printed_page_start": 30,
+        "printed_page_end": 33,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 29,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 29,
+        "end": 29,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        29,
+        29
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_30",
+      "number": 30,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 52,
+        "pdf_page_end": 55,
+        "printed_page_start": 34,
+        "printed_page_end": 37,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 30,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 30,
+        "end": 30,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        30,
+        30
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_31",
+      "number": 31,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 58,
+        "pdf_page_end": 61,
+        "printed_page_start": 40,
+        "printed_page_end": 43,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 31,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 31,
+        "end": 31,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        31,
+        31
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_32",
+      "number": 32,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 62,
+        "pdf_page_end": 65,
+        "printed_page_start": 44,
+        "printed_page_end": 47,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 32,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 32,
+        "end": 32,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_33",
+      "number": 33,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 66,
+        "pdf_page_end": 69,
+        "printed_page_start": 48,
+        "printed_page_end": 51,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 33,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 33,
+        "end": 33,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        33,
+        33
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_34",
+      "number": 34,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 70,
+        "pdf_page_end": 73,
+        "printed_page_start": 52,
+        "printed_page_end": 55,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 34,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 34,
+        "end": 34,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        34,
+        34
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_35",
+      "number": 35,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 74,
+        "pdf_page_end": 77,
+        "printed_page_start": 56,
+        "printed_page_end": 59,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 35,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 35,
+        "end": 35,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        35,
+        35
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_36",
+      "number": 36,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 80,
+        "pdf_page_end": 83,
+        "printed_page_start": 62,
+        "printed_page_end": 65,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 36,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 36,
+        "end": 36,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        36,
+        36
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_37",
+      "number": 37,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 84,
+        "pdf_page_end": 87,
+        "printed_page_start": 66,
+        "printed_page_end": 69,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 37,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 37,
+        "end": 37,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        37,
+        37
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_38",
+      "number": 38,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 88,
+        "pdf_page_end": 91,
+        "printed_page_start": 70,
+        "printed_page_end": 73,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 38,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 38,
+        "end": 38,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        38,
+        38
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_39",
+      "number": 39,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 92,
+        "pdf_page_end": 95,
+        "printed_page_start": 74,
+        "printed_page_end": 77,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 39,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 39,
+        "end": 39,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        39,
+        39
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_40",
+      "number": 40,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 96,
+        "pdf_page_end": 99,
+        "printed_page_start": 78,
+        "printed_page_end": 81,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 40,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 40,
+        "end": 40,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        40,
+        40
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_41",
+      "number": 41,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 102,
+        "pdf_page_end": 105,
+        "printed_page_start": 84,
+        "printed_page_end": 87,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 41,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 41,
+        "end": 41,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        41,
+        41
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_42",
+      "number": 42,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 106,
+        "pdf_page_end": 109,
+        "printed_page_start": 88,
+        "printed_page_end": 91,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 42,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 42,
+        "end": 42,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        42,
+        42
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_43",
+      "number": 43,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 110,
+        "pdf_page_end": 113,
+        "printed_page_start": 92,
+        "printed_page_end": 95,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 43,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 43,
+        "end": 43,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        43,
+        43
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_44",
+      "number": 44,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 114,
+        "pdf_page_end": 117,
+        "printed_page_start": 96,
+        "printed_page_end": 99,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 44,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 44,
+        "end": 44,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        44,
+        44
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_45",
+      "number": 45,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 118,
+        "pdf_page_end": 121,
+        "printed_page_start": 100,
+        "printed_page_end": 103,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 45,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 45,
+        "end": 45,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        45,
+        45
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_46",
+      "number": 46,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 124,
+        "pdf_page_end": 127,
+        "printed_page_start": 106,
+        "printed_page_end": 109,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 46,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 46,
+        "end": 46,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        46,
+        46
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_47",
+      "number": 47,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 128,
+        "pdf_page_end": 131,
+        "printed_page_start": 110,
+        "printed_page_end": 113,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 47,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 47,
+        "end": 47,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        47,
+        47
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_48",
+      "number": 48,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 132,
+        "pdf_page_end": 135,
+        "printed_page_start": 114,
+        "printed_page_end": 117,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 48,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 48,
+        "end": 48,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        48,
+        48
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_49",
+      "number": 49,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 136,
+        "pdf_page_end": 139,
+        "printed_page_start": 118,
+        "printed_page_end": 121,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 49,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 49,
+        "end": 49,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        49,
+        49
+      ]
+    },
+    {
+      "id": "REF_KANJI_UNIT_50",
+      "number": 50,
+      "level_label_from_filename": "N4",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 140,
+        "pdf_page_end": 143,
+        "printed_page_start": 122,
+        "printed_page_end": 125,
+        "range_end_inclusive": true
+      },
+      "publisher_lesson_milestone": {
+        "global_lesson_number": 50,
+        "reference_volume": "Elementary II",
+        "evidence": {
+          "source_id": "N4_KANJI",
+          "pdf_pages": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      },
+      "relationship": "one_unit_per_lesson_including_earlier_material",
+      "reference_lesson_scope": {
+        "start": 50,
+        "end": 50,
+        "may_include_earlier_material": true
+      },
+      "group_units": [
+        50,
+        50
+      ]
+    }
+  ],
+  "auxiliary_sections": [
+    {
+      "id": "REF_SECTION_01",
+      "title": "Review A",
+      "role": "review",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 46,
+        "pdf_page_end": 47,
+        "printed_page_start": 30,
+        "printed_page_end": 31,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_02",
+      "title": "Review B",
+      "role": "review",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 80,
+        "pdf_page_end": 81,
+        "printed_page_start": 64,
+        "printed_page_end": 65,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_03",
+      "title": "Review C",
+      "role": "review",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 122,
+        "pdf_page_end": 123,
+        "printed_page_start": 106,
+        "printed_page_end": 107,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_04",
+      "title": "Review D",
+      "role": "review",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 158,
+        "pdf_page_end": 159,
+        "printed_page_start": 142,
+        "printed_page_end": 143,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_05",
+      "title": "Review E",
+      "role": "review",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 184,
+        "pdf_page_end": 185,
+        "printed_page_start": 168,
+        "printed_page_end": 169,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_06",
+      "title": "Review F",
+      "role": "review",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 210,
+        "pdf_page_end": 211,
+        "printed_page_start": 194,
+        "printed_page_end": 195,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_07",
+      "title": "Review G",
+      "role": "review",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 236,
+        "pdf_page_end": 237,
+        "printed_page_start": 220,
+        "printed_page_end": 221,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_08",
+      "title": "Adverbs/conjunctions/conversation expressions I",
+      "role": "reference",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 124,
+        "pdf_page_end": 125,
+        "printed_page_start": 108,
+        "printed_page_end": 109,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_09",
+      "title": "Adverbs/conjunctions/conversation expressions II",
+      "role": "reference",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 238,
+        "pdf_page_end": 241,
+        "printed_page_start": 222,
+        "printed_page_end": 225,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_10",
+      "title": "General review",
+      "role": "review",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 242,
+        "pdf_page_end": 243,
+        "printed_page_start": 226,
+        "printed_page_end": 227,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_11",
+      "title": "Verb forms",
+      "role": "reference",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 245,
+        "pdf_page_end": 245,
+        "printed_page_start": 229,
+        "printed_page_end": 229,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_12",
+      "title": "Learning item list",
+      "role": "reference",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 246,
+        "pdf_page_end": 249,
+        "printed_page_start": 230,
+        "printed_page_end": 233,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_13",
+      "title": "Index",
+      "role": "reference",
+      "location": {
+        "source_id": "N5_MAIN",
+        "pdf_page_start": 250,
+        "pdf_page_end": 265,
+        "printed_page_start": 234,
+        "printed_page_end": 249,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_14",
+      "title": "Review H",
+      "role": "review",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 62,
+        "pdf_page_end": 63,
+        "printed_page_start": 42,
+        "printed_page_end": 43,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_15",
+      "title": "Review I",
+      "role": "review",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 104,
+        "pdf_page_end": 105,
+        "printed_page_start": 84,
+        "printed_page_end": 85,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_16",
+      "title": "Review J",
+      "role": "review",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 148,
+        "pdf_page_end": 149,
+        "printed_page_start": 128,
+        "printed_page_end": 129,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_17",
+      "title": "Review K",
+      "role": "review",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 190,
+        "pdf_page_end": 191,
+        "printed_page_start": 170,
+        "printed_page_end": 171,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_18",
+      "title": "Review L",
+      "role": "review",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 232,
+        "pdf_page_end": 233,
+        "printed_page_start": 212,
+        "printed_page_end": 213,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_19",
+      "title": "Adverbs/conjunctions/conversation expressions I",
+      "role": "reference",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 106,
+        "pdf_page_end": 107,
+        "printed_page_start": 86,
+        "printed_page_end": 87,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_20",
+      "title": "Adverbs/conjunctions/conversation expressions II",
+      "role": "reference",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 234,
+        "pdf_page_end": 235,
+        "printed_page_start": 214,
+        "printed_page_end": 215,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_21",
+      "title": "General review",
+      "role": "review",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 236,
+        "pdf_page_end": 241,
+        "printed_page_start": 216,
+        "printed_page_end": 221,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_22",
+      "title": "Verb forms",
+      "role": "reference",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 242,
+        "pdf_page_end": 243,
+        "printed_page_start": 222,
+        "printed_page_end": 223,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_23",
+      "title": "Learning item list",
+      "role": "reference",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 244,
+        "pdf_page_end": 247,
+        "printed_page_start": 224,
+        "printed_page_end": 227,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_24",
+      "title": "Index",
+      "role": "reference",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 248,
+        "pdf_page_end": 267,
+        "printed_page_start": 228,
+        "printed_page_end": 247,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_25",
+      "title": "Exercise B/C answer examples",
+      "role": "answer_examples",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 273,
+        "pdf_page_end": 297,
+        "printed_page_start": 1,
+        "printed_page_end": 25,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_26",
+      "title": "Problem audio scripts and answers",
+      "role": "transcripts_and_answers",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 298,
+        "pdf_page_end": 326,
+        "printed_page_start": 26,
+        "printed_page_end": 54,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_27",
+      "title": "Review/general-review answer examples",
+      "role": "answer_examples",
+      "location": {
+        "source_id": "N4_MAIN",
+        "pdf_page_start": 327,
+        "pdf_page_end": 329,
+        "printed_page_start": 55,
+        "printed_page_end": 57,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_28",
+      "title": "Topic/subject and clause reference columns",
+      "role": "reference",
+      "location": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 179,
+        "pdf_page_end": 182,
+        "printed_page_start": 160,
+        "printed_page_end": 163,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_29",
+      "title": "Appendices: numbers, time, counters, verb conjugation",
+      "role": "reference",
+      "location": {
+        "source_id": "N5_GRAMMAR",
+        "pdf_page_start": 183,
+        "pdf_page_end": 200,
+        "printed_page_start": 164,
+        "printed_page_end": 181,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_30",
+      "title": "Elementary I grammar/reference overview",
+      "role": "reference",
+      "location": {
+        "source_id": "N4_GRAMMAR",
+        "pdf_page_start": 23,
+        "pdf_page_end": 26,
+        "printed_page_start": 2,
+        "printed_page_end": 5,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_31",
+      "title": "Kanji introduction",
+      "role": "primer",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 20,
+        "pdf_page_end": 27,
+        "printed_page_start": 3,
+        "printed_page_end": 10,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_32",
+      "title": "Preparatory activities",
+      "role": "primer",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 30,
+        "pdf_page_end": 40,
+        "printed_page_start": 13,
+        "printed_page_end": 23,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_33",
+      "title": "Kanji Ninja 1",
+      "role": "review",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 64,
+        "pdf_page_end": 67,
+        "printed_page_start": 47,
+        "printed_page_end": 50,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_34",
+      "title": "Kanji Ninja 2",
+      "role": "review",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 88,
+        "pdf_page_end": 91,
+        "printed_page_start": 71,
+        "printed_page_end": 74,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_35",
+      "title": "Kanji Ninja 3",
+      "role": "review",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 112,
+        "pdf_page_end": 114,
+        "printed_page_start": 95,
+        "printed_page_end": 97,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_36",
+      "title": "Kanji Ninja 4",
+      "role": "review",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 136,
+        "pdf_page_end": 151,
+        "printed_page_start": 119,
+        "printed_page_end": 134,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_37",
+      "title": "Kanji Ninja answers",
+      "role": "answers",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 152,
+        "pdf_page_end": 152,
+        "printed_page_start": 135,
+        "printed_page_end": 135,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_38",
+      "title": "Unit quizzes",
+      "role": "quiz",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 154,
+        "pdf_page_end": 173,
+        "printed_page_start": 137,
+        "printed_page_end": 156,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_39",
+      "title": "Quiz answers",
+      "role": "answers",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 174,
+        "pdf_page_end": 176,
+        "printed_page_start": 157,
+        "printed_page_end": 159,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_40",
+      "title": "Kanji/word reference entries",
+      "role": "reference",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 181,
+        "pdf_page_end": 210,
+        "printed_page_start": 2,
+        "printed_page_end": 31,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_41",
+      "title": "Word index",
+      "role": "reference",
+      "location": {
+        "source_id": "N5_KANJI",
+        "pdf_page_start": 212,
+        "pdf_page_end": 216,
+        "printed_page_start": 33,
+        "printed_page_end": 37,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_42",
+      "title": "Supplement to Unit 25",
+      "role": "supplement",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 34,
+        "pdf_page_end": 34,
+        "printed_page_start": 16,
+        "printed_page_end": 16,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_43",
+      "title": "Review 1",
+      "role": "review",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 56,
+        "pdf_page_end": 57,
+        "printed_page_start": 38,
+        "printed_page_end": 39,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_44",
+      "title": "Review 2",
+      "role": "review",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 78,
+        "pdf_page_end": 79,
+        "printed_page_start": 60,
+        "printed_page_end": 61,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_45",
+      "title": "Review 3",
+      "role": "review",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 100,
+        "pdf_page_end": 101,
+        "printed_page_start": 82,
+        "printed_page_end": 83,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_46",
+      "title": "Review 4",
+      "role": "review",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 122,
+        "pdf_page_end": 123,
+        "printed_page_start": 104,
+        "printed_page_end": 105,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_47",
+      "title": "Review 5",
+      "role": "review",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 144,
+        "pdf_page_end": 145,
+        "printed_page_start": 126,
+        "printed_page_end": 127,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_48",
+      "title": "Unit quizzes 23–50",
+      "role": "quiz",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 147,
+        "pdf_page_end": 174,
+        "printed_page_start": 129,
+        "printed_page_end": 156,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_49",
+      "title": "Quiz answers",
+      "role": "answers",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 175,
+        "pdf_page_end": 179,
+        "printed_page_start": 157,
+        "printed_page_end": 161,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_50",
+      "title": "Kanji/word reference entries",
+      "role": "reference",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 186,
+        "pdf_page_end": 237,
+        "printed_page_start": 4,
+        "printed_page_end": 55,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_51",
+      "title": "Word index",
+      "role": "reference",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 238,
+        "pdf_page_end": 247,
+        "printed_page_start": 56,
+        "printed_page_end": 65,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_52",
+      "title": "Radical index",
+      "role": "reference",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 248,
+        "pdf_page_end": 253,
+        "printed_page_start": 66,
+        "printed_page_end": 71,
+        "range_end_inclusive": true
+      }
+    },
+    {
+      "id": "REF_SECTION_53",
+      "title": "Character list",
+      "role": "reference",
+      "location": {
+        "source_id": "N4_KANJI",
+        "pdf_page_start": 254,
+        "pdf_page_end": 255,
+        "printed_page_start": 72,
+        "printed_page_end": 73,
+        "range_end_inclusive": true
+      }
+    }
+  ],
+  "source_findings": [
+    {
+      "id": "REF-Q01",
+      "source_id": "N5_MAIN",
+      "pdf_pages": [
+        210
+      ],
+      "printed_page_expected": 194,
+      "visible_page_label": "94",
+      "finding": "The visible page number lacks the leading 1. Content is between printed 193 and 195 in Review F.",
+      "action": "Use PDF page 210 / expected printed 194 in locators; preserve the original PDF."
+    },
+    {
+      "id": "REF-Q02",
+      "source_id": "N4_GRAMMAR",
+      "pdf_pages": [
+        12
+      ],
+      "printed_page_label": "xi",
+      "finding": "Dark scan noise obscures some learning-flow diagram labels. Adjacent prose remains readable.",
+      "action": "Consult the corresponding clean learning-flow diagram in N4_MAIN PDF 11 when reviewing this guide."
+    },
+    {
+      "id": "REF-Q03",
+      "source_id": "N4_MAIN",
+      "pdf_pages": [
+        2,
+        330
+      ],
+      "finding": "Exact duplicate rendered images are both blank. This is not a duplicate lesson.",
+      "action": "Exclude blank front/end matter from content extraction."
+    },
+    {
+      "id": "REF-Q04",
+      "source_ids": [
+        "N5_MAIN",
+        "N5_KANJI",
+        "N4_MAIN",
+        "N4_KANJI"
+      ],
+      "finding": "No usable body text layer for extraction; image OCR is needed.",
+      "action": "Keep source/page/region provenance and review Japanese readings, Kanji and annotations against images."
+    },
+    {
+      "id": "REF-Q05",
+      "source_ids": [
+        "N5_GRAMMAR",
+        "N4_GRAMMAR"
+      ],
+      "finding": "Existing text layers contain recognition errors, including Vietnamese diacritics and Japanese text.",
+      "action": "Do not treat embedded extracted text as an editorial ground truth."
+    }
+  ],
+  "verification": {
+    "source_checksums": "SHA-256 recorded for each PDF; rechecked before delivery.",
+    "starts": "150/150 source start-page headings matched the expected lesson/unit number.",
+    "ranges": "TOC starts cross-checked with start pages, source pagination and chapter/section boundaries; review and appendix pages are separate.",
+    "independence": "Performed by primary agent; not independent editorial acceptance.",
+    "ocr_pilot": "ocr-pilot/review.json",
+    "heading_evidence": "heading-verification.json"
+  }
+}

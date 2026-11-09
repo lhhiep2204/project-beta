@@ -1,0 +1,699 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "afd55def-ac65-4d3f-9d77-58d22027d7db",
+  "editorial_key": "kanji_unit_41",
+  "reference_unit_number": 41,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 41: lesson 41 reading words",
+    "vi": "Kanji bài 41: từ đọc của bài 41"
+  },
+  "character_glyphs": [
+    "祝",
+    "舞",
+    "産",
+    "祖",
+    "娘",
+    "息",
+    "文",
+    "見",
+    "土",
+    "母",
+    "子",
+    "作",
+    "法",
+    "方",
+    "宿",
+    "題",
+    "直",
+    "取",
+    "替",
+    "珍",
+    "絵",
+    "本",
+    "手",
+    "袋",
+    "靴",
+    "下",
+    "機",
+    "生",
+    "花",
+    "発",
+    "音",
+    "上",
+    "入",
+    "学",
+    "間",
+    "違"
+  ],
+  "word_examples": [
+    {
+      "id": "49399275-ad45-4565-910f-b70ee48bea8d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "祝",
+            "ruby": "いわ"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "おいわい",
+      "meanings": {
+        "en": "congratulations; celebration gift",
+        "vi": "lời chúc; quà mừng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f70d42bb-30b5-425d-8b8a-bdc58d54f240",
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "見舞",
+            "ruby": "みま"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "おみまい",
+      "meanings": {
+        "en": "visit to someone ill",
+        "vi": "việc thăm người ốm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "493e6085-98dd-4cca-b763-2aeecd55232c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "土産",
+            "ruby": "みやげ"
+          }
+        ]
+      },
+      "kana_reading": "おみやげ",
+      "meanings": {
+        "en": "souvenir; travel gift",
+        "vi": "quà mang về"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "422e91f7-25aa-4371-a358-177b6a16cd8b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "祖母",
+            "ruby": "そぼ"
+          }
+        ]
+      },
+      "kana_reading": "そぼ",
+      "meanings": {
+        "en": "grandmother (one's own)",
+        "vi": "bà (của mình)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6fd3a6fb-67d6-439b-8e21-088d2bb1145a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "娘",
+            "ruby": "むすめ"
+          }
+        ]
+      },
+      "kana_reading": "むすめ",
+      "meanings": {
+        "en": "daughter",
+        "vi": "con gái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "58001027-0770-4448-be05-55e20223e92a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "息子",
+            "ruby": "むすこ"
+          }
+        ]
+      },
+      "kana_reading": "むすこ",
+      "meanings": {
+        "en": "son",
+        "vi": "con trai"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "369143e2-e2ab-4a89-9740-19db8e50c416",
+      "japanese": {
+        "segments": [
+          {
+            "base": "作文",
+            "ruby": "さくぶん"
+          }
+        ]
+      },
+      "kana_reading": "さくぶん",
+      "meanings": {
+        "en": "composition",
+        "vi": "bài văn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0abc3c20-655c-426c-83b4-b4de2dfe9d1f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "文法",
+            "ruby": "ぶんぽう"
+          }
+        ]
+      },
+      "kana_reading": "ぶんぽう",
+      "meanings": {
+        "en": "grammar",
+        "vi": "ngữ pháp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b0f2bb7e-b5f2-48ac-9b33-45171c945bf7",
+      "japanese": {
+        "segments": [
+          {
+            "base": "方法",
+            "ruby": "ほうほう"
+          }
+        ]
+      },
+      "kana_reading": "ほうほう",
+      "meanings": {
+        "en": "method",
+        "vi": "phương pháp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c493e632-832d-4d3f-8084-6367ebf92b32",
+      "japanese": {
+        "segments": [
+          {
+            "base": "宿題",
+            "ruby": "しゅくだい"
+          }
+        ]
+      },
+      "kana_reading": "しゅくだい",
+      "meanings": {
+        "en": "homework",
+        "vi": "bài tập về nhà"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "1d7205fc-b95a-401c-a9e7-97907c8d3fdb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "直",
+            "ruby": "なお"
+          },
+          {
+            "base": "す"
+          }
+        ]
+      },
+      "kana_reading": "なおす",
+      "meanings": {
+        "en": "repair; correct",
+        "vi": "sửa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e22ca7cc-592a-4897-9426-c88f7f1078ba",
+      "japanese": {
+        "segments": [
+          {
+            "base": "取り替",
+            "ruby": "とりか"
+          },
+          {
+            "base": "える"
+          }
+        ]
+      },
+      "kana_reading": "とりかえる",
+      "meanings": {
+        "en": "replace",
+        "vi": "thay"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4efddd8d-bc35-4a2d-a1a6-37d53ea0adab",
+      "japanese": {
+        "segments": [
+          {
+            "base": "珍",
+            "ruby": "めずら"
+          },
+          {
+            "base": "しい"
+          }
+        ]
+      },
+      "kana_reading": "めずらしい",
+      "meanings": {
+        "en": "rare; unusual",
+        "vi": "hiếm; lạ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a98a17da-b944-4557-9674-dcaae7dc42c7",
+      "japanese": {
+        "segments": [
+          {
+            "base": "絵",
+            "ruby": "え"
+          },
+          {
+            "base": "はがき"
+          }
+        ]
+      },
+      "kana_reading": "えはがき",
+      "meanings": {
+        "en": "picture postcard",
+        "vi": "bưu thiếp tranh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4a79e75a-897d-4219-b400-6d9c7c6a82f7",
+      "japanese": {
+        "segments": [
+          {
+            "base": "絵本",
+            "ruby": "えほん"
+          }
+        ]
+      },
+      "kana_reading": "えほん",
+      "meanings": {
+        "en": "picture book",
+        "vi": "sách tranh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ea5ed3d7-0511-4b8c-a3df-4f3bb3ccc4ca",
+      "japanese": {
+        "segments": [
+          {
+            "base": "手袋",
+            "ruby": "てぶくろ"
+          }
+        ]
+      },
+      "kana_reading": "てぶくろ",
+      "meanings": {
+        "en": "gloves",
+        "vi": "găng tay"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7b4ae99f-d58d-49a1-b33b-6a3a87a5d1cf",
+      "japanese": {
+        "segments": [
+          {
+            "base": "靴下",
+            "ruby": "くつした"
+          }
+        ]
+      },
+      "kana_reading": "くつした",
+      "meanings": {
+        "en": "socks",
+        "vi": "tất"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3b46e61d-d234-4169-9006-fd275d34675b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "コピー"
+          },
+          {
+            "base": "機",
+            "ruby": "き"
+          }
+        ]
+      },
+      "kana_reading": "コピーき",
+      "meanings": {
+        "en": "photocopier",
+        "vi": "máy photocopy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f05e7dde-391f-48f0-b0b7-cb0f94ec5991",
+      "japanese": {
+        "segments": [
+          {
+            "base": "生け花",
+            "ruby": "いけばな"
+          }
+        ]
+      },
+      "kana_reading": "いけばな",
+      "meanings": {
+        "en": "flower arrangement",
+        "vi": "nghệ thuật cắm hoa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c8840389-288a-47e5-8363-cc4216944c25",
+      "japanese": {
+        "segments": [
+          {
+            "base": "発音",
+            "ruby": "はつおん"
+          }
+        ]
+      },
+      "kana_reading": "はつおん",
+      "meanings": {
+        "en": "pronunciation",
+        "vi": "phát âm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e184302c-036f-458e-8e88-755f0380c84e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "上",
+            "ruby": "あ"
+          },
+          {
+            "base": "げる"
+          }
+        ]
+      },
+      "kana_reading": "あげる",
+      "meanings": {
+        "en": "raise something",
+        "vi": "nâng lên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8f7e7d1e-6136-4e79-9a72-1d4541d36f12",
+      "japanese": {
+        "segments": [
+          {
+            "base": "入学",
+            "ruby": "にゅうがく"
+          }
+        ]
+      },
+      "kana_reading": "にゅうがく",
+      "meanings": {
+        "en": "school enrollment",
+        "vi": "nhập học"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4ed17a6a-d4dc-4a3f-8ae1-1e68177a75a5",
+      "japanese": {
+        "segments": [
+          {
+            "base": "間違",
+            "ruby": "まちが"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "まちがい",
+      "meanings": {
+        "en": "mistake",
+        "vi": "lỗi; sự nhầm lẫn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 102,
+          "pdf_page_end": 105,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 41,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 41,
+    "end": 41,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 102,
+      "pdf_page_end": 105,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

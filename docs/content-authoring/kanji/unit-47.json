@@ -1,0 +1,806 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "123f3c14-7f78-472d-8c99-ccaadf072913",
+  "editorial_key": "kanji_unit_47",
+  "reference_unit_number": 47,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 47: lesson 47 reading words",
+    "vi": "Kanji bài 47: từ đọc của bài 47"
+  },
+  "character_glyphs": [
+    "祭",
+    "科",
+    "庭",
+    "報",
+    "実",
+    "誌",
+    "億",
+    "学",
+    "天",
+    "気",
+    "予",
+    "験",
+    "雑",
+    "事",
+    "務",
+    "所",
+    "怖",
+    "吹",
+    "失",
+    "敗",
+    "亡",
+    "交",
+    "番",
+    "台",
+    "風",
+    "相",
+    "手",
+    "人",
+    "口",
+    "文",
+    "婚",
+    "約",
+    "知",
+    "合",
+    "別",
+    "集",
+    "入",
+    "院",
+    "者",
+    "社",
+    "会",
+    "医",
+    "法",
+    "律",
+    "祖",
+    "父"
+  ],
+  "word_examples": [
+    {
+      "id": "389a64ab-9e9b-47ab-84d7-0e0bf40f1de3",
+      "japanese": {
+        "segments": [
+          {
+            "base": "祭",
+            "ruby": "まつ"
+          },
+          {
+            "base": "り"
+          }
+        ]
+      },
+      "kana_reading": "まつり",
+      "meanings": {
+        "en": "festival",
+        "vi": "lễ hội"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "1a5581bd-63a8-4500-bae9-3b4bf67aecd1",
+      "japanese": {
+        "segments": [
+          {
+            "base": "科学",
+            "ruby": "かがく"
+          }
+        ]
+      },
+      "kana_reading": "かがく",
+      "meanings": {
+        "en": "science",
+        "vi": "khoa học"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3259babe-875e-4110-9c97-ccd42af764fb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "庭",
+            "ruby": "にわ"
+          }
+        ]
+      },
+      "kana_reading": "にわ",
+      "meanings": {
+        "en": "garden",
+        "vi": "vườn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "506c6445-af49-41b1-9cd2-971e7b150de2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "天気予報",
+            "ruby": "てんきよほう"
+          }
+        ]
+      },
+      "kana_reading": "てんきよほう",
+      "meanings": {
+        "en": "weather forecast",
+        "vi": "dự báo thời tiết"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5f095287-1580-4faf-9e1d-4b82b2901c74",
+      "japanese": {
+        "segments": [
+          {
+            "base": "実験",
+            "ruby": "じっけん"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "じっけんする",
+      "meanings": {
+        "en": "experiment",
+        "vi": "thí nghiệm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "45d5e860-0164-407e-87a1-b4c9bb5f5c1e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "雑誌",
+            "ruby": "ざっし"
+          }
+        ]
+      },
+      "kana_reading": "ざっし",
+      "meanings": {
+        "en": "magazine",
+        "vi": "tạp chí"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7ab9179c-975a-4750-9245-ce980b5258a9",
+      "japanese": {
+        "segments": [
+          {
+            "base": "億",
+            "ruby": "おく"
+          }
+        ]
+      },
+      "kana_reading": "おく",
+      "meanings": {
+        "en": "hundred million",
+        "vi": "một trăm triệu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4690689b-192a-4964-983a-faa30e677a64",
+      "japanese": {
+        "segments": [
+          {
+            "base": "事務所",
+            "ruby": "じむしょ"
+          }
+        ]
+      },
+      "kana_reading": "じむしょ",
+      "meanings": {
+        "en": "office",
+        "vi": "văn phòng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e3d5b8c4-5a98-484a-8112-1e702752ab9c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "怖",
+            "ruby": "こわ"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "こわい",
+      "meanings": {
+        "en": "frightening",
+        "vi": "đáng sợ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ed5f5585-d15c-44c3-9b11-9b7be8639d71",
+      "japanese": {
+        "segments": [
+          {
+            "base": "吹",
+            "ruby": "ふ"
+          },
+          {
+            "base": "く"
+          }
+        ]
+      },
+      "kana_reading": "ふく",
+      "meanings": {
+        "en": "blow",
+        "vi": "thổi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3e2bfa3e-763a-4aba-8498-2e195b2dff19",
+      "japanese": {
+        "segments": [
+          {
+            "base": "失敗",
+            "ruby": "しっぱい"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "しっぱいする",
+      "meanings": {
+        "en": "fail",
+        "vi": "thất bại"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b38d652c-48b6-40c3-84ff-e80e117b4bc2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "亡",
+            "ruby": "な"
+          },
+          {
+            "base": "くなる"
+          }
+        ]
+      },
+      "kana_reading": "なくなる",
+      "meanings": {
+        "en": "pass away",
+        "vi": "qua đời"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2322fbf5-b452-4d0e-abc5-ffbe988f1c9f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "交番",
+            "ruby": "こうばん"
+          }
+        ]
+      },
+      "kana_reading": "こうばん",
+      "meanings": {
+        "en": "police box",
+        "vi": "đồn cảnh sát khu vực"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7fbf3e2b-1a7d-463a-a5b1-79ae299f92fe",
+      "japanese": {
+        "segments": [
+          {
+            "base": "台風",
+            "ruby": "たいふう"
+          }
+        ]
+      },
+      "kana_reading": "たいふう",
+      "meanings": {
+        "en": "typhoon",
+        "vi": "bão"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4a36a2c8-85e2-48d7-935b-004a75fccc75",
+      "japanese": {
+        "segments": [
+          {
+            "base": "相手",
+            "ruby": "あいて"
+          }
+        ]
+      },
+      "kana_reading": "あいて",
+      "meanings": {
+        "en": "partner; opponent",
+        "vi": "đối tác; đối thủ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "172b4062-e074-4a4c-b283-274a51e4088b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "人口",
+            "ruby": "じんこう"
+          }
+        ]
+      },
+      "kana_reading": "じんこう",
+      "meanings": {
+        "en": "population",
+        "vi": "dân số"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "dd1bbc1a-fe5c-49ea-b3a9-fd8041835faa",
+      "japanese": {
+        "segments": [
+          {
+            "base": "文学",
+            "ruby": "ぶんがく"
+          }
+        ]
+      },
+      "kana_reading": "ぶんがく",
+      "meanings": {
+        "en": "literature",
+        "vi": "văn học"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "1e75f3e9-b813-4e29-9924-fe8b2a0d4bed",
+      "japanese": {
+        "segments": [
+          {
+            "base": "婚約",
+            "ruby": "こんやく"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "こんやくする",
+      "meanings": {
+        "en": "get engaged",
+        "vi": "đính hôn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "743b27f9-6cee-4d22-8e8f-879a8d4b8c57",
+      "japanese": {
+        "segments": [
+          {
+            "base": "知り合",
+            "ruby": "しりあ"
+          },
+          {
+            "base": "う"
+          }
+        ]
+      },
+      "kana_reading": "しりあう",
+      "meanings": {
+        "en": "get to know one another",
+        "vi": "quen biết nhau"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "71dedd84-aa6b-4774-a89a-8573b57e7234",
+      "japanese": {
+        "segments": [
+          {
+            "base": "別",
+            "ruby": "わか"
+          },
+          {
+            "base": "れる"
+          }
+        ]
+      },
+      "kana_reading": "わかれる",
+      "meanings": {
+        "en": "part; separate",
+        "vi": "chia tay"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3ac20899-16df-4cd3-af5c-39e9cbca6840",
+      "japanese": {
+        "segments": [
+          {
+            "base": "集",
+            "ruby": "あつ"
+          },
+          {
+            "base": "まる"
+          }
+        ]
+      },
+      "kana_reading": "あつまる",
+      "meanings": {
+        "en": "gather",
+        "vi": "tập trung"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "05a19be5-8661-4e0b-9d75-bb48e45e2b8c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "入院",
+            "ruby": "にゅういん"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "にゅういんする",
+      "meanings": {
+        "en": "be admitted to hospital",
+        "vi": "nhập viện"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "cdcdf15b-2365-4c31-85b6-4c4b34c3483f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "科学者",
+            "ruby": "かがくしゃ"
+          }
+        ]
+      },
+      "kana_reading": "かがくしゃ",
+      "meanings": {
+        "en": "scientist",
+        "vi": "nhà khoa học"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5473f44b-e9f5-471b-99c3-d6109ba89c1f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "社会科学",
+            "ruby": "しゃかいかがく"
+          }
+        ]
+      },
+      "kana_reading": "しゃかいかがく",
+      "meanings": {
+        "en": "social sciences",
+        "vi": "khoa học xã hội"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3a3cc05d-afef-4189-b34f-286a21178429",
+      "japanese": {
+        "segments": [
+          {
+            "base": "医学",
+            "ruby": "いがく"
+          }
+        ]
+      },
+      "kana_reading": "いがく",
+      "meanings": {
+        "en": "medical science",
+        "vi": "y học"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "dea6ef54-8fad-4870-be31-cea81af57387",
+      "japanese": {
+        "segments": [
+          {
+            "base": "法律事務所",
+            "ruby": "ほうりつじむしょ"
+          }
+        ]
+      },
+      "kana_reading": "ほうりつじむしょ",
+      "meanings": {
+        "en": "law office",
+        "vi": "văn phòng luật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c9645a0c-58fc-474a-9aac-1944924f9a87",
+      "japanese": {
+        "segments": [
+          {
+            "base": "祖父",
+            "ruby": "そふ"
+          }
+        ]
+      },
+      "kana_reading": "そふ",
+      "meanings": {
+        "en": "grandfather (one's own)",
+        "vi": "ông (của mình)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 131,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 47,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 47,
+    "end": 47,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 128,
+      "pdf_page_end": 131,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

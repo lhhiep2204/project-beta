@@ -1,0 +1,1649 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "7d899a93-23b0-416e-8513-b5c475c2172a",
+  "editorial_key": "kanji_unit_15",
+  "reference_unit_number": 15,
+  "source_level_label": "N5",
+  "title": {
+    "en": "Directions, food and the body",
+    "vi": "Phương hướng, món ăn và cơ thể"
+  },
+  "character_glyphs": [
+    "東",
+    "西",
+    "南",
+    "北",
+    "京",
+    "夜",
+    "料",
+    "理",
+    "口",
+    "目",
+    "足",
+    "曜"
+  ],
+  "word_examples": [
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "東",
+            "ruby": "ひがし"
+          }
+        ]
+      },
+      "kana_reading": "ひがし",
+      "meanings": {
+        "en": "east",
+        "vi": "phía đông"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 202,
+          "pdf_page_end": 202,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "feb7413b-6cfd-47b4-887d-92bced290f01"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "東京",
+            "ruby": "とうきょう"
+          }
+        ]
+      },
+      "kana_reading": "とうきょう",
+      "meanings": {
+        "en": "Tokyo",
+        "vi": "Tokyo"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 202,
+          "pdf_page_end": 202,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "543137fd-db6f-464c-84bc-c793308c627e"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "東",
+            "ruby": "ひがし"
+          },
+          {
+            "base": "ヨーロッパ"
+          }
+        ]
+      },
+      "kana_reading": "ひがしヨーロッパ",
+      "meanings": {
+        "en": "Eastern Europe",
+        "vi": "Đông Âu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 202,
+          "pdf_page_end": 202,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "1ee6c1d0-d3e0-4fd8-a32e-299889013291"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "東南",
+            "ruby": "とうなん"
+          },
+          {
+            "base": "アジア"
+          }
+        ]
+      },
+      "kana_reading": "とうなんアジア",
+      "meanings": {
+        "en": "Southeast Asia",
+        "vi": "Đông Nam Á"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 202,
+          "pdf_page_end": 202,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "e760455b-7b32-44bc-b700-fb0d5dcb7186"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "東北",
+            "ruby": "とうほく"
+          }
+        ]
+      },
+      "kana_reading": "とうほく",
+      "meanings": {
+        "en": "northeast; Tohoku region",
+        "vi": "đông bắc; vùng Tohoku"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 202,
+          "pdf_page_end": 202,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "c96f3e0e-33f6-4bc5-8d09-9334a252abd6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "西",
+            "ruby": "にし"
+          }
+        ]
+      },
+      "kana_reading": "にし",
+      "meanings": {
+        "en": "west",
+        "vi": "phía tây"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "88f3a9e6-dea4-45ad-99d2-8f48e1d8e345"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "西",
+            "ruby": "にし"
+          },
+          {
+            "base": "ヨーロッパ"
+          }
+        ]
+      },
+      "kana_reading": "にしヨーロッパ",
+      "meanings": {
+        "en": "Western Europe",
+        "vi": "Tây Âu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "8aa1967a-d3f4-49c6-bfad-e2b193d2fb05"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "南",
+            "ruby": "みなみ"
+          }
+        ]
+      },
+      "kana_reading": "みなみ",
+      "meanings": {
+        "en": "south",
+        "vi": "phía nam"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "71251d2a-4eed-42f5-a286-1d1bac378273"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "南",
+            "ruby": "みなみ"
+          },
+          {
+            "base": "アメリカ"
+          }
+        ]
+      },
+      "kana_reading": "みなみアメリカ",
+      "meanings": {
+        "en": "South America",
+        "vi": "Nam Mỹ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "88b6f88b-88da-4469-a59c-e1c08cb1cc9d"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "北",
+            "ruby": "きた"
+          }
+        ]
+      },
+      "kana_reading": "きた",
+      "meanings": {
+        "en": "north",
+        "vi": "phía bắc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "83a68e3c-36e0-4a10-afaa-40ea7876aa76"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "北",
+            "ruby": "きた"
+          },
+          {
+            "base": "アメリカ"
+          }
+        ]
+      },
+      "kana_reading": "きたアメリカ",
+      "meanings": {
+        "en": "North America",
+        "vi": "Bắc Mỹ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "1987bd21-b161-47b9-86a1-d0294bd201cb"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "北海道",
+            "ruby": "ほっかいどう"
+          }
+        ]
+      },
+      "kana_reading": "ほっかいどう",
+      "meanings": {
+        "en": "Hokkaido",
+        "vi": "Hokkaido"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "d6b2f390-8d8e-4e83-b2e5-b0dc09d7cc35"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "京都",
+            "ruby": "きょうと"
+          }
+        ]
+      },
+      "kana_reading": "きょうと",
+      "meanings": {
+        "en": "Kyoto",
+        "vi": "Kyoto"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "7f9c6ebf-2380-4110-9e19-02aa8dc3628c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "夜",
+            "ruby": "よる"
+          }
+        ]
+      },
+      "kana_reading": "よる",
+      "meanings": {
+        "en": "night",
+        "vi": "đêm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "f98d6e4a-3717-4c20-86ff-634b36a7db4f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "料理",
+            "ruby": "りょうり"
+          }
+        ]
+      },
+      "kana_reading": "りょうり",
+      "meanings": {
+        "en": "cooking; cuisine; dish",
+        "vi": "nấu ăn; món ăn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "7051935a-0518-4419-8fbf-f3b458b07b9b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "口",
+            "ruby": "くち"
+          }
+        ]
+      },
+      "kana_reading": "くち",
+      "meanings": {
+        "en": "mouth",
+        "vi": "miệng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "63f125c4-71e3-4ac5-8761-3ac74b1cc666"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "目",
+            "ruby": "め"
+          }
+        ]
+      },
+      "kana_reading": "め",
+      "meanings": {
+        "en": "eye",
+        "vi": "mắt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 204,
+          "pdf_page_end": 204,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "073d0c62-ec5f-4a34-b3fc-258b6e026668"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "足",
+            "ruby": "あし"
+          }
+        ]
+      },
+      "kana_reading": "あし",
+      "meanings": {
+        "en": "foot; leg",
+        "vi": "chân"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 204,
+          "pdf_page_end": 204,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "7ebbc0a3-e297-46ed-b28b-7d200df3685d"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "足",
+            "ruby": "た"
+          },
+          {
+            "base": "ります"
+          }
+        ]
+      },
+      "kana_reading": "たります",
+      "meanings": {
+        "en": "be enough",
+        "vi": "đủ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 204,
+          "pdf_page_end": 204,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "f9f9c16c-aa18-4f8b-8217-495c31c18901"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "中国料理",
+            "ruby": "ちゅうごくりょうり"
+          }
+        ]
+      },
+      "kana_reading": "ちゅうごくりょうり",
+      "meanings": {
+        "en": "Chinese cuisine",
+        "vi": "món ăn Trung Hoa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 110,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "9d56b8fc-d4fc-4aab-b13d-89c660edeaa6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "左",
+            "ruby": "ひだり"
+          },
+          {
+            "base": "の"
+          },
+          {
+            "base": "目",
+            "ruby": "め"
+          }
+        ]
+      },
+      "kana_reading": "ひだりのめ",
+      "meanings": {
+        "en": "left eye",
+        "vi": "mắt trái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 110,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "697404ca-74cf-4c35-8740-2d3562871ff2"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "右",
+            "ruby": "みぎ"
+          },
+          {
+            "base": "の"
+          },
+          {
+            "base": "目",
+            "ruby": "め"
+          }
+        ]
+      },
+      "kana_reading": "みぎのめ",
+      "meanings": {
+        "en": "right eye",
+        "vi": "mắt phải"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 110,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "d51cabf8-ee52-4b88-8a55-00d9bd720fa2"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "何曜日",
+            "ruby": "なんようび"
+          }
+        ]
+      },
+      "kana_reading": "なんようび",
+      "meanings": {
+        "en": "what day of the week",
+        "vi": "thứ mấy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 110,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "6261950b-3417-4055-bfc5-6a49f8784a62"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "入",
+            "ruby": "い"
+          },
+          {
+            "base": "れます"
+          }
+        ]
+      },
+      "kana_reading": "いれます",
+      "meanings": {
+        "en": "put in",
+        "vi": "cho vào"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 199,
+          "pdf_page_end": 199,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "b5593b2c-9be4-4eff-9e06-1bf4785c10f0"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "下",
+            "ruby": "お"
+          },
+          {
+            "base": "ろします"
+          }
+        ]
+      },
+      "kana_reading": "おろします",
+      "meanings": {
+        "en": "lower; unload",
+        "vi": "hạ xuống; dỡ xuống"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 192,
+          "pdf_page_end": 192,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "2a77e378-b133-4f68-840c-a6a0e5300d3c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "出",
+            "ruby": "だ"
+          },
+          {
+            "base": "します"
+          }
+        ]
+      },
+      "kana_reading": "だします",
+      "meanings": {
+        "en": "take out; submit",
+        "vi": "đưa ra; nộp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 199,
+          "pdf_page_end": 199,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "d79e53f3-80c3-48a7-98c2-cb08ad0c5a5c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "日",
+            "ruby": "ひ"
+          }
+        ]
+      },
+      "kana_reading": "ひ",
+      "meanings": {
+        "en": "day; sun",
+        "vi": "ngày; mặt trời"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "ff97ff52-1d97-4004-a67e-6df3774ce918"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "土曜日",
+            "ruby": "どようび"
+          }
+        ]
+      },
+      "kana_reading": "どようび",
+      "meanings": {
+        "en": "Saturday",
+        "vi": "thứ Bảy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "1a6bb7f9-2b71-4eda-8cd9-a7b801837586"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "日曜日",
+            "ruby": "にちようび"
+          }
+        ]
+      },
+      "kana_reading": "にちようび",
+      "meanings": {
+        "en": "Sunday",
+        "vi": "Chủ nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "25706f43-ac0b-4786-8428-7c3b1b386cab"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "金曜日",
+            "ruby": "きんようび"
+          }
+        ]
+      },
+      "kana_reading": "きんようび",
+      "meanings": {
+        "en": "Friday",
+        "vi": "thứ Sáu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "55c934a7-785b-452f-874b-3d1505d5eb48"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "中国",
+            "ruby": "ちゅうごく"
+          }
+        ]
+      },
+      "kana_reading": "ちゅうごく",
+      "meanings": {
+        "en": "China",
+        "vi": "Trung Quốc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 186,
+          "pdf_page_end": 186,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "3f08ed09-ac3b-4ccc-a7b5-0ccd97c6652c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "国",
+            "ruby": "くに"
+          }
+        ]
+      },
+      "kana_reading": "くに",
+      "meanings": {
+        "en": "country",
+        "vi": "đất nước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 186,
+          "pdf_page_end": 186,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "8f6cfde8-bb27-45ba-8094-caea8b0b550d"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "銀行",
+            "ruby": "ぎんこう"
+          }
+        ]
+      },
+      "kana_reading": "ぎんこう",
+      "meanings": {
+        "en": "bank",
+        "vi": "ngân hàng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "8408106b-3f1d-4c8d-950c-40a6e3bea867"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "金",
+            "ruby": "かね"
+          }
+        ]
+      },
+      "kana_reading": "おかね",
+      "meanings": {
+        "en": "money",
+        "vi": "tiền"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "18f055d8-6d8b-4adf-a33a-90bc59d6565c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "手",
+            "ruby": "て"
+          }
+        ]
+      },
+      "kana_reading": "て",
+      "meanings": {
+        "en": "hand",
+        "vi": "tay"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 193,
+          "pdf_page_end": 193,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "8a5f8009-c41d-47f0-8d9a-2386be8215de"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "休",
+            "ruby": "やす"
+          },
+          {
+            "base": "み"
+          }
+        ]
+      },
+      "kana_reading": "やすみ",
+      "meanings": {
+        "en": "rest; holiday",
+        "vi": "nghỉ ngơi; ngày nghỉ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 108,
+          "pdf_page_end": 108,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "0eba414b-d15d-4cf1-acf7-78a62f1cbde5"
+    },
+    {
+      "id": "dddbad1b-b730-4dc2-9515-ebbeb40fc807",
+      "japanese": {
+        "segments": [
+          {
+            "base": "山田",
+            "ruby": "やまだ"
+          }
+        ]
+      },
+      "kana_reading": "やまだ",
+      "meanings": {
+        "en": "Yamada, a Japanese surname",
+        "vi": "họ Yamada của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "aa0264ee-5d18-4389-a512-137d5445e416",
+      "japanese": {
+        "segments": [
+          {
+            "base": "川田",
+            "ruby": "かわだ"
+          }
+        ]
+      },
+      "kana_reading": "かわだ",
+      "meanings": {
+        "en": "Kawada, a Japanese surname",
+        "vi": "họ Kawada của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "89831c50-5c81-4537-8bf4-9c2902d8a6c6",
+      "japanese": {
+        "segments": [
+          {
+            "base": "本田",
+            "ruby": "ほんだ"
+          }
+        ]
+      },
+      "kana_reading": "ほんだ",
+      "meanings": {
+        "en": "Honda, a Japanese surname",
+        "vi": "họ Honda của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c09b9307-87b0-4056-80b4-ec84f1bab54e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "中田",
+            "ruby": "なかだ"
+          }
+        ]
+      },
+      "kana_reading": "なかだ",
+      "meanings": {
+        "en": "Nakada, a Japanese surname",
+        "vi": "họ Nakada của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b25ca49d-c47e-40da-909a-e500bc5cbf45",
+      "japanese": {
+        "segments": [
+          {
+            "base": "前田",
+            "ruby": "まえだ"
+          }
+        ]
+      },
+      "kana_reading": "まえだ",
+      "meanings": {
+        "en": "Maeda, a Japanese surname",
+        "vi": "họ Maeda của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c4df4d2c-0c7b-4668-af3e-2673d6c0c838",
+      "japanese": {
+        "segments": [
+          {
+            "base": "上田",
+            "ruby": "うえだ"
+          }
+        ]
+      },
+      "kana_reading": "うえだ",
+      "meanings": {
+        "en": "Ueda, a Japanese surname",
+        "vi": "họ Ueda của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "fb1a848a-7e43-452a-b70e-3f106d22ac97",
+      "japanese": {
+        "segments": [
+          {
+            "base": "田中",
+            "ruby": "たなか"
+          }
+        ]
+      },
+      "kana_reading": "たなか",
+      "meanings": {
+        "en": "Tanaka, a Japanese surname",
+        "vi": "họ Tanaka của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d5585568-8b3a-4c40-8367-b9d188b5efcb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "田川",
+            "ruby": "たがわ"
+          }
+        ]
+      },
+      "kana_reading": "たがわ",
+      "meanings": {
+        "en": "Tagawa, a Japanese surname",
+        "vi": "họ Tagawa của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0c664ea9-a173-421a-b539-040cad9b3b0c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "田山",
+            "ruby": "たやま"
+          }
+        ]
+      },
+      "kana_reading": "たやま",
+      "meanings": {
+        "en": "Tayama, a Japanese surname",
+        "vi": "họ Tayama của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "09b69be5-3fba-4c84-aff0-22412f39d62f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "山川",
+            "ruby": "やまかわ"
+          }
+        ]
+      },
+      "kana_reading": "やまかわ",
+      "meanings": {
+        "en": "Yamakawa, a Japanese surname",
+        "vi": "họ Yamakawa của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "30eff257-f0e2-4454-b76a-cd7f5cf8e56f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "山下",
+            "ruby": "やました"
+          }
+        ]
+      },
+      "kana_reading": "やました",
+      "meanings": {
+        "en": "Yamashita, a Japanese surname",
+        "vi": "họ Yamashita của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "74eafb2d-2a95-4a12-aa7f-ca1e3c6aca41",
+      "japanese": {
+        "segments": [
+          {
+            "base": "山西",
+            "ruby": "やまにし"
+          }
+        ]
+      },
+      "kana_reading": "やまにし",
+      "meanings": {
+        "en": "Yamanishi, a Japanese surname",
+        "vi": "họ Yamanishi của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "77b188a6-18bc-4d10-aa19-6f447a904ec2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "中山",
+            "ruby": "なかやま"
+          }
+        ]
+      },
+      "kana_reading": "なかやま",
+      "meanings": {
+        "en": "Nakayama, a Japanese surname",
+        "vi": "họ Nakayama của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "90f64adb-bd00-4313-a7e8-53101a6e5165",
+      "japanese": {
+        "segments": [
+          {
+            "base": "西山",
+            "ruby": "にしやま"
+          }
+        ]
+      },
+      "kana_reading": "にしやま",
+      "meanings": {
+        "en": "Nishiyama, a Japanese surname",
+        "vi": "họ Nishiyama của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "86b7b23a-ecb5-44bb-be90-0edc911e763e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "中川",
+            "ruby": "なかがわ"
+          }
+        ]
+      },
+      "kana_reading": "なかがわ",
+      "meanings": {
+        "en": "Nakagawa, a Japanese surname",
+        "vi": "họ Nakagawa của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "fb002117-c651-4d75-9024-d199aa721737",
+      "japanese": {
+        "segments": [
+          {
+            "base": "北川",
+            "ruby": "きたがわ"
+          }
+        ]
+      },
+      "kana_reading": "きたがわ",
+      "meanings": {
+        "en": "Kitagawa, a Japanese surname",
+        "vi": "họ Kitagawa của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "cae92ec4-51ee-4b1b-ba67-8c3a62f6cf34",
+      "japanese": {
+        "segments": [
+          {
+            "base": "西川",
+            "ruby": "にしかわ"
+          }
+        ]
+      },
+      "kana_reading": "にしかわ",
+      "meanings": {
+        "en": "Nishikawa, a Japanese surname",
+        "vi": "họ Nishikawa của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 20,
+    "reference_volume": "Elementary I",
+    "evidence": {
+      "source_id": "N5_KANJI",
+      "pdf_pages": [
+        6,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 16,
+    "end": 20,
+    "may_include_earlier_material": true
+  },
+  "relationship": "group_scope_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N5_KANJI",
+      "pdf_page_start": 108,
+      "pdf_page_end": 111,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

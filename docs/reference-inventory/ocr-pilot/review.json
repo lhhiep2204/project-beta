@@ -1,0 +1,767 @@
+{
+  "purpose": "Development-time extraction experiment; source transcription, not independently authored release content.",
+  "scope": {
+    "lessons": [
+      1,
+      26
+    ],
+    "whole_pages": 28,
+    "grammar_pages_per_lesson": 6,
+    "main_pages_per_lesson": 8,
+    "language_regions": 8,
+    "fixed_vocabulary_spot_checks": 32,
+    "additional_critical_spot_checks": 8
+  },
+  "engine": {
+    "name": "Apple Vision VNRecognizeTextRequest",
+    "revision": 3,
+    "whole_page_languages": [
+      "ja-JP",
+      "vi-VT",
+      "en-US"
+    ],
+    "region_languages": [
+      "ja-JP",
+      "vi-VT"
+    ],
+    "language_token_note": "vi-VT is the token returned by supportedRecognitionLanguages in this installed runtime; it is not an application locale choice.",
+    "language_correction": false,
+    "render_scale": 2.5,
+    "render_dpi": 180,
+    "bounding_box_coordinates": "Normalized bottom-left coordinates within each image. Region manifests use normalized top-left coordinates in the full rendered page."
+  },
+  "method": "Expected fragments were checked visually against the four source page images. Recovery means an expected fragment occurs contiguously in a recognized line after NFKC and whitespace removal; accents and Kanji remain significant. Fixed purposive spot checks include both controls and observed failures. Counts are not character error rate, statistical estimates or whole-corpus accuracy. No independent linguistic review occurred.",
+  "counts": [
+    {
+      "stage": "whole_page",
+      "level": "N5",
+      "language": "ja",
+      "recovered": 8,
+      "checked": 8
+    },
+    {
+      "stage": "whole_page",
+      "level": "N5",
+      "language": "vi",
+      "recovered": 0,
+      "checked": 8
+    },
+    {
+      "stage": "whole_page",
+      "level": "N4",
+      "language": "ja",
+      "recovered": 8,
+      "checked": 8
+    },
+    {
+      "stage": "whole_page",
+      "level": "N4",
+      "language": "vi",
+      "recovered": 0,
+      "checked": 8
+    },
+    {
+      "stage": "language_region",
+      "level": "N5",
+      "language": "ja",
+      "recovered": 3,
+      "checked": 8
+    },
+    {
+      "stage": "language_region",
+      "level": "N5",
+      "language": "vi",
+      "recovered": 8,
+      "checked": 8
+    },
+    {
+      "stage": "language_region",
+      "level": "N4",
+      "language": "ja",
+      "recovered": 8,
+      "checked": 8
+    },
+    {
+      "stage": "language_region",
+      "level": "N4",
+      "language": "vi",
+      "recovered": 7,
+      "checked": 8
+    }
+  ],
+  "checks": [
+    {
+      "id": "OCR-01",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "先生",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "先生"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "あの人"
+      }
+    },
+    {
+      "id": "OCR-02",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "教師",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "教師"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "あの人"
+      }
+    },
+    {
+      "id": "OCR-03",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "学生",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "学生"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "あの人"
+      }
+    },
+    {
+      "id": "OCR-04",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "会社員",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "会社員"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "銀行員"
+      }
+    },
+    {
+      "id": "OCR-05",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "銀行員",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "銀行員"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "銀行員"
+      }
+    },
+    {
+      "id": "OCR-06",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "医者",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "医者"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "医者"
+      }
+    },
+    {
+      "id": "OCR-07",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "研究者",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "研究者"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "研究者"
+      }
+    },
+    {
+      "id": "OCR-08",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "大学",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "大学"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "あの人"
+      }
+    },
+    {
+      "id": "OCR-09",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "nhân viên công ty",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "nhan vien cong ty"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "nhân viên công ty"
+      }
+    },
+    {
+      "id": "OCR-10",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "nhân viên ngân hàng",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "nhan vien ngan hang"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "nhân viên ngân hàng"
+      }
+    },
+    {
+      "id": "OCR-11",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "bác sĩ",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "bac si"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "bác sĩ"
+      }
+    },
+    {
+      "id": "OCR-12",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "nhà nghiên cứu",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "nha nghien ciu"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "nhà nghiên cứu"
+      }
+    },
+    {
+      "id": "OCR-13",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "đại học, trường đại học",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "dai hoc, trrong dai hoc"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "đại học, trường đại học"
+      }
+    },
+    {
+      "id": "OCR-14",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "bệnh viện",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "benh vien"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "bệnh viện"
+      }
+    },
+    {
+      "id": "OCR-15",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "vâng, dạ",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "vang, da"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "vâng, dạ"
+      }
+    },
+    {
+      "id": "OCR-16",
+      "kind": "vocabulary_fragment",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 10,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "không",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "khong"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "thầy/cô (không dùng khi giới thiệu về nghề giáo"
+      }
+    },
+    {
+      "id": "OCR-17",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "見ます、診ます",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "見ます、診ます"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "見ます、診ます"
+      }
+    },
+    {
+      "id": "OCR-18",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "探します、捜します",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "探します、捜します"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "探します、捜します"
+      }
+    },
+    {
+      "id": "OCR-19",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "間に合います",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "間に合います"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "間に合います"
+      }
+    },
+    {
+      "id": "OCR-20",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "拾います",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "拾います"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "拾います"
+      }
+    },
+    {
+      "id": "OCR-21",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "連絡します",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "連絡します"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "連絡します"
+      }
+    },
+    {
+      "id": "OCR-22",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "気分が悪い",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "気分が悪い"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "気分が悪い"
+      }
+    },
+    {
+      "id": "OCR-23",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "国会議事堂",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "国会議事堂"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "国会議事堂"
+      }
+    },
+    {
+      "id": "OCR-24",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "平日",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "平日"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "平日"
+      }
+    },
+    {
+      "id": "OCR-25",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "kiểm tra, khám bệnh",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "kiem tra, kham benh"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "kiểm tra, khám bệnh"
+      }
+    },
+    {
+      "id": "OCR-26",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "tìm, tìm kiếm",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "tim, tim kiem"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "tìm, tìm kiếm"
+      }
+    },
+    {
+      "id": "OCR-27",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "nhặt, lượm",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "nhat, luom"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "nhặt, lượm"
+      }
+    },
+    {
+      "id": "OCR-28",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "liên lạc",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "hien lac"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "liên lạc"
+      }
+    },
+    {
+      "id": "OCR-29",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "địa điểm, nơi",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "dia diem, noi"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "địa điểm, nơi"
+      }
+    },
+    {
+      "id": "OCR-30",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "tòa nhà quốc hội",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "toa nha qudc hoi"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "tòa nhà quồc hội"
+      }
+    },
+    {
+      "id": "OCR-31",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "ngày thường",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "ngay thurong"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "ngày thường"
+      }
+    },
+    {
+      "id": "OCR-32",
+      "kind": "vocabulary_fragment",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "printed_page": 8,
+      "language": "vi",
+      "reference_fragment_verified_from_image": "trực tiếp",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "truc tiep"
+      },
+      "language_region": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "trực tiếp"
+      }
+    },
+    {
+      "id": "OCR-33",
+      "kind": "critical_japanese_fragment_or_annotation",
+      "source_id": "N5_MAIN",
+      "pdf_page": 22,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "銀行員",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "会社員ですか。"
+      },
+      "observed_fragment_reviewed": "醸料賞",
+      "finding": "Kanji substitution in a word with furigana.",
+      "language_region": null
+    },
+    {
+      "id": "OCR-34",
+      "kind": "critical_japanese_fragment_or_annotation",
+      "source_id": "N5_MAIN",
+      "pdf_page": 22,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "さくら大学",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "…・ワットさんです。さくら笑学の発です。"
+      },
+      "observed_fragment_reviewed": "さくら笑学",
+      "finding": "Kanji substitution in a proper name.",
+      "language_region": null
+    },
+    {
+      "id": "OCR-35",
+      "kind": "critical_japanese_fragment_or_annotation",
+      "source_id": "N4_MAIN",
+      "pdf_page": 22,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "生け花",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "生け袋を簪いたいんですが、いい発を紹介して"
+      },
+      "observed_fragment_reviewed": "生け袋",
+      "finding": "Kanji substitution changes the study example.",
+      "language_region": null
+    },
+    {
+      "id": "OCR-36",
+      "kind": "critical_japanese_fragment_or_annotation",
+      "source_id": "N4_MAIN",
+      "pdf_page": 22,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "習いたい",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "いただけませんか。"
+      },
+      "observed_fragment_reviewed": "簪いたい",
+      "finding": "Kanji substitution changes the verb.",
+      "language_region": null
+    },
+    {
+      "id": "OCR-37",
+      "kind": "critical_japanese_fragment_or_annotation",
+      "source_id": "N4_MAIN",
+      "pdf_page": 22,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "先生",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "生け袋を簪いたいんですが、いい発を紹介して"
+      },
+      "observed_fragment_reviewed": "発",
+      "finding": "Kanji/reading separation loses the original word.",
+      "language_region": null
+    },
+    {
+      "id": "OCR-38",
+      "kind": "critical_japanese_fragment_or_annotation",
+      "source_id": "N4_MAIN",
+      "pdf_page": 22,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "紹介して",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": true,
+        "observed_line": "生け袋を簪いたいんですが、いい発を紹介して"
+      },
+      "observed_fragment_reviewed": "紹介して",
+      "finding": "Control: this phrase is recovered in the whole-page pass.",
+      "language_region": null
+    },
+    {
+      "id": "OCR-39",
+      "kind": "critical_japanese_fragment_or_annotation",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "みますⅡ",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "みますI"
+      },
+      "observed_fragment_reviewed": "みますI",
+      "finding": "Verb group II misread as group I; compare the printed Roman numeral.",
+      "language_region": null
+    },
+    {
+      "id": "OCR-40",
+      "kind": "critical_japanese_fragment_or_annotation",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "language": "ja",
+      "reference_fragment_verified_from_image": "れんらくしますⅢ",
+      "whole_page": {
+        "exact_normalized_fragment_recovered": false,
+        "observed_line": "れんらくします皿"
+      },
+      "observed_fragment_reviewed": "れんらくします皿",
+      "finding": "Verb group III misread as a Kanji glyph.",
+      "language_region": null
+    }
+  ],
+  "structural_findings": [
+    "Whole-page output does not preserve vocabulary rows as kana/Kanji/meaning records.",
+    "Ruby text is separate OCR lines; no verified Kanji-to-furigana association is produced.",
+    "Vietnamese-only columns recover most sampled accents, but mixed Japanese notes in those columns become garbage.",
+    "Japanese-only crops do not consistently improve recall; several N5 Kanji fields disappear.",
+    "Verb-group numerals, optional forms, brackets, asterisks and suffix markers require explicit validation."
+  ],
+  "bulk_extraction_decision": "Do not ingest raw OCR into learning content. Use page/region provenance, preserve raw output, review Japanese and annotations against images, and independently author release explanations/examples/translations.",
+  "recommended_next_step": "Prepare one reviewed structured authoring sample for lesson 1 and one for lesson 26; define word/variant/reading/example relationships before batch extraction."
+}

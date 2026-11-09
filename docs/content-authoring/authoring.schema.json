@@ -1,0 +1,869 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:projectbeta:editorial-lesson-sample:0.1-draft",
+  "title": "ProjectBeta editorial lesson sample, draft 0.1",
+  "description": "Development-time editorial lesson drafts. This is not the app runtime package, persistence schema, migration policy or approved public module contract.",
+  "type": "object",
+  "properties": {
+    "format_version": {
+      "type": "string",
+      "const": "0.1-draft"
+    },
+    "artifact_type": {
+      "type": "string",
+      "const": "editorial_lesson_sample"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "format": "uuid"
+    },
+    "editorial_key": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "reference_lesson_number": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source_level_label": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "N5",
+        "N4"
+      ]
+    },
+    "title": {
+      "$ref": "#/$defs/bilingual"
+    },
+    "language_coverage": {
+      "type": "object",
+      "properties": {
+        "authored": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "required_for_release": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "missing_for_release": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "authored",
+        "required_for_release",
+        "missing_for_release"
+      ],
+      "additionalProperties": false
+    },
+    "review_state": {
+      "type": "object",
+      "properties": {
+        "primary_source_comparison": {
+          "type": "string",
+          "const": "completed_for_listed_forms_and_grammar_topics"
+        },
+        "independent_japanese_review": {
+          "type": "string",
+          "const": "pending"
+        },
+        "translation_review": {
+          "type": "string",
+          "const": "pending"
+        },
+        "release_status": {
+          "type": "string",
+          "const": "draft_not_for_release"
+        },
+        "runtime_format_adoption": {
+          "type": "string",
+          "const": "not_selected"
+        }
+      },
+      "required": [
+        "primary_source_comparison",
+        "independent_japanese_review",
+        "translation_review",
+        "release_status",
+        "runtime_format_adoption"
+      ],
+      "additionalProperties": false
+    },
+    "coverage": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "representative_sample_not_full_corpus",
+            "authored_lesson_reference_topics_complete"
+          ]
+        },
+        "included": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "omitted": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "status",
+        "included",
+        "omitted"
+      ],
+      "additionalProperties": false
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourceRef"
+      },
+      "minItems": 1
+    },
+    "kanji_reference_units": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^REF_KANJI_UNIT_[0-9]{2}$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "vocabulary": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/vocabulary"
+      },
+      "minItems": 1
+    },
+    "grammar_points": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/grammar"
+      },
+      "minItems": 1
+    },
+    "sentence_patterns": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/pattern"
+      },
+      "minItems": 1
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/example"
+      },
+      "minItems": 1
+    },
+    "dialogues": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dialogue"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "format_version",
+    "artifact_type",
+    "id",
+    "editorial_key",
+    "reference_lesson_number",
+    "source_level_label",
+    "title",
+    "language_coverage",
+    "review_state",
+    "coverage",
+    "source_refs",
+    "kanji_reference_units",
+    "vocabulary",
+    "grammar_points",
+    "sentence_patterns",
+    "examples",
+    "dialogues"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "bilingual": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 0
+        },
+        "vi": {
+          "type": "string",
+          "minLength": 0
+        }
+      },
+      "required": [
+        "en",
+        "vi"
+      ],
+      "additionalProperties": false
+    },
+    "segment": {
+      "type": "object",
+      "properties": {
+        "base": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ruby": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[ぁ-ゖァ-ヺーゔゕゖ]+$",
+          "description": "Contextual kana reading for a Kanji-bearing segment or a source-written uppercase Latin abbreviation such as CD, ATM or JR. This is editorial reading metadata; runtime display policy is not selected."
+        }
+      },
+      "required": [
+        "base"
+      ],
+      "additionalProperties": false
+    },
+    "japanese": {
+      "type": "object",
+      "properties": {
+        "segments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/segment"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "segments"
+      ],
+      "additionalProperties": false
+    },
+    "sourceRef": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "N5_MAIN",
+            "N5_GRAMMAR",
+            "N5_KANJI",
+            "N4_MAIN",
+            "N4_GRAMMAR",
+            "N4_KANJI"
+          ]
+        },
+        "pdf_page_start": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pdf_page_end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "basis": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "lexical_form_and_reading",
+            "grammar_knowledge_alignment",
+            "dialogue_skill_alignment",
+            "lesson_topic_alignment",
+            "lexical_and_grammar_alignment"
+          ]
+        }
+      },
+      "required": [
+        "source_id",
+        "pdf_page_start",
+        "pdf_page_end",
+        "basis"
+      ],
+      "additionalProperties": false
+    },
+    "form": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "japanese": {
+          "$ref": "#/$defs/japanese"
+        },
+        "kana_reading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "register": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "neutral",
+            "polite",
+            "honorific",
+            "humble",
+            "formal",
+            "informal",
+            "plain",
+            "familiar"
+          ]
+        }
+      },
+      "required": [
+        "key",
+        "japanese",
+        "kana_reading",
+        "register"
+      ],
+      "additionalProperties": false
+    },
+    "meaning": {
+      "type": "object",
+      "properties": {
+        "form_keys": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "text": {
+          "$ref": "#/$defs/bilingual"
+        }
+      },
+      "required": [
+        "form_keys",
+        "text"
+      ],
+      "additionalProperties": false
+    },
+    "dictionaryForm": {
+      "type": "object",
+      "properties": {
+        "form_key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "japanese": {
+          "$ref": "#/$defs/japanese"
+        },
+        "kana_reading": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "form_key",
+        "japanese",
+        "kana_reading"
+      ],
+      "additionalProperties": false
+    },
+    "vocabulary": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uuid"
+        },
+        "editorial_key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "entry_type": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "noun",
+            "pronoun",
+            "suffix",
+            "question_word",
+            "response",
+            "expression",
+            "place_name",
+            "verb",
+            "i_adjective",
+            "adverb",
+            "determiner",
+            "na_adjective",
+            "conjunction",
+            "counter",
+            "prefix"
+          ]
+        },
+        "forms": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/form"
+          },
+          "minItems": 1
+        },
+        "meanings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/meaning"
+          },
+          "minItems": 1
+        },
+        "usage": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "search_aliases": {
+          "type": "object",
+          "properties": {
+            "romaji": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[a-z][a-z '-]*$"
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "romaji"
+          ],
+          "additionalProperties": false
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          },
+          "minItems": 1
+        },
+        "origin": {
+          "type": "string",
+          "const": "source_aligned_lexical_item"
+        },
+        "verb_group": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "I",
+            "II",
+            "III"
+          ]
+        },
+        "dictionary_forms": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/dictionaryForm"
+          },
+          "minItems": 1
+        },
+        "dictionary_form_method": {
+          "type": "string",
+          "const": "editorial_conjugation_from_source_polite_form_primary_checked"
+        }
+      },
+      "required": [
+        "id",
+        "editorial_key",
+        "entry_type",
+        "forms",
+        "meanings",
+        "usage",
+        "search_aliases",
+        "source_refs",
+        "origin"
+      ],
+      "additionalProperties": false
+    },
+    "grammar": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uuid"
+        },
+        "editorial_key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "title": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "explanation": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "notes": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          },
+          "minItems": 1
+        },
+        "source_topic_group": {
+          "type": "string",
+          "minLength": 1
+        },
+        "origin": {
+          "type": "string",
+          "const": "independently_authored"
+        }
+      },
+      "required": [
+        "id",
+        "editorial_key",
+        "title",
+        "explanation",
+        "notes",
+        "source_refs",
+        "source_topic_group",
+        "origin"
+      ],
+      "additionalProperties": false
+    },
+    "slot": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "noun",
+            "noun_or_question_word",
+            "person_name",
+            "plain_clause_with_na_link",
+            "clause",
+            "verb_te_form",
+            "phrase",
+            "verb_tara_form",
+            "verb_dictionary_form",
+            "verb_nai_form",
+            "verb_ta_form",
+            "verb_masu_stem",
+            "verb_conditional_form",
+            "verb_volitional_form",
+            "adjective",
+            "na_adjective_stem"
+          ]
+        },
+        "label": {
+          "$ref": "#/$defs/bilingual"
+        }
+      },
+      "required": [
+        "key",
+        "kind",
+        "label"
+      ],
+      "additionalProperties": false
+    },
+    "piece": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "literal",
+            "slot"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "kind",
+        "value"
+      ],
+      "additionalProperties": false
+    },
+    "template": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "pieces": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/piece"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "key",
+        "pieces"
+      ],
+      "additionalProperties": false
+    },
+    "pattern": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uuid"
+        },
+        "editorial_key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "grammar_point_id": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uuid"
+        },
+        "slots": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/slot"
+          },
+          "minItems": 1
+        },
+        "origin": {
+          "type": "string",
+          "const": "independently_authored"
+        },
+        "templates": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/template"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "editorial_key",
+        "grammar_point_id",
+        "slots",
+        "origin",
+        "templates"
+      ],
+      "additionalProperties": false
+    },
+    "example": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uuid"
+        },
+        "editorial_key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "pattern_id": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uuid"
+        },
+        "grammar_point_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "format": "uuid"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "japanese": {
+          "$ref": "#/$defs/japanese"
+        },
+        "translation": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "context": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "origin": {
+          "type": "string",
+          "const": "independently_authored"
+        },
+        "pattern_variant_key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9_]*$"
+        }
+      },
+      "required": [
+        "id",
+        "editorial_key",
+        "pattern_id",
+        "grammar_point_ids",
+        "japanese",
+        "translation",
+        "origin",
+        "pattern_variant_key"
+      ],
+      "additionalProperties": false
+    },
+    "character": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "display_name": {
+          "$ref": "#/$defs/japanese"
+        },
+        "description": {
+          "$ref": "#/$defs/bilingual"
+        }
+      },
+      "required": [
+        "key",
+        "display_name",
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "turn": {
+      "type": "object",
+      "properties": {
+        "speaker_key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "japanese": {
+          "$ref": "#/$defs/japanese"
+        },
+        "translation": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "grammar_point_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "format": "uuid"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "speaker_key",
+        "japanese",
+        "translation",
+        "grammar_point_ids"
+      ],
+      "additionalProperties": false
+    },
+    "dialogue": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uuid"
+        },
+        "editorial_key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "title": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "scenario": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "characters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/character"
+          },
+          "minItems": 2
+        },
+        "turns": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/turn"
+          },
+          "minItems": 2
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          },
+          "minItems": 1
+        },
+        "origin": {
+          "type": "string",
+          "const": "independently_authored"
+        }
+      },
+      "required": [
+        "id",
+        "editorial_key",
+        "title",
+        "scenario",
+        "characters",
+        "turns",
+        "source_refs",
+        "origin"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

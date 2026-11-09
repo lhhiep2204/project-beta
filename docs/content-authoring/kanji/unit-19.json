@@ -1,0 +1,813 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "56ff8c7e-b8b3-4678-b3fe-fc2e5a7fc4d3",
+  "editorial_key": "kanji_unit_19",
+  "reference_unit_number": 19,
+  "source_level_label": "N5",
+  "title": {
+    "en": "Home and family",
+    "vi": "Nhà và gia đình"
+  },
+  "character_glyphs": [
+    "家",
+    "内",
+    "族",
+    "兄",
+    "弟",
+    "奥",
+    "姉",
+    "妹",
+    "海",
+    "計"
+  ],
+  "word_examples": [
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "家",
+            "ruby": "いえ"
+          }
+        ]
+      },
+      "kana_reading": "いえ",
+      "meanings": {
+        "en": "house; home",
+        "vi": "nhà"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "cf0e1c10-211a-4fb3-854e-822d82827365"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "家内",
+            "ruby": "かない"
+          }
+        ]
+      },
+      "kana_reading": "かない",
+      "meanings": {
+        "en": "my wife",
+        "vi": "vợ tôi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "f2d978d6-edb5-4d34-b550-d79b47f873d8"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "家族",
+            "ruby": "かぞく"
+          }
+        ]
+      },
+      "kana_reading": "かぞく",
+      "meanings": {
+        "en": "family",
+        "vi": "gia đình"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "47642ded-cef2-4d9c-b378-32d592787265"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "兄",
+            "ruby": "あに"
+          }
+        ]
+      },
+      "kana_reading": "あに",
+      "meanings": {
+        "en": "my older brother",
+        "vi": "anh trai tôi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "c02abf43-7932-4bc3-a2b3-df0f9c1bd452"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "兄",
+            "ruby": "にい"
+          },
+          {
+            "base": "さん"
+          }
+        ]
+      },
+      "kana_reading": "おにいさん",
+      "meanings": {
+        "en": "older brother (polite)",
+        "vi": "anh trai (lịch sự)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "e2ce4f62-cf2e-4da6-b979-2dafd5dbddda"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "兄弟",
+            "ruby": "きょうだい"
+          }
+        ]
+      },
+      "kana_reading": "きょうだい",
+      "meanings": {
+        "en": "siblings; brothers",
+        "vi": "anh chị em; anh em"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a5d84c6e-1f40-4736-b73f-cfb45f95e1e1"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "弟",
+            "ruby": "おとうと"
+          }
+        ]
+      },
+      "kana_reading": "おとうと",
+      "meanings": {
+        "en": "my younger brother",
+        "vi": "em trai tôi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "5d50f55a-e105-401a-9c56-568d808d1d6a"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "弟",
+            "ruby": "おとうと"
+          },
+          {
+            "base": "さん"
+          }
+        ]
+      },
+      "kana_reading": "おとうとさん",
+      "meanings": {
+        "en": "someone else's younger brother",
+        "vi": "em trai của người khác"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "439a4c7f-9d6d-462e-a6c9-3e1236ad9e65"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "奥",
+            "ruby": "おく"
+          },
+          {
+            "base": "さん"
+          }
+        ]
+      },
+      "kana_reading": "おくさん",
+      "meanings": {
+        "en": "wife (polite)",
+        "vi": "vợ (lịch sự)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "eb5d9b22-6542-45f7-9874-9ea63964ebc8"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "奥",
+            "ruby": "おく"
+          }
+        ]
+      },
+      "kana_reading": "おく",
+      "meanings": {
+        "en": "inner part; back",
+        "vi": "phía sâu bên trong"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "0f0c04a1-3ea1-4349-b5ad-2dd946c329ae"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "姉",
+            "ruby": "あね"
+          }
+        ]
+      },
+      "kana_reading": "あね",
+      "meanings": {
+        "en": "my older sister",
+        "vi": "chị gái tôi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "ba9f99e3-b55b-449f-9a45-37c62f7f1911"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "姉",
+            "ruby": "ねえ"
+          },
+          {
+            "base": "さん"
+          }
+        ]
+      },
+      "kana_reading": "おねえさん",
+      "meanings": {
+        "en": "older sister (polite)",
+        "vi": "chị gái (lịch sự)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "b2c8dbd0-c042-4daa-bfbe-914bd9553430"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "妹",
+            "ruby": "いもうと"
+          }
+        ]
+      },
+      "kana_reading": "いもうと",
+      "meanings": {
+        "en": "my younger sister",
+        "vi": "em gái tôi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "103559f3-f216-430e-bae7-88d01c63dd5b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "妹",
+            "ruby": "いもうと"
+          },
+          {
+            "base": "さん"
+          }
+        ]
+      },
+      "kana_reading": "いもうとさん",
+      "meanings": {
+        "en": "someone else's younger sister",
+        "vi": "em gái của người khác"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "40a3e10f-27b5-41a0-873d-a7030c1a7641"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "海",
+            "ruby": "うみ"
+          }
+        ]
+      },
+      "kana_reading": "うみ",
+      "meanings": {
+        "en": "sea",
+        "vi": "biển"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "53d00d3c-652d-45e4-92c6-207afd0d4cba"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "計画",
+            "ruby": "けいかく"
+          }
+        ]
+      },
+      "kana_reading": "けいかく",
+      "meanings": {
+        "en": "plan",
+        "vi": "kế hoạch"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 209,
+          "pdf_page_end": 209,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "c5d39732-2a4c-442f-8227-e38c0f3da2b2"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "3人兄弟",
+            "ruby": "さんにんきょうだい"
+          }
+        ]
+      },
+      "kana_reading": "さんにんきょうだい",
+      "meanings": {
+        "en": "three siblings",
+        "vi": "ba anh chị em"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 129,
+          "pdf_page_end": 129,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "94f2f955-6781-4306-a7da-c2b3cac8ac28"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "時計",
+            "ruby": "とけい"
+          }
+        ]
+      },
+      "kana_reading": "とけい",
+      "meanings": {
+        "en": "clock; watch",
+        "vi": "đồng hồ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 188,
+          "pdf_page_end": 188,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "491197db-16d6-4f51-a21f-6f1ee40f8e07"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "音",
+            "ruby": "おと"
+          }
+        ]
+      },
+      "kana_reading": "おと",
+      "meanings": {
+        "en": "sound",
+        "vi": "âm thanh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 206,
+          "pdf_page_end": 206,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "6d06502c-5e54-4782-a1ea-6628714f9937"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "買",
+            "ruby": "か"
+          },
+          {
+            "base": "い"
+          },
+          {
+            "base": "物",
+            "ruby": "もの"
+          }
+        ]
+      },
+      "kana_reading": "かいもの",
+      "meanings": {
+        "en": "shopping",
+        "vi": "việc mua sắm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 194,
+          "pdf_page_end": 194,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "77161782-09b3-40f4-9a85-f2b47de73f71"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "買",
+            "ruby": "か"
+          },
+          {
+            "base": "い"
+          },
+          {
+            "base": "物",
+            "ruby": "もの"
+          },
+          {
+            "base": "します"
+          }
+        ]
+      },
+      "kana_reading": "かいものします",
+      "meanings": {
+        "en": "go shopping",
+        "vi": "đi mua sắm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 194,
+          "pdf_page_end": 194,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "eb1e39a6-256f-4fc8-830f-47f65a4f7777"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "夏",
+            "ruby": "なつ"
+          }
+        ]
+      },
+      "kana_reading": "なつ",
+      "meanings": {
+        "en": "summer",
+        "vi": "mùa hè"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 207,
+          "pdf_page_end": 207,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "de642076-5948-4bf5-a8fc-f6e54bc3bd55"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "古",
+            "ruby": "ふる"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "ふるい",
+      "meanings": {
+        "en": "old (of things)",
+        "vi": "cũ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 192,
+          "pdf_page_end": 192,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "14f32773-9af7-4b85-a546-f71c6fb0b9c2"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 24,
+    "reference_volume": "Elementary I",
+    "evidence": {
+      "source_id": "N5_KANJI",
+      "pdf_pages": [
+        6,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 24,
+    "end": 24,
+    "may_include_earlier_material": true
+  },
+  "relationship": "lesson_milestone_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N5_KANJI",
+      "pdf_page_start": 128,
+      "pdf_page_end": 131,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

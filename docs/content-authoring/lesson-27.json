@@ -1,0 +1,3470 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_lesson_sample",
+  "id": "b16b452c-177d-43c1-a5a4-f9d981b6d5e3",
+  "editorial_key": "lesson_27",
+  "reference_lesson_number": 27,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Ability and perception",
+    "vi": "Khả năng và điều nhìn thấy"
+  },
+  "language_coverage": {
+    "authored": [
+      "en",
+      "vi"
+    ],
+    "required_for_release": [
+      "ar",
+      "bn",
+      "zh-Hans",
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "he",
+      "hi",
+      "id",
+      "it",
+      "ko",
+      "pt",
+      "ru",
+      "es",
+      "th",
+      "tr",
+      "uk",
+      "vi"
+    ],
+    "missing_for_release": [
+      "ar",
+      "bn",
+      "zh-Hans",
+      "nl",
+      "fr",
+      "de",
+      "he",
+      "hi",
+      "id",
+      "it",
+      "ko",
+      "pt",
+      "ru",
+      "es",
+      "th",
+      "tr",
+      "uk"
+    ]
+  },
+  "review_state": {
+    "primary_source_comparison": "completed_for_listed_forms_and_grammar_topics",
+    "independent_japanese_review": "pending",
+    "translation_review": "pending",
+    "release_status": "draft_not_for_release",
+    "runtime_format_adoption": "not_selected"
+  },
+  "coverage": {
+    "status": "authored_lesson_reference_topics_complete",
+    "included": [
+      "All common vocabulary from the two vocabulary pages, including useful introductory/dialogue phrases",
+      "All grammar topic groups from the lesson grammar notes",
+      "Newly authored explanations, examples and dialogue in Japanese with Vietnamese/English translations",
+      "Contextual ruby and source lesson/unit links",
+      "Proper names on the two assigned vocabulary pages are in scope under B-U-59; retain source identity and contextual readings."
+    ],
+    "omitted": [
+      "Textbook dialogue wording, reading passages, exercises and answer keys",
+      "Other 17 approved release languages in this Vietnamese/English-first batch",
+      "Supplementary matrices or word lists outside the two assigned vocabulary pages, if any; not claimed in this two-page scope"
+    ]
+  },
+  "source_refs": [
+    {
+      "source_id": "N4_MAIN",
+      "pdf_page_start": 30,
+      "pdf_page_end": 37,
+      "basis": "lesson_topic_alignment"
+    },
+    {
+      "source_id": "N4_GRAMMAR",
+      "pdf_page_start": 35,
+      "pdf_page_end": 40,
+      "basis": "lexical_and_grammar_alignment"
+    }
+  ],
+  "kanji_reference_units": [
+    "REF_KANJI_UNIT_27"
+  ],
+  "vocabulary": [
+    {
+      "id": "427610b5-bde7-437b-93dd-f86a800a28f1",
+      "editorial_key": "word_1",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "飼います",
+                "ruby": "かいます"
+              }
+            ]
+          },
+          "kana_reading": "かいます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "keep an animal",
+            "vi": "nuôi động vật"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kaimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "飼う",
+                "ruby": "かう"
+              }
+            ]
+          },
+          "kana_reading": "かう"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "df7b4243-dcba-49e2-94cb-e6ab01eeb18d",
+      "editorial_key": "word_2",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "走ります",
+                "ruby": "はしります"
+              }
+            ]
+          },
+          "kana_reading": "はしります",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "run",
+            "vi": "chạy"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "hashirimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "走る",
+                "ruby": "はしる"
+              }
+            ]
+          },
+          "kana_reading": "はしる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "55c21d17-508b-4ed2-831f-eeac3fc7a1b9",
+      "editorial_key": "word_3",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "見えます",
+                "ruby": "みえます"
+              }
+            ]
+          },
+          "kana_reading": "みえます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "be visible",
+            "vi": "nhìn thấy"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "miemasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "II",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "見える",
+                "ruby": "みえる"
+              }
+            ]
+          },
+          "kana_reading": "みえる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "fd2a81be-ac42-4a96-a0ed-e6ecf0916920",
+      "editorial_key": "word_4",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "聞こえます",
+                "ruby": "きこえます"
+              }
+            ]
+          },
+          "kana_reading": "きこえます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "be audible",
+            "vi": "nghe thấy"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kikoemasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "II",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "聞こえる",
+                "ruby": "きこえる"
+              }
+            ]
+          },
+          "kana_reading": "きこえる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "ffad5d2e-00b4-4b07-bf93-dc32b91923b6",
+      "editorial_key": "word_5",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "できます"
+              }
+            ]
+          },
+          "kana_reading": "できます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "be completed",
+            "vi": "được hoàn thành"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "dekimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "II",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "できる"
+              }
+            ]
+          },
+          "kana_reading": "できる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "a94228a3-6e85-4cc7-9afd-9a4d9164eacb",
+      "editorial_key": "word_6",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "開きます",
+                "ruby": "ひらきます"
+              }
+            ]
+          },
+          "kana_reading": "ひらきます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "open a class",
+            "vi": "mở lớp"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "hirakimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "開く",
+                "ruby": "ひらく"
+              }
+            ]
+          },
+          "kana_reading": "ひらく"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "40a1ffd7-4517-4667-b325-2fa8acfa2e45",
+      "editorial_key": "word_7",
+      "entry_type": "na_adjective",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "心配",
+                "ruby": "しんぱい"
+              }
+            ]
+          },
+          "kana_reading": "しんぱい",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "worried",
+            "vi": "lo lắng"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "shinpai"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f6f266d1-a111-4b0c-97c4-d7440a80b068",
+      "editorial_key": "word_8",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ペット"
+              }
+            ]
+          },
+          "kana_reading": "ペット",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "pet",
+            "vi": "thú cưng"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "petto"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8e5f8783-b418-40d8-923c-24190902fb51",
+      "editorial_key": "word_9",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "鳥",
+                "ruby": "とり"
+              }
+            ]
+          },
+          "kana_reading": "とり",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "bird",
+            "vi": "chim"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "tori"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "91992d3c-8e77-4648-8d00-c7231138b31e",
+      "editorial_key": "word_10",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "声",
+                "ruby": "こえ"
+              }
+            ]
+          },
+          "kana_reading": "こえ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "voice",
+            "vi": "giọng nói"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "koe"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c12b169f-9246-456c-b69c-54d9fa99e6fc",
+      "editorial_key": "word_11",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "波",
+                "ruby": "なみ"
+              }
+            ]
+          },
+          "kana_reading": "なみ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "wave",
+            "vi": "sóng"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "nami"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3fee1d54-adfe-438e-a2d7-93f48cf7c6e2",
+      "editorial_key": "word_12",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "花火",
+                "ruby": "はなび"
+              }
+            ]
+          },
+          "kana_reading": "はなび",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "fireworks",
+            "vi": "pháo hoa"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "hanabi"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b2e6a325-193a-45f8-b592-caf8d1194d2a",
+      "editorial_key": "word_13",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "道具",
+                "ruby": "どうぐ"
+              }
+            ]
+          },
+          "kana_reading": "どうぐ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "tool",
+            "vi": "dụng cụ"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "dougu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8578c0a7-97fe-4cdf-9110-25fd086dc0c9",
+      "editorial_key": "word_14",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "クリーニング"
+              }
+            ]
+          },
+          "kana_reading": "クリーニング",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "dry cleaning",
+            "vi": "giặt khô"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kuriiningu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e983c05b-173f-4766-a9a3-68f8c58a21ba",
+      "editorial_key": "word_15",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "家",
+                "ruby": "いえ"
+              }
+            ]
+          },
+          "kana_reading": "いえ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "house",
+            "vi": "nhà"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "ie"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "284e74a0-1038-4f55-8e8c-9dea7f7e6db1",
+      "editorial_key": "word_16",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "マンション"
+              }
+            ]
+          },
+          "kana_reading": "マンション",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "apartment building",
+            "vi": "căn hộ chung cư"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "manshon"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8dbff1f5-e5c8-4830-a8fe-4724a5bb6a51",
+      "editorial_key": "word_17",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "キッチン"
+              }
+            ]
+          },
+          "kana_reading": "キッチン",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "kitchen",
+            "vi": "bếp"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kicchin"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "34d08f08-b670-43b5-998c-ad8a2e65ab5a",
+      "editorial_key": "word_18",
+      "entry_type": "suffix",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "～教室",
+                "ruby": "きょうしつ"
+              }
+            ]
+          },
+          "kana_reading": "きょうしつ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "class for ~",
+            "vi": "lớp học ~"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kyoushitsu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "932e85c8-d5a2-43d4-877f-8fc1d64cfb0a",
+      "editorial_key": "word_19",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "パーティールーム"
+              }
+            ]
+          },
+          "kana_reading": "パーティールーム",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "party room",
+            "vi": "phòng tiệc"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "paateiiruumu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4cdea134-e868-485d-9cc7-8ff87a474660",
+      "editorial_key": "word_20",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "方",
+                "ruby": "かた"
+              }
+            ]
+          },
+          "kana_reading": "かた",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "person (polite)",
+            "vi": "vị (cách nói lịch sự)"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kata"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7ac96859-5460-48a9-91fb-01c54a0f3b74",
+      "editorial_key": "word_21",
+      "entry_type": "suffix",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "～後",
+                "ruby": "ご"
+              }
+            ]
+          },
+          "kana_reading": "ご",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "after ~",
+            "vi": "sau ~"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "go"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7c17feea-84d2-4706-9f21-71874f9117e9",
+      "editorial_key": "word_22",
+      "entry_type": "expression",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "～しか"
+              }
+            ]
+          },
+          "kana_reading": "～しか",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "only ~ (with a negative)",
+            "vi": "chỉ ~ (dùng với phủ định)"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "shika"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a388d1d0-4000-4293-b79b-a70cb3fecbff",
+      "editorial_key": "word_23",
+      "entry_type": "determiner",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ほかの"
+              }
+            ]
+          },
+          "kana_reading": "ほかの",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "other",
+            "vi": "khác"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "hokano"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "72f8a436-9b70-4511-8afc-6c98b2d12734",
+      "editorial_key": "word_24",
+      "entry_type": "adverb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "はっきり"
+              }
+            ]
+          },
+          "kana_reading": "はっきり",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "clearly",
+            "vi": "rõ ràng"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "hakkiri"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "433d19aa-8940-41cf-813e-dd44f3613c19",
+      "editorial_key": "word_26",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "家具",
+                "ruby": "かぐ"
+              }
+            ]
+          },
+          "kana_reading": "かぐ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "furniture",
+            "vi": "đồ nội thất"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kagu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c786e5d8-ddc9-45c6-aca4-33005a48d3ab",
+      "editorial_key": "word_27",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "本棚",
+                "ruby": "ほんだな"
+              }
+            ]
+          },
+          "kana_reading": "ほんだな",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "bookshelf",
+            "vi": "giá sách"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "hondana"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "261a50cc-82be-437b-94a6-7005ee6b2701",
+      "editorial_key": "word_28",
+      "entry_type": "adverb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "いつか"
+              }
+            ]
+          },
+          "kana_reading": "いつか",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "someday",
+            "vi": "một ngày nào đó"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "itsuka"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "143bbcfe-bc51-401a-b11e-eeaa3dd5480a",
+      "editorial_key": "word_29",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "建てます",
+                "ruby": "たてます"
+              }
+            ]
+          },
+          "kana_reading": "たてます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "build",
+            "vi": "xây"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "tatemasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "II",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "建てる",
+                "ruby": "たてる"
+              }
+            ]
+          },
+          "kana_reading": "たてる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "f24b4bf9-c1a9-469d-857f-1c55693941b5",
+      "editorial_key": "word_30",
+      "entry_type": "i_adjective",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "すばらしい"
+              }
+            ]
+          },
+          "kana_reading": "すばらしい",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "wonderful",
+            "vi": "tuyệt vời"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "subarashii"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9cb6d4a4-2a1a-4198-91dd-97aadc4526eb",
+      "editorial_key": "word_31",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "子どもたち",
+                "ruby": "こどもたち"
+              }
+            ]
+          },
+          "kana_reading": "こどもたち",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "children",
+            "vi": "bọn trẻ"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kodomotachi"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a0a2b448-c278-4bd2-8b9c-df0008d548be",
+      "editorial_key": "word_32",
+      "entry_type": "na_adjective",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "大好き",
+                "ruby": "だいすき"
+              }
+            ]
+          },
+          "kana_reading": "だいすき",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "very fond of",
+            "vi": "rất thích"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "daisuki"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "874f655a-51e3-478a-b2e0-e269dbbb9e0a",
+      "editorial_key": "word_33",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "主人公",
+                "ruby": "しゅじんこう"
+              }
+            ]
+          },
+          "kana_reading": "しゅじんこう",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "main character",
+            "vi": "nhân vật chính"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "shujinkou"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d02faf9e-d59c-4244-92f1-43065f56ae26",
+      "editorial_key": "word_34",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "形",
+                "ruby": "かたち"
+              }
+            ]
+          },
+          "kana_reading": "かたち",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "shape",
+            "vi": "hình dạng"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "katachi"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "472b33ea-c6c1-4c90-9f2d-c1b2d4e4009a",
+      "editorial_key": "word_35",
+      "entry_type": "na_adjective",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "不思議",
+                "ruby": "ふしぎ"
+              }
+            ]
+          },
+          "kana_reading": "ふしぎ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "mysterious",
+            "vi": "kỳ lạ"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "fushigi"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7c111855-3808-4e2d-b900-5c13a42cbf1a",
+      "editorial_key": "word_36",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ポケット"
+              }
+            ]
+          },
+          "kana_reading": "ポケット",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "pocket",
+            "vi": "túi áo hoặc quần"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "poketto"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c5fe5e30-2664-4112-a6bf-893de446b89c",
+      "editorial_key": "word_37",
+      "entry_type": "adverb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "例えば",
+                "ruby": "たとえば"
+              }
+            ]
+          },
+          "kana_reading": "たとえば",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "for example",
+            "vi": "ví dụ"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "tatoeba"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "56db7b1a-5070-4b8b-bc27-2356937c6282",
+      "editorial_key": "word_38",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "付けます",
+                "ruby": "つけます"
+              }
+            ]
+          },
+          "kana_reading": "つけます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "attach",
+            "vi": "gắn vào"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "tsukemasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "II",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "付ける",
+                "ruby": "つける"
+              }
+            ]
+          },
+          "kana_reading": "つける"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "ba90b749-ce08-49a2-8cbf-a60c3a5e9ea8",
+      "editorial_key": "word_39",
+      "entry_type": "adverb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "自由に",
+                "ruby": "じゆうに"
+              }
+            ]
+          },
+          "kana_reading": "じゆうに",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "freely",
+            "vi": "tự do"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "jiyuuni"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d46ce7a6-d24a-4375-9b4e-0415faf064cf",
+      "editorial_key": "word_40",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "空",
+                "ruby": "そら"
+              }
+            ]
+          },
+          "kana_reading": "そら",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "sky",
+            "vi": "bầu trời"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "sora"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c6b0238a-5979-4693-96d8-4de599f2e65c",
+      "editorial_key": "word_41",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "飛びます",
+                "ruby": "とびます"
+              }
+            ]
+          },
+          "kana_reading": "とびます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "fly",
+            "vi": "bay"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "tobimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "飛ぶ",
+                "ruby": "とぶ"
+              }
+            ]
+          },
+          "kana_reading": "とぶ"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "e9289faf-c190-493d-bb62-41e7b6ad7c12",
+      "editorial_key": "word_42",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "昔",
+                "ruby": "むかし"
+              }
+            ]
+          },
+          "kana_reading": "むかし",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "the past",
+            "vi": "ngày xưa"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "mukashi"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "caf2a3c9-a55c-413a-b825-6089afb5fa2d",
+      "editorial_key": "word_43",
+      "entry_type": "pronoun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "自分",
+                "ruby": "じぶん"
+              }
+            ]
+          },
+          "kana_reading": "じぶん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "oneself",
+            "vi": "bản thân"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "jibun"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4f73c2b7-835e-42dc-94bd-31783e60b2ee",
+      "editorial_key": "word_44",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "将来",
+                "ruby": "しょうらい"
+              }
+            ]
+          },
+          "kana_reading": "しょうらい",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "future",
+            "vi": "tương lai"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "shourai"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a0a12cad-04c5-49d5-bffa-56ffafea776a",
+      "editorial_key": "source_name_doraemon",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ドラえもん"
+              }
+            ]
+          },
+          "kana_reading": "ドラえもん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Doraemon — manga character",
+            "vi": "Doraemon — tên nhân vật truyện tranh"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Proper name in the reference lesson; retain its spelling and identity in context. It is not a common-noun definition.",
+        "vi": "Tên riêng trong bài nguồn; giữ cách viết và danh tính theo ngữ cảnh. Đây không phải nghĩa danh từ chung."
+      },
+      "search_aliases": {
+        "romaji": [
+          "doraemon"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "grammar_points": [
+    {
+      "id": "6ebbe0df-c887-471f-99bf-e26da2361dca",
+      "editorial_key": "potential",
+      "title": {
+        "en": "Forming potential verbs",
+        "vi": "Tạo động từ khả năng"
+      },
+      "explanation": {
+        "en": "Group I changes the final い-row sound before ます to the え-row plus ます; Group II adds られます to the stem. します becomes できます and 来ます becomes 来られます.",
+        "vi": "Nhóm I đổi âm cuối hàng い trước ます sang hàng え rồi thêm ます; nhóm II thêm られます vào thân; します thành できます, きます thành こられます."
+      },
+      "notes": {
+        "en": "Potential verbs then conjugate as Group II. わかります already means understand; do not form わかれます.",
+        "vi": "Động từ khả năng chia tiếp như nhóm II. わかります đã có nghĩa hiểu nên không tạo わかれます."
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 39,
+          "pdf_page_end": 39,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "1",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "c7194661-685d-428d-b663-846dbb92729b",
+      "editorial_key": "potential_sentence",
+      "title": {
+        "en": "Ability and opportunity",
+        "vi": "Nói năng lực và điều kiện"
+      },
+      "explanation": {
+        "en": "The potential expresses ability or an opportunity allowed by circumstances. Object を usually becomes が; other particles remain.",
+        "vi": "Khả năng diễn tả năng lực hoặc điều kiện cho phép thực hiện hành động. Tân ngữ を thường chuyển thành が; các trợ từ khác được giữ."
+      },
+      "notes": {
+        "en": "Keep に in 友達に会えます.",
+        "vi": "Không đổi に trong 友達に会えます thành が."
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 39,
+          "pdf_page_end": 39,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "2",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "317e9e9b-f458-4dbf-a544-7834438366f5",
+      "editorial_key": "perception",
+      "title": {
+        "en": "Spontaneous perception",
+        "vi": "Tự nhiên nhìn hoặc nghe thấy"
+      },
+      "explanation": {
+        "en": "見えます and 聞こえます describe something naturally entering sight or hearing; mark it with が.",
+        "vi": "見えます và 聞こえます nói một hình ảnh hoặc âm thanh tự lọt vào giác quan; dùng が cho đối tượng."
+      },
+      "notes": {
+        "en": "見られます and 聞けます describe the ability or opportunity to watch or listen intentionally.",
+        "vi": "見られます và 聞けます nói khả năng hoặc cơ hội chủ động xem, nghe."
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 39,
+          "pdf_page_end": 40,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "3",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "4902907a-12e1-40ca-947a-48150bbb088a",
+      "editorial_key": "completed",
+      "title": {
+        "en": "Be completed or come into existence",
+        "vi": "Hoàn thành hoặc xuất hiện"
+      },
+      "explanation": {
+        "en": "できます can also mean that a building, object or product is completed or comes into existence.",
+        "vi": "できます còn diễn tả một vật, công trình hoặc sản phẩm được hoàn thành hay hình thành."
+      },
+      "notes": {
+        "en": "This differs from ability; a location commonly takes に.",
+        "vi": "Nghĩa này khác với khả năng; địa điểm thường đi với に."
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 40,
+          "pdf_page_end": 40,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "4",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "9ea7295d-6ed0-4a2e-bed0-a100a8cc4e32",
+      "editorial_key": "only",
+      "title": {
+        "en": "Only with しか",
+        "vi": "Chỉ có với しか"
+      },
+      "explanation": {
+        "en": "Place しか after the limited element and use a negative predicate. だけ with an affirmative need not imply insufficiency.",
+        "vi": "Đặt しか sau phần muốn giới hạn và dùng vị ngữ phủ định. Câu khẳng định với だけ không bắt buộc có cảm giác thiếu."
+      },
+      "notes": {
+        "en": "しか replaces が or を but follows particles such as に.",
+        "vi": "しか thay が hoặc を, nhưng đứng sau các trợ từ như に."
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 40,
+          "pdf_page_end": 40,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "5",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "546e340a-2a21-4b30-8e08-10658a477e66",
+      "editorial_key": "contrast",
+      "title": {
+        "en": "Contrast with は",
+        "vi": "Đối chiếu bằng は"
+      },
+      "explanation": {
+        "en": "は can contrast two topics, often with が linking the clauses.",
+        "vi": "は đặt hai chủ đề vào thế đối chiếu, thường có が nối hai mệnh đề."
+      },
+      "notes": {
+        "en": "Contrast only the highlighted elements; do not infer dislike or inability without context.",
+        "vi": "Chỉ đối chiếu phần được nhấn; không tự suy ra ghét hay không thể."
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 40,
+          "pdf_page_end": 40,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "6",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "6b432a8d-262a-4ec8-81cf-5f0e1388ff21",
+      "editorial_key": "particle_wa",
+      "title": {
+        "en": "は after another particle",
+        "vi": "は đi sau trợ từ"
+      },
+      "explanation": {
+        "en": "は commonly replaces が and を; it may follow に, で or から to topicalize or contrast a circumstance.",
+        "vi": "は thường thay が và を; có thể đứng sau に、で、から để đưa hoàn cảnh lên làm chủ đề hoặc đối chiếu."
+      },
+      "notes": {
+        "en": "Retain a necessary relation such as から in ここからは.",
+        "vi": "Giữ trợ từ chỉ quan hệ cần thiết như から trong ここからは."
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 40,
+          "pdf_page_end": 40,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "7",
+      "origin": "independently_authored"
+    }
+  ],
+  "sentence_patterns": [
+    {
+      "id": "c881cec3-9282-465a-b889-89121fd41fc9",
+      "editorial_key": "potential",
+      "grammar_point_id": "6ebbe0df-c887-471f-99bf-e26da2361dca",
+      "slots": [
+        {
+          "key": "object",
+          "kind": "noun",
+          "label": {
+            "en": "Object of the action",
+            "vi": "Đối tượng của hành động"
+          }
+        },
+        {
+          "key": "potential",
+          "kind": "phrase",
+          "label": {
+            "en": "Inflected polite potential verb",
+            "vi": "Động từ khả năng đã chia lịch sự"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "object"
+            },
+            {
+              "kind": "literal",
+              "value": "が"
+            },
+            {
+              "kind": "slot",
+              "value": "potential"
+            },
+            {
+              "kind": "literal",
+              "value": "。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e87e14ad-7fa6-49a8-b785-0a71cc6fb0a8",
+      "editorial_key": "potential_sentence",
+      "grammar_point_id": "c7194661-685d-428d-b663-846dbb92729b",
+      "slots": [
+        {
+          "key": "place",
+          "kind": "noun",
+          "label": {
+            "en": "Location",
+            "vi": "Địa điểm"
+          }
+        },
+        {
+          "key": "object",
+          "kind": "noun",
+          "label": {
+            "en": "Object of the action",
+            "vi": "Đối tượng của hành động"
+          }
+        },
+        {
+          "key": "potential",
+          "kind": "phrase",
+          "label": {
+            "en": "Inflected potential verb",
+            "vi": "Động từ khả năng đã chia"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "place"
+            },
+            {
+              "kind": "literal",
+              "value": "で"
+            },
+            {
+              "kind": "slot",
+              "value": "object"
+            },
+            {
+              "kind": "literal",
+              "value": "が"
+            },
+            {
+              "kind": "slot",
+              "value": "potential"
+            },
+            {
+              "kind": "literal",
+              "value": "。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "88316d7c-c63e-466b-b516-21c8fa83e865",
+      "editorial_key": "perception",
+      "grammar_point_id": "317e9e9b-f458-4dbf-a544-7834438366f5",
+      "slots": [
+        {
+          "key": "source",
+          "kind": "noun",
+          "label": {
+            "en": "Location from which something is seen or heard",
+            "vi": "Nơi nhìn hoặc nghe từ đó"
+          }
+        },
+        {
+          "key": "subject",
+          "kind": "noun",
+          "label": {
+            "en": "Subject being described",
+            "vi": "Chủ thể được mô tả"
+          }
+        },
+        {
+          "key": "perception",
+          "kind": "phrase",
+          "label": {
+            "en": "見えます or 聞こえます",
+            "vi": "見えます hoặc 聞こえます"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "source"
+            },
+            {
+              "kind": "literal",
+              "value": "から"
+            },
+            {
+              "kind": "slot",
+              "value": "subject"
+            },
+            {
+              "kind": "literal",
+              "value": "が"
+            },
+            {
+              "kind": "slot",
+              "value": "perception"
+            },
+            {
+              "kind": "literal",
+              "value": "。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "90b8e028-78ec-475a-880a-9781510440c3",
+      "editorial_key": "completed",
+      "grammar_point_id": "4902907a-12e1-40ca-947a-48150bbb088a",
+      "slots": [
+        {
+          "key": "place",
+          "kind": "noun",
+          "label": {
+            "en": "Location",
+            "vi": "Địa điểm"
+          }
+        },
+        {
+          "key": "subject",
+          "kind": "noun",
+          "label": {
+            "en": "Subject being described",
+            "vi": "Chủ thể được mô tả"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "place"
+            },
+            {
+              "kind": "literal",
+              "value": "に"
+            },
+            {
+              "kind": "slot",
+              "value": "subject"
+            },
+            {
+              "kind": "literal",
+              "value": "ができました。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2aacf535-3e2c-4f3d-a337-24df24ec21a2",
+      "editorial_key": "only",
+      "grammar_point_id": "9ea7295d-6ed0-4a2e-bed0-a100a8cc4e32",
+      "slots": [
+        {
+          "key": "subject",
+          "kind": "noun",
+          "label": {
+            "en": "Subject being described",
+            "vi": "Chủ thể được mô tả"
+          }
+        },
+        {
+          "key": "quantity",
+          "kind": "phrase",
+          "label": {
+            "en": "Limited quantity",
+            "vi": "Số lượng được giới hạn"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "subject"
+            },
+            {
+              "kind": "literal",
+              "value": "は"
+            },
+            {
+              "kind": "slot",
+              "value": "quantity"
+            },
+            {
+              "kind": "literal",
+              "value": "しかありません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4340e640-3471-445a-b0f9-47addde7bb6d",
+      "editorial_key": "contrast",
+      "grammar_point_id": "546e340a-2a21-4b30-8e08-10658a477e66",
+      "slots": [
+        {
+          "key": "first",
+          "kind": "noun",
+          "label": {
+            "en": "First topic",
+            "vi": "Chủ đề thứ nhất"
+          }
+        },
+        {
+          "key": "first_predicate",
+          "kind": "phrase",
+          "label": {
+            "en": "First predicate",
+            "vi": "Vị ngữ thứ nhất"
+          }
+        },
+        {
+          "key": "second",
+          "kind": "noun",
+          "label": {
+            "en": "Contrasting topic",
+            "vi": "Chủ đề đối chiếu"
+          }
+        },
+        {
+          "key": "second_predicate",
+          "kind": "phrase",
+          "label": {
+            "en": "Contrasting predicate",
+            "vi": "Vị ngữ đối chiếu"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "first"
+            },
+            {
+              "kind": "literal",
+              "value": "は"
+            },
+            {
+              "kind": "slot",
+              "value": "first_predicate"
+            },
+            {
+              "kind": "literal",
+              "value": "が、"
+            },
+            {
+              "kind": "slot",
+              "value": "second"
+            },
+            {
+              "kind": "literal",
+              "value": "は"
+            },
+            {
+              "kind": "slot",
+              "value": "second_predicate"
+            },
+            {
+              "kind": "literal",
+              "value": "。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9d99d80a-a68c-403e-8bf9-a70914a3d027",
+      "editorial_key": "particle_wa",
+      "grammar_point_id": "6b432a8d-262a-4ec8-81cf-5f0e1388ff21",
+      "slots": [
+        {
+          "key": "place",
+          "kind": "noun",
+          "label": {
+            "en": "Location",
+            "vi": "Địa điểm"
+          }
+        },
+        {
+          "key": "subject",
+          "kind": "noun",
+          "label": {
+            "en": "Subject being described",
+            "vi": "Chủ thể được mô tả"
+          }
+        },
+        {
+          "key": "negative_potential",
+          "kind": "phrase",
+          "label": {
+            "en": "Negative potential verb",
+            "vi": "Động từ khả năng phủ định"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "place"
+            },
+            {
+              "kind": "literal",
+              "value": "では"
+            },
+            {
+              "kind": "slot",
+              "value": "subject"
+            },
+            {
+              "kind": "literal",
+              "value": "が"
+            },
+            {
+              "kind": "slot",
+              "value": "negative_potential"
+            },
+            {
+              "kind": "literal",
+              "value": "。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "1b7eb5b2-98c6-4709-a227-c47836050b81",
+      "editorial_key": "potential_1",
+      "pattern_id": "c881cec3-9282-465a-b889-89121fd41fc9",
+      "grammar_point_ids": [
+        "6ebbe0df-c887-471f-99bf-e26da2361dca"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "この"
+          },
+          {
+            "base": "字",
+            "ruby": "じ"
+          },
+          {
+            "base": "が"
+          },
+          {
+            "base": "読",
+            "ruby": "よ"
+          },
+          {
+            "base": "めます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I can read this character.",
+        "vi": "Tôi đọc được chữ này."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "fdcb7a11-3764-43ff-8993-5fc1a06ff8a4",
+      "editorial_key": "potential_sentence_1",
+      "pattern_id": "e87e14ad-7fa6-49a8-b785-0a71cc6fb0a8",
+      "grammar_point_ids": [
+        "c7194661-685d-428d-b663-846dbb92729b"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "ここで"
+          },
+          {
+            "base": "自転車",
+            "ruby": "じてんしゃ"
+          },
+          {
+            "base": "が"
+          },
+          {
+            "base": "借",
+            "ruby": "か"
+          },
+          {
+            "base": "りられます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "You can rent a bicycle here.",
+        "vi": "Ở đây có thể thuê xe đạp."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "203c2db9-8eea-4acd-a86f-14f6a9430d36",
+      "editorial_key": "perception_1",
+      "pattern_id": "88316d7c-c63e-466b-b516-21c8fa83e865",
+      "grammar_point_ids": [
+        "317e9e9b-f458-4dbf-a544-7834438366f5"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "ベランダから"
+          },
+          {
+            "base": "海",
+            "ruby": "うみ"
+          },
+          {
+            "base": "が"
+          },
+          {
+            "base": "見",
+            "ruby": "み"
+          },
+          {
+            "base": "えます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "The sea is visible from the balcony.",
+        "vi": "Từ ban công nhìn thấy biển."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "3829e572-7e91-4ed6-a406-ec4af42c68ce",
+      "editorial_key": "perception_2",
+      "pattern_id": "88316d7c-c63e-466b-b516-21c8fa83e865",
+      "grammar_point_ids": [
+        "317e9e9b-f458-4dbf-a544-7834438366f5"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "となりからピアノが"
+          },
+          {
+            "base": "聞",
+            "ruby": "き"
+          },
+          {
+            "base": "こえます。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I can hear a piano from next door.",
+        "vi": "Tôi nghe tiếng piano từ nhà bên."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "cfda9019-245b-41d0-ac93-c1e9a7e1e0b7",
+      "editorial_key": "completed_1",
+      "pattern_id": "90b8e028-78ec-475a-880a-9781510440c3",
+      "grammar_point_ids": [
+        "4902907a-12e1-40ca-947a-48150bbb088a"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "この"
+          },
+          {
+            "base": "町",
+            "ruby": "まち"
+          },
+          {
+            "base": "に"
+          },
+          {
+            "base": "新",
+            "ruby": "あたら"
+          },
+          {
+            "base": "しい"
+          },
+          {
+            "base": "橋",
+            "ruby": "はし"
+          },
+          {
+            "base": "ができました。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "A new bridge has been built in this town.",
+        "vi": "Thị trấn này đã có một cây cầu mới."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "f37413f3-5291-43f5-8b53-7dc59397a98d",
+      "editorial_key": "only_1",
+      "pattern_id": "2aacf535-3e2c-4f3d-a337-24df24ec21a2",
+      "grammar_point_ids": [
+        "9ea7295d-6ed0-4a2e-bed0-a100a8cc4e32"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "いすは"
+          },
+          {
+            "base": "二",
+            "ruby": "ふた"
+          },
+          {
+            "base": "つしかありません。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "There are only two chairs.",
+        "vi": "Chỉ có hai chiếc ghế."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "0a078471-aee8-457e-8728-ad5875802faf",
+      "editorial_key": "contrast_1",
+      "pattern_id": "4340e640-3471-445a-b0f9-47addde7bb6d",
+      "grammar_point_ids": [
+        "546e340a-2a21-4b30-8e08-10658a477e66"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "ひらがなは"
+          },
+          {
+            "base": "書",
+            "ruby": "か"
+          },
+          {
+            "base": "けますが、カタカナはまだ"
+          },
+          {
+            "base": "書",
+            "ruby": "か"
+          },
+          {
+            "base": "けません。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I can write hiragana, but not katakana yet.",
+        "vi": "Tôi viết được hiragana nhưng chưa viết được katakana."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "294db3d4-9a4d-44a4-9f68-c27960e6f5e4",
+      "editorial_key": "particle_wa_1",
+      "pattern_id": "9d99d80a-a68c-403e-8bf9-a70914a3d027",
+      "grammar_point_ids": [
+        "6b432a8d-262a-4ec8-81cf-5f0e1388ff21"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "この"
+          },
+          {
+            "base": "部屋",
+            "ruby": "へや"
+          },
+          {
+            "base": "ではペットが"
+          },
+          {
+            "base": "飼",
+            "ruby": "か"
+          },
+          {
+            "base": "えません。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "You cannot keep pets in this room.",
+        "vi": "Trong phòng này thì không thể nuôi thú cưng."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "a8a5aa61-a7f7-41d0-8f78-c9ddbcf560b2",
+      "editorial_key": "original_scene",
+      "title": {
+        "en": "Choosing a home",
+        "vi": "Chọn chỗ ở"
+      },
+      "scenario": {
+        "en": "Linh and Aki discuss an apartment.",
+        "vi": "Linh và Aki trao đổi về một căn hộ."
+      },
+      "characters": [
+        {
+          "key": "linh",
+          "display_name": {
+            "segments": [
+              {
+                "base": "リン"
+              }
+            ]
+          },
+          "description": {
+            "en": "Linh, a fictional character",
+            "vi": "Linh, nhân vật hư cấu"
+          }
+        },
+        {
+          "key": "aki",
+          "display_name": {
+            "segments": [
+              {
+                "base": "アキ"
+              }
+            ]
+          },
+          "description": {
+            "en": "Aki, a fictional character",
+            "vi": "Aki, nhân vật hư cấu"
+          }
+        }
+      ],
+      "turns": [
+        {
+          "speaker_key": "linh",
+          "japanese": {
+            "segments": [
+              {
+                "base": "このマンションで"
+              },
+              {
+                "base": "鳥",
+                "ruby": "とり"
+              },
+              {
+                "base": "が"
+              },
+              {
+                "base": "飼",
+                "ruby": "か"
+              },
+              {
+                "base": "えますか。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Can we keep a bird in this apartment building?",
+            "vi": "Ở chung cư này nuôi chim được không?"
+          },
+          "grammar_point_ids": [
+            "c7194661-685d-428d-b663-846dbb92729b"
+          ]
+        },
+        {
+          "speaker_key": "aki",
+          "japanese": {
+            "segments": [
+              {
+                "base": "小",
+                "ruby": "ちい"
+              },
+              {
+                "base": "さい"
+              },
+              {
+                "base": "鳥",
+                "ruby": "とり"
+              },
+              {
+                "base": "は"
+              },
+              {
+                "base": "飼",
+                "ruby": "か"
+              },
+              {
+                "base": "えます。でも、"
+              },
+              {
+                "base": "犬",
+                "ruby": "いぬ"
+              },
+              {
+                "base": "は"
+              },
+              {
+                "base": "飼",
+                "ruby": "か"
+              },
+              {
+                "base": "えません。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Small birds are allowed, but dogs are not.",
+            "vi": "Chim nhỏ thì được, nhưng chó thì không."
+          },
+          "grammar_point_ids": [
+            "c7194661-685d-428d-b663-846dbb92729b",
+            "546e340a-2a21-4b30-8e08-10658a477e66"
+          ]
+        },
+        {
+          "speaker_key": "linh",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ベランダから"
+              },
+              {
+                "base": "花火",
+                "ruby": "はなび"
+              },
+              {
+                "base": "が"
+              },
+              {
+                "base": "見",
+                "ruby": "み"
+              },
+              {
+                "base": "えますか。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Can you see fireworks from the balcony?",
+            "vi": "Từ ban công có thấy pháo hoa không?"
+          },
+          "grammar_point_ids": [
+            "317e9e9b-f458-4dbf-a544-7834438366f5"
+          ]
+        },
+        {
+          "speaker_key": "aki",
+          "japanese": {
+            "segments": [
+              {
+                "base": "はい。"
+              },
+              {
+                "base": "部屋",
+                "ruby": "へや"
+              },
+              {
+                "base": "からは"
+              },
+              {
+                "base": "少",
+                "ruby": "すこ"
+              },
+              {
+                "base": "ししか"
+              },
+              {
+                "base": "見",
+                "ruby": "み"
+              },
+              {
+                "base": "えませんが、ベランダからはよく"
+              },
+              {
+                "base": "見",
+                "ruby": "み"
+              },
+              {
+                "base": "えます。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Yes. You can see only a little from the room, but quite well from the balcony.",
+            "vi": "Có. Từ trong phòng chỉ thấy được chút ít, nhưng ban công thì thấy rõ."
+          },
+          "grammar_point_ids": [
+            "317e9e9b-f458-4dbf-a544-7834438366f5",
+            "9ea7295d-6ed0-4a2e-bed0-a100a8cc4e32",
+            "546e340a-2a21-4b30-8e08-10658a477e66",
+            "6b432a8d-262a-4ec8-81cf-5f0e1388ff21"
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "N4_MAIN",
+          "pdf_page_start": 31,
+          "pdf_page_end": 31,
+          "basis": "dialogue_skill_alignment"
+        }
+      ],
+      "origin": "independently_authored"
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "ddaea07a-e04e-40f3-a665-54742cd7185e",
+  "editorial_key": "kanji_unit_33",
+  "reference_unit_number": 33,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 33: lesson 33 reading words",
+    "vi": "Kanji bài 33: từ đọc của bài 33"
+  },
+  "character_glyphs": [
+    "席",
+    "荷",
+    "危",
+    "険",
+    "禁",
+    "触",
+    "投",
+    "出",
+    "物",
+    "立",
+    "入",
+    "止",
+    "使",
+    "用",
+    "吸",
+    "伝",
+    "曲",
+    "戻",
+    "口",
+    "始",
+    "外",
+    "中",
+    "予",
+    "約",
+    "食",
+    "事",
+    "会",
+    "議"
+  ],
+  "word_examples": [
+    {
+      "id": "801b2f09-de5e-405f-baf2-203ee6704be2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "席",
+            "ruby": "せき"
+          }
+        ]
+      },
+      "kana_reading": "せき",
+      "meanings": {
+        "en": "seat",
+        "vi": "chỗ ngồi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c008544a-5dd1-499c-a5e9-2630d131fc69",
+      "japanese": {
+        "segments": [
+          {
+            "base": "出席",
+            "ruby": "しゅっせき"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "しゅっせきする",
+      "meanings": {
+        "en": "attend",
+        "vi": "tham dự"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3cd9f648-7b19-40b0-9c26-39c6a613226b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "荷物",
+            "ruby": "にもつ"
+          }
+        ]
+      },
+      "kana_reading": "にもつ",
+      "meanings": {
+        "en": "luggage",
+        "vi": "hành lý"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3290d72a-921b-4365-ac1f-ef5c589eb66a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "危険",
+            "ruby": "きけん"
+          }
+        ]
+      },
+      "kana_reading": "きけん",
+      "meanings": {
+        "en": "danger",
+        "vi": "nguy hiểm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "eb46cfe6-f4c5-49c9-970d-36d4b47dc6b2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "立入禁止",
+            "ruby": "たちいりきんし"
+          }
+        ]
+      },
+      "kana_reading": "たちいりきんし",
+      "meanings": {
+        "en": "no entry",
+        "vi": "cấm vào"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4dbd1cf7-b024-47f6-bbdd-ede212c3a292",
+      "japanese": {
+        "segments": [
+          {
+            "base": "使用禁止",
+            "ruby": "しようきんし"
+          }
+        ]
+      },
+      "kana_reading": "しようきんし",
+      "meanings": {
+        "en": "use prohibited",
+        "vi": "cấm sử dụng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "afcf10a6-d735-44f5-90fe-5b562cfa2a39",
+      "japanese": {
+        "segments": [
+          {
+            "base": "触",
+            "ruby": "さわ"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "さわる",
+      "meanings": {
+        "en": "touch",
+        "vi": "sờ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e7d395c5-07da-441a-9c75-9f9f0b6ba765",
+      "japanese": {
+        "segments": [
+          {
+            "base": "投",
+            "ruby": "な"
+          },
+          {
+            "base": "げる"
+          }
+        ]
+      },
+      "kana_reading": "なげる",
+      "meanings": {
+        "en": "throw",
+        "vi": "ném"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4b1d8c49-8ab8-48de-9738-48549ecc517d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "吸",
+            "ruby": "す"
+          },
+          {
+            "base": "う"
+          }
+        ]
+      },
+      "kana_reading": "すう",
+      "meanings": {
+        "en": "inhale; smoke",
+        "vi": "hít; hút thuốc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d9f971b3-65c8-435d-8aeb-a43db63a5b9e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "伝",
+            "ruby": "つた"
+          },
+          {
+            "base": "える"
+          }
+        ]
+      },
+      "kana_reading": "つたえる",
+      "meanings": {
+        "en": "convey",
+        "vi": "truyền đạt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9c6a7d06-5c4f-4d8a-bc4d-4fbeafcc2dc6",
+      "japanese": {
+        "segments": [
+          {
+            "base": "曲",
+            "ruby": "ま"
+          },
+          {
+            "base": "がる"
+          }
+        ]
+      },
+      "kana_reading": "まがる",
+      "meanings": {
+        "en": "turn; bend",
+        "vi": "rẽ; cong"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "59a31c4f-a39c-4889-9b05-4a9dcb4c9f8c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "戻",
+            "ruby": "もど"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "もどる",
+      "meanings": {
+        "en": "return",
+        "vi": "trở về"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "50503a91-3df8-48c4-b1b9-3a66ee4c3c6b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "入口",
+            "ruby": "いりぐち"
+          }
+        ]
+      },
+      "kana_reading": "いりぐち",
+      "meanings": {
+        "en": "entrance",
+        "vi": "lối vào"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "411b826d-ff7b-4f6a-9736-b75f40db8b2b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "出口",
+            "ruby": "でぐち"
+          }
+        ]
+      },
+      "kana_reading": "でぐち",
+      "meanings": {
+        "en": "exit",
+        "vi": "lối ra"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3532c486-8655-496f-9ef1-ac9f1fcb45ea",
+      "japanese": {
+        "segments": [
+          {
+            "base": "始",
+            "ruby": "はじ"
+          },
+          {
+            "base": "まる"
+          }
+        ]
+      },
+      "kana_reading": "はじまる",
+      "meanings": {
+        "en": "begin (intransitive)",
+        "vi": "bắt đầu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4de839e1-4188-454d-948f-c378e459a7b1",
+      "japanese": {
+        "segments": [
+          {
+            "base": "外",
+            "ruby": "はず"
+          },
+          {
+            "base": "す"
+          }
+        ]
+      },
+      "kana_reading": "はずす",
+      "meanings": {
+        "en": "remove; leave one's place",
+        "vi": "tháo; rời chỗ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e383fd4d-99cd-4413-9083-c369c2c58115",
+      "japanese": {
+        "segments": [
+          {
+            "base": "中",
+            "ruby": "ちゅう"
+          }
+        ]
+      },
+      "kana_reading": "ちゅう",
+      "meanings": {
+        "en": "in progress",
+        "vi": "đang diễn ra"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3c7d0c3f-db79-43fb-ace5-3e8772b6ef86",
+      "japanese": {
+        "segments": [
+          {
+            "base": "予約席",
+            "ruby": "よやくせき"
+          }
+        ]
+      },
+      "kana_reading": "よやくせき",
+      "meanings": {
+        "en": "reserved seat",
+        "vi": "chỗ ngồi đặt trước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "797c40f8-992c-4167-9eb2-d300a879b8f8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "食事中",
+            "ruby": "しょくじちゅう"
+          }
+        ]
+      },
+      "kana_reading": "しょくじちゅう",
+      "meanings": {
+        "en": "during a meal",
+        "vi": "đang ăn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "326b40e2-ac82-472f-916a-8c1bdeafd752",
+      "japanese": {
+        "segments": [
+          {
+            "base": "使用中",
+            "ruby": "しようちゅう"
+          }
+        ]
+      },
+      "kana_reading": "しようちゅう",
+      "meanings": {
+        "en": "in use",
+        "vi": "đang sử dụng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5f89978a-a600-42d3-8eba-39366229e6ed",
+      "japanese": {
+        "segments": [
+          {
+            "base": "会議中",
+            "ruby": "かいぎちゅう"
+          }
+        ]
+      },
+      "kana_reading": "かいぎちゅう",
+      "meanings": {
+        "en": "in a meeting",
+        "vi": "đang họp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 66,
+          "pdf_page_end": 69,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 33,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 33,
+    "end": 33,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 66,
+      "pdf_page_end": 69,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

@@ -1,0 +1,1007 @@
+{
+  "review_id": "PB-PROPER-NAMES-20261108",
+  "decision": "B-U-59",
+  "date": "2026-11-08",
+  "scope": "Name exclusion and identity consistency across all 50 canonical lessons, 50 units and both character sets; source visual check of each of the 38 restored rows, on 19 grammar-PDF pages. Not a new full linguistic certification of every sentence or all 1451 PDF pages.",
+  "source_integrity": [
+    {
+      "source_id": "N5_MAIN",
+      "sha256": "b28e396e4f69679cf1152cd30077e9da02cf2fd328a2e882b94f89a3996db2cd"
+    },
+    {
+      "source_id": "N5_GRAMMAR",
+      "sha256": "f924ca4781cb3975f23a06bfb88371872f60fab847a7695ee832009ab814904e"
+    },
+    {
+      "source_id": "N5_KANJI",
+      "sha256": "f5412c43c2d27a5ea8714d32a14c7874568904fc39bb8d0d39cdd2d582230eba"
+    },
+    {
+      "source_id": "N4_MAIN",
+      "sha256": "5d0ce9b33bab69e0f6b81d019f12594d95be4ee6a629085410e33fd3687e0008"
+    },
+    {
+      "source_id": "N4_GRAMMAR",
+      "sha256": "dacdcf05badb33d326f6990050b50023aa84b521e183c7505a1d6e30b1103b46"
+    },
+    {
+      "source_id": "N4_KANJI",
+      "sha256": "5452c782813de18b941ff71e1a1037af459e271948a59f3a0ad288bd10530b31"
+    }
+  ],
+  "source_rows": [
+    {
+      "source_row": "N5_GRAMMAR:30:17",
+      "source_label": "IMC/パワー電気/ブラジルエアー",
+      "item_ids": [
+        "3f0accbc-eb9b-4507-859b-6561adebffef",
+        "aac7537e-6a8d-45c9-87c7-21ffdca18088",
+        "08bf663c-f00d-4977-a8e1-2d5b63659413"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:30:18",
+      "source_label": "AKC",
+      "item_ids": [
+        "3f3321ae-db55-46fe-829b-c72af201b1d6"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:30:19",
+      "source_label": "神戸病院",
+      "item_ids": [
+        "e9038c21-84b4-40b7-be11-58e5300730e4"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:30:20",
+      "source_label": "さくら大学/富士大学",
+      "item_ids": [
+        "d714f45e-80bf-440b-b548-2e9071b3423f",
+        "99d321fc-5204-4d00-891c-7203ee096aa7"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:48:26",
+      "source_label": "あすか",
+      "item_ids": [
+        "9144db5e-3dfb-4675-b0fc-26f9516112b7"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:48:27",
+      "source_label": "アップル銀行",
+      "item_ids": [
+        "6baef50a-5f13-43bc-b924-a3278aa45379"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:48:28",
+      "source_label": "みどり図書館",
+      "item_ids": [
+        "096f7894-1d38-4f17-8006-8353dd7ea56e"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:48:29",
+      "source_label": "やまと美術館",
+      "item_ids": [
+        "181c7c27-20a2-4d07-b848-b4b63916ee7a"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:60:23",
+      "source_label": "大阪デパート",
+      "item_ids": [
+        "e4d7f3a5-3019-4f3c-9d1a-207e4e7dc8a6"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:60:24",
+      "source_label": "つるや",
+      "item_ids": [
+        "68309ae7-4997-4e99-a345-9503ac97f17c"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:60:25",
+      "source_label": "フランス屋",
+      "item_ids": [
+        "4c734f1e-dcc7-400c-a214-2221994bfe70"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:60:26",
+      "source_label": "毎日屋",
+      "item_ids": [
+        "1c8a08db-02cd-4056-8e60-ad2bea794b9d"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:84:18",
+      "source_label": "アジアストア",
+      "item_ids": [
+        "9c9c1702-33bf-47a5-bcda-170e3efac83d"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:96:23",
+      "source_label": "ABCストア",
+      "item_ids": [
+        "bf9e42a1-f651-4658-a6bb-eaeb547c6854"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:96:24",
+      "source_label": "ジャパン",
+      "item_ids": [
+        "1b3c4b7b-98d6-4f46-9e68-40a3d12c4f51"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:102:10",
+      "source_label": "アキックス",
+      "item_ids": [
+        "5433e7f5-7045-4cb2-8836-bdfedbabbd5a"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:102:11",
+      "source_label": "おはようテレビ",
+      "item_ids": [
+        "bfc88f90-774b-4cd3-9aa3-503ae565aea7"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:108:17",
+      "source_label": "みどり町",
+      "item_ids": [
+        "067bf6fa-459f-4c61-ac75-84838134caf3"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:114:5",
+      "source_label": "みんなのインタビュー",
+      "item_ids": [
+        "7962b677-49e5-4404-a9a7-e8f6fbb657e1"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:120:27",
+      "source_label": "大学前",
+      "item_ids": [
+        "a6129a5d-c366-4047-ae68-a175cc377c17"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:150:25",
+      "source_label": "ヨーネン",
+      "item_ids": [
+        "24fcf71b-7ab8-4a09-95d6-7a0fb100f43f"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:156:13",
+      "source_label": "みんなのアンケート",
+      "item_ids": [
+        "35e18d73-5e16-4133-8f15-44bb856b0b4e"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:162:3",
+      "source_label": "元気茶",
+      "item_ids": [
+        "6fc475d5-072e-44f4-9097-da047a7e57c2"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:162:4",
+      "source_label": "本田駅",
+      "item_ids": [
+        "754cc84d-a3f6-4328-8b2b-40687824d7d3"
+      ]
+    },
+    {
+      "source_row": "N5_GRAMMAR:162:5",
+      "source_label": "図書館前",
+      "item_ids": [
+        "ad11cac7-5e98-4c4a-aa17-5abb8b333dc4"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:29:30",
+      "source_label": "エドヤストア",
+      "item_ids": [
+        "692c4c2a-68a2-456c-bb52-fd4aaaec2e0f"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:36:20",
+      "source_label": "ドラえもん",
+      "item_ids": [
+        "a0a12cad-04c5-49d5-bffa-56ffafea776a"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:84:7",
+      "source_label": "みんなの学校",
+      "item_ids": [
+        "728ea965-40bc-4acb-9847-a9653f7732a8"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:84:8",
+      "source_label": "大黒ずし",
+      "item_ids": [
+        "c7a82e6b-e132-49c2-b13e-2ed5a5ec3d2e"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:84:9",
+      "source_label": "IMCパソコン教室",
+      "item_ids": [
+        "d2e83e19-a9a8-49b6-87e7-dde660eed5d0"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:84:10",
+      "source_label": "母の味",
+      "item_ids": [
+        "9a336373-c676-4ccf-b5b3-78ebddca10cf"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:84:11",
+      "source_label": "はる",
+      "item_ids": [
+        "64adea58-0424-4070-a3d8-6084297a8d02"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:84:12",
+      "source_label": "佐藤歯科",
+      "item_ids": [
+        "af2ee5f7-5c07-468d-979a-de1b4575a99a"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:84:13",
+      "source_label": "毎日クッキング",
+      "item_ids": [
+        "499cd423-1ac6-4db9-ae8f-f15302dc7e14"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:120:32",
+      "source_label": "浦島太郎",
+      "item_ids": [
+        "9c3e8578-4329-472c-80fc-19c58c95f595"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:126:7",
+      "source_label": "こどもニュース",
+      "item_ids": [
+        "0c83d79e-f8fb-4f6b-84f7-adaccef85f6b"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:137:27",
+      "source_label": "ホテルひろしま",
+      "item_ids": [
+        "b6d130e4-40dd-47fb-9c2f-38e035311653"
+      ]
+    },
+    {
+      "source_row": "N4_GRAMMAR:168:5",
+      "source_label": "ひまわり小学校",
+      "item_ids": [
+        "79eb8cc8-02d1-4e38-9d93-7defbf84e655"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "lesson": 1,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 30,
+      "name": "IMC",
+      "reading": "アイエムシー",
+      "item_id": "3f0accbc-eb9b-4507-859b-6561adebffef",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Latin abbreviations use editorial Japanese letter-name readings"
+    },
+    {
+      "lesson": 1,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 30,
+      "name": "パワー電気",
+      "reading": "パワーでんき",
+      "item_id": "aac7537e-6a8d-45c9-87c7-21ffdca18088",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 1,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 30,
+      "name": "ブラジルエアー",
+      "reading": "ブラジルエアー",
+      "item_id": "08bf663c-f00d-4977-a8e1-2d5b63659413",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 1,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 30,
+      "name": "AKC",
+      "reading": "エーケーシー",
+      "item_id": "3f3321ae-db55-46fe-829b-c72af201b1d6",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Latin abbreviations use editorial Japanese letter-name readings"
+    },
+    {
+      "lesson": 1,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 30,
+      "name": "神戸病院",
+      "reading": "こうべびょういん",
+      "item_id": "e9038c21-84b4-40b7-be11-58e5300730e4",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 1,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 30,
+      "name": "さくら大学",
+      "reading": "さくらだいがく",
+      "item_id": "d714f45e-80bf-440b-b548-2e9071b3423f",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 1,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 30,
+      "name": "富士大学",
+      "reading": "ふじだいがく",
+      "item_id": "99d321fc-5204-4d00-891c-7203ee096aa7",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 4,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 48,
+      "name": "あすか",
+      "reading": "あすか",
+      "item_id": "9144db5e-3dfb-4675-b0fc-26f9516112b7",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 4,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 48,
+      "name": "アップル銀行",
+      "reading": "アップルぎんこう",
+      "item_id": "6baef50a-5f13-43bc-b924-a3278aa45379",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 4,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 48,
+      "name": "みどり図書館",
+      "reading": "みどりとしょかん",
+      "item_id": "096f7894-1d38-4f17-8006-8353dd7ea56e",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 4,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 48,
+      "name": "やまと美術館",
+      "reading": "やまとびじゅつかん",
+      "item_id": "181c7c27-20a2-4d07-b848-b4b63916ee7a",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 6,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 60,
+      "name": "大阪デパート",
+      "reading": "おおさかデパート",
+      "item_id": "e4d7f3a5-3019-4f3c-9d1a-207e4e7dc8a6",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 6,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 60,
+      "name": "つるや",
+      "reading": "つるや",
+      "item_id": "68309ae7-4997-4e99-a345-9503ac97f17c",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 6,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 60,
+      "name": "フランス屋",
+      "reading": "フランスや",
+      "item_id": "4c734f1e-dcc7-400c-a214-2221994bfe70",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 6,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 60,
+      "name": "毎日屋",
+      "reading": "まいにちや",
+      "item_id": "1c8a08db-02cd-4056-8e60-ad2bea794b9d",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 10,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 84,
+      "name": "アジアストア",
+      "reading": "アジアストア",
+      "item_id": "9c9c1702-33bf-47a5-bcda-170e3efac83d",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 12,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 96,
+      "name": "ABCストア",
+      "reading": "エービーシーストア",
+      "item_id": "bf9e42a1-f651-4658-a6bb-eaeb547c6854",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Latin abbreviations use editorial Japanese letter-name readings"
+    },
+    {
+      "lesson": 12,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 96,
+      "name": "ジャパン",
+      "reading": "ジャパン",
+      "item_id": "1b3c4b7b-98d6-4f46-9e68-40a3d12c4f51",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 13,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 102,
+      "name": "アキックス",
+      "reading": "アキックス",
+      "item_id": "5433e7f5-7045-4cb2-8836-bdfedbabbd5a",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 13,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 102,
+      "name": "おはようテレビ",
+      "reading": "おはようテレビ",
+      "item_id": "bfc88f90-774b-4cd3-9aa3-503ae565aea7",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 14,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 108,
+      "name": "みどり町",
+      "reading": "みどりまち",
+      "item_id": "067bf6fa-459f-4c61-ac75-84838134caf3",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 15,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 114,
+      "name": "みんなのインタビュー",
+      "reading": "みんなのインタビュー",
+      "item_id": "7962b677-49e5-4404-a9a7-e8f6fbb657e1",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 16,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 120,
+      "name": "大学前",
+      "reading": "だいがくまえ",
+      "item_id": "a6129a5d-c366-4047-ae68-a175cc377c17",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 21,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 150,
+      "name": "ヨーネン",
+      "reading": "ヨーネン",
+      "item_id": "24fcf71b-7ab8-4a09-95d6-7a0fb100f43f",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 22,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 156,
+      "name": "みんなのアンケート",
+      "reading": "みんなのアンケート",
+      "item_id": "35e18d73-5e16-4133-8f15-44bb856b0b4e",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 23,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 162,
+      "name": "元気茶",
+      "reading": "げんきちゃ",
+      "item_id": "6fc475d5-072e-44f4-9097-da047a7e57c2",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 23,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 162,
+      "name": "本田駅",
+      "reading": "ほんだえき",
+      "item_id": "754cc84d-a3f6-4328-8b2b-40687824d7d3",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 23,
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 162,
+      "name": "図書館前",
+      "reading": "としょかんまえ",
+      "item_id": "ad11cac7-5e98-4c4a-aa17-5abb8b333dc4",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 26,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "name": "エドヤストア",
+      "reading": "エドヤストア",
+      "item_id": "692c4c2a-68a2-456c-bb52-fd4aaaec2e0f",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 27,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 36,
+      "name": "ドラえもん",
+      "reading": "ドラえもん",
+      "item_id": "a0a12cad-04c5-49d5-bffa-56ffafea776a",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 35,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 84,
+      "name": "みんなの学校",
+      "reading": "みんなのがっこう",
+      "item_id": "728ea965-40bc-4acb-9847-a9653f7732a8",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 35,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 84,
+      "name": "大黒ずし",
+      "reading": "だいこくずし",
+      "item_id": "c7a82e6b-e132-49c2-b13e-2ed5a5ec3d2e",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 35,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 84,
+      "name": "IMCパソコン教室",
+      "reading": "アイエムシーパソコンきょうしつ",
+      "item_id": "d2e83e19-a9a8-49b6-87e7-dde660eed5d0",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Latin abbreviations use editorial Japanese letter-name readings"
+    },
+    {
+      "lesson": 35,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 84,
+      "name": "母の味",
+      "reading": "ははのあじ",
+      "item_id": "9a336373-c676-4ccf-b5b3-78ebddca10cf",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 35,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 84,
+      "name": "はる",
+      "reading": "はる",
+      "item_id": "64adea58-0424-4070-a3d8-6084297a8d02",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 35,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 84,
+      "name": "佐藤歯科",
+      "reading": "さとうしか",
+      "item_id": "af2ee5f7-5c07-468d-979a-de1b4575a99a",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 35,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 84,
+      "name": "毎日クッキング",
+      "reading": "まいにちクッキング",
+      "item_id": "499cd423-1ac6-4db9-ae8f-f15302dc7e14",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 41,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 120,
+      "name": "浦島太郎",
+      "reading": "うらしまたろう",
+      "item_id": "9c3e8578-4329-472c-80fc-19c58c95f595",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 42,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 126,
+      "name": "こどもニュース",
+      "reading": "こどもニュース",
+      "item_id": "0c83d79e-f8fb-4f6b-84f7-adaccef85f6b",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 44,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 137,
+      "name": "ホテルひろしま",
+      "reading": "ホテルひろしま",
+      "item_id": "b6d130e4-40dd-47fb-9c2f-38e035311653",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    },
+    {
+      "lesson": 49,
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 168,
+      "name": "ひまわり小学校",
+      "reading": "ひまわりしょうがっこう",
+      "item_id": "79eb8cc8-02d1-4e38-9d93-7defbf84e655",
+      "image_review": "complete_source_page_visual_review",
+      "reading_note": "Kana/ruby checked against source page"
+    }
+  ],
+  "counts": {
+    "restored_rows": 38,
+    "new_entries": 41,
+    "affected_lessons": 19,
+    "source_pages": 19
+  },
+  "findings": [
+    {
+      "id": "NAME-01",
+      "finding": "38 source rows omitted solely for proper-name status.",
+      "resolution": "Restored all 41 distinct names with contextual readings and VI/EN entity descriptions."
+    },
+    {
+      "id": "NAME-02",
+      "finding": "Traditional Kaguya retained while traditional Urashima Taro omitted as fictional.",
+      "resolution": "Restore Urashima Taro; apply the same keep-name rule to cultural and textbook fictional names."
+    },
+    {
+      "id": "NAME-03",
+      "finding": "Identical kana can refer to different entities: 春 / はる (paste) / はる (salon); Japan (country alias) / ジャパン (supermarket).",
+      "resolution": "Preserve separate IDs, source lessons and explicit meanings; never merge by kana/name alone."
+    }
+  ],
+  "before_sha256": {
+    "docs/content-authoring/lesson-01.json": "e62cb694c992d9bb68c3915b472816d25494d5d2ac527525a81d93bd00c4113a",
+    "docs/content-authoring/lesson-02.json": "e3824f9b6aa70d5f6e2d83d7a9e5e0f8b5cc073029742a3f866906768c66d7ed",
+    "docs/content-authoring/lesson-03.json": "06736ae7844d4dab843d2750bae0258fabf2793c0260e8d3a46e3e1c2b11ed97",
+    "docs/content-authoring/lesson-04.json": "5efd31c68769077a904770404fad31f5af07e8e820798fb51a73dbf90854f923",
+    "docs/content-authoring/lesson-05.json": "2f8259aa666f2e09625ed871af6b168376085ab991c52e1dc14313ea109ec4ca",
+    "docs/content-authoring/lesson-06.json": "17d3abdcb8801ab8c225273d422f87639d43abea7215f305b1004afb27f0c24e",
+    "docs/content-authoring/lesson-07.json": "ccfd0bff690c28063478fd4518c98010ce1a763d1386578f0d33bf99e50dacce",
+    "docs/content-authoring/lesson-08.json": "d22e7c596276c00592486ecad9fd7a0321f4b44cedd0eaffa7f0ae9ea8a7cbb1",
+    "docs/content-authoring/lesson-09.json": "8abf2312b5f073fa4710cbe9bbad3ad750393394c1f395f532ef56e0ff5b0b53",
+    "docs/content-authoring/lesson-10.json": "b959b9be8974a44cec7ce00d4dc41a673661064c8a665c6846a629003e2e6348",
+    "docs/content-authoring/lesson-11.json": "e56e02c8ee1b341aee5423bbbf2f2b0e3551ee26e0c432185ec5f63449b4fd73",
+    "docs/content-authoring/lesson-12.json": "9b575a89dbce035cfc5aea15a80b92cfbf719b1e92aa740947fd3f97de58c366",
+    "docs/content-authoring/lesson-13.json": "5af8614f94c78a88491dd698974373231a4d35e3be3b34dcfbf82a7d48b7d3d3",
+    "docs/content-authoring/lesson-14.json": "f803c6e01f9629232c2a8d5b18d19f2fea59928b414763a15f9a3ad7644a3caf",
+    "docs/content-authoring/lesson-15.json": "c66399e518153a90ffb553f154d3861d4437f1634e6ae9c3a853ab6978f893ca",
+    "docs/content-authoring/lesson-16.json": "64fb5f48486b208dc58982b6d4587bca13ff3f0d686f1db0ed112c416bfabf2d",
+    "docs/content-authoring/lesson-17.json": "184ede958c27592b855fc1457e64249ad1f15523ea9a9e8ee52a8e7b8ca37fa6",
+    "docs/content-authoring/lesson-18.json": "5a87e6f348be93c4a595e344047bb0740341e7764b4534919754d36691376739",
+    "docs/content-authoring/lesson-19.json": "9428656c61f5d0034553a7bbb82e54f86f72bb13ddfa0250c8b337da40dce6e8",
+    "docs/content-authoring/lesson-20.json": "5af094cc5a686a52a687cb1f0ed6ae19ce8b5d29f6ca42b42bfcec28b8f3cc55",
+    "docs/content-authoring/lesson-21.json": "262327fc0dd60d2809289e145252ac1e8adb57293f19c878303b96d2e5f59e69",
+    "docs/content-authoring/lesson-22.json": "4b5570517d7940086b6c4e76a89f318d8aa913e0e243d117a9246c91c3d4a43d",
+    "docs/content-authoring/lesson-23.json": "bd906de745f3ca33f4b8f8173620a59298f7ba5886591470014e8b5a4e469961",
+    "docs/content-authoring/lesson-24.json": "faaaf2e56b29a6bacd185f981f9e356e5c60f9af9e838dac4a7b626227ac65d5",
+    "docs/content-authoring/lesson-25.json": "ed5236cc0f5a1305c159d335ead449a51ece12541b97042e402bd16ef709ba0d",
+    "docs/content-authoring/lesson-26.json": "4a0ded2c4a44178a79457ca7c1a161d244f228618796d0a76a628662a437e8d0",
+    "docs/content-authoring/lesson-27.json": "95526f7b675a709305b342c27e0aa76b05544e2734b86a347c3cc36143feb9d4",
+    "docs/content-authoring/lesson-28.json": "1b9e908d1c32f63a4845d3bcea27b1dd323c021f0e92458a3b15a54ede685ea2",
+    "docs/content-authoring/lesson-29.json": "8e31626cf76cba50d5b36886a4158dbfe8404a0d1f3269595c3a7f78e3634003",
+    "docs/content-authoring/lesson-30.json": "5d6cc2198571e28a1f9c26bf50d03afea2ec0b4745f26a1128dd8d460d317647",
+    "docs/content-authoring/lesson-31.json": "c628f00b4083ff0cc47913d0f876735a8b9a968ef7ab7954e8362ec4ae7c2407",
+    "docs/content-authoring/lesson-32.json": "2c1c0184275012ce981b5648739265e849bfbe7a5cdc05302e50ad3c2b014bce",
+    "docs/content-authoring/lesson-33.json": "e48ff09b4e8172f82e824203367864a7197ab06aa08190dea37a099be72a44e7",
+    "docs/content-authoring/lesson-34.json": "b5c0cec9dcc2c6e473afac1af3f5aed356f560db69b5414fd82dbd2dd1c6f40b",
+    "docs/content-authoring/lesson-35.json": "2893d25c70acefe58aa74f01334eb4c27637c2744befdff278201682fed34caf",
+    "docs/content-authoring/lesson-36.json": "decd367009626050f849eb2c98932eacf55eae7a56104ea340e4b6e355262a36",
+    "docs/content-authoring/lesson-37.json": "8d74c6a030a8898b8d9f2d4384a7020fde68f5a8859811286939fa255c283247",
+    "docs/content-authoring/lesson-38.json": "ac14faec66182c51417c3423ef3228367cae13ebd26b326bc22ed881cebdab26",
+    "docs/content-authoring/lesson-39.json": "cda5a5a6b3e3d346847cead767c77c058860612c9eb125eda6fbedc079b46f53",
+    "docs/content-authoring/lesson-40.json": "7a7a651784347705dcc804f3c093e37d4475d8aae5724cf4b2f8a878fdfa12a3",
+    "docs/content-authoring/lesson-41.json": "d4c0c47e6d5fe99f4ebb93bbe35e0a26e2b8d82965684b58f1fbce5d31b3b070",
+    "docs/content-authoring/lesson-42.json": "8fd2efbfff7e5cf706ced41c6ffa362bdebbf7d41eaaa71d7384ff6d43de7a32",
+    "docs/content-authoring/lesson-43.json": "dd1cb05a5de069ae6085fbb907ebdf8a27afbfdc131f400c510abe5d48d0cc76",
+    "docs/content-authoring/lesson-44.json": "5ff3ebc68d34d53c31a55508b92ada22e82b3962148025f942278bb78c9804e8",
+    "docs/content-authoring/lesson-45.json": "3e240c81f5215b14b215fa13f6196849193f56112ba7600a920d8976c583dedf",
+    "docs/content-authoring/lesson-46.json": "df4a3e028e27eb69852f5eb1aa645b017d66f2b386c3dc025f6b42a62f9e20c8",
+    "docs/content-authoring/lesson-47.json": "5b2276b82eb4498a091c5e2fd588a13d0133a1ba48caeca26059a02217ed9be3",
+    "docs/content-authoring/lesson-48.json": "0364114f08be1682efc11e8e3ce0be80310a8fc5b93409c40cb5a4c8708b4682",
+    "docs/content-authoring/lesson-49.json": "b4d83b1eaecb27c91baf64a31a6c1db3653efd12678633a8300868c0709ec2ba",
+    "docs/content-authoring/lesson-50.json": "a2e7a2cc9fb2621ea7fdfee37f04b4f18a8214d31d26b939c7db273d16356a7e",
+    "docs/content-authoring/kanji/characters-n4.json": "09052fed6c8042d7968943d2eca74708e52d3145082257cc9673ef7882334e8a",
+    "docs/content-authoring/kanji/characters-n5.json": "efd960f1bf4acc4dba04943234e69f054f1166b0f9a5489d2bb8143a441cd1bd",
+    "docs/content-authoring/kanji/kanji-character-set.schema.json": "a35116d70bf47f148661069f97525e126dcd6ff42bfc366cc331fd15b9bfed9c",
+    "docs/content-authoring/kanji/kanji-unit.schema.json": "c1645a99280450e16251d7c420502b80bc25c730ef139daea2f3d2311ca9536e",
+    "docs/content-authoring/kanji/unit-01.json": "21cc905f89a549abf123637ec90bb71b91180c3e74d6418223ea5f76ec7f56b0",
+    "docs/content-authoring/kanji/unit-02.json": "3acdf15024296b3b136b98dddcc50fc93bd390a4906c5969c9d9e9d52fa08af3",
+    "docs/content-authoring/kanji/unit-03.json": "d51323c9aaa0464f3f91abd1f580e9cedf6290a70beea4ef0cbf5ea04ff0ceb9",
+    "docs/content-authoring/kanji/unit-04.json": "fdbaeba7d68ded50b43fdab2f516208b6274c637b6987e3aa50731d35254f528",
+    "docs/content-authoring/kanji/unit-05.json": "6b7adc11eb0df776a5f819ed65315da7f9b0563b00890fb3f4f63accb52992c6",
+    "docs/content-authoring/kanji/unit-06.json": "688b054ab88c161f499cbe29b0f060374923a100022ff0f288b30e15dcfd75dd",
+    "docs/content-authoring/kanji/unit-07.json": "4281d39133706b38a6d0352b5f314720167970257e9cdc08e20ac79536a447b3",
+    "docs/content-authoring/kanji/unit-08.json": "3f02b83d59d9838e61b4e64f1c30ea37c17b314e5df91578cd4dc3c1c57d54d1",
+    "docs/content-authoring/kanji/unit-09.json": "3a5df5317bd3872d8e815679adba48d419c9cdeba2f3ffd94220b9559904ef5a",
+    "docs/content-authoring/kanji/unit-10.json": "73b6489effbf88501eac2d0426fc784d2e0135d47ca15767774db1b5c6c9372e",
+    "docs/content-authoring/kanji/unit-11.json": "e8c6e2037a9c47c431a23fe31f1ce104e9241a8496920ee08204be3f15ac8d04",
+    "docs/content-authoring/kanji/unit-12.json": "41f5327a8d05c8fac9150fc0ba2fc65889f91ed77b3a20f46d30b485759ea2d3",
+    "docs/content-authoring/kanji/unit-13.json": "e4f91e28f744f68195c38d7ae2d5e3f7cbe7f1fa212861cb7d5bd463fa2d2620",
+    "docs/content-authoring/kanji/unit-14.json": "266900adcd5395ac81b6672b38a1870a22c5c0b842952ef7de37959e0393e434",
+    "docs/content-authoring/kanji/unit-15.json": "b97a5debcc55b4fa9d575963d047eea1effabd13bac0699166683ebf9ad79c16",
+    "docs/content-authoring/kanji/unit-16.json": "fd26885aef3fcc97be62f222596d07d8d5ea57f9468cb0fe33acca0b852ed511",
+    "docs/content-authoring/kanji/unit-17.json": "05b2d1d50f8f830ccc28370a11019fe52765d91e76851878dcef44c62a487a27",
+    "docs/content-authoring/kanji/unit-18.json": "b9f0173f5c2bbaf68d40a54a64a30bee54a781af80c0f98e9de008018aa29aa1",
+    "docs/content-authoring/kanji/unit-19.json": "8d37aea7f6f8adc8c09b95469d216e65d52d2cec009483f7782e966d2ff94680",
+    "docs/content-authoring/kanji/unit-20.json": "8f893f2043e73d2c1a61bbe574efcce15e47fb46a8125bafcff06e7b2f0d0945",
+    "docs/content-authoring/kanji/unit-21.json": "e74e6735129c9840284f1f5ccdc1c15dbfb9fbf5d9682fb5b9140498c3d3c5c5",
+    "docs/content-authoring/kanji/unit-22.json": "0436b9820be0ce5d3f206dadb6a0f3bbff8ea88e1239f7d2b3dfa8509112c241",
+    "docs/content-authoring/kanji/unit-23.json": "9dd792f97abdfc0d0d29d04dbbad8986a40187c4a5d0b8776956cb3699b63587",
+    "docs/content-authoring/kanji/unit-24.json": "e3ca75f9e1bb2686a00fd83ec6169e8ba7cf31da0cdcce0210b688129f0727fa",
+    "docs/content-authoring/kanji/unit-25.json": "59c866bc0959d5f0db9d06338a09961a1a2688a894e8e7065a605c1ee601a04b",
+    "docs/content-authoring/kanji/unit-26.json": "73a979257f6fd265b5541cea07e8935195edc2bcf75f696aaaea7f1d6e7da88f",
+    "docs/content-authoring/kanji/unit-27.json": "564ecf6762620c1d1a7fc09ff0ad8baec37a5409db1528eb8ee761ab9e47436a",
+    "docs/content-authoring/kanji/unit-28.json": "4bee49b9fff0d3494ed43eb21edd2ce258d29fd337a4506b84be1437cac8a190",
+    "docs/content-authoring/kanji/unit-29.json": "95dc7c7db2cb120f68e3da0ee911abf1c7502a96607cd08faa13ab396c5ebe14",
+    "docs/content-authoring/kanji/unit-30.json": "313d42722b1fe242be7aa2e2a0b75c5ff7d844a417b95c1395e606f7530744c3",
+    "docs/content-authoring/kanji/unit-31.json": "012b19edda579fbf084ad97aa33ecbdd8c3e5bd9c691549015b395d4517bcc19",
+    "docs/content-authoring/kanji/unit-32.json": "1e4cb307ff84e1ffaa3da0d322fed3c1b2388eb334e3228f4efbd9df81f7227b",
+    "docs/content-authoring/kanji/unit-33.json": "baaabb12d5933dc03ddb025f5f00c06712fde6184566d06c41cd6c3aad9aa7b3",
+    "docs/content-authoring/kanji/unit-34.json": "653255055f20237ddfe9bc15615fdac030c5fa0386806e86a7cd36724876518b",
+    "docs/content-authoring/kanji/unit-35.json": "d4f0e8aa30895d198d0e994b3659f97ebb88ef28aa33ca065f0af2a004a1e66c",
+    "docs/content-authoring/kanji/unit-36.json": "e22bf727e219665bd4ae688578b843ab87465fe2e15f69888c5cdf0135048e2a",
+    "docs/content-authoring/kanji/unit-37.json": "ba7f1c6b343aff69ebd88642904f6597053e5c365ade602fac1b2befdb0ebffd",
+    "docs/content-authoring/kanji/unit-38.json": "35f5149115720899b34dfd4159d4339e86aa7ea2156158460591a281a0308e02",
+    "docs/content-authoring/kanji/unit-39.json": "04e838b8a55abb332db43bce0e8b28301e6ed4f2c11ecea15faaafeec00c1bf4",
+    "docs/content-authoring/kanji/unit-40.json": "e5b566329126b4faf0caebd4727152f3a81ad55c0780f20063f59ad9c1703c4c",
+    "docs/content-authoring/kanji/unit-41.json": "320d8e1fcbc6970ed50bdd306213ce1f8497b645e98d0deaa7135231b96ed5a4",
+    "docs/content-authoring/kanji/unit-42.json": "fb8476ac3d2771a6a45884923b306d0907b0a29617dac811dae75edfa3f212ad",
+    "docs/content-authoring/kanji/unit-43.json": "0a9aaa84088c51158c74f80b9ccbb57ef25ae71ba1bf042c9efd1fcc4d259fa7",
+    "docs/content-authoring/kanji/unit-44.json": "d5089ddb3a1ccfc47e2bcccff129737dffc54229df5950243e29134a3eecf0f9",
+    "docs/content-authoring/kanji/unit-45.json": "b491932a2064884234c8615c1252977ebd5778a1a6055ce1d7d40e491a6735c9",
+    "docs/content-authoring/kanji/unit-46.json": "377d9c4022240c75bafab078cdf94cc42f8221e47609da37d0eb6e9549b595fb",
+    "docs/content-authoring/kanji/unit-47.json": "c8578c21c8e4b19305088e13fa2506b78dc28a6ef317a18e16b0d862354904a8",
+    "docs/content-authoring/kanji/unit-48.json": "419a0cc6014bb32810263f218532efe12849c9cfe0d757c3dea1666f36d7f731",
+    "docs/content-authoring/kanji/unit-49.json": "8bd3568f4780bc015e768673ffef08cbf4a285b1556eacc361faea9497bb1ad0",
+    "docs/content-authoring/kanji/unit-50.json": "7536866f2a0bf11d484234310875caa88aa0c4d785b0e963a2028b1908a64114"
+  },
+  "after_sha256": {
+    "docs/content-authoring/lesson-01.json": "da632d0e94cb40881cff7ce2102f9ac11e1088557a30a3bc50c94bc5c26d4e27",
+    "docs/content-authoring/lesson-02.json": "878d49e44dca6cad7b4d7c055a73fcf85d9741da0d1b8531d7735f2a89799707",
+    "docs/content-authoring/lesson-03.json": "d6e5d3b2c192f24bc11c1750696e629fce51f58e9eb77b11d9b9d04374af2f0b",
+    "docs/content-authoring/lesson-04.json": "e9c26c4c6a74a4aedd36615c9836b74acf3fd99786604d4fe3a62615521fb810",
+    "docs/content-authoring/lesson-05.json": "9a0fc39fbaa8416853822b9f39cef4438b14a5fbdd0fe8f27ea29578fbab86bf",
+    "docs/content-authoring/lesson-06.json": "6e8893d525fe3baf4e54403e694e3e1a60c041d50e089ea563f33c73e31d9be3",
+    "docs/content-authoring/lesson-07.json": "1a5844334807a895d3908f08e6d6b19335a34d4c6f234bdecf35e655b610bdd9",
+    "docs/content-authoring/lesson-08.json": "042e410823bc670eccb4e0d9022c7c710cf1a3d74e3c1eb798021557c26da5f9",
+    "docs/content-authoring/lesson-09.json": "b44537c8c8596244f041efacb194b76bbab700aabbea8c4c928ad32d070d2ee6",
+    "docs/content-authoring/lesson-10.json": "db6b040631271c69c3cc686f2e39b5ffd9b0194755b3294fe5b41c9e5f16f443",
+    "docs/content-authoring/lesson-11.json": "f0d2af098682a9305c1367f1823a0152fa5d5cae74e2df56ed8b239d5d74a2a6",
+    "docs/content-authoring/lesson-12.json": "b8fa2d6c858916f9e381890cdb620a96d160d59f9d9689d41042c0cc09d0cd94",
+    "docs/content-authoring/lesson-13.json": "4da19070c7ae660e7190296efb5df5572ac9b3355be4b546c3d04a2a7a1b3755",
+    "docs/content-authoring/lesson-14.json": "1837eb6040cec9cc24d9061a5497b996f538b38d1e6fc31ff37d6718eb493c0c",
+    "docs/content-authoring/lesson-15.json": "977da785b3e7f72e77295a82b5072ff5d0a6c7df2f907208f6b13089d60a0a67",
+    "docs/content-authoring/lesson-16.json": "8581a9572589c686953ef471744e4e299fd92606e2fe71a7d61c45ba71e149df",
+    "docs/content-authoring/lesson-17.json": "831d9d98380a25876665202e8dc29e221a97f87833dc7c96b0da4957008ee39a",
+    "docs/content-authoring/lesson-18.json": "7391625d40b014ae4d733b74496678c9f006440841fe0bb63def4fcf8d653c23",
+    "docs/content-authoring/lesson-19.json": "62ad7addd1df24934905fead28d3edcbfe1faddbf002e5039c57fdcef3a0ec99",
+    "docs/content-authoring/lesson-20.json": "a7202d04481a1d3156260495b91a30004baa75170789248d351ceb89250137f1",
+    "docs/content-authoring/lesson-21.json": "a577f88bb3aad2c19fa9029b48d2dfeb552c1f0481e70c0fb16d68e5156dde4b",
+    "docs/content-authoring/lesson-22.json": "3f7598e0253c2bd2d4cd2ce1728fbe7bfcc90688d6c81cc4f11f8f786bd9ddaf",
+    "docs/content-authoring/lesson-23.json": "820d4f3b1e0aaea3706a48e20b7aacfdb154937d45cb5dcc660e5b85b97fc5fe",
+    "docs/content-authoring/lesson-24.json": "bf552ab0ec712e014d5266568205dbaacb6105d075c15cebde6911c281fe2df7",
+    "docs/content-authoring/lesson-25.json": "463e99e8ad0c6f8f696003cfe8f2e6f9dc248f626e552179d672449dc6fc07a0",
+    "docs/content-authoring/lesson-26.json": "0c0b17028144d646c8c32bce5b5002a7fc7ebcbd2d4291bdc9eec0eeff1cb781",
+    "docs/content-authoring/lesson-27.json": "4c822e1cb2741eabdbe71ccb58ee0f7aa22d00240e59116938eeff3ba533dd2f",
+    "docs/content-authoring/lesson-28.json": "01a221ccbe92abb0d7dd89fb6daf47395c22a25848e1c91e423388293e5de3a1",
+    "docs/content-authoring/lesson-29.json": "43243a3164a5f54d0afd01ed2353ed71aedb11c0f0909e4976d6ace33d545f1e",
+    "docs/content-authoring/lesson-30.json": "d3d76910cbcdb98556270c8ecdf162fddeb4a65b51389c4b4e1c186ae1aef067",
+    "docs/content-authoring/lesson-31.json": "df0bbba2aaddb254b1debb8b581c2c677404b9f16806852bd401a93f613d8c09",
+    "docs/content-authoring/lesson-32.json": "103cdd65572c27dad4505e4f0b31dbac2a5699e3145748db6e325d91429127c1",
+    "docs/content-authoring/lesson-33.json": "e2ac35d7e42f07e6497cc1e5a66846e0c513cee80444259d6ab568948533a30c",
+    "docs/content-authoring/lesson-34.json": "edf6b960cf51cc271912a75d4ac11b4d5536b57e2a80e8ca32a027cec07dd168",
+    "docs/content-authoring/lesson-35.json": "6e5d20437cd0ed144dd4111a6a38cd86a85a8ed2adb482b4ea75a4ade3df237b",
+    "docs/content-authoring/lesson-36.json": "ae4073922d2f74acffc6dbb534456395d6e5bd37751b2bcbae0066cd611f99d7",
+    "docs/content-authoring/lesson-37.json": "aa05c9fafa0c7c1a80f7918cd8193154af8d716b41b0cc76ed6e66230b180173",
+    "docs/content-authoring/lesson-38.json": "148af7fc9500a45beaf4da461c2afb49ecc2367288edde4f0ea8633ddd20d5ad",
+    "docs/content-authoring/lesson-39.json": "c72f298c0401c6793d7e42f2ad26d3ab9f15664b9c74c8c5ec2bf297c6014c8e",
+    "docs/content-authoring/lesson-40.json": "32038d7109c61ad0ad2b9dd948036d3826ace31e8f0d6d4a6d52a250c94f5cbb",
+    "docs/content-authoring/lesson-41.json": "5e06f9299674596c9a38b18d6692dd5faaf951f28dc3592f7765cebcd7207930",
+    "docs/content-authoring/lesson-42.json": "c4cd15f6460e711a7ff03584827efed92513cceba36ba5e9945b145b220d6a59",
+    "docs/content-authoring/lesson-43.json": "27c7f95f26b9f82ec1c7aa7b79a5863ec89f75660383369491fb828a372f9a2e",
+    "docs/content-authoring/lesson-44.json": "04c6046d123cca51a3404e650bc73ba5ac118fc97ea5113bd39293c15bacc476",
+    "docs/content-authoring/lesson-45.json": "21f5f8a2f1223f0af5d1cdb731d421e94db70acf2187d578069084ed5f517d74",
+    "docs/content-authoring/lesson-46.json": "9d897a1572bbaae69680046de8bfd3c0b1426b40b3dbf7afd4bd69d337a8a9db",
+    "docs/content-authoring/lesson-47.json": "3acede821575c3d91ce38b0d18c606fd88d12e13f2b2a2ab1884e80fc960e3e6",
+    "docs/content-authoring/lesson-48.json": "a14eefa0f93b4bbeed1bc60a8d28bafd32daa4fc2d9c743a23fef79045750abc",
+    "docs/content-authoring/lesson-49.json": "d691e9ef0610c5c851df1257d8e661c57632d54d35c91f3b330d61907f95e3f3",
+    "docs/content-authoring/lesson-50.json": "49e51fcc7b49a275ccf06bc1905e1d3b4cde22f87e692f9611569f9954d1c3b2",
+    "docs/content-authoring/kanji/characters-n4.json": "09052fed6c8042d7968943d2eca74708e52d3145082257cc9673ef7882334e8a",
+    "docs/content-authoring/kanji/characters-n5.json": "efd960f1bf4acc4dba04943234e69f054f1166b0f9a5489d2bb8143a441cd1bd",
+    "docs/content-authoring/kanji/kanji-character-set.schema.json": "a35116d70bf47f148661069f97525e126dcd6ff42bfc366cc331fd15b9bfed9c",
+    "docs/content-authoring/kanji/kanji-unit.schema.json": "c1645a99280450e16251d7c420502b80bc25c730ef139daea2f3d2311ca9536e",
+    "docs/content-authoring/kanji/unit-01.json": "21cc905f89a549abf123637ec90bb71b91180c3e74d6418223ea5f76ec7f56b0",
+    "docs/content-authoring/kanji/unit-02.json": "3acdf15024296b3b136b98dddcc50fc93bd390a4906c5969c9d9e9d52fa08af3",
+    "docs/content-authoring/kanji/unit-03.json": "d51323c9aaa0464f3f91abd1f580e9cedf6290a70beea4ef0cbf5ea04ff0ceb9",
+    "docs/content-authoring/kanji/unit-04.json": "fdbaeba7d68ded50b43fdab2f516208b6274c637b6987e3aa50731d35254f528",
+    "docs/content-authoring/kanji/unit-05.json": "6b7adc11eb0df776a5f819ed65315da7f9b0563b00890fb3f4f63accb52992c6",
+    "docs/content-authoring/kanji/unit-06.json": "688b054ab88c161f499cbe29b0f060374923a100022ff0f288b30e15dcfd75dd",
+    "docs/content-authoring/kanji/unit-07.json": "4281d39133706b38a6d0352b5f314720167970257e9cdc08e20ac79536a447b3",
+    "docs/content-authoring/kanji/unit-08.json": "3f02b83d59d9838e61b4e64f1c30ea37c17b314e5df91578cd4dc3c1c57d54d1",
+    "docs/content-authoring/kanji/unit-09.json": "3a5df5317bd3872d8e815679adba48d419c9cdeba2f3ffd94220b9559904ef5a",
+    "docs/content-authoring/kanji/unit-10.json": "73b6489effbf88501eac2d0426fc784d2e0135d47ca15767774db1b5c6c9372e",
+    "docs/content-authoring/kanji/unit-11.json": "e8c6e2037a9c47c431a23fe31f1ce104e9241a8496920ee08204be3f15ac8d04",
+    "docs/content-authoring/kanji/unit-12.json": "41f5327a8d05c8fac9150fc0ba2fc65889f91ed77b3a20f46d30b485759ea2d3",
+    "docs/content-authoring/kanji/unit-13.json": "e4f91e28f744f68195c38d7ae2d5e3f7cbe7f1fa212861cb7d5bd463fa2d2620",
+    "docs/content-authoring/kanji/unit-14.json": "266900adcd5395ac81b6672b38a1870a22c5c0b842952ef7de37959e0393e434",
+    "docs/content-authoring/kanji/unit-15.json": "b97a5debcc55b4fa9d575963d047eea1effabd13bac0699166683ebf9ad79c16",
+    "docs/content-authoring/kanji/unit-16.json": "fd26885aef3fcc97be62f222596d07d8d5ea57f9468cb0fe33acca0b852ed511",
+    "docs/content-authoring/kanji/unit-17.json": "05b2d1d50f8f830ccc28370a11019fe52765d91e76851878dcef44c62a487a27",
+    "docs/content-authoring/kanji/unit-18.json": "b9f0173f5c2bbaf68d40a54a64a30bee54a781af80c0f98e9de008018aa29aa1",
+    "docs/content-authoring/kanji/unit-19.json": "8d37aea7f6f8adc8c09b95469d216e65d52d2cec009483f7782e966d2ff94680",
+    "docs/content-authoring/kanji/unit-20.json": "8f893f2043e73d2c1a61bbe574efcce15e47fb46a8125bafcff06e7b2f0d0945",
+    "docs/content-authoring/kanji/unit-21.json": "e74e6735129c9840284f1f5ccdc1c15dbfb9fbf5d9682fb5b9140498c3d3c5c5",
+    "docs/content-authoring/kanji/unit-22.json": "0436b9820be0ce5d3f206dadb6a0f3bbff8ea88e1239f7d2b3dfa8509112c241",
+    "docs/content-authoring/kanji/unit-23.json": "9dd792f97abdfc0d0d29d04dbbad8986a40187c4a5d0b8776956cb3699b63587",
+    "docs/content-authoring/kanji/unit-24.json": "e3ca75f9e1bb2686a00fd83ec6169e8ba7cf31da0cdcce0210b688129f0727fa",
+    "docs/content-authoring/kanji/unit-25.json": "59c866bc0959d5f0db9d06338a09961a1a2688a894e8e7065a605c1ee601a04b",
+    "docs/content-authoring/kanji/unit-26.json": "73a979257f6fd265b5541cea07e8935195edc2bcf75f696aaaea7f1d6e7da88f",
+    "docs/content-authoring/kanji/unit-27.json": "564ecf6762620c1d1a7fc09ff0ad8baec37a5409db1528eb8ee761ab9e47436a",
+    "docs/content-authoring/kanji/unit-28.json": "4bee49b9fff0d3494ed43eb21edd2ce258d29fd337a4506b84be1437cac8a190",
+    "docs/content-authoring/kanji/unit-29.json": "95dc7c7db2cb120f68e3da0ee911abf1c7502a96607cd08faa13ab396c5ebe14",
+    "docs/content-authoring/kanji/unit-30.json": "313d42722b1fe242be7aa2e2a0b75c5ff7d844a417b95c1395e606f7530744c3",
+    "docs/content-authoring/kanji/unit-31.json": "012b19edda579fbf084ad97aa33ecbdd8c3e5bd9c691549015b395d4517bcc19",
+    "docs/content-authoring/kanji/unit-32.json": "1e4cb307ff84e1ffaa3da0d322fed3c1b2388eb334e3228f4efbd9df81f7227b",
+    "docs/content-authoring/kanji/unit-33.json": "baaabb12d5933dc03ddb025f5f00c06712fde6184566d06c41cd6c3aad9aa7b3",
+    "docs/content-authoring/kanji/unit-34.json": "653255055f20237ddfe9bc15615fdac030c5fa0386806e86a7cd36724876518b",
+    "docs/content-authoring/kanji/unit-35.json": "d4f0e8aa30895d198d0e994b3659f97ebb88ef28aa33ca065f0af2a004a1e66c",
+    "docs/content-authoring/kanji/unit-36.json": "e22bf727e219665bd4ae688578b843ab87465fe2e15f69888c5cdf0135048e2a",
+    "docs/content-authoring/kanji/unit-37.json": "ba7f1c6b343aff69ebd88642904f6597053e5c365ade602fac1b2befdb0ebffd",
+    "docs/content-authoring/kanji/unit-38.json": "35f5149115720899b34dfd4159d4339e86aa7ea2156158460591a281a0308e02",
+    "docs/content-authoring/kanji/unit-39.json": "04e838b8a55abb332db43bce0e8b28301e6ed4f2c11ecea15faaafeec00c1bf4",
+    "docs/content-authoring/kanji/unit-40.json": "e5b566329126b4faf0caebd4727152f3a81ad55c0780f20063f59ad9c1703c4c",
+    "docs/content-authoring/kanji/unit-41.json": "320d8e1fcbc6970ed50bdd306213ce1f8497b645e98d0deaa7135231b96ed5a4",
+    "docs/content-authoring/kanji/unit-42.json": "fb8476ac3d2771a6a45884923b306d0907b0a29617dac811dae75edfa3f212ad",
+    "docs/content-authoring/kanji/unit-43.json": "0a9aaa84088c51158c74f80b9ccbb57ef25ae71ba1bf042c9efd1fcc4d259fa7",
+    "docs/content-authoring/kanji/unit-44.json": "d5089ddb3a1ccfc47e2bcccff129737dffc54229df5950243e29134a3eecf0f9",
+    "docs/content-authoring/kanji/unit-45.json": "b491932a2064884234c8615c1252977ebd5778a1a6055ce1d7d40e491a6735c9",
+    "docs/content-authoring/kanji/unit-46.json": "377d9c4022240c75bafab078cdf94cc42f8221e47609da37d0eb6e9549b595fb",
+    "docs/content-authoring/kanji/unit-47.json": "c8578c21c8e4b19305088e13fa2506b78dc28a6ef317a18e16b0d862354904a8",
+    "docs/content-authoring/kanji/unit-48.json": "419a0cc6014bb32810263f218532efe12849c9cfe0d757c3dea1666f36d7f731",
+    "docs/content-authoring/kanji/unit-49.json": "8bd3568f4780bc015e768673ffef08cbf4a285b1556eacc361faea9497bb1ad0",
+    "docs/content-authoring/kanji/unit-50.json": "7536866f2a0bf11d484234310875caa88aa0c4d785b0e963a2028b1908a64114"
+  },
+  "checks": {
+    "source_inventory_pages": 100,
+    "source_row_target_links_checked": 2189,
+    "all_ledger_rows_mapped": true,
+    "prior_ledger_rows_preserved": 2189,
+    "dialogue_speaker_and_item_references": "Both canonical validators passed across all lessons and units.",
+    "kanji_json_unchanged": true,
+    "source_page_count_method": "PDFKit PDFDocument via temporary pdfinfo-compatible adapter; Poppler is unavailable in this environment.",
+    "linguistic_acceptance": "not_claimed",
+    "source_label_form_comparison": {
+      "rows_checked": 2189,
+      "nonliteral_mappings": [
+        {
+          "lesson": 9,
+          "source_label": "［〜は］ちょっと…。",
+          "authored_form": "ちょっと",
+          "reading": "ちょっと",
+          "ledger_note": "The source uses a trailing ellipsis to signal a tactful refusal; punctuation is omitted in the authored headword."
+        },
+        {
+          "lesson": 17,
+          "source_label": "2、3〜",
+          "authored_form": "二、三〜",
+          "reading": "にさん〜",
+          "ledger_note": "Printed Arabic numerals 2、3 correspond to authored 二、三; preserve the counter placeholder."
+        },
+        {
+          "lesson": 21,
+          "source_label": "もう帰らないと…。",
+          "authored_form": "もう帰らないと",
+          "reading": "もうかえらないと",
+          "ledger_note": "The source trailing ellipsis is discourse punctuation, omitted in the headword."
+        },
+        {
+          "lesson": 33,
+          "source_label": "いくら［〜ても］",
+          "authored_form": "いくら～ても",
+          "reading": "いくら～ても",
+          "ledger_note": "The conditional continuation is explicit in the authored expression; source brackets mark construction context."
+        }
+      ],
+      "extra_authored_entries": [
+        {
+          "lesson": 1,
+          "reading": "ベトナム"
+        }
+      ],
+      "review_conclusion": "The four nonliteral mappings reflect punctuation, numeral spelling or explicit construction brackets, not name replacement. The sole extra authored item is Vietnam, already explicitly sourced to N5_GRAMMAR PDF32 in lesson 1."
+    },
+    "previous_runtime_evidence": "docs/audit/t01-runtime-validation-before-bu59.json"
+  },
+  "limits": [
+    "Existing original dialogues are not textbook dialogue transcriptions; no evidence supports a one-to-one cast mapping.",
+    "Supplementary matrices and material outside the approved two-vocabulary-page lesson scope have not been newly transcribed.",
+    "The source-row ledger predates this review; checking its links does not independently certify the transcription of every source row.",
+    "Independent Japanese/translation review and native TTS pronunciation remain pending."
+  ]
+}

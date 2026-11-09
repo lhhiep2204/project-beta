@@ -1,0 +1,1228 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "12e50559-1eab-42c3-82c8-3be6f1b6d4ad",
+  "editorial_key": "kanji_unit_01",
+  "reference_unit_number": 1,
+  "source_level_label": "N5",
+  "title": {
+    "en": "Days and nature",
+    "vi": "Ngày trong tuần và thiên nhiên"
+  },
+  "character_glyphs": [
+    "日",
+    "月",
+    "火",
+    "水",
+    "木",
+    "金",
+    "土",
+    "山",
+    "川",
+    "田"
+  ],
+  "word_examples": [
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "日曜日",
+            "ruby": "にちようび"
+          }
+        ]
+      },
+      "kana_reading": "にちようび",
+      "meanings": {
+        "en": "Sunday",
+        "vi": "Chủ nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "17f2cc53-bac5-4c8e-8a3f-2bf917fa802a"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "今日",
+            "ruby": "きょう"
+          }
+        ]
+      },
+      "kana_reading": "きょう",
+      "meanings": {
+        "en": "today",
+        "vi": "hôm nay"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "dbcb5d66-af6c-43c6-a0a2-969197cb68d3"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "毎日",
+            "ruby": "まいにち"
+          }
+        ]
+      },
+      "kana_reading": "まいにち",
+      "meanings": {
+        "en": "every day",
+        "vi": "hàng ngày"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "0089d96b-c715-4dc1-8076-e219c2254d9a"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "日本",
+            "ruby": "にほん"
+          }
+        ]
+      },
+      "kana_reading": "にほん",
+      "meanings": {
+        "en": "Japan",
+        "vi": "Nhật Bản"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "f19be0d0-a55b-4a73-8933-ce522a13c0fc"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "日本人",
+            "ruby": "にほんじん"
+          }
+        ]
+      },
+      "kana_reading": "にほんじん",
+      "meanings": {
+        "en": "Japanese person",
+        "vi": "người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "7c3a4e89-f26f-40a9-8efb-177c91dfbd16"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "日本語",
+            "ruby": "にほんご"
+          }
+        ]
+      },
+      "kana_reading": "にほんご",
+      "meanings": {
+        "en": "Japanese language",
+        "vi": "tiếng Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "07ee2037-7140-45cd-9ef3-4e3a9f401414"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "日",
+            "ruby": "ひ"
+          }
+        ]
+      },
+      "kana_reading": "ひ",
+      "meanings": {
+        "en": "day; sun",
+        "vi": "ngày; mặt trời"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "32d08490-a7f2-4b98-9284-b45f8705f47b"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "月曜日",
+            "ruby": "げつようび"
+          }
+        ]
+      },
+      "kana_reading": "げつようび",
+      "meanings": {
+        "en": "Monday",
+        "vi": "thứ Hai"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "502180f8-0bee-47b6-b0ea-9e6ccf8330ba"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "先月",
+            "ruby": "せんげつ"
+          }
+        ]
+      },
+      "kana_reading": "せんげつ",
+      "meanings": {
+        "en": "last month",
+        "vi": "tháng trước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "904c0602-acaf-4d97-9719-f8411b5b47ae"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "今月",
+            "ruby": "こんげつ"
+          }
+        ]
+      },
+      "kana_reading": "こんげつ",
+      "meanings": {
+        "en": "this month",
+        "vi": "tháng này"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a3ead0a6-ee9e-4efa-a86a-a30d7403e648"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "来月",
+            "ruby": "らいげつ"
+          }
+        ]
+      },
+      "kana_reading": "らいげつ",
+      "meanings": {
+        "en": "next month",
+        "vi": "tháng sau"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "1f78be82-d19c-44fc-8927-2baa56891d4c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "毎月",
+            "ruby": "まいつき"
+          }
+        ]
+      },
+      "kana_reading": "まいつき",
+      "meanings": {
+        "en": "every month",
+        "vi": "hàng tháng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "87f58516-1754-45d0-a828-08bf691f4145"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "月",
+            "ruby": "つき"
+          }
+        ]
+      },
+      "kana_reading": "つき",
+      "meanings": {
+        "en": "moon",
+        "vi": "mặt trăng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "962f083b-64fe-491d-a451-e8076fbea22f"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "火曜日",
+            "ruby": "かようび"
+          }
+        ]
+      },
+      "kana_reading": "かようび",
+      "meanings": {
+        "en": "Tuesday",
+        "vi": "thứ Ba"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "802cc1b5-16db-48a9-afea-0f717d923ddd"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "火",
+            "ruby": "ひ"
+          }
+        ]
+      },
+      "kana_reading": "ひ",
+      "meanings": {
+        "en": "fire",
+        "vi": "lửa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "6c16a479-2558-44b2-8b83-669dceeaad9c"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "火事",
+            "ruby": "かじ"
+          }
+        ]
+      },
+      "kana_reading": "かじ",
+      "meanings": {
+        "en": "fire (disaster)",
+        "vi": "hỏa hoạn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "e63f2734-7e57-487b-b8bb-1fce8259a32a"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "水曜日",
+            "ruby": "すいようび"
+          }
+        ]
+      },
+      "kana_reading": "すいようび",
+      "meanings": {
+        "en": "Wednesday",
+        "vi": "thứ Tư"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "56fd999d-b674-4c59-80aa-5e4315921ad1"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "水",
+            "ruby": "みず"
+          }
+        ]
+      },
+      "kana_reading": "みず",
+      "meanings": {
+        "en": "water",
+        "vi": "nước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "b669b751-0a12-4543-aacc-ad76435bedf6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "水道",
+            "ruby": "すいどう"
+          }
+        ]
+      },
+      "kana_reading": "すいどう",
+      "meanings": {
+        "en": "water supply",
+        "vi": "nước máy; hệ thống cấp nước"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "4016903d-4004-45e9-87dd-d81ed759867a"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "木曜日",
+            "ruby": "もくようび"
+          }
+        ]
+      },
+      "kana_reading": "もくようび",
+      "meanings": {
+        "en": "Thursday",
+        "vi": "thứ Năm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "f63f8aa5-4be8-4ca6-a911-d5dc9ff8baec"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "木",
+            "ruby": "き"
+          }
+        ]
+      },
+      "kana_reading": "き",
+      "meanings": {
+        "en": "tree; wood",
+        "vi": "cây; gỗ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "96f96de8-4ff0-4614-961a-fb101456d801"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "金曜日",
+            "ruby": "きんようび"
+          }
+        ]
+      },
+      "kana_reading": "きんようび",
+      "meanings": {
+        "en": "Friday",
+        "vi": "thứ Sáu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "1bbd1d03-a668-4afd-901d-d0324eca08c6"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "金",
+            "ruby": "かね"
+          }
+        ]
+      },
+      "kana_reading": "おかね",
+      "meanings": {
+        "en": "money",
+        "vi": "tiền"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "3f308859-6a57-41e7-a00e-dcb0370e0080"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "金",
+            "ruby": "きん"
+          }
+        ]
+      },
+      "kana_reading": "きん",
+      "meanings": {
+        "en": "gold",
+        "vi": "vàng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "be5732f7-bc3f-49cd-8251-7e6ab70a3bc0"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "土曜日",
+            "ruby": "どようび"
+          }
+        ]
+      },
+      "kana_reading": "どようび",
+      "meanings": {
+        "en": "Saturday",
+        "vi": "thứ Bảy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "979988af-3268-4c69-ac0b-f1bc08cc8752"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "土",
+            "ruby": "つち"
+          }
+        ]
+      },
+      "kana_reading": "つち",
+      "meanings": {
+        "en": "soil",
+        "vi": "đất"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "51178691-fed5-435f-924b-e8e73f430916"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "土地",
+            "ruby": "とち"
+          }
+        ]
+      },
+      "kana_reading": "とち",
+      "meanings": {
+        "en": "land",
+        "vi": "đất đai"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "0a0250bc-6fef-4250-a322-355ca11b8fe5"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "山",
+            "ruby": "やま"
+          }
+        ]
+      },
+      "kana_reading": "やま",
+      "meanings": {
+        "en": "mountain",
+        "vi": "núi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "9f7a3df1-f562-4bd9-84fc-54f4cbc767c0"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "川",
+            "ruby": "かわ"
+          }
+        ]
+      },
+      "kana_reading": "かわ",
+      "meanings": {
+        "en": "river",
+        "vi": "sông"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "aa6e0670-932a-4a80-9af6-ee1b91a0a104"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "田",
+            "ruby": "た"
+          }
+        ]
+      },
+      "kana_reading": "た",
+      "meanings": {
+        "en": "rice field",
+        "vi": "ruộng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "950e0f3f-a63d-4d10-a759-c9162706bd97"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "曜日",
+            "ruby": "ようび"
+          }
+        ]
+      },
+      "kana_reading": "～ようび",
+      "meanings": {
+        "en": "day of the week (after a day name)",
+        "vi": "thứ trong tuần (sau tên ngày)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "692577c5-488d-4c58-bf78-b4160ac8c9e3"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "日",
+            "ruby": "にち"
+          }
+        ]
+      },
+      "kana_reading": "～にち",
+      "meanings": {
+        "en": "days; day of the month (counter)",
+        "vi": "ngày; ngày trong tháng (từ đếm)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "4fb650a9-cb91-4b3d-a7d2-d807b4cd9f13"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～"
+          },
+          {
+            "base": "月",
+            "ruby": "がつ"
+          }
+        ]
+      },
+      "kana_reading": "～がつ",
+      "meanings": {
+        "en": "month of the year (after a number)",
+        "vi": "tháng trong năm (sau số)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "a19fa934-0cc0-4e32-9941-97ff37e5b568"
+    },
+    {
+      "japanese": {
+        "segments": [
+          {
+            "base": "～か"
+          },
+          {
+            "base": "月",
+            "ruby": "げつ"
+          }
+        ]
+      },
+      "kana_reading": "～かげつ",
+      "meanings": {
+        "en": "months (duration counter)",
+        "vi": "tháng (đếm thời lượng)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "basis": "compound_word_reading"
+        },
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 44,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "id": "21915333-239d-45f9-996a-7c5eccd5ae1e"
+    },
+    {
+      "id": "9654fab4-de55-46a0-9c22-452faf53dbba",
+      "japanese": {
+        "segments": [
+          {
+            "base": "山田",
+            "ruby": "やまだ"
+          }
+        ]
+      },
+      "kana_reading": "やまだ",
+      "meanings": {
+        "en": "Yamada, a Japanese surname",
+        "vi": "họ Yamada của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 46,
+          "pdf_page_end": 46,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d32da170-c842-494e-85f4-18455df62400",
+      "japanese": {
+        "segments": [
+          {
+            "base": "田中",
+            "ruby": "たなか"
+          }
+        ]
+      },
+      "kana_reading": "たなか",
+      "meanings": {
+        "en": "Tanaka, a Japanese surname",
+        "vi": "họ Tanaka của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 46,
+          "pdf_page_end": 46,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "285023ec-6c53-41d1-b95f-6079d80d3b2f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "山川",
+            "ruby": "やまかわ"
+          }
+        ]
+      },
+      "kana_reading": "やまかわ",
+      "meanings": {
+        "en": "Yamakawa, a Japanese surname",
+        "vi": "họ Yamakawa của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 46,
+          "pdf_page_end": 46,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7873c97b-a5af-406a-a93d-9dc874050ec7",
+      "japanese": {
+        "segments": [
+          {
+            "base": "中川",
+            "ruby": "なかがわ"
+          }
+        ]
+      },
+      "kana_reading": "なかがわ",
+      "meanings": {
+        "en": "Nakagawa, a Japanese surname",
+        "vi": "họ Nakagawa của người Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 46,
+          "pdf_page_end": 46,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 5,
+    "reference_volume": "Elementary I",
+    "evidence": {
+      "source_id": "N5_KANJI",
+      "pdf_pages": [
+        6,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 1,
+    "end": 5,
+    "may_include_earlier_material": false
+  },
+  "relationship": "group_scope",
+  "source_refs": [
+    {
+      "source_id": "N5_KANJI",
+      "pdf_page_start": 44,
+      "pdf_page_end": 47,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

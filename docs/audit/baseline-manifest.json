@@ -1,0 +1,1401 @@
+{
+  "date": "2026-11-07",
+  "purpose": "Pre-consolidation working-tree baseline; preserves staged/unstaged distinction in git, no index changes made.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 1593,
+      "sha256": "c9981d2b6add12673e979f04c6a57abc1e1224ce4a0125ccea01f9084322ab0c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4240,
+      "sha256": "89a3036ae7aa5d47cbcd48dcc9f3c9180ca7cdc6c3b28b493a94bd14dc8e1d50"
+    },
+    {
+      "path": "docs/ Minna no Nihongo - N5.pdf",
+      "bytes": 15004865,
+      "sha256": "b28e396e4f69679cf1152cd30077e9da02cf2fd328a2e882b94f89a3996db2cd"
+    },
+    {
+      "path": "docs/01-discovery-and-open-questions.md",
+      "bytes": 31605,
+      "sha256": "5152a92fd2ac0906359d950d3e62e53787228c71bc24c5227283a73c33caa297"
+    },
+    {
+      "path": "docs/02-agent-and-delivery-proposal.md",
+      "bytes": 18606,
+      "sha256": "6cf5d991df94615bf274dd3de3e22ea271992fe80c3b8c4524c7c5745aa1071f"
+    },
+    {
+      "path": "docs/Bản dịch và giải thích ngữ pháp - N4.pdf",
+      "bytes": 5731766,
+      "sha256": "dacdcf05badb33d326f6990050b50023aa84b521e183c7505a1d6e30b1103b46"
+    },
+    {
+      "path": "docs/Bản dịch và giải thích ngữ pháp - N5.pdf",
+      "bytes": 5765674,
+      "sha256": "f924ca4781cb3975f23a06bfb88371872f60fab847a7695ee832009ab814904e"
+    },
+    {
+      "path": "docs/Sách Kanji bài học - N4.pdf",
+      "bytes": 17361442,
+      "sha256": "5452c782813de18b941ff71e1a1037af459e271948a59f3a0ad288bd10530b31"
+    },
+    {
+      "path": "docs/Sách Kanji bài học - N5.pdf",
+      "bytes": 19072462,
+      "sha256": "f5412c43c2d27a5ea8714d32a14c7874568904fc39bb8d0d39cdd2d582230eba"
+    },
+    {
+      "path": "docs/Sách giáo khoa - Minna no Nihongo - N4.pdf",
+      "bytes": 33596723,
+      "sha256": "5d0ce9b33bab69e0f6b81d019f12594d95be4ee6a629085410e33fd3687e0008"
+    },
+    {
+      "path": "docs/content-authoring/README.md",
+      "bytes": 10207,
+      "sha256": "cf608253c8bd434ae73a001ddcce2cf68977a720a8d834f64b847b13aacd15e4"
+    },
+    {
+      "path": "docs/content-authoring/authoring.schema.json",
+      "bytes": 19617,
+      "sha256": "8e68e79309a8038f1e570129c29261b55d764b4a03c9eeca187c3746b4f8ca65"
+    },
+    {
+      "path": "docs/content-authoring/batch-review.json",
+      "bytes": 67819,
+      "sha256": "cd96dd4ada5f03f7fb88097060c037e32a9464562d44446252f8f28164e5e4f1"
+    },
+    {
+      "path": "docs/content-authoring/batch-review.md",
+      "bytes": 4561,
+      "sha256": "013cbec305d762a0e3588d08d7aae9c00350c4b84d65b8a79490ca704b9a845a"
+    },
+    {
+      "path": "docs/content-authoring/batch-source-coverage.json",
+      "bytes": 53224,
+      "sha256": "b1775ad21cd2449b92abf5558f6ee186cd4680a7f074c45e4bef50c92b81f3bb"
+    },
+    {
+      "path": "docs/content-authoring/batch-validation-report.json",
+      "bytes": 1286,
+      "sha256": "e0eea9a2ba17f75b425d81c5a15c3db86b0f4d3ad563dcfc820c82e6f68cf631"
+    },
+    {
+      "path": "docs/content-authoring/content-index.md",
+      "bytes": 12834,
+      "sha256": "01bf29a19164f3463c4834a03c10386b05837582c18f2d31210811343e22eafa"
+    },
+    {
+      "path": "docs/content-authoring/editorial-review.json",
+      "bytes": 77572,
+      "sha256": "5caf7f7e8c2c9654b93782d3a963bcb2b3b63388af51ff413d2a63e0257b0443"
+    },
+    {
+      "path": "docs/content-authoring/editorial-review.md",
+      "bytes": 14633,
+      "sha256": "69a738c777d9e86e3606b695004f5a4c0dfd84156023d18141c819d45a3df4c1"
+    },
+    {
+      "path": "docs/content-authoring/kanji/characters-n4.json",
+      "bytes": 454234,
+      "sha256": "09052fed6c8042d7968943d2eca74708e52d3145082257cc9673ef7882334e8a"
+    },
+    {
+      "path": "docs/content-authoring/kanji/characters-n4.md",
+      "bytes": 73245,
+      "sha256": "8efe42fadd9e2db10b9e385bcaeb364eb9fda074093a9e18a0a90f3aa5b07c38"
+    },
+    {
+      "path": "docs/content-authoring/kanji/characters-n5.json",
+      "bytes": 523840,
+      "sha256": "efd960f1bf4acc4dba04943234e69f054f1166b0f9a5489d2bb8143a441cd1bd"
+    },
+    {
+      "path": "docs/content-authoring/kanji/characters-n5.md",
+      "bytes": 67801,
+      "sha256": "f315a91ad55e1f92ccbc9818f1808ed098e7fd17bfef18e3f144ec33e58c5882"
+    },
+    {
+      "path": "docs/content-authoring/kanji/kanji-character-set.schema.json",
+      "bytes": 7865,
+      "sha256": "a35116d70bf47f148661069f97525e126dcd6ff42bfc366cc331fd15b9bfed9c"
+    },
+    {
+      "path": "docs/content-authoring/kanji/kanji-unit.schema.json",
+      "bytes": 9033,
+      "sha256": "c1645a99280450e16251d7c420502b80bc25c730ef139daea2f3d2311ca9536e"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-01.json",
+      "bytes": 26776,
+      "sha256": "21cc905f89a549abf123637ec90bb71b91180c3e74d6418223ea5f76ec7f56b0"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-01.md",
+      "bytes": 12381,
+      "sha256": "558991f4ba0c7dc580452780ddeb2843f8b78fc52ee6956a26f488c56905d2cf"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-02.json",
+      "bytes": 68031,
+      "sha256": "3acdf15024296b3b136b98dddcc50fc93bd390a4906c5969c9d9e9d52fa08af3"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-02.md",
+      "bytes": 28820,
+      "sha256": "aa59ffd451b4ccbe2c136025e4a023f6869e7aed01b7086c276b3e9972e9485d"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-03.json",
+      "bytes": 40767,
+      "sha256": "d51323c9aaa0464f3f91abd1f580e9cedf6290a70beea4ef0cbf5ea04ff0ceb9"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-03.md",
+      "bytes": 19008,
+      "sha256": "cfa8b96081f30df4d53811fd242e8f55df8015385f814d7ebec529c7a6e5ac66"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-04.json",
+      "bytes": 44535,
+      "sha256": "fdbaeba7d68ded50b43fdab2f516208b6274c637b6987e3aa50731d35254f528"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-04.md",
+      "bytes": 20214,
+      "sha256": "b22ef9845d6773ef97f86b16bf48f3337f3456cff0376a6f914feb91fa959e07"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-05.json",
+      "bytes": 24957,
+      "sha256": "6b7adc11eb0df776a5f819ed65315da7f9b0563b00890fb3f4f63accb52992c6"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-05.md",
+      "bytes": 12827,
+      "sha256": "498e879d403f324905ed28405f6de31a7db55fedc4d2671f2ef89908308dfff9"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-06.json",
+      "bytes": 21909,
+      "sha256": "688b054ab88c161f499cbe29b0f060374923a100022ff0f288b30e15dcfd75dd"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-06.md",
+      "bytes": 10987,
+      "sha256": "64517fc2e502ad2cf3d72d81e08e3e17bf3e0f92aafe28c71ef84aecda7d6353"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-07.json",
+      "bytes": 36313,
+      "sha256": "4281d39133706b38a6d0352b5f314720167970257e9cdc08e20ac79536a447b3"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-07.md",
+      "bytes": 16647,
+      "sha256": "63ba333f6fd177c9414774b7d894eb1f520db73c8ec5a3acf8200048a14e1745"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-08.json",
+      "bytes": 18975,
+      "sha256": "3f02b83d59d9838e61b4e64f1c30ea37c17b314e5df91578cd4dc3c1c57d54d1"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-08.md",
+      "bytes": 9485,
+      "sha256": "a7e640424ec9e2d29a0a5e53e5e5931dca79822b3bdcb5ff8a0762f42c2bb264"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-09.json",
+      "bytes": 20846,
+      "sha256": "3a5df5317bd3872d8e815679adba48d419c9cdeba2f3ffd94220b9559904ef5a"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-09.md",
+      "bytes": 10587,
+      "sha256": "c1bea304473c25ab74d5c16f27eee16a4a80cb60da86d7cc9d40b8de3d81f7ff"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-10.json",
+      "bytes": 17149,
+      "sha256": "73b6489effbf88501eac2d0426fc784d2e0135d47ca15767774db1b5c6c9372e"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-10.md",
+      "bytes": 9427,
+      "sha256": "360c490e626f0cc68779099b446f7cac69fc2fd559ff29b4c3e96450b73ef056"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-11.json",
+      "bytes": 30640,
+      "sha256": "e8c6e2037a9c47c431a23fe31f1ce104e9241a8496920ee08204be3f15ac8d04"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-11.md",
+      "bytes": 14103,
+      "sha256": "69fcd5af2504f7f2a1403207374801bf49ec1056d8b2a885c3cbf342e5efc8bf"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-12.json",
+      "bytes": 24021,
+      "sha256": "41f5327a8d05c8fac9150fc0ba2fc65889f91ed77b3a20f46d30b485759ea2d3"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-12.md",
+      "bytes": 11833,
+      "sha256": "d3c53a616ef85f849b915f3346f44f8a0ae8a82b8e0a74c961a8d7e78ea2cefb"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-13.json",
+      "bytes": 22840,
+      "sha256": "e4f91e28f744f68195c38d7ae2d5e3f7cbe7f1fa212861cb7d5bd463fa2d2620"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-13.md",
+      "bytes": 11017,
+      "sha256": "9c2913fb5cf7c4f6b9110d915b985ae5864cc052ba2697276efde0404fd218ac"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-14.json",
+      "bytes": 21039,
+      "sha256": "266900adcd5395ac81b6672b38a1870a22c5c0b842952ef7de37959e0393e434"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-14.md",
+      "bytes": 10900,
+      "sha256": "06b080c801f6a11b6a18bef4b1d90f35a7562af038be6c3d0c257e219205fc3b"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-15.json",
+      "bytes": 28976,
+      "sha256": "b97a5debcc55b4fa9d575963d047eea1effabd13bac0699166683ebf9ad79c16"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-15.md",
+      "bytes": 14116,
+      "sha256": "3f9625f9d5fd7a60176e6d7bfeffc13caf06140440dc8996992004dd59d682a7"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-16.json",
+      "bytes": 30757,
+      "sha256": "fd26885aef3fcc97be62f222596d07d8d5ea57f9468cb0fe33acca0b852ed511"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-16.md",
+      "bytes": 14071,
+      "sha256": "00df3d71fa2b6069d3aeb545806d5f5a602b83829b5ad3da0083585e41c761ae"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-17.json",
+      "bytes": 26634,
+      "sha256": "05b2d1d50f8f830ccc28370a11019fe52765d91e76851878dcef44c62a487a27"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-17.md",
+      "bytes": 12950,
+      "sha256": "5d80c1c46180ee413ae2c3f74cbfdaef9dbf1122eb18ed25a15d9aa47c183c92"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-18.json",
+      "bytes": 19589,
+      "sha256": "b9f0173f5c2bbaf68d40a54a64a30bee54a781af80c0f98e9de008018aa29aa1"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-18.md",
+      "bytes": 10724,
+      "sha256": "c0e78aef4e7d9b294bae22f9ebcecbdf047436ef2208c69452674a5a18340b86"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-19.json",
+      "bytes": 19229,
+      "sha256": "8d37aea7f6f8adc8c09b95469d216e65d52d2cec009483f7782e966d2ff94680"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-19.md",
+      "bytes": 10179,
+      "sha256": "38c86b3a85a930706704e45eca2b18afac149964eec50c4d14cf961bd63af125"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-20.json",
+      "bytes": 26536,
+      "sha256": "8f893f2043e73d2c1a61bbe574efcce15e47fb46a8125bafcff06e7b2f0d0945"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-20.md",
+      "bytes": 12551,
+      "sha256": "f15631275d51cacb73a5ef5c62553363a0c91e9c6f9463d2d980d7384886b3b2"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-21.json",
+      "bytes": 57401,
+      "sha256": "e74e6735129c9840284f1f5ccdc1c15dbfb9fbf5d9682fb5b9140498c3d3c5c5"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-21.md",
+      "bytes": 50061,
+      "sha256": "cd2e658b43571a29d0583d1cca0618e367422a5c1152a0d7a89603d38c12381c"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-22.json",
+      "bytes": 69797,
+      "sha256": "0436b9820be0ce5d3f206dadb6a0f3bbff8ea88e1239f7d2b3dfa8509112c241"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-22.md",
+      "bytes": 62029,
+      "sha256": "147aa17ced0ce5863046d23794c54f5dd55e3136708b18e46794167f02fff4d6"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-23.json",
+      "bytes": 9198,
+      "sha256": "9dd792f97abdfc0d0d29d04dbbad8986a40187c4a5d0b8776956cb3699b63587"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-23.md",
+      "bytes": 8872,
+      "sha256": "f71ca375c78f3e5b42b4efb3cd598ee8286d40eba4657bcc9e1027372750bc85"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-24.json",
+      "bytes": 9221,
+      "sha256": "e3ca75f9e1bb2686a00fd83ec6169e8ba7cf31da0cdcce0210b688129f0727fa"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-24.md",
+      "bytes": 8527,
+      "sha256": "6351d3ee8b42d44680769ad44f17403587814f093e0f5218de45af2310abc569"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-25.json",
+      "bytes": 12281,
+      "sha256": "59c866bc0959d5f0db9d06338a09961a1a2688a894e8e7065a605c1ee601a04b"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-25.md",
+      "bytes": 10614,
+      "sha256": "67fae69608e42e90f5b5ab363d5688f08332d978cde952b7e2981ba873aeb84b"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-26.json",
+      "bytes": 10505,
+      "sha256": "73a979257f6fd265b5541cea07e8935195edc2bcf75f696aaaea7f1d6e7da88f"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-26.md",
+      "bytes": 10841,
+      "sha256": "6946e822faf580fe144b9cfcc6978087e963cd381b50eb42dfc612e76c51f0fe"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-27.json",
+      "bytes": 13491,
+      "sha256": "564ecf6762620c1d1a7fc09ff0ad8baec37a5409db1528eb8ee761ab9e47436a"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-27.md",
+      "bytes": 11634,
+      "sha256": "81f85a11c6ff204ab51640880c8f2ef93df805ce996d9323dce6f7868d95fc19"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-28.json",
+      "bytes": 12150,
+      "sha256": "4bee49b9fff0d3494ed43eb21edd2ce258d29fd337a4506b84be1437cac8a190"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-28.md",
+      "bytes": 10751,
+      "sha256": "3775d7d4caa4304b4e80ef1505f5a97bd5fec6768cb026d13fcb55f2fba7864c"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-29.json",
+      "bytes": 16100,
+      "sha256": "95dc7c7db2cb120f68e3da0ee911abf1c7502a96607cd08faa13ab396c5ebe14"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-29.md",
+      "bytes": 13408,
+      "sha256": "984b8edf834148af7a3f9f174d36d79239c3c04f4c2bfbd692160ef432cbf004"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-30.json",
+      "bytes": 11926,
+      "sha256": "313d42722b1fe242be7aa2e2a0b75c5ff7d844a417b95c1395e606f7530744c3"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-30.md",
+      "bytes": 9653,
+      "sha256": "4ef9289dfd2b39fa2ebe5ac001dd967b514fc9cf3d9150e7633cd494e20280e1"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-31.json",
+      "bytes": 16263,
+      "sha256": "012b19edda579fbf084ad97aa33ecbdd8c3e5bd9c691549015b395d4517bcc19"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-31.md",
+      "bytes": 17395,
+      "sha256": "0339fcfb8d7140c013ee59b182e6c3a21cb4ac282f025bca76d680017d887f8a"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-32.json",
+      "bytes": 16059,
+      "sha256": "1e4cb307ff84e1ffaa3da0d322fed3c1b2388eb334e3228f4efbd9df81f7227b"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-32.md",
+      "bytes": 15757,
+      "sha256": "42002a654cef66aa87d031aba8c6ae74d872cf1c14ceaac1b7bf8f2087abc145"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-33.json",
+      "bytes": 14230,
+      "sha256": "baaabb12d5933dc03ddb025f5f00c06712fde6184566d06c41cd6c3aad9aa7b3"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-33.md",
+      "bytes": 12635,
+      "sha256": "727c5489a6e286e4e0a2825a8915fee8008d7f5e7060946e2f90a06a91797ca6"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-34.json",
+      "bytes": 16043,
+      "sha256": "653255055f20237ddfe9bc15615fdac030c5fa0386806e86a7cd36724876518b"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-34.md",
+      "bytes": 14137,
+      "sha256": "15e968ab0fd132cd5efd6827a56d136a5733407b3580539a7cc2bf4267e67cb6"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-35.json",
+      "bytes": 16590,
+      "sha256": "d4f0e8aa30895d198d0e994b3659f97ebb88ef28aa33ca065f0af2a004a1e66c"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-35.md",
+      "bytes": 13443,
+      "sha256": "71f93b2a6454ee25d6c62a3515c78af38caf5c45a1f5b9cbe7bec74a7eb17aa6"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-36.json",
+      "bytes": 10473,
+      "sha256": "e22bf727e219665bd4ae688578b843ab87465fe2e15f69888c5cdf0135048e2a"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-36.md",
+      "bytes": 8389,
+      "sha256": "69157e47bc38b978fb6cb88a9699a516345459bf2d4ca3a7afe803dc676aaddf"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-37.json",
+      "bytes": 14257,
+      "sha256": "ba7f1c6b343aff69ebd88642904f6597053e5c365ade602fac1b2befdb0ebffd"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-37.md",
+      "bytes": 12663,
+      "sha256": "71fc792765aa58150810eee0f9c89b98baf1696b9c8a950fb5a67278ef59925a"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-38.json",
+      "bytes": 17478,
+      "sha256": "35f5149115720899b34dfd4159d4339e86aa7ea2156158460591a281a0308e02"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-38.md",
+      "bytes": 15932,
+      "sha256": "f52f4c19da9025402c49eb508df43e5cb9f27e2f36dee96a2012fca341a29d32"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-39.json",
+      "bytes": 14465,
+      "sha256": "04e838b8a55abb332db43bce0e8b28301e6ed4f2c11ecea15faaafeec00c1bf4"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-39.md",
+      "bytes": 12933,
+      "sha256": "7c16a71e527c231d2c62dc2def1904e0be5bc56e12e098947e4d447f1367ee13"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-40.json",
+      "bytes": 13541,
+      "sha256": "e5b566329126b4faf0caebd4727152f3a81ad55c0780f20063f59ad9c1703c4c"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-40.md",
+      "bytes": 12008,
+      "sha256": "d568e933a799dd4202abf604413a12ac977635daa949db1fcfa141708e408d79"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-41.json",
+      "bytes": 15735,
+      "sha256": "320d8e1fcbc6970ed50bdd306213ce1f8497b645e98d0deaa7135231b96ed5a4"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-41.md",
+      "bytes": 15481,
+      "sha256": "71ba592cfd2afaabbdfc9c370f4f68db7677ed899f0bf0c85066fb06cc06ee32"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-42.json",
+      "bytes": 12986,
+      "sha256": "fb8476ac3d2771a6a45884923b306d0907b0a29617dac811dae75edfa3f212ad"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-42.md",
+      "bytes": 12607,
+      "sha256": "df7abb5daa71f9ee3d7ceb080c96be76660db3213645207e93a70acd07603d68"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-43.json",
+      "bytes": 14202,
+      "sha256": "0a9aaa84088c51158c74f80b9ccbb57ef25ae71ba1bf042c9efd1fcc4d259fa7"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-43.md",
+      "bytes": 11741,
+      "sha256": "ffd417623d1279183a12aacd28334f10ee84203933086918f0e47d03a8705806"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-44.json",
+      "bytes": 13492,
+      "sha256": "d5089ddb3a1ccfc47e2bcccff129737dffc54229df5950243e29134a3eecf0f9"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-44.md",
+      "bytes": 10264,
+      "sha256": "642ff83f93e48ae5adebf3fdf832745ee86854c66419a4ce4480a38b161b97e3"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-45.json",
+      "bytes": 11886,
+      "sha256": "b491932a2064884234c8615c1252977ebd5778a1a6055ce1d7d40e491a6735c9"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-45.md",
+      "bytes": 10464,
+      "sha256": "866b4d9fd3cdc198a7348a83a6d3e875f002b2c8e2e1386e52040b9145bb5e84"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-46.json",
+      "bytes": 11389,
+      "sha256": "377d9c4022240c75bafab078cdf94cc42f8221e47609da37d0eb6e9549b595fb"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-46.md",
+      "bytes": 10290,
+      "sha256": "01d60e450097bfeee24cfafe1258ef96e2be0e783ecbbbb99ba861152f03f2c8"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-47.json",
+      "bytes": 18185,
+      "sha256": "c8578c21c8e4b19305088e13fa2506b78dc28a6ef317a18e16b0d862354904a8"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-47.md",
+      "bytes": 17752,
+      "sha256": "810e0cb62cd1389990c7c359a43793caad3d8e9a07742dfcfdbfb351f9b5bb33"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-48.json",
+      "bytes": 12731,
+      "sha256": "419a0cc6014bb32810263f218532efe12849c9cfe0d757c3dea1666f36d7f731"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-48.md",
+      "bytes": 13639,
+      "sha256": "87012bf2abecfb0b7af871bc5e73710ee66a0743d4ea83d8d4e0f754d28b9d02"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-49.json",
+      "bytes": 14058,
+      "sha256": "8bd3568f4780bc015e768673ffef08cbf4a285b1556eacc361faea9497bb1ad0"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-49.md",
+      "bytes": 12666,
+      "sha256": "9e12ace93b95ba45146bc324f8d98051c2f4d125c2b08433ca3b13786e5851d4"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-50.json",
+      "bytes": 12946,
+      "sha256": "7536866f2a0bf11d484234310875caa88aa0c4d785b0e963a2028b1908a64114"
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-50.md",
+      "bytes": 11922,
+      "sha256": "b0be8264e5b602ab5d81cd50bab0ff28fddda52df603f255e744a1ce25ebac0d"
+    },
+    {
+      "path": "docs/content-authoring/lesson-01.json",
+      "bytes": 78716,
+      "sha256": "e62cb694c992d9bb68c3915b472816d25494d5d2ac527525a81d93bd00c4113a"
+    },
+    {
+      "path": "docs/content-authoring/lesson-01.md",
+      "bytes": 19804,
+      "sha256": "17a81d88e933523ff2486531d29119dbd32b85787d234537d61d7ca5c68ef3d9"
+    },
+    {
+      "path": "docs/content-authoring/lesson-02.json",
+      "bytes": 81111,
+      "sha256": "e3824f9b6aa70d5f6e2d83d7a9e5e0f8b5cc073029742a3f866906768c66d7ed"
+    },
+    {
+      "path": "docs/content-authoring/lesson-02.md",
+      "bytes": 16757,
+      "sha256": "b426127fc46d1c051f27c911f100f878b810a2555bcae4e15909007863eec8ce"
+    },
+    {
+      "path": "docs/content-authoring/lesson-03.json",
+      "bytes": 76066,
+      "sha256": "06736ae7844d4dab843d2750bae0258fabf2793c0260e8d3a46e3e1c2b11ed97"
+    },
+    {
+      "path": "docs/content-authoring/lesson-03.md",
+      "bytes": 14180,
+      "sha256": "fbe4b4c2f0ba7693ef8b4ab472a5b41a286f633a2ea9726d6ef8d3d974735f80"
+    },
+    {
+      "path": "docs/content-authoring/lesson-04.json",
+      "bytes": 90834,
+      "sha256": "5efd31c68769077a904770404fad31f5af07e8e820798fb51a73dbf90854f923"
+    },
+    {
+      "path": "docs/content-authoring/lesson-04.md",
+      "bytes": 15992,
+      "sha256": "b6f694d12fc1e90963d3e8c970e821d24acf6b63fb4c5d80076a320455d1aee4"
+    },
+    {
+      "path": "docs/content-authoring/lesson-05.json",
+      "bytes": 95270,
+      "sha256": "2f8259aa666f2e09625ed871af6b168376085ab991c52e1dc14313ea109ec4ca"
+    },
+    {
+      "path": "docs/content-authoring/lesson-05.md",
+      "bytes": 16863,
+      "sha256": "6117f2d7d321abbc424c10b16f4ff1dd2aa12732c1ba4251612df8f44cd00057"
+    },
+    {
+      "path": "docs/content-authoring/lesson-06.json",
+      "bytes": 91864,
+      "sha256": "17d3abdcb8801ab8c225273d422f87639d43abea7215f305b1004afb27f0c24e"
+    },
+    {
+      "path": "docs/content-authoring/lesson-06.md",
+      "bytes": 17200,
+      "sha256": "8558ff98147b0133f8e0a1ee79ed95bca0deaddc1f2f75917bfa6eb780eeba12"
+    },
+    {
+      "path": "docs/content-authoring/lesson-07.json",
+      "bytes": 80963,
+      "sha256": "ccfd0bff690c28063478fd4518c98010ce1a763d1386578f0d33bf99e50dacce"
+    },
+    {
+      "path": "docs/content-authoring/lesson-07.md",
+      "bytes": 15133,
+      "sha256": "3dbd66df5ba62df704366cd87ad75f7a7b9d966acafd6db2575dd43e60eb943a"
+    },
+    {
+      "path": "docs/content-authoring/lesson-08.json",
+      "bytes": 99894,
+      "sha256": "d22e7c596276c00592486ecad9fd7a0321f4b44cedd0eaffa7f0ae9ea8a7cbb1"
+    },
+    {
+      "path": "docs/content-authoring/lesson-08.md",
+      "bytes": 17879,
+      "sha256": "e027359d4f7d1a29a50497b873a0df6522b91343bfa33d2cd2c2595ace4152c2"
+    },
+    {
+      "path": "docs/content-authoring/lesson-09.json",
+      "bytes": 85073,
+      "sha256": "8abf2312b5f073fa4710cbe9bbad3ad750393394c1f395f532ef56e0ff5b0b53"
+    },
+    {
+      "path": "docs/content-authoring/lesson-09.md",
+      "bytes": 14595,
+      "sha256": "01fff60cea862a7b16df4701fb23b77746d8f1b0baabaecca7be57cb58bdfbc9"
+    },
+    {
+      "path": "docs/content-authoring/lesson-10.json",
+      "bytes": 78126,
+      "sha256": "b959b9be8974a44cec7ce00d4dc41a673661064c8a665c6846a629003e2e6348"
+    },
+    {
+      "path": "docs/content-authoring/lesson-10.md",
+      "bytes": 14163,
+      "sha256": "ec4250e29ef36e287733ea51beb29b567599165355caf5334b22df09926e0497"
+    },
+    {
+      "path": "docs/content-authoring/lesson-11.json",
+      "bytes": 92737,
+      "sha256": "e56e02c8ee1b341aee5423bbbf2f2b0e3551ee26e0c432185ec5f63449b4fd73"
+    },
+    {
+      "path": "docs/content-authoring/lesson-11.md",
+      "bytes": 15189,
+      "sha256": "aabe2c03f3400a1378199ccc4bb223264722f574994cd07049a163bb32bda8bc"
+    },
+    {
+      "path": "docs/content-authoring/lesson-12.json",
+      "bytes": 86447,
+      "sha256": "9b575a89dbce035cfc5aea15a80b92cfbf719b1e92aa740947fd3f97de58c366"
+    },
+    {
+      "path": "docs/content-authoring/lesson-12.md",
+      "bytes": 15343,
+      "sha256": "6191190960a6656f4590f6935016ccf143d4a43bd994452f6cdd80a796b2352f"
+    },
+    {
+      "path": "docs/content-authoring/lesson-13.json",
+      "bytes": 63393,
+      "sha256": "5af8614f94c78a88491dd698974373231a4d35e3be3b34dcfbf82a7d48b7d3d3"
+    },
+    {
+      "path": "docs/content-authoring/lesson-13.md",
+      "bytes": 13506,
+      "sha256": "6dcf48878cd426a1185afe039931ea4e4fc29353b4f9e9e457fba9404ab27e8d"
+    },
+    {
+      "path": "docs/content-authoring/lesson-14.json",
+      "bytes": 90845,
+      "sha256": "f803c6e01f9629232c2a8d5b18d19f2fea59928b414763a15f9a3ad7644a3caf"
+    },
+    {
+      "path": "docs/content-authoring/lesson-14.md",
+      "bytes": 21842,
+      "sha256": "381ae6ee49e248a2e06fd415b74290e323f4a5fdddce0e6ec600b37b94e4caf0"
+    },
+    {
+      "path": "docs/content-authoring/lesson-15.json",
+      "bytes": 56445,
+      "sha256": "c66399e518153a90ffb553f154d3861d4437f1634e6ae9c3a853ab6978f893ca"
+    },
+    {
+      "path": "docs/content-authoring/lesson-15.md",
+      "bytes": 15012,
+      "sha256": "6153b5bf5b6b60b4e3fb5fe7f4e5ff3c28ed6c6d4e3e4bbeb8bfab2399e76f1e"
+    },
+    {
+      "path": "docs/content-authoring/lesson-16.json",
+      "bytes": 102652,
+      "sha256": "64fb5f48486b208dc58982b6d4587bca13ff3f0d686f1db0ed112c416bfabf2d"
+    },
+    {
+      "path": "docs/content-authoring/lesson-16.md",
+      "bytes": 20600,
+      "sha256": "e3a469a6ce9f646489676a4b48634c6b19a8d6feb2e44d32fd42ab86c5f7769c"
+    },
+    {
+      "path": "docs/content-authoring/lesson-17.json",
+      "bytes": 74166,
+      "sha256": "184ede958c27592b855fc1457e64249ad1f15523ea9a9e8ee52a8e7b8ca37fa6"
+    },
+    {
+      "path": "docs/content-authoring/lesson-17.md",
+      "bytes": 18429,
+      "sha256": "5395c09dc6aaa1f542129a374b11264e22e2ccfe2ad292ab5af373c302ea27c2"
+    },
+    {
+      "path": "docs/content-authoring/lesson-18.json",
+      "bytes": 66925,
+      "sha256": "5a87e6f348be93c4a595e344047bb0740341e7764b4534919754d36691376739"
+    },
+    {
+      "path": "docs/content-authoring/lesson-18.md",
+      "bytes": 16889,
+      "sha256": "434e66af1a558860deda5bae8f435c089ac674449d64589a9437b28e175bbd9e"
+    },
+    {
+      "path": "docs/content-authoring/lesson-19.json",
+      "bytes": 55398,
+      "sha256": "9428656c61f5d0034553a7bbb82e54f86f72bb13ddfa0250c8b337da40dce6e8"
+    },
+    {
+      "path": "docs/content-authoring/lesson-19.md",
+      "bytes": 13327,
+      "sha256": "05bc3b3e3cf54f5fd9b6a1c9b4738c68762d3e9d62087a1b4e0e184355d71a11"
+    },
+    {
+      "path": "docs/content-authoring/lesson-20.json",
+      "bytes": 43283,
+      "sha256": "5af094cc5a686a52a687cb1f0ed6ae19ce8b5d29f6ca42b42bfcec28b8f3cc55"
+    },
+    {
+      "path": "docs/content-authoring/lesson-20.md",
+      "bytes": 10463,
+      "sha256": "2eab6e7a13f56ccbeb1af492b1780089715eee3e4904f77ad4140fe098132865"
+    },
+    {
+      "path": "docs/content-authoring/lesson-21.json",
+      "bytes": 90263,
+      "sha256": "262327fc0dd60d2809289e145252ac1e8adb57293f19c878303b96d2e5f59e69"
+    },
+    {
+      "path": "docs/content-authoring/lesson-21.md",
+      "bytes": 19483,
+      "sha256": "489c11fe525820024cf75a451dce13cd514c647bb1ae11793718380ef91a2b20"
+    },
+    {
+      "path": "docs/content-authoring/lesson-22.json",
+      "bytes": 56298,
+      "sha256": "6e6f2d7a53a749d07fec2a8b1d96b6483d2800458839c066c4e7b1fb537aa94c"
+    },
+    {
+      "path": "docs/content-authoring/lesson-22.md",
+      "bytes": 12488,
+      "sha256": "e33bd2102d297cb385e0a90d8512ce0b0381ea3568a84924d63f90fc6f584ae2"
+    },
+    {
+      "path": "docs/content-authoring/lesson-23.json",
+      "bytes": 61151,
+      "sha256": "bd906de745f3ca33f4b8f8173620a59298f7ba5886591470014e8b5a4e469961"
+    },
+    {
+      "path": "docs/content-authoring/lesson-23.md",
+      "bytes": 14972,
+      "sha256": "0b7fe36738ee266dd5701d1dcbffe6b09d69383189736c51fda19701adb54376"
+    },
+    {
+      "path": "docs/content-authoring/lesson-24.json",
+      "bytes": 53052,
+      "sha256": "14667859565668a52ee254d1c02ed6cbf4fc9d6687bcf9e22f23205e94e14a6f"
+    },
+    {
+      "path": "docs/content-authoring/lesson-24.md",
+      "bytes": 13501,
+      "sha256": "7fe27be3309c0dfebf488b2fc31c7035ebb769b09bacf582f349fde3537631bf"
+    },
+    {
+      "path": "docs/content-authoring/lesson-25.json",
+      "bytes": 49448,
+      "sha256": "ed5236cc0f5a1305c159d335ead449a51ece12541b97042e402bd16ef709ba0d"
+    },
+    {
+      "path": "docs/content-authoring/lesson-25.md",
+      "bytes": 14062,
+      "sha256": "d8e6506c58ac3a239834a42bb284ac6578845448a63e9cad944ca4e1a4ea3e77"
+    },
+    {
+      "path": "docs/content-authoring/lesson-26.json",
+      "bytes": 101153,
+      "sha256": "4a0ded2c4a44178a79457ca7c1a161d244f228618796d0a76a628662a437e8d0"
+    },
+    {
+      "path": "docs/content-authoring/lesson-26.md",
+      "bytes": 25960,
+      "sha256": "7e2bf60d1037e980c81156b768d55808816e6211eaa82958e5d4a8c51532cb9f"
+    },
+    {
+      "path": "docs/content-authoring/lesson-27.json",
+      "bytes": 80686,
+      "sha256": "95526f7b675a709305b342c27e0aa76b05544e2734b86a347c3cc36143feb9d4"
+    },
+    {
+      "path": "docs/content-authoring/lesson-27.md",
+      "bytes": 16292,
+      "sha256": "dc243235a5019c2976cd2ec2b33bd3c03546be424ab5ab37d720c2edd26e90bc"
+    },
+    {
+      "path": "docs/content-authoring/lesson-28.json",
+      "bytes": 83308,
+      "sha256": "1b9e908d1c32f63a4845d3bcea27b1dd323c021f0e92458a3b15a54ede685ea2"
+    },
+    {
+      "path": "docs/content-authoring/lesson-28.md",
+      "bytes": 14738,
+      "sha256": "af30031a6736f50312a375e30ff7bb67ce616c690949afe0342ba394cb2548c0"
+    },
+    {
+      "path": "docs/content-authoring/lesson-29.json",
+      "bytes": 89952,
+      "sha256": "8e31626cf76cba50d5b36886a4158dbfe8404a0d1f3269595c3a7f78e3634003"
+    },
+    {
+      "path": "docs/content-authoring/lesson-29.md",
+      "bytes": 17141,
+      "sha256": "3877bd361c9841bb6770324e5f8232f9d8519bdfe8120867daf4819ca9b08400"
+    },
+    {
+      "path": "docs/content-authoring/lesson-30.json",
+      "bytes": 80692,
+      "sha256": "5d6cc2198571e28a1f9c26bf50d03afea2ec0b4745f26a1128dd8d460d317647"
+    },
+    {
+      "path": "docs/content-authoring/lesson-30.md",
+      "bytes": 14721,
+      "sha256": "dcc30dc3e31c55718e2e7f48e26467b80813321b123d58fb4e67f90e940a99fb"
+    },
+    {
+      "path": "docs/content-authoring/lesson-31.json",
+      "bytes": 70950,
+      "sha256": "c628f00b4083ff0cc47913d0f876735a8b9a968ef7ab7954e8362ec4ae7c2407"
+    },
+    {
+      "path": "docs/content-authoring/lesson-31.md",
+      "bytes": 14811,
+      "sha256": "099d63cbce3698d142dd91addf01bbae655548d03ed293f68c817eb76c2b547e"
+    },
+    {
+      "path": "docs/content-authoring/lesson-32.json",
+      "bytes": 90765,
+      "sha256": "2c1c0184275012ce981b5648739265e849bfbe7a5cdc05302e50ad3c2b014bce"
+    },
+    {
+      "path": "docs/content-authoring/lesson-32.md",
+      "bytes": 16279,
+      "sha256": "989346b64dc2f336de35be5f33d95ba6a496590531838baecb20a069a683649a"
+    },
+    {
+      "path": "docs/content-authoring/lesson-33.json",
+      "bytes": 86890,
+      "sha256": "e48ff09b4e8172f82e824203367864a7197ab06aa08190dea37a099be72a44e7"
+    },
+    {
+      "path": "docs/content-authoring/lesson-33.md",
+      "bytes": 16754,
+      "sha256": "050895aa31da537e2e27aa50f747b6fa533fe3bf68b6d4c071f9abfb8e46fe0c"
+    },
+    {
+      "path": "docs/content-authoring/lesson-34.json",
+      "bytes": 78152,
+      "sha256": "b5c0cec9dcc2c6e473afac1af3f5aed356f560db69b5414fd82dbd2dd1c6f40b"
+    },
+    {
+      "path": "docs/content-authoring/lesson-34.md",
+      "bytes": 13214,
+      "sha256": "daeb7d5ce81baab7271cd70b890c5659eaa0c3da9756257cbcb68136843937f5"
+    },
+    {
+      "path": "docs/content-authoring/lesson-35.json",
+      "bytes": 78540,
+      "sha256": "2893d25c70acefe58aa74f01334eb4c27637c2744befdff278201682fed34caf"
+    },
+    {
+      "path": "docs/content-authoring/lesson-35.md",
+      "bytes": 14719,
+      "sha256": "55adbb5a0c0abd6022ecf0f5d6288de9eb0787490712865493dc581aa0454603"
+    },
+    {
+      "path": "docs/content-authoring/lesson-36.json",
+      "bytes": 65587,
+      "sha256": "decd367009626050f849eb2c98932eacf55eae7a56104ea340e4b6e355262a36"
+    },
+    {
+      "path": "docs/content-authoring/lesson-36.md",
+      "bytes": 12785,
+      "sha256": "373fa11202de3f7047511f56ca489cc7012aee79a2476e0fd7566c4fa3302f89"
+    },
+    {
+      "path": "docs/content-authoring/lesson-37.json",
+      "bytes": 106122,
+      "sha256": "8d74c6a030a8898b8d9f2d4384a7020fde68f5a8859811286939fa255c283247"
+    },
+    {
+      "path": "docs/content-authoring/lesson-37.md",
+      "bytes": 20037,
+      "sha256": "7b30e026dab61a0e7c6c7ad85b61a78486d38f8217beae77634c653ce67b5f11"
+    },
+    {
+      "path": "docs/content-authoring/lesson-38.json",
+      "bytes": 93228,
+      "sha256": "ac14faec66182c51417c3423ef3228367cae13ebd26b326bc22ed881cebdab26"
+    },
+    {
+      "path": "docs/content-authoring/lesson-38.md",
+      "bytes": 17454,
+      "sha256": "ff4457923e38917c9f70737cf87eb653eb2b28b88805f9e63d7cd017ca4634ac"
+    },
+    {
+      "path": "docs/content-authoring/lesson-39.json",
+      "bytes": 79896,
+      "sha256": "cda5a5a6b3e3d346847cead767c77c058860612c9eb125eda6fbedc079b46f53"
+    },
+    {
+      "path": "docs/content-authoring/lesson-39.md",
+      "bytes": 13920,
+      "sha256": "36a0c967f5885cedf1676f6e6bfb3f08ce361ff36784a209bb9aaa8d9c7e6b44"
+    },
+    {
+      "path": "docs/content-authoring/lesson-40.json",
+      "bytes": 94558,
+      "sha256": "7a7a651784347705dcc804f3c093e37d4475d8aae5724cf4b2f8a878fdfa12a3"
+    },
+    {
+      "path": "docs/content-authoring/lesson-40.md",
+      "bytes": 16390,
+      "sha256": "1ee08f10ab9e4a307a6c09ffb8c95856cf56fbfc5c93376ec5465b9ad5866835"
+    },
+    {
+      "path": "docs/content-authoring/lesson-41.json",
+      "bytes": 88041,
+      "sha256": "d4c0c47e6d5fe99f4ebb93bbe35e0a26e2b8d82965684b58f1fbce5d31b3b070"
+    },
+    {
+      "path": "docs/content-authoring/lesson-41.md",
+      "bytes": 15193,
+      "sha256": "3c912ab47669390511e221439ec68abc83b8563f0642a0de36126a6e72d516e1"
+    },
+    {
+      "path": "docs/content-authoring/lesson-42.json",
+      "bytes": 81895,
+      "sha256": "8fd2efbfff7e5cf706ced41c6ffa362bdebbf7d41eaaa71d7384ff6d43de7a32"
+    },
+    {
+      "path": "docs/content-authoring/lesson-42.md",
+      "bytes": 14440,
+      "sha256": "4666caa331dbd4bafdb5b8f1dacd0e51b1a788c0cc1a45558a5431143f9d11a8"
+    },
+    {
+      "path": "docs/content-authoring/lesson-43.json",
+      "bytes": 48371,
+      "sha256": "dd1cb05a5de069ae6085fbb907ebdf8a27afbfdc131f400c510abe5d48d0cc76"
+    },
+    {
+      "path": "docs/content-authoring/lesson-43.md",
+      "bytes": 10308,
+      "sha256": "cf9c7c54081461ae6ac2cc4d4c1480723abce5742b2debad99eb1a81271d1b88"
+    },
+    {
+      "path": "docs/content-authoring/lesson-44.json",
+      "bytes": 70303,
+      "sha256": "5ff3ebc68d34d53c31a55508b92ada22e82b3962148025f942278bb78c9804e8"
+    },
+    {
+      "path": "docs/content-authoring/lesson-44.md",
+      "bytes": 13248,
+      "sha256": "6a15472795a0fc8d09c4de53a057a8e78cd179e35b48050c0c9b5f5c65a38d61"
+    },
+    {
+      "path": "docs/content-authoring/lesson-45.json",
+      "bytes": 47676,
+      "sha256": "3e240c81f5215b14b215fa13f6196849193f56112ba7600a920d8976c583dedf"
+    },
+    {
+      "path": "docs/content-authoring/lesson-45.md",
+      "bytes": 10064,
+      "sha256": "1bd20264463cea61cd299adf9fbd73459f190a5f3f8d838805830ad914e6f140"
+    },
+    {
+      "path": "docs/content-authoring/lesson-46.json",
+      "bytes": 58584,
+      "sha256": "df4a3e028e27eb69852f5eb1aa645b017d66f2b386c3dc025f6b42a62f9e20c8"
+    },
+    {
+      "path": "docs/content-authoring/lesson-46.md",
+      "bytes": 12221,
+      "sha256": "2d753a2f9e3ae5b0599d4deaeb52317bc05bd0026569ce9eeab817be4bf2dc0b"
+    },
+    {
+      "path": "docs/content-authoring/lesson-47.json",
+      "bytes": 56502,
+      "sha256": "5b2276b82eb4498a091c5e2fd588a13d0133a1ba48caeca26059a02217ed9be3"
+    },
+    {
+      "path": "docs/content-authoring/lesson-47.md",
+      "bytes": 11178,
+      "sha256": "5eca19b07ae0d7ec6a7feba2fac26eda794b3adc09c0f521bae2e064569c69fc"
+    },
+    {
+      "path": "docs/content-authoring/lesson-48.json",
+      "bytes": 47805,
+      "sha256": "0364114f08be1682efc11e8e3ce0be80310a8fc5b93409c40cb5a4c8708b4682"
+    },
+    {
+      "path": "docs/content-authoring/lesson-48.md",
+      "bytes": 11577,
+      "sha256": "fc326b2f2067efa2b430dd04004fff2f01bafe2ee8dc47b1f6b03f49bcaebdd9"
+    },
+    {
+      "path": "docs/content-authoring/lesson-49.json",
+      "bytes": 67871,
+      "sha256": "b4d83b1eaecb27c91baf64a31a6c1db3653efd12678633a8300868c0709ec2ba"
+    },
+    {
+      "path": "docs/content-authoring/lesson-49.md",
+      "bytes": 15226,
+      "sha256": "3576979e5c28460e85ad3be9b162e3d190463e40a0a1bc3a3b43cccadbca1154"
+    },
+    {
+      "path": "docs/content-authoring/lesson-50.json",
+      "bytes": 60196,
+      "sha256": "a2e7a2cc9fb2621ea7fdfee37f04b4f18a8214d31d26b939c7db273d16356a7e"
+    },
+    {
+      "path": "docs/content-authoring/lesson-50.md",
+      "bytes": 12289,
+      "sha256": "e2f8bbf126e9536cc2f883fd72a33c1db7d02535c22624ffcb83026998c1afff"
+    },
+    {
+      "path": "docs/content-authoring/source-checks.json",
+      "bytes": 4699,
+      "sha256": "24e8cf2eb7bd83feaad6cd54f5b8bbc071a2323df34c4f0cfb14229834ca9575"
+    },
+    {
+      "path": "docs/content-authoring/source-corrections.json",
+      "bytes": 6518,
+      "sha256": "c53daa264240d780507ffe432e413599217be8726bfc816bd74402742be3af53"
+    },
+    {
+      "path": "docs/content-authoring/source-corrections.md",
+      "bytes": 3325,
+      "sha256": "fa40f38cdd17032c2310b3e21c216f852fdbb99f9bb31e2474a6be4bfee45361"
+    },
+    {
+      "path": "docs/content-authoring/validation-report.json",
+      "bytes": 753,
+      "sha256": "373f85a3c278e58be44e75018d9efe299abaa545943b92c3562e171cea37c098"
+    },
+    {
+      "path": "docs/design-system/README.md",
+      "bytes": 7671,
+      "sha256": "b5dec270b17b5d16f099899247f3b27b2e75969598323adfc8a7b342462e0c60"
+    },
+    {
+      "path": "docs/design-system/acceptance.md",
+      "bytes": 4658,
+      "sha256": "b2cc89338abc1a03221ecc7d6f64e5048b77844af027cb6250770ef0572e6c69"
+    },
+    {
+      "path": "docs/design-system/components.md",
+      "bytes": 9362,
+      "sha256": "faf9e6baae559f53504fb1180e913fe395d9c36b9a1f862a8c2dcd648c742529"
+    },
+    {
+      "path": "docs/design-system/decisions.md",
+      "bytes": 27357,
+      "sha256": "d30b6f51f9eb16999781d4f207c30b2480633c4b7197893197beaa1180549f81"
+    },
+    {
+      "path": "docs/design-system/entry-and-learning-state.md",
+      "bytes": 4973,
+      "sha256": "e7334c5c2449100e6de611230a36d677f5077e12f15786ab169c8eb533792371"
+    },
+    {
+      "path": "docs/design-system/entry-review.html",
+      "bytes": 8543,
+      "sha256": "26e3aa161375e537aab64ea5bb47f4b249ef7290814a5d631f8d597cb1337293"
+    },
+    {
+      "path": "docs/design-system/example-selection.md",
+      "bytes": 7922,
+      "sha256": "9c5d53f7b9f429eb390bd148e27302a4ec2173dadcd1268beadb8573ba7992f3"
+    },
+    {
+      "path": "docs/design-system/foundations-widgets-review.html",
+      "bytes": 36305,
+      "sha256": "43ac135ed83d4e50a784cd861e1c26666a62b78c1a0f6bb58c20bd6285d1eb96"
+    },
+    {
+      "path": "docs/design-system/foundations.md",
+      "bytes": 6776,
+      "sha256": "186376f167b9d6df3367ee68919f927583f8ed31e988e41c1691a3745844f925"
+    },
+    {
+      "path": "docs/design-system/implementation-guide.md",
+      "bytes": 8423,
+      "sha256": "d6c1a21a629aa73728996994de4c31a6df85e351e79ded56580d9c804dc7fcc3"
+    },
+    {
+      "path": "docs/design-system/index.html",
+      "bytes": 3728,
+      "sha256": "ff5810b638744765b33c68b178b775da4a15c391ca099ac7f8b0e8763e326b06"
+    },
+    {
+      "path": "docs/design-system/interaction-and-accessibility.md",
+      "bytes": 4592,
+      "sha256": "976b114d6791e3843e0a7bb8a3ed13630e4d75b1ed5b914e75a9abcbc410b80b"
+    },
+    {
+      "path": "docs/design-system/kanji-alphabets-search-favorites.md",
+      "bytes": 8868,
+      "sha256": "54d18d7047cbfe5fcd7067d7ea8164934b2eba2a53ac55d5509867c90c89a077"
+    },
+    {
+      "path": "docs/design-system/lesson-review.html",
+      "bytes": 46133,
+      "sha256": "8adc6729bb43e5a006238413ea6c14ca8cfc0703aaca3ae530815ffe281abe68"
+    },
+    {
+      "path": "docs/design-system/performance-and-footprint.md",
+      "bytes": 10135,
+      "sha256": "cd711adbe9325ab39afdf0a387a7b199bdbbab0526f5c55e8f8e548a93dae226"
+    },
+    {
+      "path": "docs/design-system/review-data.js",
+      "bytes": 447475,
+      "sha256": "d6d07a9fcd05a562856691e80e4f5db34180ad59dc9f06a67c3c33160b62405c"
+    },
+    {
+      "path": "docs/design-system/review-logic.js",
+      "bytes": 1606,
+      "sha256": "195ebb6c452833f4a6a7335870038b09b07129724bd884d1cd0f5acc09da9f6c"
+    },
+    {
+      "path": "docs/design-system/review.css",
+      "bytes": 12854,
+      "sha256": "3632a5f2707de0467b801e225ad4f66593fab388a274fca0486c0cbd792456b6"
+    },
+    {
+      "path": "docs/design-system/review.html",
+      "bytes": 9432,
+      "sha256": "b5036e8f005ac19b375eee0c05e0c9d740211a03eb0eda5bf4eeeee6afc1cca6"
+    },
+    {
+      "path": "docs/design-system/review.js",
+      "bytes": 36492,
+      "sha256": "4a8026a79d77b3a1934374ad8d458b2844f2189b3014321f140f6b105d34b1b6"
+    },
+    {
+      "path": "docs/design-system/screens-and-playback.md",
+      "bytes": 8490,
+      "sha256": "6c51f903a60839ba87e9cc212cdc89f5c46b7639a88e8f67c14322f2199adb3a"
+    },
+    {
+      "path": "docs/design-system/settings-and-localization.md",
+      "bytes": 4078,
+      "sha256": "c6ed2cf5acdb71f8f9d1aee5b34d38327590531002b557fab309cff5ea2ba0c6"
+    },
+    {
+      "path": "docs/design-system/tokens.json",
+      "bytes": 3253,
+      "sha256": "c434a1ff95cdd7183b71a8949d5ad366b7b2f04e4fc06781853a0d8e2f823d56"
+    },
+    {
+      "path": "docs/design-system/widgets.md",
+      "bytes": 6985,
+      "sha256": "651e95f5bbf135e117682149a749adb208bbdf4cb699da57a416b869e6c44e72"
+    },
+    {
+      "path": "docs/reference-inventory/README.md",
+      "bytes": 12694,
+      "sha256": "ea4a223712fdbdaffacda61fedbfb1b4a5452f82f0fb1183e8b1acb7dc642806"
+    },
+    {
+      "path": "docs/reference-inventory/catalog.json",
+      "bytes": 109183,
+      "sha256": "eb719338b86026f60da289aecc11f5113b5f627cc2cb0f8a4bda4a758444017f"
+    },
+    {
+      "path": "docs/reference-inventory/heading-verification.json",
+      "bytes": 69862,
+      "sha256": "351595bc78819567767460c32b10ad5cc90c3dc9ad998b3244fcaaf4a6fe6903"
+    },
+    {
+      "path": "docs/reference-inventory/kanji-index.md",
+      "bytes": 9322,
+      "sha256": "9408a512080d8bd21aad68103bab09d43eb8a7a37de1a88ff3db47455b175ff2"
+    },
+    {
+      "path": "docs/reference-inventory/lesson-index.md",
+      "bytes": 13697,
+      "sha256": "9b9207685cc8eb969f3b597867c6a573a706c8ee7c8af35e58d42c368808fc22"
+    },
+    {
+      "path": "docs/reference-inventory/ocr-pilot/README.md",
+      "bytes": 4612,
+      "sha256": "fe7b97d262dd1e69598c05e57ac2fed69d3dfb4dfce9993dec49116f7dae6d8b"
+    },
+    {
+      "path": "docs/reference-inventory/ocr-pilot/japanese-regions-raw.jsonl",
+      "bytes": 16989,
+      "sha256": "ea5110dab299e5ed4e37bd0739d70ae130706192f0c365d9b3db20963d7a2945"
+    },
+    {
+      "path": "docs/reference-inventory/ocr-pilot/regions.json",
+      "bytes": 2059,
+      "sha256": "666c8a09a221e70d6d10a05a1954e16a3e9d460434d14a9a4081abb87e369651"
+    },
+    {
+      "path": "docs/reference-inventory/ocr-pilot/review.json",
+      "bytes": 23829,
+      "sha256": "e9bbc5f8753bfedda7f200937dccecb6c99f2e59075bcd897ca21695a411e8fe"
+    },
+    {
+      "path": "docs/reference-inventory/ocr-pilot/vietnamese-regions-raw.jsonl",
+      "bytes": 9540,
+      "sha256": "45a3fc81661439157a8ddc22ec581f0975277f1cc2cd69e28987afe3c5e27b8b"
+    },
+    {
+      "path": "docs/reference-inventory/ocr-pilot/whole-page-raw.jsonl",
+      "bytes": 231920,
+      "sha256": "3ce311d206d5d3a91f0bcacb38a024a773c49c3018dc85018c1bf1882dffabcb"
+    },
+    {
+      "path": "ios/ProjectBeta/ProjectBeta/App/ProjectBetaApp.swift",
+      "bytes": 240,
+      "sha256": "8e96584be51ca2d4236bca4855bbf11f5e64e2e5594ffa93755cf43fea65b90f"
+    },
+    {
+      "path": "ios/ProjectBeta/ProjectBeta/Assets.xcassets/AccentColor.colorset/Contents.json",
+      "bytes": 123,
+      "sha256": "9af65086fa30b49252fae1a1225731691de794f7775af74d71befeb507d12b7c"
+    },
+    {
+      "path": "ios/ProjectBeta/ProjectBeta/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "bytes": 1429,
+      "sha256": "040294b5970a6d1d5b5a811e22086092954f6a1f503b38d0fae128bb02b4356a"
+    },
+    {
+      "path": "ios/ProjectBeta/ProjectBeta/Assets.xcassets/Contents.json",
+      "bytes": 63,
+      "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b"
+    },
+    {
+      "path": "ios/ProjectBeta/ProjectBeta/Presentation/Features/MainTabs/MainTabView.swift",
+      "bytes": 1356,
+      "sha256": "4b0dac28055dfa3667e68954533e66d7d744faf38e46dab39d555b8f69bbea76"
+    },
+    {
+      "path": "ios/ProjectBeta/ProjectBeta.xcodeproj/project.xcproj",
+      "bytes": 8923,
+      "sha256": "cb729eb35e605a80b3ca9520ef8268c5954ad87123e114f16d43b7c4596a3c65"
+    },
+    {
+      "path": "ios/ProjectBeta/ProjectBeta.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "bytes": 135,
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+    },
+    {
+      "path": "ios/ProjectBeta/ProjectBeta.xcodeproj/project.xcworkspace/xcuserdata/hoanghieple.xcuserdatad/UserInterfaceState.xcuserstate",
+      "bytes": 19410,
+      "sha256": "b65f6a7f68fc5e457228b41f4f253191b32b3619d41e79b01f01d2baf8c87838"
+    },
+    {
+      "path": "ios/ProjectBeta/ProjectBeta.xcodeproj/xcuserdata/hoanghieple.xcuserdatad/xcschemes/xcschememanagement.plist",
+      "bytes": 346,
+      "sha256": "1812fd80f77bc22e8961b023beca97f6a0398c1797759550aabeb6777145f23a"
+    },
+    {
+      "path": "ios/ProjectBeta/ProjectBetaTests/ProjectBetaTests.swift",
+      "bytes": 390,
+      "sha256": "8c83360fc7c3b835dc6ed396e77f548fc885da314c44f7408da7e85849a9c8ab"
+    },
+    {
+      "path": "ios/ProjectBeta/ProjectBetaUITests/ProjectBetaUITests.swift",
+      "bytes": 1429,
+      "sha256": "50d92cfdea1babf64526674fc5dedd24c22e11d00059a3de6f808582639e79ec"
+    },
+    {
+      "path": "scripts/build_design_review.py",
+      "bytes": 8845,
+      "sha256": "9d1b86e99f985fef40ab14b76eb8e8f7cf615f00dba6a94c964262ccfee06330"
+    },
+    {
+      "path": "scripts/render_authoring_content.py",
+      "bytes": 15926,
+      "sha256": "3ca3bb927fee3452c645142f4629d95de616688f8e97ad877e817b47f6883175"
+    },
+    {
+      "path": "scripts/validate_authoring_batch.py",
+      "bytes": 15120,
+      "sha256": "f2ffbb16f036a67ac39b692752f9c66545ee9f8ab775716dc227baa56a34a56e"
+    },
+    {
+      "path": "scripts/validate_authoring_samples.py",
+      "bytes": 19504,
+      "sha256": "0fecb713c7553a482080e9792cd77ee990c11518dc59d647a4c6d31a1e97fe02"
+    }
+  ]
+}

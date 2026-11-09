@@ -1,0 +1,4440 @@
+{
+  "format_version": 1,
+  "task": "P0-T02",
+  "date": "2026-11-08",
+  "method": "Primary source comparison; existing IDs retained; source PDFs and fixed dialogue scripts unchanged. No native TTS or release certification.",
+  "changes": [
+    {
+      "kind": "grammar_source_range",
+      "lesson": 1,
+      "id": "9043666d-f6c5-497a-b5db-1f08cd105aa9",
+      "before": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 33,
+          "pdf_page_end": 33,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 33,
+          "pdf_page_end": 34,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 26,
+      "id": "31ef223a-6d7b-46d1-ae14-a8daca908f3e",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 33,
+          "pdf_page_end": 33,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 33,
+          "pdf_page_end": 34,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 26,
+      "id": "02aadf06-b7da-455f-b425-ccacb810c720",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 33,
+          "pdf_page_end": 33,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 33,
+          "pdf_page_end": 34,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 26,
+      "id": "3ae4ad01-544e-4601-92f2-cffe74917c0c",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 34,
+          "pdf_page_end": 34,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 33,
+          "pdf_page_end": 34,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 27,
+      "id": "317e9e9b-f458-4dbf-a544-7834438366f5",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 39,
+          "pdf_page_end": 39,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 39,
+          "pdf_page_end": 40,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 28,
+      "id": "9a3e1705-5c55-4595-9af5-48862a4d6b2b",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 45,
+          "pdf_page_end": 45,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 45,
+          "pdf_page_end": 46,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 29,
+      "id": "96538b0c-35cd-4965-9a88-3fdd9e78ad0d",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 51,
+          "pdf_page_end": 51,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 51,
+          "pdf_page_end": 52,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 30,
+      "id": "2d0b85c9-ae32-4593-9674-fe8c93c46a3b",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 57,
+          "pdf_page_end": 57,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 57,
+          "pdf_page_end": 58,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 31,
+      "id": "d61d6b39-c089-474d-aba9-c3b1bcb54a80",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 63,
+          "pdf_page_end": 63,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 63,
+          "pdf_page_end": 64,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 32,
+      "id": "23a8ebee-58b0-4101-9136-f2b7e9d28d47",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 69,
+          "pdf_page_end": 69,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 69,
+          "pdf_page_end": 70,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 33,
+      "id": "f17aa49b-be50-4127-b8a5-4fb9e93d6336",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 75,
+          "pdf_page_end": 75,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 75,
+          "pdf_page_end": 76,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 34,
+      "id": "33361222-9ecb-4cdc-8804-53211cd2fb28",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 81,
+          "pdf_page_end": 81,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 81,
+          "pdf_page_end": 82,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 35,
+      "id": "f250a581-39c8-4f06-bf2f-9b5f09c49579",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 87,
+          "pdf_page_end": 87,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 87,
+          "pdf_page_end": 88,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 36,
+      "id": "e8b3618b-ba66-422e-afa9-9e6f0cc76f84",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 93,
+          "pdf_page_end": 93,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 93,
+          "pdf_page_end": 94,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 37,
+      "id": "272c4281-4a22-4d31-990b-96b17d2faf78",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 99,
+          "pdf_page_end": 99,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 99,
+          "pdf_page_end": 100,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 38,
+      "id": "878fe160-e77a-41a0-809d-2d2263fd2f1f",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 105,
+          "pdf_page_end": 105,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 105,
+          "pdf_page_end": 106,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 39,
+      "id": "9fa70b8a-6bf9-4c65-876e-6573abf60aee",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 111,
+          "pdf_page_end": 111,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 111,
+          "pdf_page_end": 112,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 40,
+      "id": "73e139cd-5119-4363-aa8d-c12fcf5fa5ed",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 117,
+          "pdf_page_end": 117,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 117,
+          "pdf_page_end": 118,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 41,
+      "id": "a252dde6-e0ec-4796-ab23-44cea2995650",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 123,
+          "pdf_page_end": 123,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 123,
+          "pdf_page_end": 124,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 42,
+      "id": "82c78695-8833-4a40-a0f4-c69675ed3b42",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 129,
+          "pdf_page_end": 129,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 129,
+          "pdf_page_end": 130,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 43,
+      "id": "9faca396-86fa-4f6c-a660-6b71d31e38a6",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 135,
+          "pdf_page_end": 135,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 135,
+          "pdf_page_end": 136,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 44,
+      "id": "28a881a4-deac-4b75-849f-a5b7d3267427",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 141,
+          "pdf_page_end": 141,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 141,
+          "pdf_page_end": 142,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 45,
+      "id": "dcc6e0b7-f444-4a15-9fbb-e7b1b2e2e4f8",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 147,
+          "pdf_page_end": 147,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 147,
+          "pdf_page_end": 148,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 46,
+      "id": "abead920-23af-4620-b49f-fb09e5c64f54",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 153,
+          "pdf_page_end": 153,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 153,
+          "pdf_page_end": 154,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 47,
+      "id": "e4b7aa61-6b5d-4690-aece-8fa7b52cd134",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 159,
+          "pdf_page_end": 159,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 159,
+          "pdf_page_end": 160,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 48,
+      "id": "a341899b-cced-416d-b018-56b2967b8e36",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 165,
+          "pdf_page_end": 165,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 165,
+          "pdf_page_end": 166,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 49,
+      "id": "5b6d3614-85e4-47c0-9cbc-c03754440fac",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 171,
+          "pdf_page_end": 171,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 171,
+          "pdf_page_end": 172,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "grammar_source_range",
+      "lesson": 50,
+      "id": "d1ca9739-7cb9-47f3-981b-622dc3b630ec",
+      "before": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 177,
+          "pdf_page_end": 177,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 177,
+          "pdf_page_end": 178,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ]
+    },
+    {
+      "kind": "printed_optional_or_counter_variant",
+      "lesson": 1,
+      "id": "5fe41681-4301-42a2-b674-c1f778502fcc",
+      "added_form": {
+        "key": "familiar_short",
+        "japanese": {
+          "segments": [
+            {
+              "base": "よろしく。"
+            }
+          ]
+        },
+        "kana_reading": "よろしく。",
+        "register": "neutral"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ]
+    },
+    {
+      "kind": "printed_optional_or_counter_variant",
+      "lesson": 2,
+      "id": "639ed901-9729-473f-8020-318934599e22",
+      "added_form": {
+        "key": "without_onegaishimasu",
+        "japanese": {
+          "segments": [
+            {
+              "base": "こちらこそどうぞよろしく"
+            }
+          ]
+        },
+        "kana_reading": "こちらこそどうぞよろしく",
+        "register": "neutral"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 36,
+          "pdf_page_end": 36,
+          "basis": "lexical_form_and_reading"
+        }
+      ]
+    },
+    {
+      "kind": "printed_optional_or_counter_variant",
+      "lesson": 3,
+      "id": "8ddd48c1-5a1e-42bd-9ea2-47cea79f14d4",
+      "added_form": {
+        "key": "voiced",
+        "japanese": {
+          "segments": [
+            {
+              "base": "〜"
+            },
+            {
+              "base": "階",
+              "ruby": "がい"
+            }
+          ]
+        },
+        "kana_reading": "〜がい",
+        "register": "neutral"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 42,
+          "pdf_page_end": 42,
+          "basis": "lexical_form_and_reading"
+        }
+      ]
+    },
+    {
+      "kind": "printed_optional_or_counter_variant",
+      "lesson": 4,
+      "id": "287a82a3-c69f-4d8d-ae91-8df769648158",
+      "added_form": {
+        "key": "p_sound",
+        "japanese": {
+          "segments": [
+            {
+              "base": "〜"
+            },
+            {
+              "base": "分",
+              "ruby": "ぷん"
+            }
+          ]
+        },
+        "kana_reading": "〜ぷん",
+        "register": "neutral"
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 47,
+          "pdf_page_end": 47,
+          "basis": "lexical_form_and_reading"
+        }
+      ]
+    },
+    {
+      "kind": "printed_optional_or_counter_variant",
+      "lesson": 40,
+      "id": "2ebf8fcc-02ea-4873-8bdb-52a8626c6065",
+      "added_form": {
+        "key": "voiced",
+        "japanese": {
+          "segments": [
+            {
+              "base": "～本",
+              "ruby": "ぼん"
+            }
+          ]
+        },
+        "kana_reading": "ぼん",
+        "register": "neutral"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 114,
+          "pdf_page_end": 114,
+          "basis": "lexical_form_and_reading"
+        }
+      ]
+    },
+    {
+      "kind": "printed_optional_or_counter_variant",
+      "lesson": 40,
+      "id": "2ebf8fcc-02ea-4873-8bdb-52a8626c6065",
+      "added_form": {
+        "key": "p_sound",
+        "japanese": {
+          "segments": [
+            {
+              "base": "～本",
+              "ruby": "ぽん"
+            }
+          ]
+        },
+        "kana_reading": "ぽん",
+        "register": "neutral"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 114,
+          "pdf_page_end": 114,
+          "basis": "lexical_form_and_reading"
+        }
+      ]
+    },
+    {
+      "kind": "printed_optional_or_counter_variant",
+      "lesson": 40,
+      "id": "efaf8f13-81f9-403c-a427-96f460c365ba",
+      "added_form": {
+        "key": "voiced",
+        "japanese": {
+          "segments": [
+            {
+              "base": "～杯",
+              "ruby": "ばい"
+            }
+          ]
+        },
+        "kana_reading": "ばい",
+        "register": "neutral"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 114,
+          "pdf_page_end": 114,
+          "basis": "lexical_form_and_reading"
+        }
+      ]
+    },
+    {
+      "kind": "printed_optional_or_counter_variant",
+      "lesson": 40,
+      "id": "efaf8f13-81f9-403c-a427-96f460c365ba",
+      "added_form": {
+        "key": "p_sound",
+        "japanese": {
+          "segments": [
+            {
+              "base": "～杯",
+              "ruby": "ぱい"
+            }
+          ]
+        },
+        "kana_reading": "ぱい",
+        "register": "neutral"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 114,
+          "pdf_page_end": 114,
+          "basis": "lexical_form_and_reading"
+        }
+      ]
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "6ebbe0df-c887-471f-99bf-e26da2361dca",
+      "field": "explanation.en",
+      "before": "Group I changes the final i-row sound before masu to the e-row plus masu; Group II adds raremasu to the stem. Shimasu becomes dekimasu and kimasu becomes koraremasu.",
+      "after": "Group I changes the final い-row sound before ます to the え-row plus ます; Group II adds られます to the stem. します becomes できます and 来ます becomes 来られます."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "6ebbe0df-c887-471f-99bf-e26da2361dca",
+      "field": "notes.en",
+      "before": "Potential verbs then conjugate as Group II. Wakarimasu already means understand; do not form wakaremasu.",
+      "after": "Potential verbs then conjugate as Group II. わかります already means understand; do not form わかれます."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "c7194661-685d-428d-b663-846dbb92729b",
+      "field": "explanation.en",
+      "before": "The potential expresses ability or an opportunity allowed by circumstances. Object wo usually becomes ga; other particles remain.",
+      "after": "The potential expresses ability or an opportunity allowed by circumstances. Object を usually becomes が; other particles remain."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "c7194661-685d-428d-b663-846dbb92729b",
+      "field": "notes.en",
+      "before": "Keep ni in tomodachi ni aemasu.",
+      "after": "Keep に in 友達に会えます."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "317e9e9b-f458-4dbf-a544-7834438366f5",
+      "field": "explanation.en",
+      "before": "Miemasu and kikoemasu describe something naturally entering sight or hearing; mark it with ga.",
+      "after": "見えます and 聞こえます describe something naturally entering sight or hearing; mark it with が."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "317e9e9b-f458-4dbf-a544-7834438366f5",
+      "field": "notes.en",
+      "before": "Miraremasu and kikemasu describe the ability or opportunity to watch or listen intentionally.",
+      "after": "見られます and 聞けます describe the ability or opportunity to watch or listen intentionally."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "4902907a-12e1-40ca-947a-48150bbb088a",
+      "field": "explanation.en",
+      "before": "Dekimasu can also mean that a building, object or product is completed or comes into existence.",
+      "after": "できます can also mean that a building, object or product is completed or comes into existence."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "4902907a-12e1-40ca-947a-48150bbb088a",
+      "field": "notes.en",
+      "before": "This differs from ability; a location commonly takes ni.",
+      "after": "This differs from ability; a location commonly takes に."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "9ea7295d-6ed0-4a2e-bed0-a100a8cc4e32",
+      "field": "title.en",
+      "before": "Only with shika",
+      "after": "Only with しか"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "9ea7295d-6ed0-4a2e-bed0-a100a8cc4e32",
+      "field": "explanation.en",
+      "before": "Place shika after the limited element and use a negative predicate. Dake with an affirmative need not imply insufficiency.",
+      "after": "Place しか after the limited element and use a negative predicate. だけ with an affirmative need not imply insufficiency."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "9ea7295d-6ed0-4a2e-bed0-a100a8cc4e32",
+      "field": "notes.en",
+      "before": "Shika replaces ga or wo but follows particles such as ni.",
+      "after": "しか replaces が or を but follows particles such as に."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "546e340a-2a21-4b30-8e08-10658a477e66",
+      "field": "title.en",
+      "before": "Contrast with wa",
+      "after": "Contrast with は"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "546e340a-2a21-4b30-8e08-10658a477e66",
+      "field": "explanation.en",
+      "before": "Wa can contrast two topics, often with ga linking the clauses.",
+      "after": "は can contrast two topics, often with が linking the clauses."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "6b432a8d-262a-4ec8-81cf-5f0e1388ff21",
+      "field": "title.en",
+      "before": "Wa after another particle",
+      "after": "は after another particle"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "6b432a8d-262a-4ec8-81cf-5f0e1388ff21",
+      "field": "explanation.en",
+      "before": "Wa commonly replaces ga and wo; it may follow ni, de or kara to topicalize or contrast a circumstance.",
+      "after": "は commonly replaces が and を; it may follow に, で or から to topicalize or contrast a circumstance."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "6b432a8d-262a-4ec8-81cf-5f0e1388ff21",
+      "field": "notes.en",
+      "before": "Retain a necessary relation such as kara in koko kara wa.",
+      "after": "Retain a necessary relation such as から in ここからは."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 27,
+      "id": "88316d7c-c63e-466b-b516-21c8fa83e865",
+      "field": "slots.perception.label.en",
+      "before": "Miemasu or kikoemasu",
+      "after": "見えます or 聞こえます"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 28,
+      "id": "331a1595-f325-468d-9fa3-dd952db4ab79",
+      "field": "explanation.en",
+      "before": "Masu stem plus nagara joins simultaneous actions by the same person. The second is the main activity.",
+      "after": "ます stem plus ながら joins simultaneous actions by the same person. The second is the main activity."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 28,
+      "id": "be14bf8d-3568-4891-b58d-01dd9a5e9d22",
+      "field": "title.en",
+      "before": "Habits with te imasu",
+      "after": "Habits with ています"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 28,
+      "id": "be14bf8d-3568-4891-b58d-01dd9a5e9d22",
+      "field": "explanation.en",
+      "before": "Te imasu can express a repeated habit; te imashita describes a former habit.",
+      "after": "ています can express a repeated habit; ていました describes a former habit."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 28,
+      "id": "9a3e1705-5c55-4595-9af5-48862a4d6b2b",
+      "field": "explanation.en",
+      "before": "Plain form plus shi lists related points supporting the same view. A conclusion may follow or remain understood.",
+      "after": "Plain form plus し lists related points supporting the same view. A conclusion may follow or remain understood."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 28,
+      "id": "9a3e1705-5c55-4595-9af5-48862a4d6b2b",
+      "field": "notes.en",
+      "before": "Nouns and na-adjectives take dashi; soreni adds a further point.",
+      "after": "Nouns and な-adjectives take だし; それに adds a further point."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 28,
+      "id": "0788286c-3847-4bb2-bfcb-bb5861942241",
+      "field": "explanation.en",
+      "before": "Sorede links a stated reason with its natural result.",
+      "after": "それで links a stated reason with its natural result."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 28,
+      "id": "1e59085b-be8d-43d9-8a6f-65f802050a09",
+      "field": "title.en",
+      "before": "Particles after toki",
+      "after": "Particles after とき"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 28,
+      "id": "1e59085b-be8d-43d9-8a6f-65f802050a09",
+      "field": "explanation.en",
+      "before": "Toki is a noun and can take particles such as wa, ni or ya as required.",
+      "after": "とき is a noun and can take particles such as は, に or や as required."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 28,
+      "id": "1e59085b-be8d-43d9-8a6f-65f802050a09",
+      "field": "notes.en",
+      "before": "Place the particle after the whole toki phrase.",
+      "after": "Place the particle after the whole とき phrase."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 28,
+      "id": "8d387add-36ff-42e8-94be-613f95fc2b47",
+      "field": "slots.stem.label.en",
+      "before": "Verb stem without masu",
+      "after": "Verb stem without ます"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 28,
+      "id": "5b798b43-c7b8-4112-91c2-d27779bd67ee",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 28,
+      "id": "e8fd97a8-4d51-4cd6-b04f-82131e78b57f",
+      "field": "slots.action.label.en",
+      "before": "Verb in ta/da form",
+      "after": "Verb in た/だ form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "f80a2f15-0371-4e18-b783-cbca7a23aed2",
+      "field": "explanation.en",
+      "before": "An intransitive te-form plus imasu describes a state remaining after a change. Use ga when describing what is observed.",
+      "after": "An intransitive て-form plus います describes a state remaining after a change. Use が when describing what is observed."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "f80a2f15-0371-4e18-b783-cbca7a23aed2",
+      "field": "notes.en",
+      "before": "Unlike an ongoing action, kowarete imasu normally means already broken.",
+      "after": "Unlike an ongoing action, 壊れています normally means already broken."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "457261b2-2103-4fd5-918c-739137d199ed",
+      "field": "explanation.en",
+      "before": "Te shimaimasu emphasizes full completion; te shimaimashita can also express regret about an unwanted event.",
+      "after": "てしまいます emphasizes full completion; てしまいました can also express regret about an unwanted event."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "96538b0c-35cd-4965-9a88-3fdd9e78ad0d",
+      "field": "title.en",
+      "before": "Ni for a destination",
+      "after": "に for a destination"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "96538b0c-35cd-4965-9a88-3fdd9e78ad0d",
+      "field": "explanation.en",
+      "before": "Ikimasu, kimasu and kaerimasu take ni for a destination; e can also mark direction.",
+      "after": "行きます, 来ます and 帰ります take に for a destination; へ can also mark direction."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "96538b0c-35cd-4965-9a88-3fdd9e78ad0d",
+      "field": "notes.en",
+      "before": "Distinguish destination ni from action-location de.",
+      "after": "Distinguish destination に from action-location で."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "c4ae0d46-1a6a-4c57-a8ce-0c38929f24e4",
+      "field": "explanation.en",
+      "before": "Sore refers to a matter, sono modifies a noun, and sou refers to a way or content just mentioned.",
+      "after": "それ refers to a matter, その modifies a noun, and そう refers to a way or content just mentioned."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "886a0702-1fff-4112-b39a-7a3449c611e4",
+      "field": "title.en",
+      "before": "Arimashita on finding something",
+      "after": "ありました on finding something"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "886a0702-1fff-4112-b39a-7a3449c611e4",
+      "field": "explanation.en",
+      "before": "Arimashita can announce the discovery of something being sought, rather than merely past existence.",
+      "after": "ありました can announce the discovery of something being sought, rather than merely past existence."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "580ab1da-d03a-4095-acb3-04e5e016bf47",
+      "field": "title.en",
+      "before": "Keeping de and ni after dokoka",
+      "after": "Keeping で and に after どこか"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "580ab1da-d03a-4095-acb3-04e5e016bf47",
+      "field": "explanation.en",
+      "before": "Dokoka de indicates an unspecified action location; dokoka ni an unspecified place of existence or destination.",
+      "after": "どこか で indicates an unspecified action location; どこか に an unspecified place of existence or destination."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "580ab1da-d03a-4095-acb3-04e5e016bf47",
+      "field": "notes.en",
+      "before": "De and ni must remain, unlike some uses of e or wo.",
+      "after": "で and に must remain, unlike some uses of へ or を."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "08efe094-70f2-4bc9-85ea-e562676970f2",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "d0cd3dc1-23f6-4e00-b47a-0412e6281912",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 29,
+      "id": "8aa1e3fe-6157-4e39-940c-8b77767cbe5c",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "1d97f2e3-ac6a-4253-ac1a-0e24fd18362e",
+      "field": "explanation.en",
+      "before": "A transitive verb with te arimasu describes the remaining result of someone's deliberate action. The object takes ga or topical wa.",
+      "after": "A transitive verb with てあります describes the remaining result of someone's deliberate action. The object takes が or topical は."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "1d97f2e3-ac6a-4253-ac1a-0e24fd18362e",
+      "field": "notes.en",
+      "before": "Te imasu describes a state; te arimasu suggests intentional arrangement.",
+      "after": "ています describes a state; てあります suggests intentional arrangement."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "2d0b85c9-ae32-4593-9674-fe8c93c46a3b",
+      "field": "explanation.en",
+      "before": "Te okimasu expresses advance preparation, putting things right after use, or leaving a state unchanged.",
+      "after": "ておきます expresses advance preparation, putting things right after use, or leaving a state unchanged."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "2d0b85c9-ae32-4593-9674-fe8c93c46a3b",
+      "field": "notes.en",
+      "before": "The conversational contraction is tokimasu.",
+      "after": "The conversational contraction is ときます."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "823d4c2d-6195-47ce-8ceb-9b7f4a1e292d",
+      "field": "explanation.en",
+      "before": "Mada with an affirmative says that an action or state continues.",
+      "after": "まだ with an affirmative says that an action or state continues."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "823d4c2d-6195-47ce-8ceb-9b7f4a1e292d",
+      "field": "notes.en",
+      "before": "Contrast mada te imasen, meaning not yet done.",
+      "after": "Contrast まだ ていません, meaning not yet done."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "c9bbfcf7-8847-4484-b8b9-85626226f08f",
+      "field": "title.en",
+      "before": "Examples with toka",
+      "after": "Examples with とか"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "c9bbfcf7-8847-4484-b8b9-85626226f08f",
+      "field": "explanation.en",
+      "before": "Toka introduces a non-exhaustive list of examples, commonly in conversation.",
+      "after": "とか introduces a non-exhaustive list of examples, commonly in conversation."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "c9bbfcf7-8847-4484-b8b9-85626226f08f",
+      "field": "notes.en",
+      "before": "Toka may also follow the last listed example.",
+      "after": "とか may also follow the last listed example."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "d10a74b6-e1cc-4f51-bcd6-29f82a8d9005",
+      "field": "title.en",
+      "before": "Mo after particles",
+      "after": "も after particles"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "d10a74b6-e1cc-4f51-bcd6-29f82a8d9005",
+      "field": "explanation.en",
+      "before": "Mo replaces ga and wo but follows retained particles such as ni, de, kara, made and to.",
+      "after": "も replaces が and を but follows retained particles such as に, で, から, まで and と."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "d10a74b6-e1cc-4f51-bcd6-29f82a8d9005",
+      "field": "notes.en",
+      "before": "E may remain or be omitted before mo.",
+      "after": "へ may remain or be omitted before も."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "c9f68054-e4ce-43be-8f0b-215ddbf52269",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "556f742d-c933-47c6-8367-e108cc3fd651",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 30,
+      "id": "56938fdd-82ba-4f93-9f89-df5c1049a30e",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "1e445e70-b2c7-42f9-91e1-2a40f89462a8",
+      "field": "explanation.en",
+      "before": "Group I changes final u-row to o-row plus u; Group II replaces ru with you. Suru becomes shiyou and kuru becomes koyou.",
+      "after": "Group I changes final う-row to お-row plus う; Group II replaces る with よう. する becomes しよう and 来る becomes 来よう."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "1e445e70-b2c7-42f9-91e1-2a40f89462a8",
+      "field": "notes.en",
+      "before": "The volitional corresponds to polite mashou in familiar speech.",
+      "after": "The volitional corresponds to polite ましょう in familiar speech."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "66110059-56a7-4835-aba4-c3119c51eeff",
+      "field": "explanation.en",
+      "before": "The volitional makes a familiar suggestion; to omotte imasu expresses an intention already held.",
+      "after": "The volitional makes a familiar suggestion; と思っています expresses an intention already held."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "66110059-56a7-4835-aba4-c3119c51eeff",
+      "field": "notes.en",
+      "before": "To omotte imasu can report another person's intention; to omoimasu usually states the speaker's current intention.",
+      "after": "と思っています can report another person's intention; と思います usually states the speaker's current intention."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "d61d6b39-c089-474d-aba9-c3b1bcb54a80",
+      "field": "title.en",
+      "before": "Intention with tsumori",
+      "after": "Intention with つもり"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "d61d6b39-c089-474d-aba9-c3b1bcb54a80",
+      "field": "explanation.en",
+      "before": "Dictionary form plus tsumori desu states an intention; nai plus tsumori desu states an intention not to act.",
+      "after": "Dictionary form plus つもりです states an intention; ない plus つもりです states an intention not to act."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "d61d6b39-c089-474d-aba9-c3b1bcb54a80",
+      "field": "notes.en",
+      "before": "Tsumori commonly emphasizes a settled intention.",
+      "after": "つもり commonly emphasizes a settled intention."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "9041f3c4-ff51-406f-9888-ba7b6554f602",
+      "field": "explanation.en",
+      "before": "A dictionary-form verb or noun plus no precedes yotei desu for a scheduled plan.",
+      "after": "A dictionary-form verb or noun plus の precedes 予定です for a scheduled plan."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "9041f3c4-ff51-406f-9888-ba7b6554f602",
+      "field": "notes.en",
+      "before": "Yotei suits arrangements rather than a mere wish.",
+      "after": "予定 suits arrangements rather than a mere wish."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "e76985ca-e90c-4c66-a4d9-216f0720d4f4",
+      "field": "explanation.en",
+      "before": "Mada te imasen says something has not happened or been completed by the present point.",
+      "after": "まだ ていません says something has not happened or been completed by the present point."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "e76985ca-e90c-4c66-a4d9-216f0720d4f4",
+      "field": "notes.en",
+      "before": "Answer a mou question with iie, mada if it is not done yet.",
+      "after": "Answer a もう question with いいえ, まだ if it is not done yet."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "a07b2dbc-83ad-408a-a936-f69d38aaaf6d",
+      "field": "explanation.en",
+      "before": "Some masu stems function as nouns, such as kaeri for the return journey and yasumi for a break.",
+      "after": "Some ます stems function as nouns, such as 帰り for the return journey and 休み for a break."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "97ae8f62-a215-45be-97cc-f9927c904c46",
+      "field": "slots.action.label.en",
+      "before": "Verb in nai form",
+      "after": "Verb in ない form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "842065c8-ec00-40ef-aeb5-7901ae227d15",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 31,
+      "id": "4db8d2d7-e60f-4147-8268-897180684848",
+      "field": "slots.stem_noun.label.en",
+      "before": "An attested stem-noun such as kaeri",
+      "after": "An attested stem-noun such as 帰り"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "58ccfc9e-b6a5-4d57-9923-279606aa0974",
+      "field": "explanation.en",
+      "before": "Ta hou ga ii desu recommends an action; nai hou ga ii desu advises against it.",
+      "after": "たほうがいいです recommends an action; ないほうがいいです advises against it."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "58ccfc9e-b6a5-4d57-9923-279606aa0974",
+      "field": "notes.en",
+      "before": "This is directed advice and can be stronger than a tara ii suggestion.",
+      "after": "This is directed advice and can be stronger than a たらいい suggestion."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "ab8eb693-bd1f-4658-a110-772eabc017f7",
+      "field": "title.en",
+      "before": "Prediction with deshou",
+      "after": "Prediction with でしょう"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "ab8eb693-bd1f-4658-a110-772eabc017f7",
+      "field": "explanation.en",
+      "before": "Plain form plus deshou expresses a prediction; omit da after nouns and na-adjectives.",
+      "after": "Plain form plus でしょう expresses a prediction; omit だ after nouns and な-adjectives."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "23a8ebee-58b0-4101-9136-f2b7e9d28d47",
+      "field": "title.en",
+      "before": "Possibility with kamoshiremasen",
+      "after": "Possibility with かもしれません"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "23a8ebee-58b0-4101-9136-f2b7e9d28d47",
+      "field": "explanation.en",
+      "before": "Plain form plus kamoshiremasen presents an uncertain possibility; omit noun and na-adjective da.",
+      "after": "Plain form plus かもしれません presents an uncertain possibility; omit noun and な-adjective だ."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "23a8ebee-58b0-4101-9136-f2b7e9d28d47",
+      "field": "notes.en",
+      "before": "It usually expresses less certainty than deshou.",
+      "after": "It usually expresses less certainty than でしょう."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "25cbab30-cce9-41ee-beee-3d5647b3d694",
+      "field": "explanation.en",
+      "before": "Mashou can offer an action that the speaker will undertake.",
+      "after": "ましょう can offer an action that the speaker will undertake."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "aafffca8-b173-4845-9291-afafae551bb4",
+      "field": "explanation.en",
+      "before": "A quantity plus de marks a time allowance or budget within which something is possible.",
+      "after": "A quantity plus で marks a time allowance or budget within which something is possible."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "aafffca8-b173-4845-9291-afafae551bb4",
+      "field": "notes.en",
+      "before": "Distinguish completion within a time limit from a duration without de.",
+      "after": "Distinguish completion within a time limit from a duration without で."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "4ec85d52-e9b3-4701-a42d-122d5d94f1f9",
+      "field": "explanation.en",
+      "before": "Use nanika plus adjective plus mono or koto, and dokoka plus adjective plus tokoro for an unspecified item or place.",
+      "after": "Use 何か plus adjective plus 物 or 事, and どこか plus adjective plus 所 for an unspecified item or place."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "4ec85d52-e9b3-4701-a42d-122d5d94f1f9",
+      "field": "notes.en",
+      "before": "Retain the final noun: nanika tsumetai mono, rather than placing the adjective before nanika.",
+      "after": "Retain the final noun: 何か冷たい物, rather than placing the adjective before 何か."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "568f2950-684d-442e-9bb3-8f058ef4e671",
+      "field": "slots.action.label.en",
+      "before": "Verb in nai form",
+      "after": "Verb in ない form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "58eb1468-fb86-48aa-8e8a-cf28286a57a8",
+      "field": "slots.prediction.label.en",
+      "before": "Predicted clause, omitting final noun/na-adjective da",
+      "after": "Predicted clause, omitting final noun/な-adjective だ"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "77a71ea9-1fd2-4435-8261-20aec5a04462",
+      "field": "slots.possibility.label.en",
+      "before": "Possible plain clause, omitting noun/na-adjective da",
+      "after": "Possible plain clause, omitting noun/な-adjective だ"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "3b4b81f7-3348-4e1e-9b29-ffbff0940441",
+      "field": "slots.stem.label.en",
+      "before": "Verb stem without masu",
+      "after": "Verb stem without ます"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 32,
+      "id": "e628f862-6494-4069-9732-6a85752d314f",
+      "field": "slots.adjective.label.en",
+      "before": "Adjective modifying mono",
+      "after": "Adjective modifying 物"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 33,
+      "id": "473eb9ef-c2f1-4240-8eef-5634a2a8bf54",
+      "field": "explanation.en",
+      "before": "Group I commands change the ending to the e-row; Group II replaces ru with ro; suru becomes shiro and kuru becomes koi. A prohibition uses dictionary form plus na.",
+      "after": "Group I commands change the ending to the え-row; Group II replaces る with ろ; する becomes しろ and 来る becomes 来い. A prohibition uses dictionary form plus な."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 33,
+      "id": "473eb9ef-c2f1-4240-8eef-5634a2a8bf54",
+      "field": "notes.en",
+      "before": "Kureru has kurero; avoid mechanically applying it to state verbs such as aru.",
+      "after": "くれる has くれろ; avoid mechanically applying it to state verbs such as ある."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 33,
+      "id": "f17aa49b-be50-4127-b8a5-4fb9e93d6336",
+      "field": "notes.en",
+      "before": "Nasai can be used by responsible adults such as parents or teachers, but not toward superiors.",
+      "after": "なさい can be used by responsible adults such as parents or teachers, but not toward superiors."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 33,
+      "id": "33a5ca76-4309-4933-a9fe-b5b7f7915c4f",
+      "field": "explanation.en",
+      "before": "To before kaite arimasu or yomimasu marks written content or its reading.",
+      "after": "と before 書いてあります or 読みます marks written content or its reading."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 33,
+      "id": "33a5ca76-4309-4933-a9fe-b5b7f7915c4f",
+      "field": "notes.en",
+      "before": "Quoted text may appear in quotation marks; to here does not mean together with.",
+      "after": "Quoted text may appear in quotation marks; と here does not mean together with."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 33,
+      "id": "9bbaa6a2-3af1-4e16-b72b-9b18f27254b7",
+      "field": "explanation.en",
+      "before": "X wa Y to iu imi desu explains X; ask dou iu imi desu ka for its meaning.",
+      "after": "X は Y という意味です explains X; ask どういう意味ですか for its meaning."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 33,
+      "id": "fd5cdf89-dcbb-483c-a592-b46dc991409c",
+      "field": "explanation.en",
+      "before": "Plain form plus to itte imashita relays what another person said.",
+      "after": "Plain form plus と言っていました relays what another person said."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 33,
+      "id": "2709efae-b380-47f7-a0df-328f64437b6a",
+      "field": "explanation.en",
+      "before": "A plain message plus to tsutaete itadakemasen ka politely asks someone to relay it.",
+      "after": "A plain message plus と伝えていただけませんか politely asks someone to relay it."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 33,
+      "id": "2709efae-b380-47f7-a0df-328f64437b6a",
+      "field": "notes.en",
+      "before": "A sentence ending in a noun needs da before to.",
+      "after": "A sentence ending in a noun needs だ before to."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 33,
+      "id": "b7520b1c-4c64-44d3-b28b-64efc3b9d69c",
+      "field": "slots.stem.label.en",
+      "before": "Verb stem without masu",
+      "after": "Verb stem without ます"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 33,
+      "id": "10952f7b-0aea-4f29-b5f6-2f5f30c60395",
+      "field": "slots.message.label.en",
+      "before": "Message, retaining noun-final da",
+      "after": "Message, retaining noun-final だ"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 34,
+      "id": "2db2834a-78b1-4a6f-b969-31be77c697fb",
+      "field": "explanation.en",
+      "before": "Dictionary or ta-form plus toori ni, or noun plus no toori ni, means following the indicated model.",
+      "after": "Dictionary or た-form plus とおりに, or noun plus のとおりに, means following the indicated model."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 34,
+      "id": "2db2834a-78b1-4a6f-b969-31be77c697fb",
+      "field": "notes.en",
+      "before": "Ta can refer to an observed model; dictionary form can refer to instructions being given.",
+      "after": "た can refer to an observed model; dictionary form can refer to instructions being given."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 34,
+      "id": "33361222-9ecb-4cdc-8804-53211cd2fb28",
+      "field": "explanation.en",
+      "before": "Ta-form plus ato de or noun plus no ato de places an action after another completed event.",
+      "after": "た-form plus あとで or noun plus のあとで places an action after another completed event."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 34,
+      "id": "33361222-9ecb-4cdc-8804-53211cd2fb28",
+      "field": "notes.en",
+      "before": "It stresses sequence without necessarily making the first action a preparation as te kara can.",
+      "after": "It stresses sequence without necessarily making the first action a preparation as てから can."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 34,
+      "id": "ee1a3ec6-d6bc-46a9-a883-9e2043d08d6c",
+      "field": "explanation.en",
+      "before": "Te or naide gives a state accompanying the main action. Naide can also mean choosing another action instead.",
+      "after": "て or ないで gives a state accompanying the main action. ないで can also mean choosing another action instead."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 34,
+      "id": "ee1a3ec6-d6bc-46a9-a883-9e2043d08d6c",
+      "field": "notes.en",
+      "before": "The actions normally share a subject; do not replace intentional naide here with nakute.",
+      "after": "The actions normally share a subject; do not replace intentional ないで here with なくて."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 34,
+      "id": "1600ea4a-8f99-4fa9-a1c2-d16cb5b043b9",
+      "field": "slots.action.label.en",
+      "before": "Verb in ta/da form",
+      "after": "Verb in た/だ form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 34,
+      "id": "d3329b82-a62f-44a3-a85d-e09f23b1dc15",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "b179c4cf-1094-465f-ae9b-a5182862081c",
+      "field": "explanation.en",
+      "before": "Group I changes final sound to e-row plus ba; Group II replaces ru with reba; suru becomes sureba and kuru becomes kureba. Nai becomes nakereba; i-adjectives use kereba.",
+      "after": "Group I changes final sound to え-row plus ば; Group II replaces る with れば; する becomes すれば and 来る becomes 来れば. ない becomes なければ; い-adjectives use ければ."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "b179c4cf-1094-465f-ae9b-a5182862081c",
+      "field": "notes.en",
+      "before": "Nouns and na-adjectives use nara.",
+      "after": "Nouns and な-adjectives use なら."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "f250a581-39c8-4f06-bf2f-9b5f09c49579",
+      "field": "title.en",
+      "before": "Using ba and distinguishing conditionals",
+      "after": "Using ば and distinguishing conditionals"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "f250a581-39c8-4f06-bf2f-9b5f09c49579",
+      "field": "explanation.en",
+      "before": "Ba states a condition for a result. To often gives an automatic consequence; tara can give what happens after a condition is fulfilled.",
+      "after": "ば states a condition for a result. と often gives an automatic consequence; たら can give what happens after a condition is fulfilled."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "f250a581-39c8-4f06-bf2f-9b5f09c49579",
+      "field": "notes.en",
+      "before": "With the same subject and an intentional first action, commands or volition do not freely follow ba.",
+      "after": "With the same subject and an intentional first action, commands or volition do not freely follow ば."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "8856e9e8-304f-4204-a291-f9236e3763fb",
+      "field": "explanation.en",
+      "before": "A question word plus conditional plus ii desu ka asks for the appropriate action.",
+      "after": "A question word plus conditional plus いいですか asks for the appropriate action."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "8856e9e8-304f-4204-a291-f9236e3763fb",
+      "field": "notes.en",
+      "before": "It is close in function to tara ii desu ka, rather than a simple correctness question.",
+      "after": "It is close in function to たらいいですか, rather than a simple correctness question."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "f60e1c89-512d-4aa0-829a-1d2d5069d758",
+      "field": "title.en",
+      "before": "Nara as a topic response",
+      "after": "なら as a topic response"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "f60e1c89-512d-4aa0-829a-1d2d5069d758",
+      "field": "explanation.en",
+      "before": "Noun plus nara offers advice or information about a topic just raised.",
+      "after": "Noun plus なら offers advice or information about a topic just raised."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "83d4d423-5323-414b-8af7-2f0fa8481ed9",
+      "field": "explanation.en",
+      "before": "Wa arimasen ka asks whether the listener knows of a suitable item.",
+      "after": "は ありません か asks whether the listener knows of a suitable item."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "8f494bfa-c4f5-465e-8df9-00fc979fcccb",
+      "field": "slots.adjective_condition.label.en",
+      "before": "I-adjective in kereba form",
+      "after": "い-adjective in ければ form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "d0c91060-473a-456d-ae9f-2219068a0d93",
+      "field": "slots.condition.label.en",
+      "before": "Verb in ba-conditional form",
+      "after": "Verb in ば-conditional form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 35,
+      "id": "830a8adc-364e-48fc-9353-bd930e2ab19e",
+      "field": "slots.condition.label.en",
+      "before": "Verb in ba-conditional form",
+      "after": "Verb in ば-conditional form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 36,
+      "id": "91fac336-3946-428e-8dbe-6f2d945fe0a6",
+      "field": "title.en",
+      "before": "A goal with you ni",
+      "after": "A goal with ように"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 36,
+      "id": "91fac336-3946-428e-8dbe-6f2d945fe0a6",
+      "field": "explanation.en",
+      "before": "Dictionary or nai-form plus you ni gives a desired state, often ability or something not directly controlled by will.",
+      "after": "Dictionary or ない-form plus ように gives a desired state, often ability or something not directly controlled by will."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 36,
+      "id": "91fac336-3946-428e-8dbe-6f2d945fe0a6",
+      "field": "notes.en",
+      "before": "Contrast tame ni, commonly used for an intentional action as a purpose.",
+      "after": "Contrast ために, commonly used for an intentional action as a purpose."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 36,
+      "id": "45acfd0b-a574-4395-bbdc-11a26468987c",
+      "field": "explanation.en",
+      "before": "An ability verb plus you ni narimasu describes a new ability. Naku narimasu describes loss of ability or ending a habit.",
+      "after": "An ability verb plus ようになります describes a new ability. なくなります describes loss of ability or ending a habit."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 36,
+      "id": "45acfd0b-a574-4395-bbdc-11a26468987c",
+      "field": "notes.en",
+      "before": "If the change has not occurred, answer mada with a negative.",
+      "after": "If the change has not occurred, answer まだ with a negative."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 36,
+      "id": "e8b3618b-ba66-422e-afa9-9e6f0cc76f84",
+      "field": "explanation.en",
+      "before": "You ni shite imasu expresses an effort to keep a habit; you ni shite kudasai asks someone to make that effort.",
+      "after": "ようにしています expresses an effort to keep a habit; ようにしてください asks someone to make that effort."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 36,
+      "id": "345a43ac-b448-42e0-8634-f2a1741d7196",
+      "field": "explanation.en",
+      "before": "I-adjectives change i to ku; na-adjectives take ni to modify a verb.",
+      "after": "い-adjectives change い to く; な-adjectives take に to modify a verb."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 36,
+      "id": "345a43ac-b448-42e0-8634-f2a1741d7196",
+      "field": "notes.en",
+      "before": "Ii becomes yoku.",
+      "after": "いい becomes よく."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 36,
+      "id": "e18b0aae-3f6b-4230-a4fa-054a26484195",
+      "field": "slots.action.label.en",
+      "before": "Verb in nai form",
+      "after": "Verb in ない form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 36,
+      "id": "7f98968d-5050-44eb-853b-d21a82c0e502",
+      "field": "slots.adverb.label.en",
+      "before": "Adjective in adverbial ku or ni form",
+      "after": "Adjective in adverbial く or に form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 37,
+      "id": "a6d5bec3-636f-463f-b7f4-10c75eb0ff9d",
+      "field": "explanation.en",
+      "before": "Group I changes final sound to the a-row plus reru; Group II replaces ru with rareru; suru becomes sareru and kuru becomes korareru.",
+      "after": "Group I changes final sound to the あ-row plus れる; Group II replaces る with られる; する becomes される and 来る becomes 来られる."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 37,
+      "id": "bfa201f2-6a3f-432f-9f7a-2ccd65103820",
+      "field": "explanation.en",
+      "before": "The affected person is the wa-topic; the actor takes ni before the passive verb.",
+      "after": "The affected person is the は-topic; the actor takes に before the passive verb."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 37,
+      "id": "bfa201f2-6a3f-432f-9f7a-2ccd65103820",
+      "field": "notes.en",
+      "before": "Do not replace every beneficial action with the passive; te morau expresses receiving a favor.",
+      "after": "Do not replace every beneficial action with the passive; てもらう expresses receiving a favor."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 37,
+      "id": "272c4281-4a22-4d31-990b-96b17d2faf78",
+      "field": "explanation.en",
+      "before": "Affected person wa, actor ni, possession wo and a passive describe an action affecting a person's possession.",
+      "after": "Affected person は, actor に, possession を and a passive describe an action affecting a person's possession."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 37,
+      "id": "a9414c48-60e0-4454-ac87-758076a0dd98",
+      "field": "explanation.en",
+      "before": "Kara commonly marks transformed raw ingredients; de often marks material recognizable in the finished object.",
+      "after": "から commonly marks transformed raw ingredients; で often marks material recognizable in the finished object."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 37,
+      "id": "39e31b6f-5280-4583-a857-a6b5122ede45",
+      "field": "title.en",
+      "before": "Appositional no",
+      "after": "Appositional の"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 37,
+      "id": "39e31b6f-5280-4583-a857-a6b5122ede45",
+      "field": "explanation.en",
+      "before": "The first noun with no may identify the role or type of the second noun.",
+      "after": "The first noun with の may identify the role or type of the second noun."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 37,
+      "id": "39e31b6f-5280-4583-a857-a6b5122ede45",
+      "field": "notes.en",
+      "before": "No does not always mean ownership.",
+      "after": "の does not always mean ownership."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 37,
+      "id": "ea069c37-36bb-4906-8545-7c9d36fc27c0",
+      "field": "explanation.en",
+      "before": "Kono, sono and ano before position words such as naka or chikaku locate something relative to an identified object.",
+      "after": "この, その and あの before position words such as 中 or 近く locate something relative to an identified object."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 37,
+      "id": "ea069c37-36bb-4906-8545-7c9d36fc27c0",
+      "field": "notes.en",
+      "before": "Kono naka can mean inside this object without repeating its name.",
+      "after": "この 中 can mean inside this object without repeating its name."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 37,
+      "id": "d9354509-168b-4369-b90e-ed152b590ed2",
+      "field": "slots.position.label.en",
+      "before": "Relative position word such as naka",
+      "after": "Relative position word such as 中"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "c8a3ae5f-879d-4a5e-bc42-210da2e1dd12",
+      "field": "title.en",
+      "before": "Nominalizing with no",
+      "after": "Nominalizing with の"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "c8a3ae5f-879d-4a5e-bc42-210da2e1dd12",
+      "field": "explanation.en",
+      "before": "Add no after a plain-form verb to use an event as a noun phrase.",
+      "after": "Add の after a plain-form verb to use an event as a noun phrase."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "c8a3ae5f-879d-4a5e-bc42-210da2e1dd12",
+      "field": "notes.en",
+      "before": "The particle after no marks the role of the entire clause.",
+      "after": "The particle after の marks the role of the entire clause."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "c191ace2-7896-403c-8af0-bf380143a8e2",
+      "field": "explanation.en",
+      "before": "Dictionary form plus no wa plus an adjective makes an activity the topic of an evaluation.",
+      "after": "Dictionary form plus のは plus an adjective makes an activity the topic of an evaluation."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "c191ace2-7896-403c-8af0-bf380143a8e2",
+      "field": "notes.en",
+      "before": "Distinguish topical no wa from no ga marking an object of preference or ability.",
+      "after": "Distinguish topical のは from のが marking an object of preference or ability."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "c9093b5d-a73c-469c-bc76-bdec3784a122",
+      "field": "title.en",
+      "before": "Preferences and ability with no ga",
+      "after": "Preferences and ability with のが"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "c9093b5d-a73c-469c-bc76-bdec3784a122",
+      "field": "explanation.en",
+      "before": "Dictionary form plus no ga precedes adjectives such as suki, jouzu and hayai to identify the activity concerned.",
+      "after": "Dictionary form plus のが precedes adjectives such as 好き, 上手 and 速い to identify the activity concerned."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "c9093b5d-a73c-469c-bc76-bdec3784a122",
+      "field": "notes.en",
+      "before": "The person with that preference or ability can be a separate wa-topic.",
+      "after": "The person with that preference or ability can be a separate は-topic."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "91b94de9-9c45-4e8f-8742-2fa347a00046",
+      "field": "explanation.en",
+      "before": "Dictionary form plus no wo wasuremashita says one forgot to perform an action.",
+      "after": "Dictionary form plus のを忘れました says one forgot to perform an action."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "878fe160-e77a-41a0-809d-2d2263fd2f1f",
+      "field": "explanation.en",
+      "before": "Plain form plus no wo shitte imasu ka asks whether someone knows an event-related fact.",
+      "after": "Plain form plus のを知っていますか asks whether someone knows an event-related fact."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "878fe160-e77a-41a0-809d-2d2263fd2f1f",
+      "field": "notes.en",
+      "before": "For news learned through the question, reply shirimasen deshita; for an unknown address, shirimasen remains appropriate.",
+      "after": "For news learned through the question, reply 知りませんでした; for an unknown address, 知りません remains appropriate."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "b2d8d542-f33f-43f1-8607-7c5a90a4c9c6",
+      "field": "title.en",
+      "before": "Focusing with no wa",
+      "after": "Focusing with のは"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "b2d8d542-f33f-43f1-8607-7c5a90a4c9c6",
+      "field": "explanation.en",
+      "before": "Clause plus no wa plus noun desu highlights an identified person, place or time. Nouns and na-adjectives take na before no.",
+      "after": "Clause plus のは plus noun です highlights an identified person, place or time. Nouns and な-adjectives take な before の."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "b2d8d542-f33f-43f1-8607-7c5a90a4c9c6",
+      "field": "notes.en",
+      "before": "The subject inside the clause normally takes ga rather than wa.",
+      "after": "The subject inside the clause normally takes が rather than は."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 38,
+      "id": "373c47ee-11e2-4d76-951f-479b5243bbcc",
+      "field": "slots.event.label.en",
+      "before": "Background clause with a ga-marked subject",
+      "after": "Background clause with a が-marked subject"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 39,
+      "id": "9fa70b8a-6bf9-4c65-876e-6573abf60aee",
+      "field": "title.en",
+      "before": "Causes with te and de",
+      "after": "Causes with て and で"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 39,
+      "id": "9fa70b8a-6bf9-4c65-876e-6573abf60aee",
+      "field": "explanation.en",
+      "before": "Te, nakute, kute and de can link a cause to an emotion or unintended result; noun de marks causes such as accidents.",
+      "after": "て, なくて, くて and で can link a cause to an emotion or unintended result; noun で marks causes such as accidents."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 39,
+      "id": "9fa70b8a-6bf9-4c65-876e-6573abf60aee",
+      "field": "notes.en",
+      "before": "Do not freely place an invitation, intention or command after this causal construction; use kara when appropriate.",
+      "after": "Do not freely place an invitation, intention or command after this causal construction; use から when appropriate."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 39,
+      "id": "ce8b9a79-26b3-4e94-9f5e-8cc8d16712e5",
+      "field": "title.en",
+      "before": "Giving a reason with node",
+      "after": "Giving a reason with ので"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 39,
+      "id": "ce8b9a79-26b3-4e94-9f5e-8cc8d16712e5",
+      "field": "explanation.en",
+      "before": "Plain form plus node gives a relatively matter-of-fact reason; nouns and na-adjectives take na node.",
+      "after": "Plain form plus ので gives a relatively matter-of-fact reason; nouns and な-adjectives take なので."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 39,
+      "id": "6f3d7ed7-b196-42b0-91a9-b1daa9f653e9",
+      "field": "explanation.en",
+      "before": "Dictionary form plus tochuu de, or noun plus no tochuu de, marks a point during an activity or journey.",
+      "after": "Dictionary form plus 途中で, or noun plus の途中で, marks a point during an activity or journey."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 39,
+      "id": "6f3d7ed7-b196-42b0-91a9-b1daa9f653e9",
+      "field": "notes.en",
+      "before": "De identifies where or when something intervenes rather than the destination.",
+      "after": "で identifies where or when something intervenes rather than the destination."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 39,
+      "id": "17976920-fb3f-43a7-8c23-cb77ce1f670c",
+      "field": "slots.cause.label.en",
+      "before": "Cause in verb te/de form",
+      "after": "Cause in verb て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 39,
+      "id": "e3dde878-4ea8-48d6-8ba2-360d0a6bf404",
+      "field": "slots.reason.label.en",
+      "before": "Plain-form reason with na after nouns/na-adjectives",
+      "after": "Plain-form reason with な after nouns/な-adjectives"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "975e5dcb-3cd2-4c8b-b866-905ebb358495",
+      "field": "explanation.en",
+      "before": "Put a question in plain form and add ka to embed it in a larger sentence. Omit da after nouns and na-adjectives.",
+      "after": "Put a question in plain form and add か to embed it in a larger sentence. Omit だ after nouns and な-adjectives."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "975e5dcb-3cd2-4c8b-b866-905ebb358495",
+      "field": "notes.en",
+      "before": "Keep the question word; do not insert desu ka inside the sentence.",
+      "after": "Keep the question word; do not insert ですか inside the sentence."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "73e139cd-5119-4363-aa8d-c12fcf5fa5ed",
+      "field": "explanation.en",
+      "before": "Plain form plus ka dou ka embeds a yes-or-no question.",
+      "after": "Plain form plus かどうか embeds a yes-or-no question."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "73e139cd-5119-4363-aa8d-c12fcf5fa5ed",
+      "field": "notes.en",
+      "before": "Do not combine a question word such as itsu with ka dou ka; use itsu ... ka.",
+      "after": "Do not combine a question word such as いつ with かどうか; use いつ ... か."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "ef369552-076c-4e88-a8b7-44303b1e9fb2",
+      "field": "explanation.en",
+      "before": "Te mimasu means trying an action to experience it or see the result.",
+      "after": "てみます means trying an action to experience it or see the result."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "ef369552-076c-4e88-a8b7-44303b1e9fb2",
+      "field": "notes.en",
+      "before": "Miru here does not literally mean looking.",
+      "after": "見る here does not literally mean looking."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "12851b19-e5da-4fe4-9924-e7f74caa4104",
+      "field": "title.en",
+      "before": "Degree nouns with sa",
+      "after": "Degree nouns with さ"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "12851b19-e5da-4fe4-9924-e7f74caa4104",
+      "field": "explanation.en",
+      "before": "Replace final i of an i-adjective with sa to form a degree noun such as nagasa or omosa.",
+      "after": "Replace final い of an い-adjective with さ to form a degree noun such as 長さ or 重さ."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "c45a3259-946d-42b9-9b47-92ce02f17307",
+      "field": "title.en",
+      "before": "Softening a question with deshou ka",
+      "after": "Softening a question with でしょうか"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "c45a3259-946d-42b9-9b47-92ce02f17307",
+      "field": "explanation.en",
+      "before": "Deshou ka makes a question less direct, often when seeking an opinion or uncertain information.",
+      "after": "でしょうか makes a question less direct, often when seeking an opinion or uncertain information."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "8c2dae67-3d1f-490f-9a40-9e0c23d8ee98",
+      "field": "slots.question.label.en",
+      "before": "Plain embedded question with a question word, without final da",
+      "after": "Plain embedded question with a question word, without final だ"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "afa18b90-055a-47b2-b61f-3b3f4bbececb",
+      "field": "slots.question.label.en",
+      "before": "Plain yes/no question without final da",
+      "after": "Plain yes/の question without final だ"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "5c41982c-3ef4-4f75-969b-5c2b608c9fcf",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 40,
+      "id": "4ccf3378-e630-4ef5-bba0-5a02fd54af82",
+      "field": "slots.degree_noun.label.en",
+      "before": "Degree noun ending in sa",
+      "after": "Degree noun ending in さ"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "a252dde6-e0ec-4796-ab23-44cea2995650",
+      "field": "explanation.en",
+      "before": "Itadakimasu humbly describes receiving; kudasaimasu honors someone giving to the speaker; yarimasu can describe giving to animals or juniors in suitable contexts.",
+      "after": "いただきます humbly describes receiving; くださいます honors someone giving to the speaker; やります can describe giving to animals or juniors in suitable contexts."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "a252dde6-e0ec-4796-ab23-44cea2995650",
+      "field": "notes.en",
+      "before": "Agemasu is usually safer for people to avoid the superior tone of yarimasu.",
+      "after": "あげます is usually safer for people to avoid the superior tone of やります."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "1335d7bc-a871-403e-b83f-5c8f50ac731c",
+      "field": "explanation.en",
+      "before": "Te itadakimasu takes the recipient's viewpoint; te kudasaimasu honors the helper; te yarimasu describes doing something for a junior or animal.",
+      "after": "ていただきます takes the recipient's viewpoint; てくださいます honors the helper; てやります describes doing something for a junior or animal."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "1335d7bc-a871-403e-b83f-5c8f50ac731c",
+      "field": "notes.en",
+      "before": "Ni marks the helper with itadaku; the helper is the subject with kudasaru.",
+      "after": "に marks the helper with いただく; the helper is the subject with くださる."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "4bdad0b8-c8db-463a-8961-8407d2c75e2d",
+      "field": "title.en",
+      "before": "A request with kudasaimasen ka",
+      "after": "A request with くださいません か"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "4bdad0b8-c8db-463a-8961-8407d2c75e2d",
+      "field": "explanation.en",
+      "before": "Te kudasaimasen ka asks the listener for an action more politely than te kudasai.",
+      "after": "てくださいませんか asks the listener for an action more politely than てください."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "4bdad0b8-c8db-463a-8961-8407d2c75e2d",
+      "field": "notes.en",
+      "before": "Te itadakemasen ka is generally still more deferential.",
+      "after": "ていただけませんか is generally still more deferential."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "5a31bfa5-9230-4273-b0f9-59eebc0076b5",
+      "field": "title.en",
+      "before": "Ni for a gift occasion",
+      "after": "に for a gift occasion"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "5a31bfa5-9230-4273-b0f9-59eebc0076b5",
+      "field": "explanation.en",
+      "before": "A noun plus ni can mark the occasion or purpose of a gift, such as a celebration or souvenir.",
+      "after": "A noun plus に can mark the occasion or purpose of a gift, such as a celebration or souvenir."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "5a31bfa5-9230-4273-b0f9-59eebc0076b5",
+      "field": "notes.en",
+      "before": "Distinguish occasion ni from recipient ni.",
+      "after": "Distinguish occasion に from recipient に."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "477d51fa-372a-4ff3-b68b-3ae9e082a58e",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "fa1b6195-ade2-46d0-957f-e2ef9850b5b8",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 41,
+      "id": "ce9de4d3-7a98-4327-9456-e9d8e158dd28",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 42,
+      "id": "1cb4c16c-6847-43c9-b21d-7c3d6496fbff",
+      "field": "explanation.en",
+      "before": "Dictionary form plus tame ni gives an intentional purpose; noun plus no tame ni can express acting for someone's benefit.",
+      "after": "Dictionary form plus ために gives an intentional purpose; noun plus のために can express acting for someone's benefit."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 42,
+      "id": "1cb4c16c-6847-43c9-b21d-7c3d6496fbff",
+      "field": "notes.en",
+      "before": "For a desired ability or state, you ni is often appropriate.",
+      "after": "For a desired ability or state, ように is often appropriate."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 42,
+      "id": "82c78695-8833-4a40-a0f4-c69675ed3b42",
+      "field": "title.en",
+      "before": "Use and cost with no ni",
+      "after": "Use and cost with のに"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 42,
+      "id": "82c78695-8833-4a40-a0f4-c69675ed3b42",
+      "field": "explanation.en",
+      "before": "Dictionary form plus no ni, or noun plus ni, combines with use, useful, necessary or cost expressions to state a function or required resources.",
+      "after": "Dictionary form plus のに, or noun plus に, combines with use, useful, necessary or cost expressions to state a function or required resources."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 42,
+      "id": "82c78695-8833-4a40-a0f4-c69675ed3b42",
+      "field": "notes.en",
+      "before": "Here no ni is nominalizing no plus ni, unlike the concessive use in lesson 45.",
+      "after": "Here のに is nominalizing の plus に, unlike the concessive use in lesson 45."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 42,
+      "id": "eb5dcc53-4301-49ae-b01d-dc0a83801d1a",
+      "field": "title.en",
+      "before": "Minimum wa and emphatic mo",
+      "after": "Minimum は and emphatic も"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 42,
+      "id": "eb5dcc53-4301-49ae-b01d-dc0a83801d1a",
+      "field": "explanation.en",
+      "before": "A quantity plus wa emphasizes a minimum; a quantity plus mo emphasizes a surprisingly large amount.",
+      "after": "A quantity plus は emphasizes a minimum; a quantity plus も emphasizes a surprisingly large amount."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 42,
+      "id": "e73b8f59-3467-427f-9a38-49cb38f1429c",
+      "field": "title.en",
+      "before": "Creators with ni yotte",
+      "after": "Creators with によって"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 42,
+      "id": "e73b8f59-3467-427f-9a38-49cb38f1429c",
+      "field": "explanation.en",
+      "before": "In passives of creation or invention, ni yotte marks the creator.",
+      "after": "In passives of creation or invention, によって marks the creator."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 42,
+      "id": "e73b8f59-3467-427f-9a38-49cb38f1429c",
+      "field": "notes.en",
+      "before": "Do not replace every passive ni with ni yotte; choose according to the relation.",
+      "after": "Do not replace every passive に with によって; choose according to the relation."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 43,
+      "id": "29418494-a0c8-4076-a2d7-e0151d0120a6",
+      "field": "explanation.en",
+      "before": "Masu stem plus sou desu predicts an imminent event; adjective stem plus sou desu infers from appearance. Ii becomes yosasou and nai becomes nasasou.",
+      "after": "ます stem plus そうです predicts an imminent event; adjective stem plus そうです infers from appearance. いい becomes よさそう and ない becomes なさそう."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 43,
+      "id": "29418494-a0c8-4076-a2d7-e0151d0120a6",
+      "field": "notes.en",
+      "before": "Do not attach sou directly to a noun as a general rule; appearance differs from lesson 47 hearsay.",
+      "after": "Do not attach そう directly to a noun as a general rule; appearance differs from lesson 47 hearsay."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 43,
+      "id": "9faca396-86fa-4f6c-a660-6b71d31e38a6",
+      "field": "explanation.en",
+      "before": "Te kimasu can mean going to perform an action and returning; the action location takes de. E itte kimasu states a destination and return.",
+      "after": "て来ます can mean going to perform an action and returning; the action location takes で. へ 行って来ます states a destination and return."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 43,
+      "id": "af347cac-bb09-434b-b70e-bbb25d515cfd",
+      "field": "title.en",
+      "before": "Requests with te kuremasen ka",
+      "after": "Requests with てくれませんか"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 43,
+      "id": "af347cac-bb09-434b-b70e-bbb25d515cfd",
+      "field": "explanation.en",
+      "before": "Te kuremasen ka asks for help more softly than te kudasai.",
+      "after": "てくれませんか asks for help more softly than てください."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 43,
+      "id": "af347cac-bb09-434b-b70e-bbb25d515cfd",
+      "field": "notes.en",
+      "before": "For greater deference, consider te kudasaimasen ka or te itadakemasen ka.",
+      "after": "For greater deference, consider てくださいませんか or ていただけませんか."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 43,
+      "id": "dcaa8176-ddff-4cd2-aa9c-9084b464b6ce",
+      "field": "slots.stem.label.en",
+      "before": "Verb stem without masu",
+      "after": "Verb stem without ます"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 43,
+      "id": "5a1b0e4b-fdfc-4e5a-8a6a-dc2fbea6c4c1",
+      "field": "slots.adjective_stem.label.en",
+      "before": "Adjective stem without i/na; ii becomes yosa",
+      "after": "Adjective stem without i/な; いい becomes yosa"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 43,
+      "id": "7c5fef01-aa0c-4e5f-adb7-330f5be70db0",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 43,
+      "id": "db47c444-28c2-4fc2-89b5-31f4fb11edda",
+      "field": "slots.action.label.en",
+      "before": "Verb in te/de form",
+      "after": "Verb in て/で form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 44,
+      "id": "3025ab53-4af9-4989-8a92-19b215400ea0",
+      "field": "title.en",
+      "before": "Excess with sugiru",
+      "after": "Excess with すぎる"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 44,
+      "id": "3025ab53-4af9-4989-8a92-19b215400ea0",
+      "field": "explanation.en",
+      "before": "Masu stem or adjective stem plus sugimasu expresses excess beyond a suitable level.",
+      "after": "ます stem or adjective stem plus すぎます expresses excess beyond a suitable level."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 44,
+      "id": "3025ab53-4af9-4989-8a92-19b215400ea0",
+      "field": "notes.en",
+      "before": "Sugiru conjugates as a Group II verb.",
+      "after": "すぎる conjugates as a Group II verb."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 44,
+      "id": "28a881a4-deac-4b75-849f-a5b7d3267427",
+      "field": "explanation.en",
+      "before": "Masu stem plus yasui or nikui expresses ease or difficulty; with nonvolitional events it can mean likely or unlikely to happen.",
+      "after": "ます stem plus やすい or にくい expresses ease or difficulty; with nonvolitional events it can mean likely or unlikely to happen."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 44,
+      "id": "28a881a4-deac-4b75-849f-a5b7d3267427",
+      "field": "notes.en",
+      "before": "Both conjugate as i-adjectives.",
+      "after": "Both conjugate as い-adjectives."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 44,
+      "id": "c5af9e9f-56a9-4974-a41b-9c86b6b050a1",
+      "field": "explanation.en",
+      "before": "Object wo plus adjective ku or ni plus shimasu expresses deliberately changing its state; a target noun takes ni.",
+      "after": "Object を plus adjective く or に plus します expresses deliberately changing its state; a target noun takes に."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 44,
+      "id": "c5af9e9f-56a9-4974-a41b-9c86b6b050a1",
+      "field": "notes.en",
+      "before": "Narimasu describes a change; shimasu describes causing the change.",
+      "after": "なります describes a change; します describes causing the change."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 44,
+      "id": "13681adf-259f-46f1-9ede-bb4a62c7a83f",
+      "field": "title.en",
+      "before": "Choosing with ni shimasu",
+      "after": "Choosing with にします"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 44,
+      "id": "13681adf-259f-46f1-9ede-bb4a62c7a83f",
+      "field": "explanation.en",
+      "before": "Noun plus ni shimasu announces a choice.",
+      "after": "Noun plus にします announces a choice."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 44,
+      "id": "4b9b4114-84fb-44c3-85ec-dc6c84358c4f",
+      "field": "slots.stem.label.en",
+      "before": "Verb stem without masu",
+      "after": "Verb stem without ます"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 44,
+      "id": "482a4a88-7511-4882-8a8b-fd6c494b69ec",
+      "field": "slots.stem.label.en",
+      "before": "Verb stem without masu",
+      "after": "Verb stem without ます"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 44,
+      "id": "4dfbf06b-a9c0-4bed-bb0d-0f5ab6393651",
+      "field": "slots.adverb.label.en",
+      "before": "Adjectival ku/ni form for the target state",
+      "after": "Adjectival く/に form for the target state"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 45,
+      "id": "54f1c432-d22b-4491-b2db-5ac2695db1f4",
+      "field": "explanation.en",
+      "before": "A plain clause plus baai wa sets a situation for instructions or a response. Nouns take no and na-adjectives take na before baai.",
+      "after": "A plain clause plus 場合は sets a situation for instructions or a response. Nouns take の and な-adjectives take な before 場合."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 45,
+      "id": "54f1c432-d22b-4491-b2db-5ac2695db1f4",
+      "field": "notes.en",
+      "before": "Common in contingency instructions; it does not replace every use of toki.",
+      "after": "Common in contingency instructions; it does not replace every use of とき."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 45,
+      "id": "dcc6e0b7-f444-4a15-9fbb-e7b1b2e2e4f8",
+      "field": "title.en",
+      "before": "Unexpected contrast with noni",
+      "after": "Unexpected contrast with のに"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 45,
+      "id": "dcc6e0b7-f444-4a15-9fbb-e7b1b2e2e4f8",
+      "field": "explanation.en",
+      "before": "Plain form plus noni connects a fact with an unexpected result, often conveying surprise or dissatisfaction. Nouns and na-adjectives use na noni.",
+      "after": "Plain form plus のに connects a fact with an unexpected result, often conveying surprise or dissatisfaction. Nouns and な-adjectives use なのに."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 45,
+      "id": "dcc6e0b7-f444-4a15-9fbb-e7b1b2e2e4f8",
+      "field": "notes.en",
+      "before": "Unlike hypothetical even-if temo, noni concerns an unexpected outcome; it does not simply introduce an invitation or command.",
+      "after": "Unlike hypothetical even-if ても, のに concerns an unexpected outcome; it does not simply introduce an invitation or command."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 45,
+      "id": "e2f870b7-32e8-4858-8f79-d5ccb32aa316",
+      "field": "slots.situation.label.en",
+      "before": "Situation with na after na-adjectives and no after nouns",
+      "after": "Situation with な after な-adjectives and の after nouns"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 45,
+      "id": "776bd75a-acb7-447e-b683-8434b4724f03",
+      "field": "slots.expectation.label.en",
+      "before": "Fact creating an expectation, with na after nouns/na-adjectives",
+      "after": "Fact creating an expectation, with な after nouns/な-adjectives"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 46,
+      "id": "abead920-23af-4620-b49f-fb09e5c64f54",
+      "field": "explanation.en",
+      "before": "Dictionary form plus tokoro desu means about to act; te iru tokoro means in progress; ta tokoro means just finished now.",
+      "after": "Dictionary form plus ところです means about to act; ているところ means in progress; たところ means just finished now."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 46,
+      "id": "abead920-23af-4620-b49f-fb09e5c64f54",
+      "field": "notes.en",
+      "before": "Tokoro is a noun and can link with na node or nan desu.",
+      "after": "所 is a noun and can link with なので or なんです."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 46,
+      "id": "f04746c6-fe7f-46e1-92ca-728ef8a7024a",
+      "field": "title.en",
+      "before": "Recently with bakari",
+      "after": "Recently with ばかり"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 46,
+      "id": "f04746c6-fe7f-46e1-92ca-728ef8a7024a",
+      "field": "explanation.en",
+      "before": "Ta bakari desu says an action feels recent to the speaker; the actual interval can be longer than with ta tokoro desu.",
+      "after": "たばかりです says an action feels recent to the speaker; the actual interval can be longer than with たところです."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 46,
+      "id": "3f9454ba-d72b-46b0-909f-74f5df1ea564",
+      "field": "explanation.en",
+      "before": "Hazu desu gives a reasonable expectation based on known information. Use dictionary or nai-form, i-adjective, na-adjective plus na, or noun plus no.",
+      "after": "はずです gives a reasonable expectation based on known information. Use dictionary or ない-form, い-adjective, な-adjective plus な, or noun plus の."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 46,
+      "id": "3f9454ba-d72b-46b0-909f-74f5df1ea564",
+      "field": "notes.en",
+      "before": "It is not personal intention; hazu na noni can mark a contradiction with the expectation.",
+      "after": "It is not personal intention; はずなのに can mark a contradiction with the expectation."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 46,
+      "id": "2692720e-8521-4eb7-bce1-fb8b5bf60c10",
+      "field": "slots.ongoing_action.label.en",
+      "before": "Verb in te iru form for an action in progress",
+      "after": "Verb in て iru form for an action in progress"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 46,
+      "id": "92bfce4f-73dd-404d-93fd-c6440e59069c",
+      "field": "slots.action.label.en",
+      "before": "Verb in ta/da form",
+      "after": "Verb in た/だ form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 46,
+      "id": "2d94030a-0a90-47a6-9778-e7d816fb1baf",
+      "field": "slots.expectation.label.en",
+      "before": "Expected content: dictionary/nai form, adjective or noun plus no",
+      "after": "Expected content: dictionary/ない form, adjective or noun plus の"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 47,
+      "id": "971225e0-5a07-4351-b776-36b156788511",
+      "field": "title.en",
+      "before": "Hearsay with sou desu",
+      "after": "Hearsay with そうです"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 47,
+      "id": "971225e0-5a07-4351-b776-36b156788511",
+      "field": "explanation.en",
+      "before": "Plain form plus sou desu relays information heard or read; nouns and na-adjectives retain da. Ni yoru to identifies the source.",
+      "after": "Plain form plus そうです relays information heard or read; nouns and な-adjectives retain だ. によると identifies the source."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 47,
+      "id": "971225e0-5a07-4351-b776-36b156788511",
+      "field": "notes.en",
+      "before": "Unlike appearance sou in lesson 43, oishii sou is reportedly tasty whereas oishisou looks tasty.",
+      "after": "Unlike appearance そう in lesson 43, おいしいそう is reportedly tasty whereas おいしそう looks tasty."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 47,
+      "id": "e4b7aa61-6b5d-4690-aece-8fa7b52cd134",
+      "field": "title.en",
+      "before": "Inference with you desu",
+      "after": "Inference with ようです"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 47,
+      "id": "e4b7aa61-6b5d-4690-aece-8fa7b52cd134",
+      "field": "explanation.en",
+      "before": "Plain form plus you desu gives an inference from situational evidence. Nouns take no and na-adjectives take na.",
+      "after": "Plain form plus ようです gives an inference from situational evidence. Nouns take の and な-adjectives take な."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 47,
+      "id": "e4b7aa61-6b5d-4690-aece-8fa7b52cd134",
+      "field": "notes.en",
+      "before": "It can use several clues rather than just immediate appearance as sou desu does.",
+      "after": "It can use several clues rather than just immediate appearance as そうです does."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 47,
+      "id": "98153aaf-e470-4f68-a44c-b1350d3eb431",
+      "field": "explanation.en",
+      "before": "Koe, oto, nioi or aji plus ga shimasu describes a sensation the speaker perceives.",
+      "after": "声, 音, におい or 味 plus がします describes a sensation the speaker perceives."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 47,
+      "id": "98153aaf-e470-4f68-a44c-b1350d3eb431",
+      "field": "notes.en",
+      "before": "Shimasu here is not making an object; use ga rather than wo.",
+      "after": "します here is not making an object; use が rather than を."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 47,
+      "id": "454085c3-c961-4875-8ee2-6ee646375ed3",
+      "field": "slots.report.label.en",
+      "before": "Reported plain clause retaining noun/na-adjective da",
+      "after": "Reported plain clause retaining noun/な-adjective だ"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 47,
+      "id": "5eea9528-1379-46dd-a361-c4bfe66aabcc",
+      "field": "slots.inference.label.en",
+      "before": "Inference with no after nouns and na after na-adjectives",
+      "after": "Inference with の after nouns and な after な-adjectives"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 47,
+      "id": "5c79b6f0-75f2-4269-9e63-ab5840b3d911",
+      "field": "slots.sensation.label.en",
+      "before": "Koe, oto, nioi or aji, optionally modified",
+      "after": "声, 音, におい or 味, optionally modified"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 48,
+      "id": "05200817-6a40-4004-84e8-357953eb99e3",
+      "field": "explanation.en",
+      "before": "Group I changes the ending to a-row plus seru; Group II replaces ru with saseru; suru becomes saseru and kuru becomes kosaseru.",
+      "after": "Group I changes the ending to あ-row plus せる; Group II replaces る with させる; する becomes させる and 来る becomes 来させる."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 48,
+      "id": "05200817-6a40-4004-84e8-357953eb99e3",
+      "field": "notes.en",
+      "before": "Group I verbs ending in u use waseru. The new verb conjugates as Group II.",
+      "after": "Group I verbs ending in う use わせる. The new verb conjugates as Group II."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 48,
+      "id": "a341899b-cced-416d-b018-56b2967b8e36",
+      "field": "title.en",
+      "before": "Wo and ni in causatives",
+      "after": "を and に in causatives"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 48,
+      "id": "a341899b-cced-416d-b018-56b2967b8e36",
+      "field": "explanation.en",
+      "before": "With an intransitive verb the causee usually takes wo; with a transitive verb the causee takes ni and the object wo. If an intransitive already marks a path with wo, use ni for the causee.",
+      "after": "With an intransitive verb the causee usually takes を; with a transitive verb the causee takes に and the object を. If an intransitive already marks a path with を, use に for the causee."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 48,
+      "id": "addbae94-d127-4a12-a33b-7d958ac3c4ff",
+      "field": "explanation.en",
+      "before": "Causative te-form plus itadakemasen ka politely asks the listener to allow the speaker to act.",
+      "after": "Causative て-form plus いただけません か politely asks the listener to allow the speaker to act."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 48,
+      "id": "88119935-8c33-431b-ab59-e83eb238cff6",
+      "field": "slots.causee.label.en",
+      "before": "Person allowed or made to act",
+      "after": "Person allowed or まで to act"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 48,
+      "id": "66eae212-ca75-496c-8ec4-5bfa7b45273c",
+      "field": "slots.causative_te.label.en",
+      "before": "Causative verb in te form",
+      "after": "Causative verb in て form"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 49,
+      "id": "5b6d3614-85e4-47c0-9cbc-c03754440fac",
+      "field": "explanation.en",
+      "before": "Honorifics use passive-shaped forms, o plus masu stem plus ni narimasu, or special verbs. Polite invitations use o/go ... kudasai.",
+      "after": "Honorifics use passive-shaped forms, お + ます stem plus になります, or special verbs. Polite invitations use お／ご ... ください."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 49,
+      "id": "5b6d3614-85e4-47c0-9cbc-c03754440fac",
+      "field": "notes.en",
+      "before": "Prefer special forms such as meshiagaru; do not apply o ... ni naru mechanically. Irassharu, nasaru and ossharu have irregular polite stems.",
+      "after": "Prefer special forms such as 召し上がる; do not apply お…になる mechanically. いらっしゃる, なさる and おっしゃる have irregular polite stems."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 49,
+      "id": "061a0af9-cefa-44f3-a0e8-7416f7544118",
+      "field": "notes.en",
+      "before": "Nouns and adjectives take established o or go forms, not arbitrary prefixes on every word.",
+      "after": "Nouns and adjectives take established お／ご forms, not arbitrary prefixes on every word."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 49,
+      "id": "09b689d2-986f-48f6-a0f1-dbbb1dbed1af",
+      "field": "title.en",
+      "before": "Polite linking with mashite",
+      "after": "Polite linking with まして"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 49,
+      "id": "09b689d2-986f-48f6-a0f1-dbbb1dbed1af",
+      "field": "explanation.en",
+      "before": "In formal contexts mashite can replace a te-link to make the account more polite.",
+      "after": "In formal contexts まして can replace a て-link to make the account more polite."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 49,
+      "id": "e2062798-1d33-49a0-a043-fe015e29fb5c",
+      "field": "title.en",
+      "before": "Polite reasons with masu node",
+      "after": "Polite reasons with ます ので"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 49,
+      "id": "e2062798-1d33-49a0-a043-fe015e29fb5c",
+      "field": "explanation.en",
+      "before": "Node can follow a polite verb form to give a more formal explanation.",
+      "after": "ので can follow a polite verb form to give a more formal explanation."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 49,
+      "id": "e2062798-1d33-49a0-a043-fe015e29fb5c",
+      "field": "notes.en",
+      "before": "The relation remains reason and result; distinguish node from noni.",
+      "after": "The relation remains reason and result; distinguish ので from のに."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 49,
+      "id": "c6515fa4-3695-4cd4-9b78-103b2062e729",
+      "field": "slots.stem.label.en",
+      "before": "Verb stem without masu",
+      "after": "Verb stem without ます"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 49,
+      "id": "c1720a74-e0c6-45b8-aa71-7d1170b9ba8a",
+      "field": "slots.stem.label.en",
+      "before": "Verb stem without masu",
+      "after": "Verb stem without ます"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 49,
+      "id": "51562c0e-4317-44f8-9a33-3be6bdad5e82",
+      "field": "slots.stem.label.en",
+      "before": "Verb stem without masu",
+      "after": "Verb stem without ます"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 49,
+      "id": "d48aec69-b765-4a57-bcf6-cfed6b9c75c8",
+      "field": "slots.stem.label.en",
+      "before": "Verb stem without masu",
+      "after": "Verb stem without ます"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 50,
+      "id": "d1ca9739-7cb9-47f3-981b-622dc3b630ec",
+      "field": "explanation.en",
+      "before": "O plus masu stem plus shimasu, go plus action noun plus shimasu, or special verbs lower the speaker's side to honor the person affected.",
+      "after": "お + ます stem plus します, ご + action noun plus します, or special verbs lower the speaker's side to honor the person affected."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 50,
+      "id": "d1ca9739-7cb9-47f3-981b-622dc3b630ec",
+      "field": "notes.en",
+      "before": "Do not apply it to every private action unrelated to a respected person; some words use o rather than go, as in odenwa shimasu.",
+      "after": "Do not apply it to every private action unrelated to a respected person; some words use お rather than ご, as in お電話します."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 50,
+      "id": "d51717f0-b580-4105-9dfc-a7562b8ce003",
+      "field": "explanation.en",
+      "before": "Moushimasu, mairimasu, itashimasu and orimasu present one's own or one's group's actions modestly and formally to the listener.",
+      "after": "申します, 参ります, いたします and おります present one's own or one's group's actions modestly and formally to the listener."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 50,
+      "id": "d51717f0-b580-4105-9dfc-a7562b8ce003",
+      "field": "notes.en",
+      "before": "Unlike recipient-oriented humility, mairimasu can describe one's travel even when not going to the listener.",
+      "after": "Unlike recipient-oriented humility, 参ります can describe one's travel even when not going to the listener."
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 50,
+      "id": "ff949630-5ac3-4773-a35f-1c8ddb97e35c",
+      "field": "slots.stem.label.en",
+      "before": "Verb stem without masu",
+      "after": "Verb stem without ます"
+    },
+    {
+      "kind": "displayed_romanization",
+      "lesson": 50,
+      "id": "578af1e1-033f-403c-b611-4dff22708413",
+      "field": "slots.action_noun.label.en",
+      "before": "Sino-Japanese action noun used with suru",
+      "after": "Sino-Japanese action noun used with する"
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 1,
+      "id": "9654fab4-de55-46a0-9c22-452faf53dbba",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 46,
+          "pdf_page_end": 46,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "9654fab4-de55-46a0-9c22-452faf53dbba",
+        "japanese": {
+          "segments": [
+            {
+              "base": "山田",
+              "ruby": "やまだ"
+            }
+          ]
+        },
+        "kana_reading": "やまだ",
+        "meanings": {
+          "en": "Yamada, a Japanese surname",
+          "vi": "họ Yamada của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 46,
+            "pdf_page_end": 46,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 1,
+      "id": "d32da170-c842-494e-85f4-18455df62400",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 46,
+          "pdf_page_end": 46,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "d32da170-c842-494e-85f4-18455df62400",
+        "japanese": {
+          "segments": [
+            {
+              "base": "田中",
+              "ruby": "たなか"
+            }
+          ]
+        },
+        "kana_reading": "たなか",
+        "meanings": {
+          "en": "Tanaka, a Japanese surname",
+          "vi": "họ Tanaka của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 46,
+            "pdf_page_end": 46,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 1,
+      "id": "285023ec-6c53-41d1-b95f-6079d80d3b2f",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 46,
+          "pdf_page_end": 46,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "285023ec-6c53-41d1-b95f-6079d80d3b2f",
+        "japanese": {
+          "segments": [
+            {
+              "base": "山川",
+              "ruby": "やまかわ"
+            }
+          ]
+        },
+        "kana_reading": "やまかわ",
+        "meanings": {
+          "en": "Yamakawa, a Japanese surname",
+          "vi": "họ Yamakawa của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 46,
+            "pdf_page_end": 46,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 1,
+      "id": "7873c97b-a5af-406a-a93d-9dc874050ec7",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 46,
+          "pdf_page_end": 46,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "7873c97b-a5af-406a-a93d-9dc874050ec7",
+        "japanese": {
+          "segments": [
+            {
+              "base": "中川",
+              "ruby": "なかがわ"
+            }
+          ]
+        },
+        "kana_reading": "なかがわ",
+        "meanings": {
+          "en": "Nakagawa, a Japanese surname",
+          "vi": "họ Nakagawa của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 46,
+            "pdf_page_end": 46,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 3,
+      "id": "c055a645-2928-4b74-81c6-b2b95693a91e",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 54,
+          "pdf_page_end": 54,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "c055a645-2928-4b74-81c6-b2b95693a91e",
+        "japanese": {
+          "segments": [
+            {
+              "base": "田中",
+              "ruby": "たなか"
+            }
+          ]
+        },
+        "kana_reading": "たなか",
+        "meanings": {
+          "en": "Tanaka, a Japanese surname",
+          "vi": "họ Tanaka của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 54,
+            "pdf_page_end": 54,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 3,
+      "id": "5a2bfbac-5dec-40a8-81b5-dfb14b10974a",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 54,
+          "pdf_page_end": 54,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "5a2bfbac-5dec-40a8-81b5-dfb14b10974a",
+        "japanese": {
+          "segments": [
+            {
+              "base": "中川",
+              "ruby": "なかがわ"
+            }
+          ]
+        },
+        "kana_reading": "なかがわ",
+        "meanings": {
+          "en": "Nakagawa, a Japanese surname",
+          "vi": "họ Nakagawa của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 54,
+            "pdf_page_end": 54,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "dddbad1b-b730-4dc2-9515-ebbeb40fc807",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "dddbad1b-b730-4dc2-9515-ebbeb40fc807",
+        "japanese": {
+          "segments": [
+            {
+              "base": "山田",
+              "ruby": "やまだ"
+            }
+          ]
+        },
+        "kana_reading": "やまだ",
+        "meanings": {
+          "en": "Yamada, a Japanese surname",
+          "vi": "họ Yamada của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "aa0264ee-5d18-4389-a512-137d5445e416",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "aa0264ee-5d18-4389-a512-137d5445e416",
+        "japanese": {
+          "segments": [
+            {
+              "base": "川田",
+              "ruby": "かわだ"
+            }
+          ]
+        },
+        "kana_reading": "かわだ",
+        "meanings": {
+          "en": "Kawada, a Japanese surname",
+          "vi": "họ Kawada của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "89831c50-5c81-4537-8bf4-9c2902d8a6c6",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "89831c50-5c81-4537-8bf4-9c2902d8a6c6",
+        "japanese": {
+          "segments": [
+            {
+              "base": "本田",
+              "ruby": "ほんだ"
+            }
+          ]
+        },
+        "kana_reading": "ほんだ",
+        "meanings": {
+          "en": "Honda, a Japanese surname",
+          "vi": "họ Honda của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "c09b9307-87b0-4056-80b4-ec84f1bab54e",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "c09b9307-87b0-4056-80b4-ec84f1bab54e",
+        "japanese": {
+          "segments": [
+            {
+              "base": "中田",
+              "ruby": "なかだ"
+            }
+          ]
+        },
+        "kana_reading": "なかだ",
+        "meanings": {
+          "en": "Nakada, a Japanese surname",
+          "vi": "họ Nakada của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "b25ca49d-c47e-40da-909a-e500bc5cbf45",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "b25ca49d-c47e-40da-909a-e500bc5cbf45",
+        "japanese": {
+          "segments": [
+            {
+              "base": "前田",
+              "ruby": "まえだ"
+            }
+          ]
+        },
+        "kana_reading": "まえだ",
+        "meanings": {
+          "en": "Maeda, a Japanese surname",
+          "vi": "họ Maeda của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "c4df4d2c-0c7b-4668-af3e-2673d6c0c838",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "c4df4d2c-0c7b-4668-af3e-2673d6c0c838",
+        "japanese": {
+          "segments": [
+            {
+              "base": "上田",
+              "ruby": "うえだ"
+            }
+          ]
+        },
+        "kana_reading": "うえだ",
+        "meanings": {
+          "en": "Ueda, a Japanese surname",
+          "vi": "họ Ueda của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "fb1a848a-7e43-452a-b70e-3f106d22ac97",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "fb1a848a-7e43-452a-b70e-3f106d22ac97",
+        "japanese": {
+          "segments": [
+            {
+              "base": "田中",
+              "ruby": "たなか"
+            }
+          ]
+        },
+        "kana_reading": "たなか",
+        "meanings": {
+          "en": "Tanaka, a Japanese surname",
+          "vi": "họ Tanaka của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "d5585568-8b3a-4c40-8367-b9d188b5efcb",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "d5585568-8b3a-4c40-8367-b9d188b5efcb",
+        "japanese": {
+          "segments": [
+            {
+              "base": "田川",
+              "ruby": "たがわ"
+            }
+          ]
+        },
+        "kana_reading": "たがわ",
+        "meanings": {
+          "en": "Tagawa, a Japanese surname",
+          "vi": "họ Tagawa của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "0c664ea9-a173-421a-b539-040cad9b3b0c",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "0c664ea9-a173-421a-b539-040cad9b3b0c",
+        "japanese": {
+          "segments": [
+            {
+              "base": "田山",
+              "ruby": "たやま"
+            }
+          ]
+        },
+        "kana_reading": "たやま",
+        "meanings": {
+          "en": "Tayama, a Japanese surname",
+          "vi": "họ Tayama của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "09b69be5-3fba-4c84-aff0-22412f39d62f",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "09b69be5-3fba-4c84-aff0-22412f39d62f",
+        "japanese": {
+          "segments": [
+            {
+              "base": "山川",
+              "ruby": "やまかわ"
+            }
+          ]
+        },
+        "kana_reading": "やまかわ",
+        "meanings": {
+          "en": "Yamakawa, a Japanese surname",
+          "vi": "họ Yamakawa của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "30eff257-f0e2-4454-b76a-cd7f5cf8e56f",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "30eff257-f0e2-4454-b76a-cd7f5cf8e56f",
+        "japanese": {
+          "segments": [
+            {
+              "base": "山下",
+              "ruby": "やました"
+            }
+          ]
+        },
+        "kana_reading": "やました",
+        "meanings": {
+          "en": "Yamashita, a Japanese surname",
+          "vi": "họ Yamashita của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "74eafb2d-2a95-4a12-aa7f-ca1e3c6aca41",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "74eafb2d-2a95-4a12-aa7f-ca1e3c6aca41",
+        "japanese": {
+          "segments": [
+            {
+              "base": "山西",
+              "ruby": "やまにし"
+            }
+          ]
+        },
+        "kana_reading": "やまにし",
+        "meanings": {
+          "en": "Yamanishi, a Japanese surname",
+          "vi": "họ Yamanishi của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "77b188a6-18bc-4d10-aa19-6f447a904ec2",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "77b188a6-18bc-4d10-aa19-6f447a904ec2",
+        "japanese": {
+          "segments": [
+            {
+              "base": "中山",
+              "ruby": "なかやま"
+            }
+          ]
+        },
+        "kana_reading": "なかやま",
+        "meanings": {
+          "en": "Nakayama, a Japanese surname",
+          "vi": "họ Nakayama của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "90f64adb-bd00-4313-a7e8-53101a6e5165",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "90f64adb-bd00-4313-a7e8-53101a6e5165",
+        "japanese": {
+          "segments": [
+            {
+              "base": "西山",
+              "ruby": "にしやま"
+            }
+          ]
+        },
+        "kana_reading": "にしやま",
+        "meanings": {
+          "en": "Nishiyama, a Japanese surname",
+          "vi": "họ Nishiyama của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "86b7b23a-ecb5-44bb-be90-0edc911e763e",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "86b7b23a-ecb5-44bb-be90-0edc911e763e",
+        "japanese": {
+          "segments": [
+            {
+              "base": "中川",
+              "ruby": "なかがわ"
+            }
+          ]
+        },
+        "kana_reading": "なかがわ",
+        "meanings": {
+          "en": "Nakagawa, a Japanese surname",
+          "vi": "họ Nakagawa của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "fb002117-c651-4d75-9024-d199aa721737",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "fb002117-c651-4d75-9024-d199aa721737",
+        "japanese": {
+          "segments": [
+            {
+              "base": "北川",
+              "ruby": "きたがわ"
+            }
+          ]
+        },
+        "kana_reading": "きたがわ",
+        "meanings": {
+          "en": "Kitagawa, a Japanese surname",
+          "vi": "họ Kitagawa của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "restored_kanji_source_name",
+      "unit": 15,
+      "id": "cae92ec4-51ee-4b1b-ba67-8c3a62f6cf34",
+      "source_refs": [
+        {
+          "source_id": "N5_KANJI",
+          "pdf_page_start": 203,
+          "pdf_page_end": 203,
+          "basis": "compound_word_reading"
+        }
+      ],
+      "after": {
+        "id": "cae92ec4-51ee-4b1b-ba67-8c3a62f6cf34",
+        "japanese": {
+          "segments": [
+            {
+              "base": "西川",
+              "ruby": "にしかわ"
+            }
+          ]
+        },
+        "kana_reading": "にしかわ",
+        "meanings": {
+          "en": "Nishikawa, a Japanese surname",
+          "vi": "họ Nishikawa của người Nhật"
+        },
+        "source_refs": [
+          {
+            "source_id": "N5_KANJI",
+            "pdf_page_start": 203,
+            "pdf_page_end": 203,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "kanji_counter_reading_variant",
+      "unit": 40,
+      "id": "1b763164-6c49-475a-9ebf-bbaefea05213",
+      "after": {
+        "id": "1b763164-6c49-475a-9ebf-bbaefea05213",
+        "japanese": {
+          "segments": [
+            {
+              "base": "本",
+              "ruby": "ぼん"
+            }
+          ]
+        },
+        "kana_reading": "ぼん",
+        "meanings": {
+          "en": "counter for long cylindrical objects; reading depends on the preceding number",
+          "vi": "trợ số từ cho vật dài; cách đọc thay đổi theo số đứng trước"
+        },
+        "source_refs": [
+          {
+            "source_id": "N4_KANJI",
+            "pdf_page_start": 96,
+            "pdf_page_end": 96,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "kanji_counter_reading_variant",
+      "unit": 40,
+      "id": "07ef3902-7c6d-4d71-af65-8ccd99c357e2",
+      "after": {
+        "id": "07ef3902-7c6d-4d71-af65-8ccd99c357e2",
+        "japanese": {
+          "segments": [
+            {
+              "base": "本",
+              "ruby": "ぽん"
+            }
+          ]
+        },
+        "kana_reading": "ぽん",
+        "meanings": {
+          "en": "counter for long cylindrical objects; reading depends on the preceding number",
+          "vi": "trợ số từ cho vật dài; cách đọc thay đổi theo số đứng trước"
+        },
+        "source_refs": [
+          {
+            "source_id": "N4_KANJI",
+            "pdf_page_start": 96,
+            "pdf_page_end": 96,
+            "basis": "compound_word_reading"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      }
+    },
+    {
+      "kind": "bilingual_content_correction",
+      "lesson": 5,
+      "id": "4eb7188a-171d-4711-8743-5e068d70baa7",
+      "field": [
+        "meanings",
+        0,
+        "text",
+        "vi"
+      ],
+      "before": "anh ấy",
+      "after": "anh ấy; bạn trai",
+      "reason": "Clarify the contextual Vietnamese sense and keep it equivalent to the Japanese/English meaning."
+    },
+    {
+      "kind": "bilingual_content_correction",
+      "lesson": 5,
+      "id": "0a801e3f-b786-4567-8e9d-bdcc7829c2d9",
+      "field": [
+        "meanings",
+        0,
+        "text",
+        "vi"
+      ],
+      "before": "cô ấy",
+      "after": "cô ấy; bạn gái",
+      "reason": "Clarify the contextual Vietnamese sense and keep it equivalent to the Japanese/English meaning."
+    },
+    {
+      "kind": "bilingual_content_correction",
+      "lesson": 15,
+      "id": "90d9e70e-fec0-4a9d-9e67-9b63e4cf5e71",
+      "field": [
+        "meanings",
+        0,
+        "text",
+        "vi"
+      ],
+      "before": "chế tạo lớn",
+      "after": "chế tạo; đóng; xây dựng",
+      "reason": "Clarify the contextual Vietnamese sense and keep it equivalent to the Japanese/English meaning."
+    },
+    {
+      "kind": "bilingual_content_correction",
+      "lesson": 17,
+      "id": "9d23b4ab-41bb-4b1e-85a6-a1c12bc7a8d6",
+      "field": [
+        "meanings",
+        0,
+        "text",
+        "vi"
+      ],
+      "before": "chậm nhất trước…",
+      "after": "chậm nhất là…; trước hạn…",
+      "reason": "Clarify the contextual Vietnamese sense and keep it equivalent to the Japanese/English meaning."
+    },
+    {
+      "kind": "bilingual_content_correction",
+      "lesson": 29,
+      "id": "b6a810c1-d545-4cf8-bbac-e63508d41609",
+      "field": [
+        "meanings",
+        0,
+        "text",
+        "vi"
+      ],
+      "before": "chắc là nếu tôi nhớ đúng",
+      "after": "nếu tôi nhớ không nhầm",
+      "reason": "Clarify the contextual Vietnamese sense and keep it equivalent to the Japanese/English meaning."
+    },
+    {
+      "kind": "bilingual_content_correction",
+      "lesson": 44,
+      "id": "71980f85-f1dd-447d-b8ff-6e9f8a0a8876",
+      "field": [
+        "meanings",
+        0,
+        "text",
+        "vi"
+      ],
+      "before": "đĩa DVD/ディーブイディー",
+      "after": "đĩa DVD",
+      "reason": "Clarify the contextual Vietnamese sense and keep it equivalent to the Japanese/English meaning."
+    },
+    {
+      "kind": "bilingual_content_correction",
+      "lesson": 48,
+      "id": "cf864602-d982-436f-a0f3-d9cf944cfdab",
+      "field": [
+        "meanings",
+        0,
+        "text",
+        "vi"
+      ],
+      "before": "trước lúc đó",
+      "after": "chậm nhất lúc đó",
+      "reason": "Clarify the contextual Vietnamese sense and keep it equivalent to the Japanese/English meaning."
+    },
+    {
+      "kind": "bilingual_content_correction",
+      "lesson": 13,
+      "id": "bbc0a5ee-49c9-4d70-acdb-6db75df369fd",
+      "field": [
+        "meanings",
+        0,
+        "text",
+        "en"
+      ],
+      "before": "formal equivalent of desu",
+      "after": "formal equivalent of です",
+      "reason": "Displayed Japanese terminology uses Japanese script; search aliases remain unchanged."
+    },
+    {
+      "kind": "bilingual_content_correction",
+      "lesson": 33,
+      "id": "a238f501-eb73-4eaa-882e-e52fc4a8ed59",
+      "field": [
+        "meanings",
+        0,
+        "text",
+        "vi"
+      ],
+      "before": "~ có nghĩa gì",
+      "after": "loại như thế nào; ~ có nghĩa gì trong ngữ cảnh",
+      "reason": "Retain both the kind and contextual-meaning uses of どういう."
+    },
+    {
+      "kind": "bilingual_content_correction",
+      "lesson": 33,
+      "id": "473eb9ef-c2f1-4240-8eef-5634a2a8bf54",
+      "field": [
+        "notes",
+        "en"
+      ],
+      "before": "くれる has くれろ; avoid mechanically applying it to state verbs such as ある.",
+      "after": "くれる normally has the imperative くれ. Do not mechanically form commands from state verbs such as ある.",
+      "reason": "PDF75 shows an exception with a struck-out ろ. Standard modern imperative くれ corroborated by NINJAL Japanese teaching material: https://repository.ninjal.ac.jp/record/3144/files/kk_nkek_k_unit6.pdf ."
+    },
+    {
+      "kind": "bilingual_content_correction",
+      "lesson": 33,
+      "id": "473eb9ef-c2f1-4240-8eef-5634a2a8bf54",
+      "field": [
+        "notes",
+        "vi"
+      ],
+      "before": "くれる có dạng くれろ; tránh áp dụng mẫu cho trạng thái như ある.",
+      "after": "くれる thường có thể mệnh lệnh là くれ. Không tạo mệnh lệnh máy móc từ động từ trạng thái như ある.",
+      "reason": "Align Vietnamese with the corroborated modern imperative くれ."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 7,
+      "id": "b110e3fd-bd55-413d-bb69-1415d7e82553",
+      "field": [
+        "examples",
+        1,
+        "translation",
+        "en"
+      ],
+      "before": "How do you say “konnichiwa” in English?",
+      "after": "How do you say “こんにちは” in English?"
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 7,
+      "id": "b110e3fd-bd55-413d-bb69-1415d7e82553",
+      "field": [
+        "examples",
+        1,
+        "translation",
+        "vi"
+      ],
+      "before": "“Konnichiwa” trong tiếng Anh nói thế nào?",
+      "after": "“こんにちは” trong tiếng Anh nói thế nào?"
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 14,
+      "id": "b113a2a9-723d-4a7f-840f-2548862c6a9e",
+      "field": [
+        "grammar_points",
+        0,
+        "notes",
+        "en"
+      ],
+      "before": "Words such as 見ます and 起きます are Group II even though the ます-stem ends in an i-row sound.",
+      "after": "Words such as 見ます and 起きます are Group II even though the ます-stem ends in an い-row sound."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 17,
+      "id": "2dd25bb8-dad8-4c83-8272-3211c443d9b1",
+      "field": [
+        "grammar_points",
+        0,
+        "explanation",
+        "en"
+      ],
+      "before": "Group I changes its final u-row sound to the a-row and adds ない; final う becomes わない. Group II replaces る with ない. する becomes しない and 来る becomes 来ない.",
+      "after": "Group I changes its final う-row sound to the あ-row and adds ない; final う becomes わない. Group II replaces る with ない. する becomes しない and 来る becomes 来ない."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 18,
+      "id": "88d183c3-9fc8-459e-b2bd-1fa9fd0c20d5",
+      "field": [
+        "grammar_points",
+        0,
+        "explanation",
+        "en"
+      ],
+      "before": "The dictionary form is the basic lookup form. Group I changes the last sound of the ます-stem to the u-row; Group II adds る; Group III uses する and 来る.",
+      "after": "The dictionary form is the basic lookup form. Group I changes the last sound of the ます-stem to the う-row; Group II adds る; Group III uses する and 来る."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 27,
+      "id": "6ebbe0df-c887-471f-99bf-e26da2361dca",
+      "field": [
+        "grammar_points",
+        0,
+        "explanation",
+        "vi"
+      ],
+      "before": "Nhóm I đổi âm cuối hàng i trước ます sang hàng e rồi thêm ます; nhóm II thêm られます vào thân; します thành できます, きます thành こられます.",
+      "after": "Nhóm I đổi âm cuối hàng い trước ます sang hàng え rồi thêm ます; nhóm II thêm られます vào thân; します thành できます, きます thành こられます."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 29,
+      "id": "580ab1da-d03a-4095-acb3-04e5e016bf47",
+      "field": [
+        "grammar_points",
+        5,
+        "explanation",
+        "en"
+      ],
+      "before": "どこか で indicates an unspecified action location; どこか に an unspecified place of existence or destination.",
+      "after": "どこかで indicates an unspecified action location; どこかに an unspecified place of existence or destination."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 30,
+      "id": "823d4c2d-6195-47ce-8ceb-9b7f4a1e292d",
+      "field": [
+        "grammar_points",
+        2,
+        "notes",
+        "en"
+      ],
+      "before": "Contrast まだ ていません, meaning not yet done.",
+      "after": "Contrast まだ〜ていません, meaning not yet done."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 31,
+      "id": "1e445e70-b2c7-42f9-91e1-2a40f89462a8",
+      "field": [
+        "grammar_points",
+        0,
+        "explanation",
+        "vi"
+      ],
+      "before": "Nhóm I đổi âm cuối hàng u thành hàng o + う; nhóm II thay る bằng よう; する thành しよう, くる thành こよう.",
+      "after": "Nhóm I đổi âm cuối hàng う thành hàng お + う; nhóm II thay る bằng よう; する thành しよう, くる thành こよう."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 31,
+      "id": "e76985ca-e90c-4c66-a4d9-216f0720d4f4",
+      "field": [
+        "grammar_points",
+        4,
+        "explanation",
+        "en"
+      ],
+      "before": "まだ ていません says something has not happened or been completed by the present point.",
+      "after": "まだ〜ていません says something has not happened or been completed by the present point."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 33,
+      "id": "473eb9ef-c2f1-4240-8eef-5634a2a8bf54",
+      "field": [
+        "grammar_points",
+        0,
+        "explanation",
+        "vi"
+      ],
+      "before": "Mệnh lệnh nhóm I đổi âm cuối sang hàng e; nhóm II thay る bằng ろ; する thành しろ, くる thành こい. Cấm đoán dùng nguyên dạng + な.",
+      "after": "Mệnh lệnh nhóm I đổi âm cuối sang hàng え; nhóm II thay る bằng ろ; する thành しろ, くる thành こい. Cấm đoán dùng nguyên dạng + な."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 33,
+      "id": "2709efae-b380-47f7-a0df-328f64437b6a",
+      "field": [
+        "grammar_points",
+        5,
+        "notes",
+        "en"
+      ],
+      "before": "A sentence ending in a noun needs だ before to.",
+      "after": "A sentence ending in a noun needs だ before と."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 35,
+      "id": "b179c4cf-1094-465f-ae9b-a5182862081c",
+      "field": [
+        "grammar_points",
+        0,
+        "explanation",
+        "vi"
+      ],
+      "before": "Nhóm I đổi âm cuối sang hàng e + ば; nhóm II thay る bằng れば; する thành すれば, くる thành くれば. ない thành なければ, い thành ければ.",
+      "after": "Nhóm I đổi âm cuối sang hàng え + ば; nhóm II thay る bằng れば; する thành すれば, くる thành くれば. ない thành なければ, い thành ければ."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 35,
+      "id": "83d4d423-5323-414b-8af7-2f0fa8481ed9",
+      "field": [
+        "grammar_points",
+        4,
+        "explanation",
+        "en"
+      ],
+      "before": "は ありません か asks whether the listener knows of a suitable item.",
+      "after": "はありませんか asks whether the listener knows of a suitable item."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 37,
+      "id": "a6d5bec3-636f-463f-b7f4-10c75eb0ff9d",
+      "field": [
+        "grammar_points",
+        0,
+        "explanation",
+        "vi"
+      ],
+      "before": "Nhóm I đổi âm cuối sang hàng a + れる; nhóm II thay る bằng られる; する thành される, くる thành こられる.",
+      "after": "Nhóm I đổi âm cuối sang hàng あ + れる; nhóm II thay る bằng られる; する thành される, くる thành こられる."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 37,
+      "id": "ea069c37-36bb-4906-8545-7c9d36fc27c0",
+      "field": [
+        "grammar_points",
+        6,
+        "notes",
+        "en"
+      ],
+      "before": "この 中 can mean inside this object without repeating its name.",
+      "after": "この中 can mean inside this object without repeating its name."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 41,
+      "id": "4bdad0b8-c8db-463a-8961-8407d2c75e2d",
+      "field": [
+        "grammar_points",
+        2,
+        "title",
+        "en"
+      ],
+      "before": "A request with くださいません か",
+      "after": "A request with くださいませんか"
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 43,
+      "id": "9faca396-86fa-4f6c-a660-6b71d31e38a6",
+      "field": [
+        "grammar_points",
+        1,
+        "explanation",
+        "en"
+      ],
+      "before": "て来ます can mean going to perform an action and returning; the action location takes で. へ 行って来ます states a destination and return.",
+      "after": "て来ます can mean going to perform an action and returning; the action location takes で. へ行って来ます states a destination and return."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 48,
+      "id": "05200817-6a40-4004-84e8-357953eb99e3",
+      "field": [
+        "grammar_points",
+        0,
+        "explanation",
+        "vi"
+      ],
+      "before": "Nhóm I đổi âm cuối sang hàng a + せる; nhóm II thay る bằng させる; する thành させる, くる thành こさせる.",
+      "after": "Nhóm I đổi âm cuối sang hàng あ + せる; nhóm II thay る bằng させる; する thành させる, くる thành こさせる."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 48,
+      "id": "addbae94-d127-4a12-a33b-7d958ac3c4ff",
+      "field": [
+        "grammar_points",
+        3,
+        "explanation",
+        "en"
+      ],
+      "before": "Causative て-form plus いただけません か politely asks the listener to allow the speaker to act.",
+      "after": "Causative て-form plus いただけませんか politely asks the listener to allow the speaker to act."
+    },
+    {
+      "kind": "display_terminology",
+      "lesson": 49,
+      "id": "e2062798-1d33-49a0-a043-fe015e29fb5c",
+      "field": [
+        "grammar_points",
+        4,
+        "title",
+        "en"
+      ],
+      "before": "Polite reasons with ます ので",
+      "after": "Polite reasons with ますので"
+    },
+    {
+      "kind": "bilingual_content_correction",
+      "lesson": 8,
+      "id": "329a7b40-f401-4540-be03-f215fdcc30ed",
+      "field": [
+        "translation",
+        "vi"
+      ],
+      "before": "Phòng này đẹp sạch.",
+      "after": "Phòng này sạch sẽ.",
+      "reason": "Natural Vietnamese for the clean-room sense of きれい."
+    },
+    {
+      "kind": "kanji_counter_reading_variant",
+      "unit": 27,
+      "id": "eb0f4016-2639-47bd-816b-892f76880b40",
+      "after": {
+        "id": "eb0f4016-2639-47bd-816b-892f76880b40",
+        "japanese": {
+          "segments": [
+            {
+              "base": "階",
+              "ruby": "がい"
+            }
+          ]
+        },
+        "kana_reading": "がい",
+        "meanings": {
+          "en": "floor counter; voiced reading after certain numbers",
+          "vi": "trợ số từ chỉ tầng; cách đọc hữu thanh sau một số số đếm"
+        },
+        "source_refs": [
+          {
+            "source_id": "N4_KANJI",
+            "pdf_page_start": 40,
+            "pdf_page_end": 43,
+            "basis": "unit_character_and_word_scope"
+          }
+        ],
+        "origin": "source_aligned_lexical_item"
+      },
+      "reason": "PDF40 explicitly prints かい／がい under 〜階."
+    }
+  ]
+}

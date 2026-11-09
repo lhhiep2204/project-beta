@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "task": "T01.02",
+  "phase": "development",
+  "date": "2026-11-09",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "recordedAt": "2026-11-09T20:47:27.014589+07:00",
+  "taskStatus": {
+    "T01": "done",
+    "T01.01": "done",
+    "T01.02": "done"
+  },
+  "physicalDeviceUsed": true,
+  "scope": "Bounded DEBUG native-proof closure: two real-driver integration tests on the physical iPhone, plus owner-performed physical audio/listening cases. This is not full app, independent linguistic, performance, WidgetKit or release acceptance. No app implementation or curriculum change.",
+  "environment": {
+    "architecture": "arm64",
+    "deviceId": "00008160-000E09181E00000A",
+    "deviceName": "iPhone của Hoàng Hiệp",
+    "modelName": "iPhone 18 Pro",
+    "osBuildNumber": "24B119",
+    "osVersion": "27.2",
+    "platform": "iOS",
+    "scheme": "ProjectBeta",
+    "configuration": "Debug",
+    "connection": "Wi-Fi/network, confirmed by Xcode launch log. Owner disabled networking for the manual offline case.",
+    "japaneseVoice": "Installed Apple ja-JP system voice selected by the unchanged driver. Exact voice identifier/name was not recorded by the existing harness.",
+    "headset": "Owner confirmed the active-headset disconnect case; headset model/connection type not supplied."
+  },
+  "previousEvidence": {
+    "path": "docs/audit/t05-native-validation.json",
+    "sha256": "d7bba15066c280e2f735542e0eec40b2526116c1439b5eabacfb99798450fefa",
+    "unchanged": true
+  },
+  "previousSimulatorRevalidation": {
+    "path": "docs/audit/t01-02-development-validation.json",
+    "sha256": "28485710cf9e106acecfefb8fa345789ca05347ce6b82787a760239a9efd59d0",
+    "scope": "14 passed Simulator tests; four inspected captures. Includes logical departure evidence; do not relabel as physical UI automation."
+  },
+  "inputHashes": {
+    "docs/content-authoring/sentence-bank/speech.json": "14c5d83abc3da35a34571c7261681da22f569570ef54f47631560a0558a54f36",
+    "docs/content-authoring/lesson-01.json": "7d9a72aeb9b330b057fba4a4fa7e947c61b26364be08ea822ee05ef9c953add2",
+    "docs/content-authoring/lesson-05.json": "55e8ec11a87bde7c8175b28525abf2292ac269469f833d5d55b6d526c5645582",
+    "docs/content-authoring/lesson-10.json": "db6b040631271c69c3cc686f2e39b5ffd9b0194755b3294fe5b41c9e5f16f443",
+    "docs/content-authoring/lesson-16.json": "8581a9572589c686953ef471744e4e299fd92606e2fe71a7d61c45ba71e149df",
+    "docs/content-authoring/lesson-26.json": "52d56572504b9760dbdded30824aeb0d0bf6e7f06004e6729ce5244e402cda44",
+    "docs/content-authoring/lesson-50.json": "9b06ef7f2565f52243eafc55f9ac0c82cba991f7a1d9eb6245680d6eba04c07b",
+    "docs/content-authoring/sentence-bank/bound-contexts.json": "13fb889c6f8c2af29032a6717e4c5b82ed3829b701010756521d7711d728c29e",
+    "docs/content-authoring/sentence-bank/validation-report.json": "a042646adcda1cbe9cdad23a601f26ff81e4eaef05a422accd0657627dd21f58"
+  },
+  "implementationHashes": {
+    "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/JapaneseText.swift": "aff6ab8cc653ed306c42eb9b2fca6eec5ac8e3ba72dff8f19b9b83cae92e2e13",
+    "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofData.swift": "4d5b2deedc6c06c72fa6a97b6f7f5958217faaab7807a9465b5e65daaac657e0",
+    "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofView.swift": "4fe4b76defad6f01f7e44d1fa4b475219af5c5c50eb6c7a30013e11fe8badf59",
+    "ios/ProjectBeta/ProjectBeta/Playback/PlaybackCoordinator.swift": "6bb1c0b84200bbccf1b274b8da845e86aab1bbc753382ef1e01fcfa469ca3a6c",
+    "ios/ProjectBeta/ProjectBeta/App/ProjectBetaApp.swift": "ddda8f6929945a7f78c72db25ec9aff5ef7bb1a1274f2483d996d73206bf10d7",
+    "ios/ProjectBeta/ProjectBeta/Assets.xcassets/AccentColor.colorset/Contents.json": "16321fb3ae0ea97c2dc728e850413fd8906cc11adca76d388dabf365e902e9c2",
+    "ios/ProjectBeta/ProjectBetaTests/ProjectBetaTests.swift": "d5167aff953681d145f8e5145921fffd7839fcaf4c5f7c47a6481ead02426eb9",
+    "ios/ProjectBeta/ProjectBetaUITests/ProjectBetaUITests.swift": "c33e05628655aab27205fa59ad99124454174d425256b79062c322f861f3eaed",
+    "ios/ProjectBeta/ProjectBeta.xcodeproj/project.xcproj": "cb729eb35e605a80b3ca9520ef8268c5954ad87123e114f16d43b7c4596a3c65",
+    "scripts/build_native_proof.py": "82bcc80f3b1e56ca4f2a083af5c9b42f2cb2332e44247a9cedb6ad172bfad8a6"
+  },
+  "nativeTests": {
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0,
+    "method": "Xcode RunSomeTests on the active physical destination; two cases in the serialized native suite. No UI target was run concurrently.",
+    "tests": [
+      {
+        "displayName": "realDialogueCompletionReplacementAndSoloCompletion()",
+        "errorMessages": [],
+        "identifier": "ProjectBetaTests/realDialogueCompletionReplacementAndSoloCompletion()",
+        "state": "Passed",
+        "targetName": "ProjectBetaTests"
+      },
+      {
+        "displayName": "realDriverRebuildAfterInjectedMediaResetRequiresExplicitPlay()",
+        "errorMessages": [],
+        "identifier": "ProjectBetaTests/realDriverRebuildAfterInjectedMediaResetRequiresExplicitPlay()",
+        "state": "Passed",
+        "targetName": "ProjectBetaTests"
+      }
+    ],
+    "xcresultOriginal": "/Users/hoanghieple/Library/Developer/Xcode/DerivedData/ProjectBeta-ceguqkmzqsooopaurmhcowjfevdr/Logs/Test/Test-ProjectBeta-2026.11.09_20-37-53-+0700.xcresult",
+    "xcresultCopy": "/tmp/beta-t01-02-physical-20261109/integration.xcresult",
+    "summary": {
+      "path": "/tmp/beta-t01-02-physical-20261109/integration-summary.json",
+      "sha256": "05b6ef8806039f8732761295ac80c021812bcbd0818e2a81152bc9ede2726c0e"
+    },
+    "log": {
+      "path": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/RunSomeTests/test-console-log-2026-11-09T20-37-53+07-00.txt",
+      "sha256": "7d09c473d8dac6339619463528d12af9460624460766b52ebee4b9d35a962eb2"
+    },
+    "resultSummary": {
+      "path": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/RunSomeTests/0E096145-6A69-45F6-B013-A970C8E35741.txt",
+      "sha256": "ae3f92f3d8850960716243131936328f3aa0876229448c6e598a2abfb51d606e"
+    }
+  },
+  "ownerEvidence": {
+    "source": "Explicit replies in this Codex chat after the current physical-device run and native-proof launch.",
+    "observer": "Owner operating and listening to the physical iPhone; agent did not hear or independently observe manual device actions.",
+    "initialAudibility": "Có, nghe được tiếng Nhật",
+    "offlineReply": "Ok vẫn nghe được khi offline",
+    "offlineScopeConfirmation": "Đã thử đủ và đều đạt",
+    "interruptionHeadsetReply": "Đã pass tất cả các trường hợp",
+    "offlineFollowUpQuestion": "Trong lần thử vừa rồi có bật silent, thử đủ các mục phát âm cùng hội thoại đầy đủ/lượt riêng, và thấy chạm lại loa phát từ đầu, Stop giữ dừng không?",
+    "recordingOrPhysicalScreenshots": false
+  },
+  "ownerObservedConditions": {
+    "networkDisabled": true,
+    "silentMode": true,
+    "allFixtureTargets": true,
+    "dialogueAndSolo": true,
+    "restartAndStop": true,
+    "actualInterruption": true,
+    "activeHeadsetDisconnect": true,
+    "backgroundForeground": true,
+    "noAutomaticResume": true
+  },
+  "e2eCases": [
+    {
+      "id": "T01.02-E2E-01",
+      "status": "passed",
+      "method": "owner_manual_on_physical_device",
+      "protocol": "Enable airplane mode and disable Wi-Fi, enable silent mode at audible media volume; play every fixture pronunciation, the full fixed dialogue and one solo turn; retap to restart and use separate Stop.",
+      "ownerAnswer": "Đã thử đủ và đều đạt",
+      "supportingAnswer": "Ok vẫn nghe được khi offline",
+      "expectedActual": "Owner confirms the complete offline/silent target/dialogue/solo and restart/Stop matrix passed; no item failure reported. Manual owner evidence, without agent recording or automated per-item trace."
+    },
+    {
+      "id": "T01.02-E2E-02",
+      "status": "passed",
+      "method": "owner_manual_on_physical_device",
+      "protocol": "While a dialogue plays, cause an actual audio interruption; during another playback disconnect the active headset; background/foreground. Each event stops audio with no automatic resume, until a new speaker tap.",
+      "ownerAnswer": "Đã pass tất cả các trường hợp",
+      "expectedActual": "Owner confirms actual interruption, active headset disconnect and background/foreground stop without automatic resume; a new speaker tap is required. Manual owner evidence, not an injected event pass."
+    }
+  ],
+  "uiAutomation": {
+    "status": "blocked_before_execution",
+    "passed": 0,
+    "notRun": 1,
+    "test": "ProjectBetaUITests/testRealDialogueGeometryBackgroundDepartureAndNoResume()",
+    "reason": "ProjectBetaUITests-Runner could not be installed: device reached the maximum installed apps using a free developer profile (ProjectBeta, ProjectAlpha and locifyapp). No app was deleted and no identifier or signing setting was changed.",
+    "log": {
+      "path": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/RunSomeTests/test-console-log-2026-11-09T20-38-44+07-00.txt",
+      "sha256": "edda24bdce139887bb5634f2cdfbc8c3145c38203562cee58410ab5307a8345c"
+    },
+    "summary": {
+      "path": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/RunSomeTests/5EC95EF5-79F5-449C-9D74-B97DD95591E7.txt",
+      "sha256": "1fdeb58148e7c2453bf35380d55f44ca8a84d27beed5f25da41e5a916b13e58f"
+    },
+    "xcresult": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/RunSomeTests/Test-ProjectBeta-2026.11.09_20-38-44-+0700.xcresult",
+    "physicalVisualInspectionClaimed": false
+  },
+  "build": {
+    "buildResult": "The project built successfully.",
+    "elapsedTime": 0.454,
+    "errors": [],
+    "fullLogPath": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/BuildProject/BuildProject-Log-20261109-203700.txt"
+  },
+  "run": {
+    "buildErrors": [],
+    "elapsedTime": 0.166,
+    "fullLogPath": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/RunProject/RunProject-Log-20261109-203743.txt",
+    "launchSessionReference": "7b29380480",
+    "processIdentifier": 42562,
+    "runResult": "The app was launched successfully."
+  },
+  "proofLaunch": {
+    "method": "Existing app launched with Apple devicectl and -native-proof after Xcode built/ran it; no additional app or test runner installed.",
+    "path": "/tmp/beta-t01-02-physical-20261109/proof-launch.json",
+    "sha256": "bbeb9583d0d38d1775e4bdd22b46dd8a18fcb3caf6044e17d8255fc9ee81fe1f"
+  },
+  "fixture": {
+    "path": "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofData.swift",
+    "dialogueID": "f7bb81c3-a948-49d1-b0e8-f55e998b74bb",
+    "orderedTurnIDs": [
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:0",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:1",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:2",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:3",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:4",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:5",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:6",
+      "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:7"
+    ],
+    "soloReplacementAndResetRetryTarget": "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:2",
+    "missingVoiceUITarget": "vocabulary:af8c51e2-6b2f-45f9-a932-474b1e5d91db:standard",
+    "listeningScope": "Owner confirmed all 26 fixture rows, full eight-turn dialogue and solo turn under offline/silent conditions, including restart and Stop. No agent audio recording or automated per-item listening trace.",
+    "fixtureRows": 26
+  },
+  "injectedMediaReset": "The physical real-driver reset integration test injects media-loss/reset notifications. An actual OS media-server reset was not performed. This is separate from the owner-confirmed real interruption/headset cases.",
+  "limitations": [
+    "Physical UI automation was not executed because runner installation was blocked.",
+    "No agent-observed physical screenshots/video or audio recording; manual audio outcomes are owner attestations.",
+    "Exact system voice identifier, headset model/type and numeric media-volume value were not captured.",
+    "No actual OS media-server reset or new Release compilation; prior Release proof-marker exclusion remains historical.",
+    "Full app learning screens, native selection, remaining locales, iPad/Duo, performance, widgets and release remain separate tasks."
+  ]
+}

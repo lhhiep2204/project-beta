@@ -1,0 +1,2520 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_lesson_sample",
+  "id": "7cb3315c-322a-4796-93ac-cab62a708af5",
+  "editorial_key": "lesson_50",
+  "reference_lesson_number": 50,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Modest introductions and actions",
+    "vi": "Giới thiệu và hành động khiêm nhường"
+  },
+  "language_coverage": {
+    "authored": [
+      "en",
+      "vi"
+    ],
+    "required_for_release": [
+      "ar",
+      "bn",
+      "zh-Hans",
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "he",
+      "hi",
+      "id",
+      "it",
+      "ko",
+      "pt",
+      "ru",
+      "es",
+      "th",
+      "tr",
+      "uk",
+      "vi"
+    ],
+    "missing_for_release": [
+      "ar",
+      "bn",
+      "zh-Hans",
+      "nl",
+      "fr",
+      "de",
+      "he",
+      "hi",
+      "id",
+      "it",
+      "ko",
+      "pt",
+      "ru",
+      "es",
+      "th",
+      "tr",
+      "uk"
+    ]
+  },
+  "review_state": {
+    "primary_source_comparison": "completed_for_listed_forms_and_grammar_topics",
+    "independent_japanese_review": "pending",
+    "translation_review": "pending",
+    "release_status": "draft_not_for_release",
+    "runtime_format_adoption": "not_selected"
+  },
+  "coverage": {
+    "status": "authored_lesson_reference_topics_complete",
+    "included": [
+      "All common vocabulary from the two vocabulary pages, including useful introductory/dialogue phrases",
+      "All grammar topic groups from the lesson grammar notes",
+      "Newly authored explanations, examples and dialogue in Japanese with Vietnamese/English translations",
+      "Contextual ruby and source lesson/unit links",
+      "Proper names on the two assigned vocabulary pages are in scope under B-U-59; retain source identity and contextual readings."
+    ],
+    "omitted": [
+      "Textbook dialogue wording, reading passages, exercises and answer keys",
+      "Other 17 approved release languages in this Vietnamese/English-first batch",
+      "Supplementary matrices or word lists outside the two assigned vocabulary pages, if any; not claimed in this two-page scope"
+    ]
+  },
+  "source_refs": [
+    {
+      "source_id": "N4_MAIN",
+      "pdf_page_start": 224,
+      "pdf_page_end": 231,
+      "basis": "lesson_topic_alignment"
+    },
+    {
+      "source_id": "N4_GRAMMAR",
+      "pdf_page_start": 173,
+      "pdf_page_end": 178,
+      "basis": "lexical_and_grammar_alignment"
+    }
+  ],
+  "kanji_reference_units": [
+    "REF_KANJI_UNIT_50"
+  ],
+  "vocabulary": [
+    {
+      "id": "b49c1a21-dcd8-4336-bed8-dfc9a357feb4",
+      "editorial_key": "word_1",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "参ります",
+                "ruby": "まいります"
+              }
+            ]
+          },
+          "kana_reading": "まいります",
+          "register": "humble"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "go or come (humble)",
+            "vi": "đi hoặc đến (khiêm nhường)"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "mairimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "参る",
+                "ruby": "まいる"
+              }
+            ]
+          },
+          "kana_reading": "まいる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "ad2af37b-5af3-4193-839e-6d78a8d830b6",
+      "editorial_key": "word_2",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "おります"
+              }
+            ]
+          },
+          "kana_reading": "おります",
+          "register": "humble"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "be (humble)",
+            "vi": "có mặt (khiêm nhường)"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "orimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "おる"
+              }
+            ]
+          },
+          "kana_reading": "おる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "6107cc3f-4d2f-4dbc-b2ed-40574d84773c",
+      "editorial_key": "word_3",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "いただきます"
+              }
+            ]
+          },
+          "kana_reading": "いただきます",
+          "register": "humble"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "eat drink or receive (humble)",
+            "vi": "ăn uống hoặc nhận (khiêm nhường)"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "itadakimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "いただく"
+              }
+            ]
+          },
+          "kana_reading": "いただく"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "059069b0-f40f-4342-b114-2e31a9ef7cab",
+      "editorial_key": "word_4",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "申します",
+                "ruby": "もうします"
+              }
+            ]
+          },
+          "kana_reading": "もうします",
+          "register": "humble"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "say or be called (humble)",
+            "vi": "nói hoặc tên là (khiêm nhường)"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "moushimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "申す",
+                "ruby": "もうす"
+              }
+            ]
+          },
+          "kana_reading": "もうす"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "74c9c63a-f123-441e-ac94-5b62a7884bbb",
+      "editorial_key": "word_5",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "いたします"
+              }
+            ]
+          },
+          "kana_reading": "いたします",
+          "register": "humble"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "do (humble)",
+            "vi": "làm (khiêm nhường)"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "itashimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "いたす"
+              }
+            ]
+          },
+          "kana_reading": "いたす"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "eb1d97e7-921c-46d7-bb45-4774dbe5ee48",
+      "editorial_key": "word_6",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "拝見します",
+                "ruby": "はいけんします"
+              }
+            ]
+          },
+          "kana_reading": "はいけんします",
+          "register": "humble"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "look at (humble)",
+            "vi": "xem (khiêm nhường)"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "haikenshimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "III",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "拝見する",
+                "ruby": "はいけんする"
+              }
+            ]
+          },
+          "kana_reading": "はいけんする"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "05aab0d0-4428-49ac-8bac-b500dbcacb41",
+      "editorial_key": "word_7",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "存じます",
+                "ruby": "ぞんじます"
+              }
+            ]
+          },
+          "kana_reading": "ぞんじます",
+          "register": "humble"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "know (humble)",
+            "vi": "biết (khiêm nhường)"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "zonjimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "II",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "存じる",
+                "ruby": "ぞんじる"
+              }
+            ]
+          },
+          "kana_reading": "ぞんじる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "260b315d-e16e-4daa-900d-15af0656225b",
+      "editorial_key": "word_8",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "伺います",
+                "ruby": "うかがいます"
+              }
+            ]
+          },
+          "kana_reading": "うかがいます",
+          "register": "humble"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "visit or ask (humble)",
+            "vi": "đến thăm hoặc hỏi (khiêm nhường)"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "ukagaimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "伺う",
+                "ruby": "うかがう"
+              }
+            ]
+          },
+          "kana_reading": "うかがう"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "aad8180c-98fa-4e6e-a284-793534b00f49",
+      "editorial_key": "word_9",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "お目にかかります",
+                "ruby": "おめにかかります"
+              }
+            ]
+          },
+          "kana_reading": "おめにかかります",
+          "register": "humble"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "meet (humble)",
+            "vi": "gặp (khiêm nhường)"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "omenikakarimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "お目にかかる",
+                "ruby": "おめにかかる"
+              }
+            ]
+          },
+          "kana_reading": "おめにかかる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "59bdd163-4fd1-4d7c-9d88-187a207111f9",
+      "editorial_key": "word_10",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "いれます"
+              }
+            ]
+          },
+          "kana_reading": "いれます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "make coffee",
+            "vi": "pha cà phê"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "iremasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "II",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "いれる"
+              }
+            ]
+          },
+          "kana_reading": "いれる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "0158c1e8-e0e4-417e-9338-23b871c65c1c",
+      "editorial_key": "word_11",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "用意します",
+                "ruby": "よういします"
+              }
+            ]
+          },
+          "kana_reading": "よういします",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "prepare",
+            "vi": "chuẩn bị"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "youishimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "III",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "用意する",
+                "ruby": "よういする"
+              }
+            ]
+          },
+          "kana_reading": "よういする"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "593335dc-671a-47db-a8f5-c21a5eddf0cb",
+      "editorial_key": "word_12",
+      "entry_type": "pronoun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "私",
+                "ruby": "わたくし"
+              }
+            ]
+          },
+          "kana_reading": "わたくし",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "I (formal)",
+            "vi": "tôi (trang trọng)"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "watakushi"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a67d269a-c6fd-4798-96aa-7dcfcf282012",
+      "editorial_key": "word_13",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ガイド"
+              }
+            ]
+          },
+          "kana_reading": "ガイド",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "guide",
+            "vi": "hướng dẫn viên"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "gaido"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f9d3c2ce-6e59-45ca-9220-6af750b46aea",
+      "editorial_key": "word_14",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "メールアドレス"
+              }
+            ]
+          },
+          "kana_reading": "メールアドレス",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "email address",
+            "vi": "địa chỉ thư điện tử"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "meeruadoresu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5dd3d8f7-460d-4d71-9207-1bbc0d136416",
+      "editorial_key": "word_15",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "スケジュール"
+              }
+            ]
+          },
+          "kana_reading": "スケジュール",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "schedule",
+            "vi": "lịch trình"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "sukejuuru"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "657f4f9a-9c34-4dda-8e85-ce720c97ae18",
+      "editorial_key": "word_16",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "さ来週",
+                "ruby": "さらいしゅう"
+              }
+            ]
+          },
+          "kana_reading": "さらいしゅう",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "the week after next",
+            "vi": "tuần sau nữa"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "saraishuu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "81e68f47-f6a6-4d95-b8ed-cd8261c76e6d",
+      "editorial_key": "word_17",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "さ来月",
+                "ruby": "さらいげつ"
+              }
+            ]
+          },
+          "kana_reading": "さらいげつ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "the month after next",
+            "vi": "tháng sau nữa"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "saraigetsu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "518df46e-619b-4259-8427-6d0092c3729a",
+      "editorial_key": "word_18",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "さ来年",
+                "ruby": "さらいねん"
+              }
+            ]
+          },
+          "kana_reading": "さらいねん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "the year after next",
+            "vi": "năm sau nữa"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "sarainen"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b20e5175-57c2-435e-b886-2f3ccea6e8b1",
+      "editorial_key": "word_19",
+      "entry_type": "adverb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "初めに",
+                "ruby": "はじめに"
+              }
+            ]
+          },
+          "kana_reading": "はじめに",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "at the beginning",
+            "vi": "đầu tiên"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "hajimeni"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "1da48cb2-b0b0-40e4-9802-da498e0b376e",
+      "editorial_key": "word_20",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "江戸東京博物館",
+                "ruby": "えどとうきょうはくぶつかん"
+              }
+            ]
+          },
+          "kana_reading": "えどとうきょうはくぶつかん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Edo-Tokyo Museum",
+            "vi": "Bảo tàng Edo-Tokyo"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "edotoukyouhakubutsukan"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f17de82e-4e05-421c-a477-26c46bfabe66",
+      "editorial_key": "word_22",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "緊張します",
+                "ruby": "きんちょうします"
+              }
+            ]
+          },
+          "kana_reading": "きんちょうします",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "feel nervous",
+            "vi": "hồi hộp"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kinchoushimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "III",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "緊張する",
+                "ruby": "きんちょうする"
+              }
+            ]
+          },
+          "kana_reading": "きんちょうする"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "b367f21e-bef3-47f0-83f9-90f4a4ab20e9",
+      "editorial_key": "word_23",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "賞金",
+                "ruby": "しょうきん"
+              }
+            ]
+          },
+          "kana_reading": "しょうきん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "prize money",
+            "vi": "tiền thưởng"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "shoukin"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "23ccb0a9-1831-43b5-80ee-4a1cab683801",
+      "editorial_key": "word_24",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "きりん"
+              }
+            ]
+          },
+          "kana_reading": "きりん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "giraffe",
+            "vi": "hươu cao cổ"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kirin"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "da818cd2-c120-43d1-a908-df7b9bfde8e7",
+      "editorial_key": "word_25",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ころ"
+              }
+            ]
+          },
+          "kana_reading": "ころ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "around the time",
+            "vi": "lúc hoặc thời"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "koro"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "327870f8-be2a-478d-b248-4ee8316b6759",
+      "editorial_key": "word_26",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "かないます"
+              }
+            ]
+          },
+          "kana_reading": "かないます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "come true",
+            "vi": "thành hiện thực"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kanaimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "かなう"
+              }
+            ]
+          },
+          "kana_reading": "かなう"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "facb3247-2e05-4e38-882a-dc07487c776c",
+      "editorial_key": "word_27",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "応援します",
+                "ruby": "おうえんします"
+              }
+            ]
+          },
+          "kana_reading": "おうえんします",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "cheer for",
+            "vi": "ủng hộ cổ vũ"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "ouenshimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "III",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "応援する",
+                "ruby": "おうえんする"
+              }
+            ]
+          },
+          "kana_reading": "おうえんする"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "31faa925-8a5f-462b-a289-316344bbec69",
+      "editorial_key": "word_28",
+      "entry_type": "adverb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "心から",
+                "ruby": "こころから"
+              }
+            ]
+          },
+          "kana_reading": "こころから",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "from the heart",
+            "vi": "từ đáy lòng"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kokorokara"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "71fd97d7-a138-4f01-81cb-961a029e1c9b",
+      "editorial_key": "word_29",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "感謝します",
+                "ruby": "かんしゃします"
+              }
+            ]
+          },
+          "kana_reading": "かんしゃします",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "be grateful",
+            "vi": "cảm ơn"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kanshashimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "III",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "感謝する",
+                "ruby": "かんしゃする"
+              }
+            ]
+          },
+          "kana_reading": "かんしゃする"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "aa9e3b5f-db55-4798-8f99-3e5a1a092284",
+      "editorial_key": "word_30",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "お礼",
+                "ruby": "おれい"
+              }
+            ]
+          },
+          "kana_reading": "おれい",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "thanks",
+            "vi": "lời cảm ơn"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "orei"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9841c022-e848-4d32-830e-cc0b8b6a026b",
+      "editorial_key": "word_31",
+      "entry_type": "expression",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "お元気でいらっしゃいますか。",
+                "ruby": "おげんきでいらっしゃいますか"
+              }
+            ]
+          },
+          "kana_reading": "おげんきでいらっしゃいますか",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "How have you been (respectful)?",
+            "vi": "Anh/chị có khỏe không ạ?"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "ogenkideirasshaimasuka"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0aa079b3-6804-434e-8d9c-386015cc6ed0",
+      "editorial_key": "word_32",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "迷惑をかけます",
+                "ruby": "めいわくをかけます"
+              }
+            ]
+          },
+          "kana_reading": "めいわくをかけます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "cause trouble",
+            "vi": "làm phiền"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "meiwakuwokakemasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "II",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "迷惑をかける",
+                "ruby": "めいわくをかける"
+              }
+            ]
+          },
+          "kana_reading": "めいわくをかける"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "99868464-499d-4f4d-9978-5e11db09ec0c",
+      "editorial_key": "word_33",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "生かします",
+                "ruby": "いかします"
+              }
+            ]
+          },
+          "kana_reading": "いかします",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "make good use of",
+            "vi": "phát huy"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "ikashimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "生かす",
+                "ruby": "いかす"
+              }
+            ]
+          },
+          "kana_reading": "いかす"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "f3109d40-ec3f-4889-b26b-ed7c51a61a9f",
+      "editorial_key": "word_34",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ミュンヘン"
+              }
+            ]
+          },
+          "kana_reading": "ミュンヘン",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Munich",
+            "vi": "Munich"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "myunhen"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "grammar_points": [
+    {
+      "id": "d1ca9739-7cb9-47f3-981b-622dc3b630ec",
+      "editorial_key": "humble_one",
+      "title": {
+        "en": "Humble language directed toward another person",
+        "vi": "Khiêm nhường ngữ hướng tới đối phương"
+      },
+      "explanation": {
+        "en": "お + ます stem plus します, ご + action noun plus します, or special verbs lower the speaker's side to honor the person affected.",
+        "vi": "お + thân ます + します, ご + danh từ động tác + します hoặc động từ đặc biệt hạ phía mình để tỏ kính trọng người nhận tác động."
+      },
+      "notes": {
+        "en": "Do not apply it to every private action unrelated to a respected person; some words use お rather than ご, as in お電話します.",
+        "vi": "Không dùng cho mọi việc riêng không liên quan người cần kính trọng; một số từ dùng お thay ご như お電話します."
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 177,
+          "pdf_page_end": 178,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "1",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "d51717f0-b580-4105-9dfc-a7562b8ce003",
+      "editorial_key": "humble_two",
+      "title": {
+        "en": "Formal humble language for the listener",
+        "vi": "Lời khiêm nhường với người nghe"
+      },
+      "explanation": {
+        "en": "申します, 参ります, いたします and おります present one's own or one's group's actions modestly and formally to the listener.",
+        "vi": "申します、参ります、いたします、おります nói về mình hoặc phía mình một cách nhún nhường lịch sự với người nghe."
+      },
+      "notes": {
+        "en": "Unlike recipient-oriented humility, 参ります can describe one's travel even when not going to the listener.",
+        "vi": "Khác loại hướng người nhận tác động: việc đi của mình vẫn có thể dùng 参ります khi không đi đến chỗ người nghe."
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_GRAMMAR",
+          "pdf_page_start": 178,
+          "pdf_page_end": 178,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "2",
+      "origin": "independently_authored"
+    }
+  ],
+  "sentence_patterns": [
+    {
+      "id": "ff949630-5ac3-4773-a35f-1c8ddb97e35c",
+      "editorial_key": "humble_one",
+      "grammar_point_id": "d1ca9739-7cb9-47f3-981b-622dc3b630ec",
+      "slots": [
+        {
+          "key": "destination",
+          "kind": "noun",
+          "label": {
+            "en": "Destination when escorting the other person",
+            "vi": "Điểm đến khi đưa đối phương"
+          }
+        },
+        {
+          "key": "stem",
+          "kind": "verb_masu_stem",
+          "label": {
+            "en": "Verb stem without ます",
+            "vi": "Thân động từ bỏ ます"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "destination"
+            },
+            {
+              "kind": "literal",
+              "value": "までお"
+            },
+            {
+              "kind": "slot",
+              "value": "stem"
+            },
+            {
+              "kind": "literal",
+              "value": "します。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "578af1e1-033f-403c-b611-4dff22708413",
+      "editorial_key": "humble_one_variant_2",
+      "grammar_point_id": "d1ca9739-7cb9-47f3-981b-622dc3b630ec",
+      "slots": [
+        {
+          "key": "object",
+          "kind": "noun",
+          "label": {
+            "en": "Object of the action",
+            "vi": "Đối tượng của hành động"
+          }
+        },
+        {
+          "key": "action_noun",
+          "kind": "noun",
+          "label": {
+            "en": "Sino-Japanese action noun used with する",
+            "vi": "Danh từ Hán Nhật tạo động từ với する"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "object"
+            },
+            {
+              "kind": "literal",
+              "value": "をご"
+            },
+            {
+              "kind": "slot",
+              "value": "action_noun"
+            },
+            {
+              "kind": "literal",
+              "value": "します。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a8847721-d869-48be-a5e5-42d2841177bd",
+      "editorial_key": "humble_two",
+      "grammar_point_id": "d51717f0-b580-4105-9dfc-a7562b8ce003",
+      "slots": [
+        {
+          "key": "name",
+          "kind": "person_name",
+          "label": {
+            "en": "Speaker’s name",
+            "vi": "Tên người nói"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "literal",
+              "value": "わたくしは"
+            },
+            {
+              "kind": "slot",
+              "value": "name"
+            },
+            {
+              "kind": "literal",
+              "value": "ともうします。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "127bab0d-d124-4f5b-becc-b07071e06c68",
+      "editorial_key": "humble_two_variant_2",
+      "grammar_point_id": "d51717f0-b580-4105-9dfc-a7562b8ce003",
+      "slots": [
+        {
+          "key": "time",
+          "kind": "noun",
+          "label": {
+            "en": "Time of presence",
+            "vi": "Thời gian có mặt"
+          }
+        },
+        {
+          "key": "place",
+          "kind": "noun",
+          "label": {
+            "en": "Location",
+            "vi": "Địa điểm"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "time"
+            },
+            {
+              "kind": "literal",
+              "value": "は"
+            },
+            {
+              "kind": "slot",
+              "value": "place"
+            },
+            {
+              "kind": "literal",
+              "value": "におります。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "cba86ab1-9eb5-4d46-b1a6-b6063a21e7fd",
+      "editorial_key": "humble_one_1",
+      "pattern_id": "ff949630-5ac3-4773-a35f-1c8ddb97e35c",
+      "grammar_point_ids": [
+        "d1ca9739-7cb9-47f3-981b-622dc3b630ec"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "駅",
+            "ruby": "えき"
+          },
+          {
+            "base": "までお"
+          },
+          {
+            "base": "送",
+            "ruby": "おく"
+          },
+          {
+            "base": "りします。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I will take you to the station.",
+        "vi": "Tôi xin đưa anh/chị đến ga."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "58b90cdf-06e0-439d-8972-dbcbd31d943b",
+      "editorial_key": "humble_one_2",
+      "pattern_id": "578af1e1-033f-403c-b611-4dff22708413",
+      "grammar_point_ids": [
+        "d1ca9739-7cb9-47f3-981b-622dc3b630ec"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "予定",
+            "ruby": "よてい"
+          },
+          {
+            "base": "をご"
+          },
+          {
+            "base": "説明",
+            "ruby": "せつめい"
+          },
+          {
+            "base": "します。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I will explain the schedule.",
+        "vi": "Tôi xin giải thích lịch trình."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "85d1da7a-065c-4465-b7b6-55f1af1d6501",
+      "editorial_key": "humble_two_1",
+      "pattern_id": "a8847721-d869-48be-a5e5-42d2841177bd",
+      "grammar_point_ids": [
+        "d51717f0-b580-4105-9dfc-a7562b8ce003"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "私",
+            "ruby": "わたくし"
+          },
+          {
+            "base": "はリンと"
+          },
+          {
+            "base": "申",
+            "ruby": "もう"
+          },
+          {
+            "base": "します。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "My name is Linh.",
+        "vi": "Tôi tên là Linh."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "917aeec3-e74d-4c99-9c4a-4339df496092",
+      "editorial_key": "humble_two_2",
+      "pattern_id": "127bab0d-d124-4f5b-becc-b07071e06c68",
+      "grammar_point_ids": [
+        "d51717f0-b580-4105-9dfc-a7562b8ce003"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "明日",
+            "ruby": "あした"
+          },
+          {
+            "base": "は"
+          },
+          {
+            "base": "事務所",
+            "ruby": "じむしょ"
+          },
+          {
+            "base": "におります。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I will be at the office tomorrow.",
+        "vi": "Ngày mai tôi có mặt ở văn phòng."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "6b45553d-edc0-4cd2-a138-317000ec1865",
+      "editorial_key": "original_scene",
+      "title": {
+        "en": "Welcoming a visitor",
+        "vi": "Đón khách ở văn phòng"
+      },
+      "scenario": {
+        "en": "Linh welcomes Aki on a first office visit.",
+        "vi": "Linh đón Aki đến văn phòng lần đầu."
+      },
+      "characters": [
+        {
+          "key": "linh",
+          "display_name": {
+            "segments": [
+              {
+                "base": "リン"
+              }
+            ]
+          },
+          "description": {
+            "en": "Linh, a fictional character",
+            "vi": "Linh, nhân vật hư cấu"
+          }
+        },
+        {
+          "key": "aki",
+          "display_name": {
+            "segments": [
+              {
+                "base": "アキ"
+              }
+            ]
+          },
+          "description": {
+            "en": "Aki, a fictional character",
+            "vi": "Aki, nhân vật hư cấu"
+          }
+        }
+      ],
+      "turns": [
+        {
+          "speaker_key": "linh",
+          "japanese": {
+            "segments": [
+              {
+                "base": "初",
+                "ruby": "はじ"
+              },
+              {
+                "base": "めまして。"
+              },
+              {
+                "base": "私",
+                "ruby": "わたくし"
+              },
+              {
+                "base": "はリンと"
+              },
+              {
+                "base": "申",
+                "ruby": "もう"
+              },
+              {
+                "base": "します。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "How do you do. My name is Linh.",
+            "vi": "Rất hân hạnh được gặp. Tôi tên là Linh."
+          },
+          "grammar_point_ids": [
+            "d51717f0-b580-4105-9dfc-a7562b8ce003"
+          ]
+        },
+        {
+          "speaker_key": "aki",
+          "japanese": {
+            "segments": [
+              {
+                "base": "アキです。"
+              },
+              {
+                "base": "今日",
+                "ruby": "きょう"
+              },
+              {
+                "base": "はよろしくお"
+              },
+              {
+                "base": "願",
+                "ruby": "ねが"
+              },
+              {
+                "base": "いします。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "I am Aki. Thank you for looking after me today.",
+            "vi": "Tôi là Aki. Hôm nay mong được giúp đỡ."
+          },
+          "grammar_point_ids": []
+        },
+        {
+          "speaker_key": "linh",
+          "japanese": {
+            "segments": [
+              {
+                "base": "まず、"
+              },
+              {
+                "base": "会議室",
+                "ruby": "かいぎしつ"
+              },
+              {
+                "base": "へご"
+              },
+              {
+                "base": "案内",
+                "ruby": "あんない"
+              },
+              {
+                "base": "します。お"
+              },
+              {
+                "base": "荷物",
+                "ruby": "にもつ"
+              },
+              {
+                "base": "をお"
+              },
+              {
+                "base": "持",
+                "ruby": "も"
+              },
+              {
+                "base": "ちしましょうか。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "First, I will show you to the meeting room. May I carry your bag?",
+            "vi": "Trước tiên tôi xin dẫn đến phòng họp. Tôi xách giúp hành lý nhé?"
+          },
+          "grammar_point_ids": [
+            "d1ca9739-7cb9-47f3-981b-622dc3b630ec"
+          ]
+        },
+        {
+          "speaker_key": "aki",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ありがとうございます。では、お"
+              },
+              {
+                "base": "願",
+                "ruby": "ねが"
+              },
+              {
+                "base": "いします。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Thank you. Yes, please.",
+            "vi": "Cảm ơn. Vậy nhờ anh/chị giúp."
+          },
+          "grammar_point_ids": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "N4_MAIN",
+          "pdf_page_start": 225,
+          "pdf_page_end": 225,
+          "basis": "dialogue_skill_alignment"
+        }
+      ],
+      "origin": "independently_authored"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task": "P0-T03",
+  "status": "passed",
+  "scope": "Kana authoring structure, source-table mapping and primary self-review integrity; not independent linguistic, historical-accent, runtime or release acceptance.",
+  "task_authoring_acceptance_complete": true,
+  "counts": {
+    "entries": 301,
+    "examples": 301,
+    "learning_entries": 272,
+    "reference_entries": 29,
+    "groups": {
+      "hiragana:basic": 46,
+      "hiragana:contracted": 33,
+      "hiragana:long_vowel": 7,
+      "hiragana:particle": 3,
+      "hiragana:reference": 12,
+      "hiragana:special": 9,
+      "hiragana:voiced": 25,
+      "katakana:basic": 46,
+      "katakana:contracted": 33,
+      "katakana:extended": 33,
+      "katakana:reference": 17,
+      "katakana:special": 9,
+      "katakana:voiced": 25,
+      "shared:special": 3
+    },
+    "source_tables": {
+      "modern-direct": 71,
+      "modern-contracted": 36,
+      "katakana-counterparts": 107,
+      "loan-table-1-extension": 13,
+      "loan-table-2": 20
+    }
+  },
+  "negative_fixtures_rejected": [
+    "missing-cell",
+    "duplicate-id",
+    "duplicate-example-id",
+    "empty-meaning",
+    "reading-mismatch",
+    "unknown-source",
+    "wrong-source-link",
+    "lost-denominator",
+    "duplicate-denominator",
+    "reference-mixed",
+    "missing-language-gap",
+    "unapproved-learned-filter",
+    "display-romaji",
+    "wrong-script",
+    "unknown-speech-context",
+    "isolated-small-kana",
+    "isolated-length-mark",
+    "isolated-reference-mark",
+    "wrong-sound-context",
+    "four-examples",
+    "no-voiced-context",
+    "stale-review",
+    "missing-item-review",
+    "unreviewed-example",
+    "missing-content-check"
+  ],
+  "input_and_validator_sha256": {
+    "docs/content-authoring/kana/inventory.json": "23aaea0e4ad70943911fb068345ca2cd647b676b2aa4929c01e2664e5c9ad7eb",
+    "docs/content-authoring/kana/source-inventory.json": "726a739a1ea42e40fb4d775d8c4e3647e86c432d87687f567bd577e85b3f038b",
+    "docs/content-authoring/kana/kana.schema.json": "3294cdf5b7fce7249ad0c178ea7fac70e071f2e7052174b39d2cf324ab3671fa",
+    "docs/content-authoring/kana/review.json": "b9ef2b065e934cb40f0d453f50d2feae9ba2eccd2cb68bca727d6d040489f2d7",
+    "scripts/validate_kana.py": "0ef0b41744afbe94d6e645b2ac8d36c28a32886f760771570be41c6d6140e8ce",
+    "scripts/validate_authoring_samples.py": "63d06920690745ebb8ef364af65a12050f1073bb2f6d1fb990b5041bf4a49bd7"
+  },
+  "limits": [
+    "Primary-agent self-review under B-U-51, not independent human certification.",
+    "Source-table coverage is complete within the explicitly recorded standard-Japanese inventory. Not an exhaustive list of every foreign-sound spelling, Ainu or hentaigana codepoint.",
+    "English and Vietnamese authored; the other 17 approved languages remain T09/T12 gates.",
+    "Pronunciation targets are editorial contexts. No synthesized/recorded voice was listened to; no pitch-accent or reconstructed historical pronunciation certification.",
+    "No runtime bundle adoption, native kana UI, browser interaction, app/device/performance or release acceptance. T08.04 owns native rendering/playback.",
+    "Pre-existing repository drift observed before T03: source-reconciliation validator fails on lesson-01.json input pin; lesson-27–50 Markdown was stale. T03 does not recertify changed T02/T01/batch evidence."
+  ]
+}

@@ -1,0 +1,634 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "dcb2db45-d7e7-469b-b97a-0526885fe2f5",
+  "editorial_key": "kanji_unit_27",
+  "reference_unit_number": 27,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 27: lesson 27 reading words",
+    "vi": "Kanji bài 27: từ đọc của bài 27"
+  },
+  "character_glyphs": [
+    "声",
+    "具",
+    "鳥",
+    "夢",
+    "波",
+    "末",
+    "座",
+    "道",
+    "週",
+    "走",
+    "登",
+    "修",
+    "理",
+    "願",
+    "階",
+    "花",
+    "火",
+    "会",
+    "議",
+    "室",
+    "見",
+    "聞",
+    "開",
+    "建",
+    "二",
+    "五",
+    "十"
+  ],
+  "word_examples": [
+    {
+      "id": "2b5dfa66-de62-4c80-8776-eee1bde5799e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "声",
+            "ruby": "こえ"
+          }
+        ]
+      },
+      "kana_reading": "こえ",
+      "meanings": {
+        "en": "voice",
+        "vi": "giọng nói"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e5fbad44-3531-4605-a3cb-c594fe0a51fb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "道具",
+            "ruby": "どうぐ"
+          }
+        ]
+      },
+      "kana_reading": "どうぐ",
+      "meanings": {
+        "en": "tool",
+        "vi": "dụng cụ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d94cf660-a518-477a-a00c-743879caff7b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "鳥",
+            "ruby": "とり"
+          }
+        ]
+      },
+      "kana_reading": "とり",
+      "meanings": {
+        "en": "bird",
+        "vi": "chim"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "655e305f-7503-43ec-83c6-2ca24fed57a3",
+      "japanese": {
+        "segments": [
+          {
+            "base": "夢",
+            "ruby": "ゆめ"
+          }
+        ]
+      },
+      "kana_reading": "ゆめ",
+      "meanings": {
+        "en": "dream",
+        "vi": "giấc mơ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8aaf3d48-74e9-41ae-9c60-00234d75c898",
+      "japanese": {
+        "segments": [
+          {
+            "base": "波",
+            "ruby": "なみ"
+          }
+        ]
+      },
+      "kana_reading": "なみ",
+      "meanings": {
+        "en": "wave",
+        "vi": "sóng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "59b67a17-95c2-4d0f-9442-2503cc52a2f1",
+      "japanese": {
+        "segments": [
+          {
+            "base": "週末",
+            "ruby": "しゅうまつ"
+          }
+        ]
+      },
+      "kana_reading": "しゅうまつ",
+      "meanings": {
+        "en": "weekend",
+        "vi": "cuối tuần"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d39c3379-a922-4bb9-8881-fcd03fbb07e8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "座",
+            "ruby": "すわ"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "すわる",
+      "meanings": {
+        "en": "sit",
+        "vi": "ngồi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "904fc955-d0c1-4c76-98ba-c640f633df46",
+      "japanese": {
+        "segments": [
+          {
+            "base": "走",
+            "ruby": "はし"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "はしる",
+      "meanings": {
+        "en": "run",
+        "vi": "chạy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7843abf2-919c-4660-905c-d64e32059623",
+      "japanese": {
+        "segments": [
+          {
+            "base": "登",
+            "ruby": "のぼ"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "のぼる",
+      "meanings": {
+        "en": "climb",
+        "vi": "leo"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0b708efd-c931-4a78-9998-2542a46b1116",
+      "japanese": {
+        "segments": [
+          {
+            "base": "修理",
+            "ruby": "しゅうり"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "しゅうりする",
+      "meanings": {
+        "en": "repair",
+        "vi": "sửa chữa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7cfdc050-146c-4387-96da-ca946e96d6b0",
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "願",
+            "ruby": "ねが"
+          },
+          {
+            "base": "いします"
+          }
+        ]
+      },
+      "kana_reading": "おねがいします",
+      "meanings": {
+        "en": "please; I ask your help",
+        "vi": "xin nhờ anh/chị"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "35cdf6af-1389-4d00-a0b7-5f0caee9971f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "階",
+            "ruby": "かい"
+          }
+        ]
+      },
+      "kana_reading": "かい",
+      "meanings": {
+        "en": "floor of a building",
+        "vi": "tầng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d7bd9afe-7e71-4bf5-897a-e125dd08541b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "花火",
+            "ruby": "はなび"
+          }
+        ]
+      },
+      "kana_reading": "はなび",
+      "meanings": {
+        "en": "fireworks",
+        "vi": "pháo hoa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "477d6c93-4f1d-486c-bc7e-51ff8c48d2b7",
+      "japanese": {
+        "segments": [
+          {
+            "base": "会議室",
+            "ruby": "かいぎしつ"
+          }
+        ]
+      },
+      "kana_reading": "かいぎしつ",
+      "meanings": {
+        "en": "meeting room",
+        "vi": "phòng họp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "52454cd2-b0b8-43eb-a821-eea09c4e24e7",
+      "japanese": {
+        "segments": [
+          {
+            "base": "見",
+            "ruby": "み"
+          },
+          {
+            "base": "える"
+          }
+        ]
+      },
+      "kana_reading": "みえる",
+      "meanings": {
+        "en": "be visible",
+        "vi": "nhìn thấy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8114905d-3369-452f-91af-d02b36db9fae",
+      "japanese": {
+        "segments": [
+          {
+            "base": "聞",
+            "ruby": "き"
+          },
+          {
+            "base": "こえる"
+          }
+        ]
+      },
+      "kana_reading": "きこえる",
+      "meanings": {
+        "en": "be audible",
+        "vi": "nghe thấy"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ef53580f-a516-4c28-8fec-730e8c7dffb3",
+      "japanese": {
+        "segments": [
+          {
+            "base": "開",
+            "ruby": "ひら"
+          },
+          {
+            "base": "く"
+          }
+        ]
+      },
+      "kana_reading": "ひらく",
+      "meanings": {
+        "en": "open",
+        "vi": "mở"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "43386738-9c0f-4c9f-b999-122c3c79160f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "建",
+            "ruby": "た"
+          },
+          {
+            "base": "てる"
+          }
+        ]
+      },
+      "kana_reading": "たてる",
+      "meanings": {
+        "en": "build",
+        "vi": "xây"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d06aa817-4ed0-4250-8984-05918f7a3bfc",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二階",
+            "ruby": "にかい"
+          }
+        ]
+      },
+      "kana_reading": "にかい",
+      "meanings": {
+        "en": "second floor",
+        "vi": "tầng hai"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0541b5e3-c6b8-4fa3-bfce-52a197324963",
+      "japanese": {
+        "segments": [
+          {
+            "base": "五十階",
+            "ruby": "ごじゅっかい"
+          }
+        ]
+      },
+      "kana_reading": "ごじゅっかい",
+      "meanings": {
+        "en": "fiftieth floor",
+        "vi": "tầng năm mươi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "eb0f4016-2639-47bd-816b-892f76880b40",
+      "japanese": {
+        "segments": [
+          {
+            "base": "階",
+            "ruby": "がい"
+          }
+        ]
+      },
+      "kana_reading": "がい",
+      "meanings": {
+        "en": "floor counter; voiced reading after certain numbers",
+        "vi": "trợ số từ chỉ tầng; cách đọc hữu thanh sau một số số đếm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 40,
+          "pdf_page_end": 43,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 27,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 27,
+    "end": 27,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 40,
+      "pdf_page_end": 43,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

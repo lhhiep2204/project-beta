@@ -1,0 +1,2455 @@
+{
+  "date": "2026-11-09",
+  "stale_evidence": [],
+  "native_proof": {
+    "version": 1,
+    "task": "P0-T05",
+    "started": "2026-11-08",
+    "date": "2026-11-09",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "taskStatus": {
+      "T05": "in_progress",
+      "T05.01": "done",
+      "T05.02": "in_progress"
+    },
+    "scope": "Bounded native renderer/playback proof: eight deterministic component tests, two real-system adapter integration tests and four UI tests. The reset recovery test injects notifications; it does not reset the OS media server. Offline pronunciation listening and physical audio acceptance remain open.",
+    "environment": {
+      "scheme": "ProjectBeta",
+      "project": "ios/ProjectBeta/ProjectBeta.xcodeproj",
+      "device": "iPhone 18 Pro Simulator",
+      "simulatorID": "1D398D22-DBA1-425B-82E9-5B48F0370BF1",
+      "os": "iOS 27.2",
+      "sdk": "iPhoneSimulator27.2.sdk",
+      "swift": "6",
+      "deploymentTarget": "27.0",
+      "physicalDeviceUsed": false,
+      "physicalDeviceAvailability": "No eligible connected physical iPhone in current Xcode destinations. Owner confirmed no iPhone and requested continuation of work available on the Mac.",
+      "destinationEvidence": {
+        "path": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/XcodeListRunDestinations/D416CC3E-D5E7-4CA4-9315-52BD4690DF32.txt",
+        "sha256": "db47787bfc7a4eaf072fcff8f2afa135131a46db0885eab9d672a02add31430c"
+      }
+    },
+    "nativeTestsPassed": 14,
+    "nativeTestsFailed": 0,
+    "nativeTestsSkipped": 0,
+    "nativeBuildWarnings": 2,
+    "nativeTestResult": "/Users/hoanghieple/Library/Developer/XcodeBuildMCP/workspaces/project-beta-3d2b8abbddfc/result-bundles/test_sim_2026-11-09T00-18-56-183Z_pid27302_46bdb017.xcresult",
+    "nativeTestLog": {
+      "path": "/Users/hoanghieple/Library/Developer/XcodeBuildMCP/workspaces/project-beta-3d2b8abbddfc/logs/test_sim_2026-11-09T00-18-56-183Z_pid27302_56c82bec.log",
+      "sha256": "fc841d3cc7667bfb47743b2db4b7e72c920e4c8bd9d8071879bb6b41b9de3a3c"
+    },
+    "releaseCompile": {
+      "status": "passed",
+      "scope": "Fresh Release Simulator compilation only; not release/content approval",
+      "warnings": 1,
+      "swiftCompilerWarnings": 0,
+      "warningScope": "One App Intents metadata extraction warning in raw log; no Swift compiler warnings.",
+      "log": "/Users/hoanghieple/Library/Developer/XcodeBuildMCP/workspaces/project-beta-3d2b8abbddfc/logs/build_sim_2026-11-09T00-21-38-766Z_pid27302_168ad945.log",
+      "logSHA256": "1dac19ec822b6187eec97c1beaf29221d2fe9161e8871ae7cdc0a37f91cd8c4f",
+      "binary": "/Users/hoanghieple/Library/Developer/XcodeBuildMCP/workspaces/project-beta-3d2b8abbddfc/DerivedData/ProjectBeta-501a6df26fc2/Build/Products/Release-iphonesimulator/ProjectBeta.app/ProjectBeta",
+      "binarySHA256": "4f1762b87990d384c11705a1b5c7cd16dd7a5c0dfd1b759491d5c63e0fa0ba43",
+      "debugProofPayloadAbsent": true,
+      "absentProofMarkers": [
+        "NativeProofData",
+        "NativeProofView",
+        "T05 bounded native proof only",
+        "Bounded renderer and Japanese speech fixture"
+      ]
+    },
+    "inputHashes": {
+      "docs/content-authoring/sentence-bank/speech.json": "14c5d83abc3da35a34571c7261681da22f569570ef54f47631560a0558a54f36",
+      "docs/content-authoring/lesson-01.json": "7d9a72aeb9b330b057fba4a4fa7e947c61b26364be08ea822ee05ef9c953add2",
+      "docs/content-authoring/lesson-05.json": "55e8ec11a87bde7c8175b28525abf2292ac269469f833d5d55b6d526c5645582",
+      "docs/content-authoring/lesson-10.json": "db6b040631271c69c3cc686f2e39b5ffd9b0194755b3294fe5b41c9e5f16f443",
+      "docs/content-authoring/lesson-16.json": "8581a9572589c686953ef471744e4e299fd92606e2fe71a7d61c45ba71e149df",
+      "docs/content-authoring/lesson-26.json": "52d56572504b9760dbdded30824aeb0d0bf6e7f06004e6729ce5244e402cda44",
+      "docs/content-authoring/lesson-50.json": "9b06ef7f2565f52243eafc55f9ac0c82cba991f7a1d9eb6245680d6eba04c07b",
+      "docs/content-authoring/sentence-bank/bound-contexts.json": "13fb889c6f8c2af29032a6717e4c5b82ed3829b701010756521d7711d728c29e",
+      "docs/content-authoring/sentence-bank/validation-report.json": "a042646adcda1cbe9cdad23a601f26ff81e4eaef05a422accd0657627dd21f58"
+    },
+    "implementationHashes": {
+      "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/JapaneseText.swift": "aff6ab8cc653ed306c42eb9b2fca6eec5ac8e3ba72dff8f19b9b83cae92e2e13",
+      "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofData.swift": "4d5b2deedc6c06c72fa6a97b6f7f5958217faaab7807a9465b5e65daaac657e0",
+      "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofView.swift": "4fe4b76defad6f01f7e44d1fa4b475219af5c5c50eb6c7a30013e11fe8badf59",
+      "ios/ProjectBeta/ProjectBeta/Playback/PlaybackCoordinator.swift": "6bb1c0b84200bbccf1b274b8da845e86aab1bbc753382ef1e01fcfa469ca3a6c",
+      "ios/ProjectBeta/ProjectBeta/App/ProjectBetaApp.swift": "ddda8f6929945a7f78c72db25ec9aff5ef7bb1a1274f2483d996d73206bf10d7",
+      "ios/ProjectBeta/ProjectBeta/Assets.xcassets/AccentColor.colorset/Contents.json": "16321fb3ae0ea97c2dc728e850413fd8906cc11adca76d388dabf365e902e9c2",
+      "ios/ProjectBeta/ProjectBetaTests/ProjectBetaTests.swift": "d5167aff953681d145f8e5145921fffd7839fcaf4c5f7c47a6481ead02426eb9",
+      "ios/ProjectBeta/ProjectBetaUITests/ProjectBetaUITests.swift": "c33e05628655aab27205fa59ad99124454174d425256b79062c322f861f3eaed",
+      "ios/ProjectBeta/ProjectBeta.xcodeproj/project.xcproj": "cb729eb35e605a80b3ca9520ef8268c5954ad87123e114f16d43b7c4596a3c65",
+      "scripts/build_native_proof.py": "82bcc80f3b1e56ca4f2a083af5c9b42f2cb2332e44247a9cedb6ad172bfad8a6"
+    },
+    "fixture": {
+      "vocabularyAndExampleRows": 26,
+      "dialogueTurns": 8,
+      "dialogueID": "f7bb81c3-a948-49d1-b0e8-f55e998b74bb",
+      "referenceLessons": [
+        1,
+        5,
+        10,
+        16,
+        26,
+        50
+      ],
+      "retainedKeys": "exact entity/form or parent-dialogue/turn ordinal; no new curriculum IDs",
+      "coverage": [
+        "N5/N4 original long examples",
+        "ATM/JR contextual ruby",
+        "は/へ particle projections",
+        "standard/polite person forms",
+        "reviewed bound contexts",
+        "complete unchanged lesson-1 dialogue"
+      ],
+      "productionIntegration": false,
+      "sourceCurriculumOrPDFsModified": false
+    },
+    "componentTests": [
+      "restartReplacementAndStaleCallbacks",
+      "soloTurnReplacesDialogueAndDoesNotContinue",
+      "missingVoiceInvalidTargetAndAudioFailure",
+      "owningSceneDepartureAndNotificationsNeverResume",
+      "nativeRubyFitsAllTextWithoutChangingIdentityOrSpeech",
+      "reviewedFixtureHasExactVariantsContextsAndDialogue",
+      "unrelatedRouteChangesAndResumeRecommendationsDoNotReplacePlayback",
+      "mediaLossAndResetInvalidateRequestsWithoutAutomaticReplay"
+    ],
+    "rendererMatrix": {
+      "rowsAndTurns": 34,
+      "textWidthsPt": [
+        180,
+        280,
+        640
+      ],
+      "systemContentCategories": [
+        "large",
+        "extraExtraExtraLarge",
+        "accessibilityExtraExtraExtraLarge"
+      ],
+      "ruby": [
+        true,
+        false
+      ],
+      "layoutsChecked": 612,
+      "assertions": [
+        "all UTF-16 text covered in order",
+        "each visible authored ruby base remains on one line",
+        "typographic widths fit effective layout width",
+        "overwide indivisible runs increase effective layout width without reducing the font",
+        "display identity and authored speech unchanged"
+      ],
+      "nativeUICaptures": [
+        "Light LTR",
+        "Light forced RTL",
+        "accessibility3 narrow forced RTL, ruby on/off and vertical scroll",
+        "Dark forced RTL",
+        "landscape while a real dialogue request remains active"
+      ],
+      "rtlLimit": "forced native SwiftUI layout direction; not translated Arabic/Hebrew locale acceptance"
+    },
+    "playbackEvidence": {
+      "realNativeUI": [
+        "Apple Japanese system voice produced a didStart callback (REAL_SYSTEM_VOICE_PHASE=playing in test log)",
+        "separate Stop clears state",
+        "full-dialogue title restart",
+        "rotation preserves active request",
+        "Home/background/foreground stops with no auto-resume",
+        "logical departure and return keep playback idle"
+      ],
+      "injectedNativeComponent": [
+        "per-turn actual-callback model sequencing",
+        "same-target restart and new-target replacement",
+        "fresh token each utterance; reject late/duplicate callbacks",
+        "solo turn does not resume its former dialogue",
+        "missing voice, invalid bound target and audio-start failure/retry",
+        "owning scene departure only",
+        "posted system-deactivation, route-loss, media-loss/reset and background notifications; no resumption recommendation handled",
+        "new-device/category/override route changes and resumption recommendation do not replace active playback"
+      ],
+      "injectedNativeUI": [
+        "missing Japanese voice preserves readable form and shows setup guidance"
+      ],
+      "listeningPerformed": false,
+      "networkDisabled": false,
+      "silentModeTested": false,
+      "realInterruptionTested": false,
+      "realHeadphoneDisconnectTested": false,
+      "realNativeIntegration": [
+        "All eight unchanged lesson-1 turns submitted in authored order; exactly one real started/finished pair per distinct utterance token before normal completion.",
+        "A new solo-turn request replaces an active real dialogue; its real finished callback returns to idle, with no submission of the former dialogue remainder during the following 750 ms.",
+        "Actual cancelled then finished callbacks from replaced/stopped utterances were observed; they did not advance or clear the new request.",
+        "Explicit Stop remains idle with no new utterance submitted during the following 750 ms."
+      ],
+      "mediaServicesRecovery": {
+        "trigger": "Injected mediaServicesWereLostNotification / mediaServicesWereResetNotification, not an actual OS media-server restart.",
+        "implementation": "Loss invalidates the current request. Reset invalidates before rebuilding AVSpeechSynthesizer; old delegate is removed. Session category/mode/options are reapplied on the next explicit start. Reset never activates audio or speaks.",
+        "deterministic": "Loss and reset, including reset during pending activation and reset without preceding loss, invalidate tokens and ignore late callbacks/resumption recommendations.",
+        "realAdapter": "Factory observed two distinct real AVSpeechSynthesizer objects, detached old delegate and configured new delegate/session ownership. A 750 ms idle window submitted no speech; explicit solo-turn retry received real started/finished callbacks.",
+        "actualOSMediaResetPerformed": false,
+        "source": "https://developer.apple.com/documentation/avfaudio/avaudiosession/mediaserviceswereresetnotification"
+      }
+    },
+    "screenshots": [
+      {
+        "name": "injected-missing-voice-guidance_0_8637A14D-BD45-4B22-97E1-1647956EB207.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/7B361F50-1A07-46F7-8D5C-3C245F5E54B6.png",
+        "sha256": "be23d1782262a6418ae82d6e38b3dcda67983e49df3eafa6925a7f51153b173b",
+        "test": "ProjectBetaUITests/testMissingVoiceKeepsReadingAndShowsGuidance()",
+        "visuallyInspected": true
+      },
+      {
+        "name": "ruby-off--proof-dark--proof-rtl_0_2BA4CB55-D04D-459C-9671-CF88223C838D.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/3E8FE158-2B25-4D52-BE72-3C4F75DC18E3.png",
+        "sha256": "0c47462b568df5cb4ef3f8d8a8a4c78bd11378be32e711ff37e96f4a44048260",
+        "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+        "visuallyInspected": false
+      },
+      {
+        "name": "ruby-on--proof-dark--proof-rtl_0_8F9266E3-9953-45E1-A531-A19EE5F31A85.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/06B20F50-B382-4ACE-9965-14C96E17855D.png",
+        "sha256": "574ae3f70c98f767b0be9c3e4cceece6d498ccfa9278d902034fb221120cebbb",
+        "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+        "visuallyInspected": true
+      },
+      {
+        "name": "large-rtl-bottom_0_E825BBA2-5B33-430D-9570-5165E6730681.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/040A6328-3BDD-46B0-8096-235CFED6E44D.png",
+        "sha256": "67e27773b6f4aa207f556e7840629876df8c4611c3ed113a705df7499475f751",
+        "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+        "visuallyInspected": true
+      },
+      {
+        "name": "ruby-off--proof-large--proof-narrow--proof-rtl_0_432952EE-2EF8-436F-B848-E9050A5DF485.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/4E0518F4-0EEC-472C-9CE6-AB71B03661DE.png",
+        "sha256": "894670c7a2c9398cbd3372ac684e13d26a53646820a52e660428a90823e26aa4",
+        "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+        "visuallyInspected": false
+      },
+      {
+        "name": "ruby-on--proof-large--proof-narrow--proof-rtl_0_DAB2161D-ED2E-412E-923B-F3AD292577BB.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/999F442C-23B8-457D-B989-16E2A12E39AC.png",
+        "sha256": "9a3a836a4de64f55cb982dda62d0e05dbaa13cb123e042ddccb1183b4389ccd8",
+        "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+        "visuallyInspected": true
+      },
+      {
+        "name": "ruby-off--proof-rtl_0_BDFD804E-23F7-41C8-8071-0FA2969A9BD1.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/F7B95D28-0879-4A68-AF9B-412B65821AF3.png",
+        "sha256": "1621ec750370e3b539b3023e8f006c7c576c4d01f12762a17e91644f0377b581",
+        "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+        "visuallyInspected": false
+      },
+      {
+        "name": "ruby-on--proof-rtl_0_8AE5E7FF-6482-4753-8096-99D179D482DC.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/ACAC714E-BCFC-4182-8223-BB4ACAA5CE6B.png",
+        "sha256": "c3939273196c2fb1b8525183ad0ca98a3e0ec34707a86c87bfce75a5a49f58ba",
+        "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+        "visuallyInspected": false
+      },
+      {
+        "name": "ruby-off-_0_E259F5C7-C3EF-4373-BE1A-E7EA610A0767.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/0AE30C17-B5F9-4212-8C78-DAA429D723FC.png",
+        "sha256": "9d03d7603fba671526a89c45ba98c43f03b481b9c60f8560f33032189781c983",
+        "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+        "visuallyInspected": true
+      },
+      {
+        "name": "ruby-on-_0_AB4185DF-279B-4101-B6D6-4A3D761A589D.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/4F60ED85-BFC3-4F6E-9077-9A27B3404B2E.png",
+        "sha256": "9f31d1af149ad19e4d1f739bb0a22e68724cd2dd683fef7c5d80c5c2f74f3c31",
+        "test": "ProjectBetaUITests/testNativeProofGeometryRTLAndRubyToggle()",
+        "visuallyInspected": true
+      },
+      {
+        "name": "dialogue-playing-landscape_0_65B5E62F-47CE-497E-B448-DED0A301E37F.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/E11E8716-BC73-43C0-B857-B1B63FB89BCF.png",
+        "sha256": "58e87877494b396011b47f72c476ad47bd1d01227cd3311373c91636f8053d89",
+        "test": "ProjectBetaUITests/testRealDialogueGeometryBackgroundDepartureAndNoResume()",
+        "visuallyInspected": true
+      },
+      {
+        "name": "real-system-voice-result-idle_0_31948904-C95D-4CEB-B6BA-A133E1FC52E9.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/F46B42FE-C713-4CD8-A19E-FD809DB86EF8.png",
+        "sha256": "ffb425a3243ffccf5a244ed6f869fb8efb81b5e0bb478e98ac771cf4e0bb4aa0",
+        "test": "ProjectBetaUITests/testRealVoiceDiscoveryAndStopOrGuidance()",
+        "visuallyInspected": false
+      },
+      {
+        "name": "real-system-voice-playing_0_DF5E1D43-C78F-40D6-96DD-BE2657644952.png",
+        "path": "/tmp/beta-t05-evidence/media-reset-20261109/F576CAE2-EAF7-4430-A287-4805FDCBF4E1.png",
+        "sha256": "5182ad11330345699547c7459ed21445b57c7edb440fc3e375aa2ae041ee0c10",
+        "test": "ProjectBetaUITests/testRealVoiceDiscoveryAndStopOrGuidance()",
+        "visuallyInspected": false
+      }
+    ],
+    "externalArtifactPolicy": "Captures/logs/xcresult are outside the repository. Their paths are local to this workstation; hashes index the inspected run. Exported temporary screenshots may need re-export from xcresult.",
+    "reproduction": [
+      "Run README content/authoring validators before changing reviewed fixture inputs.",
+      "python3 scripts/build_native_proof.py --check",
+      "Use Xcode MCP test_sim with ProjectBeta, Debug, the currently discovered iPhone 18 Pro / iOS 27.2 simulator, all tests and extraArgs [\"-parallel-testing-enabled\", \"NO\"].",
+      "Use -native-proof to launch the DEBUG harness; -proof-renderer/-proof-rtl/-proof-large/-proof-narrow/-proof-dark select representative layout cases.",
+      "Use -proof-dialogue for the fixed script; -proof-missing-voice is explicitly an injected unavailable-voice case.",
+      "Use Xcode MCP build_sim in Release after application changes; inspect the executable for absence of DEBUG proof type/payload markers. Current run passed, with binary/log hashes recorded above."
+    ],
+    "missingEvidence": [
+      "Network-disabled Japanese playback and pronunciation listening (particles, Latin abbreviations, form variants and bound contexts).",
+      "Physical silent-switch/media-volume playback.",
+      "Actual phone/audio interruption and headset removal, followed by no auto-resume.",
+      "Pronunciation listening of the complete fixed dialogue and a solo turn. Actual system completion/replacement callbacks now pass separately; no listening acceptance is claimed."
+    ],
+    "outOfScope": [
+      "iPad/Duo, real Arabic/Hebrew localization, specialized Accessibility, performance, full learning-screen/runtime integration and release acceptance are outside this bounded proof."
+    ],
+    "priorEvidenceReport": {
+      "path": "docs/audit/t05-native-validation-before-media-reset.json",
+      "sha256": "60496e1456ca4eb6019d53fa46a6ce86ca9dba728b1b9c21a37ab61072dd7415",
+      "policy": "Preserved unchanged; describes the earlier twelve-test run before the media-reset fix."
+    },
+    "nativeTestDurationSeconds": 144.202,
+    "nativeSwiftCompilerWarnings": 0,
+    "buildWarnings": {
+      "scope": "Raw final test-build log; XcodeBuildMCP structured diagnostics reported no warnings.",
+      "messages": [
+        "2026-11-09 07:19:01.160 appintentsmetadataprocessor[28845:1642550] warning: Metadata extraction skipped, no AppIntents.framework dependency found",
+        "2026-11-09 07:19:03.644 appintentsmetadataprocessor[28852:1642600] warning: Metadata extraction skipped, no AppIntents.framework dependency found"
+      ],
+      "interpretation": "Two metadata-extraction warnings for targets without an AppIntents.framework dependency; no Swift compiler warning. No entitlement/framework was added to suppress them."
+    },
+    "integrationTests": [
+      "realDialogueCompletionReplacementAndSoloCompletion",
+      "realDriverRebuildAfterInjectedMediaResetRequiresExplicitPlay"
+    ],
+    "testExecutionPolicy": "Eight deterministic tests and two real-system adapter integration tests share @Suite(.serialized); four UI tests also run. test_sim extraArgs: -parallel-testing-enabled NO. Global injected notifications cannot overlap unrelated real speech.",
+    "visualReview": {
+      "scope": "Seven final-run captures actually inspected: missing-voice reading/guidance, Light ruby on/off, Dark forced RTL, narrow accessibility3 ruby, scrolled bottom, landscape while playing. Six other attachments are indexed but not visually inspected.",
+      "capturesInspected": 7,
+      "capturesExported": 13,
+      "findings": "Ruby remains above its authored base in the visible tested layouts; long content stays accessible through native scroll. Landscape capture proves active request/toolbar state, not all offscreen dialogue text. Forced RTL remains distinct from translated-locale acceptance."
+    },
+    "runtimeDiagnostics": {
+      "scope": "Raw simulator log retained, not suppressed or treated as physical acceptance.",
+      "observedCounts": {
+        "VoiceDBClient": 66,
+        "unsafeForcedSync": 21,
+        "Unsupported property: SupportsInterruptionEndedAfterActivationError": 1,
+        "mDataByteSize (0)": 10
+      },
+      "limit": "Voice-database fallback, simulator audio and accessibility runtime diagnostics remain in the raw log. Successful callbacks do not certify pronunciation quality or physical output."
+    },
+    "repositoryChecks": {
+      "nativeScope": "Fourteen native tests, fresh Debug/Release compilation, seven inspected screenshots and native fixture check passed. All current T05 input/implementation pins match.",
+      "passedSeparately": [
+        "python3 scripts/validate_authoring_samples.py --self-test",
+        "python3 scripts/validate_authoring_batch.py --complete --self-test",
+        "python3 scripts/render_authoring_content.py --check",
+        "python3 scripts/build_design_review.py --check",
+        "python3 scripts/build_native_proof.py --check"
+      ],
+      "audit": {
+        "command": "python3 scripts/audit_project_docs.py",
+        "exitCode": 1,
+        "firstFailure": "Stale T01 runtime evidence: scripts/build_runtime_package.py",
+        "otherObservedT01Drift": [
+          {
+            "path": "scripts/build_runtime_package.py",
+            "reviewedSHA256": "f37457959d41b1cbf71210b41665eaa19c4b79c387e0bcfe4455470b5d2535e3",
+            "currentSHA256": "b9f1f070e7b8016d8c523f59463ed536335c3b480403e1efce5d33e1dc968fdc"
+          },
+          {
+            "path": "ios/ProjectBeta/Runtime/Sources/BetaRuntime/SearchIndex.swift",
+            "reviewedSHA256": "80147e66bc2f2e53bf4866a74ace7819f95ad1408819582a3c297c59bf4af495",
+            "currentSHA256": "4569a41c3f0ac829854dabf0a6c4fd56c5423887c49d01073d46533b400e75f2"
+          }
+        ],
+        "scope": "Audit reached the T01 fingerprint gate after its kana/sentence-bank/source-reconciliation checks. Later whole-project audit checks did not run; do not report a full audit pass. T01 files changed outside this continuation and are preserved. No T01 report pins were refreshed."
+      }
+    },
+    "phaseDisposition": {
+      "decision": "DOC-PLAN-02",
+      "date": "2026-11-09",
+      "ownerInstruction": "phần nghe offline và audio hãy cho qua phase development, phase hiện tại thì không cần, hãy update lại các tài liệu liên quan",
+      "currentPhase": "documentation",
+      "executionPhase": "development",
+      "documentationBlocker": false,
+      "productRequirementsChanged": false,
+      "executionEvidenceUnchanged": true,
+      "scope": "Under owner decision DOC-PLAN-02 (2026-11-09), offline listening and real-audio verification belong to development and are not required for the current documentation phase. Preserve the product requirements, unperformed cases and existing evidence; phase scheduling is not acceptance.",
+      "taskStatusPolicy": "Retain T05/T05.02 in_progress for development; do not mark deferred listening/audio as passed.",
+      "unperformedDevelopmentEvidence": [
+        "Network-disabled Japanese playback and pronunciation listening (particles, Latin abbreviations, form variants and bound contexts).",
+        "Physical silent-switch/media-volume playback.",
+        "Actual phone/audio interruption and headset removal, followed by no auto-resume.",
+        "Pronunciation listening of the complete fixed dialogue and a solo turn. Actual system completion/replacement callbacks now pass separately; no listening acceptance is claimed."
+      ],
+      "previousReport": {
+        "path": "docs/audit/t05-native-validation-before-phase-deferral.json",
+        "sha256": "7b743ea839da9b131d0fca2c74c8cc69a52cd8c0b1d197719cfbdd4c4a20c26f"
+      }
+    }
+  },
+  "native_audio_closure": {
+    "version": 1,
+    "task": "T01.02",
+    "phase": "development",
+    "date": "2026-11-09",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "recordedAt": "2026-11-09T20:47:27.014589+07:00",
+    "taskStatus": {
+      "T01": "done",
+      "T01.01": "done",
+      "T01.02": "done"
+    },
+    "physicalDeviceUsed": true,
+    "scope": "Bounded DEBUG native-proof closure: two real-driver integration tests on the physical iPhone, plus owner-performed physical audio/listening cases. This is not full app, independent linguistic, performance, WidgetKit or release acceptance. No app implementation or curriculum change.",
+    "environment": {
+      "architecture": "arm64",
+      "deviceId": "00008160-000E09181E00000A",
+      "deviceName": "iPhone của Hoàng Hiệp",
+      "modelName": "iPhone 18 Pro",
+      "osBuildNumber": "24B119",
+      "osVersion": "27.2",
+      "platform": "iOS",
+      "scheme": "ProjectBeta",
+      "configuration": "Debug",
+      "connection": "Wi-Fi/network, confirmed by Xcode launch log. Owner disabled networking for the manual offline case.",
+      "japaneseVoice": "Installed Apple ja-JP system voice selected by the unchanged driver. Exact voice identifier/name was not recorded by the existing harness.",
+      "headset": "Owner confirmed the active-headset disconnect case; headset model/connection type not supplied."
+    },
+    "previousEvidence": {
+      "path": "docs/audit/t05-native-validation.json",
+      "sha256": "d7bba15066c280e2f735542e0eec40b2526116c1439b5eabacfb99798450fefa",
+      "unchanged": true
+    },
+    "previousSimulatorRevalidation": {
+      "path": "docs/audit/t01-02-development-validation.json",
+      "sha256": "28485710cf9e106acecfefb8fa345789ca05347ce6b82787a760239a9efd59d0",
+      "scope": "14 passed Simulator tests; four inspected captures. Includes logical departure evidence; do not relabel as physical UI automation."
+    },
+    "inputHashes": {
+      "docs/content-authoring/sentence-bank/speech.json": "14c5d83abc3da35a34571c7261681da22f569570ef54f47631560a0558a54f36",
+      "docs/content-authoring/lesson-01.json": "7d9a72aeb9b330b057fba4a4fa7e947c61b26364be08ea822ee05ef9c953add2",
+      "docs/content-authoring/lesson-05.json": "55e8ec11a87bde7c8175b28525abf2292ac269469f833d5d55b6d526c5645582",
+      "docs/content-authoring/lesson-10.json": "db6b040631271c69c3cc686f2e39b5ffd9b0194755b3294fe5b41c9e5f16f443",
+      "docs/content-authoring/lesson-16.json": "8581a9572589c686953ef471744e4e299fd92606e2fe71a7d61c45ba71e149df",
+      "docs/content-authoring/lesson-26.json": "52d56572504b9760dbdded30824aeb0d0bf6e7f06004e6729ce5244e402cda44",
+      "docs/content-authoring/lesson-50.json": "9b06ef7f2565f52243eafc55f9ac0c82cba991f7a1d9eb6245680d6eba04c07b",
+      "docs/content-authoring/sentence-bank/bound-contexts.json": "13fb889c6f8c2af29032a6717e4c5b82ed3829b701010756521d7711d728c29e",
+      "docs/content-authoring/sentence-bank/validation-report.json": "a042646adcda1cbe9cdad23a601f26ff81e4eaef05a422accd0657627dd21f58"
+    },
+    "implementationHashes": {
+      "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/JapaneseText.swift": "aff6ab8cc653ed306c42eb9b2fca6eec5ac8e3ba72dff8f19b9b83cae92e2e13",
+      "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofData.swift": "4d5b2deedc6c06c72fa6a97b6f7f5958217faaab7807a9465b5e65daaac657e0",
+      "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofView.swift": "4fe4b76defad6f01f7e44d1fa4b475219af5c5c50eb6c7a30013e11fe8badf59",
+      "ios/ProjectBeta/ProjectBeta/Playback/PlaybackCoordinator.swift": "6bb1c0b84200bbccf1b274b8da845e86aab1bbc753382ef1e01fcfa469ca3a6c",
+      "ios/ProjectBeta/ProjectBeta/App/ProjectBetaApp.swift": "ddda8f6929945a7f78c72db25ec9aff5ef7bb1a1274f2483d996d73206bf10d7",
+      "ios/ProjectBeta/ProjectBeta/Assets.xcassets/AccentColor.colorset/Contents.json": "16321fb3ae0ea97c2dc728e850413fd8906cc11adca76d388dabf365e902e9c2",
+      "ios/ProjectBeta/ProjectBetaTests/ProjectBetaTests.swift": "d5167aff953681d145f8e5145921fffd7839fcaf4c5f7c47a6481ead02426eb9",
+      "ios/ProjectBeta/ProjectBetaUITests/ProjectBetaUITests.swift": "c33e05628655aab27205fa59ad99124454174d425256b79062c322f861f3eaed",
+      "ios/ProjectBeta/ProjectBeta.xcodeproj/project.xcproj": "cb729eb35e605a80b3ca9520ef8268c5954ad87123e114f16d43b7c4596a3c65",
+      "scripts/build_native_proof.py": "82bcc80f3b1e56ca4f2a083af5c9b42f2cb2332e44247a9cedb6ad172bfad8a6"
+    },
+    "nativeTests": {
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "method": "Xcode RunSomeTests on the active physical destination; two cases in the serialized native suite. No UI target was run concurrently.",
+      "tests": [
+        {
+          "displayName": "realDialogueCompletionReplacementAndSoloCompletion()",
+          "errorMessages": [],
+          "identifier": "ProjectBetaTests/realDialogueCompletionReplacementAndSoloCompletion()",
+          "state": "Passed",
+          "targetName": "ProjectBetaTests"
+        },
+        {
+          "displayName": "realDriverRebuildAfterInjectedMediaResetRequiresExplicitPlay()",
+          "errorMessages": [],
+          "identifier": "ProjectBetaTests/realDriverRebuildAfterInjectedMediaResetRequiresExplicitPlay()",
+          "state": "Passed",
+          "targetName": "ProjectBetaTests"
+        }
+      ],
+      "xcresultOriginal": "/Users/hoanghieple/Library/Developer/Xcode/DerivedData/ProjectBeta-ceguqkmzqsooopaurmhcowjfevdr/Logs/Test/Test-ProjectBeta-2026.11.09_20-37-53-+0700.xcresult",
+      "xcresultCopy": "/tmp/beta-t01-02-physical-20261109/integration.xcresult",
+      "summary": {
+        "path": "/tmp/beta-t01-02-physical-20261109/integration-summary.json",
+        "sha256": "05b6ef8806039f8732761295ac80c021812bcbd0818e2a81152bc9ede2726c0e"
+      },
+      "log": {
+        "path": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/RunSomeTests/test-console-log-2026-11-09T20-37-53+07-00.txt",
+        "sha256": "7d09c473d8dac6339619463528d12af9460624460766b52ebee4b9d35a962eb2"
+      },
+      "resultSummary": {
+        "path": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/RunSomeTests/0E096145-6A69-45F6-B013-A970C8E35741.txt",
+        "sha256": "ae3f92f3d8850960716243131936328f3aa0876229448c6e598a2abfb51d606e"
+      }
+    },
+    "ownerEvidence": {
+      "source": "Explicit replies in this Codex chat after the current physical-device run and native-proof launch.",
+      "observer": "Owner operating and listening to the physical iPhone; agent did not hear or independently observe manual device actions.",
+      "initialAudibility": "Có, nghe được tiếng Nhật",
+      "offlineReply": "Ok vẫn nghe được khi offline",
+      "offlineScopeConfirmation": "Đã thử đủ và đều đạt",
+      "interruptionHeadsetReply": "Đã pass tất cả các trường hợp",
+      "offlineFollowUpQuestion": "Trong lần thử vừa rồi có bật silent, thử đủ các mục phát âm cùng hội thoại đầy đủ/lượt riêng, và thấy chạm lại loa phát từ đầu, Stop giữ dừng không?",
+      "recordingOrPhysicalScreenshots": false
+    },
+    "ownerObservedConditions": {
+      "networkDisabled": true,
+      "silentMode": true,
+      "allFixtureTargets": true,
+      "dialogueAndSolo": true,
+      "restartAndStop": true,
+      "actualInterruption": true,
+      "activeHeadsetDisconnect": true,
+      "backgroundForeground": true,
+      "noAutomaticResume": true
+    },
+    "e2eCases": [
+      {
+        "id": "T01.02-E2E-01",
+        "status": "passed",
+        "method": "owner_manual_on_physical_device",
+        "protocol": "Enable airplane mode and disable Wi-Fi, enable silent mode at audible media volume; play every fixture pronunciation, the full fixed dialogue and one solo turn; retap to restart and use separate Stop.",
+        "ownerAnswer": "Đã thử đủ và đều đạt",
+        "supportingAnswer": "Ok vẫn nghe được khi offline",
+        "expectedActual": "Owner confirms the complete offline/silent target/dialogue/solo and restart/Stop matrix passed; no item failure reported. Manual owner evidence, without agent recording or automated per-item trace."
+      },
+      {
+        "id": "T01.02-E2E-02",
+        "status": "passed",
+        "method": "owner_manual_on_physical_device",
+        "protocol": "While a dialogue plays, cause an actual audio interruption; during another playback disconnect the active headset; background/foreground. Each event stops audio with no automatic resume, until a new speaker tap.",
+        "ownerAnswer": "Đã pass tất cả các trường hợp",
+        "expectedActual": "Owner confirms actual interruption, active headset disconnect and background/foreground stop without automatic resume; a new speaker tap is required. Manual owner evidence, not an injected event pass."
+      }
+    ],
+    "uiAutomation": {
+      "status": "blocked_before_execution",
+      "passed": 0,
+      "notRun": 1,
+      "test": "ProjectBetaUITests/testRealDialogueGeometryBackgroundDepartureAndNoResume()",
+      "reason": "ProjectBetaUITests-Runner could not be installed: device reached the maximum installed apps using a free developer profile (ProjectBeta, ProjectAlpha and locifyapp). No app was deleted and no identifier or signing setting was changed.",
+      "log": {
+        "path": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/RunSomeTests/test-console-log-2026-11-09T20-38-44+07-00.txt",
+        "sha256": "edda24bdce139887bb5634f2cdfbc8c3145c38203562cee58410ab5307a8345c"
+      },
+      "summary": {
+        "path": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/RunSomeTests/5EC95EF5-79F5-449C-9D74-B97DD95591E7.txt",
+        "sha256": "1fdeb58148e7c2453bf35380d55f44ca8a84d27beed5f25da41e5a916b13e58f"
+      },
+      "xcresult": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/RunSomeTests/Test-ProjectBeta-2026.11.09_20-38-44-+0700.xcresult",
+      "physicalVisualInspectionClaimed": false
+    },
+    "build": {
+      "buildResult": "The project built successfully.",
+      "elapsedTime": 0.454,
+      "errors": [],
+      "fullLogPath": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/BuildProject/BuildProject-Log-20261109-203700.txt"
+    },
+    "run": {
+      "buildErrors": [],
+      "elapsedTime": 0.166,
+      "fullLogPath": "/var/folders/lt/zmng1yv138v1j_lv893jgy0w0000gn/T/ActionArtifacts/default/RunProject/RunProject-Log-20261109-203743.txt",
+      "launchSessionReference": "7b29380480",
+      "processIdentifier": 42562,
+      "runResult": "The app was launched successfully."
+    },
+    "proofLaunch": {
+      "method": "Existing app launched with Apple devicectl and -native-proof after Xcode built/ran it; no additional app or test runner installed.",
+      "path": "/tmp/beta-t01-02-physical-20261109/proof-launch.json",
+      "sha256": "bbeb9583d0d38d1775e4bdd22b46dd8a18fcb3caf6044e17d8255fc9ee81fe1f"
+    },
+    "fixture": {
+      "path": "ios/ProjectBeta/ProjectBeta/Presentation/NativeProof/NativeProofData.swift",
+      "dialogueID": "f7bb81c3-a948-49d1-b0e8-f55e998b74bb",
+      "orderedTurnIDs": [
+        "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:0",
+        "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:1",
+        "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:2",
+        "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:3",
+        "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:4",
+        "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:5",
+        "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:6",
+        "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:7"
+      ],
+      "soloReplacementAndResetRetryTarget": "dialogue:f7bb81c3-a948-49d1-b0e8-f55e998b74bb:turn:2",
+      "missingVoiceUITarget": "vocabulary:af8c51e2-6b2f-45f9-a932-474b1e5d91db:standard",
+      "listeningScope": "Owner confirmed all 26 fixture rows, full eight-turn dialogue and solo turn under offline/silent conditions, including restart and Stop. No agent audio recording or automated per-item listening trace.",
+      "fixtureRows": 26
+    },
+    "injectedMediaReset": "The physical real-driver reset integration test injects media-loss/reset notifications. An actual OS media-server reset was not performed. This is separate from the owner-confirmed real interruption/headset cases.",
+    "limitations": [
+      "Physical UI automation was not executed because runner installation was blocked.",
+      "No agent-observed physical screenshots/video or audio recording; manual audio outcomes are owner attestations.",
+      "Exact system voice identifier, headset model/type and numeric media-volume value were not captured.",
+      "No actual OS media-server reset or new Release compilation; prior Release proof-marker exclusion remains historical.",
+      "Full app learning screens, native selection, remaining locales, iPad/Duo, performance, widgets and release remain separate tasks."
+    ]
+  },
+  "candidate_authoring": {
+    "task": "P0-T04",
+    "date": "2026-11-08",
+    "targets": 6126,
+    "targets_by_kind": {
+      "grammar": 255,
+      "kanji": 536,
+      "pattern": 280,
+      "vocabulary": 2731,
+      "word": 2324
+    },
+    "candidates": 3275,
+    "reviewed_candidates": 3275,
+    "reviewed_target_coverage": 6126,
+    "alignment_only_or_reviewed_coverage": 6126,
+    "missing_targets": 0,
+    "missing_by_kind": {},
+    "speech_targets": 5616,
+    "reviewed_speech_targets": 5616,
+    "vocabulary_bound_entries": 114,
+    "vocabulary_bound_forms": 120,
+    "kanji_bound_words": 35,
+    "bound_contexts": 155,
+    "dictionary_forms": 466,
+    "speech_authoring_complete": true,
+    "task_authoring_acceptance_complete": true,
+    "fixtures": {
+      "negative_fixtures": 27,
+      "rejected": [
+        "missing_target",
+        "wrong_sense",
+        "stale_source",
+        "missing_dictionary_form",
+        "missing_wave_dash_context",
+        "unlabeled_context",
+        "placeholder_to_tts",
+        "latin_to_tts",
+        "duplicate_ruby_base_to_tts",
+        "wrong_particle_offset",
+        "missing_speech_row",
+        "duplicate_candidate",
+        "unknown_target",
+        "unknown_vocabulary",
+        "unknown_grammar",
+        "incomplete_span_analysis",
+        "unreviewed_simplicity",
+        "unrelated_target_exception",
+        "changed_translation_after_review",
+        "changed_context_after_review",
+        "candidate_speech_wrong_reading",
+        "support_introduction_without_evidence",
+        "stale_word_binding",
+        "stale_bare_character_binding",
+        "unrelated_bare_character_exception",
+        "omitted_taught_target_exception",
+        "stale_bound_context_fingerprint"
+      ],
+      "reference_fixtures": [
+        "none",
+        "N5_only",
+        "N4_only",
+        "both",
+        "cap_three",
+        "forced_search",
+        "stable_returned_snapshot",
+        "grammar_before_words",
+        "words_before_simplicity",
+        "editorial_simplicity",
+        "stable_authored_order",
+        "wrong_level_endpoint",
+        "unrelated_forced_sentence",
+        "pending_excluded",
+        "exact_form_sense",
+        "missing_context_unavailable",
+        "stale_speech_unavailable",
+        "duplicate_sentence_excluded",
+        "orthographic_variant_excluded",
+        "distinct_contextual_readings",
+        "context_only_support_unfamiliar",
+        "unfamiliar_support_fallback",
+        "taught_bare_character_exception",
+        "stale_context_unavailable"
+      ]
+    },
+    "input_and_validator_sha256": {
+      "docs/content-authoring/lesson-01.json": "7d9a72aeb9b330b057fba4a4fa7e947c61b26364be08ea822ee05ef9c953add2",
+      "docs/content-authoring/lesson-02.json": "ce38c6d5d03317d92877e6ea8de2ea9c82aa9b54deefc0aa1b4d4bae0653d31f",
+      "docs/content-authoring/lesson-03.json": "c8c323267138dda9233a84e71ef463f639895dc371c243d0766c7441b4392a2c",
+      "docs/content-authoring/lesson-04.json": "eabb9e589c0d54117b22f7e613af67e422aa9d83eda2b7e9c7f8882ed332866a",
+      "docs/content-authoring/lesson-05.json": "55e8ec11a87bde7c8175b28525abf2292ac269469f833d5d55b6d526c5645582",
+      "docs/content-authoring/lesson-06.json": "6e8893d525fe3baf4e54403e694e3e1a60c041d50e089ea563f33c73e31d9be3",
+      "docs/content-authoring/lesson-07.json": "c9c6481aec04d3b390436803559ce8c3b3510379339b66a00e4c391677245bb7",
+      "docs/content-authoring/lesson-08.json": "d95eb15cebcf79eabbeb2a8209efed2859fb641b6eda402d5c6bbe31e63242ef",
+      "docs/content-authoring/lesson-09.json": "b44537c8c8596244f041efacb194b76bbab700aabbea8c4c928ad32d070d2ee6",
+      "docs/content-authoring/lesson-10.json": "db6b040631271c69c3cc686f2e39b5ffd9b0194755b3294fe5b41c9e5f16f443",
+      "docs/content-authoring/lesson-11.json": "f0d2af098682a9305c1367f1823a0152fa5d5cae74e2df56ed8b239d5d74a2a6",
+      "docs/content-authoring/lesson-12.json": "b8fa2d6c858916f9e381890cdb620a96d160d59f9d9689d41042c0cc09d0cd94",
+      "docs/content-authoring/lesson-13.json": "7af9645d825a500df0c996075a752ea883af774c418687d7bfd32b595da572d5",
+      "docs/content-authoring/lesson-14.json": "922769563110f09d7381b23f047068db28a572f2a8cd4a8dc4e720727f736f40",
+      "docs/content-authoring/lesson-15.json": "b351e0d93fe933207a55c59e055b98b816e4e3653032436c1f26867cebd2378c",
+      "docs/content-authoring/lesson-16.json": "8581a9572589c686953ef471744e4e299fd92606e2fe71a7d61c45ba71e149df",
+      "docs/content-authoring/lesson-17.json": "9014ccadf92595f0dbb2834365da2f5617a593c19a6aefef4c96faaf43cded66",
+      "docs/content-authoring/lesson-18.json": "d555bbdc36482103283dba19ba0448f6fa1042e5c54e4d4464861d2177ca13ab",
+      "docs/content-authoring/lesson-19.json": "62ad7addd1df24934905fead28d3edcbfe1faddbf002e5039c57fdcef3a0ec99",
+      "docs/content-authoring/lesson-20.json": "a7202d04481a1d3156260495b91a30004baa75170789248d351ceb89250137f1",
+      "docs/content-authoring/lesson-21.json": "a577f88bb3aad2c19fa9029b48d2dfeb552c1f0481e70c0fb16d68e5156dde4b",
+      "docs/content-authoring/lesson-22.json": "3f7598e0253c2bd2d4cd2ce1728fbe7bfcc90688d6c81cc4f11f8f786bd9ddaf",
+      "docs/content-authoring/lesson-23.json": "820d4f3b1e0aaea3706a48e20b7aacfdb154937d45cb5dcc660e5b85b97fc5fe",
+      "docs/content-authoring/lesson-24.json": "bf552ab0ec712e014d5266568205dbaacb6105d075c15cebde6911c281fe2df7",
+      "docs/content-authoring/lesson-25.json": "463e99e8ad0c6f8f696003cfe8f2e6f9dc248f626e552179d672449dc6fc07a0",
+      "docs/content-authoring/lesson-26.json": "52d56572504b9760dbdded30824aeb0d0bf6e7f06004e6729ce5244e402cda44",
+      "docs/content-authoring/lesson-27.json": "749a3b613a51050552a87e7f9dab9cde85e4b4af81e85eec1bc4cdc5c6b2dfc6",
+      "docs/content-authoring/lesson-28.json": "95f4b599b0777b50824d376d119aeabb3fe96b3353e958ddc6d0550a22abe5ec",
+      "docs/content-authoring/lesson-29.json": "e715e9affcb092ce99f099be744ba2bbdaaf6ca07665bf0afe48c9fbd1dfc79d",
+      "docs/content-authoring/lesson-30.json": "a4604858fb84e4006fdfd2c9b427d39999e8a105c843d4b1c9f37ff3389b2270",
+      "docs/content-authoring/lesson-31.json": "1f2434f3c808db42312d509d5e7724205f463514d795c1a9e4d365ca891791b4",
+      "docs/content-authoring/lesson-32.json": "bb127f20779bb65c938b20d3eac7c29f858f55ec7e2164529943c2de019d4f8b",
+      "docs/content-authoring/lesson-33.json": "2f679fd1d95c3d09d714310b6e2f58f28f989397f4cf2b42225366caf5422803",
+      "docs/content-authoring/lesson-34.json": "15d8edf02150f35a6b1ec6a1eab6e37da94b5061a54f0b853f8de819d5432305",
+      "docs/content-authoring/lesson-35.json": "6a66d0f2a911915b8c8d0ca8f697f92bb73f036ae9414cf3d698f7acf46f40d4",
+      "docs/content-authoring/lesson-36.json": "6aa1a5b8867dfa7ffb214bc4e7680aae63c8bd49880052c762f849798b2a98c3",
+      "docs/content-authoring/lesson-37.json": "9aae944e433bb13a24058e26e6402c6e9e270363e19d88c0b833a4634477d75b",
+      "docs/content-authoring/lesson-38.json": "0ce6c434d99784058e81fb7d0c9a78f9fcc750ce4f865e46ecff971a30d32189",
+      "docs/content-authoring/lesson-39.json": "cbf521cb5d8dac301c1a8df7ef50abf301d27eb4e43c87860ead6cad8971a525",
+      "docs/content-authoring/lesson-40.json": "0fa17967e9c8e6160cbe5852272c3d10460e45ef988ac123bc41c188426a9ea5",
+      "docs/content-authoring/lesson-41.json": "28f4d162f33a6049a6aaed15d6e66bef2db05a8f67262e7f44d20efba403eb12",
+      "docs/content-authoring/lesson-42.json": "53b66cdcf89dd4581ae90a173b8193639f373a8ffc06701ccc94d113cc8ff1be",
+      "docs/content-authoring/lesson-43.json": "28302a8f74558cccb0cf1817cf9488870653e2f733a97e7918babc58a9bb17ce",
+      "docs/content-authoring/lesson-44.json": "250e6577dea51e8705e07ed8a753c8a1c02a26924e1de2e470442a5f98c42392",
+      "docs/content-authoring/lesson-45.json": "c5af1cd6a5ea101b7b8756f79e31f9c30451aa0a7439435cb2d67545e5159a24",
+      "docs/content-authoring/lesson-46.json": "5f315710a6d9dfa7e9d29e4cfc4d44c6e81aa747cb6de495ba0fd49b06394601",
+      "docs/content-authoring/lesson-47.json": "ebd8afe75f072fb711a0a5bdbe4c6caf14cb2acbf755ecebb69215602120cb07",
+      "docs/content-authoring/lesson-48.json": "eae3d307e6a2d6bc735ef11221847563781137e668a0d4f95ab966cc5dc3cf99",
+      "docs/content-authoring/lesson-49.json": "8e9d2e11e6108b553931282a543e59ee392ba94cb23000688fde923b955f9f3f",
+      "docs/content-authoring/lesson-50.json": "9b06ef7f2565f52243eafc55f9ac0c82cba991f7a1d9eb6245680d6eba04c07b",
+      "docs/content-authoring/kanji/unit-01.json": "08685cce84bdba2d84e60112561cbfb4af50d4ea0a06146073bd06c1e258f0f6",
+      "docs/content-authoring/kanji/unit-02.json": "3acdf15024296b3b136b98dddcc50fc93bd390a4906c5969c9d9e9d52fa08af3",
+      "docs/content-authoring/kanji/unit-03.json": "7a82c2ebfe084faaf6ca2f36ba037ddb6b4a3cb5ccc1eb2d6bd13bceb4a90ec3",
+      "docs/content-authoring/kanji/unit-04.json": "fdbaeba7d68ded50b43fdab2f516208b6274c637b6987e3aa50731d35254f528",
+      "docs/content-authoring/kanji/unit-05.json": "6b7adc11eb0df776a5f819ed65315da7f9b0563b00890fb3f4f63accb52992c6",
+      "docs/content-authoring/kanji/unit-06.json": "688b054ab88c161f499cbe29b0f060374923a100022ff0f288b30e15dcfd75dd",
+      "docs/content-authoring/kanji/unit-07.json": "4281d39133706b38a6d0352b5f314720167970257e9cdc08e20ac79536a447b3",
+      "docs/content-authoring/kanji/unit-08.json": "3f02b83d59d9838e61b4e64f1c30ea37c17b314e5df91578cd4dc3c1c57d54d1",
+      "docs/content-authoring/kanji/unit-09.json": "3a5df5317bd3872d8e815679adba48d419c9cdeba2f3ffd94220b9559904ef5a",
+      "docs/content-authoring/kanji/unit-10.json": "73b6489effbf88501eac2d0426fc784d2e0135d47ca15767774db1b5c6c9372e",
+      "docs/content-authoring/kanji/unit-11.json": "e8c6e2037a9c47c431a23fe31f1ce104e9241a8496920ee08204be3f15ac8d04",
+      "docs/content-authoring/kanji/unit-12.json": "41f5327a8d05c8fac9150fc0ba2fc65889f91ed77b3a20f46d30b485759ea2d3",
+      "docs/content-authoring/kanji/unit-13.json": "e4f91e28f744f68195c38d7ae2d5e3f7cbe7f1fa212861cb7d5bd463fa2d2620",
+      "docs/content-authoring/kanji/unit-14.json": "266900adcd5395ac81b6672b38a1870a22c5c0b842952ef7de37959e0393e434",
+      "docs/content-authoring/kanji/unit-15.json": "1beb838dae47910ba54bac7923022599134163e82bda3d15cce661fa505e0562",
+      "docs/content-authoring/kanji/unit-16.json": "fd26885aef3fcc97be62f222596d07d8d5ea57f9468cb0fe33acca0b852ed511",
+      "docs/content-authoring/kanji/unit-17.json": "05b2d1d50f8f830ccc28370a11019fe52765d91e76851878dcef44c62a487a27",
+      "docs/content-authoring/kanji/unit-18.json": "b9f0173f5c2bbaf68d40a54a64a30bee54a781af80c0f98e9de008018aa29aa1",
+      "docs/content-authoring/kanji/unit-19.json": "8d37aea7f6f8adc8c09b95469d216e65d52d2cec009483f7782e966d2ff94680",
+      "docs/content-authoring/kanji/unit-20.json": "8f893f2043e73d2c1a61bbe574efcce15e47fb46a8125bafcff06e7b2f0d0945",
+      "docs/content-authoring/kanji/unit-21.json": "e74e6735129c9840284f1f5ccdc1c15dbfb9fbf5d9682fb5b9140498c3d3c5c5",
+      "docs/content-authoring/kanji/unit-22.json": "0436b9820be0ce5d3f206dadb6a0f3bbff8ea88e1239f7d2b3dfa8509112c241",
+      "docs/content-authoring/kanji/unit-23.json": "9dd792f97abdfc0d0d29d04dbbad8986a40187c4a5d0b8776956cb3699b63587",
+      "docs/content-authoring/kanji/unit-24.json": "e3ca75f9e1bb2686a00fd83ec6169e8ba7cf31da0cdcce0210b688129f0727fa",
+      "docs/content-authoring/kanji/unit-25.json": "59c866bc0959d5f0db9d06338a09961a1a2688a894e8e7065a605c1ee601a04b",
+      "docs/content-authoring/kanji/unit-26.json": "73a979257f6fd265b5541cea07e8935195edc2bcf75f696aaaea7f1d6e7da88f",
+      "docs/content-authoring/kanji/unit-27.json": "5a4e7e80fbedc5925d2d2b99f029cd236a2276e01a6aa51f5c53af61155bf638",
+      "docs/content-authoring/kanji/unit-28.json": "4bee49b9fff0d3494ed43eb21edd2ce258d29fd337a4506b84be1437cac8a190",
+      "docs/content-authoring/kanji/unit-29.json": "95dc7c7db2cb120f68e3da0ee911abf1c7502a96607cd08faa13ab396c5ebe14",
+      "docs/content-authoring/kanji/unit-30.json": "313d42722b1fe242be7aa2e2a0b75c5ff7d844a417b95c1395e606f7530744c3",
+      "docs/content-authoring/kanji/unit-31.json": "012b19edda579fbf084ad97aa33ecbdd8c3e5bd9c691549015b395d4517bcc19",
+      "docs/content-authoring/kanji/unit-32.json": "1e4cb307ff84e1ffaa3da0d322fed3c1b2388eb334e3228f4efbd9df81f7227b",
+      "docs/content-authoring/kanji/unit-33.json": "baaabb12d5933dc03ddb025f5f00c06712fde6184566d06c41cd6c3aad9aa7b3",
+      "docs/content-authoring/kanji/unit-34.json": "653255055f20237ddfe9bc15615fdac030c5fa0386806e86a7cd36724876518b",
+      "docs/content-authoring/kanji/unit-35.json": "d4f0e8aa30895d198d0e994b3659f97ebb88ef28aa33ca065f0af2a004a1e66c",
+      "docs/content-authoring/kanji/unit-36.json": "e22bf727e219665bd4ae688578b843ab87465fe2e15f69888c5cdf0135048e2a",
+      "docs/content-authoring/kanji/unit-37.json": "ba7f1c6b343aff69ebd88642904f6597053e5c365ade602fac1b2befdb0ebffd",
+      "docs/content-authoring/kanji/unit-38.json": "35f5149115720899b34dfd4159d4339e86aa7ea2156158460591a281a0308e02",
+      "docs/content-authoring/kanji/unit-39.json": "04e838b8a55abb332db43bce0e8b28301e6ed4f2c11ecea15faaafeec00c1bf4",
+      "docs/content-authoring/kanji/unit-40.json": "5cedd5344eb265539b87d2c45b84e21fd7e7e6138bbcb68ab44b462f1d29b583",
+      "docs/content-authoring/kanji/unit-41.json": "320d8e1fcbc6970ed50bdd306213ce1f8497b645e98d0deaa7135231b96ed5a4",
+      "docs/content-authoring/kanji/unit-42.json": "fb8476ac3d2771a6a45884923b306d0907b0a29617dac811dae75edfa3f212ad",
+      "docs/content-authoring/kanji/unit-43.json": "0a9aaa84088c51158c74f80b9ccbb57ef25ae71ba1bf042c9efd1fcc4d259fa7",
+      "docs/content-authoring/kanji/unit-44.json": "d5089ddb3a1ccfc47e2bcccff129737dffc54229df5950243e29134a3eecf0f9",
+      "docs/content-authoring/kanji/unit-45.json": "b491932a2064884234c8615c1252977ebd5778a1a6055ce1d7d40e491a6735c9",
+      "docs/content-authoring/kanji/unit-46.json": "377d9c4022240c75bafab078cdf94cc42f8221e47609da37d0eb6e9549b595fb",
+      "docs/content-authoring/kanji/unit-47.json": "c8578c21c8e4b19305088e13fa2506b78dc28a6ef317a18e16b0d862354904a8",
+      "docs/content-authoring/kanji/unit-48.json": "419a0cc6014bb32810263f218532efe12849c9cfe0d757c3dea1666f36d7f731",
+      "docs/content-authoring/kanji/unit-49.json": "8bd3568f4780bc015e768673ffef08cbf4a285b1556eacc361faea9497bb1ad0",
+      "docs/content-authoring/kanji/unit-50.json": "7536866f2a0bf11d484234310875caa88aa0c4d785b0e963a2028b1908a64114",
+      "docs/content-authoring/kanji/characters-n5.json": "efd960f1bf4acc4dba04943234e69f054f1166b0f9a5489d2bb8143a441cd1bd",
+      "docs/content-authoring/kanji/characters-n4.json": "09052fed6c8042d7968943d2eca74708e52d3145082257cc9673ef7882334e8a",
+      "docs/content-authoring/sentence-bank/identities.json": "121966ab8471297c9d26f093aa6c87b508621e53838c21cee8af7fc29cacc24e",
+      "docs/content-authoring/sentence-bank/bank.json": "d7dc82c7de62fae44f93b14a42ba5825159198cf57a0571ac3c0d33b801f934c",
+      "docs/content-authoring/sentence-bank/bank.schema.json": "c527ae1d381abed966d1c0ae54debde5761f6f4be7c46f5ad321194dfb2315cf",
+      "docs/content-authoring/sentence-bank/bound-contexts.json": "13fb889c6f8c2af29032a6717e4c5b82ed3829b701010756521d7711d728c29e",
+      "docs/content-authoring/sentence-bank/speech.json": "14c5d83abc3da35a34571c7261681da22f569570ef54f47631560a0558a54f36",
+      "docs/content-authoring/sentence-bank/review.json": "5877430f0dad3924161b86e409985dbca1c104e68a87272da322f5e4a13ce730",
+      "docs/reference-inventory/catalog.json": "eb719338b86026f60da289aecc11f5113b5f627cc2cb0f8a4bda4a758444017f",
+      "docs/content-authoring/source-reconciliation/validation-report.json": "0755cff1288e6671c4685b6d67890ecd204f8d35b383f7e7447c57b58181f4dc",
+      "scripts/candidate_authoring.py": "98ba7a72586fb801a0b85fcf30430cdb1dd19e0e3ced07c7683e5d702d8183d5",
+      "scripts/validate_sentence_bank.py": "849fecd3a00b46b43698dada6aa58ca02af695501a176e5d10461d08d92fa455"
+    },
+    "limitations": [
+      "Coverage gaps, if any, are enumerated; structural checks do not replace primary semantic review.",
+      "Primary B-U-51 self-review and inherited T02 readings; no independent human certification.",
+      "Offline Python reference fixtures, not the T08.05 native selector or application tests.",
+      "No TTS listening, native playback, 17 remaining languages, performance or release acceptance."
+    ]
+  },
+  "kana_authoring": {
+    "task": "P0-T03",
+    "status": "passed",
+    "scope": "Kana authoring structure, source-table mapping and primary self-review integrity; not independent linguistic, historical-accent, runtime or release acceptance.",
+    "task_authoring_acceptance_complete": true,
+    "counts": {
+      "entries": 301,
+      "examples": 301,
+      "learning_entries": 272,
+      "reference_entries": 29,
+      "groups": {
+        "hiragana:basic": 46,
+        "hiragana:contracted": 33,
+        "hiragana:long_vowel": 7,
+        "hiragana:particle": 3,
+        "hiragana:reference": 12,
+        "hiragana:special": 9,
+        "hiragana:voiced": 25,
+        "katakana:basic": 46,
+        "katakana:contracted": 33,
+        "katakana:extended": 33,
+        "katakana:reference": 17,
+        "katakana:special": 9,
+        "katakana:voiced": 25,
+        "shared:special": 3
+      },
+      "source_tables": {
+        "modern-direct": 71,
+        "modern-contracted": 36,
+        "katakana-counterparts": 107,
+        "loan-table-1-extension": 13,
+        "loan-table-2": 20
+      }
+    },
+    "negative_fixtures_rejected": [
+      "missing-cell",
+      "duplicate-id",
+      "duplicate-example-id",
+      "empty-meaning",
+      "reading-mismatch",
+      "unknown-source",
+      "wrong-source-link",
+      "lost-denominator",
+      "duplicate-denominator",
+      "reference-mixed",
+      "missing-language-gap",
+      "unapproved-learned-filter",
+      "display-romaji",
+      "wrong-script",
+      "unknown-speech-context",
+      "isolated-small-kana",
+      "isolated-length-mark",
+      "isolated-reference-mark",
+      "wrong-sound-context",
+      "four-examples",
+      "no-voiced-context",
+      "stale-review",
+      "missing-item-review",
+      "unreviewed-example",
+      "missing-content-check"
+    ],
+    "input_and_validator_sha256": {
+      "docs/content-authoring/kana/inventory.json": "23aaea0e4ad70943911fb068345ca2cd647b676b2aa4929c01e2664e5c9ad7eb",
+      "docs/content-authoring/kana/source-inventory.json": "726a739a1ea42e40fb4d775d8c4e3647e86c432d87687f567bd577e85b3f038b",
+      "docs/content-authoring/kana/kana.schema.json": "3294cdf5b7fce7249ad0c178ea7fac70e071f2e7052174b39d2cf324ab3671fa",
+      "docs/content-authoring/kana/review.json": "b9ef2b065e934cb40f0d453f50d2feae9ba2eccd2cb68bca727d6d040489f2d7",
+      "scripts/validate_kana.py": "0ef0b41744afbe94d6e645b2ac8d36c28a32886f760771570be41c6d6140e8ce",
+      "scripts/validate_authoring_samples.py": "63d06920690745ebb8ef364af65a12050f1073bb2f6d1fb990b5041bf4a49bd7"
+    },
+    "limits": [
+      "Primary-agent self-review under B-U-51, not independent human certification.",
+      "Source-table coverage is complete within the explicitly recorded standard-Japanese inventory. Not an exhaustive list of every foreign-sound spelling, Ainu or hentaigana codepoint.",
+      "English and Vietnamese authored; the other 17 approved languages remain T09/T12 gates.",
+      "Pronunciation targets are editorial contexts. No synthesized/recorded voice was listened to; no pitch-accent or reconstructed historical pronunciation certification.",
+      "No runtime bundle adoption, native kana UI, browser interaction, app/device/performance or release acceptance. T08.04 owns native rendering/playback.",
+      "Pre-existing repository drift observed before T03: source-reconciliation validator fails on lesson-01.json input pin; lesson-27–50 Markdown was stale. T03 does not recertify changed T02/T01/batch evidence."
+    ]
+  },
+  "source_reconciliation": {
+    "task": "P0-T02",
+    "date": "2026-11-08",
+    "structural_valid": true,
+    "task_acceptance_complete": true,
+    "acceptance_basis": "Recorded B-U-51 primary source/content review plus independently checked ledger integrity; no human or release certification.",
+    "counts": {
+      "vocabulary_pages": 100,
+      "source_vocabulary_rows": 2189,
+      "mapped_source_rows": 2189,
+      "excluded_source_rows": 0,
+      "authored_vocabulary_mapped": 2211,
+      "editorial_additions": 1,
+      "authored_form_links": 2264,
+      "source_grammar_groups": 253,
+      "linked_pattern_variants": 280,
+      "source_kanji_definitions": 536,
+      "source_kanji_units": 50,
+      "source_unit_lexical_rows": 1498,
+      "mapped_unit_words": 1498,
+      "mapped_master_examples": 826,
+      "unit_master_links": 1257,
+      "primary_reviewed_content_files": 102
+    },
+    "pending_content_reviews": [],
+    "kanji_source_inventory_present": true,
+    "open_grammar_locator_findings": 0,
+    "negative_fixtures_passed": 30,
+    "input_sha256": {
+      "docs/content-authoring/source-reconciliation/source-inventory.json": "d7d904d863249e8cef7ceec33a99cc81bffde12928ffce70e2718968a53be7bc",
+      "docs/content-authoring/source-reconciliation/vocabulary-ledger.json": "d946d4d13548db74967134b69db68ebaf17b7be6f7979e223dc3e4e03ebd973f",
+      "docs/content-authoring/source-reconciliation/grammar-ledger.json": "b65908ea36bbaaca4ba5eec2c47b0981317856e6feaf2e77420525abf6ec9378",
+      "docs/content-authoring/source-reconciliation/review.json": "e231ec8824b7ad228201bb98b803db790f06f8e8115d491ac028a9dd691e865a",
+      "docs/content-authoring/source-reconciliation/kanji-source-inventory.json": "98355ce6e08019c13ab50d460e3e955717f9d66ed746bef886cc03be2287f7ba",
+      "docs/content-authoring/source-reconciliation/kanji-ledger.json": "29785b659d6ba61d820e41d83801eec440519dcddd3bf56eaaf4b1f7a5a59b0e",
+      "docs/content-authoring/source-reconciliation/proper-name-review.json": "486ad8b2282e73202b041cb83bc9f12ed81d9a24743c2cfb2324738ea2d81601",
+      "docs/content-authoring/source-reconciliation/content-corrections.json": "b33dd7a2be024753119052d65bf66f82afdc5146118ed6e6ec1914cad2041c9c"
+    },
+    "implementation_sha256": {
+      "scripts/validate_source_reconciliation.py": "d3d50045df1acdeadb7b19c650a2caa4d0c46a97d4d5be4b9149625373f93a0b"
+    },
+    "limits": [
+      "Primary-agent linguistic self-review under B-U-51 is recorded as such; no independent human Japanese/translation certification is claimed.",
+      "The denominator and source facts are manually reviewed evidence. Structural validation guards identities, forms, reading snapshots, relationships, coverage and revision drift; it cannot prove the absence of a human transcription or linguistic error.",
+      "Kanji uses disclosed historical transcription seeds followed by fresh image comparison. It is not represented as a second independent original transcription or an exhaustive vocabulary inventory of all optional appendix illustrations.",
+      "Only the assigned vocabulary/topic/unit/definition scope was reviewed; the entire 1451-page corpus, optional matrices, exercises, source passages and answer keys were not re-transcribed.",
+      "The other 17 release languages and native kana integration, sentence-bank, voice/device and release acceptance remain separate. No application/browser/device/TTS/WidgetKit/performance/release acceptance follows from this content review."
+    ]
+  },
+  "proper_name_review": {
+    "path": "docs/content-authoring/source-reconciliation/proper-name-review.json",
+    "decision": "B-U-59",
+    "source_rows": 38,
+    "new_entries": 41,
+    "visual_pages": 19
+  },
+  "scope": "All canonical files checked structurally. H02 (legacy T02) records primary assigned-scope source/VI/EN/reading review; its revision-bound report is included separately. B-U-59 and the earlier seven-page audit remain historical evidence.",
+  "counts": {
+    "vocabulary": 2212,
+    "grammar_points": 255,
+    "sentence_patterns": 278,
+    "examples": 304,
+    "dialogues": 50,
+    "lessons": 50,
+    "units": 50,
+    "characters": 536,
+    "source_pages": 1451,
+    "source_grammar_groups": 253,
+    "bound_entries": 114,
+    "kanji_word_occurrences": 2324,
+    "editorial_bytes": 29881825,
+    "unit_word_occurrences": 1498,
+    "character_example_occurrences": 826
+  },
+  "sources": [
+    {
+      "id": "N5_MAIN",
+      "pages": 265,
+      "sha256": "b28e396e4f69679cf1152cd30077e9da02cf2fd328a2e882b94f89a3996db2cd",
+      "path": "docs/ Minna no Nihongo - N5.pdf",
+      "verified": "hash_and_page_count"
+    },
+    {
+      "id": "N5_GRAMMAR",
+      "pages": 201,
+      "sha256": "f924ca4781cb3975f23a06bfb88371872f60fab847a7695ee832009ab814904e",
+      "path": "docs/Bản dịch và giải thích ngữ pháp - N5.pdf",
+      "verified": "hash_and_page_count"
+    },
+    {
+      "id": "N5_KANJI",
+      "pages": 218,
+      "sha256": "f5412c43c2d27a5ea8714d32a14c7874568904fc39bb8d0d39cdd2d582230eba",
+      "path": "docs/Sách Kanji bài học - N5.pdf",
+      "verified": "hash_and_page_count"
+    },
+    {
+      "id": "N4_MAIN",
+      "pages": 330,
+      "sha256": "5d0ce9b33bab69e0f6b81d019f12594d95be4ee6a629085410e33fd3687e0008",
+      "path": "docs/Sách giáo khoa - Minna no Nihongo - N4.pdf",
+      "verified": "hash_and_page_count"
+    },
+    {
+      "id": "N4_GRAMMAR",
+      "pages": 181,
+      "sha256": "dacdcf05badb33d326f6990050b50023aa84b521e183c7505a1d6e30b1103b46",
+      "path": "docs/Bản dịch và giải thích ngữ pháp - N4.pdf",
+      "verified": "hash_and_page_count"
+    },
+    {
+      "id": "N4_KANJI",
+      "pages": 256,
+      "sha256": "5452c782813de18b941ff71e1a1037af459e271948a59f3a0ad288bd10530b31",
+      "path": "docs/Sách Kanji bài học - N4.pdf",
+      "verified": "hash_and_page_count"
+    }
+  ],
+  "canonical_content_sha256": {
+    "docs/content-authoring/kana/inventory.json": "23aaea0e4ad70943911fb068345ca2cd647b676b2aa4929c01e2664e5c9ad7eb",
+    "docs/content-authoring/kana/kana.schema.json": "3294cdf5b7fce7249ad0c178ea7fac70e071f2e7052174b39d2cf324ab3671fa",
+    "docs/content-authoring/kana/review.json": "b9ef2b065e934cb40f0d453f50d2feae9ba2eccd2cb68bca727d6d040489f2d7",
+    "docs/content-authoring/kana/source-inventory.json": "726a739a1ea42e40fb4d775d8c4e3647e86c432d87687f567bd577e85b3f038b",
+    "docs/content-authoring/kanji/characters-n4.json": "09052fed6c8042d7968943d2eca74708e52d3145082257cc9673ef7882334e8a",
+    "docs/content-authoring/kanji/characters-n5.json": "efd960f1bf4acc4dba04943234e69f054f1166b0f9a5489d2bb8143a441cd1bd",
+    "docs/content-authoring/kanji/unit-01.json": "08685cce84bdba2d84e60112561cbfb4af50d4ea0a06146073bd06c1e258f0f6",
+    "docs/content-authoring/kanji/unit-02.json": "3acdf15024296b3b136b98dddcc50fc93bd390a4906c5969c9d9e9d52fa08af3",
+    "docs/content-authoring/kanji/unit-03.json": "7a82c2ebfe084faaf6ca2f36ba037ddb6b4a3cb5ccc1eb2d6bd13bceb4a90ec3",
+    "docs/content-authoring/kanji/unit-04.json": "fdbaeba7d68ded50b43fdab2f516208b6274c637b6987e3aa50731d35254f528",
+    "docs/content-authoring/kanji/unit-05.json": "6b7adc11eb0df776a5f819ed65315da7f9b0563b00890fb3f4f63accb52992c6",
+    "docs/content-authoring/kanji/unit-06.json": "688b054ab88c161f499cbe29b0f060374923a100022ff0f288b30e15dcfd75dd",
+    "docs/content-authoring/kanji/unit-07.json": "4281d39133706b38a6d0352b5f314720167970257e9cdc08e20ac79536a447b3",
+    "docs/content-authoring/kanji/unit-08.json": "3f02b83d59d9838e61b4e64f1c30ea37c17b314e5df91578cd4dc3c1c57d54d1",
+    "docs/content-authoring/kanji/unit-09.json": "3a5df5317bd3872d8e815679adba48d419c9cdeba2f3ffd94220b9559904ef5a",
+    "docs/content-authoring/kanji/unit-10.json": "73b6489effbf88501eac2d0426fc784d2e0135d47ca15767774db1b5c6c9372e",
+    "docs/content-authoring/kanji/unit-11.json": "e8c6e2037a9c47c431a23fe31f1ce104e9241a8496920ee08204be3f15ac8d04",
+    "docs/content-authoring/kanji/unit-12.json": "41f5327a8d05c8fac9150fc0ba2fc65889f91ed77b3a20f46d30b485759ea2d3",
+    "docs/content-authoring/kanji/unit-13.json": "e4f91e28f744f68195c38d7ae2d5e3f7cbe7f1fa212861cb7d5bd463fa2d2620",
+    "docs/content-authoring/kanji/unit-14.json": "266900adcd5395ac81b6672b38a1870a22c5c0b842952ef7de37959e0393e434",
+    "docs/content-authoring/kanji/unit-15.json": "1beb838dae47910ba54bac7923022599134163e82bda3d15cce661fa505e0562",
+    "docs/content-authoring/kanji/unit-16.json": "fd26885aef3fcc97be62f222596d07d8d5ea57f9468cb0fe33acca0b852ed511",
+    "docs/content-authoring/kanji/unit-17.json": "05b2d1d50f8f830ccc28370a11019fe52765d91e76851878dcef44c62a487a27",
+    "docs/content-authoring/kanji/unit-18.json": "b9f0173f5c2bbaf68d40a54a64a30bee54a781af80c0f98e9de008018aa29aa1",
+    "docs/content-authoring/kanji/unit-19.json": "8d37aea7f6f8adc8c09b95469d216e65d52d2cec009483f7782e966d2ff94680",
+    "docs/content-authoring/kanji/unit-20.json": "8f893f2043e73d2c1a61bbe574efcce15e47fb46a8125bafcff06e7b2f0d0945",
+    "docs/content-authoring/kanji/unit-21.json": "e74e6735129c9840284f1f5ccdc1c15dbfb9fbf5d9682fb5b9140498c3d3c5c5",
+    "docs/content-authoring/kanji/unit-22.json": "0436b9820be0ce5d3f206dadb6a0f3bbff8ea88e1239f7d2b3dfa8509112c241",
+    "docs/content-authoring/kanji/unit-23.json": "9dd792f97abdfc0d0d29d04dbbad8986a40187c4a5d0b8776956cb3699b63587",
+    "docs/content-authoring/kanji/unit-24.json": "e3ca75f9e1bb2686a00fd83ec6169e8ba7cf31da0cdcce0210b688129f0727fa",
+    "docs/content-authoring/kanji/unit-25.json": "59c866bc0959d5f0db9d06338a09961a1a2688a894e8e7065a605c1ee601a04b",
+    "docs/content-authoring/kanji/unit-26.json": "73a979257f6fd265b5541cea07e8935195edc2bcf75f696aaaea7f1d6e7da88f",
+    "docs/content-authoring/kanji/unit-27.json": "5a4e7e80fbedc5925d2d2b99f029cd236a2276e01a6aa51f5c53af61155bf638",
+    "docs/content-authoring/kanji/unit-28.json": "4bee49b9fff0d3494ed43eb21edd2ce258d29fd337a4506b84be1437cac8a190",
+    "docs/content-authoring/kanji/unit-29.json": "95dc7c7db2cb120f68e3da0ee911abf1c7502a96607cd08faa13ab396c5ebe14",
+    "docs/content-authoring/kanji/unit-30.json": "313d42722b1fe242be7aa2e2a0b75c5ff7d844a417b95c1395e606f7530744c3",
+    "docs/content-authoring/kanji/unit-31.json": "012b19edda579fbf084ad97aa33ecbdd8c3e5bd9c691549015b395d4517bcc19",
+    "docs/content-authoring/kanji/unit-32.json": "1e4cb307ff84e1ffaa3da0d322fed3c1b2388eb334e3228f4efbd9df81f7227b",
+    "docs/content-authoring/kanji/unit-33.json": "baaabb12d5933dc03ddb025f5f00c06712fde6184566d06c41cd6c3aad9aa7b3",
+    "docs/content-authoring/kanji/unit-34.json": "653255055f20237ddfe9bc15615fdac030c5fa0386806e86a7cd36724876518b",
+    "docs/content-authoring/kanji/unit-35.json": "d4f0e8aa30895d198d0e994b3659f97ebb88ef28aa33ca065f0af2a004a1e66c",
+    "docs/content-authoring/kanji/unit-36.json": "e22bf727e219665bd4ae688578b843ab87465fe2e15f69888c5cdf0135048e2a",
+    "docs/content-authoring/kanji/unit-37.json": "ba7f1c6b343aff69ebd88642904f6597053e5c365ade602fac1b2befdb0ebffd",
+    "docs/content-authoring/kanji/unit-38.json": "35f5149115720899b34dfd4159d4339e86aa7ea2156158460591a281a0308e02",
+    "docs/content-authoring/kanji/unit-39.json": "04e838b8a55abb332db43bce0e8b28301e6ed4f2c11ecea15faaafeec00c1bf4",
+    "docs/content-authoring/kanji/unit-40.json": "5cedd5344eb265539b87d2c45b84e21fd7e7e6138bbcb68ab44b462f1d29b583",
+    "docs/content-authoring/kanji/unit-41.json": "320d8e1fcbc6970ed50bdd306213ce1f8497b645e98d0deaa7135231b96ed5a4",
+    "docs/content-authoring/kanji/unit-42.json": "fb8476ac3d2771a6a45884923b306d0907b0a29617dac811dae75edfa3f212ad",
+    "docs/content-authoring/kanji/unit-43.json": "0a9aaa84088c51158c74f80b9ccbb57ef25ae71ba1bf042c9efd1fcc4d259fa7",
+    "docs/content-authoring/kanji/unit-44.json": "d5089ddb3a1ccfc47e2bcccff129737dffc54229df5950243e29134a3eecf0f9",
+    "docs/content-authoring/kanji/unit-45.json": "b491932a2064884234c8615c1252977ebd5778a1a6055ce1d7d40e491a6735c9",
+    "docs/content-authoring/kanji/unit-46.json": "377d9c4022240c75bafab078cdf94cc42f8221e47609da37d0eb6e9549b595fb",
+    "docs/content-authoring/kanji/unit-47.json": "c8578c21c8e4b19305088e13fa2506b78dc28a6ef317a18e16b0d862354904a8",
+    "docs/content-authoring/kanji/unit-48.json": "419a0cc6014bb32810263f218532efe12849c9cfe0d757c3dea1666f36d7f731",
+    "docs/content-authoring/kanji/unit-49.json": "8bd3568f4780bc015e768673ffef08cbf4a285b1556eacc361faea9497bb1ad0",
+    "docs/content-authoring/kanji/unit-50.json": "7536866f2a0bf11d484234310875caa88aa0c4d785b0e963a2028b1908a64114",
+    "docs/content-authoring/lesson-01.json": "7d9a72aeb9b330b057fba4a4fa7e947c61b26364be08ea822ee05ef9c953add2",
+    "docs/content-authoring/lesson-02.json": "ce38c6d5d03317d92877e6ea8de2ea9c82aa9b54deefc0aa1b4d4bae0653d31f",
+    "docs/content-authoring/lesson-03.json": "c8c323267138dda9233a84e71ef463f639895dc371c243d0766c7441b4392a2c",
+    "docs/content-authoring/lesson-04.json": "eabb9e589c0d54117b22f7e613af67e422aa9d83eda2b7e9c7f8882ed332866a",
+    "docs/content-authoring/lesson-05.json": "55e8ec11a87bde7c8175b28525abf2292ac269469f833d5d55b6d526c5645582",
+    "docs/content-authoring/lesson-06.json": "6e8893d525fe3baf4e54403e694e3e1a60c041d50e089ea563f33c73e31d9be3",
+    "docs/content-authoring/lesson-07.json": "c9c6481aec04d3b390436803559ce8c3b3510379339b66a00e4c391677245bb7",
+    "docs/content-authoring/lesson-08.json": "d95eb15cebcf79eabbeb2a8209efed2859fb641b6eda402d5c6bbe31e63242ef",
+    "docs/content-authoring/lesson-09.json": "b44537c8c8596244f041efacb194b76bbab700aabbea8c4c928ad32d070d2ee6",
+    "docs/content-authoring/lesson-10.json": "db6b040631271c69c3cc686f2e39b5ffd9b0194755b3294fe5b41c9e5f16f443",
+    "docs/content-authoring/lesson-11.json": "f0d2af098682a9305c1367f1823a0152fa5d5cae74e2df56ed8b239d5d74a2a6",
+    "docs/content-authoring/lesson-12.json": "b8fa2d6c858916f9e381890cdb620a96d160d59f9d9689d41042c0cc09d0cd94",
+    "docs/content-authoring/lesson-13.json": "7af9645d825a500df0c996075a752ea883af774c418687d7bfd32b595da572d5",
+    "docs/content-authoring/lesson-14.json": "922769563110f09d7381b23f047068db28a572f2a8cd4a8dc4e720727f736f40",
+    "docs/content-authoring/lesson-15.json": "b351e0d93fe933207a55c59e055b98b816e4e3653032436c1f26867cebd2378c",
+    "docs/content-authoring/lesson-16.json": "8581a9572589c686953ef471744e4e299fd92606e2fe71a7d61c45ba71e149df",
+    "docs/content-authoring/lesson-17.json": "9014ccadf92595f0dbb2834365da2f5617a593c19a6aefef4c96faaf43cded66",
+    "docs/content-authoring/lesson-18.json": "d555bbdc36482103283dba19ba0448f6fa1042e5c54e4d4464861d2177ca13ab",
+    "docs/content-authoring/lesson-19.json": "62ad7addd1df24934905fead28d3edcbfe1faddbf002e5039c57fdcef3a0ec99",
+    "docs/content-authoring/lesson-20.json": "a7202d04481a1d3156260495b91a30004baa75170789248d351ceb89250137f1",
+    "docs/content-authoring/lesson-21.json": "a577f88bb3aad2c19fa9029b48d2dfeb552c1f0481e70c0fb16d68e5156dde4b",
+    "docs/content-authoring/lesson-22.json": "3f7598e0253c2bd2d4cd2ce1728fbe7bfcc90688d6c81cc4f11f8f786bd9ddaf",
+    "docs/content-authoring/lesson-23.json": "820d4f3b1e0aaea3706a48e20b7aacfdb154937d45cb5dcc660e5b85b97fc5fe",
+    "docs/content-authoring/lesson-24.json": "bf552ab0ec712e014d5266568205dbaacb6105d075c15cebde6911c281fe2df7",
+    "docs/content-authoring/lesson-25.json": "463e99e8ad0c6f8f696003cfe8f2e6f9dc248f626e552179d672449dc6fc07a0",
+    "docs/content-authoring/lesson-26.json": "52d56572504b9760dbdded30824aeb0d0bf6e7f06004e6729ce5244e402cda44",
+    "docs/content-authoring/lesson-27.json": "749a3b613a51050552a87e7f9dab9cde85e4b4af81e85eec1bc4cdc5c6b2dfc6",
+    "docs/content-authoring/lesson-28.json": "95f4b599b0777b50824d376d119aeabb3fe96b3353e958ddc6d0550a22abe5ec",
+    "docs/content-authoring/lesson-29.json": "e715e9affcb092ce99f099be744ba2bbdaaf6ca07665bf0afe48c9fbd1dfc79d",
+    "docs/content-authoring/lesson-30.json": "a4604858fb84e4006fdfd2c9b427d39999e8a105c843d4b1c9f37ff3389b2270",
+    "docs/content-authoring/lesson-31.json": "1f2434f3c808db42312d509d5e7724205f463514d795c1a9e4d365ca891791b4",
+    "docs/content-authoring/lesson-32.json": "bb127f20779bb65c938b20d3eac7c29f858f55ec7e2164529943c2de019d4f8b",
+    "docs/content-authoring/lesson-33.json": "2f679fd1d95c3d09d714310b6e2f58f28f989397f4cf2b42225366caf5422803",
+    "docs/content-authoring/lesson-34.json": "15d8edf02150f35a6b1ec6a1eab6e37da94b5061a54f0b853f8de819d5432305",
+    "docs/content-authoring/lesson-35.json": "6a66d0f2a911915b8c8d0ca8f697f92bb73f036ae9414cf3d698f7acf46f40d4",
+    "docs/content-authoring/lesson-36.json": "6aa1a5b8867dfa7ffb214bc4e7680aae63c8bd49880052c762f849798b2a98c3",
+    "docs/content-authoring/lesson-37.json": "9aae944e433bb13a24058e26e6402c6e9e270363e19d88c0b833a4634477d75b",
+    "docs/content-authoring/lesson-38.json": "0ce6c434d99784058e81fb7d0c9a78f9fcc750ce4f865e46ecff971a30d32189",
+    "docs/content-authoring/lesson-39.json": "cbf521cb5d8dac301c1a8df7ef50abf301d27eb4e43c87860ead6cad8971a525",
+    "docs/content-authoring/lesson-40.json": "0fa17967e9c8e6160cbe5852272c3d10460e45ef988ac123bc41c188426a9ea5",
+    "docs/content-authoring/lesson-41.json": "28f4d162f33a6049a6aaed15d6e66bef2db05a8f67262e7f44d20efba403eb12",
+    "docs/content-authoring/lesson-42.json": "53b66cdcf89dd4581ae90a173b8193639f373a8ffc06701ccc94d113cc8ff1be",
+    "docs/content-authoring/lesson-43.json": "28302a8f74558cccb0cf1817cf9488870653e2f733a97e7918babc58a9bb17ce",
+    "docs/content-authoring/lesson-44.json": "250e6577dea51e8705e07ed8a753c8a1c02a26924e1de2e470442a5f98c42392",
+    "docs/content-authoring/lesson-45.json": "c5af1cd6a5ea101b7b8756f79e31f9c30451aa0a7439435cb2d67545e5159a24",
+    "docs/content-authoring/lesson-46.json": "5f315710a6d9dfa7e9d29e4cfc4d44c6e81aa747cb6de495ba0fd49b06394601",
+    "docs/content-authoring/lesson-47.json": "ebd8afe75f072fb711a0a5bdbe4c6caf14cb2acbf755ecebb69215602120cb07",
+    "docs/content-authoring/lesson-48.json": "eae3d307e6a2d6bc735ef11221847563781137e668a0d4f95ab966cc5dc3cf99",
+    "docs/content-authoring/lesson-49.json": "8e9d2e11e6108b553931282a543e59ee392ba94cb23000688fde923b955f9f3f",
+    "docs/content-authoring/lesson-50.json": "9b06ef7f2565f52243eafc55f9ac0c82cba991f7a1d9eb6245680d6eba04c07b",
+    "docs/content-authoring/sentence-bank/bank.json": "d7dc82c7de62fae44f93b14a42ba5825159198cf57a0571ac3c0d33b801f934c",
+    "docs/content-authoring/sentence-bank/bank.schema.json": "c527ae1d381abed966d1c0ae54debde5761f6f4be7c46f5ad321194dfb2315cf",
+    "docs/content-authoring/sentence-bank/bound-contexts.json": "13fb889c6f8c2af29032a6717e4c5b82ed3829b701010756521d7711d728c29e",
+    "docs/content-authoring/sentence-bank/identities.json": "121966ab8471297c9d26f093aa6c87b508621e53838c21cee8af7fc29cacc24e",
+    "docs/content-authoring/sentence-bank/review.json": "5877430f0dad3924161b86e409985dbca1c104e68a87272da322f5e4a13ce730",
+    "docs/content-authoring/sentence-bank/speech.json": "14c5d83abc3da35a34571c7261681da22f569570ef54f47631560a0558a54f36"
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "level": "N5",
+      "title": "Tự giới thiệu và hỏi thông tin cơ bản",
+      "vocabulary": 45,
+      "grammar": 6,
+      "patterns": 6,
+      "examples": 12,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        29,
+        30
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-01.md"
+    },
+    {
+      "number": 2,
+      "level": "N5",
+      "title": "Xác định đồ vật và chủ sở hữu",
+      "vocabulary": 46,
+      "grammar": 8,
+      "patterns": 8,
+      "examples": 10,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        35,
+        36
+      ],
+      "source_groups": 8,
+      "path": "docs/content-authoring/lesson-02.md"
+    },
+    {
+      "number": 3,
+      "level": "N5",
+      "title": "Tìm địa điểm và hỏi giá",
+      "vocabulary": 50,
+      "grammar": 6,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        41,
+        42
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-03.md"
+    },
+    {
+      "number": 4,
+      "level": "N5",
+      "title": "Giờ giấc và lịch sinh hoạt",
+      "vocabulary": 61,
+      "grammar": 6,
+      "patterns": 6,
+      "examples": 7,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        47,
+        48
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-04.md"
+    },
+    {
+      "number": 5,
+      "level": "N5",
+      "title": "Đi lại và kế hoạch chuyến đi",
+      "vocabulary": 61,
+      "grammar": 7,
+      "patterns": 7,
+      "examples": 7,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        53,
+        54
+      ],
+      "source_groups": 7,
+      "path": "docs/content-authoring/lesson-05.md"
+    },
+    {
+      "number": 6,
+      "level": "N5",
+      "title": "Hoạt động và lời mời",
+      "vocabulary": 56,
+      "grammar": 8,
+      "patterns": 8,
+      "examples": 8,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        59,
+        60
+      ],
+      "source_groups": 8,
+      "path": "docs/content-authoring/lesson-06.md"
+    },
+    {
+      "number": 7,
+      "level": "N5",
+      "title": "Công cụ và việc cho nhận",
+      "vocabulary": 46,
+      "grammar": 6,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        65,
+        66
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-07.md"
+    },
+    {
+      "number": 8,
+      "level": "N5",
+      "title": "Miêu tả người, nơi và đồ vật",
+      "vocabulary": 62,
+      "grammar": 8,
+      "patterns": 9,
+      "examples": 9,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        71,
+        72
+      ],
+      "source_groups": 8,
+      "path": "docs/content-authoring/lesson-08.md"
+    },
+    {
+      "number": 9,
+      "level": "N5",
+      "title": "Sở thích, khả năng và lý do",
+      "vocabulary": 55,
+      "grammar": 5,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        77,
+        78
+      ],
+      "source_groups": 5,
+      "path": "docs/content-authoring/lesson-09.md"
+    },
+    {
+      "number": 10,
+      "level": "N5",
+      "title": "Sự tồn tại và vị trí",
+      "vocabulary": 49,
+      "grammar": 6,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        83,
+        84
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-10.md"
+    },
+    {
+      "number": 11,
+      "level": "N5",
+      "title": "Số lượng, thời lượng và tần suất",
+      "vocabulary": 62,
+      "grammar": 4,
+      "patterns": 5,
+      "examples": 5,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        89,
+        90
+      ],
+      "source_groups": 4,
+      "path": "docs/content-authoring/lesson-11.md"
+    },
+    {
+      "number": 12,
+      "level": "N5",
+      "title": "Quá khứ và so sánh",
+      "vocabulary": 55,
+      "grammar": 6,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        95,
+        96
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-12.md"
+    },
+    {
+      "number": 13,
+      "level": "N5",
+      "title": "Mong muốn và mục đích di chuyển",
+      "vocabulary": 33,
+      "grammar": 5,
+      "patterns": 5,
+      "examples": 5,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        101,
+        102
+      ],
+      "source_groups": 5,
+      "path": "docs/content-authoring/lesson-13.md"
+    },
+    {
+      "number": 14,
+      "level": "N5",
+      "title": "Yêu cầu và việc đang làm",
+      "vocabulary": 46,
+      "grammar": 7,
+      "patterns": 7,
+      "examples": 7,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        107,
+        108
+      ],
+      "source_groups": 7,
+      "path": "docs/content-authoring/lesson-14.md"
+    },
+    {
+      "number": 15,
+      "level": "N5",
+      "title": "Xin phép, quy định và trạng thái",
+      "vocabulary": 25,
+      "grammar": 5,
+      "patterns": 5,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        113,
+        114
+      ],
+      "source_groups": 5,
+      "path": "docs/content-authoring/lesson-15.md"
+    },
+    {
+      "number": 16,
+      "level": "N5",
+      "title": "Trình tự và miêu tả nhiều đặc điểm",
+      "vocabulary": 58,
+      "grammar": 6,
+      "patterns": 7,
+      "examples": 8,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        119,
+        120
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-16.md"
+    },
+    {
+      "number": 17,
+      "level": "N5",
+      "title": "Nghĩa vụ và việc không cần làm",
+      "vocabulary": 35,
+      "grammar": 6,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        125,
+        126
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-17.md"
+    },
+    {
+      "number": 18,
+      "level": "N5",
+      "title": "Kỹ năng và sở thích",
+      "vocabulary": 30,
+      "grammar": 6,
+      "patterns": 7,
+      "examples": 7,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        131,
+        132
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-18.md"
+    },
+    {
+      "number": 19,
+      "level": "N5",
+      "title": "Kinh nghiệm và thay đổi",
+      "vocabulary": 27,
+      "grammar": 4,
+      "patterns": 5,
+      "examples": 5,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        137,
+        138
+      ],
+      "source_groups": 4,
+      "path": "docs/content-authoring/lesson-19.md"
+    },
+    {
+      "number": 20,
+      "level": "N5",
+      "title": "Hội thoại thân mật",
+      "vocabulary": 22,
+      "grammar": 3,
+      "patterns": 3,
+      "examples": 4,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        143,
+        144
+      ],
+      "source_groups": 3,
+      "path": "docs/content-authoring/lesson-20.md"
+    },
+    {
+      "number": 21,
+      "level": "N5",
+      "title": "Ý kiến và trích lời",
+      "vocabulary": 51,
+      "grammar": 7,
+      "patterns": 7,
+      "examples": 8,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        149,
+        150
+      ],
+      "source_groups": 7,
+      "path": "docs/content-authoring/lesson-21.md"
+    },
+    {
+      "number": 22,
+      "level": "N5",
+      "title": "Bổ nghĩa danh từ bằng mệnh đề",
+      "vocabulary": 31,
+      "grammar": 3,
+      "patterns": 3,
+      "examples": 5,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        155,
+        156
+      ],
+      "source_groups": 3,
+      "path": "docs/content-authoring/lesson-22.md"
+    },
+    {
+      "number": 23,
+      "level": "N5",
+      "title": "Khi nào và kết quả tự nhiên",
+      "vocabulary": 28,
+      "grammar": 5,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        161,
+        162
+      ],
+      "source_groups": 5,
+      "path": "docs/content-authoring/lesson-23.md"
+    },
+    {
+      "number": 24,
+      "level": "N5",
+      "title": "Nhận và giúp đỡ",
+      "vocabulary": 20,
+      "grammar": 3,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        167,
+        168
+      ],
+      "source_groups": 3,
+      "path": "docs/content-authoring/lesson-24.md"
+    },
+    {
+      "number": 25,
+      "level": "N5",
+      "title": "Điều kiện và nhượng bộ",
+      "vocabulary": 17,
+      "grammar": 5,
+      "patterns": 5,
+      "examples": 5,
+      "dialogues": 1,
+      "source": "N5_GRAMMAR",
+      "pages": [
+        173,
+        174
+      ],
+      "source_groups": 5,
+      "path": "docs/content-authoring/lesson-25.md"
+    },
+    {
+      "number": 26,
+      "level": "N4",
+      "title": "Giải thích hoàn cảnh và nhờ giúp đỡ",
+      "vocabulary": 47,
+      "grammar": 6,
+      "patterns": 7,
+      "examples": 15,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        29,
+        30
+      ],
+      "source_groups": 4,
+      "path": "docs/content-authoring/lesson-26.md"
+    },
+    {
+      "number": 27,
+      "level": "N4",
+      "title": "Khả năng và điều nhìn thấy",
+      "vocabulary": 44,
+      "grammar": 7,
+      "patterns": 7,
+      "examples": 8,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        35,
+        36
+      ],
+      "source_groups": 7,
+      "path": "docs/content-authoring/lesson-27.md"
+    },
+    {
+      "number": 28,
+      "level": "N4",
+      "title": "Thói quen và nhiều lý do",
+      "vocabulary": 54,
+      "grammar": 5,
+      "patterns": 5,
+      "examples": 5,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        41,
+        42
+      ],
+      "source_groups": 5,
+      "path": "docs/content-authoring/lesson-28.md"
+    },
+    {
+      "number": 29,
+      "level": "N4",
+      "title": "Trạng thái và sự cố",
+      "vocabulary": 52,
+      "grammar": 6,
+      "patterns": 6,
+      "examples": 7,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        47,
+        48
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-29.md"
+    },
+    {
+      "number": 30,
+      "level": "N4",
+      "title": "Chuẩn bị và sắp đặt",
+      "vocabulary": 48,
+      "grammar": 5,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        53,
+        54
+      ],
+      "source_groups": 5,
+      "path": "docs/content-authoring/lesson-30.md"
+    },
+    {
+      "number": 31,
+      "level": "N4",
+      "title": "Ý định và lịch trình",
+      "vocabulary": 40,
+      "grammar": 6,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        59,
+        60
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-31.md"
+    },
+    {
+      "number": 32,
+      "level": "N4",
+      "title": "Lời khuyên và dự đoán",
+      "vocabulary": 57,
+      "grammar": 6,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        65,
+        66
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-32.md"
+    },
+    {
+      "number": 33,
+      "level": "N4",
+      "title": "Biển báo và lời nhắn",
+      "vocabulary": 50,
+      "grammar": 6,
+      "patterns": 7,
+      "examples": 7,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        71,
+        72
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-33.md"
+    },
+    {
+      "number": 34,
+      "level": "N4",
+      "title": "Làm theo hướng dẫn",
+      "vocabulary": 50,
+      "grammar": 3,
+      "patterns": 4,
+      "examples": 4,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        77,
+        78
+      ],
+      "source_groups": 3,
+      "path": "docs/content-authoring/lesson-34.md"
+    },
+    {
+      "number": 35,
+      "level": "N4",
+      "title": "Điều kiện và lựa chọn",
+      "vocabulary": 56,
+      "grammar": 5,
+      "patterns": 5,
+      "examples": 5,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        83,
+        84
+      ],
+      "source_groups": 5,
+      "path": "docs/content-authoring/lesson-35.md"
+    },
+    {
+      "number": 36,
+      "level": "N4",
+      "title": "Mục tiêu và thói quen mới",
+      "vocabulary": 41,
+      "grammar": 4,
+      "patterns": 4,
+      "examples": 4,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        89,
+        90
+      ],
+      "source_groups": 4,
+      "path": "docs/content-authoring/lesson-36.md"
+    },
+    {
+      "number": 37,
+      "level": "N4",
+      "title": "Hành động ở góc nhìn bị động",
+      "vocabulary": 62,
+      "grammar": 7,
+      "patterns": 7,
+      "examples": 7,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        95,
+        96
+      ],
+      "source_groups": 7,
+      "path": "docs/content-authoring/lesson-37.md"
+    },
+    {
+      "number": 38,
+      "level": "N4",
+      "title": "Nói về hoạt động và sự việc",
+      "vocabulary": 57,
+      "grammar": 6,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        101,
+        102
+      ],
+      "source_groups": 6,
+      "path": "docs/content-authoring/lesson-38.md"
+    },
+    {
+      "number": 39,
+      "level": "N4",
+      "title": "Nguyên nhân và lời giải thích",
+      "vocabulary": 51,
+      "grammar": 3,
+      "patterns": 4,
+      "examples": 4,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        107,
+        108
+      ],
+      "source_groups": 3,
+      "path": "docs/content-authoring/lesson-39.md"
+    },
+    {
+      "number": 40,
+      "level": "N4",
+      "title": "Kiểm tra điều chưa biết",
+      "vocabulary": 63,
+      "grammar": 5,
+      "patterns": 5,
+      "examples": 5,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        113,
+        114
+      ],
+      "source_groups": 5,
+      "path": "docs/content-authoring/lesson-40.md"
+    },
+    {
+      "number": 41,
+      "level": "N4",
+      "title": "Cho nhận và sự kính trọng",
+      "vocabulary": 60,
+      "grammar": 4,
+      "patterns": 5,
+      "examples": 5,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        119,
+        120
+      ],
+      "source_groups": 4,
+      "path": "docs/content-authoring/lesson-41.md"
+    },
+    {
+      "number": 42,
+      "level": "N4",
+      "title": "Mục đích và công dụng",
+      "vocabulary": 54,
+      "grammar": 4,
+      "patterns": 5,
+      "examples": 5,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        125,
+        126
+      ],
+      "source_groups": 4,
+      "path": "docs/content-authoring/lesson-42.md"
+    },
+    {
+      "number": 43,
+      "level": "N4",
+      "title": "Dấu hiệu và việc sắp xảy ra",
+      "vocabulary": 25,
+      "grammar": 3,
+      "patterns": 4,
+      "examples": 4,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        131,
+        132
+      ],
+      "source_groups": 3,
+      "path": "docs/content-authoring/lesson-43.md"
+    },
+    {
+      "number": 44,
+      "level": "N4",
+      "title": "Mức độ và điều chỉnh",
+      "vocabulary": 45,
+      "grammar": 4,
+      "patterns": 4,
+      "examples": 5,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        137,
+        138
+      ],
+      "source_groups": 4,
+      "path": "docs/content-authoring/lesson-44.md"
+    },
+    {
+      "number": 45,
+      "level": "N4",
+      "title": "Trường hợp và điều trái dự tính",
+      "vocabulary": 28,
+      "grammar": 2,
+      "patterns": 2,
+      "examples": 2,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        143,
+        144
+      ],
+      "source_groups": 2,
+      "path": "docs/content-authoring/lesson-45.md"
+    },
+    {
+      "number": 46,
+      "level": "N4",
+      "title": "Giai đoạn hành động và kỳ vọng",
+      "vocabulary": 32,
+      "grammar": 3,
+      "patterns": 5,
+      "examples": 5,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        149,
+        150
+      ],
+      "source_groups": 3,
+      "path": "docs/content-authoring/lesson-46.md"
+    },
+    {
+      "number": 47,
+      "level": "N4",
+      "title": "Tin nghe được và suy đoán",
+      "vocabulary": 34,
+      "grammar": 3,
+      "patterns": 3,
+      "examples": 3,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        155,
+        156
+      ],
+      "source_groups": 3,
+      "path": "docs/content-authoring/lesson-47.md"
+    },
+    {
+      "number": 48,
+      "level": "N4",
+      "title": "Cho phép và sai khiến",
+      "vocabulary": 23,
+      "grammar": 4,
+      "patterns": 4,
+      "examples": 4,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        161,
+        162
+      ],
+      "source_groups": 4,
+      "path": "docs/content-authoring/lesson-48.md"
+    },
+    {
+      "number": 49,
+      "level": "N4",
+      "title": "Tôn kính người được nói đến",
+      "vocabulary": 35,
+      "grammar": 5,
+      "patterns": 6,
+      "examples": 6,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        167,
+        168
+      ],
+      "source_groups": 5,
+      "path": "docs/content-authoring/lesson-49.md"
+    },
+    {
+      "number": 50,
+      "level": "N4",
+      "title": "Giới thiệu và hành động khiêm nhường",
+      "vocabulary": 33,
+      "grammar": 2,
+      "patterns": 4,
+      "examples": 4,
+      "dialogues": 1,
+      "source": "N4_GRAMMAR",
+      "pages": [
+        173,
+        174
+      ],
+      "source_groups": 2,
+      "path": "docs/content-authoring/lesson-50.md"
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "level": "N5",
+      "characters": 10,
+      "words": 38,
+      "milestone": 5,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-01.md"
+    },
+    {
+      "number": 2,
+      "level": "N5",
+      "characters": 14,
+      "words": 88,
+      "milestone": 5,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-02.md"
+    },
+    {
+      "number": 3,
+      "level": "N5",
+      "characters": 12,
+      "words": 53,
+      "milestone": 5,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-03.md"
+    },
+    {
+      "number": 4,
+      "level": "N5",
+      "characters": 13,
+      "words": 56,
+      "milestone": 5,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-04.md"
+    },
+    {
+      "number": 5,
+      "level": "N5",
+      "characters": 11,
+      "words": 31,
+      "milestone": 5,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-05.md"
+    },
+    {
+      "number": 6,
+      "level": "N5",
+      "characters": 10,
+      "words": 27,
+      "milestone": 10,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-06.md"
+    },
+    {
+      "number": 7,
+      "level": "N5",
+      "characters": 13,
+      "words": 45,
+      "milestone": 10,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-07.md"
+    },
+    {
+      "number": 8,
+      "level": "N5",
+      "characters": 8,
+      "words": 23,
+      "milestone": 10,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-08.md"
+    },
+    {
+      "number": 9,
+      "level": "N5",
+      "characters": 10,
+      "words": 25,
+      "milestone": 10,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-09.md"
+    },
+    {
+      "number": 10,
+      "level": "N5",
+      "characters": 10,
+      "words": 21,
+      "milestone": 10,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-10.md"
+    },
+    {
+      "number": 11,
+      "level": "N5",
+      "characters": 10,
+      "words": 38,
+      "milestone": 15,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-11.md"
+    },
+    {
+      "number": 12,
+      "level": "N5",
+      "characters": 10,
+      "words": 29,
+      "milestone": 15,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-12.md"
+    },
+    {
+      "number": 13,
+      "level": "N5",
+      "characters": 11,
+      "words": 28,
+      "milestone": 20,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-13.md"
+    },
+    {
+      "number": 14,
+      "level": "N5",
+      "characters": 11,
+      "words": 26,
+      "milestone": 20,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-14.md"
+    },
+    {
+      "number": 15,
+      "level": "N5",
+      "characters": 12,
+      "words": 53,
+      "milestone": 20,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-15.md"
+    },
+    {
+      "number": 16,
+      "level": "N5",
+      "characters": 11,
+      "words": 37,
+      "milestone": 21,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-16.md"
+    },
+    {
+      "number": 17,
+      "level": "N5",
+      "characters": 11,
+      "words": 33,
+      "milestone": 22,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-17.md"
+    },
+    {
+      "number": 18,
+      "level": "N5",
+      "characters": 12,
+      "words": 24,
+      "milestone": 23,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-18.md"
+    },
+    {
+      "number": 19,
+      "level": "N5",
+      "characters": 10,
+      "words": 23,
+      "milestone": 24,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-19.md"
+    },
+    {
+      "number": 20,
+      "level": "N5",
+      "characters": 11,
+      "words": 33,
+      "milestone": 25,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-20.md"
+    },
+    {
+      "number": 21,
+      "level": "N4",
+      "characters": 110,
+      "words": 93,
+      "milestone": 25,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-21.md"
+    },
+    {
+      "number": 22,
+      "level": "N4",
+      "characters": 137,
+      "words": 113,
+      "milestone": 25,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-22.md"
+    },
+    {
+      "number": 23,
+      "level": "N4",
+      "characters": 17,
+      "words": 13,
+      "milestone": 25,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-23.md"
+    },
+    {
+      "number": 24,
+      "level": "N4",
+      "characters": 19,
+      "words": 13,
+      "milestone": 25,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-24.md"
+    },
+    {
+      "number": 25,
+      "level": "N4",
+      "characters": 24,
+      "words": 18,
+      "milestone": 25,
+      "milestone_level": "N5",
+      "path": "docs/content-authoring/kanji/unit-25.md"
+    },
+    {
+      "number": 26,
+      "level": "N4",
+      "characters": 25,
+      "words": 15,
+      "milestone": 26,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-26.md"
+    },
+    {
+      "number": 27,
+      "level": "N4",
+      "characters": 27,
+      "words": 21,
+      "milestone": 27,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-27.md"
+    },
+    {
+      "number": 28,
+      "level": "N4",
+      "characters": 25,
+      "words": 18,
+      "milestone": 28,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-28.md"
+    },
+    {
+      "number": 29,
+      "level": "N4",
+      "characters": 29,
+      "words": 24,
+      "milestone": 29,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-29.md"
+    },
+    {
+      "number": 30,
+      "level": "N4",
+      "characters": 22,
+      "words": 17,
+      "milestone": 30,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-30.md"
+    },
+    {
+      "number": 31,
+      "level": "N4",
+      "characters": 39,
+      "words": 24,
+      "milestone": 31,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-31.md"
+    },
+    {
+      "number": 32,
+      "level": "N4",
+      "characters": 37,
+      "words": 24,
+      "milestone": 32,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-32.md"
+    },
+    {
+      "number": 33,
+      "level": "N4",
+      "characters": 28,
+      "words": 21,
+      "milestone": 33,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-33.md"
+    },
+    {
+      "number": 34,
+      "level": "N4",
+      "characters": 32,
+      "words": 24,
+      "milestone": 34,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-34.md"
+    },
+    {
+      "number": 35,
+      "level": "N4",
+      "characters": 31,
+      "words": 25,
+      "milestone": 35,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-35.md"
+    },
+    {
+      "number": 36,
+      "level": "N4",
+      "characters": 19,
+      "words": 15,
+      "milestone": 36,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-36.md"
+    },
+    {
+      "number": 37,
+      "level": "N4",
+      "characters": 30,
+      "words": 21,
+      "milestone": 37,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-37.md"
+    },
+    {
+      "number": 38,
+      "level": "N4",
+      "characters": 37,
+      "words": 26,
+      "milestone": 38,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-38.md"
+    },
+    {
+      "number": 39,
+      "level": "N4",
+      "characters": 29,
+      "words": 21,
+      "milestone": 39,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-39.md"
+    },
+    {
+      "number": 40,
+      "level": "N4",
+      "characters": 26,
+      "words": 22,
+      "milestone": 40,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-40.md"
+    },
+    {
+      "number": 41,
+      "level": "N4",
+      "characters": 36,
+      "words": 23,
+      "milestone": 41,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-41.md"
+    },
+    {
+      "number": 42,
+      "level": "N4",
+      "characters": 30,
+      "words": 19,
+      "milestone": 42,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-42.md"
+    },
+    {
+      "number": 43,
+      "level": "N4",
+      "characters": 25,
+      "words": 21,
+      "milestone": 43,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-43.md"
+    },
+    {
+      "number": 44,
+      "level": "N4",
+      "characters": 23,
+      "words": 20,
+      "milestone": 44,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-44.md"
+    },
+    {
+      "number": 45,
+      "level": "N4",
+      "characters": 24,
+      "words": 17,
+      "milestone": 45,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-45.md"
+    },
+    {
+      "number": 46,
+      "level": "N4",
+      "characters": 23,
+      "words": 16,
+      "milestone": 46,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-46.md"
+    },
+    {
+      "number": 47,
+      "level": "N4",
+      "characters": 46,
+      "words": 27,
+      "milestone": 47,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-47.md"
+    },
+    {
+      "number": 48,
+      "level": "N4",
+      "characters": 31,
+      "words": 18,
+      "milestone": 48,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-48.md"
+    },
+    {
+      "number": 49,
+      "level": "N4",
+      "characters": 29,
+      "words": 20,
+      "milestone": 49,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-49.md"
+    },
+    {
+      "number": 50,
+      "level": "N4",
+      "characters": 27,
+      "words": 18,
+      "milestone": 50,
+      "milestone_level": "N4",
+      "path": "docs/content-authoring/kanji/unit-50.md"
+    }
+  ],
+  "missing_pattern_examples": [],
+  "missing_variant_examples": [],
+  "visual_rechecks": [
+    {
+      "source": "N5_GRAMMAR",
+      "page": 29,
+      "scope": "Lesson 1 lexical forms/annotations"
+    },
+    {
+      "source": "N5_GRAMMAR",
+      "page": 30,
+      "scope": "Lesson 1 phrases, countries and names (historical pre-B-U-59 check)"
+    },
+    {
+      "source": "N5_GRAMMAR",
+      "page": 171,
+      "scope": "Lesson 24 giving viewpoint and topic 1 example correction"
+    },
+    {
+      "source": "N4_GRAMMAR",
+      "page": 95,
+      "scope": "SRC-05 printed translation discrepancy"
+    },
+    {
+      "source": "N4_GRAMMAR",
+      "page": 137,
+      "scope": "SRC-06/07 printed translation ambiguity"
+    },
+    {
+      "source": "N4_KANJI",
+      "page": 8,
+      "scope": "Units 21–25 previous-volume review/supplement relationship"
+    },
+    {
+      "source": "N4_KANJI",
+      "page": 188,
+      "scope": "SRC-02 printed Han-Viet discrepancy"
+    }
+  ],
+  "limitations": [
+    "No independent full re-transcription of 1451 source pages.",
+    "Assigned-scope primary source/VI/EN/reading review completed under B-U-51; independent human full-corpus certification is not claimed.",
+    "Kana and sentence-bank authoring have separate revision-bound primary reviews; native playback/integration remains open.",
+    "Other 17 languages and independent linguistic/release review pending.",
+    "Current browser visual/interaction QA was blocked by the URL policy rejecting local file:// access; no bypass attempted.",
+    "T01 physical audio closure uses two real-driver iPhone tests and explicit owner manual listening/actual-event confirmation. Physical UI automation did not execute; exact voice identifier and headset model were not recorded. Full application/performance/release acceptance remains separate."
+  ]
+}

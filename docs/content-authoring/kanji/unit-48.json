@@ -1,0 +1,560 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "48c0c5e7-f596-447e-b24e-002f1eafcc5b",
+  "editorial_key": "kanji_unit_48",
+  "reference_unit_number": 48,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 48: lesson 48 reading words",
+    "vi": "Kanji bài 48: từ đọc của bài 48"
+  },
+  "character_glyphs": [
+    "徒",
+    "君",
+    "牛",
+    "乳",
+    "柔",
+    "準",
+    "備",
+    "生",
+    "道",
+    "営",
+    "業",
+    "忙",
+    "留",
+    "学",
+    "自",
+    "由",
+    "手",
+    "伝",
+    "届",
+    "下",
+    "世",
+    "話",
+    "楽",
+    "実",
+    "中",
+    "校",
+    "時",
+    "間",
+    "宅",
+    "配",
+    "便"
+  ],
+  "word_examples": [
+    {
+      "id": "0359700a-d366-4b01-82e6-bec0065d0297",
+      "japanese": {
+        "segments": [
+          {
+            "base": "生徒",
+            "ruby": "せいと"
+          }
+        ]
+      },
+      "kana_reading": "せいと",
+      "meanings": {
+        "en": "pupil",
+        "vi": "học sinh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9d4a304f-14d5-4e52-808a-4663e7b97d14",
+      "japanese": {
+        "segments": [
+          {
+            "base": "君",
+            "ruby": "くん"
+          }
+        ]
+      },
+      "kana_reading": "くん",
+      "meanings": {
+        "en": "familiar suffix for a boy or man",
+        "vi": "hậu tố gọi thân mật nam giới"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ab255a4c-5138-42b7-948c-e10f0d9f79ab",
+      "japanese": {
+        "segments": [
+          {
+            "base": "牛乳",
+            "ruby": "ぎゅうにゅう"
+          }
+        ]
+      },
+      "kana_reading": "ぎゅうにゅう",
+      "meanings": {
+        "en": "cow's milk",
+        "vi": "sữa bò"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "fcbd8595-f97e-44cb-99c2-aed0729c5a6d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "柔道",
+            "ruby": "じゅうどう"
+          }
+        ]
+      },
+      "kana_reading": "じゅうどう",
+      "meanings": {
+        "en": "judo",
+        "vi": "võ judo"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3fafa563-0679-41c9-84c7-627494d916e5",
+      "japanese": {
+        "segments": [
+          {
+            "base": "準備",
+            "ruby": "じゅんび"
+          }
+        ]
+      },
+      "kana_reading": "じゅんび",
+      "meanings": {
+        "en": "preparation",
+        "vi": "sự chuẩn bị"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "1f90e171-4fcf-4ccf-b9df-f822223f1936",
+      "japanese": {
+        "segments": [
+          {
+            "base": "営業",
+            "ruby": "えいぎょう"
+          }
+        ]
+      },
+      "kana_reading": "えいぎょう",
+      "meanings": {
+        "en": "business operations",
+        "vi": "hoạt động kinh doanh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8ecc44cb-ebcd-4c42-83e5-8c4e36505877",
+      "japanese": {
+        "segments": [
+          {
+            "base": "忙",
+            "ruby": "いそが"
+          },
+          {
+            "base": "しい"
+          }
+        ]
+      },
+      "kana_reading": "いそがしい",
+      "meanings": {
+        "en": "busy",
+        "vi": "bận"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a97a57cf-4f4a-4e6d-95df-652c0c4ce566",
+      "japanese": {
+        "segments": [
+          {
+            "base": "留学",
+            "ruby": "りゅうがく"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "りゅうがくする",
+      "meanings": {
+        "en": "study abroad",
+        "vi": "du học"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "41d2f816-7c4d-47ba-8735-de72ddf3989b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "自由",
+            "ruby": "じゆう"
+          },
+          {
+            "base": "に"
+          }
+        ]
+      },
+      "kana_reading": "じゆうに",
+      "meanings": {
+        "en": "freely",
+        "vi": "tự do"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e73368d7-3d54-438b-bb58-2f9dd8e73868",
+      "japanese": {
+        "segments": [
+          {
+            "base": "手伝",
+            "ruby": "てつだ"
+          },
+          {
+            "base": "う"
+          }
+        ]
+      },
+      "kana_reading": "てつだう",
+      "meanings": {
+        "en": "help",
+        "vi": "giúp đỡ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5f4950c8-241f-41a8-8a4c-e1735ebe15dd",
+      "japanese": {
+        "segments": [
+          {
+            "base": "届",
+            "ruby": "とど"
+          },
+          {
+            "base": "ける"
+          }
+        ]
+      },
+      "kana_reading": "とどける",
+      "meanings": {
+        "en": "deliver",
+        "vi": "gửi đến"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7e751b57-2fc5-496e-a71a-ed7539d38b7e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "下",
+            "ruby": "お"
+          },
+          {
+            "base": "ろす"
+          }
+        ]
+      },
+      "kana_reading": "おろす",
+      "meanings": {
+        "en": "unload; lower",
+        "vi": "dỡ xuống; hạ xuống"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "af47f43c-f772-4f7c-8152-52a122a3056a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "世話",
+            "ruby": "せわ"
+          },
+          {
+            "base": "をする"
+          }
+        ]
+      },
+      "kana_reading": "せわをする",
+      "meanings": {
+        "en": "take care of",
+        "vi": "chăm sóc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0009d2cc-aee0-426d-8abf-0a29d1c2e3c1",
+      "japanese": {
+        "segments": [
+          {
+            "base": "楽",
+            "ruby": "たの"
+          },
+          {
+            "base": "しむ"
+          }
+        ]
+      },
+      "kana_reading": "たのしむ",
+      "meanings": {
+        "en": "enjoy",
+        "vi": "tận hưởng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a1f40c51-062b-4851-94e7-fbaf59ca9303",
+      "japanese": {
+        "segments": [
+          {
+            "base": "実",
+            "ruby": "じつ"
+          },
+          {
+            "base": "は"
+          }
+        ]
+      },
+      "kana_reading": "じつは",
+      "meanings": {
+        "en": "actually; to tell the truth",
+        "vi": "thật ra"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "88c05a1d-616a-4318-bd62-74d9eba4a0d0",
+      "japanese": {
+        "segments": [
+          {
+            "base": "中学校",
+            "ruby": "ちゅうがっこう"
+          }
+        ]
+      },
+      "kana_reading": "ちゅうがっこう",
+      "meanings": {
+        "en": "junior high school",
+        "vi": "trường trung học cơ sở"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "85d2e398-aadb-471b-9cbb-5386d15bd9d5",
+      "japanese": {
+        "segments": [
+          {
+            "base": "営業時間",
+            "ruby": "えいぎょうじかん"
+          }
+        ]
+      },
+      "kana_reading": "えいぎょうじかん",
+      "meanings": {
+        "en": "business hours",
+        "vi": "giờ làm việc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9a0ae6e6-e142-4e74-a136-06058cd9abd3",
+      "japanese": {
+        "segments": [
+          {
+            "base": "宅配便",
+            "ruby": "たくはいびん"
+          }
+        ]
+      },
+      "kana_reading": "たくはいびん",
+      "meanings": {
+        "en": "home-delivery service",
+        "vi": "dịch vụ chuyển phát tận nhà"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 132,
+          "pdf_page_end": 135,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 48,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 48,
+    "end": 48,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 132,
+      "pdf_page_end": 135,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

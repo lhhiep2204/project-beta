@@ -1,0 +1,49 @@
+{
+  "task": "P0-T02",
+  "date": "2026-11-08",
+  "structural_valid": true,
+  "task_acceptance_complete": true,
+  "acceptance_basis": "Recorded B-U-51 primary source/content review plus independently checked ledger integrity; no human or release certification.",
+  "counts": {
+    "vocabulary_pages": 100,
+    "source_vocabulary_rows": 2189,
+    "mapped_source_rows": 2189,
+    "excluded_source_rows": 0,
+    "authored_vocabulary_mapped": 2211,
+    "editorial_additions": 1,
+    "authored_form_links": 2264,
+    "source_grammar_groups": 253,
+    "linked_pattern_variants": 280,
+    "source_kanji_definitions": 536,
+    "source_kanji_units": 50,
+    "source_unit_lexical_rows": 1498,
+    "mapped_unit_words": 1498,
+    "mapped_master_examples": 826,
+    "unit_master_links": 1257,
+    "primary_reviewed_content_files": 102
+  },
+  "pending_content_reviews": [],
+  "kanji_source_inventory_present": true,
+  "open_grammar_locator_findings": 0,
+  "negative_fixtures_passed": 30,
+  "input_sha256": {
+    "docs/content-authoring/source-reconciliation/source-inventory.json": "d7d904d863249e8cef7ceec33a99cc81bffde12928ffce70e2718968a53be7bc",
+    "docs/content-authoring/source-reconciliation/vocabulary-ledger.json": "d946d4d13548db74967134b69db68ebaf17b7be6f7979e223dc3e4e03ebd973f",
+    "docs/content-authoring/source-reconciliation/grammar-ledger.json": "b65908ea36bbaaca4ba5eec2c47b0981317856e6feaf2e77420525abf6ec9378",
+    "docs/content-authoring/source-reconciliation/review.json": "e231ec8824b7ad228201bb98b803db790f06f8e8115d491ac028a9dd691e865a",
+    "docs/content-authoring/source-reconciliation/kanji-source-inventory.json": "98355ce6e08019c13ab50d460e3e955717f9d66ed746bef886cc03be2287f7ba",
+    "docs/content-authoring/source-reconciliation/kanji-ledger.json": "29785b659d6ba61d820e41d83801eec440519dcddd3bf56eaaf4b1f7a5a59b0e",
+    "docs/content-authoring/source-reconciliation/proper-name-review.json": "486ad8b2282e73202b041cb83bc9f12ed81d9a24743c2cfb2324738ea2d81601",
+    "docs/content-authoring/source-reconciliation/content-corrections.json": "b33dd7a2be024753119052d65bf66f82afdc5146118ed6e6ec1914cad2041c9c"
+  },
+  "implementation_sha256": {
+    "scripts/validate_source_reconciliation.py": "d3d50045df1acdeadb7b19c650a2caa4d0c46a97d4d5be4b9149625373f93a0b"
+  },
+  "limits": [
+    "Primary-agent linguistic self-review under B-U-51 is recorded as such; no independent human Japanese/translation certification is claimed.",
+    "The denominator and source facts are manually reviewed evidence. Structural validation guards identities, forms, reading snapshots, relationships, coverage and revision drift; it cannot prove the absence of a human transcription or linguistic error.",
+    "Kanji uses disclosed historical transcription seeds followed by fresh image comparison. It is not represented as a second independent original transcription or an exhaustive vocabulary inventory of all optional appendix illustrations.",
+    "Only the assigned vocabulary/topic/unit/definition scope was reviewed; the entire 1451-page corpus, optional matrices, exercises, source passages and answer keys were not re-transcribed.",
+    "The other 17 release languages and native kana integration, sentence-bank, voice/device and release acceptance remain separate. No application/browser/device/TTS/WidgetKit/performance/release acceptance follows from this content review."
+  ]
+}

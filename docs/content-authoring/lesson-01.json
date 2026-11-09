@@ -1,0 +1,3535 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_lesson_sample",
+  "id": "04d7f27c-e2c0-47da-b201-c053e7d2cc70",
+  "editorial_key": "introductions",
+  "reference_lesson_number": 1,
+  "source_level_label": "N5",
+  "title": {
+    "en": "Introduce yourself and ask basic questions",
+    "vi": "Tự giới thiệu và hỏi thông tin cơ bản"
+  },
+  "language_coverage": {
+    "authored": [
+      "en",
+      "vi"
+    ],
+    "required_for_release": [
+      "ar",
+      "bn",
+      "zh-Hans",
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "he",
+      "hi",
+      "id",
+      "it",
+      "ko",
+      "pt",
+      "ru",
+      "es",
+      "th",
+      "tr",
+      "uk",
+      "vi"
+    ],
+    "missing_for_release": [
+      "ar",
+      "bn",
+      "zh-Hans",
+      "nl",
+      "fr",
+      "de",
+      "he",
+      "hi",
+      "id",
+      "it",
+      "ko",
+      "pt",
+      "ru",
+      "es",
+      "th",
+      "tr",
+      "uk"
+    ]
+  },
+  "review_state": {
+    "primary_source_comparison": "completed_for_listed_forms_and_grammar_topics",
+    "independent_japanese_review": "pending",
+    "translation_review": "pending",
+    "release_status": "draft_not_for_release",
+    "runtime_format_adoption": "not_selected"
+  },
+  "coverage": {
+    "status": "authored_lesson_reference_topics_complete",
+    "included": [
+      "All grammar topic groups from the lesson reference, including each listed predicate family",
+      "All common vocabulary and introductory phrases on PDF pages 29–30; Vietnam also selected from PDF 32",
+      "Original examples and one original dialogue; explicit contextual ruby",
+      "Links to grouped Kanji units 1–5, with publisher milestone after lesson 5",
+      "Proper names on the two assigned vocabulary pages are in scope under B-U-59; retain source identity and contextual readings."
+    ],
+    "omitted": [
+      "The complete supplementary country/person/language matrix",
+      "Textbook exercises, answer keys and original textbook dialogue"
+    ]
+  },
+  "source_refs": [
+    {
+      "source_id": "N5_MAIN",
+      "pdf_page_start": 22,
+      "pdf_page_end": 29,
+      "basis": "lesson_topic_alignment"
+    },
+    {
+      "source_id": "N5_GRAMMAR",
+      "pdf_page_start": 29,
+      "pdf_page_end": 34,
+      "basis": "lexical_and_grammar_alignment"
+    }
+  ],
+  "kanji_reference_units": [
+    "REF_KANJI_UNIT_01",
+    "REF_KANJI_UNIT_02",
+    "REF_KANJI_UNIT_03",
+    "REF_KANJI_UNIT_04",
+    "REF_KANJI_UNIT_05"
+  ],
+  "vocabulary": [
+    {
+      "id": "7b2a83f8-d0de-44f9-b768-0b1270b97a35",
+      "editorial_key": "speaker",
+      "entry_type": "pronoun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "わたし"
+              }
+            ]
+          },
+          "kana_reading": "わたし",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "I; me",
+            "vi": "tôi"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "watashi"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "14f7f730-6452-46c5-b1ec-ff5b733aa496",
+      "editorial_key": "addressee",
+      "entry_type": "pronoun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "あなた"
+              }
+            ]
+          },
+          "kana_reading": "あなた",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "you",
+            "vi": "bạn; anh/chị"
+          }
+        }
+      ],
+      "usage": {
+        "en": "When the listener’s name is known, name plus さん is often preferable. Do not treat あなた as a universal substitute for every form of “you”.",
+        "vi": "Khi biết tên người đối thoại, thường dùng tên kèm さん. Không thay mọi cách xưng hô tiếng Việt bằng あなた."
+      },
+      "search_aliases": {
+        "romaji": [
+          "anata"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "af8c51e2-6b2f-45f9-a932-474b1e5d91db",
+      "editorial_key": "person_over_there",
+      "entry_type": "pronoun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "あの"
+              },
+              {
+                "base": "人",
+                "ruby": "ひと"
+              }
+            ]
+          },
+          "kana_reading": "あのひと",
+          "register": "neutral"
+        },
+        {
+          "key": "polite",
+          "japanese": {
+            "segments": [
+              {
+                "base": "あの"
+              },
+              {
+                "base": "方",
+                "ruby": "かた"
+              }
+            ]
+          },
+          "kana_reading": "あのかた",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard",
+            "polite"
+          ],
+          "text": {
+            "en": "that person",
+            "vi": "người kia"
+          }
+        }
+      ],
+      "usage": {
+        "en": "あの方 is a more polite way to refer to that person than あの人.",
+        "vi": "あの方 là cách nói lịch sự hơn あの人 khi nhắc đến người kia."
+      },
+      "search_aliases": {
+        "romaji": [
+          "ano hito",
+          "ano kata"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "167e9197-dfb5-49b7-87dd-c962d54f8fcd",
+      "editorial_key": "name_honorific",
+      "entry_type": "suffix",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "〜さん"
+              }
+            ]
+          },
+          "kana_reading": "〜さん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "polite suffix after another person’s name",
+            "vi": "hậu tố lịch sự sau tên người khác"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Do not attach さん to your own name when introducing yourself.",
+        "vi": "Không thêm さん sau tên của chính mình khi tự giới thiệu."
+      },
+      "search_aliases": {
+        "romaji": [
+          "san"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "52947d1d-5d72-450a-856a-fe0c231a9a27",
+      "editorial_key": "familiar_name_suffix",
+      "entry_type": "suffix",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "〜ちゃん"
+              }
+            ]
+          },
+          "kana_reading": "〜ちゃん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "familiar name suffix, often used for children",
+            "vi": "hậu tố thân mật, thường dùng với trẻ em"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Use depends on relationship and context; it is not a default form of address.",
+        "vi": "Cần xét quan hệ và hoàn cảnh; không phải cách gọi mặc định cho mọi người."
+      },
+      "search_aliases": {
+        "romaji": [
+          "chan"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "760f5fea-b6c0-468b-8d09-d66944a9b3f6",
+      "editorial_key": "nationality_suffix",
+      "entry_type": "suffix",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "〜"
+              },
+              {
+                "base": "人",
+                "ruby": "じん"
+              }
+            ]
+          },
+          "kana_reading": "〜じん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "person of a nationality",
+            "vi": "người thuộc một nước"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Attach to a country name, for example ベトナム人. It is a bound suffix in this pattern.",
+        "vi": "Gắn sau tên nước, ví dụ ベトナム人. Đây là hậu tố, không phải một từ đứng riêng trong mẫu này."
+      },
+      "search_aliases": {
+        "romaji": [
+          "jin"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b5d27a01-9416-4ca8-9fc3-3da5b0b0ce2c",
+      "editorial_key": "teacher_address",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "先生",
+                "ruby": "せんせい"
+              }
+            ]
+          },
+          "kana_reading": "せんせい",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "teacher; respectful address for a teacher",
+            "vi": "thầy/cô; cách gọi người dạy"
+          }
+        }
+      ],
+      "usage": {
+        "en": "先生 commonly addresses or refers to someone else; use 教師 when stating your own teaching occupation.",
+        "vi": "先生 thường dùng để gọi hoặc nhắc đến người khác; khi nói nghề của mình, dùng 教師."
+      },
+      "search_aliases": {
+        "romaji": [
+          "sensei"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f2663cf2-9c8c-4aa5-a97b-587f04b1619a",
+      "editorial_key": "teaching_profession",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "教師",
+                "ruby": "きょうし"
+              }
+            ]
+          },
+          "kana_reading": "きょうし",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "teacher as an occupation",
+            "vi": "giáo viên, xét như nghề nghiệp"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kyoushi",
+          "kyoshi"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "681b4d01-0b30-4d75-a7c8-020dae929871",
+      "editorial_key": "student",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "学生",
+                "ruby": "がくせい"
+              }
+            ]
+          },
+          "kana_reading": "がくせい",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "student",
+            "vi": "học sinh; sinh viên"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "gakusei"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d6106bf7-f43b-4d91-bce5-c55ffd9c511a",
+      "editorial_key": "company_employee",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "会社員",
+                "ruby": "かいしゃいん"
+              }
+            ]
+          },
+          "kana_reading": "かいしゃいん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "company employee",
+            "vi": "nhân viên công ty"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kaishain"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "021e2267-b223-4ee9-a4de-940b4996e93d",
+      "editorial_key": "employee_of_named_company",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "社員",
+                "ruby": "しゃいん"
+              }
+            ]
+          },
+          "kana_reading": "しゃいん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "employee of a company",
+            "vi": "nhân viên của một công ty"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Use company name + の + 社員 to identify the employer.",
+        "vi": "Dùng tên công ty + の + 社員 để nêu công ty trực thuộc."
+      },
+      "search_aliases": {
+        "romaji": [
+          "shain"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8efd5c4e-383c-48f8-bada-bd461107f3bb",
+      "editorial_key": "bank_employee",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "銀行員",
+                "ruby": "ぎんこういん"
+              }
+            ]
+          },
+          "kana_reading": "ぎんこういん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "bank employee",
+            "vi": "nhân viên ngân hàng"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "ginkouin",
+          "ginkoin"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4445a67d-ce63-4a54-b91c-ad2818d4792a",
+      "editorial_key": "doctor",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "医者",
+                "ruby": "いしゃ"
+              }
+            ]
+          },
+          "kana_reading": "いしゃ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "doctor",
+            "vi": "bác sĩ"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "isha"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a2da0bbc-60a1-4984-a4b4-bce1bb6b1a64",
+      "editorial_key": "researcher",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "研究者",
+                "ruby": "けんきゅうしゃ"
+              }
+            ]
+          },
+          "kana_reading": "けんきゅうしゃ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "researcher",
+            "vi": "nhà nghiên cứu"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kenkyuusha",
+          "kenkyusha"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9a70b859-3a03-4a73-8d4c-8ce2d67c084b",
+      "editorial_key": "university",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "大学",
+                "ruby": "だいがく"
+              }
+            ]
+          },
+          "kana_reading": "だいがく",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "university",
+            "vi": "trường đại học"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "daigaku"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b75f7c05-3429-4705-a867-414000e6d263",
+      "editorial_key": "hospital",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "病院",
+                "ruby": "びょういん"
+              }
+            ]
+          },
+          "kana_reading": "びょういん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "hospital",
+            "vi": "bệnh viện"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "byouin",
+          "byoin"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f618c22e-8568-41b8-ac01-6699ec19443f",
+      "editorial_key": "who",
+      "entry_type": "question_word",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "だれ"
+              }
+            ]
+          },
+          "kana_reading": "だれ",
+          "register": "neutral"
+        },
+        {
+          "key": "polite",
+          "japanese": {
+            "segments": [
+              {
+                "base": "どなた"
+              }
+            ]
+          },
+          "kana_reading": "どなた",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard",
+            "polite"
+          ],
+          "text": {
+            "en": "who",
+            "vi": "ai"
+          }
+        }
+      ],
+      "usage": {
+        "en": "どなた is a more polite alternative to だれ.",
+        "vi": "どなた là cách hỏi lịch sự hơn だれ."
+      },
+      "search_aliases": {
+        "romaji": [
+          "dare",
+          "donata"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "00728ee8-2781-47b7-aff6-d88b81e183b1",
+      "editorial_key": "age_suffix",
+      "entry_type": "suffix",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "〜"
+              },
+              {
+                "base": "歳",
+                "ruby": "さい"
+              }
+            ]
+          },
+          "kana_reading": "〜さい",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "years old, following an age number",
+            "vi": "tuổi, đặt sau số tuổi"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "sai"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2c71470f-4482-4b83-b36d-7078f725b579",
+      "editorial_key": "ask_age",
+      "entry_type": "question_word",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "何歳",
+                "ruby": "なんさい"
+              }
+            ]
+          },
+          "kana_reading": "なんさい",
+          "register": "neutral"
+        },
+        {
+          "key": "polite",
+          "japanese": {
+            "segments": [
+              {
+                "base": "おいくつ"
+              }
+            ]
+          },
+          "kana_reading": "おいくつ",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard",
+            "polite"
+          ],
+          "text": {
+            "en": "how old",
+            "vi": "mấy tuổi; bao nhiêu tuổi"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Whether to ask someone’s age depends on relationship and context.",
+        "vi": "Việc hỏi tuổi tùy thuộc quan hệ và tình huống."
+      },
+      "search_aliases": {
+        "romaji": [
+          "nansai",
+          "oikutsu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "93c9aa7e-9395-4cd7-834f-c2b01dbf75d4",
+      "editorial_key": "yes",
+      "entry_type": "response",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "はい"
+              }
+            ]
+          },
+          "kana_reading": "はい",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "yes",
+            "vi": "vâng; dạ"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "hai"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6a3b7e1d-2c6a-450f-9947-a4b237b72719",
+      "editorial_key": "no",
+      "entry_type": "response",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "いいえ"
+              }
+            ]
+          },
+          "kana_reading": "いいえ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "no",
+            "vi": "không"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "iie"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 29,
+          "pdf_page_end": 29,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "654cbb2f-8b27-4c86-af80-974be437d3f0",
+      "editorial_key": "first_meeting",
+      "entry_type": "expression",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "初",
+                "ruby": "はじ"
+              },
+              {
+                "base": "めまして。"
+              }
+            ]
+          },
+          "kana_reading": "はじめまして。",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "greeting on a first meeting",
+            "vi": "lời chào khi gặp lần đầu"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "hajimemashite"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f694e9c8-e5ee-425b-ad56-5f416b503c4c",
+      "editorial_key": "come_from_chunk",
+      "entry_type": "expression",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "〜から"
+              },
+              {
+                "base": "来",
+                "ruby": "き"
+              },
+              {
+                "base": "ました。"
+              }
+            ]
+          },
+          "kana_reading": "〜からきました。",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "I came from ~",
+            "vi": "tôi đến từ〜"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Treat as an introductory phrase here; a full past-tense lesson is not introduced.",
+        "vi": "Học như cụm tự giới thiệu ở bài này; chưa trình bày toàn bộ cách chia thì quá khứ."
+      },
+      "search_aliases": {
+        "romaji": [
+          "kara kimashita"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5fe41681-4301-42a2-b674-c1f778502fcc",
+      "editorial_key": "meeting_closing",
+      "entry_type": "expression",
+      "forms": [
+        {
+          "key": "full",
+          "japanese": {
+            "segments": [
+              {
+                "base": "どうぞよろしくお"
+              },
+              {
+                "base": "願",
+                "ruby": "ねが"
+              },
+              {
+                "base": "いします。"
+              }
+            ]
+          },
+          "kana_reading": "どうぞよろしくおねがいします。",
+          "register": "polite"
+        },
+        {
+          "key": "without_dozo",
+          "japanese": {
+            "segments": [
+              {
+                "base": "よろしくお"
+              },
+              {
+                "base": "願",
+                "ruby": "ねが"
+              },
+              {
+                "base": "いします。"
+              }
+            ]
+          },
+          "kana_reading": "よろしくおねがいします。",
+          "register": "polite"
+        },
+        {
+          "key": "short",
+          "japanese": {
+            "segments": [
+              {
+                "base": "どうぞよろしく。"
+              }
+            ]
+          },
+          "kana_reading": "どうぞよろしく。",
+          "register": "neutral"
+        },
+        {
+          "key": "familiar_short",
+          "japanese": {
+            "segments": [
+              {
+                "base": "よろしく。"
+              }
+            ]
+          },
+          "kana_reading": "よろしく。",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "full",
+            "without_dozo",
+            "short",
+            "familiar_short"
+          ],
+          "text": {
+            "en": "a courteous closing when meeting or beginning a relationship",
+            "vi": "rất vui được làm quen; mong được giúp đỡ"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "yoroshiku",
+          "yoroshiku onegaishimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "eef71649-0459-4852-b73f-5ce858ef0f00",
+      "editorial_key": "polite_preface",
+      "entry_type": "expression",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "失礼",
+                "ruby": "しつれい"
+              },
+              {
+                "base": "ですが、"
+              }
+            ]
+          },
+          "kana_reading": "しつれいですが、",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "excuse me, but …",
+            "vi": "xin phép hỏi; xin lỗi nhưng…"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "shitsurei desu ga"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "485c90f6-ae05-4602-bc53-03e54ae7ff28",
+      "editorial_key": "ask_name",
+      "entry_type": "expression",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "お"
+              },
+              {
+                "base": "名前",
+                "ruby": "なまえ"
+              },
+              {
+                "base": "は？"
+              }
+            ]
+          },
+          "kana_reading": "おなまえは？",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "may I ask your name?",
+            "vi": "xin hỏi tên anh/chị là gì?"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "onamae wa"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "af4f0f8a-7f1a-48c0-8ab0-eeed810247e7",
+      "editorial_key": "introduce_another",
+      "entry_type": "expression",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "こちらは〜さんです。"
+              }
+            ]
+          },
+          "kana_reading": "こちらは〜さんです。",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "this is ~",
+            "vi": "đây là anh/chị〜"
+          }
+        }
+      ],
+      "usage": {
+        "en": "〜 marks a name slot; it is not spoken literally.",
+        "vi": "〜 là chỗ thay tên người, không phải chữ đọc thành tiếng."
+      },
+      "search_aliases": {
+        "romaji": [
+          "kochira wa"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a689d943-540b-4458-a2c0-4cfddfcef376",
+      "editorial_key": "united_states",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "アメリカ"
+              }
+            ]
+          },
+          "kana_reading": "アメリカ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "the United States",
+            "vi": "Mỹ"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "amerika"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e1d4d007-1bbb-48ac-a8cf-503b6224bdcb",
+      "editorial_key": "united_kingdom",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "イギリス"
+              }
+            ]
+          },
+          "kana_reading": "イギリス",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "the United Kingdom",
+            "vi": "Vương quốc Anh"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "igirisu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5160b023-88d3-436b-b709-d2454a9d25f6",
+      "editorial_key": "india",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "インド"
+              }
+            ]
+          },
+          "kana_reading": "インド",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "India",
+            "vi": "Ấn Độ"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "indo"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "12cc60cf-4fad-4fff-81d4-28a8c93813ea",
+      "editorial_key": "indonesia",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "インドネシア"
+              }
+            ]
+          },
+          "kana_reading": "インドネシア",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Indonesia",
+            "vi": "Indonesia"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "indoneshia"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9dfcb10b-f96d-4742-a753-06dcc3764faf",
+      "editorial_key": "south_korea",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "韓国",
+                "ruby": "かんこく"
+              }
+            ]
+          },
+          "kana_reading": "かんこく",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "South Korea",
+            "vi": "Hàn Quốc"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "kankoku"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "40d15fb9-602c-48cf-a57b-64b17d991f02",
+      "editorial_key": "thailand",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "タイ"
+              }
+            ]
+          },
+          "kana_reading": "タイ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Thailand",
+            "vi": "Thái Lan"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "tai"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e6aa973b-9631-4b64-b5f6-d43ebd691a50",
+      "editorial_key": "china",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "中国",
+                "ruby": "ちゅうごく"
+              }
+            ]
+          },
+          "kana_reading": "ちゅうごく",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "China",
+            "vi": "Trung Quốc"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "chuugoku",
+          "chugoku"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "abf16e07-92ad-46a1-870c-e3ee0a8a994c",
+      "editorial_key": "germany",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ドイツ"
+              }
+            ]
+          },
+          "kana_reading": "ドイツ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Germany",
+            "vi": "Đức"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "doitsu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "13aba211-d6d7-4c5b-9a16-23d1cf767228",
+      "editorial_key": "japan",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "日本",
+                "ruby": "にほん"
+              }
+            ]
+          },
+          "kana_reading": "にほん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Japan",
+            "vi": "Nhật Bản"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "nihon"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "68fe180a-d026-4e7a-89c2-a8cc81858a88",
+      "editorial_key": "brazil",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ブラジル"
+              }
+            ]
+          },
+          "kana_reading": "ブラジル",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Brazil",
+            "vi": "Brazil"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "burajiru"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ade2b8df-0e3d-4d26-8c10-300809778b7f",
+      "editorial_key": "vietnam",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ベトナム"
+              }
+            ]
+          },
+          "kana_reading": "ベトナム",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Vietnam",
+            "vi": "Việt Nam"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "betonamu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 32,
+          "pdf_page_end": 32,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3f0accbc-eb9b-4507-859b-6561adebffef",
+      "editorial_key": "source_name_ai_emu_shii",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "IMC",
+                "ruby": "アイエムシー"
+              }
+            ]
+          },
+          "kana_reading": "アイエムシー",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "IMC — fictional company",
+            "vi": "IMC — tên công ty giả định"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Proper name in the reference lesson; retain its spelling and identity in context. It is not a common-noun definition.",
+        "vi": "Tên riêng trong bài nguồn; giữ cách viết và danh tính theo ngữ cảnh. Đây không phải nghĩa danh từ chung."
+      },
+      "search_aliases": {
+        "romaji": [
+          "ai emu shii"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "aac7537e-6a8d-45c9-87c7-21ffdca18088",
+      "editorial_key": "source_name_pawaa_denki",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "パワー"
+              },
+              {
+                "base": "電気",
+                "ruby": "でんき"
+              }
+            ]
+          },
+          "kana_reading": "パワーでんき",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Power Denki — fictional company",
+            "vi": "Power Denki — tên công ty giả định"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Proper name in the reference lesson; retain its spelling and identity in context. It is not a common-noun definition.",
+        "vi": "Tên riêng trong bài nguồn; giữ cách viết và danh tính theo ngữ cảnh. Đây không phải nghĩa danh từ chung."
+      },
+      "search_aliases": {
+        "romaji": [
+          "pawaa denki"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "08bf663c-f00d-4977-a8e1-2d5b63659413",
+      "editorial_key": "source_name_burajiru_eaa",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ブラジルエアー"
+              }
+            ]
+          },
+          "kana_reading": "ブラジルエアー",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Brazil Air — fictional company",
+            "vi": "Brazil Air — tên công ty giả định"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Proper name in the reference lesson; retain its spelling and identity in context. It is not a common-noun definition.",
+        "vi": "Tên riêng trong bài nguồn; giữ cách viết và danh tính theo ngữ cảnh. Đây không phải nghĩa danh từ chung."
+      },
+      "search_aliases": {
+        "romaji": [
+          "burajiru eaa"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3f3321ae-db55-46fe-829b-c72af201b1d6",
+      "editorial_key": "source_name_ee_kee_shii",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "AKC",
+                "ruby": "エーケーシー"
+              }
+            ]
+          },
+          "kana_reading": "エーケーシー",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "AKC — fictional organization",
+            "vi": "AKC — tên tổ chức giả định"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Proper name in the reference lesson; retain its spelling and identity in context. It is not a common-noun definition.",
+        "vi": "Tên riêng trong bài nguồn; giữ cách viết và danh tính theo ngữ cảnh. Đây không phải nghĩa danh từ chung."
+      },
+      "search_aliases": {
+        "romaji": [
+          "ee kee shii"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e9038c21-84b4-40b7-be11-58e5300730e4",
+      "editorial_key": "source_name_koube_byouin",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "神戸",
+                "ruby": "こうべ"
+              },
+              {
+                "base": "病院",
+                "ruby": "びょういん"
+              }
+            ]
+          },
+          "kana_reading": "こうべびょういん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Kobe Hospital — fictional hospital",
+            "vi": "Bệnh viện Kobe — tên giả định"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Proper name in the reference lesson; retain its spelling and identity in context. It is not a common-noun definition.",
+        "vi": "Tên riêng trong bài nguồn; giữ cách viết và danh tính theo ngữ cảnh. Đây không phải nghĩa danh từ chung."
+      },
+      "search_aliases": {
+        "romaji": [
+          "koube byouin"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d714f45e-80bf-440b-b548-2e9071b3423f",
+      "editorial_key": "source_name_sakura_daigaku",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "さくら"
+              },
+              {
+                "base": "大学",
+                "ruby": "だいがく"
+              }
+            ]
+          },
+          "kana_reading": "さくらだいがく",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Sakura University — fictional university",
+            "vi": "Đại học Sakura — tên giả định"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Proper name in the reference lesson; retain its spelling and identity in context. It is not a common-noun definition.",
+        "vi": "Tên riêng trong bài nguồn; giữ cách viết và danh tính theo ngữ cảnh. Đây không phải nghĩa danh từ chung."
+      },
+      "search_aliases": {
+        "romaji": [
+          "sakura daigaku"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "99d321fc-5204-4d00-891c-7203ee096aa7",
+      "editorial_key": "source_name_fuji_daigaku",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "富士",
+                "ruby": "ふじ"
+              },
+              {
+                "base": "大学",
+                "ruby": "だいがく"
+              }
+            ]
+          },
+          "kana_reading": "ふじだいがく",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Fuji University — fictional university in the textbook",
+            "vi": "Đại học Fuji — tên giả định trong giáo trình"
+          }
+        }
+      ],
+      "usage": {
+        "en": "Proper name in the reference lesson; retain its spelling and identity in context. It is not a common-noun definition.",
+        "vi": "Tên riêng trong bài nguồn; giữ cách viết và danh tính theo ngữ cảnh. Đây không phải nghĩa danh từ chung."
+      },
+      "search_aliases": {
+        "romaji": [
+          "fuji daigaku"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 30,
+          "pdf_page_end": 30,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "grammar_points": [
+    {
+      "id": "1bc60b55-77d6-48fd-adc3-49bddfc36655",
+      "editorial_key": "noun_statement",
+      "title": {
+        "en": "State a name, occupation or nationality",
+        "vi": "Nêu tên, nghề hoặc quốc tịch"
+      },
+      "explanation": {
+        "en": "Place the topic before は, then state the information with a noun plus です. A known topic can be left unstated.",
+        "vi": "Đặt chủ đề trước は, rồi nêu thông tin bằng danh từ + です. Có thể lược chủ đề khi người nghe đã biết đang nói về ai."
+      },
+      "notes": {
+        "en": "The topic particle は is pronounced わ. です makes the statement polite; its natural translation depends on the predicate.",
+        "vi": "は ở vai trò trợ từ chủ đề được phát âm là わ. です tạo cách nói lịch sự; không dịch máy móc mọi câu thành “là”."
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 33,
+          "pdf_page_end": 33,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "1",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "46e8a6a4-6d5c-4f62-b2eb-857ea22edb43",
+      "editorial_key": "noun_negative",
+      "title": {
+        "en": "Negate a noun statement",
+        "vi": "Phủ định với danh từ"
+      },
+      "explanation": {
+        "en": "To deny that someone belongs to the stated category, replace です with じゃありません. ではありません has the same function and is usually more formal.",
+        "vi": "Để nói một người không thuộc nhóm vừa nêu, thay です bằng じゃありません. Dạng ではありません có cùng chức năng và thường trang trọng hơn."
+      },
+      "notes": {
+        "en": "Both じゃありません and ではありません are polite forms; じゃ is a contraction common in conversation. Do not add です after ありません. In では, the particle は is still pronounced わ.",
+        "vi": "Cả じゃありません và ではありません đều là cách nói lịch sự; じゃ là dạng rút gọn thường gặp trong hội thoại. Không thêm です sau ありません. Trong では, trợ từ は vẫn đọc là わ."
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 33,
+          "pdf_page_end": 33,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "2",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "9043666d-f6c5-497a-b5db-1f08cd105aa9",
+      "editorial_key": "noun_question",
+      "title": {
+        "en": "Ask for confirmation or identity",
+        "vi": "Hỏi xác nhận hoặc hỏi ai"
+      },
+      "explanation": {
+        "en": "Add か to ask for confirmation. To ask who someone is, put だれ or the more polite どなた in the information slot.",
+        "vi": "Thêm か vào cuối câu để hỏi xác nhận. Khi muốn hỏi người đó là ai, đặt だれ hoặc cách lịch sự hơn どなた vào vị trí thông tin cần biết."
+      },
+      "notes": {
+        "en": "はい confirms and いいえ denies. A short answer is possible when the topic is clear, but it must answer the actual question.",
+        "vi": "はい xác nhận; いいえ phủ nhận. Có thể trả lời ngắn khi chủ đề đã rõ, nhưng vẫn cần trả lời đúng điều được hỏi."
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 33,
+          "pdf_page_end": 34,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "3",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "c07d2359-6258-4ac8-9145-151310625f4b",
+      "editorial_key": "also_topic",
+      "title": {
+        "en": "Say “also” with も",
+        "vi": "Nói “cũng” bằng も"
+      },
+      "explanation": {
+        "en": "When adding another person with the same stated property, use も instead of は on the new topic.",
+        "vi": "Khi thêm một người có cùng thông tin đã nói trước đó, dùng も thay cho は ở chủ đề mới."
+      },
+      "notes": {
+        "en": "Context identifies who the new person is “also” like. Do not combine はも in this position.",
+        "vi": "Cần có ngữ cảnh để hiểu người đó “cũng” giống ai. Không ghép はも ở vị trí này."
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 34,
+          "pdf_page_end": 34,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "4",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "c43ffe03-0e7c-480b-9c0b-3e0b357f1e49",
+      "editorial_key": "affiliation",
+      "title": {
+        "en": "Identify affiliation with の",
+        "vi": "Nêu nơi trực thuộc bằng の"
+      },
+      "explanation": {
+        "en": "Put an organization before の and a person-category noun after it to identify affiliation. This lesson focuses on companies and educational institutions.",
+        "vi": "Đặt tên tổ chức trước の và danh từ chỉ người ở sau để nêu nơi trực thuộc. Trong bài này, tập trung vào quan hệ với công ty hoặc trường học."
+      },
+      "notes": {
+        "en": "The noun after の is the head: 大学の学生 describes a student, not a university.",
+        "vi": "Danh từ sau の là thành phần chính: 大学の学生 vẫn chỉ một người học, không phải một trường."
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 34,
+          "pdf_page_end": 34,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "5",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "be8b4886-8846-430b-9a4a-7b73b7b605d1",
+      "editorial_key": "name_suffix",
+      "title": {
+        "en": "Address another person with さん",
+        "vi": "Gọi tên người khác bằng さん"
+      },
+      "explanation": {
+        "en": "Attach さん directly after a name when politely addressing or referring to someone else. State your own name without さん when introducing yourself.",
+        "vi": "Gắn さん ngay sau tên khi gọi hoặc nhắc đến người khác một cách lịch sự. Khi tự giới thiệu, chỉ nói tên của mình, không thêm さん."
+      },
+      "notes": {
+        "en": "ちゃん is more familiar and often used for children or close relationships. Choose a form of address appropriate to the relationship.",
+        "vi": "ちゃん thân mật hơn và thường gặp khi gọi trẻ em hoặc người rất thân. Lựa chọn cách gọi cần phù hợp quan hệ."
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 34,
+          "pdf_page_end": 34,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "6",
+      "origin": "independently_authored"
+    }
+  ],
+  "sentence_patterns": [
+    {
+      "id": "4ea8547e-12da-4493-a87a-f88581f238af",
+      "editorial_key": "noun_statement",
+      "grammar_point_id": "1bc60b55-77d6-48fd-adc3-49bddfc36655",
+      "slots": [
+        {
+          "key": "topic",
+          "kind": "noun",
+          "label": {
+            "en": "topic",
+            "vi": "chủ đề"
+          }
+        },
+        {
+          "key": "predicate",
+          "kind": "noun",
+          "label": {
+            "en": "noun predicate",
+            "vi": "thông tin danh từ"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "topic"
+            },
+            {
+              "kind": "literal",
+              "value": "は"
+            },
+            {
+              "kind": "slot",
+              "value": "predicate"
+            },
+            {
+              "kind": "literal",
+              "value": "です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a440f639-c033-44eb-8465-ed932122c2ed",
+      "editorial_key": "noun_negative",
+      "grammar_point_id": "46e8a6a4-6d5c-4f62-b2eb-857ea22edb43",
+      "slots": [
+        {
+          "key": "topic",
+          "kind": "noun",
+          "label": {
+            "en": "topic",
+            "vi": "chủ đề"
+          }
+        },
+        {
+          "key": "predicate",
+          "kind": "noun",
+          "label": {
+            "en": "denied category",
+            "vi": "nhóm bị phủ định"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "topic"
+            },
+            {
+              "kind": "literal",
+              "value": "は"
+            },
+            {
+              "kind": "slot",
+              "value": "predicate"
+            },
+            {
+              "kind": "literal",
+              "value": "じゃありません。"
+            }
+          ]
+        },
+        {
+          "key": "formal",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "topic"
+            },
+            {
+              "kind": "literal",
+              "value": "は"
+            },
+            {
+              "kind": "slot",
+              "value": "predicate"
+            },
+            {
+              "kind": "literal",
+              "value": "ではありません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5e8ccb6e-7ad0-4127-a47e-fbc26b34b28b",
+      "editorial_key": "noun_question",
+      "grammar_point_id": "9043666d-f6c5-497a-b5db-1f08cd105aa9",
+      "slots": [
+        {
+          "key": "topic",
+          "kind": "noun",
+          "label": {
+            "en": "person being discussed",
+            "vi": "người được hỏi đến"
+          }
+        },
+        {
+          "key": "predicate",
+          "kind": "noun_or_question_word",
+          "label": {
+            "en": "noun or question word",
+            "vi": "danh từ hoặc từ hỏi"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "topic"
+            },
+            {
+              "kind": "literal",
+              "value": "は"
+            },
+            {
+              "kind": "slot",
+              "value": "predicate"
+            },
+            {
+              "kind": "literal",
+              "value": "ですか。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cfc26ff6-73c0-4726-af1d-8a7a89962428",
+      "editorial_key": "also_topic",
+      "grammar_point_id": "c07d2359-6258-4ac8-9145-151310625f4b",
+      "slots": [
+        {
+          "key": "topic",
+          "kind": "noun",
+          "label": {
+            "en": "additional topic",
+            "vi": "chủ đề thêm vào"
+          }
+        },
+        {
+          "key": "predicate",
+          "kind": "noun",
+          "label": {
+            "en": "shared predicate",
+            "vi": "thông tin chung"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "topic"
+            },
+            {
+              "kind": "literal",
+              "value": "も"
+            },
+            {
+              "kind": "slot",
+              "value": "predicate"
+            },
+            {
+              "kind": "literal",
+              "value": "です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "87e98d2b-6a7f-4587-bc3e-ed3551532b01",
+      "editorial_key": "affiliation",
+      "grammar_point_id": "c43ffe03-0e7c-480b-9c0b-3e0b357f1e49",
+      "slots": [
+        {
+          "key": "organization",
+          "kind": "noun",
+          "label": {
+            "en": "organization",
+            "vi": "tổ chức"
+          }
+        },
+        {
+          "key": "member",
+          "kind": "noun",
+          "label": {
+            "en": "affiliated person",
+            "vi": "người trực thuộc"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "organization"
+            },
+            {
+              "kind": "literal",
+              "value": "の"
+            },
+            {
+              "kind": "slot",
+              "value": "member"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7592379d-c227-4476-8294-b84e51320e65",
+      "editorial_key": "name_suffix",
+      "grammar_point_id": "be8b4886-8846-430b-9a4a-7b73b7b605d1",
+      "slots": [
+        {
+          "key": "name",
+          "kind": "person_name",
+          "label": {
+            "en": "another person’s name",
+            "vi": "tên người khác"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "name"
+            },
+            {
+              "kind": "literal",
+              "value": "さん"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "4df01e2b-0698-49ab-9cfe-bf4cf23852c4",
+      "editorial_key": "student_statement",
+      "pattern_id": "4ea8547e-12da-4493-a87a-f88581f238af",
+      "grammar_point_ids": [
+        "1bc60b55-77d6-48fd-adc3-49bddfc36655"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "わたしは"
+          },
+          {
+            "base": "学生",
+            "ruby": "がくせい"
+          },
+          {
+            "base": "です。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I am a student.",
+        "vi": "Tôi là sinh viên."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "3b8690c9-a930-4625-a982-32ce203ba5db",
+      "editorial_key": "vietnamese_statement",
+      "pattern_id": "4ea8547e-12da-4493-a87a-f88581f238af",
+      "grammar_point_ids": [
+        "1bc60b55-77d6-48fd-adc3-49bddfc36655"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "リンさんはベトナム"
+          },
+          {
+            "base": "人",
+            "ruby": "じん"
+          },
+          {
+            "base": "です。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Linh is Vietnamese.",
+        "vi": "Linh là người Việt Nam."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "d0ceaad8-abac-42e5-af4d-80302335f058",
+      "editorial_key": "not_teacher",
+      "pattern_id": "a440f639-c033-44eb-8465-ed932122c2ed",
+      "grammar_point_ids": [
+        "46e8a6a4-6d5c-4f62-b2eb-857ea22edb43"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "わたしは"
+          },
+          {
+            "base": "教師",
+            "ruby": "きょうし"
+          },
+          {
+            "base": "じゃありません。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I am not a teacher.",
+        "vi": "Tôi không phải là giáo viên."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "773eb129-195a-4b79-9bfc-f38ded11a1f4",
+      "editorial_key": "not_doctor",
+      "pattern_id": "a440f639-c033-44eb-8465-ed932122c2ed",
+      "grammar_point_ids": [
+        "46e8a6a4-6d5c-4f62-b2eb-857ea22edb43"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "アキさんは"
+          },
+          {
+            "base": "医者",
+            "ruby": "いしゃ"
+          },
+          {
+            "base": "ではありません。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Aki is not a doctor.",
+        "vi": "Aki không phải là bác sĩ."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "formal"
+    },
+    {
+      "id": "94ef7fb2-1a45-4e80-a969-a0b28c689b03",
+      "editorial_key": "ask_student",
+      "pattern_id": "5e8ccb6e-7ad0-4127-a47e-fbc26b34b28b",
+      "grammar_point_ids": [
+        "9043666d-f6c5-497a-b5db-1f08cd105aa9"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "エミさんは"
+          },
+          {
+            "base": "学生",
+            "ruby": "がくせい"
+          },
+          {
+            "base": "ですか。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Is Emi a student?",
+        "vi": "Emi có phải là sinh viên không?"
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "9a0983b9-d33d-4cb1-a3ee-c838afd9b218",
+      "editorial_key": "ask_identity",
+      "pattern_id": "5e8ccb6e-7ad0-4127-a47e-fbc26b34b28b",
+      "grammar_point_ids": [
+        "9043666d-f6c5-497a-b5db-1f08cd105aa9"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "あの"
+          },
+          {
+            "base": "方",
+            "ruby": "かた"
+          },
+          {
+            "base": "はどなたですか。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Who is that person?",
+        "vi": "Xin hỏi vị kia là ai?"
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "ed910c57-8d32-4562-babd-9a2710e36486",
+      "editorial_key": "also_company_employee",
+      "pattern_id": "cfc26ff6-73c0-4726-af1d-8a7a89962428",
+      "grammar_point_ids": [
+        "c07d2359-6258-4ac8-9145-151310625f4b"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "リンさんは"
+          },
+          {
+            "base": "会社員",
+            "ruby": "かいしゃいん"
+          },
+          {
+            "base": "です。ナオさんも"
+          },
+          {
+            "base": "会社員",
+            "ruby": "かいしゃいん"
+          },
+          {
+            "base": "です。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Linh is a company employee. Nao is a company employee too.",
+        "vi": "Linh là nhân viên công ty. Nao cũng là nhân viên công ty."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "83556344-92b3-4f8a-ba62-fd6d1ada67f7",
+      "editorial_key": "also_japanese",
+      "pattern_id": "cfc26ff6-73c0-4726-af1d-8a7a89962428",
+      "grammar_point_ids": [
+        "c07d2359-6258-4ac8-9145-151310625f4b"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "エミさんは"
+          },
+          {
+            "base": "日本",
+            "ruby": "にほん"
+          },
+          {
+            "base": "人",
+            "ruby": "じん"
+          },
+          {
+            "base": "です。アキさんも"
+          },
+          {
+            "base": "日本",
+            "ruby": "にほん"
+          },
+          {
+            "base": "人",
+            "ruby": "じん"
+          },
+          {
+            "base": "です。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Emi is Japanese. Aki is Japanese too.",
+        "vi": "Emi là người Nhật. Aki cũng là người Nhật."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "6926d564-53d2-4a67-aee6-7ba7ac154da6",
+      "editorial_key": "university_student",
+      "pattern_id": "87e98d2b-6a7f-4587-bc3e-ed3551532b01",
+      "grammar_point_ids": [
+        "c43ffe03-0e7c-480b-9c0b-3e0b357f1e49"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "わたしは"
+          },
+          {
+            "base": "大学",
+            "ruby": "だいがく"
+          },
+          {
+            "base": "の"
+          },
+          {
+            "base": "学生",
+            "ruby": "がくせい"
+          },
+          {
+            "base": "です。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "I am a university student.",
+        "vi": "Tôi là sinh viên đại học."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "9eeba714-c0fa-4c8c-a3c1-75ef12bf4744",
+      "editorial_key": "fictional_company",
+      "pattern_id": "87e98d2b-6a7f-4587-bc3e-ed3551532b01",
+      "grammar_point_ids": [
+        "c43ffe03-0e7c-480b-9c0b-3e0b357f1e49"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "ナオさんはアオイの"
+          },
+          {
+            "base": "社員",
+            "ruby": "しゃいん"
+          },
+          {
+            "base": "です。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Nao is an employee of Aoi.",
+        "vi": "Nao là nhân viên của công ty Aoi."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard",
+      "context": {
+        "en": "In this fictional example, Aoi is the name of a company.",
+        "vi": "Trong ví dụ hư cấu này, Aoi là tên một công ty."
+      }
+    },
+    {
+      "id": "9dcde0d1-0a46-4a2e-b2f0-14fdc7ba0f74",
+      "editorial_key": "introduce_emi",
+      "pattern_id": "7592379d-c227-4476-8294-b84e51320e65",
+      "grammar_point_ids": [
+        "be8b4886-8846-430b-9a4a-7b73b7b605d1"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "こちらはエミさんです。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "This is Emi.",
+        "vi": "Đây là Emi."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "cbd3b528-67e0-48fe-a652-e5f89e591de3",
+      "editorial_key": "ask_lin_occupation",
+      "pattern_id": "7592379d-c227-4476-8294-b84e51320e65",
+      "grammar_point_ids": [
+        "be8b4886-8846-430b-9a4a-7b73b7b605d1"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "リンさんは"
+          },
+          {
+            "base": "研究者",
+            "ruby": "けんきゅうしゃ"
+          },
+          {
+            "base": "ですか。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Is Linh a researcher?",
+        "vi": "Linh có phải là nhà nghiên cứu không?"
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "f7bb81c3-a948-49d1-b0e8-f55e998b74bb",
+      "editorial_key": "meet_classmates",
+      "title": {
+        "en": "Meeting at an introduction session",
+        "vi": "Gặp nhau ở buổi giới thiệu"
+      },
+      "scenario": {
+        "en": "Fictional people introduce themselves and their occupations.",
+        "vi": "Các nhân vật hư cấu giới thiệu bản thân và nghề nghiệp."
+      },
+      "characters": [
+        {
+          "key": "linh",
+          "display_name": {
+            "segments": [
+              {
+                "base": "リン"
+              }
+            ]
+          },
+          "description": {
+            "en": "new arrival",
+            "vi": "người vừa đến"
+          }
+        },
+        {
+          "key": "aki",
+          "display_name": {
+            "segments": [
+              {
+                "base": "アキ"
+              }
+            ]
+          },
+          "description": {
+            "en": "student",
+            "vi": "sinh viên"
+          }
+        },
+        {
+          "key": "emi",
+          "display_name": {
+            "segments": [
+              {
+                "base": "エミ"
+              }
+            ]
+          },
+          "description": {
+            "en": "teacher",
+            "vi": "giáo viên"
+          }
+        }
+      ],
+      "turns": [
+        {
+          "speaker_key": "linh",
+          "japanese": {
+            "segments": [
+              {
+                "base": "初",
+                "ruby": "はじ"
+              },
+              {
+                "base": "めまして。リンです。ベトナム"
+              },
+              {
+                "base": "人",
+                "ruby": "じん"
+              },
+              {
+                "base": "です。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Nice to meet you. I am Linh. I am Vietnamese.",
+            "vi": "Rất vui được làm quen. Tôi là Linh, người Việt Nam."
+          },
+          "grammar_point_ids": [
+            "1bc60b55-77d6-48fd-adc3-49bddfc36655"
+          ]
+        },
+        {
+          "speaker_key": "aki",
+          "japanese": {
+            "segments": [
+              {
+                "base": "初",
+                "ruby": "はじ"
+              },
+              {
+                "base": "めまして。アキです。"
+              },
+              {
+                "base": "日本",
+                "ruby": "にほん"
+              },
+              {
+                "base": "人",
+                "ruby": "じん"
+              },
+              {
+                "base": "です。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Nice to meet you. I am Aki. I am Japanese.",
+            "vi": "Rất vui được làm quen. Tôi là Aki, người Nhật."
+          },
+          "grammar_point_ids": [
+            "1bc60b55-77d6-48fd-adc3-49bddfc36655"
+          ]
+        },
+        {
+          "speaker_key": "linh",
+          "japanese": {
+            "segments": [
+              {
+                "base": "アキさんは"
+              },
+              {
+                "base": "学生",
+                "ruby": "がくせい"
+              },
+              {
+                "base": "ですか。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Are you a student, Aki?",
+            "vi": "Aki có phải là sinh viên không?"
+          },
+          "grammar_point_ids": [
+            "9043666d-f6c5-497a-b5db-1f08cd105aa9",
+            "be8b4886-8846-430b-9a4a-7b73b7b605d1"
+          ]
+        },
+        {
+          "speaker_key": "aki",
+          "japanese": {
+            "segments": [
+              {
+                "base": "はい、"
+              },
+              {
+                "base": "大学",
+                "ruby": "だいがく"
+              },
+              {
+                "base": "の"
+              },
+              {
+                "base": "学生",
+                "ruby": "がくせい"
+              },
+              {
+                "base": "です。リンさんも"
+              },
+              {
+                "base": "学生",
+                "ruby": "がくせい"
+              },
+              {
+                "base": "ですか。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Yes, I am a university student. Are you a student too, Linh?",
+            "vi": "Vâng, tôi là sinh viên đại học. Linh cũng là sinh viên à?"
+          },
+          "grammar_point_ids": [
+            "9043666d-f6c5-497a-b5db-1f08cd105aa9",
+            "c07d2359-6258-4ac8-9145-151310625f4b",
+            "c43ffe03-0e7c-480b-9c0b-3e0b357f1e49"
+          ]
+        },
+        {
+          "speaker_key": "linh",
+          "japanese": {
+            "segments": [
+              {
+                "base": "いいえ、"
+              },
+              {
+                "base": "学生",
+                "ruby": "がくせい"
+              },
+              {
+                "base": "じゃありません。"
+              },
+              {
+                "base": "会社員",
+                "ruby": "かいしゃいん"
+              },
+              {
+                "base": "です。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "No, I am not a student. I am a company employee.",
+            "vi": "Không, tôi không phải sinh viên. Tôi là nhân viên công ty."
+          },
+          "grammar_point_ids": [
+            "46e8a6a4-6d5c-4f62-b2eb-857ea22edb43",
+            "1bc60b55-77d6-48fd-adc3-49bddfc36655"
+          ]
+        },
+        {
+          "speaker_key": "aki",
+          "japanese": {
+            "segments": [
+              {
+                "base": "こちらはエミさんです。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "This is Emi.",
+            "vi": "Đây là Emi."
+          },
+          "grammar_point_ids": [
+            "be8b4886-8846-430b-9a4a-7b73b7b605d1"
+          ]
+        },
+        {
+          "speaker_key": "emi",
+          "japanese": {
+            "segments": [
+              {
+                "base": "初",
+                "ruby": "はじ"
+              },
+              {
+                "base": "めまして。エミです。"
+              },
+              {
+                "base": "教師",
+                "ruby": "きょうし"
+              },
+              {
+                "base": "です。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Nice to meet you. I am Emi. I am a teacher.",
+            "vi": "Rất vui được làm quen. Tôi là Emi, làm nghề giáo viên."
+          },
+          "grammar_point_ids": [
+            "1bc60b55-77d6-48fd-adc3-49bddfc36655"
+          ]
+        },
+        {
+          "speaker_key": "linh",
+          "japanese": {
+            "segments": [
+              {
+                "base": "どうぞよろしくお"
+              },
+              {
+                "base": "願",
+                "ruby": "ねが"
+              },
+              {
+                "base": "いします。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "It is a pleasure to meet you all.",
+            "vi": "Rất vui được làm quen với mọi người."
+          },
+          "grammar_point_ids": []
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "N5_MAIN",
+          "pdf_page_start": 23,
+          "pdf_page_end": 23,
+          "basis": "dialogue_skill_alignment"
+        }
+      ],
+      "origin": "independently_authored"
+    }
+  ]
+}

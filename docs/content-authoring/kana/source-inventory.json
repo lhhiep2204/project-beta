@@ -1,0 +1,4359 @@
+{
+  "format_version": "1.0",
+  "sources": [
+    {
+      "id": "modern",
+      "title": "Modern kana: direct, contracted, nasal, geminate and long sounds",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gendaikana/honbun_dai1.html",
+      "scope": "Tables and sections 1–5; both table images visually compared on 2026-11-08.",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "exceptions",
+      "title": "Modern orthographic exceptions",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gendaikana/honbun_dai2.html",
+      "scope": "Sections 1–3 particles, 5 conditional voiced spellings, 6 and appendix long vowels.",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "loan-tables",
+      "title": "Loanword kana tables",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gairai/honbun01.html",
+      "scope": "Table 1 and Table 2 image visually compared on 2026-11-08.",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "loan-common",
+      "title": "Loanword table 1 details",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gairai/honbun04.html",
+      "scope": "Sections 1–6; 13 extended combinations.",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "loan-closer",
+      "title": "Loanword table 2 details",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gairai/honbun05.html",
+      "scope": "Sections 1–10; 20 closer-transcription combinations; alternatives are not errors.",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "loan-special",
+      "title": "Loanword special usage",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gairai/honbun06.html",
+      "scope": "Nasal, gemination, length and small-letter guidance; sections 1–3 and 7.",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "unicode-hira",
+      "title": "Unicode Hiragana chart",
+      "url": "https://www.unicode.org/charts/PDF/U3040.pdf",
+      "scope": "Codepoint identities and decompositions only, not a pronunciation dictionary; version 18.0 as fetched 2026-11-08.",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "unicode-kata",
+      "title": "Unicode Katakana chart",
+      "url": "https://www.unicode.org/charts/PDF/U30A0.pdf",
+      "scope": "Codepoint identities, marks and ligatures only; version 18.0 as fetched 2026-11-08.",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "small-lantern",
+      "title": "Shogakukan dictionary: small lantern",
+      "url": "https://kotobank.jp/word/小提灯-2038990",
+      "scope": "Publisher dictionary entry reproduced on Kotobank: こぢょうちん, small paper lantern; not the poet’s name.",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "historical-comparison",
+      "title": "Modern/historical kana comparison",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gendaikana/huhyo_i.html",
+      "scope": "Rows イ/エ establish ゐ→い and ゑ→え with 井戸/声 examples; no reconstructed old accent.",
+      "accessed": "2026-11-08"
+    }
+  ],
+  "tables": [
+    {
+      "id": "modern-direct",
+      "source_id": "modern",
+      "locator": "§1 image + §3 nasal",
+      "keys": [
+        "hiragana:basic:あ",
+        "hiragana:basic:い",
+        "hiragana:basic:う",
+        "hiragana:basic:え",
+        "hiragana:basic:お",
+        "hiragana:basic:か",
+        "hiragana:basic:き",
+        "hiragana:basic:く",
+        "hiragana:basic:け",
+        "hiragana:basic:こ",
+        "hiragana:basic:さ",
+        "hiragana:basic:し",
+        "hiragana:basic:す",
+        "hiragana:basic:せ",
+        "hiragana:basic:そ",
+        "hiragana:basic:た",
+        "hiragana:basic:ち",
+        "hiragana:basic:つ",
+        "hiragana:basic:て",
+        "hiragana:basic:と",
+        "hiragana:basic:な",
+        "hiragana:basic:に",
+        "hiragana:basic:ぬ",
+        "hiragana:basic:ね",
+        "hiragana:basic:の",
+        "hiragana:basic:は",
+        "hiragana:basic:ひ",
+        "hiragana:basic:ふ",
+        "hiragana:basic:へ",
+        "hiragana:basic:ほ",
+        "hiragana:basic:ま",
+        "hiragana:basic:み",
+        "hiragana:basic:む",
+        "hiragana:basic:め",
+        "hiragana:basic:も",
+        "hiragana:basic:や",
+        "hiragana:basic:ゆ",
+        "hiragana:basic:よ",
+        "hiragana:basic:ら",
+        "hiragana:basic:り",
+        "hiragana:basic:る",
+        "hiragana:basic:れ",
+        "hiragana:basic:ろ",
+        "hiragana:basic:わ",
+        "hiragana:basic:を",
+        "hiragana:basic:ん",
+        "hiragana:voiced:が",
+        "hiragana:voiced:ぎ",
+        "hiragana:voiced:ぐ",
+        "hiragana:voiced:げ",
+        "hiragana:voiced:ご",
+        "hiragana:voiced:ざ",
+        "hiragana:voiced:じ",
+        "hiragana:voiced:ず",
+        "hiragana:voiced:ぜ",
+        "hiragana:voiced:ぞ",
+        "hiragana:voiced:だ",
+        "hiragana:voiced:ぢ",
+        "hiragana:voiced:づ",
+        "hiragana:voiced:で",
+        "hiragana:voiced:ど",
+        "hiragana:voiced:ば",
+        "hiragana:voiced:び",
+        "hiragana:voiced:ぶ",
+        "hiragana:voiced:べ",
+        "hiragana:voiced:ぼ",
+        "hiragana:voiced:ぱ",
+        "hiragana:voiced:ぴ",
+        "hiragana:voiced:ぷ",
+        "hiragana:voiced:ぺ",
+        "hiragana:voiced:ぽ"
+      ]
+    },
+    {
+      "id": "modern-contracted",
+      "source_id": "modern",
+      "locator": "§2 image including underlined conditional cells",
+      "keys": [
+        "hiragana:contracted:きゃ",
+        "hiragana:contracted:きゅ",
+        "hiragana:contracted:きょ",
+        "hiragana:contracted:しゃ",
+        "hiragana:contracted:しゅ",
+        "hiragana:contracted:しょ",
+        "hiragana:contracted:ちゃ",
+        "hiragana:contracted:ちゅ",
+        "hiragana:contracted:ちょ",
+        "hiragana:contracted:にゃ",
+        "hiragana:contracted:にゅ",
+        "hiragana:contracted:にょ",
+        "hiragana:contracted:ひゃ",
+        "hiragana:contracted:ひゅ",
+        "hiragana:contracted:ひょ",
+        "hiragana:contracted:みゃ",
+        "hiragana:contracted:みゅ",
+        "hiragana:contracted:みょ",
+        "hiragana:contracted:りゃ",
+        "hiragana:contracted:りゅ",
+        "hiragana:contracted:りょ",
+        "hiragana:contracted:ぎゃ",
+        "hiragana:contracted:ぎゅ",
+        "hiragana:contracted:ぎょ",
+        "hiragana:contracted:じゃ",
+        "hiragana:contracted:じゅ",
+        "hiragana:contracted:じょ",
+        "hiragana:contracted:びゃ",
+        "hiragana:contracted:びゅ",
+        "hiragana:contracted:びょ",
+        "hiragana:contracted:ぴゃ",
+        "hiragana:contracted:ぴゅ",
+        "hiragana:contracted:ぴょ",
+        "hiragana:reference:ぢゃ",
+        "hiragana:reference:ぢゅ",
+        "hiragana:reference:ぢょ"
+      ]
+    },
+    {
+      "id": "katakana-counterparts",
+      "source_id": "modern",
+      "locator": "Full script counterpart including conditional ヲ/ヂ/ヅ and the three conditional contracted reference cells.",
+      "keys": [
+        "katakana:basic:ア",
+        "katakana:basic:イ",
+        "katakana:basic:ウ",
+        "katakana:basic:エ",
+        "katakana:basic:オ",
+        "katakana:basic:カ",
+        "katakana:basic:キ",
+        "katakana:basic:ク",
+        "katakana:basic:ケ",
+        "katakana:basic:コ",
+        "katakana:basic:サ",
+        "katakana:basic:シ",
+        "katakana:basic:ス",
+        "katakana:basic:セ",
+        "katakana:basic:ソ",
+        "katakana:basic:タ",
+        "katakana:basic:チ",
+        "katakana:basic:ツ",
+        "katakana:basic:テ",
+        "katakana:basic:ト",
+        "katakana:basic:ナ",
+        "katakana:basic:ニ",
+        "katakana:basic:ヌ",
+        "katakana:basic:ネ",
+        "katakana:basic:ノ",
+        "katakana:basic:ハ",
+        "katakana:basic:ヒ",
+        "katakana:basic:フ",
+        "katakana:basic:ヘ",
+        "katakana:basic:ホ",
+        "katakana:basic:マ",
+        "katakana:basic:ミ",
+        "katakana:basic:ム",
+        "katakana:basic:メ",
+        "katakana:basic:モ",
+        "katakana:basic:ヤ",
+        "katakana:basic:ユ",
+        "katakana:basic:ヨ",
+        "katakana:basic:ラ",
+        "katakana:basic:リ",
+        "katakana:basic:ル",
+        "katakana:basic:レ",
+        "katakana:basic:ロ",
+        "katakana:basic:ワ",
+        "katakana:basic:ヲ",
+        "katakana:basic:ン",
+        "katakana:voiced:ガ",
+        "katakana:voiced:ギ",
+        "katakana:voiced:グ",
+        "katakana:voiced:ゲ",
+        "katakana:voiced:ゴ",
+        "katakana:voiced:ザ",
+        "katakana:voiced:ジ",
+        "katakana:voiced:ズ",
+        "katakana:voiced:ゼ",
+        "katakana:voiced:ゾ",
+        "katakana:voiced:ダ",
+        "katakana:voiced:ヂ",
+        "katakana:voiced:ヅ",
+        "katakana:voiced:デ",
+        "katakana:voiced:ド",
+        "katakana:voiced:バ",
+        "katakana:voiced:ビ",
+        "katakana:voiced:ブ",
+        "katakana:voiced:ベ",
+        "katakana:voiced:ボ",
+        "katakana:voiced:パ",
+        "katakana:voiced:ピ",
+        "katakana:voiced:プ",
+        "katakana:voiced:ペ",
+        "katakana:voiced:ポ",
+        "katakana:contracted:キャ",
+        "katakana:contracted:キュ",
+        "katakana:contracted:キョ",
+        "katakana:contracted:シャ",
+        "katakana:contracted:シュ",
+        "katakana:contracted:ショ",
+        "katakana:contracted:チャ",
+        "katakana:contracted:チュ",
+        "katakana:contracted:チョ",
+        "katakana:contracted:ニャ",
+        "katakana:contracted:ニュ",
+        "katakana:contracted:ニョ",
+        "katakana:contracted:ヒャ",
+        "katakana:contracted:ヒュ",
+        "katakana:contracted:ヒョ",
+        "katakana:contracted:ミャ",
+        "katakana:contracted:ミュ",
+        "katakana:contracted:ミョ",
+        "katakana:contracted:リャ",
+        "katakana:contracted:リュ",
+        "katakana:contracted:リョ",
+        "katakana:contracted:ギャ",
+        "katakana:contracted:ギュ",
+        "katakana:contracted:ギョ",
+        "katakana:contracted:ジャ",
+        "katakana:contracted:ジュ",
+        "katakana:contracted:ジョ",
+        "katakana:contracted:ビャ",
+        "katakana:contracted:ビュ",
+        "katakana:contracted:ビョ",
+        "katakana:contracted:ピャ",
+        "katakana:contracted:ピュ",
+        "katakana:contracted:ピョ",
+        "katakana:reference:ヂャ",
+        "katakana:reference:ヂュ",
+        "katakana:reference:ヂョ"
+      ]
+    },
+    {
+      "id": "loan-table-1-extension",
+      "source_id": "loan-common",
+      "locator": "§1–6, 13 cells",
+      "keys": [
+        "katakana:extended:シェ",
+        "katakana:extended:ジェ",
+        "katakana:extended:チェ",
+        "katakana:extended:ツァ",
+        "katakana:extended:ツェ",
+        "katakana:extended:ツォ",
+        "katakana:extended:ティ",
+        "katakana:extended:ディ",
+        "katakana:extended:ファ",
+        "katakana:extended:フィ",
+        "katakana:extended:フェ",
+        "katakana:extended:フォ",
+        "katakana:extended:デュ"
+      ]
+    },
+    {
+      "id": "loan-table-2",
+      "source_id": "loan-closer",
+      "locator": "§1–10, 20 cells",
+      "keys": [
+        "katakana:extended:イェ",
+        "katakana:extended:ウィ",
+        "katakana:extended:ウェ",
+        "katakana:extended:ウォ",
+        "katakana:extended:クァ",
+        "katakana:extended:クィ",
+        "katakana:extended:クェ",
+        "katakana:extended:クォ",
+        "katakana:extended:グァ",
+        "katakana:extended:ツィ",
+        "katakana:extended:トゥ",
+        "katakana:extended:ドゥ",
+        "katakana:extended:ヴァ",
+        "katakana:extended:ヴィ",
+        "katakana:extended:ヴ",
+        "katakana:extended:ヴェ",
+        "katakana:extended:ヴォ",
+        "katakana:extended:テュ",
+        "katakana:extended:フュ",
+        "katakana:extended:ヴュ"
+      ]
+    }
+  ],
+  "supplemental_keys": [
+    "hiragana:special:ぁ",
+    "hiragana:special:ぃ",
+    "hiragana:special:ぅ",
+    "hiragana:special:ぇ",
+    "hiragana:special:ぉ",
+    "hiragana:special:ゃ",
+    "hiragana:special:ゅ",
+    "hiragana:special:ょ",
+    "hiragana:special:っ",
+    "katakana:special:ァ",
+    "katakana:special:ィ",
+    "katakana:special:ゥ",
+    "katakana:special:ェ",
+    "katakana:special:ォ",
+    "katakana:special:ャ",
+    "katakana:special:ュ",
+    "katakana:special:ョ",
+    "katakana:special:ッ",
+    "hiragana:long_vowel:ああ",
+    "hiragana:long_vowel:いい",
+    "hiragana:long_vowel:うう",
+    "hiragana:long_vowel:ええ",
+    "hiragana:long_vowel:おう",
+    "hiragana:long_vowel:おお",
+    "hiragana:long_vowel:えい",
+    "hiragana:particle:は",
+    "hiragana:particle:へ",
+    "hiragana:particle:を",
+    "shared:special:゛",
+    "shared:special:゜",
+    "shared:special:ー",
+    "hiragana:reference:ゎ",
+    "hiragana:reference:ゐ",
+    "hiragana:reference:ゑ",
+    "hiragana:reference:ゔ",
+    "hiragana:reference:ゕ",
+    "hiragana:reference:ゖ",
+    "hiragana:reference:ゝ",
+    "hiragana:reference:ゞ",
+    "hiragana:reference:ゟ",
+    "katakana:reference:ヮ",
+    "katakana:reference:ヰ",
+    "katakana:reference:ヱ",
+    "katakana:reference:ヵ",
+    "katakana:reference:ヶ",
+    "katakana:reference:ヷ",
+    "katakana:reference:ヸ",
+    "katakana:reference:ヹ",
+    "katakana:reference:ヺ",
+    "katakana:reference:ヽ",
+    "katakana:reference:ヾ",
+    "katakana:reference:ヿ",
+    "katakana:reference:クヮ",
+    "katakana:reference:グヮ"
+  ],
+  "coverage_boundary": "Modern standard Japanese kana, all combinations in the cited modern/loanword tables, dependent uses and the ordinary kana-block rare/reference forms. Not a claim to enumerate every possible foreign sound spelling or every historical script codepoint.",
+  "exclusions": [
+    {
+      "scope": "Empty gojuon cells",
+      "reason": "No modern syllable cell; do not fabricate missing yi/ye/wu sounds."
+    },
+    {
+      "scope": "Hentaigana, Ainu/phonetic-extension blocks and every possible expressive small-letter spelling",
+      "reason": "Outside these standard-Japanese source tables; not claimed as an exhaustive Unicode teaching inventory."
+    },
+    {
+      "scope": "U+30A0 ゠ and U+30FB ・",
+      "reason": "Punctuation, not independent sounds; no invented tap-to-speak syllable."
+    },
+    {
+      "scope": "U+3099/309A combining marks",
+      "reason": "Encoding aliases of the voicing-mark entries, not additional syllables."
+    }
+  ],
+  "rows": [
+    {
+      "key": "hiragana:basic:あ",
+      "entry_id": "a10cc555-bf2c-4e39-a0cf-a7aa4fe65e98",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ア",
+      "entry_id": "a31687c6-4d22-4ce5-8399-008029f92455",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:い",
+      "entry_id": "04a6c34b-01cc-44a5-830d-b44d75f2371c",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:イ",
+      "entry_id": "ca368fa9-c4f0-4371-b3bf-2d00ef4eddd7",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:う",
+      "entry_id": "f4bd2b9f-f058-4518-a335-8b5b8f77c8b8",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ウ",
+      "entry_id": "627ffe57-597b-4ab1-84b0-66425a453db9",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:え",
+      "entry_id": "9a4af029-86d2-4f34-a9aa-3e79c5b3053c",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:エ",
+      "entry_id": "022edb67-ccbb-4f1a-9f30-026e055cc0f1",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:お",
+      "entry_id": "b77f66f1-b438-470b-b3e0-6465dcd863fb",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:オ",
+      "entry_id": "8478a01c-57f5-4610-b23f-1509b67c260f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:か",
+      "entry_id": "2144cb6f-1999-4a2c-80ce-6abdd56ccdaa",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:カ",
+      "entry_id": "464fdd88-8654-4170-a37a-a36f2e46b7a5",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:き",
+      "entry_id": "f53cd6c1-aeeb-474e-9184-117c52316e3e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:キ",
+      "entry_id": "138bfb8a-fbc3-4f7c-ae07-6f7d398b90c9",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:く",
+      "entry_id": "331c4e69-8ded-4b24-a126-2236857ec51f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ク",
+      "entry_id": "0d3ba1fb-cbaf-4cde-8f6b-34e0d895cf2b",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:け",
+      "entry_id": "a2abbea7-44d0-4a0d-bc60-74ab2cbf21a2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ケ",
+      "entry_id": "564a06f4-8d7e-49d9-b58e-950715fdee9b",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:こ",
+      "entry_id": "7dc6a497-d59b-4dc0-8574-915fbc9de630",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:コ",
+      "entry_id": "534b46f7-a678-4594-8c90-e68e6839dbeb",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:さ",
+      "entry_id": "cf87032c-44b6-43df-a5fa-b38c42aa5f8e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:サ",
+      "entry_id": "39f4dc15-737b-4a64-a3da-7eba89916c3b",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:し",
+      "entry_id": "d258e453-87bb-4e76-8d86-fa38a580d690",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:シ",
+      "entry_id": "571f598c-b95a-4ac8-9fb9-4579e967ac76",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:す",
+      "entry_id": "4ba14420-bfad-46a7-941e-0eecaf54a1c2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ス",
+      "entry_id": "da5252ed-9e70-4e6f-bf36-56e6e97896a7",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:せ",
+      "entry_id": "8728b895-215f-4384-83c1-d3b08a40f4d1",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:セ",
+      "entry_id": "4c1219e8-e272-4337-8974-50c84c730d21",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:そ",
+      "entry_id": "92d18fd9-e1f1-406c-b01b-d7ebaa9f5b99",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ソ",
+      "entry_id": "30e0e14a-fbb3-413e-8fb9-bfaeff2bf873",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:た",
+      "entry_id": "bc67124f-b159-4b76-9872-6be47d2fe3da",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:タ",
+      "entry_id": "e4891310-d81a-4d73-9e83-39257ef93211",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:ち",
+      "entry_id": "3cd0e22c-6eac-4c17-b8e1-95a4d4698d2a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:チ",
+      "entry_id": "ab9791d1-223c-4c72-a74a-8bbdd821c942",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:つ",
+      "entry_id": "e90a765f-4399-41d0-b25b-625f0c6f7b15",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ツ",
+      "entry_id": "b74a99ad-40a2-4882-a87c-431832bf1c22",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:て",
+      "entry_id": "b2bfd526-04a7-456d-b51b-427a9fd8da08",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:テ",
+      "entry_id": "bcceeb64-c853-4f42-ba84-fe4f7d6f8f04",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:と",
+      "entry_id": "4ce00af0-ec20-4bae-8d1e-1ed7eed61c67",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ト",
+      "entry_id": "5739b316-1579-4dd7-8ad7-7a79af8161e1",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:な",
+      "entry_id": "85e55a19-edeb-434b-9ddb-1cfad4f9aca2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ナ",
+      "entry_id": "a866300b-bc13-4299-a139-6771be9acc6a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:に",
+      "entry_id": "5fc85715-dac5-437e-aa85-1c767d1f8c87",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ニ",
+      "entry_id": "eaf38aeb-32ae-43fd-aa00-367d8d5c5d93",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:ぬ",
+      "entry_id": "86ba8281-62be-4dce-96fa-7dfef37422bb",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ヌ",
+      "entry_id": "4ee7aaef-aa7d-419c-80d7-c85d6f449ef0",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:ね",
+      "entry_id": "accba1f3-3259-4d51-b36e-cf6a9174df9e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ネ",
+      "entry_id": "2976bd69-768f-4f02-a701-3c87231e907a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:の",
+      "entry_id": "f0eb1751-e37c-4bf5-99b7-932edca82f44",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ノ",
+      "entry_id": "e6d637cb-cf69-4b7a-8e79-c19bf4b62be3",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:は",
+      "entry_id": "dcbe7cb8-525d-429c-99e1-eee4c018ef7c",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ハ",
+      "entry_id": "2ee4e78c-1a1f-4cb5-8ea6-96e85592ebf3",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:ひ",
+      "entry_id": "07b77cc6-3672-4548-87d7-55cc7464e184",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ヒ",
+      "entry_id": "5134d6e3-fe43-4765-96b8-3a94c5417321",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:ふ",
+      "entry_id": "41d2e305-ab1f-4fcc-9f46-86448de90062",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:フ",
+      "entry_id": "9453d270-42a3-4dcd-a951-60bba56065b0",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:へ",
+      "entry_id": "21298b15-588e-4a93-a0af-b9cdf469e876",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ヘ",
+      "entry_id": "8cd96c52-1001-4978-b169-f6f05e689bee",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:ほ",
+      "entry_id": "c4d18223-2fed-4ed3-9904-c998ff293c11",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ホ",
+      "entry_id": "95591cfd-96fd-4b59-9ff3-188d5c723427",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:ま",
+      "entry_id": "8adb7eb2-371a-48ab-b219-7ce312009eb2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:マ",
+      "entry_id": "477a56c2-44df-45e9-bb36-a598bca8fccf",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:み",
+      "entry_id": "2e3ad52f-6e96-440b-a718-a6d99d30dee5",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ミ",
+      "entry_id": "9b371ecd-a849-4fb3-bfc9-f55563fcd017",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:む",
+      "entry_id": "14f7b043-7c4d-47e8-8c86-ac893a78b2d6",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ム",
+      "entry_id": "07dd10b3-24b6-4822-b4b9-c82caf3ba810",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:め",
+      "entry_id": "32c93357-f18f-43fa-a5aa-28fd3837d264",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:メ",
+      "entry_id": "acbb2544-b4ba-4d56-acfa-f7a507515371",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:も",
+      "entry_id": "eccd5ee3-773c-44c3-bebc-3713379c2dc0",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:モ",
+      "entry_id": "59e20b09-7ec9-40ab-8e8c-d84e09ae6a55",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:や",
+      "entry_id": "481189f3-f1b0-4b80-81c8-7f68883f7d76",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ヤ",
+      "entry_id": "331e2d67-2405-40b4-81c6-f85ba28a17db",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:ゆ",
+      "entry_id": "4d8515fe-5bc8-4015-a70f-7a26d1226d4f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ユ",
+      "entry_id": "3f5a530a-4dd8-49ad-9ff5-337e7af94328",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:よ",
+      "entry_id": "ae97e09c-195f-4c64-b8fc-7419111efa25",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ヨ",
+      "entry_id": "0066b65e-c8ee-426b-8ce0-d0b5749b1aac",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:ら",
+      "entry_id": "030a20aa-626d-4027-8ad4-c0fd339f2e9e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ラ",
+      "entry_id": "6eb71ada-21fe-4963-aecf-f65bfc1a5b37",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:り",
+      "entry_id": "ba74208e-dacc-491c-8d5c-4aa395a9a7c1",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:リ",
+      "entry_id": "9b687c0e-46bc-4519-acc5-87b860f4ad3a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:る",
+      "entry_id": "721e9017-abfe-4886-b934-39f595fe55f3",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ル",
+      "entry_id": "76c9c4bf-d52d-466b-ab50-ace5efac69b5",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:れ",
+      "entry_id": "3ef58200-2792-4a99-94f3-dee14b31793f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:レ",
+      "entry_id": "e36ef673-6211-4491-aeb3-4fdfdba13bac",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:ろ",
+      "entry_id": "e27c260a-c2c3-4017-9a61-e46b2dfbdea3",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ロ",
+      "entry_id": "50ba5b86-3c3b-4be1-aa66-76174fd2ee83",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:わ",
+      "entry_id": "e3b14113-afd7-4e5a-98c3-0630984bdcda",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ワ",
+      "entry_id": "acf8f918-01a3-4a0b-9ca1-3b8275944cd2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:を",
+      "entry_id": "92105156-bbdb-41cc-8d62-5158ed1f1adf",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "exceptions",
+          "locator": "§1"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ヲ",
+      "entry_id": "3453c64f-cff5-4032-b624-41d172a80b6a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        },
+        {
+          "source_id": "exceptions",
+          "locator": "§1"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:basic:ん",
+      "entry_id": "89a831c4-9726-44ad-8254-48ba1ad372d4",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:basic:ン",
+      "entry_id": "4741ba6b-9509-4824-8408-92b02ac6f1a5",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:が",
+      "entry_id": "52f418b0-02d5-4379-b6b5-a714bebbf6c8",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ガ",
+      "entry_id": "78f75eae-bf85-4542-a519-47fc6180ec5a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ぎ",
+      "entry_id": "5a5c1551-2b27-41d8-ac4f-0b213854058e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ギ",
+      "entry_id": "be0c815e-c549-4001-b422-c28bea5869b9",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ぐ",
+      "entry_id": "7836fd60-da89-4c71-82c8-9d482a1f0487",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:グ",
+      "entry_id": "383763d5-a259-48f6-a23e-1c11d32aaab2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:げ",
+      "entry_id": "a431347c-25da-47cc-aa5f-ab3c1e64f64f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ゲ",
+      "entry_id": "5a4b713e-f430-43e0-a58a-4df7091e1f5f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ご",
+      "entry_id": "f2695a31-d7f1-45db-a251-22d465c4799c",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ゴ",
+      "entry_id": "1c2d5921-5c82-4122-8aff-7324d1753f75",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ざ",
+      "entry_id": "68f72a7f-8acb-4a06-a803-cf7207140d54",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ザ",
+      "entry_id": "238a1f83-6cc8-470d-9610-250e7bc55be1",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:じ",
+      "entry_id": "8b7a79a8-e388-434f-8bcb-27dd79225924",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ジ",
+      "entry_id": "57fb4c8b-851e-4db8-9a47-959d55e5573f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ず",
+      "entry_id": "4a9fd545-8e74-4f30-9e99-56b88126d4ce",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ズ",
+      "entry_id": "216ce783-d0e1-4d5a-969c-6eed0654a6b6",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ぜ",
+      "entry_id": "86205c48-86d1-44cd-a292-252a23d801ea",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ゼ",
+      "entry_id": "dcd20f5f-6a77-4f93-a73a-bc8b47c5af25",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ぞ",
+      "entry_id": "555d7f4d-8312-4ddd-812d-642f3d530aa4",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ゾ",
+      "entry_id": "186ace13-9083-4f38-9656-cac0f7c6a49d",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:だ",
+      "entry_id": "81cc474f-546f-4ce2-a7ca-9031198dea37",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ダ",
+      "entry_id": "63273186-b7cb-4f29-9477-3fba7d3079f1",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ぢ",
+      "entry_id": "787c21d4-e96e-4dc7-a0e7-9449b1de1784",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "exceptions",
+          "locator": "§5"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ヂ",
+      "entry_id": "c39a1fe4-828c-4b68-b3b9-c72867449e4d",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        },
+        {
+          "source_id": "exceptions",
+          "locator": "§5"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:づ",
+      "entry_id": "8484fced-fd49-4b8a-960d-e0b7d6a2dca2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "exceptions",
+          "locator": "§5"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ヅ",
+      "entry_id": "604b767c-4a26-4e17-88b9-8c83cf962ce1",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        },
+        {
+          "source_id": "exceptions",
+          "locator": "§5"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:で",
+      "entry_id": "25ba1ef8-ee77-4652-bd34-fcb1970f0cb9",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:デ",
+      "entry_id": "96366f17-7e89-44a1-a737-ef0385ee8149",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ど",
+      "entry_id": "2a0fdae4-c801-4f8b-acfc-0417f0373270",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ド",
+      "entry_id": "cae43b42-102d-49ed-8dcc-b4cc3e71c9e9",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ば",
+      "entry_id": "8836689a-ecd2-4957-a26f-ff33b4b388db",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:バ",
+      "entry_id": "b6285bde-0588-424d-a60b-1fd0c700c2d0",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:び",
+      "entry_id": "f706a999-c38a-42ae-bfa2-04f66fc412cf",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ビ",
+      "entry_id": "2a0e529e-11bd-4eb1-aaf5-a5ba462ce2e5",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ぶ",
+      "entry_id": "a1ba3cae-75e6-4986-95e4-1eb145446b9b",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ブ",
+      "entry_id": "55e87c54-2137-454f-aeb3-8bb8e0165434",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:べ",
+      "entry_id": "38749049-fbef-43ee-979d-da5089dd1efd",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ベ",
+      "entry_id": "f71ca354-cc58-4956-86a2-be80411093e9",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ぼ",
+      "entry_id": "719dbc48-61c6-460c-a1bc-52766748f7a8",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ボ",
+      "entry_id": "3d003421-375a-47b9-85a0-1d023f25971a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ぱ",
+      "entry_id": "97c34c11-3c96-47e0-8a89-e44ec533abf3",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:パ",
+      "entry_id": "8db5ed7b-4cc8-466d-8576-355e6e7f7d44",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ぴ",
+      "entry_id": "38f86ffd-1135-4849-b0e2-12dde6de1491",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ピ",
+      "entry_id": "5c18e738-09af-4ef6-b1f5-d247f4271ea0",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ぷ",
+      "entry_id": "dff169a7-054e-4ec4-bd1e-6d8f1b2d9b9c",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:プ",
+      "entry_id": "1268a26a-692d-4b4c-b103-f261ec07db39",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ぺ",
+      "entry_id": "f17c5e45-c5f1-4349-a652-90a6c3cd57eb",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ペ",
+      "entry_id": "8bf82044-cacd-41cb-8d75-1b0397cf35c7",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:voiced:ぽ",
+      "entry_id": "db8ec660-a383-45c6-a3fc-657a22a4c0be",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        }
+      ]
+    },
+    {
+      "key": "katakana:voiced:ポ",
+      "entry_id": "96891ced-67e9-41ee-8808-d6f50a9007ea",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§1 direct sounds"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:きゃ",
+      "entry_id": "a2b51ff5-52d3-41a7-a718-c7634189388d",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:キャ",
+      "entry_id": "81636d05-7fd0-425e-93a5-ace1fa7f8749",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:きゅ",
+      "entry_id": "5d30822d-7d30-45ea-97a7-4663d6421734",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:キュ",
+      "entry_id": "e0216503-7e31-4738-a00f-bdc8f55d2d01",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:きょ",
+      "entry_id": "47ffb6d9-4745-4bab-a6f2-25bb5bb0750b",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:キョ",
+      "entry_id": "0737b748-7189-4642-8ccb-2bccaf30c07e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:しゃ",
+      "entry_id": "c89d98e8-ff5c-487f-9ef5-a1e48d4cfc9b",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:シャ",
+      "entry_id": "2fc031cf-8b96-4722-9703-808a87175096",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:しゅ",
+      "entry_id": "5d680c32-dd9e-44db-8913-20d4f12a9c5e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:シュ",
+      "entry_id": "43d721db-2527-498d-a980-2f17e2349e9f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:しょ",
+      "entry_id": "6116d7bf-83d7-4f3e-8500-98eda29ec141",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ショ",
+      "entry_id": "1614d570-84c0-4aa8-983c-9c7ed05d0d9a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:ちゃ",
+      "entry_id": "0624db91-cfc9-4c68-a9f4-874090b4e98f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:チャ",
+      "entry_id": "edd29eb8-f948-4fb7-8036-22b76d98dbb8",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:ちゅ",
+      "entry_id": "8081f58e-8af8-43d9-92e9-25650a4a72d6",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:チュ",
+      "entry_id": "1d6297ee-ebf6-4a54-aca0-6c5a8595d94c",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:ちょ",
+      "entry_id": "e5a6bea5-012e-4a98-a59c-6b5c0d5bccea",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:チョ",
+      "entry_id": "2c864301-8bf6-423e-8dd7-69a5f61f9a34",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:にゃ",
+      "entry_id": "80be1998-51a5-493a-8cf3-02acb3fd01df",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ニャ",
+      "entry_id": "f67b66af-be68-4aca-a63f-5943fd65c29c",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:にゅ",
+      "entry_id": "4b42e49b-6924-40eb-81a7-cc98d97517c2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ニュ",
+      "entry_id": "16aa603f-e943-4dca-bac6-30d3ba0f6fc9",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:にょ",
+      "entry_id": "757422c1-5ec6-4942-8647-ed043c180c2e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ニョ",
+      "entry_id": "3f1c4bff-fbf9-49bc-a324-859547154c94",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:ひゃ",
+      "entry_id": "2f044d9e-a6cb-45f8-9ba3-c5db1488aa47",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ヒャ",
+      "entry_id": "14c6f07e-98b6-4670-98bb-6db3cb80d627",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:ひゅ",
+      "entry_id": "aedd06d6-cf03-4d2f-bd07-0d6cd124cd6b",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ヒュ",
+      "entry_id": "553fae1b-e432-4818-ab3d-57915cd89415",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:ひょ",
+      "entry_id": "a5bb75eb-1710-4605-8b79-92c7ba4eb37e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ヒョ",
+      "entry_id": "4a8c6d04-899b-4f28-8206-57a3851f38ed",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:みゃ",
+      "entry_id": "d7b93b61-4d35-4842-8f3a-82db7bb1f57b",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ミャ",
+      "entry_id": "991da264-8a48-4a18-96d2-9caafe2fa6f3",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:みゅ",
+      "entry_id": "000f9a1f-0a5b-43d8-95ab-1078bb41afdc",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ミュ",
+      "entry_id": "a6ec5a57-0825-4de4-a6d0-1a9841a8a42e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:みょ",
+      "entry_id": "101a55c9-a209-46c1-843b-1ea1116fe3d8",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ミョ",
+      "entry_id": "0c0687ef-ff23-4f9a-9d5c-59d0c0fbdbe5",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:りゃ",
+      "entry_id": "0a914f3e-0007-40a8-abbb-eed318e552f5",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:リャ",
+      "entry_id": "5461ba2d-712d-4f71-b4ec-d0affa2adb0a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:りゅ",
+      "entry_id": "258c1c3f-bd56-44fa-a251-310a44b1823e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:リュ",
+      "entry_id": "6a260d65-fd54-45fb-8a85-7df877bb038f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:りょ",
+      "entry_id": "c15c1e80-9ba7-4e5f-9001-2c0eab4b45b2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:リョ",
+      "entry_id": "bcc330c1-37aa-4d46-805a-1cbcf885f01a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:ぎゃ",
+      "entry_id": "f7a6bae4-2d2f-4ddf-89b7-58c63d1004d3",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ギャ",
+      "entry_id": "e0aef397-b5ef-4d24-b3b5-b97dae30cf59",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:ぎゅ",
+      "entry_id": "4aaaf8e6-e0f1-47aa-8872-49c61a32fc33",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ギュ",
+      "entry_id": "43e2f58b-c74e-4770-a5d7-7178ba07375d",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:ぎょ",
+      "entry_id": "e939d299-1eff-4cf9-a230-e1ab71f42cf1",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ギョ",
+      "entry_id": "cdb8bea6-0f97-4704-b711-a093d71a9c32",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:じゃ",
+      "entry_id": "3bc1c404-ac93-4331-933c-951b5670c172",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ジャ",
+      "entry_id": "525f09fc-dd64-4af5-bffe-597fe8f2e0c2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:じゅ",
+      "entry_id": "b572324c-b0e9-459b-9573-fb980ed2b174",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ジュ",
+      "entry_id": "0702b391-274b-414c-b911-af1075b9a89d",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:じょ",
+      "entry_id": "81216a7e-d005-4fc4-9b15-3b3e987a7b48",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ジョ",
+      "entry_id": "3ebbb880-300c-4c30-a9fe-3837bf7a97bd",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:びゃ",
+      "entry_id": "718a4a96-f9f3-4d58-b83a-2c926df1d186",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ビャ",
+      "entry_id": "18d6a178-9a13-4fd6-a459-f3c51536ad23",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:びゅ",
+      "entry_id": "a0f20024-7cd7-4756-a2d8-0cf52854ab53",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ビュ",
+      "entry_id": "ff63cf2f-12e7-40b4-a4b9-9e6f86b5041f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:びょ",
+      "entry_id": "828faaaf-f267-498d-babe-cc4e4abdb1dd",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ビョ",
+      "entry_id": "388968a1-248a-48f5-b1d1-3b9a7cf23d2d",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:ぴゃ",
+      "entry_id": "3fa9668e-a3a1-4dbd-b1c8-3d61aee627da",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ピャ",
+      "entry_id": "2ee556df-42cc-4577-8efa-7732ca638193",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:ぴゅ",
+      "entry_id": "8b8b7b68-0e8c-48d2-878a-95c8b5d05ee4",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ピュ",
+      "entry_id": "4c97c7d6-4de2-4027-919d-780424ca927d",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:contracted:ぴょ",
+      "entry_id": "2ca743ec-995b-406a-b524-69674837898d",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        }
+      ]
+    },
+    {
+      "key": "katakana:contracted:ピョ",
+      "entry_id": "d2eb07cb-de21-4b48-a8de-dd3dbe7e9927",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 contracted table"
+        },
+        {
+          "source_id": "loan-tables",
+          "locator": "Table 1; ヲ/ヂ/ヅ are retained via the modern kana counterpart and orthographic-exception guidance, not claimed as loanword table cells."
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:シェ",
+      "entry_id": "f0631d93-6390-4083-9482-4d23512f3496",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ジェ",
+      "entry_id": "3279b946-3079-451b-b7cf-4760947fd206",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:チェ",
+      "entry_id": "fba8c63f-2210-4aac-a3df-d29b9ebd287f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ツァ",
+      "entry_id": "4d52ae26-5f62-4558-9f83-33941a378742",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ツェ",
+      "entry_id": "81433800-31f4-4901-b324-4ba50381c5cb",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ツォ",
+      "entry_id": "456655b6-995d-415f-9fc9-5ad89c6774c3",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ティ",
+      "entry_id": "0d9443e3-6209-4c0d-a8b1-2b16eb7c52e5",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ディ",
+      "entry_id": "f319e4e2-8aee-4ccf-8155-037eb51e15f4",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ファ",
+      "entry_id": "8787207d-1326-4436-bca3-3a5e15510618",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:フィ",
+      "entry_id": "e9bbd722-6bc6-4a15-bf67-64c103211fd2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:フェ",
+      "entry_id": "a31b67df-3d0b-44ae-89e7-5891f1aa776a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:フォ",
+      "entry_id": "c37f4e9e-4be2-4e2c-bda1-e6a6fe4f1149",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:デュ",
+      "entry_id": "d23a48c2-5bcb-443f-a530-3ddd2a8ec388",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-common",
+          "locator": "Table 1 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:イェ",
+      "entry_id": "f945d5a6-a37c-42cd-a921-8fc7e764d70c",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ウィ",
+      "entry_id": "720d9442-ec32-4ecb-92c8-8e2f711daa4b",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ウェ",
+      "entry_id": "d4508fc2-bf04-4fa8-b901-99dec363dc8a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ウォ",
+      "entry_id": "8a89690c-0307-43aa-8854-eb7431054b2b",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:クァ",
+      "entry_id": "62b84379-4a34-46ec-8388-8ce4eca8362a",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:クィ",
+      "entry_id": "862b0cf4-d206-4899-ae4d-f160b360a3b1",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:クェ",
+      "entry_id": "3fbb7f4c-33d7-4d45-bb59-af8f1ab6c7e2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:クォ",
+      "entry_id": "c297c82b-b72f-475b-bef5-1b73f83f55bd",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:グァ",
+      "entry_id": "b608913e-d66b-4f81-b8bc-d0ac48c5a1c0",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ツィ",
+      "entry_id": "68755842-2630-4838-a313-3f137cf552d8",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:トゥ",
+      "entry_id": "5bf6a89b-9518-4ca1-87a3-7660bf4786d3",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ドゥ",
+      "entry_id": "dc1fa14b-f224-459d-9ca4-e0d16291b2ab",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ヴァ",
+      "entry_id": "d005b652-fb80-4602-a557-52c1b46b2f23",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ヴィ",
+      "entry_id": "2ad8dd09-fbdd-4345-ae8b-ef988b08f0f2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ヴ",
+      "entry_id": "8004e121-1b06-4b5a-ade2-869b30afc2dc",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ヴェ",
+      "entry_id": "08b7a085-c557-42fa-a8b1-ca83dc3b058f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ヴォ",
+      "entry_id": "dc94371a-f7c0-4282-a40d-4193f7ffd21e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:テュ",
+      "entry_id": "e8507f34-4c32-49c3-ad12-3f4daccb0bdb",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:フュ",
+      "entry_id": "c3bb3e23-d370-488e-a9ee-45ad4395b99e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "katakana:extended:ヴュ",
+      "entry_id": "330ac595-b1b2-429d-81e5-953f8d1f3c61",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "loan-closer",
+          "locator": "Table 2 details"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:special:ぁ",
+      "entry_id": "b47637b7-59df-4ac5-b216-c7b65286a4ab",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:special:ぃ",
+      "entry_id": "27869e83-94d0-4df8-9642-15b421ca0d64",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:special:ぅ",
+      "entry_id": "3d5b0491-c2fc-4d98-877b-3a349aefe399",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:special:ぇ",
+      "entry_id": "388220a8-7ca2-4d4d-8ffd-a6b5f55d3cb1",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:special:ぉ",
+      "entry_id": "9edae959-4b74-4367-abe1-56c61b011ccc",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:special:ゃ",
+      "entry_id": "fa5a10a0-d094-43ae-9606-e0cc36624a95",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:special:ゅ",
+      "entry_id": "066367b4-3fe2-4205-a7b4-ac4fae6fb8c7",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:special:ょ",
+      "entry_id": "a5f9be67-ef50-48a4-87e6-3ab251394f79",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:special:っ",
+      "entry_id": "2ebb82f4-768d-4497-8f24-4209e2f97900",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "katakana:special:ァ",
+      "entry_id": "dbd46e84-98ac-406c-8f11-1ce52ff8291b",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "katakana:special:ィ",
+      "entry_id": "ec2794f5-c2d4-4a1f-9a8e-080fd0a60d65",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "katakana:special:ゥ",
+      "entry_id": "ab5491c9-c7db-42de-a4b2-4523b20cc7ec",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "katakana:special:ェ",
+      "entry_id": "b74329b1-d383-4eb9-a154-483728a7b7d7",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "katakana:special:ォ",
+      "entry_id": "3d926b57-fd29-451a-b566-814cb4ccfd91",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "katakana:special:ャ",
+      "entry_id": "2675f25e-dfba-4efd-aefc-f285099ea47f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "katakana:special:ュ",
+      "entry_id": "f4f29694-d615-43c2-84aa-782f2a38568f",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "katakana:special:ョ",
+      "entry_id": "95b8651e-6761-48fc-96e0-9c63abe0e5fe",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "katakana:special:ッ",
+      "entry_id": "e93d5758-31c8-4909-8a35-a4cf2f24a236",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 small ゃゅょ; §4 gemination"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§2 and §7"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:long_vowel:ああ",
+      "entry_id": "fd2bab5b-0291-4f69-a8a7-db8e320cbe35",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§5(1)"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:long_vowel:いい",
+      "entry_id": "8e306313-ae37-4090-9f89-b9dda3f471bc",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§5(2)"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:long_vowel:うう",
+      "entry_id": "73d15bce-0b19-4a08-888f-d0d0fda1f9b5",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§5(3)"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:long_vowel:ええ",
+      "entry_id": "d8496a16-30b7-4a81-b6f4-11271aceea4d",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§5(4)"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:long_vowel:おう",
+      "entry_id": "a13d035c-216b-43e6-89a9-a4d41d84c748",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§5(5)"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:long_vowel:おお",
+      "entry_id": "997e7e18-93e8-4823-916e-954160b0190c",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "exceptions",
+          "locator": "exceptions §6"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:long_vowel:えい",
+      "entry_id": "b11c9d5e-7554-414e-b14b-68dba16f0313",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "exceptions",
+          "locator": "exceptions appendix"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:particle:は",
+      "entry_id": "39071119-1ca3-42e9-bc9f-73d7bc4c37fa",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "exceptions",
+          "locator": "§1–3"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:particle:へ",
+      "entry_id": "111303bf-4f04-4825-aab0-4fd05d34938d",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "exceptions",
+          "locator": "§1–3"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:particle:を",
+      "entry_id": "40127c9c-40ba-4a81-9f8c-edfb7987a9b2",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "exceptions",
+          "locator": "§1–3"
+        }
+      ]
+    },
+    {
+      "key": "shared:special:゛",
+      "entry_id": "209cf176-c18e-4d57-8f31-62ea5577b60e",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "unicode-hira",
+          "locator": "U+3099–309C composition; spacing/combining forms are encoding aliases"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§3 long-vowel mark"
+        }
+      ]
+    },
+    {
+      "key": "shared:special:゜",
+      "entry_id": "d1407a70-02b4-469f-a544-26a167000708",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "unicode-hira",
+          "locator": "U+3099–309C composition; spacing/combining forms are encoding aliases"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§3 long-vowel mark"
+        }
+      ]
+    },
+    {
+      "key": "shared:special:ー",
+      "entry_id": "c46b563b-8f98-41dc-9e8e-75afd9f9258d",
+      "disposition": "learning",
+      "source_refs": [
+        {
+          "source_id": "unicode-hira",
+          "locator": "U+3099–309C composition; spacing/combining forms are encoding aliases"
+        },
+        {
+          "source_id": "loan-special",
+          "locator": "§3 long-vowel mark"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:reference:ぢゃ",
+      "entry_id": "32f1e107-2b5e-49a4-9358-d5042276c35a",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 underlined conditional contracted table"
+        },
+        {
+          "source_id": "exceptions",
+          "locator": "§5(2) example"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:reference:ぢゅ",
+      "entry_id": "e593bee2-4abd-472d-b096-c6a48f63666b",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 underlined conditional contracted table"
+        },
+        {
+          "source_id": "exceptions",
+          "locator": "§5 alternative spelling of せかいじゅう"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:reference:ぢょ",
+      "entry_id": "dbd31822-7ac4-4a0f-99dd-167caae41b6e",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 underlined conditional contracted table"
+        },
+        {
+          "source_id": "small-lantern",
+          "locator": "headword こぢょうちん"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:reference:ゎ",
+      "entry_id": "8177a5d4-1729-4dfd-8043-87fd6508a9d0",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-hira",
+          "locator": "U+308E"
+        },
+        {
+          "source_id": "loan-closer",
+          "locator": "§3 クヮ variant, transcribed into Hiragana for recognizing ゎ; no historical word spelling asserted."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:reference:ゐ",
+      "entry_id": "7b94ffb5-9d11-4aa9-8402-0a44fb8974c8",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-hira",
+          "locator": "U+3090"
+        },
+        {
+          "source_id": "historical-comparison",
+          "locator": "Rows イ/エ: 井戸 and 声; Katakana examples are explicit script transcriptions."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:reference:ゑ",
+      "entry_id": "0ed6dea7-14d9-450d-aee1-db76155853be",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-hira",
+          "locator": "U+3091"
+        },
+        {
+          "source_id": "historical-comparison",
+          "locator": "Rows イ/エ: 井戸 and 声; Katakana examples are explicit script transcriptions."
+        }
+      ]
+    },
+    {
+      "key": "hiragana:reference:ゔ",
+      "entry_id": "f4860f26-b898-4ecc-9e9f-750b474fafce",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-hira",
+          "locator": "U+3094"
+        },
+        {
+          "source_id": "loan-closer",
+          "locator": "§3–4 alternatives / §7 modern ヴ forms"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:reference:ゕ",
+      "entry_id": "a1714d80-4e68-4d08-b73d-2ac6c909f9ff",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-hira",
+          "locator": "U+3095"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:reference:ゖ",
+      "entry_id": "11404d21-0375-44e3-b432-ab201e46115d",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-hira",
+          "locator": "U+3096"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:reference:ゝ",
+      "entry_id": "ed062814-2e05-4f36-aa52-fa6a70379a07",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-hira",
+          "locator": "U+309D"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:reference:ゞ",
+      "entry_id": "c344707f-81ee-4999-a376-97cfbb703d1e",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-hira",
+          "locator": "U+309E"
+        }
+      ]
+    },
+    {
+      "key": "hiragana:reference:ゟ",
+      "entry_id": "a9701f07-d98e-45c2-a27c-04e2cdf86227",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-hira",
+          "locator": "U+309F"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヮ",
+      "entry_id": "9d2c4a4e-a97b-4dd2-bd31-bfa42ab9efec",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30EE"
+        },
+        {
+          "source_id": "loan-closer",
+          "locator": "§3–4 alternatives / §7 modern ヴ forms"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヰ",
+      "entry_id": "ed594ca2-2a7f-44b4-8258-a5b1ee8d7f26",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30F0"
+        },
+        {
+          "source_id": "historical-comparison",
+          "locator": "Rows イ/エ: 井戸 and 声; Katakana examples are explicit script transcriptions."
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヱ",
+      "entry_id": "ccd624f9-d455-419d-a645-4212bbf6960e",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30F1"
+        },
+        {
+          "source_id": "historical-comparison",
+          "locator": "Rows イ/エ: 井戸 and 声; Katakana examples are explicit script transcriptions."
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヵ",
+      "entry_id": "d68f7ad4-5444-4eac-ae58-58e7ac63fa85",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30F5"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヶ",
+      "entry_id": "6ae6e07d-9bfe-4cce-a060-8e45bc2fd831",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30F6"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヷ",
+      "entry_id": "aa95e9df-214b-4989-a4ff-a10268423578",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30F7"
+        },
+        {
+          "source_id": "loan-closer",
+          "locator": "§3–4 alternatives / §7 modern ヴ forms"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヸ",
+      "entry_id": "32a8ebbf-53d5-4748-b78e-b031f505d89d",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30F8"
+        },
+        {
+          "source_id": "loan-closer",
+          "locator": "§3–4 alternatives / §7 modern ヴ forms"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヹ",
+      "entry_id": "ac1556fd-f7c5-42f5-ad4a-1c7373174a3c",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30F9"
+        },
+        {
+          "source_id": "loan-closer",
+          "locator": "§3–4 alternatives / §7 modern ヴ forms"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヺ",
+      "entry_id": "2eb2729a-ceab-4a37-ace0-df8d38f1cd88",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30FA"
+        },
+        {
+          "source_id": "loan-closer",
+          "locator": "§3–4 alternatives / §7 modern ヴ forms"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヽ",
+      "entry_id": "aab24d48-497c-4401-8f87-1be30c18f608",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30FD"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヾ",
+      "entry_id": "e94524f5-8d00-4b82-85b1-5589796d09d5",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30FE"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヿ",
+      "entry_id": "7d31cbb9-4b29-45fd-8d69-483169c97fae",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30FF"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:クヮ",
+      "entry_id": "c400bf40-3257-489b-8fca-74c7ed06c427",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30AF U+30EE"
+        },
+        {
+          "source_id": "loan-closer",
+          "locator": "§3–4 alternatives / §7 modern ヴ forms"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:グヮ",
+      "entry_id": "7c193b41-1dab-4b7c-bd22-7660b66bed61",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "unicode-kata",
+          "locator": "U+30B0 U+30EE"
+        },
+        {
+          "source_id": "loan-closer",
+          "locator": "§3–4 alternatives / §7 modern ヴ forms"
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヂャ",
+      "entry_id": "11d22a52-72ae-4d4e-b4e5-db60daa0b312",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 underlined conditional contracted table"
+        },
+        {
+          "source_id": "exceptions",
+          "locator": "§5(2) example"
+        },
+        {
+          "source_id": "modern",
+          "locator": "Katakana counterpart of the conditional Hiragana contracted cell; example is an explicit sound-practice transcription, not ordinary loanword orthography."
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヂュ",
+      "entry_id": "fc90b79d-4d1f-4e37-89e0-9c0a0d591176",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 underlined conditional contracted table"
+        },
+        {
+          "source_id": "exceptions",
+          "locator": "§5 alternative spelling of せかいじゅう"
+        },
+        {
+          "source_id": "modern",
+          "locator": "Katakana counterpart of the conditional Hiragana contracted cell; example is an explicit sound-practice transcription, not ordinary loanword orthography."
+        }
+      ]
+    },
+    {
+      "key": "katakana:reference:ヂョ",
+      "entry_id": "09835f90-2acb-407d-9a25-b889accc1966",
+      "disposition": "reference",
+      "source_refs": [
+        {
+          "source_id": "modern",
+          "locator": "§2 underlined conditional contracted table"
+        },
+        {
+          "source_id": "small-lantern",
+          "locator": "headword こぢょうちん"
+        },
+        {
+          "source_id": "modern",
+          "locator": "Katakana counterpart of the conditional Hiragana contracted cell; example is an explicit sound-practice transcription, not ordinary loanword orthography."
+        }
+      ]
+    }
+  ]
+}

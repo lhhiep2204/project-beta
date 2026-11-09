@@ -1,0 +1,473 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "0f23e70a-5001-4fe6-8475-bce2a9de9411",
+  "editorial_key": "kanji_unit_36",
+  "reference_unit_number": 36,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 36: lesson 36 reading words",
+    "vi": "Kanji bài 36: từ đọc của bài 36"
+  },
+  "character_glyphs": [
+    "野",
+    "菜",
+    "船",
+    "記",
+    "泳",
+    "初",
+    "別",
+    "日",
+    "水",
+    "特",
+    "渡",
+    "過",
+    "違",
+    "慣",
+    "必",
+    "曲",
+    "気",
+    "持",
+    "戻"
+  ],
+  "word_examples": [
+    {
+      "id": "604198a9-f82f-427e-8882-b7c3de126911",
+      "japanese": {
+        "segments": [
+          {
+            "base": "野菜",
+            "ruby": "やさい"
+          }
+        ]
+      },
+      "kana_reading": "やさい",
+      "meanings": {
+        "en": "vegetables",
+        "vi": "rau"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0395ac83-e07c-49bc-ad9f-6ac84e186d5d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "船",
+            "ruby": "ふね"
+          }
+        ]
+      },
+      "kana_reading": "ふね",
+      "meanings": {
+        "en": "boat; ship",
+        "vi": "thuyền; tàu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5ab9deae-20ce-4be2-b99f-bc5b9cddb0f1",
+      "japanese": {
+        "segments": [
+          {
+            "base": "日記",
+            "ruby": "にっき"
+          }
+        ]
+      },
+      "kana_reading": "にっき",
+      "meanings": {
+        "en": "diary",
+        "vi": "nhật ký"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "38304251-9824-43b6-ba50-8475ffa14a1b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "水泳",
+            "ruby": "すいえい"
+          }
+        ]
+      },
+      "kana_reading": "すいえい",
+      "meanings": {
+        "en": "swimming",
+        "vi": "bơi lội"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d805ccac-1590-4f8f-959e-6290c29dacf5",
+      "japanese": {
+        "segments": [
+          {
+            "base": "初",
+            "ruby": "はじ"
+          },
+          {
+            "base": "め"
+          }
+        ]
+      },
+      "kana_reading": "はじめ",
+      "meanings": {
+        "en": "beginning",
+        "vi": "ban đầu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e2027aec-49bf-4164-adca-f36fc5b386d8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "特別",
+            "ruby": "とくべつ"
+          }
+        ]
+      },
+      "kana_reading": "とくべつ",
+      "meanings": {
+        "en": "special",
+        "vi": "đặc biệt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f7f9183a-b3ab-4e78-bf7b-9e515d9174c5",
+      "japanese": {
+        "segments": [
+          {
+            "base": "泳",
+            "ruby": "およ"
+          },
+          {
+            "base": "ぐ"
+          }
+        ]
+      },
+      "kana_reading": "およぐ",
+      "meanings": {
+        "en": "swim",
+        "vi": "bơi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2e26793d-5a50-47c8-8666-516cf0b38061",
+      "japanese": {
+        "segments": [
+          {
+            "base": "渡",
+            "ruby": "わた"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "わたる",
+      "meanings": {
+        "en": "cross",
+        "vi": "băng qua"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "409e1e5a-fd98-4d1f-8dce-27833f72df41",
+      "japanese": {
+        "segments": [
+          {
+            "base": "過",
+            "ruby": "す"
+          },
+          {
+            "base": "ぎる"
+          }
+        ]
+      },
+      "kana_reading": "すぎる",
+      "meanings": {
+        "en": "pass; exceed",
+        "vi": "qua; vượt quá"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c17ce734-9967-4766-b375-33a2ff4a246d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "違",
+            "ruby": "ちが"
+          },
+          {
+            "base": "う"
+          }
+        ]
+      },
+      "kana_reading": "ちがう",
+      "meanings": {
+        "en": "differ",
+        "vi": "khác"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "bc45baf8-ae93-4eb7-ba9b-5d8f0d385309",
+      "japanese": {
+        "segments": [
+          {
+            "base": "慣",
+            "ruby": "な"
+          },
+          {
+            "base": "れる"
+          }
+        ]
+      },
+      "kana_reading": "なれる",
+      "meanings": {
+        "en": "get used to",
+        "vi": "quen"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2ff0f4ed-cd26-46ea-9aa3-77e36de90dea",
+      "japanese": {
+        "segments": [
+          {
+            "base": "必",
+            "ruby": "かなら"
+          },
+          {
+            "base": "ず"
+          }
+        ]
+      },
+      "kana_reading": "かならず",
+      "meanings": {
+        "en": "without fail",
+        "vi": "nhất định"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e66da41c-eea3-4118-8325-dc5d21f1b5b0",
+      "japanese": {
+        "segments": [
+          {
+            "base": "曲",
+            "ruby": "きょく"
+          }
+        ]
+      },
+      "kana_reading": "きょく",
+      "meanings": {
+        "en": "piece of music",
+        "vi": "bản nhạc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e66927d8-2dc8-446b-86cd-640e5ed3a611",
+      "japanese": {
+        "segments": [
+          {
+            "base": "気持",
+            "ruby": "きも"
+          },
+          {
+            "base": "ち"
+          }
+        ]
+      },
+      "kana_reading": "きもち",
+      "meanings": {
+        "en": "feeling",
+        "vi": "cảm giác; tâm trạng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c37dbe3d-2065-4f74-8d87-d844e54b91db",
+      "japanese": {
+        "segments": [
+          {
+            "base": "戻",
+            "ruby": "もど"
+          },
+          {
+            "base": "す"
+          }
+        ]
+      },
+      "kana_reading": "もどす",
+      "meanings": {
+        "en": "put back",
+        "vi": "trả lại chỗ cũ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 80,
+          "pdf_page_end": 83,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 36,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 36,
+    "end": 36,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 80,
+      "pdf_page_end": 83,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

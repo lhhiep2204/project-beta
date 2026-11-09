@@ -1,0 +1,39 @@
+{
+  "scope": "Draft structure, reference integrity and targeted primary source anchors only.",
+  "structure_validation": "passed",
+  "lessons": 50,
+  "vocabulary": 2212,
+  "grammar_points": 255,
+  "sentence_patterns": 278,
+  "examples": 304,
+  "dialogues": 50,
+  "source_anchors_checked": 12,
+  "source_pdf_checksums_matched": 6,
+  "negative_fixtures_rejected": 16,
+  "languages_authored": [
+    "en",
+    "vi"
+  ],
+  "release_languages_missing": [
+    "ar",
+    "bn",
+    "de",
+    "es",
+    "fr",
+    "he",
+    "hi",
+    "id",
+    "it",
+    "ko",
+    "nl",
+    "pt",
+    "ru",
+    "th",
+    "tr",
+    "uk",
+    "zh-Hans"
+  ],
+  "independent_japanese_review": "pending",
+  "translation_review": "pending",
+  "release_status": "draft_not_for_release"
+}

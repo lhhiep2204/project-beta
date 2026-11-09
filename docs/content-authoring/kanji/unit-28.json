@@ -1,0 +1,542 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "7fecc5c6-5272-4b8a-835b-4fadbdbe470b",
+  "editorial_key": "kanji_unit_28",
+  "reference_unit_number": 28,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 28: lesson 28 reading words",
+    "vi": "Kanji bài 28: từ đọc của bài 28"
+  },
+  "character_glyphs": [
+    "形",
+    "品",
+    "力",
+    "熱",
+    "心",
+    "経",
+    "景",
+    "物",
+    "験",
+    "色",
+    "眠",
+    "説",
+    "明",
+    "選",
+    "通",
+    "台",
+    "所",
+    "人",
+    "気",
+    "味",
+    "歌",
+    "手",
+    "会",
+    "話",
+    "売"
+  ],
+  "word_examples": [
+    {
+      "id": "f7f431c8-7bfb-4e98-a8b3-45c632926c74",
+      "japanese": {
+        "segments": [
+          {
+            "base": "形",
+            "ruby": "かたち"
+          }
+        ]
+      },
+      "kana_reading": "かたち",
+      "meanings": {
+        "en": "shape",
+        "vi": "hình dạng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "14b3632e-7fc8-454e-a957-bc7949514976",
+      "japanese": {
+        "segments": [
+          {
+            "base": "品物",
+            "ruby": "しなもの"
+          }
+        ]
+      },
+      "kana_reading": "しなもの",
+      "meanings": {
+        "en": "goods; article",
+        "vi": "hàng hóa; đồ vật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c2acca39-7b8a-4661-a67d-656d882f88f8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "力",
+            "ruby": "ちから"
+          }
+        ]
+      },
+      "kana_reading": "ちから",
+      "meanings": {
+        "en": "strength",
+        "vi": "sức lực"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ce5c47bc-8b5f-4265-97ab-b1908033dace",
+      "japanese": {
+        "segments": [
+          {
+            "base": "熱",
+            "ruby": "ねつ"
+          }
+        ]
+      },
+      "kana_reading": "ねつ",
+      "meanings": {
+        "en": "fever; heat",
+        "vi": "sốt; nhiệt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "06010236-6bbc-42e8-b6ef-22060e673c80",
+      "japanese": {
+        "segments": [
+          {
+            "base": "熱心",
+            "ruby": "ねっしん"
+          }
+        ]
+      },
+      "kana_reading": "ねっしん",
+      "meanings": {
+        "en": "enthusiastic",
+        "vi": "nhiệt tình"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ebbb9e71-1967-4011-b22e-fcfb2bd1ecdc",
+      "japanese": {
+        "segments": [
+          {
+            "base": "経験",
+            "ruby": "けいけん"
+          }
+        ]
+      },
+      "kana_reading": "けいけん",
+      "meanings": {
+        "en": "experience",
+        "vi": "kinh nghiệm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2577bbe1-beef-4612-8a6d-7cf118483ac7",
+      "japanese": {
+        "segments": [
+          {
+            "base": "景色",
+            "ruby": "けしき"
+          }
+        ]
+      },
+      "kana_reading": "けしき",
+      "meanings": {
+        "en": "scenery",
+        "vi": "phong cảnh"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ccb8875f-2ec0-469c-a1e1-82c256eec7c0",
+      "japanese": {
+        "segments": [
+          {
+            "base": "色",
+            "ruby": "いろ"
+          }
+        ]
+      },
+      "kana_reading": "いろ",
+      "meanings": {
+        "en": "color",
+        "vi": "màu"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "225d778d-020d-401f-9d50-1c82e301e16e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "眠",
+            "ruby": "ねむ"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "ねむい",
+      "meanings": {
+        "en": "sleepy",
+        "vi": "buồn ngủ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a34cb7e5-fc9a-414d-a058-fc33a62d7cd6",
+      "japanese": {
+        "segments": [
+          {
+            "base": "説明",
+            "ruby": "せつめい"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "せつめいする",
+      "meanings": {
+        "en": "explain",
+        "vi": "giải thích"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6c8c1825-b012-41be-93a8-c918ac57748a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "選",
+            "ruby": "えら"
+          },
+          {
+            "base": "ぶ"
+          }
+        ]
+      },
+      "kana_reading": "えらぶ",
+      "meanings": {
+        "en": "choose",
+        "vi": "chọn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6f29a701-62af-48ee-9312-76395c2ecc89",
+      "japanese": {
+        "segments": [
+          {
+            "base": "通",
+            "ruby": "かよ"
+          },
+          {
+            "base": "う"
+          }
+        ]
+      },
+      "kana_reading": "かよう",
+      "meanings": {
+        "en": "commute; attend regularly",
+        "vi": "đi lại thường xuyên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d595d7bc-ce0e-4c8f-8b6a-26c13ecc8f35",
+      "japanese": {
+        "segments": [
+          {
+            "base": "台所",
+            "ruby": "だいどころ"
+          }
+        ]
+      },
+      "kana_reading": "だいどころ",
+      "meanings": {
+        "en": "kitchen",
+        "vi": "nhà bếp"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "91cf8c76-012f-454b-b8e6-63b7d7ab6bde",
+      "japanese": {
+        "segments": [
+          {
+            "base": "人気",
+            "ruby": "にんき"
+          }
+        ]
+      },
+      "kana_reading": "にんき",
+      "meanings": {
+        "en": "popularity",
+        "vi": "sự yêu thích; nổi tiếng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0e773cb4-15fe-4270-809b-0c3d31c6dcf5",
+      "japanese": {
+        "segments": [
+          {
+            "base": "味",
+            "ruby": "あじ"
+          }
+        ]
+      },
+      "kana_reading": "あじ",
+      "meanings": {
+        "en": "taste",
+        "vi": "vị"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "aa967554-f2e5-43ee-8d43-16ace579555a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "歌手",
+            "ruby": "かしゅ"
+          }
+        ]
+      },
+      "kana_reading": "かしゅ",
+      "meanings": {
+        "en": "singer",
+        "vi": "ca sĩ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e96c7038-1c00-4621-8e08-21fb0f0e0681",
+      "japanese": {
+        "segments": [
+          {
+            "base": "会話",
+            "ruby": "かいわ"
+          }
+        ]
+      },
+      "kana_reading": "かいわ",
+      "meanings": {
+        "en": "conversation",
+        "vi": "hội thoại"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "717990e5-947b-483c-a58e-2285a221a8ca",
+      "japanese": {
+        "segments": [
+          {
+            "base": "売",
+            "ruby": "う"
+          },
+          {
+            "base": "れる"
+          }
+        ]
+      },
+      "kana_reading": "うれる",
+      "meanings": {
+        "en": "sell well; be sold",
+        "vi": "bán được"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 44,
+          "pdf_page_end": 47,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 28,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 28,
+    "end": 28,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 44,
+      "pdf_page_end": 47,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

@@ -1,0 +1,1946 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_lesson_sample",
+  "id": "84cfdfc9-d274-4203-b5e2-5efc80a258ca",
+  "editorial_key": "lesson_25_communication",
+  "reference_lesson_number": 25,
+  "source_level_label": "N5",
+  "title": {
+    "en": "Conditions and concessions",
+    "vi": "Điều kiện và nhượng bộ"
+  },
+  "language_coverage": {
+    "authored": [
+      "en",
+      "vi"
+    ],
+    "required_for_release": [
+      "ar",
+      "bn",
+      "zh-Hans",
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "he",
+      "hi",
+      "id",
+      "it",
+      "ko",
+      "pt",
+      "ru",
+      "es",
+      "th",
+      "tr",
+      "uk",
+      "vi"
+    ],
+    "missing_for_release": [
+      "ar",
+      "bn",
+      "zh-Hans",
+      "nl",
+      "fr",
+      "de",
+      "he",
+      "hi",
+      "id",
+      "it",
+      "ko",
+      "pt",
+      "ru",
+      "es",
+      "th",
+      "tr",
+      "uk"
+    ]
+  },
+  "review_state": {
+    "primary_source_comparison": "completed_for_listed_forms_and_grammar_topics",
+    "independent_japanese_review": "pending",
+    "translation_review": "pending",
+    "release_status": "draft_not_for_release",
+    "runtime_format_adoption": "not_selected"
+  },
+  "coverage": {
+    "status": "authored_lesson_reference_topics_complete",
+    "included": [
+      "All common vocabulary from the two vocabulary pages, including useful introductory/dialogue phrases",
+      "All grammar topic groups from the lesson grammar notes",
+      "Newly authored explanations, examples and dialogue in Japanese with Vietnamese/English translations",
+      "Contextual ruby and source lesson/unit links",
+      "Proper names on the two assigned vocabulary pages are in scope under B-U-59; retain source identity and contextual readings."
+    ],
+    "omitted": [
+      "Publisher-specific invented names omitted: none on these two vocabulary pages; invented names in grammar examples are not vocabulary entries",
+      "Textbook dialogue wording, reading passages, exercises and answer keys",
+      "Other 17 approved release languages in this Vietnamese/English-first batch"
+    ]
+  },
+  "source_refs": [
+    {
+      "source_id": "N5_MAIN",
+      "pdf_page_start": 228,
+      "pdf_page_end": 235,
+      "basis": "lesson_topic_alignment"
+    },
+    {
+      "source_id": "N5_GRAMMAR",
+      "pdf_page_start": 173,
+      "pdf_page_end": 178,
+      "basis": "lexical_and_grammar_alignment"
+    }
+  ],
+  "kanji_reference_units": [
+    "REF_KANJI_UNIT_20"
+  ],
+  "vocabulary": [
+    {
+      "id": "d463352f-282c-419f-8fce-97d9cf83fbd7",
+      "editorial_key": "word_001",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "考",
+                "ruby": "かんが"
+              },
+              {
+                "base": "えます"
+              }
+            ]
+          },
+          "kana_reading": "かんがえます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "think over",
+            "vi": "suy nghĩ"
+          }
+        }
+      ],
+      "usage": {
+        "vi": "Học cùng trợ từ và ngữ cảnh trong câu ví dụ; nhóm chia được ghi riêng với dạng từ điển.",
+        "en": "Learn this with its particles and sentence context; the conjugation group and dictionary form are recorded separately."
+      },
+      "search_aliases": {
+        "romaji": [
+          "kangaemasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "II",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "考",
+                "ruby": "かんが"
+              },
+              {
+                "base": "える"
+              }
+            ]
+          },
+          "kana_reading": "かんがえる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "aee7a60b-f7bf-4537-90be-a0832f4d6567",
+      "editorial_key": "word_002",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "着",
+                "ruby": "つ"
+              },
+              {
+                "base": "きます"
+              }
+            ]
+          },
+          "kana_reading": "つきます",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "arrive",
+            "vi": "đến nơi"
+          }
+        }
+      ],
+      "usage": {
+        "vi": "Học cùng trợ từ và ngữ cảnh trong câu ví dụ; nhóm chia được ghi riêng với dạng từ điển.",
+        "en": "Learn this with its particles and sentence context; the conjugation group and dictionary form are recorded separately."
+      },
+      "search_aliases": {
+        "romaji": [
+          "tsukimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "着",
+                "ruby": "つ"
+              },
+              {
+                "base": "く"
+              }
+            ]
+          },
+          "kana_reading": "つく"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "4003c35a-c080-4651-b01d-18c2fe15a048",
+      "editorial_key": "word_003",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "取",
+                "ruby": "と"
+              },
+              {
+                "base": "ります"
+              }
+            ]
+          },
+          "kana_reading": "とります",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "grow older",
+            "vi": "thêm tuổi"
+          }
+        }
+      ],
+      "usage": {
+        "vi": "Học theo cụm để nói thêm tuổi. としをとります。",
+        "en": "Learn this phrase for growing older. としをとります。"
+      },
+      "search_aliases": {
+        "romaji": [
+          "torimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "取",
+                "ruby": "と"
+              },
+              {
+                "base": "る"
+              }
+            ]
+          },
+          "kana_reading": "とる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "318e9f6c-0dff-4103-8400-e6035c6c12c4",
+      "editorial_key": "word_004",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "足",
+                "ruby": "た"
+              },
+              {
+                "base": "ります"
+              }
+            ]
+          },
+          "kana_reading": "たります",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "be sufficient",
+            "vi": "đủ"
+          }
+        }
+      ],
+      "usage": {
+        "vi": "Học cùng trợ từ và ngữ cảnh trong câu ví dụ; nhóm chia được ghi riêng với dạng từ điển.",
+        "en": "Learn this with its particles and sentence context; the conjugation group and dictionary form are recorded separately."
+      },
+      "search_aliases": {
+        "romaji": [
+          "tarimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "II",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "足",
+                "ruby": "た"
+              },
+              {
+                "base": "りる"
+              }
+            ]
+          },
+          "kana_reading": "たりる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "234a3e67-d4a6-41f0-945d-5970cc2ce574",
+      "editorial_key": "word_005",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "田舎",
+                "ruby": "いなか"
+              }
+            ]
+          },
+          "kana_reading": "いなか",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "countryside",
+            "vi": "nông thôn"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "inaka"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d3b45ea4-e351-4d6e-8865-ef062115eef1",
+      "editorial_key": "word_006",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "チャンス"
+              }
+            ]
+          },
+          "kana_reading": "チャンス",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "opportunity",
+            "vi": "cơ hội"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "chansu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e8075ad5-475a-4ddd-8013-1b73823a5f3a",
+      "editorial_key": "word_007",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "億",
+                "ruby": "おく"
+              }
+            ]
+          },
+          "kana_reading": "おく",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "hundred million",
+            "vi": "trăm triệu"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "oku"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d6bb24db-3e36-437f-9698-4e481228c033",
+      "editorial_key": "word_008",
+      "entry_type": "adverb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "もし"
+              }
+            ]
+          },
+          "kana_reading": "もし",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "if;  hypothetical cue",
+            "vi": "nếu"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "moshi"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "182baf50-0f8f-473d-9668-cd18a74575cb",
+      "editorial_key": "word_009",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "意味",
+                "ruby": "いみ"
+              }
+            ]
+          },
+          "kana_reading": "いみ",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "meaning",
+            "vi": "ý nghĩa"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "imi"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4b1ee100-64ec-4288-932b-42b53620a55d",
+      "editorial_key": "word_010",
+      "entry_type": "expression",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "もしもし"
+              }
+            ]
+          },
+          "kana_reading": "もしもし",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "hello;  on telephone",
+            "vi": "a lô"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "moshimoshi"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "8835c017-b2d1-4a91-a400-e3c7f37e5985",
+      "editorial_key": "word_011",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "転勤",
+                "ruby": "てんきん"
+              }
+            ]
+          },
+          "kana_reading": "てんきん",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "job transfer",
+            "vi": "chuyển công tác"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "tenkin"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "cda19842-829f-48f9-9484-dc2ca1687b35",
+      "editorial_key": "word_012",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "こと"
+              }
+            ]
+          },
+          "kana_reading": "こと",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "matter",
+            "vi": "việc"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "koto"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2bd38a83-779b-44b4-9dc4-6d406c6406a6",
+      "editorial_key": "word_013",
+      "entry_type": "noun",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "暇",
+                "ruby": "ひま"
+              }
+            ]
+          },
+          "kana_reading": "ひま",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "free time",
+            "vi": "thời gian rảnh"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "hima"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "170c92c1-9839-498e-a270-45d1dbe33d38",
+      "editorial_key": "word_014",
+      "entry_type": "expression",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "いろいろお"
+              },
+              {
+                "base": "世話",
+                "ruby": "せわ"
+              },
+              {
+                "base": "になりました"
+              }
+            ]
+          },
+          "kana_reading": "いろいろおせわになりました",
+          "register": "neutral"
+        },
+        {
+          "key": "without_degree",
+          "japanese": {
+            "segments": [
+              {
+                "base": "お"
+              },
+              {
+                "base": "世話",
+                "ruby": "せわ"
+              },
+              {
+                "base": "になりました"
+              }
+            ]
+          },
+          "kana_reading": "おせわになりました",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard",
+            "without_degree"
+          ],
+          "text": {
+            "en": "thank you for all your support",
+            "vi": "cảm ơn vì mọi sự giúp đỡ"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "iroiroosewaninarimashita",
+          "osewaninarimashita"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "234277bb-df08-4efa-82b1-12131003e0e4",
+      "editorial_key": "word_015",
+      "entry_type": "verb",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "頑張",
+                "ruby": "がんば"
+              },
+              {
+                "base": "ります"
+              }
+            ]
+          },
+          "kana_reading": "がんばります",
+          "register": "polite"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "do one's best",
+            "vi": "cố gắng"
+          }
+        }
+      ],
+      "usage": {
+        "vi": "Học cùng trợ từ và ngữ cảnh trong câu ví dụ; nhóm chia được ghi riêng với dạng từ điển.",
+        "en": "Learn this with its particles and sentence context; the conjugation group and dictionary form are recorded separately."
+      },
+      "search_aliases": {
+        "romaji": [
+          "ganbarimasu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item",
+      "verb_group": "I",
+      "dictionary_forms": [
+        {
+          "form_key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "頑張",
+                "ruby": "がんば"
+              },
+              {
+                "base": "る"
+              }
+            ]
+          },
+          "kana_reading": "がんばる"
+        }
+      ],
+      "dictionary_form_method": "editorial_conjugation_from_source_polite_form_primary_checked"
+    },
+    {
+      "id": "cd97a1ef-3d1d-4ec3-8eed-4c919c50c35c",
+      "editorial_key": "word_016",
+      "entry_type": "expression",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "どうぞお"
+              },
+              {
+                "base": "元気",
+                "ruby": "げんき"
+              },
+              {
+                "base": "で"
+              }
+            ]
+          },
+          "kana_reading": "どうぞおげんきで",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "take good care of yourself",
+            "vi": "chúc anh chị mạnh khỏe"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "douzoogenkide"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f7d4182f-8db0-47c5-bde7-f49e25e8816d",
+      "editorial_key": "word_017",
+      "entry_type": "place_name",
+      "forms": [
+        {
+          "key": "standard",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ベトナム"
+              }
+            ]
+          },
+          "kana_reading": "ベトナム",
+          "register": "neutral"
+        }
+      ],
+      "meanings": [
+        {
+          "form_keys": [
+            "standard"
+          ],
+          "text": {
+            "en": "Vietnam",
+            "vi": "Việt Nam"
+          }
+        }
+      ],
+      "usage": {
+        "en": "",
+        "vi": ""
+      },
+      "search_aliases": {
+        "romaji": [
+          "betonamu"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "basis": "lexical_form_and_reading"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "grammar_points": [
+    {
+      "id": "5db51e0e-fd30-4991-a01c-e15a0f6a0d6e",
+      "editorial_key": "topic_1",
+      "title": {
+        "en": "Hypothetical conditions with たら",
+        "vi": "Điều kiện giả định với たら"
+      },
+      "explanation": {
+        "en": "Add ら to a plain past form to make a condition: verb たら, い-adjective かったら, noun or な-adjective だったら. The main clause can state a result, wish, invitation or request.",
+        "vi": "Thêm ら sau dạng thông thường quá khứ để đặt điều kiện: động từ たら, tính từ い かったら, danh từ／な だったら. Mệnh đề chính nêu kết quả, mong muốn, lời mời hoặc yêu cầu."
+      },
+      "notes": {
+        "en": "The past-form base does not mean the condition already happened in the past.",
+        "vi": "Dạng quá khứ tạo điều kiện không có nghĩa điều kiện đã xảy ra trong quá khứ."
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 177,
+          "pdf_page_end": 178,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "1",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "e219399c-6e33-4299-8388-fc5b0856697d",
+      "editorial_key": "topic_2",
+      "title": {
+        "en": "Once an action is complete with たら",
+        "vi": "Khi đã xong một việc với たら"
+      },
+      "explanation": {
+        "en": "Vたら can also mean that once an action or expected milestone is complete, the next action follows.",
+        "vi": "Vたら còn nói sau khi một hành động hay mốc chắc chắn hoàn tất thì làm việc tiếp theo."
+      },
+      "notes": {
+        "en": "The next action follows that completion point; this is not a loose activity list.",
+        "vi": "Chọn hành động tiếp theo xảy ra sau mốc đó, không hiểu như liệt kê chung."
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 177,
+          "pdf_page_end": 178,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "2",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "132deb3b-3797-41d5-836d-0ac1248aa251",
+      "editorial_key": "topic_3",
+      "title": {
+        "en": "Concession with ても",
+        "vi": "Dù… vẫn… với ても"
+      },
+      "explanation": {
+        "en": "て-form + も says the result holds despite a condition that might suggest otherwise. Negative verbs use なくても, い-adjectives くても, and nouns or な-adjectives でも.",
+        "vi": "Thể て + も nói kết quả vẫn giữ dù điều kiện ngược dự đoán. Phủ định động từ dùng なくても; tính từ い dùng くても; danh từ và な dùng でも."
+      },
+      "notes": {
+        "en": "Distinguish concessive ても from permission expressed by てもいい.",
+        "vi": "Phân biệt ても nghĩa nhượng bộ với てもいい là cho phép."
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 177,
+          "pdf_page_end": 178,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "3",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "3bdf24ec-adf4-44ed-876c-125db7374d03",
+      "editorial_key": "topic_4",
+      "title": {
+        "en": "Emphasize a supposition with もし",
+        "vi": "Nhấn mạnh giả định bằng もし"
+      },
+      "explanation": {
+        "en": "もし often introduces a たら condition to make the hypothetical nature explicit.",
+        "vi": "もし thường đứng đầu câu điều kiện たら để báo rõ người nói đang giả sử một tình huống."
+      },
+      "notes": {
+        "en": "もし alone does not complete the condition; the appropriate conditional form is still required.",
+        "vi": "もし không tự hoàn thành câu điều kiện; vẫn cần dạng điều kiện thích hợp."
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 177,
+          "pdf_page_end": 178,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "4",
+      "origin": "independently_authored"
+    },
+    {
+      "id": "534d5329-6515-42a1-8a0f-5b7236780f8f",
+      "editorial_key": "topic_5",
+      "title": {
+        "en": "Subjects of subordinate clauses with が",
+        "vi": "Chủ ngữ mệnh đề phụ với が"
+      },
+      "explanation": {
+        "en": "A separate subject in たら, ても and many subordinate clauses such as とき and まえに normally takes が.",
+        "vi": "Chủ ngữ riêng trong mệnh đề たら、ても và nhiều mệnh đề phụ như とき、まえに thường dùng が."
+      },
+      "notes": {
+        "en": "は can add a different topical or contrastive meaning; the basic pattern here uses が.",
+        "vi": "は có thể tạo nghĩa chủ đề hoặc đối chiếu khác; mẫu cơ bản ở đây dùng が."
+      },
+      "source_refs": [
+        {
+          "source_id": "N5_GRAMMAR",
+          "pdf_page_start": 177,
+          "pdf_page_end": 178,
+          "basis": "grammar_knowledge_alignment"
+        }
+      ],
+      "source_topic_group": "5",
+      "origin": "independently_authored"
+    }
+  ],
+  "sentence_patterns": [
+    {
+      "id": "20eecd88-2bb3-4773-a9ec-fa2db8ba3b12",
+      "editorial_key": "topic_1",
+      "grammar_point_id": "5db51e0e-fd30-4991-a01c-e15a0f6a0d6e",
+      "slots": [
+        {
+          "key": "condition_tara",
+          "kind": "clause",
+          "label": {
+            "en": "たら condition formed from a verb, adjective or noun",
+            "vi": "điều kiện たら của động từ, tính từ hoặc danh từ"
+          }
+        },
+        {
+          "key": "clause",
+          "kind": "clause",
+          "label": {
+            "en": "appropriate clause",
+            "vi": "mệnh đề phù hợp"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "condition_tara"
+            },
+            {
+              "kind": "literal",
+              "value": "、"
+            },
+            {
+              "kind": "slot",
+              "value": "clause"
+            },
+            {
+              "kind": "literal",
+              "value": "。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1691d8e-c36f-49d0-9586-443e7e98e156",
+      "editorial_key": "topic_2",
+      "grammar_point_id": "e219399c-6e33-4299-8388-fc5b0856697d",
+      "slots": [
+        {
+          "key": "verb_tara_form",
+          "kind": "verb_tara_form",
+          "label": {
+            "en": "verb in たら-form",
+            "vi": "động từ thể たら"
+          }
+        },
+        {
+          "key": "clause",
+          "kind": "clause",
+          "label": {
+            "en": "appropriate clause",
+            "vi": "mệnh đề phù hợp"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "verb_tara_form"
+            },
+            {
+              "kind": "literal",
+              "value": "、"
+            },
+            {
+              "kind": "slot",
+              "value": "clause"
+            },
+            {
+              "kind": "literal",
+              "value": "。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eb31ae28-2b90-466c-8237-bbf261ed9bed",
+      "editorial_key": "topic_3",
+      "grammar_point_id": "132deb3b-3797-41d5-836d-0ac1248aa251",
+      "slots": [
+        {
+          "key": "condition_te",
+          "kind": "phrase",
+          "label": {
+            "en": "appropriate phrase",
+            "vi": "cụm từ phù hợp"
+          }
+        },
+        {
+          "key": "clause",
+          "kind": "clause",
+          "label": {
+            "en": "appropriate clause",
+            "vi": "mệnh đề phù hợp"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "condition_te"
+            },
+            {
+              "kind": "literal",
+              "value": "も、"
+            },
+            {
+              "kind": "slot",
+              "value": "clause"
+            },
+            {
+              "kind": "literal",
+              "value": "。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "77995339-eec3-4ffb-9466-40257d5efbff",
+      "editorial_key": "topic_4",
+      "grammar_point_id": "3bdf24ec-adf4-44ed-876c-125db7374d03",
+      "slots": [
+        {
+          "key": "condition_tara",
+          "kind": "clause",
+          "label": {
+            "en": "たら condition formed from a verb, adjective or noun",
+            "vi": "điều kiện たら của động từ, tính từ hoặc danh từ"
+          }
+        },
+        {
+          "key": "clause",
+          "kind": "clause",
+          "label": {
+            "en": "appropriate clause",
+            "vi": "mệnh đề phù hợp"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "literal",
+              "value": "もし"
+            },
+            {
+              "kind": "slot",
+              "value": "condition_tara"
+            },
+            {
+              "kind": "literal",
+              "value": "、"
+            },
+            {
+              "kind": "slot",
+              "value": "clause"
+            },
+            {
+              "kind": "literal",
+              "value": "。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9f2a5a86-4e7f-4d4e-90b3-e4dee09621ed",
+      "editorial_key": "topic_5",
+      "grammar_point_id": "534d5329-6515-42a1-8a0f-5b7236780f8f",
+      "slots": [
+        {
+          "key": "subject",
+          "kind": "phrase",
+          "label": {
+            "en": "appropriate phrase",
+            "vi": "cụm từ phù hợp"
+          }
+        },
+        {
+          "key": "condition_tara",
+          "kind": "clause",
+          "label": {
+            "en": "たら condition formed from a verb, adjective or noun",
+            "vi": "điều kiện たら của động từ, tính từ hoặc danh từ"
+          }
+        },
+        {
+          "key": "clause",
+          "kind": "clause",
+          "label": {
+            "en": "appropriate clause",
+            "vi": "mệnh đề phù hợp"
+          }
+        }
+      ],
+      "origin": "independently_authored",
+      "templates": [
+        {
+          "key": "standard",
+          "pieces": [
+            {
+              "kind": "slot",
+              "value": "subject"
+            },
+            {
+              "kind": "literal",
+              "value": "が"
+            },
+            {
+              "kind": "slot",
+              "value": "condition_tara"
+            },
+            {
+              "kind": "literal",
+              "value": "、"
+            },
+            {
+              "kind": "slot",
+              "value": "clause"
+            },
+            {
+              "kind": "literal",
+              "value": "。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "87c0b1c3-2890-487d-9b78-977afcf0b539",
+      "editorial_key": "topic_1_1",
+      "pattern_id": "20eecd88-2bb3-4773-a9ec-fa2db8ba3b12",
+      "grammar_point_ids": [
+        "5db51e0e-fd30-4991-a01c-e15a0f6a0d6e"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "天気",
+            "ruby": "てんき"
+          },
+          {
+            "base": "がよかったら、"
+          },
+          {
+            "base": "散歩",
+            "ruby": "さんぽ"
+          },
+          {
+            "base": "しましょう。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "If the weather is good, let’s go for a walk.",
+        "vi": "Nếu trời đẹp, chúng ta đi dạo nhé."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "245bb6ad-ead0-4801-b434-bb5c2d18a36a",
+      "editorial_key": "topic_2_1",
+      "pattern_id": "a1691d8e-c36f-49d0-9586-443e7e98e156",
+      "grammar_point_ids": [
+        "e219399c-6e33-4299-8388-fc5b0856697d"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "駅",
+            "ruby": "えき"
+          },
+          {
+            "base": "に"
+          },
+          {
+            "base": "着",
+            "ruby": "つ"
+          },
+          {
+            "base": "いたら、"
+          },
+          {
+            "base": "電話",
+            "ruby": "でんわ"
+          },
+          {
+            "base": "してください。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Please call me when you arrive at the station.",
+        "vi": "Đến ga rồi hãy gọi điện nhé."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "9150b96a-195e-46ba-a594-a491162692b3",
+      "editorial_key": "topic_3_1",
+      "pattern_id": "eb31ae28-2b90-466c-8237-bbf261ed9bed",
+      "grammar_point_ids": [
+        "132deb3b-3797-41d5-836d-0ac1248aa251"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "忙",
+            "ruby": "いそが"
+          },
+          {
+            "base": "しくても、"
+          },
+          {
+            "base": "毎日",
+            "ruby": "まいにち"
+          },
+          {
+            "base": "、"
+          },
+          {
+            "base": "日本語",
+            "ruby": "にほんご"
+          },
+          {
+            "base": "を"
+          },
+          {
+            "base": "勉強",
+            "ruby": "べんきょう"
+          },
+          {
+            "base": "します。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "Even when I am busy, I study Japanese every day.",
+        "vi": "Dù bận tôi vẫn học tiếng Nhật mỗi ngày."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "45ff693e-1313-451e-9246-ef1904c3d7fd",
+      "editorial_key": "topic_4_1",
+      "pattern_id": "77995339-eec3-4ffb-9466-40257d5efbff",
+      "grammar_point_ids": [
+        "3bdf24ec-adf4-44ed-876c-125db7374d03"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "もし"
+          },
+          {
+            "base": "時間",
+            "ruby": "じかん"
+          },
+          {
+            "base": "があったら、"
+          },
+          {
+            "base": "遊",
+            "ruby": "あそ"
+          },
+          {
+            "base": "びに"
+          },
+          {
+            "base": "来",
+            "ruby": "き"
+          },
+          {
+            "base": "てください。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "If you have time, please come and visit.",
+        "vi": "Nếu có thời gian, hãy đến chơi nhé."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    },
+    {
+      "id": "db7caaa1-e20b-48af-9100-90f51d8510fb",
+      "editorial_key": "topic_5_1",
+      "pattern_id": "9f2a5a86-4e7f-4d4e-90b3-e4dee09621ed",
+      "grammar_point_ids": [
+        "534d5329-6515-42a1-8a0f-5b7236780f8f"
+      ],
+      "japanese": {
+        "segments": [
+          {
+            "base": "友達",
+            "ruby": "ともだち"
+          },
+          {
+            "base": "が"
+          },
+          {
+            "base": "来",
+            "ruby": "き"
+          },
+          {
+            "base": "たら、いっしょに"
+          },
+          {
+            "base": "食事",
+            "ruby": "しょくじ"
+          },
+          {
+            "base": "します。"
+          }
+        ]
+      },
+      "translation": {
+        "en": "If my friend comes, we will have a meal together.",
+        "vi": "Nếu bạn đến thì chúng tôi sẽ ăn cùng nhau."
+      },
+      "origin": "independently_authored",
+      "pattern_variant_key": "standard"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "fcbf96d1-a572-4cb8-927b-c51d58d5b51c",
+      "editorial_key": "original_exchange",
+      "title": {
+        "en": "Getting ready for a trip",
+        "vi": "Chuẩn bị trước chuyến đi"
+      },
+      "scenario": {
+        "en": "The speakers prepare for a trip and consider what to do if it rains.",
+        "vi": "Hai người chuẩn bị một chuyến đi và nghĩ phương án nếu mưa."
+      },
+      "characters": [
+        {
+          "key": "linh",
+          "display_name": {
+            "segments": [
+              {
+                "base": "リン"
+              }
+            ]
+          },
+          "description": {
+            "en": "Linh, a fictional character",
+            "vi": "Linh, nhân vật hư cấu"
+          }
+        },
+        {
+          "key": "aki",
+          "display_name": {
+            "segments": [
+              {
+                "base": "アキ"
+              }
+            ]
+          },
+          "description": {
+            "en": "Aki, a fictional character",
+            "vi": "Aki, nhân vật hư cấu"
+          }
+        }
+      ],
+      "turns": [
+        {
+          "speaker_key": "linh",
+          "japanese": {
+            "segments": [
+              {
+                "base": "明日",
+                "ruby": "あした"
+              },
+              {
+                "base": "、もし"
+              },
+              {
+                "base": "雨",
+                "ruby": "あめ"
+              },
+              {
+                "base": "が"
+              },
+              {
+                "base": "降",
+                "ruby": "ふ"
+              },
+              {
+                "base": "ったら、どうしますか。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "What will we do if it rains tomorrow?",
+            "vi": "Ngày mai nếu trời mưa thì làm gì?"
+          },
+          "grammar_point_ids": [
+            "5db51e0e-fd30-4991-a01c-e15a0f6a0d6e",
+            "3bdf24ec-adf4-44ed-876c-125db7374d03"
+          ]
+        },
+        {
+          "speaker_key": "aki",
+          "japanese": {
+            "segments": [
+              {
+                "base": "雨",
+                "ruby": "あめ"
+              },
+              {
+                "base": "でも、"
+              },
+              {
+                "base": "行",
+                "ruby": "い"
+              },
+              {
+                "base": "きたいです。"
+              },
+              {
+                "base": "美術館",
+                "ruby": "びじゅつかん"
+              },
+              {
+                "base": "を"
+              },
+              {
+                "base": "見",
+                "ruby": "み"
+              },
+              {
+                "base": "ましょう。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "I still want to go even if it rains. Let’s visit the art museum.",
+            "vi": "Dù mưa tôi vẫn muốn đi. Chúng ta xem bảo tàng mỹ thuật nhé."
+          },
+          "grammar_point_ids": [
+            "132deb3b-3797-41d5-836d-0ac1248aa251"
+          ]
+        },
+        {
+          "speaker_key": "linh",
+          "japanese": {
+            "segments": [
+              {
+                "base": "いいですね。"
+              },
+              {
+                "base": "駅",
+                "ruby": "えき"
+              },
+              {
+                "base": "に"
+              },
+              {
+                "base": "着",
+                "ruby": "つ"
+              },
+              {
+                "base": "いたら、"
+              },
+              {
+                "base": "電話",
+                "ruby": "でんわ"
+              },
+              {
+                "base": "してください。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Good idea. Please call me when you arrive at the station.",
+            "vi": "Hay đấy. Đến ga rồi gọi cho tôi nhé."
+          },
+          "grammar_point_ids": [
+            "e219399c-6e33-4299-8388-fc5b0856697d"
+          ]
+        },
+        {
+          "speaker_key": "aki",
+          "japanese": {
+            "segments": [
+              {
+                "base": "わかりました。"
+              },
+              {
+                "base": "時間",
+                "ruby": "じかん"
+              },
+              {
+                "base": "があったら、"
+              },
+              {
+                "base": "昼",
+                "ruby": "ひる"
+              },
+              {
+                "base": "ごはんもいっしょに"
+              },
+              {
+                "base": "食",
+                "ruby": "た"
+              },
+              {
+                "base": "べませんか。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Understood. If we have time, shall we have lunch together too?",
+            "vi": "Tôi hiểu rồi. Nếu có thời gian, ăn trưa cùng nhau nhé?"
+          },
+          "grammar_point_ids": [
+            "5db51e0e-fd30-4991-a01c-e15a0f6a0d6e",
+            "534d5329-6515-42a1-8a0f-5b7236780f8f"
+          ]
+        },
+        {
+          "speaker_key": "linh",
+          "japanese": {
+            "segments": [
+              {
+                "base": "ええ。"
+              },
+              {
+                "base": "雨",
+                "ruby": "あめ"
+              },
+              {
+                "base": "が"
+              },
+              {
+                "base": "降",
+                "ruby": "ふ"
+              },
+              {
+                "base": "っても、"
+              },
+              {
+                "base": "駅",
+                "ruby": "えき"
+              },
+              {
+                "base": "のレストランで"
+              },
+              {
+                "base": "食",
+                "ruby": "た"
+              },
+              {
+                "base": "べましょう。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Yes. Even if it rains, let’s eat at the restaurant in the station.",
+            "vi": "Vâng. Dù trời mưa, chúng ta vẫn ăn ở nhà hàng tại ga nhé."
+          },
+          "grammar_point_ids": [
+            "132deb3b-3797-41d5-836d-0ac1248aa251"
+          ]
+        },
+        {
+          "speaker_key": "aki",
+          "japanese": {
+            "segments": [
+              {
+                "base": "じゃ、"
+              },
+              {
+                "base": "準備",
+                "ruby": "じゅんび"
+              },
+              {
+                "base": "ができたら、メールを"
+              },
+              {
+                "base": "送",
+                "ruby": "おく"
+              },
+              {
+                "base": "ります。"
+              }
+            ]
+          },
+          "translation": {
+            "en": "Then I will email you once I am ready.",
+            "vi": "Vậy chuẩn bị xong tôi sẽ gửi email."
+          },
+          "grammar_point_ids": [
+            "e219399c-6e33-4299-8388-fc5b0856697d",
+            "534d5329-6515-42a1-8a0f-5b7236780f8f"
+          ]
+        }
+      ],
+      "source_refs": [
+        {
+          "source_id": "N5_MAIN",
+          "pdf_page_start": 229,
+          "pdf_page_end": 229,
+          "basis": "dialogue_skill_alignment"
+        }
+      ],
+      "origin": "independently_authored"
+    }
+  ]
+}

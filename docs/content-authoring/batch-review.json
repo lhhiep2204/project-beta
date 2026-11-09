@@ -1,0 +1,1325 @@
+{
+  "review_id": "PB-EDITORIAL-BATCH-20261107",
+  "date": "2026-11-07",
+  "status": "authored_complete_with_owner_confirmed_source_corrections",
+  "authority": [
+    "B-U-51",
+    "B-U-52",
+    "B-U-53",
+    "B-U-54",
+    "B-U-55",
+    "B-U-56",
+    "B-U-57"
+  ],
+  "baseline_identity": "PB-BATCH-DELEGATION-20261107",
+  "baseline_manifest": "/tmp/project-beta-batch-authoring-20261106/delegation-baseline-manifest.json",
+  "counts": {
+    "vocabulary": 2212,
+    "grammar_points": 255,
+    "sentence_patterns": 278,
+    "examples": 304,
+    "dialogues": 50,
+    "lessons": 50,
+    "kanji_units": 50,
+    "kanji_characters": 536,
+    "dialogue_turns": 257,
+    "kanji_word_occurrences": 2324
+  },
+  "languages_authored": [
+    "en",
+    "vi"
+  ],
+  "other_release_languages": "17 remain unauthored in this batch",
+  "review_method": [
+    "Disjoint JSON authoring by four agents, source-image self-review and bounded cross-agent semantic review. Primary owns integration, source-issue decisions, tooling and readable output.",
+    "Source OCR is diagnostic only. Both vocabulary pages of every lesson were visually reread by their author; grammar group coverage is recorded per lesson.",
+    "Cross-agent review scanned grammar, examples/dialogues, lexical metadata, verb/dictionary pairs and Kanji inventories, with specified source spot checks. It is not independent human certification.",
+    "Primary reconciled linked-template diagnostics and applied corrections with UUID preservation; targeted peer rechecks cover the changed content.",
+    "All six original PDF hashes, source bounds, 50/50 coverage,536master numbers, contextual kana/ruby, IDs and relationship objects are checked structurally."
+  ],
+  "coverage_record": "batch-source-coverage.json",
+  "closed_findings": [
+    {
+      "id": "N5-TRANSPORT",
+      "resolution": "L24 dialogue translation now transports the table rather than the speaker.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "N5-EVENT-TITLE",
+      "resolution": "L21 labels the event-location construction で + あります rather than the formal copula.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "N5-INVITATION",
+      "resolution": "L20 written invitation uses question punctuation.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "N5-NUMERIC-RUBY",
+      "resolution": "L3 annotates 3階 asさんがい.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "N5-CONDITIONAL-TYPING",
+      "resolution": "L25 condition slots cover verb/adjective/noun families; the specifically verbal completion form remains separately typed.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "N5-CONTRASTED-PATTERNS",
+      "resolution": "L18 noun/verb before, L23 dictionary/pastとき, and L24 three benefactives have matching separate patterns.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "N5-FINAL-PATTERN-LINKS",
+      "resolution": "L9 omitted topic, L16どれ/どの, L22negative and L24explicit-recipient past each link the actual example form.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "N5-FORM-SENSES",
+      "resolution": "L2 gratitude intensity, L6 general/tomorrow farewell and L9 connective/standalone regret have form-specific meanings.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "N5-EXPRESSION-CATEGORIES",
+      "resolution": "Corrected30 bounded lexical categories for conventional utterances, hesitation, question words,もちろん and次の; optionalいろいろ taxonomy remains unchanged.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "N4-TYPED-TE-PATTERNS",
+      "resolution": "Typedて-form slots no longer add a duplicateて; all final templates align with their examples.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "N4-IRREGULAR-DICTIONARIES",
+      "resolution": "帰って来る and the honorific dictionary exceptions are correct; source state-verb forms are retained.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "N4-LEXICAL-COVERAGE",
+      "resolution": "Source visual reread supplied 確か,非常時,懐中電灯 and胃; 酔います English typo corrected.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "L26-ADVICE-RESPONSE",
+      "resolution": "Added an original contextual Vたらいいですよ response and matching typed pattern under sourcegroup3.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "KANJI-READING-FACTS",
+      "resolution": "Added six short reading facts across units22/23/25, with correct readings, meanings and existing-master resolution.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "LATIN-ABBREVIATIONS",
+      "resolution": "Preserved printed CD/ATM/JR spellings with explicit contextual kana in the editorial segment format. No runtime display decision is implied.",
+      "state": "resolved_in_draft"
+    },
+    {
+      "id": "SOURCE-ZONJIMASU",
+      "resolution": "Enlarged source image confirms存じますII. It was a reading risk, not a fifth Kanji-source correction.",
+      "state": "resolved_in_draft"
+    }
+  ],
+  "owner_decisions_pending": [],
+  "review_scope_limits": [
+    "Cross-agent source comparisons are bounded spot checks; they do not independently retranscribe every vocabulary page, every compound or every source line.",
+    "N4 Kanji initial whole-file hash changed during its first review, while the saved compact semantic fields were identical; current pins and structural validation apply. The earlier whole-file change cannot be attributed by that review.",
+    "Initial sample review is historical; this batch record and current fingerprints describe the present artifacts.",
+    "No app/runtime schema adoption, TTS, voice availability, device/RTL/accessibility, full19-language or release-rights acceptance is established."
+  ],
+  "release_status": "draft_not_for_release",
+  "independent_human_acceptance": "not_claimed",
+  "verification": {
+    "lesson_validation": "validation-report.json",
+    "complete_batch_validation": "batch-validation-report.json",
+    "readable_renderer": "python3 scripts/render_authoring_content.py --check",
+    "integrity_fixtures": "16 lesson negative fixtures and 8 Kanji negative fixtures",
+    "pattern_diagnostic": "All current examples contain their selected pattern’s literal reading pieces in order, allowing surrounding context/answer sentences; semantic review remains separate.",
+    "source_pdf_hashes_matched": 6
+  },
+  "footprint": {
+    "canonical_editorial_json_bytes": 5952995,
+    "runtime_impact": "Not measured. Editorial assets are outside the application source/resource tree; no app/project files were edited in this content task."
+  },
+  "canonical_content_manifest": [
+    {
+      "path": "docs/content-authoring/lesson-01.json",
+      "sha256": "7d9a72aeb9b330b057fba4a4fa7e947c61b26364be08ea822ee05ef9c953add2",
+      "bytes": 89116
+    },
+    {
+      "path": "docs/content-authoring/lesson-02.json",
+      "sha256": "ce38c6d5d03317d92877e6ea8de2ea9c82aa9b54deefc0aa1b4d4bae0653d31f",
+      "bytes": 81615
+    },
+    {
+      "path": "docs/content-authoring/lesson-03.json",
+      "sha256": "c8c323267138dda9233a84e71ef463f639895dc371c243d0766c7441b4392a2c",
+      "bytes": 76887
+    },
+    {
+      "path": "docs/content-authoring/lesson-04.json",
+      "sha256": "eabb9e589c0d54117b22f7e613af67e422aa9d83eda2b7e9c7f8882ed332866a",
+      "bytes": 97404
+    },
+    {
+      "path": "docs/content-authoring/lesson-05.json",
+      "sha256": "55e8ec11a87bde7c8175b28525abf2292ac269469f833d5d55b6d526c5645582",
+      "bytes": 95428
+    },
+    {
+      "path": "docs/content-authoring/lesson-06.json",
+      "sha256": "6e8893d525fe3baf4e54403e694e3e1a60c041d50e089ea563f33c73e31d9be3",
+      "bytes": 97698
+    },
+    {
+      "path": "docs/content-authoring/lesson-07.json",
+      "sha256": "c9c6481aec04d3b390436803559ce8c3b3510379339b66a00e4c391677245bb7",
+      "bytes": 81107
+    },
+    {
+      "path": "docs/content-authoring/lesson-08.json",
+      "sha256": "d95eb15cebcf79eabbeb2a8209efed2859fb641b6eda402d5c6bbe31e63242ef",
+      "bytes": 100026
+    },
+    {
+      "path": "docs/content-authoring/lesson-09.json",
+      "sha256": "b44537c8c8596244f041efacb194b76bbab700aabbea8c4c928ad32d070d2ee6",
+      "bytes": 85207
+    },
+    {
+      "path": "docs/content-authoring/lesson-10.json",
+      "sha256": "db6b040631271c69c3cc686f2e39b5ffd9b0194755b3294fe5b41c9e5f16f443",
+      "bytes": 79614
+    },
+    {
+      "path": "docs/content-authoring/lesson-11.json",
+      "sha256": "f0d2af098682a9305c1367f1823a0152fa5d5cae74e2df56ed8b239d5d74a2a6",
+      "bytes": 92871
+    },
+    {
+      "path": "docs/content-authoring/lesson-12.json",
+      "sha256": "b8fa2d6c858916f9e381890cdb620a96d160d59f9d9689d41042c0cc09d0cd94",
+      "bytes": 89378
+    },
+    {
+      "path": "docs/content-authoring/lesson-13.json",
+      "sha256": "7af9645d825a500df0c996075a752ea883af774c418687d7bfd32b595da572d5",
+      "bytes": 66255
+    },
+    {
+      "path": "docs/content-authoring/lesson-14.json",
+      "sha256": "922769563110f09d7381b23f047068db28a572f2a8cd4a8dc4e720727f736f40",
+      "bytes": 92415
+    },
+    {
+      "path": "docs/content-authoring/lesson-15.json",
+      "sha256": "b351e0d93fe933207a55c59e055b98b816e4e3653032436c1f26867cebd2378c",
+      "bytes": 58030
+    },
+    {
+      "path": "docs/content-authoring/lesson-16.json",
+      "sha256": "8581a9572589c686953ef471744e4e299fd92606e2fe71a7d61c45ba71e149df",
+      "bytes": 104280
+    },
+    {
+      "path": "docs/content-authoring/lesson-17.json",
+      "sha256": "9014ccadf92595f0dbb2834365da2f5617a593c19a6aefef4c96faaf43cded66",
+      "bytes": 74318
+    },
+    {
+      "path": "docs/content-authoring/lesson-18.json",
+      "sha256": "d555bbdc36482103283dba19ba0448f6fa1042e5c54e4d4464861d2177ca13ab",
+      "bytes": 67061
+    },
+    {
+      "path": "docs/content-authoring/lesson-19.json",
+      "sha256": "62ad7addd1df24934905fead28d3edcbfe1faddbf002e5039c57fdcef3a0ec99",
+      "bytes": 55532
+    },
+    {
+      "path": "docs/content-authoring/lesson-20.json",
+      "sha256": "a7202d04481a1d3156260495b91a30004baa75170789248d351ceb89250137f1",
+      "bytes": 43417
+    },
+    {
+      "path": "docs/content-authoring/lesson-21.json",
+      "sha256": "a577f88bb3aad2c19fa9029b48d2dfeb552c1f0481e70c0fb16d68e5156dde4b",
+      "bytes": 91717
+    },
+    {
+      "path": "docs/content-authoring/lesson-22.json",
+      "sha256": "3f7598e0253c2bd2d4cd2ce1728fbe7bfcc90688d6c81cc4f11f8f786bd9ddaf",
+      "bytes": 58792
+    },
+    {
+      "path": "docs/content-authoring/lesson-23.json",
+      "sha256": "820d4f3b1e0aaea3706a48e20b7aacfdb154937d45cb5dcc660e5b85b97fc5fe",
+      "bytes": 65704
+    },
+    {
+      "path": "docs/content-authoring/lesson-24.json",
+      "sha256": "bf552ab0ec712e014d5266568205dbaacb6105d075c15cebde6911c281fe2df7",
+      "bytes": 54220
+    },
+    {
+      "path": "docs/content-authoring/lesson-25.json",
+      "sha256": "463e99e8ad0c6f8f696003cfe8f2e6f9dc248f626e552179d672449dc6fc07a0",
+      "bytes": 49582
+    },
+    {
+      "path": "docs/content-authoring/lesson-26.json",
+      "sha256": "52d56572504b9760dbdded30824aeb0d0bf6e7f06004e6729ce5244e402cda44",
+      "bytes": 102592
+    },
+    {
+      "path": "docs/content-authoring/lesson-27.json",
+      "sha256": "749a3b613a51050552a87e7f9dab9cde85e4b4af81e85eec1bc4cdc5c6b2dfc6",
+      "bytes": 82175
+    },
+    {
+      "path": "docs/content-authoring/lesson-28.json",
+      "sha256": "95f4b599b0777b50824d376d119aeabb3fe96b3353e958ddc6d0550a22abe5ec",
+      "bytes": 83405
+    },
+    {
+      "path": "docs/content-authoring/lesson-29.json",
+      "sha256": "e715e9affcb092ce99f099be744ba2bbdaaf6ca07665bf0afe48c9fbd1dfc79d",
+      "bytes": 90081
+    },
+    {
+      "path": "docs/content-authoring/lesson-30.json",
+      "sha256": "a4604858fb84e4006fdfd2c9b427d39999e8a105c843d4b1c9f37ff3389b2270",
+      "bytes": 80812
+    },
+    {
+      "path": "docs/content-authoring/lesson-31.json",
+      "sha256": "1f2434f3c808db42312d509d5e7724205f463514d795c1a9e4d365ca891791b4",
+      "bytes": 71101
+    },
+    {
+      "path": "docs/content-authoring/lesson-32.json",
+      "sha256": "bb127f20779bb65c938b20d3eac7c29f858f55ec7e2164529943c2de019d4f8b",
+      "bytes": 90891
+    },
+    {
+      "path": "docs/content-authoring/lesson-33.json",
+      "sha256": "2f679fd1d95c3d09d714310b6e2f58f28f989397f4cf2b42225366caf5422803",
+      "bytes": 87148
+    },
+    {
+      "path": "docs/content-authoring/lesson-34.json",
+      "sha256": "15d8edf02150f35a6b1ec6a1eab6e37da94b5061a54f0b853f8de819d5432305",
+      "bytes": 78248
+    },
+    {
+      "path": "docs/content-authoring/lesson-35.json",
+      "sha256": "6a66d0f2a911915b8c8d0ca8f697f92bb73f036ae9414cf3d698f7acf46f40d4",
+      "bytes": 89084
+    },
+    {
+      "path": "docs/content-authoring/lesson-36.json",
+      "sha256": "6aa1a5b8867dfa7ffb214bc4e7680aae63c8bd49880052c762f849798b2a98c3",
+      "bytes": 65699
+    },
+    {
+      "path": "docs/content-authoring/lesson-37.json",
+      "sha256": "9aae944e433bb13a24058e26e6402c6e9e270363e19d88c0b833a4634477d75b",
+      "bytes": 106220
+    },
+    {
+      "path": "docs/content-authoring/lesson-38.json",
+      "sha256": "0ce6c434d99784058e81fb7d0c9a78f9fcc750ce4f865e46ecff971a30d32189",
+      "bytes": 93327
+    },
+    {
+      "path": "docs/content-authoring/lesson-39.json",
+      "sha256": "cbf521cb5d8dac301c1a8df7ef50abf301d27eb4e43c87860ead6cad8971a525",
+      "bytes": 79977
+    },
+    {
+      "path": "docs/content-authoring/lesson-40.json",
+      "sha256": "0fa17967e9c8e6160cbe5852272c3d10460e45ef988ac123bc41c188426a9ea5",
+      "bytes": 96541
+    },
+    {
+      "path": "docs/content-authoring/lesson-41.json",
+      "sha256": "28f4d162f33a6049a6aaed15d6e66bef2db05a8f67262e7f44d20efba403eb12",
+      "bytes": 89731
+    },
+    {
+      "path": "docs/content-authoring/lesson-42.json",
+      "sha256": "53b66cdcf89dd4581ae90a173b8193639f373a8ffc06701ccc94d113cc8ff1be",
+      "bytes": 83366
+    },
+    {
+      "path": "docs/content-authoring/lesson-43.json",
+      "sha256": "28302a8f74558cccb0cf1817cf9488870653e2f733a97e7918babc58a9bb17ce",
+      "bytes": 48516
+    },
+    {
+      "path": "docs/content-authoring/lesson-44.json",
+      "sha256": "250e6577dea51e8705e07ed8a753c8a1c02a26924e1de2e470442a5f98c42392",
+      "bytes": 71749
+    },
+    {
+      "path": "docs/content-authoring/lesson-45.json",
+      "sha256": "c5af1cd6a5ea101b7b8756f79e31f9c30451aa0a7439435cb2d67545e5159a24",
+      "bytes": 47758
+    },
+    {
+      "path": "docs/content-authoring/lesson-46.json",
+      "sha256": "5f315710a6d9dfa7e9d29e4cfc4d44c6e81aa747cb6de495ba0fd49b06394601",
+      "bytes": 58688
+    },
+    {
+      "path": "docs/content-authoring/lesson-47.json",
+      "sha256": "ebd8afe75f072fb711a0a5bdbe4c6caf14cb2acbf755ecebb69215602120cb07",
+      "bytes": 56625
+    },
+    {
+      "path": "docs/content-authoring/lesson-48.json",
+      "sha256": "eae3d307e6a2d6bc735ef11221847563781137e668a0d4f95ab966cc5dc3cf99",
+      "bytes": 47913
+    },
+    {
+      "path": "docs/content-authoring/lesson-49.json",
+      "sha256": "8e9d2e11e6108b553931282a543e59ee392ba94cb23000688fde923b955f9f3f",
+      "bytes": 69509
+    },
+    {
+      "path": "docs/content-authoring/lesson-50.json",
+      "sha256": "9b06ef7f2565f52243eafc55f9ac0c82cba991f7a1d9eb6245680d6eba04c07b",
+      "bytes": 60285
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-01.json",
+      "sha256": "08685cce84bdba2d84e60112561cbfb4af50d4ea0a06146073bd06c1e258f0f6",
+      "bytes": 29228
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-02.json",
+      "sha256": "3acdf15024296b3b136b98dddcc50fc93bd390a4906c5969c9d9e9d52fa08af3",
+      "bytes": 68031
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-03.json",
+      "sha256": "7a82c2ebfe084faaf6ca2f36ba037ddb6b4a3cb5ccc1eb2d6bd13bceb4a90ec3",
+      "bytes": 41993
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-04.json",
+      "sha256": "fdbaeba7d68ded50b43fdab2f516208b6274c637b6987e3aa50731d35254f528",
+      "bytes": 44535
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-05.json",
+      "sha256": "6b7adc11eb0df776a5f819ed65315da7f9b0563b00890fb3f4f63accb52992c6",
+      "bytes": 24957
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-06.json",
+      "sha256": "688b054ab88c161f499cbe29b0f060374923a100022ff0f288b30e15dcfd75dd",
+      "bytes": 21909
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-07.json",
+      "sha256": "4281d39133706b38a6d0352b5f314720167970257e9cdc08e20ac79536a447b3",
+      "bytes": 36313
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-08.json",
+      "sha256": "3f02b83d59d9838e61b4e64f1c30ea37c17b314e5df91578cd4dc3c1c57d54d1",
+      "bytes": 18975
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-09.json",
+      "sha256": "3a5df5317bd3872d8e815679adba48d419c9cdeba2f3ffd94220b9559904ef5a",
+      "bytes": 20846
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-10.json",
+      "sha256": "73b6489effbf88501eac2d0426fc784d2e0135d47ca15767774db1b5c6c9372e",
+      "bytes": 17149
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-11.json",
+      "sha256": "e8c6e2037a9c47c431a23fe31f1ce104e9241a8496920ee08204be3f15ac8d04",
+      "bytes": 30640
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-12.json",
+      "sha256": "41f5327a8d05c8fac9150fc0ba2fc65889f91ed77b3a20f46d30b485759ea2d3",
+      "bytes": 24021
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-13.json",
+      "sha256": "e4f91e28f744f68195c38d7ae2d5e3f7cbe7f1fa212861cb7d5bd463fa2d2620",
+      "bytes": 22840
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-14.json",
+      "sha256": "266900adcd5395ac81b6672b38a1870a22c5c0b842952ef7de37959e0393e434",
+      "bytes": 21039
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-15.json",
+      "sha256": "1beb838dae47910ba54bac7923022599134163e82bda3d15cce661fa505e0562",
+      "bytes": 39426
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-16.json",
+      "sha256": "fd26885aef3fcc97be62f222596d07d8d5ea57f9468cb0fe33acca0b852ed511",
+      "bytes": 30757
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-17.json",
+      "sha256": "05b2d1d50f8f830ccc28370a11019fe52765d91e76851878dcef44c62a487a27",
+      "bytes": 26634
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-18.json",
+      "sha256": "b9f0173f5c2bbaf68d40a54a64a30bee54a781af80c0f98e9de008018aa29aa1",
+      "bytes": 19589
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-19.json",
+      "sha256": "8d37aea7f6f8adc8c09b95469d216e65d52d2cec009483f7782e966d2ff94680",
+      "bytes": 19229
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-20.json",
+      "sha256": "8f893f2043e73d2c1a61bbe574efcce15e47fb46a8125bafcff06e7b2f0d0945",
+      "bytes": 26536
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-21.json",
+      "sha256": "e74e6735129c9840284f1f5ccdc1c15dbfb9fbf5d9682fb5b9140498c3d3c5c5",
+      "bytes": 57401
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-22.json",
+      "sha256": "0436b9820be0ce5d3f206dadb6a0f3bbff8ea88e1239f7d2b3dfa8509112c241",
+      "bytes": 69797
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-23.json",
+      "sha256": "9dd792f97abdfc0d0d29d04dbbad8986a40187c4a5d0b8776956cb3699b63587",
+      "bytes": 9198
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-24.json",
+      "sha256": "e3ca75f9e1bb2686a00fd83ec6169e8ba7cf31da0cdcce0210b688129f0727fa",
+      "bytes": 9221
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-25.json",
+      "sha256": "59c866bc0959d5f0db9d06338a09961a1a2688a894e8e7065a605c1ee601a04b",
+      "bytes": 12281
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-26.json",
+      "sha256": "73a979257f6fd265b5541cea07e8935195edc2bcf75f696aaaea7f1d6e7da88f",
+      "bytes": 10505
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-27.json",
+      "sha256": "5a4e7e80fbedc5925d2d2b99f029cd236a2276e01a6aa51f5c53af61155bf638",
+      "bytes": 14171
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-28.json",
+      "sha256": "4bee49b9fff0d3494ed43eb21edd2ce258d29fd337a4506b84be1437cac8a190",
+      "bytes": 12150
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-29.json",
+      "sha256": "95dc7c7db2cb120f68e3da0ee911abf1c7502a96607cd08faa13ab396c5ebe14",
+      "bytes": 16100
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-30.json",
+      "sha256": "313d42722b1fe242be7aa2e2a0b75c5ff7d844a417b95c1395e606f7530744c3",
+      "bytes": 11926
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-31.json",
+      "sha256": "012b19edda579fbf084ad97aa33ecbdd8c3e5bd9c691549015b395d4517bcc19",
+      "bytes": 16263
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-32.json",
+      "sha256": "1e4cb307ff84e1ffaa3da0d322fed3c1b2388eb334e3228f4efbd9df81f7227b",
+      "bytes": 16059
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-33.json",
+      "sha256": "baaabb12d5933dc03ddb025f5f00c06712fde6184566d06c41cd6c3aad9aa7b3",
+      "bytes": 14230
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-34.json",
+      "sha256": "653255055f20237ddfe9bc15615fdac030c5fa0386806e86a7cd36724876518b",
+      "bytes": 16043
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-35.json",
+      "sha256": "d4f0e8aa30895d198d0e994b3659f97ebb88ef28aa33ca065f0af2a004a1e66c",
+      "bytes": 16590
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-36.json",
+      "sha256": "e22bf727e219665bd4ae688578b843ab87465fe2e15f69888c5cdf0135048e2a",
+      "bytes": 10473
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-37.json",
+      "sha256": "ba7f1c6b343aff69ebd88642904f6597053e5c365ade602fac1b2befdb0ebffd",
+      "bytes": 14257
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-38.json",
+      "sha256": "35f5149115720899b34dfd4159d4339e86aa7ea2156158460591a281a0308e02",
+      "bytes": 17478
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-39.json",
+      "sha256": "04e838b8a55abb332db43bce0e8b28301e6ed4f2c11ecea15faaafeec00c1bf4",
+      "bytes": 14465
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-40.json",
+      "sha256": "5cedd5344eb265539b87d2c45b84e21fd7e7e6138bbcb68ab44b462f1d29b583",
+      "bytes": 14941
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-41.json",
+      "sha256": "320d8e1fcbc6970ed50bdd306213ce1f8497b645e98d0deaa7135231b96ed5a4",
+      "bytes": 15735
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-42.json",
+      "sha256": "fb8476ac3d2771a6a45884923b306d0907b0a29617dac811dae75edfa3f212ad",
+      "bytes": 12986
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-43.json",
+      "sha256": "0a9aaa84088c51158c74f80b9ccbb57ef25ae71ba1bf042c9efd1fcc4d259fa7",
+      "bytes": 14202
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-44.json",
+      "sha256": "d5089ddb3a1ccfc47e2bcccff129737dffc54229df5950243e29134a3eecf0f9",
+      "bytes": 13492
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-45.json",
+      "sha256": "b491932a2064884234c8615c1252977ebd5778a1a6055ce1d7d40e491a6735c9",
+      "bytes": 11886
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-46.json",
+      "sha256": "377d9c4022240c75bafab078cdf94cc42f8221e47609da37d0eb6e9549b595fb",
+      "bytes": 11389
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-47.json",
+      "sha256": "c8578c21c8e4b19305088e13fa2506b78dc28a6ef317a18e16b0d862354904a8",
+      "bytes": 18185
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-48.json",
+      "sha256": "419a0cc6014bb32810263f218532efe12849c9cfe0d757c3dea1666f36d7f731",
+      "bytes": 12731
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-49.json",
+      "sha256": "8bd3568f4780bc015e768673ffef08cbf4a285b1556eacc361faea9497bb1ad0",
+      "bytes": 14058
+    },
+    {
+      "path": "docs/content-authoring/kanji/unit-50.json",
+      "sha256": "7536866f2a0bf11d484234310875caa88aa0c4d785b0e963a2028b1908a64114",
+      "bytes": 12946
+    },
+    {
+      "path": "docs/content-authoring/kanji/characters-n5.json",
+      "sha256": "efd960f1bf4acc4dba04943234e69f054f1166b0f9a5489d2bb8143a441cd1bd",
+      "bytes": 523840
+    },
+    {
+      "path": "docs/content-authoring/kanji/characters-n4.json",
+      "sha256": "09052fed6c8042d7968943d2eca74708e52d3145082257cc9673ef7882334e8a",
+      "bytes": 454234
+    }
+  ],
+  "final_revision_pin_check": {
+    "status": "current_manifest_updated_after_T02_primary_review",
+    "canonical_files": 102,
+    "scope": "Current manifest records the 2026-11-08 T02 primary source/VI/EN/reading review. Preserves all6033 existing IDs and50 dialogue objects; adds26 source-backed Kanji lexical occurrences. Historical peer reviews do not cover these edits; see source-reconciliation/review.json and content-corrections.json."
+  },
+  "peer_review_evidence": [
+    {
+      "original_local_artifact": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/n5-cross-review.json",
+      "sha256": "c8b1658a5fb8c8392922a0e4ec0fc3b4122ad3c6160b7d19345120326b400835",
+      "record": {
+        "review_type": "cross-agent semantic/source spot review; not independent human certification",
+        "scope": {
+          "master_metadata_compact_scan": 220,
+          "unit_inventory_reading_scan": 20,
+          "visually_compared_master_numbers": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            26,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            58,
+            59,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176
+          ],
+          "source_dictionary_images": [
+            "182-R",
+            "183-L",
+            "183-R",
+            "184-L",
+            "184-R",
+            "185-R",
+            "187-L",
+            "187-R",
+            "188-L",
+            "188-R",
+            "190-R",
+            "204-R",
+            "205-L"
+          ],
+          "unit_AB_pages": [
+            45,
+            46,
+            49,
+            50,
+            57,
+            58,
+            73,
+            74,
+            97,
+            98,
+            117,
+            118,
+            129,
+            130,
+            133,
+            134
+          ],
+          "unit_supplemental_scope_pages": [
+            44,
+            47,
+            48,
+            51
+          ]
+        },
+        "findings": [],
+        "source_error_reconfirmed": {
+          "file": "docs/content-authoring/kanji/characters-n5.json",
+          "item": "source_character_number172 動, example 自動車",
+          "incorrect_source": "N5_KANJI PDF204-R prints xe đạp",
+          "corroboration": "N5_KANJI PDF190-R under both58車 and59自 prints xe ô tô; kanaじどうしゃ consistent; unit16-B PDF118 also has自動車",
+          "authored_value": "car / ô tô",
+          "classification": "source meaning error, correctly corrected in authored draft; owner permits retaining with later-check marker"
+        },
+        "valid_source_specific_reading_subsets": [
+          "11一 usesイチ/イツ andひと(つ)/ひと; no extra reading inferred fromついたち",
+          "36人 listsジン/ニン andひと; irregularひとり/ふたり/おとな are contextual word readings, not missing master readings",
+          "42分 baseOnフン/ブン/ブ matches printed list; counterぷん retained contextually",
+          "59自 usesジ/シ andみずか(ら), matching source subset",
+          "175字 Kunあざ is printed in source despite beginner例漢字/ローマ字 usingジ"
+        ],
+        "unit_scope_notes": [
+          "Units1/2 cover sampled A/B reading heads plus dictionary-supported supplementary lexical items; fictional surname examples are intentionally absent under the explicit exclusion.",
+          "Unit2 preserves calendar special readingsついたち/ふつか/みっか/よっか/むいか/なのか/ようか/ここのか/とおか/はつか/じゅうよっか/にじゅうよっか, person countersひとり/ふたり, hundred/thousand sound changes and months四月/七月/九月.",
+          "A/B spreads4,7,12,16,19,20 preserve item senses and source contextual readings; no missing sampled reading headword found."
+        ],
+        "structural_validation": {
+          "characters": 220,
+          "kanji_units": 20,
+          "kanji_word_occurrences": 1218,
+          "unique_kanji_word_ids": 1218
+        },
+        "hash_baseline": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/n5-cross-review-before.json",
+        "hash_after": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/n5-cross-review-after.json",
+        "files_changed_since_baseline": [],
+        "authored_content_changes": "none; repository read-only",
+        "limitations": [
+          "220 metadata scan is not a full visual retranscription of every dictionary entry.",
+          "Source spot checks cover37 master entries and A/B spreads in8 units; no independent human or release certification claimed."
+        ]
+      }
+    },
+    {
+      "original_local_artifact": "/tmp/project-beta-batch-authoring-20261106/author_n5_kanji/cross-n4-review.md",
+      "sha256": "946718322f28785e773dd0f9792f15dcf322c24d478b7e6c9c576a5d0efc42a7",
+      "record": "# N4 Kanji cross-agent semantic review\n\nRead-only repository review under PB-BATCH-DELEGATION-20261107. No repository files changed. This is cross-agent source/semantic checking, not independent human or release acceptance.\n\n## Actionable findings\n\n1. **P2 — retain the source-listed idiom in unit23.** `docs/content-authoring/kanji/unit-23.json` has only `気` (き; attention/spirit) for source N4_KANJI PDF28, I 読み方 row5. The source's immediately adjacent reading is `気をつけます` (きをつけます), a common idiom meaning take care/pay attention, which cannot be reconstructed accurately from the nominal gloss alone. Minimal correction: add a lexical `気をつける` (きをつける), English “take care; pay attention”, Vietnamese “chú ý; cẩn thận”, source PDF28, keeping the existing 気 record if useful. No whole textbook sentence needed. Crop: `/tmp/project-beta-batch-authoring-20261106/author_n5_kanji/cross-unit23-reading-rows.png` (row5). Full image: `reference-images/N4_KANJI-p028.png`.\n\n2. **P2 — real prefecture reading examples missing from unit25.** `docs/content-authoring/kanji/unit-25.json` includes `県` but omits N4_KANJI PDF32, I 読み方 row7: `高知県` (こうちけん, Kochi Prefecture / tỉnh Kochi), `山口県` (やまぐちけん, Yamaguchi Prefecture / tỉnh Yamaguchi), and `秋田県` (あきたけん, Akita Prefecture / tỉnh Akita). These are actual geography, not fictional textbook personal/institutional names; their contextual readings belong to the requested common reference scope. Minimal correction: add these three lexical entries and resolve their component glyphs to the existing master inventory in unit scope. Crop: `/tmp/project-beta-batch-authoring-20261106/author_n5_kanji/cross-unit25-reading-rows.png` (row7). Full image: `reference-images/N4_KANJI-p032.png`.\n\n3. **P2 — preserve two explicit preparatory readings in unit22.** `docs/content-authoring/kanji/unit-22.json` omits `二十分` (にじゅっぷん; twenty minutes / hai mươi phút), an explicitly bold/right-margin reading at N4_KANJI PDF24, I row4. PDF24 row10 targets `一か月前` (いっかげつまえ; one month ago / một tháng trước), but the draft reduces it to `一か月` meaning duration “one month”, losing the source temporal sense. Minimal correction: add 二十分 and 一か月前, retaining the duration entry if desired. Both are short reading facts, not copied textbook prose. Full evidence: `/tmp/project-beta-batch-authoring-20261106/reference-images/N4_KANJI-p024.png`, rows4/10.\n\n## Scope and semantic checks\n\nScanned all 316 N4 master entries (221–536) in a compact view containing glyph, Han-Viet, all On/Kun arrays, English/Vietnamese character senses, example Japanese/reading/English; scanned all30 units21–50's lexical Japanese/readings/VI/EN. No wrong lexical reading or unsuitable VI/EN sense was found in that scan. Did not treat uncommon source-listed readings or empty source On/Kun arrays as missing data.\n\nVisually compared source dictionary entries including 231必/236亡 (PDF188), 257代/259伺/260低/261倍/262係 (PDF193), 298場/301隅/302階 (PDF199), 315吹/317咲/323拾 (PDF202), 345暖 (PDF206), 375恥 (PDF211), 400数 (PDF216), 446歳/448景 (PDF223), 454界 (PDF224), 455産/458受 (PDF225), 475君 (PDF228), 512込 (PDF233), and 534問 (PDF237). Contextual irregular compounds 二十歳=はたち, 景色=けしき, お土産=おみやげ, and source suffix 君=くん are represented correctly. 伺 retains source Han-Viet TÝ/TỪ rather than arbitrarily normalizing a source variant.\n\nVisually checked preparatory unit starts21–25 at PDF20,24,28,30,32: their review/supplement meaning and prior-volume lesson1–25 scopes are correctly retained; they are not falsely equated to ElementaryII lesson21–25. Also compared later unit reading lists at PDF36(unit26),58(unit31),88(unit38),114(unit44),140(unit50). Leading reading-word lists and contextual senses align in these samples apart from the omissions above. This spot review does not certify every contextual phrase, every later unit page, or every dictionary supplementary compound.\n\n## Source correction status — owner decision B-U-55\n\nAll four previously corroborated draft corrections remain **`retained_for_authoring_recheck_required`**. They are authorized draft values that still need the owner's later check; none is fully closed by this review.\n\n- N4 必231, PDF188-L: source Han-Viet header visibly says THIẾT; draft TẤT is retained under B-U-55. The source's 必ず/必要 contextual readings are correct in draft.\n- N4 隅301, PDF199-R: source header visibly says ÔI; draft NGUNG retained under B-U-55. Source すみ and On グウ match draft.\n- N4 界454, PDF224-R: source On line visibly says がい, while its own 世界 row has せかい. Draft On カイ retained under B-U-55.\n- N5 動172, PDF204-R: 自動車/じどうしゃ is translated as xe đạp in that source row, whereas PDF190-R 車58/自59 correctly say ô tô. Draft automobile/ô tô retained under B-U-55. This fourth item was corroborated during N5 authoring; it is not part of the N4 master reviewed here.\n\n**数400 is not a confirmed fifth source error.** PDF216-L's enlarged printed On line reads すう、す, supporting current draft スウ/ス. Scan noise is near the line, but I cannot substantiate a voiced ず reading. Do not change or add a correction solely from OCR. Enlarged evidence: `/tmp/project-beta-batch-authoring-20261106/author_n5_kanji/cross-su400-on-line.png`.\n\n## Revision pinning\n\n`cross-n4-before.json` and `cross-n4-after.json` record all31 reviewed SHA256s. Units21–50 were unchanged between pins. Only `docs/content-authoring/kanji/characters-n4.json` changed while review was in progress:\n\n- Before: `66a37e467a26bc2dbcb448d01e675f7b51931b7234975bc46b1718b1fc8d5d12`\n- After/current: `09052fed6c8042d7968943d2eca74708e52d3145082257cc9673ef7882334e8a`\n\nThe entire saved compact semantic view is byte-identical when regenerated from the after/current revision (`cross-n4-metadata.txt` versus `cross-n4-final-metadata.txt`): all316 glyph/Han-Viet/On/Kun/VI/EN/exampleJapanese+reading+EN fields match the initial scan. A second current hash check matched the after pin. No initial whole-file snapshot was saved, so the specific unscanned serialization/provenance/ID/ruby-segmentation or example-Vietnamese change cannot be attributed by this review. Do not treat the initial hash as the final reviewed artifact. Primary should use the current pin plus its package structural validation; targeted recheck is needed after its finding corrections.\n"
+    },
+    {
+      "original_local_artifact": "/tmp/project-beta-batch-authoring-20261106/author_n5_kanji/targeted-n4-fixes-review.md",
+      "sha256": "160fbd31ca2ad3d592c252e9be86b54cfa9e6b6116a63fede85b5e3ac35aaec7",
+      "record": "# Targeted primary-fix recheck\n\nRead-only recheck against PB-BATCH-DELEGATION-20261107 and `/tmp/project-beta-batch-authoring-20261106/primary-kanji-fixes-baseline/manifest.json`.\n\nAll three cross-review findings are resolved for draft authoring in current unit22/23/25 JSON. Confirmed source-aligned additions: 二十分/にじゅっぷん “twenty minutes / hai mươi phút”; 一か月前/いっかげつまえ “one month ago / một tháng trước”; actual source polite form 気をつけます/きをつけます “take care; pay attention / chú ý; cẩn thận”; 高知県/こうちけん, 山口県/やまぐちけん, 秋田県/あきたけん with correct prefecture glosses. Compared to the previously reviewed PDF24 rows4/10, PDF28 row5 and PDF32 row7 evidence. Six facts carry exact corresponding PDF page references. All existing word UUIDs and full existing lexical entities remain unchanged versus primary's pre-fix snapshot; unit IDs unchanged; added scope glyphs resolve to existing N5/N4 masters.\n\nCurrent SHA256s are in `targeted-n4-fixes-hashes.json`: unit22 `0436b9820be0ce5d3f206dadb6a0f3bbff8ea88e1239f7d2b3dfa8509112c241`; unit23 `9dd792f97abdfc0d0d29d04dbbad8986a40187c4a5d0b8776956cb3699b63587`; unit25 `59c866bc0959d5f0db9d06338a09961a1a2688a894e8e7065a605c1ee601a04b`. N4 master pin remains `09052fed6c8042d7968943d2eca74708e52d3145082257cc9673ef7882334e8a`, identical to final cross-review pin.\n\nB-U-55 source-correction state remains flagged correctly in `source-corrections.json`: all4 items have `review_status: recheck_required` and retain corroborated authored values. Top-level release disposition is `not_cleared_by_this_authoring_decision`. This implements retained_for_authoring_recheck_required rather than closing the source discrepancies. 数400 has not been added as a fifth correction.\n\nNo new findings in this bounded recheck. This is cross-agent checking of fixes, not human/release acceptance. Repository unchanged by reviewer.\n"
+    },
+    {
+      "original_local_artifact": "/tmp/project-beta-batch-authoring-20261106/author_n5_kanji/n4-lessons-cross-review.md",
+      "sha256": "d355359781d625b95cc9b0c2816d2e4872d7d371e6c999875c4056f8c7a76af5",
+      "record": "# N4 lessons 27–50 semantic cross-review\n\nRead-only cross-agent review under PB-BATCH-DELEGATION-20261107; no repository files changed and no author build script executed/imported. Private initial script snapshot SHA256: ff1600156234ddaa1129b26df40f0d18bbee80c3c3bd9cff962eb5bc828747ef. Repository content final pins are recorded separately in n4-lessons-review-current-pins.json, pending the author stable-final confirmation.\n\n## Scope and evidence\n\nReviewed all 24 generated lesson JSON files: 108 grammar points, 120 sentence patterns, 123 examples, 1,082 vocabulary items including 293 grouped verbs. Scanned all 293 polite-to-dictionary pairs for group and form plausibility. Read all 108 grammar explanations and final typed templates. Source heading/group coverage for lessons27–50: 7,5,6,5,6,6,6,3,5,4,7,6,3,5,4,4,3,4,2,3,3,4,5,2. These are source chapter groups, not merely generated point counts.\n\nSource grammar pages (N4_GRAMMAR PDF): 27=39–40;28=45–46;29=51–52;30=57–58;31=63–64;32=69–70;33=75–76;34=81–82;35=87–88;36=93–94;37=99–100;38=105–106;39=111–112;40=117–118;41=123–124;42=129–130;43=135–136;44=141–142;45=147–148;46=153–154;47=159–160;48=165–166;49=171–172;50=177–178. Heading evidence checked for all48 pages; visual comparison focused on33,37,42,49,50 and lexical pages101–102,149–150. This is not a claim of every vocabulary row visually rechecked.\n\nNuance checks include potential vs spontaneous perception; resultant intransitive state vs intentional transitive te-aru; preparation/maintenance te-oku; completion/regret shimau; volitional intention/planning; conditional alternatives; purpose you-ni vs tame-ni; personal/possession/thing passive; nominalization/focus; event-cause te and node; humble receiving/respectful giving; function no-ni vs concessive no-ni; appearance vs hearsay sou; imminent/in-progress/just-completed tokoro vs speaker-relative bakari; evidence-based hazu/you; causative agent/object marking and permission request; honorific vs listener politeness; humble I vs humble II. No additional substantive sense error found in this bounded review.\n\n## Corrected preliminary findings\n\nThe early build draft used te-form slots with an extra literal te, and generic GroupIII derivation mishandled 帰って来ます. Current JSON resolves these: te-form slots concatenate the auxiliary directly; 帰って来る/かえってくる is explicit. Honorific dictionaries are correct: いらっしゃる,おっしゃる,なさる,くださる. 酔います English typo is resolved and dictionary form 酔う is correct.\n\nThe source labels 似ています and ついています GroupII; current dictionary forms 似ている/ついている preserve those source surface forms. Primary visually confirmed PDF173 存じます GroupII; current 存じる is source-aligned. Do not add a source correction for it. PDF75–76 imperative table variant くれろ is preserved as a supplied valid variant, not treated as an error.\n\n## Template/example consistency\n\nAll123 example/template links checked after NFKC, kana normalization and contextual ruby joining. 122 match the entire template; lesson29 found_1 matches its full first sentence and adds an appropriate context sentence (“under the chair”), so it is not an error. Distinct tokoro variants use dictionary, in-progress and ta slots. Other inspected types include nai+de manner, te auxiliary sequences, masu stems, causal clauses, causative te permission and noun/action-noun humble forms. Broad phrase/clause slots are descriptive; this check does not prove arbitrary generated conjugations.\n\n## Outcome and limits\n\nNo open actionable semantic finding in the reviewed revision. The three earlier Kanji omission fixes remain passed in targeted-n4-fixes-review.md, separate from this lesson review. B-U-55 source corrections remain retained_for_authoring_recheck_required; none is closed by this cross-agent review. This is source-informed cross-agent review, not independent human acceptance, exhaustive vocabulary transcription verification, application runtime verification or release clearance.\n\n## Stable-final pin\n\nAuthor confirmed all24 lessons stable; the final reread hashes match all24 hashes captured before the final semantic scan. Exact SHA256 and byte counts: n4-lessons-review-final-pins.json; no file changed during the final scan. Author confirms a separate visual sweep of all lexical source pages; that author evidence is not relabeled as this reviewer’s independent visual coverage.\n"
+    },
+    {
+      "original_local_artifact": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/initial-samples-cross-review.json",
+      "sha256": "c397d2e8033cfd8f8519800ea168fa16d2d50f25dddde76a64a90068ab487dbe",
+      "record": {
+        "status": "bounded_cross_review_complete_finding_resolved",
+        "review_type": "read-only cross-agent semantic/source review; not independent human certification",
+        "scope": "Current final JSON lesson01 and lesson26; primary-owned samples",
+        "baseline": "PB-BATCH-DELEGATION-20261107 plus primary-kanji-fixes-baseline/manifest.json",
+        "hash_before": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/initial-samples-review-before.json",
+        "hash_after": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/initial-samples-review-after.json",
+        "files_changed_during_review": [],
+        "counts": {
+          "vocabulary": 84,
+          "grammar_points": 12,
+          "sentence_patterns": 12,
+          "examples": 26,
+          "dialogues": 2,
+          "vocabulary_forms": 91,
+          "verb_entries": 10,
+          "dictionary_forms": 12
+        },
+        "source_pages_visually_compared": [
+          "N5_GRAMMAR PDF29–30 all common vocabulary; PDF33–34 all grammar groups",
+          "N4_GRAMMAR PDF29–30 all common vocabulary; PDF33–34 all grammar groups"
+        ],
+        "vocabulary_result": "All common vocabulary entries across the four vocabulary pages are represented. Fictional textbook organization names are excluded as authorized. All 84 authored entries, contextual ruby, VI/EN meanings, usage distinctions, and all dictionary forms were read. The real person 星出彰彦 is correctly retained with ほしであきひこ and the source astronaut identification. No vocabulary defect found.",
+        "grammar_result": "Lesson01 groups1–6 are represented accurately. Lesson26 group1 is split sensibly across explanation, explanation-question and prefacing-request points; groups2–4 are represented, with one missing group3 response subtopic below.",
+        "dialogue_and_example_result": "All 26 examples and both dialogues were read in Japanese/VI/EN. New Nao skill and possession topical は examples are sound with their supplied contexts. No translation or conjugation defect found.",
+        "findings": [
+          {
+            "id": "L26-ADVICE-RESPONSE-COVERAGE",
+            "severity": "medium",
+            "file": "docs/content-authoring/lesson-26.json",
+            "item": "ask_advice_tara grammar point, linked patterns and examples",
+            "source": "N4_GRAMMAR PDF34 group3 paragraph following examples12–13",
+            "problem": "The source explicitly teaches answering with Vたらいいですよ to offer advice. Current explanation, notes, template, examples and dialogue teach only the advice question Vたらいいですか. Thus source group3 is only partially covered despite the complete-topics coverage claim.",
+            "suggested": "Add a brief independently authored explanation of the advice response, plus an original response example with a correctly linked typed pattern or variant. Retain the existing question construction.",
+            "status": "resolved_verified_in_targeted_followup"
+          }
+        ],
+        "structural_validation": "PASS validate_payload for lesson01 and lesson26, including original source anchors.",
+        "repository_writes": "none",
+        "limits": [
+          "This is a bounded source/semantic cross-review, not independent human or release acceptance.",
+          "New advice-response content, if added, needs a focused follow-up review and new hash pin."
+        ],
+        "followup_report": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/targeted-template-advice-recheck.json"
+      }
+    },
+    {
+      "original_local_artifact": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/targeted-template-advice-recheck.json",
+      "sha256": "433f3c48477c7bd5a605a01c9bcd137c4a88d2f620b2d99c97893747b2c7ed6e",
+      "record": {
+        "status": "targeted_semantic_recheck_passed",
+        "review_type": "read-only cross-agent review; not independent human certification",
+        "files": [
+          "lesson-18.json",
+          "lesson-23.json",
+          "lesson-24.json",
+          "lesson-25.json",
+          "lesson-26.json"
+        ],
+        "hash_before": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/targeted-recheck-before.json",
+        "hash_after": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/targeted-recheck-after.json",
+        "files_changed_during_review": [],
+        "resolved_findings": [
+          {
+            "id": "N5-L25-CONDITIONAL-SLOT",
+            "resolution": "condition_tara now has kind clause and a precise label covering verbs, adjectives and nouns in topics1/4/5; adjectiveよかったら example is compatible."
+          },
+          {
+            "id": "N5-L23-TOKI-TEMPLATE",
+            "resolution": "New topic_2_dictionary_before_completion pattern has verb_dictionary_form; dictionary-form example now links there. Past-form example retains original pattern."
+          },
+          {
+            "id": "N5-L18-MAENI-TEMPLATE",
+            "resolution": "New topic_4_activity_noun pattern includes noun + のまえに. Noun example links there; verb example retains dictionary-form pattern."
+          },
+          {
+            "id": "N5-L24-BENEFACTIVE-TEMPLATES",
+            "resolution": "Three separate correctly linked patterns now represent てもらいました, てくれました and てあげました, with appropriate に/が/は…に participant structures."
+          },
+          {
+            "id": "L26-ADVICE-RESPONSE-COVERAGE",
+            "resolution": "ask_advice_tara title, explanation and notes now cover giving advice. New give_advice_tara pattern has arguments + verb_tara_form + いいですよ. Original受付で聞いたらいいですよ example, contextual map enquiry, Japanese ruby and VI/EN translations are sound."
+          }
+        ],
+        "open_findings": [],
+        "structural_validation": "PASS validate_payload for lessons18/23/24/25/26; N4 lesson26 source anchors retained, out-of-scope N5 lesson01 anchors excluded.",
+        "L26_identity_check": {
+          "all_prior_entity_IDs_preserved": true,
+          "prior_ID_count": 73,
+          "new_entity_ID_count": 2,
+          "lesson_ID_preserved": true,
+          "new_entities": [
+            "give_advice_tara sentence pattern",
+            "advice_ask_reception example"
+          ]
+        },
+        "source_basis": "Previously compared N5 grammar source OCR for pages136,165,171–172,177–178; visual source checks included pages172,177–178 and N4 grammar page34. This focused follow-up verifies the specific content and links against that evidence.",
+        "repository_writes": "none",
+        "limitations": "No new independent human or release certification. Other prior unchanged review evidence is reused."
+      }
+    },
+    {
+      "original_local_artifact": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/final-literal-template-recheck.json",
+      "sha256": "6cb7365cdcba5b96fac7fd5f2649a3e52693abc7e2def8c27edafab753e7a75c",
+      "record": {
+        "status": "targeted_semantic_recheck_passed",
+        "review_type": "read-only cross-agent review; not human or release certification",
+        "scope": "Four final literal-template mismatches in lessons09/16/22/24",
+        "baseline_manifest": "/tmp/project-beta-batch-authoring-20261106/final-pattern-fix-baseline/manifest.json",
+        "resolutions": [
+          {
+            "lesson": 9,
+            "resolution": "New omitted-topic pattern represents objectがpredicate; second example links there while original explicit-topic pattern and first example remain intact."
+          },
+          {
+            "lesson": 16,
+            "resolution": "Separate topicはどれですか pattern correctly links the originalどれ example. Originalどのnounですか pattern is preserved and now has a new originalどのかばんですか / あの白いかばんです answer pair with correct ruby and VI/EN translation."
+          },
+          {
+            "lesson": 22,
+            "resolution": "Negative variant fixesがありません, using the same dictionary-form verb and noun slots. The negative example explicitly links to negative."
+          },
+          {
+            "lesson": 24,
+            "resolution": "New past pattern includes giverがrecipientにobjectをくれました. The original past example now links there, preserving the explicitわたしに and speaker-side recipient restriction."
+          }
+        ],
+        "identity_checks": [
+          {
+            "lesson": 9,
+            "all_old_IDs_preserved": true,
+            "added_patterns": 1,
+            "added_examples": 0
+          },
+          {
+            "lesson": 16,
+            "all_old_IDs_preserved": true,
+            "added_patterns": 1,
+            "added_examples": 1
+          },
+          {
+            "lesson": 22,
+            "all_old_IDs_preserved": true,
+            "added_patterns": 0,
+            "added_examples": 0
+          },
+          {
+            "lesson": 24,
+            "all_old_IDs_preserved": true,
+            "added_patterns": 1,
+            "added_examples": 0
+          }
+        ],
+        "structural_validation": "PASS validate_payload for these four lessons, with out-of-scope01/26source anchors excluded.",
+        "hash_before": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/literal-template-recheck-before.json",
+        "hash_after": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/literal-template-recheck-after.json",
+        "files_changed_during_review": [],
+        "open_findings": [],
+        "repository_writes": "none"
+      }
+    },
+    {
+      "original_local_artifact": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/final-combined-review.json",
+      "sha256": "26ba776e79ba9d4fc7e962a06e5074aae0ed53eb8b35cfc63bbe94f98af93d3c",
+      "record": {
+        "baseline": "PB-BATCH-DELEGATION-20261107",
+        "role": "Read-only cross-agent semantic reviewer; no human acceptance certification",
+        "scope": {
+          "lessons": "02-25",
+          "vocabulary_entries": 1005,
+          "forms": 1035,
+          "dictionary_forms": 161,
+          "grammar_points": 135,
+          "sentence_patterns": 145,
+          "examples": 152,
+          "dialogues": 24
+        },
+        "review_performed": [
+          "Read final_overlays.txt as data; did not execute writer code",
+          "Scanned every current vocabulary surface, kana, EN and VI sense and all 161 verb group/dictionary pairs",
+          "Reconciled all diagnostic-reconciliation.json resolutions against current lexical scope and overlay usage",
+          "Compared source-checklist.json counts and source group coverage for all 24 lessons",
+          "Reused previous grammar/dialogue semantic review and targeted primary template-fix rechecks; not a new whole-source visual retranscription"
+        ],
+        "checklist_differences": {
+          "lesson09": "One primary-added omitted-topic pattern",
+          "lesson16": "One primary-added dore pattern and one original dono-N example",
+          "lesson24": "One primary-added past kuremashita pattern"
+        },
+        "findings": [
+          {
+            "lesson": 6,
+            "item": "word_051",
+            "issue": "Short farewell inherited tomorrow-specific meaning",
+            "state": "Resolved and targeted correction verified"
+          },
+          {
+            "lesson": 2,
+            "item": "word_041",
+            "issue": "Plain thanks form inherits emphatic very much meaning",
+            "state": "Resolved and targeted correction verified"
+          },
+          {
+            "lesson": 9,
+            "item": "word_050",
+            "issue": "Standalone zannen desu inherits connective unfortunately sense",
+            "state": "Resolved and targeted correction verified"
+          },
+          {
+            "area": "entry_type",
+            "issue": "Several fixed utterances classified as nouns; exact list delivered to primary",
+            "state": "Resolved and targeted correction verified"
+          }
+        ],
+        "current_hashes": {
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-02.json": "e3824f9b6aa70d5f6e2d83d7a9e5e0f8b5cc073029742a3f866906768c66d7ed",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-03.json": "06736ae7844d4dab843d2750bae0258fabf2793c0260e8d3a46e3e1c2b11ed97",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-04.json": "5efd31c68769077a904770404fad31f5af07e8e820798fb51a73dbf90854f923",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-05.json": "2f8259aa666f2e09625ed871af6b168376085ab991c52e1dc14313ea109ec4ca",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-06.json": "17d3abdcb8801ab8c225273d422f87639d43abea7215f305b1004afb27f0c24e",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-07.json": "ccfd0bff690c28063478fd4518c98010ce1a763d1386578f0d33bf99e50dacce",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-08.json": "d22e7c596276c00592486ecad9fd7a0321f4b44cedd0eaffa7f0ae9ea8a7cbb1",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-09.json": "8abf2312b5f073fa4710cbe9bbad3ad750393394c1f395f532ef56e0ff5b0b53",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-10.json": "b959b9be8974a44cec7ce00d4dc41a673661064c8a665c6846a629003e2e6348",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-11.json": "e56e02c8ee1b341aee5423bbbf2f2b0e3551ee26e0c432185ec5f63449b4fd73",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-12.json": "9b575a89dbce035cfc5aea15a80b92cfbf719b1e92aa740947fd3f97de58c366",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-13.json": "5af8614f94c78a88491dd698974373231a4d35e3be3b34dcfbf82a7d48b7d3d3",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-14.json": "f803c6e01f9629232c2a8d5b18d19f2fea59928b414763a15f9a3ad7644a3caf",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-15.json": "c66399e518153a90ffb553f154d3861d4437f1634e6ae9c3a853ab6978f893ca",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-16.json": "64fb5f48486b208dc58982b6d4587bca13ff3f0d686f1db0ed112c416bfabf2d",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-17.json": "184ede958c27592b855fc1457e64249ad1f15523ea9a9e8ee52a8e7b8ca37fa6",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-18.json": "5a87e6f348be93c4a595e344047bb0740341e7764b4534919754d36691376739",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-19.json": "9428656c61f5d0034553a7bbb82e54f86f72bb13ddfa0250c8b337da40dce6e8",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-20.json": "5af094cc5a686a52a687cb1f0ed6ae19ce8b5d29f6ca42b42bfcec28b8f3cc55",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-21.json": "f22efe6268d25132bb012c87f704ad763c32271aa647a95d748ca46249fbaf94",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-22.json": "6e6f2d7a53a749d07fec2a8b1d96b6483d2800458839c066c4e7b1fb537aa94c",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-23.json": "bd906de745f3ca33f4b8f8173620a59298f7ba5886591470014e8b5a4e469961",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-24.json": "14667859565668a52ee254d1c02ed6cbf4fc9d6687bcf9e22f23205e94e14a6f",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-25.json": "ed5236cc0f5a1305c159d335ead449a51ece12541b97042e402bd16ef709ba0d"
+        },
+        "changes_since_initial_before_pin": [
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-02.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-03.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-04.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-05.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-06.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-07.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-09.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-10.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-11.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-12.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-13.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-14.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-17.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-19.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-20.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-21.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-22.json",
+          "/Users/hoanghieple/Documents - Local/Projects/project-beta/docs/content-authoring/lesson-25.json"
+        ],
+        "limitations": [
+          "Original source visual comparison is sampled, not whole-source visual certification",
+          "No repository files modified",
+          "No full structural suite rerun requested for this bounded semantic revision audit"
+        ],
+        "status": "Complete for assigned bounded combined revision review; no unresolved actionable findings",
+        "targeted_final_fix_recheck": {
+          "category_changes_verified": 30,
+          "all_entity_ids_preserved": true,
+          "diff_paths": {
+            "lesson-12.json": [
+              "/vocabulary/47/entry_type",
+              "/vocabulary/49/entry_type"
+            ],
+            "lesson-04.json": [
+              "/vocabulary/51/entry_type"
+            ],
+            "lesson-05.json": [
+              "/vocabulary/53/entry_type",
+              "/vocabulary/55/entry_type"
+            ],
+            "lesson-13.json": [
+              "/vocabulary/24/entry_type",
+              "/vocabulary/25/entry_type"
+            ],
+            "lesson-09.json": [
+              "/vocabulary/49/meanings",
+              "/vocabulary/49/forms/0/register"
+            ],
+            "lesson-25.json": [
+              "/vocabulary/15/entry_type"
+            ],
+            "lesson-14.json": [
+              "/vocabulary/41/entry_type",
+              "/vocabulary/43/entry_type"
+            ],
+            "lesson-02.json": [
+              "/vocabulary/40/meanings",
+              "/vocabulary/40/forms/0/register",
+              "/vocabulary/42/entry_type"
+            ],
+            "lesson-22.json": [
+              "/vocabulary/18/entry_type",
+              "/vocabulary/19/entry_type"
+            ],
+            "lesson-19.json": [
+              "/vocabulary/19/entry_type",
+              "/vocabulary/24/entry_type"
+            ],
+            "lesson-03.json": [
+              "/vocabulary/31/entry_type"
+            ],
+            "lesson-20.json": [
+              "/vocabulary/20/entry_type"
+            ],
+            "lesson-21.json": [
+              "/vocabulary/38/entry_type",
+              "/vocabulary/39/entry_type"
+            ],
+            "lesson-17.json": [
+              "/vocabulary/29/entry_type"
+            ],
+            "lesson-06.json": [
+              "/vocabulary/48/entry_type",
+              "/vocabulary/50/entry_type"
+            ],
+            "lesson-10.json": [
+              "/vocabulary/43/entry_type"
+            ],
+            "lesson-11.json": [
+              "/vocabulary/51/entry_type",
+              "/vocabulary/54/entry_type",
+              "/vocabulary/55/entry_type",
+              "/vocabulary/56/entry_type",
+              "/vocabulary/60/entry_type"
+            ],
+            "lesson-07.json": [
+              "/vocabulary/41/entry_type",
+              "/vocabulary/44/entry_type"
+            ]
+          },
+          "lesson02": "Plain/polite thanks and emphatic thanks split correctly; full standard polite",
+          "lesson06": "Tomorrow-specific versus unspecified farewell correctly separated",
+          "lesson09": "Connective versus complete pity sentence correctly separated; polite register",
+          "optional_lesson20_iroiro": "Preserved noun as reasonable nominal lexical treatment"
+        },
+        "final_pin_file": "/tmp/project-beta-batch-authoring-20261106/author_n4_kanji/final-combined-review-after.json"
+      }
+    }
+  ],
+  "additional_source_owner_decision": {
+    "date": "2026-11-07",
+    "decision_reference": "B-U-56",
+    "items": [
+      "SRC-05",
+      "SRC-06",
+      "SRC-07"
+    ],
+    "instruction": "Giữ nghĩa đúng và đánh dấu cả 3 để kiểm tra lại",
+    "review_flags": "remain_open"
+  },
+  "source_recheck_flags": [],
+  "source_corrections_confirmed": [
+    {
+      "id": "SRC-01",
+      "item": "自動車",
+      "owner_decision": "apply_authored_value_confirmed",
+      "review_status": "owner_confirmed",
+      "confirmation_reference": "B-U-57"
+    },
+    {
+      "id": "SRC-02",
+      "item": "必",
+      "owner_decision": "apply_authored_value_confirmed",
+      "review_status": "owner_confirmed",
+      "confirmation_reference": "B-U-57"
+    },
+    {
+      "id": "SRC-03",
+      "item": "隅",
+      "owner_decision": "apply_authored_value_confirmed",
+      "review_status": "owner_confirmed",
+      "confirmation_reference": "B-U-57"
+    },
+    {
+      "id": "SRC-04",
+      "item": "界",
+      "owner_decision": "apply_authored_value_confirmed",
+      "review_status": "owner_confirmed",
+      "confirmation_reference": "B-U-57"
+    },
+    {
+      "id": "SRC-05",
+      "item": "発明します",
+      "owner_decision": "apply_authored_value_confirmed",
+      "review_status": "owner_confirmed",
+      "confirmation_reference": "B-U-57"
+    },
+    {
+      "id": "SRC-06",
+      "item": "太い",
+      "owner_decision": "apply_authored_value_confirmed",
+      "review_status": "owner_confirmed",
+      "confirmation_reference": "B-U-57"
+    },
+    {
+      "id": "SRC-07",
+      "item": "細い",
+      "owner_decision": "apply_authored_value_confirmed",
+      "review_status": "owner_confirmed",
+      "confirmation_reference": "B-U-57"
+    }
+  ],
+  "owner_confirmation": {
+    "decision_reference": "B-U-57",
+    "date": "2026-11-07",
+    "instruction": "confirm là sửa tất cả theo Bản thảo đang giữ",
+    "scope": [
+      "SRC-01",
+      "SRC-02",
+      "SRC-03",
+      "SRC-04",
+      "SRC-05",
+      "SRC-06",
+      "SRC-07"
+    ]
+  },
+  "historical_review_note": "Embedded reviewer records and B-U-55/56 instructions retain their historical wording. B-U-57 supersedes their open-flag disposition for SRC-01–07.",
+  "historical_final_revision_pin_check": {
+    "status": "passed",
+    "canonical_files": 102,
+    "scope": "Current whole-file SHA256s match the combined final peer pins. The semantic and visual scope of each peer review remains bounded as recorded."
+  },
+  "audit_addendum": {
+    "date": "2026-11-07",
+    "method": "primary structural review plus bounded source-image recheck; no new peer/human certification",
+    "changes": [
+      {
+        "lesson": 22,
+        "example_id": "e9c46fa7-3de5-40f0-99dc-2b86e762d1a0",
+        "reason": "standard affirmative template variant had no example; added original Book-reading/time sentence aligned to existing reviewed grammar contract"
+      },
+      {
+        "lesson": 24,
+        "example_id": "847d6852-8eef-4fae-a85d-d07167780e02",
+        "reason": "nonpast giving pattern had no example; added original older-sister/book sentence after N5_GRAMMAR PDF171 topic check"
+      }
+    ],
+    "old_examples": 302,
+    "new_examples": 304,
+    "new_negative_fixtures": [
+      "pattern_without_example",
+      "variant_without_example"
+    ],
+    "source_integrity": "six hashes and page counts rechecked",
+    "full_source_completeness": "not independently established; source-row ledger remains T02"
+  },
+  "proper_name_addendum": {
+    "date": "2026-11-08",
+    "decision": "B-U-59",
+    "method": "Primary-agent source-page visual review and full canonical structural/identity checks; no new peer or independent human certification.",
+    "previous_counts": {
+      "vocabulary": 2171,
+      "grammar_points": 255,
+      "sentence_patterns": 278,
+      "examples": 304,
+      "dialogues": 50,
+      "lessons": 50,
+      "kanji_units": 50,
+      "kanji_characters": 536,
+      "dialogue_turns": 257,
+      "kanji_word_occurrences": 2298
+    },
+    "current_counts": {
+      "vocabulary": 2212,
+      "grammar_points": 255,
+      "sentence_patterns": 278,
+      "examples": 304,
+      "dialogues": 50,
+      "lessons": 50,
+      "kanji_units": 50,
+      "kanji_characters": 536,
+      "dialogue_turns": 257,
+      "kanji_word_occurrences": 2298
+    },
+    "evidence": "source-reconciliation/proper-name-review.json",
+    "previous_footprint": {
+      "canonical_editorial_json_bytes": 5867792,
+      "runtime_impact": "Not measured. Editorial assets are outside the application source/resource tree; no app/project files were edited in this content task."
+    }
+  },
+  "revision_pin_history": [
+    {
+      "status": "current_manifest_updated_after_primary_audit",
+      "canonical_files": 102,
+      "scope": "Current manifest records the 2026-11-07 audit revision. Lesson 22 and 24 gained one primary-reviewed original example each; historical peer pins do not cover these additions. All other canonical files retain their baseline hashes."
+    },
+    {
+      "status": "current_manifest_updated_after_B-U-59",
+      "canonical_files": 102,
+      "scope": "Current manifest records the 2026-11-08 primary name review. Added 41 names across 19 lessons and updated name-scope metadata in all 50 lessons. Existing examples/dialogues and all Kanji content remain retained; historical peer pins do not cover the additions."
+    }
+  ],
+  "source_reconciliation_addendum": {
+    "date": "2026-11-08",
+    "task": "P0-T02",
+    "review": "docs/content-authoring/source-reconciliation/review.json",
+    "validation": "docs/content-authoring/source-reconciliation/validation-report.json",
+    "corrections": "docs/content-authoring/source-reconciliation/content-corrections.json",
+    "status": "complete_primary_review",
+    "source_vocabulary_rows": 2189,
+    "source_grammar_groups": 253,
+    "kanji_definitions": 536,
+    "unit_lexical_rows": 1498,
+    "master_examples": 826,
+    "languages": [
+      "vi",
+      "en"
+    ],
+    "scope": "All102 lesson/unit/master files reviewed for source alignment, contextual reading/ruby and VI/EN meaning. 28 grammar locator findings resolved;23 surname occurrences and3 counter readings restored. Primary self-review under B-U-51; no independent human, native voice/device or release certification. Optional dictionary illustrations are not exhaustive; full scope is in the review."
+  }
+}

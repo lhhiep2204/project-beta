@@ -1,0 +1,568 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "504079f3-8503-485f-9424-cdbe2ede5b44",
+  "editorial_key": "kanji_unit_50",
+  "reference_unit_number": 50,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 50: lesson 50 reading words",
+    "vi": "Kanji bài 50: từ đọc của bài 50"
+  },
+  "character_glyphs": [
+    "宅",
+    "私",
+    "然",
+    "式",
+    "参",
+    "伺",
+    "申",
+    "自",
+    "結",
+    "婚",
+    "拝",
+    "見",
+    "案",
+    "内",
+    "到",
+    "着",
+    "優",
+    "勝",
+    "心",
+    "皆",
+    "様",
+    "来",
+    "月",
+    "目",
+    "用",
+    "意",
+    "初"
+  ],
+  "word_examples": [
+    {
+      "id": "be30f6f6-c1ab-4c47-a7c4-77b7b46c3ed2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "宅",
+            "ruby": "たく"
+          }
+        ]
+      },
+      "kana_reading": "おたく",
+      "meanings": {
+        "en": "someone's home (respectful)",
+        "vi": "nhà của anh/chị (kính trọng)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a390b137-997b-4420-8535-96d3d76d2b5a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "私",
+            "ruby": "わたくし"
+          }
+        ]
+      },
+      "kana_reading": "わたくし",
+      "meanings": {
+        "en": "I (formal)",
+        "vi": "tôi (trang trọng)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "dca36428-fe56-40da-b5c6-5368abff9fd2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "自然",
+            "ruby": "しぜん"
+          }
+        ]
+      },
+      "kana_reading": "しぜん",
+      "meanings": {
+        "en": "nature",
+        "vi": "tự nhiên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "e91c42de-8c40-4909-be74-e6bd75b7209e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "結婚式",
+            "ruby": "けっこんしき"
+          }
+        ]
+      },
+      "kana_reading": "けっこんしき",
+      "meanings": {
+        "en": "wedding ceremony",
+        "vi": "lễ cưới"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f4353b71-2b7c-4e5a-8663-d41e1a54b4cd",
+      "japanese": {
+        "segments": [
+          {
+            "base": "参",
+            "ruby": "まい"
+          },
+          {
+            "base": "る"
+          }
+        ]
+      },
+      "kana_reading": "まいる",
+      "meanings": {
+        "en": "go; come (humble)",
+        "vi": "đi; đến (khiêm nhường)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "39b43632-65c9-4363-94e7-71ac9e554724",
+      "japanese": {
+        "segments": [
+          {
+            "base": "伺",
+            "ruby": "うかが"
+          },
+          {
+            "base": "う"
+          }
+        ]
+      },
+      "kana_reading": "うかがう",
+      "meanings": {
+        "en": "visit; ask (humble)",
+        "vi": "đến thăm; hỏi (khiêm nhường)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4a5dac99-1c43-498a-9123-bb347ac58fa8",
+      "japanese": {
+        "segments": [
+          {
+            "base": "申",
+            "ruby": "もう"
+          },
+          {
+            "base": "す"
+          }
+        ]
+      },
+      "kana_reading": "もうす",
+      "meanings": {
+        "en": "say (humble)",
+        "vi": "thưa; nói (khiêm nhường)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2452c117-eef4-4f00-8fe1-9a7efe4b53f3",
+      "japanese": {
+        "segments": [
+          {
+            "base": "拝見",
+            "ruby": "はいけん"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "はいけんする",
+      "meanings": {
+        "en": "look at (humble)",
+        "vi": "xem (khiêm nhường)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "96be0d76-0cff-4a3e-ac67-f34afde97a65",
+      "japanese": {
+        "segments": [
+          {
+            "base": "案内",
+            "ruby": "あんない"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "あんないする",
+      "meanings": {
+        "en": "guide; show around",
+        "vi": "hướng dẫn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "aceb7088-fdc0-44fa-949c-4f53ce3f3123",
+      "japanese": {
+        "segments": [
+          {
+            "base": "到着",
+            "ruby": "とうちゃく"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "とうちゃくする",
+      "meanings": {
+        "en": "arrive",
+        "vi": "đến nơi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "10af5937-97c2-44c4-ab52-b3abba0f7040",
+      "japanese": {
+        "segments": [
+          {
+            "base": "優勝",
+            "ruby": "ゆうしょう"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "ゆうしょうする",
+      "meanings": {
+        "en": "win a championship",
+        "vi": "giành chức vô địch"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "356698b5-f6fb-473a-860d-51b8f785997c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "心",
+            "ruby": "こころ"
+          }
+        ]
+      },
+      "kana_reading": "こころ",
+      "meanings": {
+        "en": "heart; mind",
+        "vi": "trái tim; tâm hồn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "70763251-9845-4a37-b1aa-dda2fca32902",
+      "japanese": {
+        "segments": [
+          {
+            "base": "皆様",
+            "ruby": "みなさま"
+          }
+        ]
+      },
+      "kana_reading": "みなさま",
+      "meanings": {
+        "en": "everyone (respectful)",
+        "vi": "quý vị"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f83df08c-7399-424f-8b6c-b05a8ed3ba81",
+      "japanese": {
+        "segments": [
+          {
+            "base": "さ"
+          },
+          {
+            "base": "来月",
+            "ruby": "らいげつ"
+          }
+        ]
+      },
+      "kana_reading": "さらいげつ",
+      "meanings": {
+        "en": "the month after next",
+        "vi": "tháng sau nữa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "08f113e6-4948-401f-9d8c-05e711d6e866",
+      "japanese": {
+        "segments": [
+          {
+            "base": "お"
+          },
+          {
+            "base": "目",
+            "ruby": "め"
+          },
+          {
+            "base": "にかかる"
+          }
+        ]
+      },
+      "kana_reading": "おめにかかる",
+      "meanings": {
+        "en": "meet (humble)",
+        "vi": "gặp (khiêm nhường)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "bd48965c-983c-45bd-8fa0-0aa96c6d8374",
+      "japanese": {
+        "segments": [
+          {
+            "base": "用意",
+            "ruby": "ようい"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "よういする",
+      "meanings": {
+        "en": "prepare",
+        "vi": "chuẩn bị"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "dd62d7e8-c2df-42fd-9719-bde0d99aee14",
+      "japanese": {
+        "segments": [
+          {
+            "base": "初",
+            "ruby": "はじ"
+          },
+          {
+            "base": "めに"
+          }
+        ]
+      },
+      "kana_reading": "はじめに",
+      "meanings": {
+        "en": "first; to begin with",
+        "vi": "trước tiên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "12c5593a-5162-45e4-8337-5a6daf262f28",
+      "japanese": {
+        "segments": [
+          {
+            "base": "意見",
+            "ruby": "いけん"
+          }
+        ]
+      },
+      "kana_reading": "いけん",
+      "meanings": {
+        "en": "opinion",
+        "vi": "ý kiến"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 140,
+          "pdf_page_end": 143,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 50,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 50,
+    "end": 50,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 140,
+      "pdf_page_end": 143,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

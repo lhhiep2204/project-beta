@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "project-beta-localization-overlay-v1",
+  "title": "Revision-bound content locale sidecar",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "locale",
+    "fields"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "locale": {
+      "enum": [
+        "ar",
+        "bn",
+        "zh-Hans",
+        "nl",
+        "fr",
+        "de",
+        "he",
+        "hi",
+        "id",
+        "it",
+        "ko",
+        "pt",
+        "ru",
+        "es",
+        "th",
+        "tr",
+        "uk"
+      ]
+    },
+    "fields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "pointer",
+          "ownerID",
+          "sourceSha256",
+          "text",
+          "state",
+          "reviewer",
+          "reviewSha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^docs/content-authoring/"
+          },
+          "pointer": {
+            "type": "string",
+            "pattern": "^/"
+          },
+          "ownerID": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceSha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "state": {
+            "enum": [
+              "draft",
+              "reviewed"
+            ]
+          },
+          "reviewer": {
+            "type": "string"
+          },
+          "reviewSha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "state": {
+                  "const": "reviewed"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "reviewer": {
+                  "minLength": 1
+                },
+                "reviewSha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "reviewSha256": {
+                  "type": "null"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

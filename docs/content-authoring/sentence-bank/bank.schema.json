@@ -1,0 +1,580 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "T04 sentence bank authoring v1 (working coverage, not release approval)",
+  "type": "object",
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "languages": {
+      "const": [
+        "en",
+        "vi"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "support_lexemes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+          },
+          "japanese": {
+            "type": "object",
+            "properties": {
+              "segments": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "base": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "ruby": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "base"
+                  ],
+                  "additionalProperties": false
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "segments"
+            ],
+            "additionalProperties": false
+          },
+          "introduced_lesson_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "meaning": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string",
+                "minLength": 1
+              },
+              "vi": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "en",
+              "vi"
+            ],
+            "additionalProperties": false
+          },
+          "provenance": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_word_id": {
+            "type": "string",
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+          },
+          "source_sha256": {
+            "type": "string",
+            "pattern": "[0-9a-f]{64}"
+          },
+          "introduction_evidence": {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "enum": [
+                  "example",
+                  "dialogue_turn",
+                  "vocabulary_form"
+                ]
+              },
+              "entity_id": {
+                "type": "string",
+                "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+              },
+              "sha256": {
+                "type": "string",
+                "minLength": 1
+              },
+              "surface": {
+                "type": "string",
+                "minLength": 1
+              },
+              "review_note": {
+                "type": "string",
+                "minLength": 1
+              },
+              "turn_index": {
+                "type": "integer"
+              },
+              "form_key": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "kind",
+              "entity_id",
+              "sha256",
+              "surface",
+              "review_note"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "japanese",
+          "introduced_lesson_id",
+          "meaning",
+          "provenance"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/candidate"
+      },
+      "minItems": 1
+    },
+    "word_bindings": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "source_word_id": {
+            "type": "string",
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+          },
+          "source_sha256": {
+            "type": "string",
+            "pattern": "[0-9a-f]{64}"
+          },
+          "vocabulary_target_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+            },
+            "uniqueItems": true
+          },
+          "additional_dependency_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+            },
+            "uniqueItems": true
+          },
+          "review_note": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "source_word_id",
+          "source_sha256",
+          "vocabulary_target_ids",
+          "additional_dependency_ids",
+          "review_note"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "knowledge_equivalences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "vocabulary_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+            },
+            "uniqueItems": true
+          },
+          "review_note": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "vocabulary_ids",
+          "review_note"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "support_grammar": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+          },
+          "introduced_lesson_id": {
+            "type": "null"
+          },
+          "source_example_id": {
+            "type": "string",
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+          },
+          "source_sha256": {
+            "type": "string",
+            "minLength": 1
+          },
+          "meaning": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string",
+                "minLength": 1
+              },
+              "vi": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "en",
+              "vi"
+            ],
+            "additionalProperties": false
+          },
+          "review_note": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "introduced_lesson_id",
+          "source_example_id",
+          "source_sha256",
+          "meaning",
+          "review_note"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "bare_character_bindings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "character_target_id": {
+            "type": "string",
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+          },
+          "word_target_id": {
+            "type": "string",
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+          },
+          "vocabulary_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+            },
+            "uniqueItems": true
+          },
+          "source_character_sha256": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_word_sha256": {
+            "type": "string",
+            "minLength": 1
+          },
+          "review_note": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "character_target_id",
+          "word_target_id",
+          "vocabulary_ids",
+          "source_character_sha256",
+          "source_word_sha256",
+          "review_note"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "version",
+    "languages",
+    "scope",
+    "support_lexemes",
+    "candidates"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "candidate": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+        },
+        "source_example_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "japanese": {
+          "type": "object",
+          "properties": {
+            "segments": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "base": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "ruby": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "base"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "segments"
+          ],
+          "additionalProperties": false
+        },
+        "translation": {
+          "type": "object",
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 1
+            },
+            "vi": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "en",
+            "vi"
+          ],
+          "additionalProperties": false
+        },
+        "introduced_lesson_id": {
+          "type": "string",
+          "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+        },
+        "target_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "target_exceptions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "vocabulary_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+                },
+                "minItems": 0,
+                "uniqueItems": true
+              },
+              "grammar_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+                },
+                "minItems": 0,
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "vocabulary_ids",
+              "grammar_ids"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "vocabulary_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "grammar_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "analysis": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "surface": {
+                "type": "string",
+                "minLength": 1
+              },
+              "vocabulary_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "form_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sense_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "grammar_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}"
+                },
+                "minItems": 0,
+                "uniqueItems": true
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "surface",
+              "vocabulary_id",
+              "form_id",
+              "sense_id",
+              "grammar_ids"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        },
+        "simplicity_order": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "authored_order": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "speech_text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "reviewed",
+            "dependencies_pending"
+          ]
+        },
+        "review_note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "context": {
+          "type": "object",
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 1
+            },
+            "vi": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "en",
+            "vi"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "source_example_id",
+        "source_sha256",
+        "japanese",
+        "translation",
+        "introduced_lesson_id",
+        "target_ids",
+        "target_exceptions",
+        "vocabulary_ids",
+        "grammar_ids",
+        "analysis",
+        "simplicity_order",
+        "authored_order",
+        "speech_text",
+        "status",
+        "review_note"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "5099611d-d8e5-4cbb-94f4-83ea1b97a07a",
+  "editorial_key": "kanji_unit_42",
+  "reference_unit_number": 42,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 42: lesson 42 reading words",
+    "vi": "Kanji bài 42: từ đọc của bài 42"
+  },
+  "character_glyphs": [
+    "政",
+    "治",
+    "化",
+    "律",
+    "両",
+    "緑",
+    "欲",
+    "文",
+    "法",
+    "親",
+    "必",
+    "要",
+    "包",
+    "沸",
+    "払",
+    "全",
+    "部",
+    "半",
+    "分",
+    "袋",
+    "音",
+    "楽",
+    "家",
+    "教",
+    "育",
+    "社",
+    "会",
+    "並",
+    "問",
+    "題"
+  ],
+  "word_examples": [
+    {
+      "id": "735a3d44-863d-4b18-ade7-950ab127fe4d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "政治",
+            "ruby": "せいじ"
+          }
+        ]
+      },
+      "kana_reading": "せいじ",
+      "meanings": {
+        "en": "politics",
+        "vi": "chính trị"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9d1c44b5-a3b6-46c5-bfa6-5ee86fa9e6d2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "文化",
+            "ruby": "ぶんか"
+          }
+        ]
+      },
+      "kana_reading": "ぶんか",
+      "meanings": {
+        "en": "culture",
+        "vi": "văn hóa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f6a34e25-596e-4f6a-833b-043cb6d1c37b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "法律",
+            "ruby": "ほうりつ"
+          }
+        ]
+      },
+      "kana_reading": "ほうりつ",
+      "meanings": {
+        "en": "law",
+        "vi": "pháp luật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2ff83cce-6b2b-4300-a168-333510bc199b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "両親",
+            "ruby": "りょうしん"
+          }
+        ]
+      },
+      "kana_reading": "りょうしん",
+      "meanings": {
+        "en": "parents",
+        "vi": "bố mẹ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4c84495a-ecdb-4425-af63-52f4c5de8db2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "緑",
+            "ruby": "みどり"
+          }
+        ]
+      },
+      "kana_reading": "みどり",
+      "meanings": {
+        "en": "green",
+        "vi": "màu xanh lá"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c2da7533-427d-49fc-846b-7ac4f77f1d6e",
+      "japanese": {
+        "segments": [
+          {
+            "base": "欲",
+            "ruby": "ほ"
+          },
+          {
+            "base": "しい"
+          }
+        ]
+      },
+      "kana_reading": "ほしい",
+      "meanings": {
+        "en": "want something",
+        "vi": "muốn có"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "aa1e7822-3ac4-4482-9d1c-835129ad4a75",
+      "japanese": {
+        "segments": [
+          {
+            "base": "必要",
+            "ruby": "ひつよう"
+          }
+        ]
+      },
+      "kana_reading": "ひつよう",
+      "meanings": {
+        "en": "necessary",
+        "vi": "cần thiết"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "698a690c-999a-4b90-889a-5a6802b1cdc7",
+      "japanese": {
+        "segments": [
+          {
+            "base": "包",
+            "ruby": "つつ"
+          },
+          {
+            "base": "む"
+          }
+        ]
+      },
+      "kana_reading": "つつむ",
+      "meanings": {
+        "en": "wrap",
+        "vi": "gói"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9da75b12-1ef1-4eed-90e0-f9b7e19bd70b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "沸",
+            "ruby": "わ"
+          },
+          {
+            "base": "かす"
+          }
+        ]
+      },
+      "kana_reading": "わかす",
+      "meanings": {
+        "en": "boil water",
+        "vi": "đun sôi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a8ab4ec2-6d2a-4a37-8980-1899afd2bfaa",
+      "japanese": {
+        "segments": [
+          {
+            "base": "払",
+            "ruby": "はら"
+          },
+          {
+            "base": "う"
+          }
+        ]
+      },
+      "kana_reading": "はらう",
+      "meanings": {
+        "en": "pay",
+        "vi": "trả tiền"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7da1abbb-4073-41eb-80c6-2b05b8400b33",
+      "japanese": {
+        "segments": [
+          {
+            "base": "全部",
+            "ruby": "ぜんぶ"
+          }
+        ]
+      },
+      "kana_reading": "ぜんぶ",
+      "meanings": {
+        "en": "all",
+        "vi": "tất cả"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f8890883-d627-4125-b7a2-555c12a9334f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "半分",
+            "ruby": "はんぶん"
+          }
+        ]
+      },
+      "kana_reading": "はんぶん",
+      "meanings": {
+        "en": "half",
+        "vi": "một nửa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6c9baa43-e6af-41d8-82c3-920b09b53bbb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "のし"
+          },
+          {
+            "base": "袋",
+            "ruby": "ぶくろ"
+          }
+        ]
+      },
+      "kana_reading": "のしぶくろ",
+      "meanings": {
+        "en": "ceremonial money envelope",
+        "vi": "phong bao đựng tiền mừng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "51df80ac-2a10-4aca-83cf-255a91f8dedc",
+      "japanese": {
+        "segments": [
+          {
+            "base": "音楽家",
+            "ruby": "おんがくか"
+          }
+        ]
+      },
+      "kana_reading": "おんがくか",
+      "meanings": {
+        "en": "musician",
+        "vi": "nhạc sĩ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "fea1bfab-6e2d-4f12-a561-2215f33b8241",
+      "japanese": {
+        "segments": [
+          {
+            "base": "教育",
+            "ruby": "きょういく"
+          }
+        ]
+      },
+      "kana_reading": "きょういく",
+      "meanings": {
+        "en": "education",
+        "vi": "giáo dục"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "965266e6-496e-4aee-9d7e-f332a5b14aef",
+      "japanese": {
+        "segments": [
+          {
+            "base": "社会",
+            "ruby": "しゃかい"
+          }
+        ]
+      },
+      "kana_reading": "しゃかい",
+      "meanings": {
+        "en": "society",
+        "vi": "xã hội"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d34913d6-75a0-46d9-9711-d6ff1481bd58",
+      "japanese": {
+        "segments": [
+          {
+            "base": "楽",
+            "ruby": "たの"
+          },
+          {
+            "base": "しみ"
+          }
+        ]
+      },
+      "kana_reading": "たのしみ",
+      "meanings": {
+        "en": "something to look forward to",
+        "vi": "điều mong chờ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ff52d2ad-04d2-4121-bf44-cca0424d330d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "並",
+            "ruby": "なら"
+          },
+          {
+            "base": "ぶ"
+          }
+        ]
+      },
+      "kana_reading": "ならぶ",
+      "meanings": {
+        "en": "line up",
+        "vi": "xếp hàng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4e6f0301-2d12-4d6c-8c6b-1f974608c6f2",
+      "japanese": {
+        "segments": [
+          {
+            "base": "社会問題",
+            "ruby": "しゃかいもんだい"
+          }
+        ]
+      },
+      "kana_reading": "しゃかいもんだい",
+      "meanings": {
+        "en": "social issue",
+        "vi": "vấn đề xã hội"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 106,
+          "pdf_page_end": 109,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 42,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 42,
+    "end": 42,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 106,
+      "pdf_page_end": 109,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

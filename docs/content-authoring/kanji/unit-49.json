@@ -1,0 +1,614 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "99c40d30-28bc-4586-869d-f5126e546b77",
+  "editorial_key": "kanji_unit_49",
+  "reference_unit_number": 49,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 49: lesson 49 reading words",
+    "vi": "Kanji bài 49: từ đọc của bài 49"
+  },
+  "character_glyphs": [
+    "存",
+    "様",
+    "妻",
+    "首",
+    "疲",
+    "勤",
+    "泊",
+    "奥",
+    "相",
+    "出",
+    "張",
+    "引",
+    "越",
+    "合",
+    "格",
+    "失",
+    "礼",
+    "空",
+    "港",
+    "旅",
+    "館",
+    "過",
+    "利",
+    "用",
+    "年",
+    "組",
+    "四",
+    "三",
+    "一"
+  ],
+  "word_examples": [
+    {
+      "id": "e1747a31-6436-4554-9c6c-99a0580e1354",
+      "japanese": {
+        "segments": [
+          {
+            "base": "ご"
+          },
+          {
+            "base": "存",
+            "ruby": "ぞん"
+          },
+          {
+            "base": "じ"
+          }
+        ]
+      },
+      "kana_reading": "ごぞんじ",
+      "meanings": {
+        "en": "knowing (respectful)",
+        "vi": "biết (kính trọng)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "0e259c5b-701c-44ed-a1f4-48f2385426e4",
+      "japanese": {
+        "segments": [
+          {
+            "base": "奥様",
+            "ruby": "おくさま"
+          }
+        ]
+      },
+      "kana_reading": "おくさま",
+      "meanings": {
+        "en": "someone's wife (respectful)",
+        "vi": "phu nhân; vợ (kính trọng)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b196ba6e-8842-4807-a125-36da80e0fba6",
+      "japanese": {
+        "segments": [
+          {
+            "base": "妻",
+            "ruby": "つま"
+          }
+        ]
+      },
+      "kana_reading": "つま",
+      "meanings": {
+        "en": "wife (one's own)",
+        "vi": "vợ (của mình)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "6f59b0d1-2aa2-4fda-b4bd-dcdb890c0a31",
+      "japanese": {
+        "segments": [
+          {
+            "base": "首相",
+            "ruby": "しゅしょう"
+          }
+        ]
+      },
+      "kana_reading": "しゅしょう",
+      "meanings": {
+        "en": "prime minister",
+        "vi": "thủ tướng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "cdcd50c7-8a26-4316-8c0e-648854e79057",
+      "japanese": {
+        "segments": [
+          {
+            "base": "疲",
+            "ruby": "つか"
+          },
+          {
+            "base": "れる"
+          }
+        ]
+      },
+      "kana_reading": "つかれる",
+      "meanings": {
+        "en": "get tired",
+        "vi": "mệt"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "faaa491f-3dfa-4e50-bd5f-c8f93c54ff18",
+      "japanese": {
+        "segments": [
+          {
+            "base": "勤",
+            "ruby": "つと"
+          },
+          {
+            "base": "める"
+          }
+        ]
+      },
+      "kana_reading": "つとめる",
+      "meanings": {
+        "en": "work for an organization",
+        "vi": "làm việc tại cơ quan"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "981251d2-c0b2-44d9-b359-9351583c8274",
+      "japanese": {
+        "segments": [
+          {
+            "base": "泊",
+            "ruby": "と"
+          },
+          {
+            "base": "まる"
+          }
+        ]
+      },
+      "kana_reading": "とまる",
+      "meanings": {
+        "en": "stay overnight",
+        "vi": "nghỉ qua đêm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b81da08b-bd34-454c-aec9-4ee4ebe057bc",
+      "japanese": {
+        "segments": [
+          {
+            "base": "出張",
+            "ruby": "しゅっちょう"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "しゅっちょうする",
+      "meanings": {
+        "en": "go on a business trip",
+        "vi": "đi công tác"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7741032a-491d-4efb-840b-7e3d8cbd799b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "引っ越",
+            "ruby": "ひっこ"
+          },
+          {
+            "base": "しする"
+          }
+        ]
+      },
+      "kana_reading": "ひっこしする",
+      "meanings": {
+        "en": "move house",
+        "vi": "chuyển nhà"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "fbadb3da-46ac-4a28-8ee3-c2fcc93b5445",
+      "japanese": {
+        "segments": [
+          {
+            "base": "合格",
+            "ruby": "ごうかく"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "ごうかくする",
+      "meanings": {
+        "en": "pass an exam",
+        "vi": "thi đỗ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7ca3b52d-3538-4e4c-aead-c84dadef2d1b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "失礼",
+            "ruby": "しつれい"
+          },
+          {
+            "base": "します"
+          }
+        ]
+      },
+      "kana_reading": "しつれいします",
+      "meanings": {
+        "en": "excuse me (on entering or leaving)",
+        "vi": "xin phép"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "2737b824-532e-4f6e-a9cb-3f655756399a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "様",
+            "ruby": "さま"
+          }
+        ]
+      },
+      "kana_reading": "さま",
+      "meanings": {
+        "en": "respectful title suffix",
+        "vi": "hậu tố kính trọng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4c6b193c-e5d5-4a22-aad8-ef54f10b475f",
+      "japanese": {
+        "segments": [
+          {
+            "base": "空港",
+            "ruby": "くうこう"
+          }
+        ]
+      },
+      "kana_reading": "くうこう",
+      "meanings": {
+        "en": "airport",
+        "vi": "sân bay"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b4d72f97-624e-45bd-ba5a-71f372714527",
+      "japanese": {
+        "segments": [
+          {
+            "base": "旅館",
+            "ruby": "りょかん"
+          }
+        ]
+      },
+      "kana_reading": "りょかん",
+      "meanings": {
+        "en": "Japanese-style inn",
+        "vi": "nhà trọ kiểu Nhật"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "4c2eca89-c7f5-44bf-b647-96ae36f06ecb",
+      "japanese": {
+        "segments": [
+          {
+            "base": "過",
+            "ruby": "す"
+          },
+          {
+            "base": "ごす"
+          }
+        ]
+      },
+      "kana_reading": "すごす",
+      "meanings": {
+        "en": "spend time",
+        "vi": "trải qua thời gian"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "76c05397-1823-45f4-965f-98ebb156c8f3",
+      "japanese": {
+        "segments": [
+          {
+            "base": "利用",
+            "ruby": "りよう"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "りようする",
+      "meanings": {
+        "en": "use",
+        "vi": "sử dụng"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c003a9e8-b6c8-4a41-8e66-933fe8690914",
+      "japanese": {
+        "segments": [
+          {
+            "base": "年",
+            "ruby": "ねん"
+          }
+        ]
+      },
+      "kana_reading": "ねん",
+      "meanings": {
+        "en": "school year",
+        "vi": "năm học; khối"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "7107e9eb-082d-4ce8-83ff-ae75b25a496d",
+      "japanese": {
+        "segments": [
+          {
+            "base": "組",
+            "ruby": "くみ"
+          }
+        ]
+      },
+      "kana_reading": "くみ",
+      "meanings": {
+        "en": "class; group",
+        "vi": "lớp; nhóm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "5f86e117-c2dc-48a9-8eeb-a212fa4967ca",
+      "japanese": {
+        "segments": [
+          {
+            "base": "四年三組",
+            "ruby": "よねんさんくみ"
+          }
+        ]
+      },
+      "kana_reading": "よねんさんくみ",
+      "meanings": {
+        "en": "year four class three",
+        "vi": "lớp ba khối bốn"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "70dcbeb4-f821-4a80-8170-8b0fb5a2b6d4",
+      "japanese": {
+        "segments": [
+          {
+            "base": "一年一組",
+            "ruby": "いちねんいちくみ"
+          }
+        ]
+      },
+      "kana_reading": "いちねんいちくみ",
+      "meanings": {
+        "en": "year one class one",
+        "vi": "lớp một khối một"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 136,
+          "pdf_page_end": 139,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 49,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 49,
+    "end": 49,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 136,
+      "pdf_page_end": 139,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "purpose": "Targeted regression anchors read from source images; not an independent review of all teaching content.",
+  "checks": [
+    {
+      "source_level_label": "N5",
+      "vocabulary_key": "bank_employee",
+      "form_key": "standard",
+      "expected_surface": "銀行員",
+      "expected_kana": "ぎんこういん",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "comparison_method": "primary_visual_comparison_to_source_page",
+      "independent_review": "pending"
+    },
+    {
+      "source_level_label": "N5",
+      "vocabulary_key": "teacher_address",
+      "form_key": "standard",
+      "expected_surface": "先生",
+      "expected_kana": "せんせい",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "comparison_method": "primary_visual_comparison_to_source_page",
+      "independent_review": "pending"
+    },
+    {
+      "source_level_label": "N5",
+      "vocabulary_key": "student",
+      "form_key": "standard",
+      "expected_surface": "学生",
+      "expected_kana": "がくせい",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "comparison_method": "primary_visual_comparison_to_source_page",
+      "independent_review": "pending"
+    },
+    {
+      "source_level_label": "N5",
+      "vocabulary_key": "company_employee",
+      "form_key": "standard",
+      "expected_surface": "会社員",
+      "expected_kana": "かいしゃいん",
+      "source_id": "N5_GRAMMAR",
+      "pdf_page": 29,
+      "comparison_method": "primary_visual_comparison_to_source_page",
+      "independent_review": "pending"
+    },
+    {
+      "source_level_label": "N4",
+      "vocabulary_key": "see_examine",
+      "form_key": "see",
+      "expected_surface": "見ます",
+      "expected_kana": "みます",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "comparison_method": "primary_visual_comparison_to_source_page",
+      "independent_review": "pending",
+      "expected_verb_group": "II"
+    },
+    {
+      "source_level_label": "N4",
+      "vocabulary_key": "see_examine",
+      "form_key": "medical_examination",
+      "expected_surface": "診ます",
+      "expected_kana": "みます",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "comparison_method": "primary_visual_comparison_to_source_page",
+      "independent_review": "pending",
+      "expected_verb_group": "II"
+    },
+    {
+      "source_level_label": "N4",
+      "vocabulary_key": "be_late",
+      "form_key": "standard",
+      "expected_surface": "遅れます",
+      "expected_kana": "おくれます",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "comparison_method": "primary_visual_comparison_to_source_page",
+      "independent_review": "pending",
+      "expected_verb_group": "II"
+    },
+    {
+      "source_level_label": "N4",
+      "vocabulary_key": "be_in_time",
+      "form_key": "standard",
+      "expected_surface": "間に合います",
+      "expected_kana": "まにあいます",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "comparison_method": "primary_visual_comparison_to_source_page",
+      "independent_review": "pending",
+      "expected_verb_group": "I"
+    },
+    {
+      "source_level_label": "N4",
+      "vocabulary_key": "pick_up",
+      "form_key": "standard",
+      "expected_surface": "拾います",
+      "expected_kana": "ひろいます",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "comparison_method": "primary_visual_comparison_to_source_page",
+      "independent_review": "pending",
+      "expected_verb_group": "I"
+    },
+    {
+      "source_level_label": "N4",
+      "vocabulary_key": "contact",
+      "form_key": "standard",
+      "expected_surface": "連絡します",
+      "expected_kana": "れんらくします",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 29,
+      "comparison_method": "primary_visual_comparison_to_source_page",
+      "independent_review": "pending",
+      "expected_verb_group": "III"
+    },
+    {
+      "source_level_label": "N4",
+      "vocabulary_key": "spacecraft",
+      "form_key": "standard",
+      "expected_surface": "宇宙船",
+      "expected_kana": "うちゅうせん",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 30,
+      "comparison_method": "primary_visual_comparison_to_source_page",
+      "independent_review": "pending"
+    },
+    {
+      "source_level_label": "N4",
+      "vocabulary_key": "company_suffix",
+      "form_key": "standard",
+      "expected_surface": "〜会社",
+      "expected_kana": "〜がいしゃ",
+      "source_id": "N4_GRAMMAR",
+      "pdf_page": 30,
+      "comparison_method": "primary_visual_comparison_to_source_page",
+      "independent_review": "pending"
+    }
+  ]
+}

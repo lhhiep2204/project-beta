@@ -1,0 +1,106 @@
+[
+  {
+    "image": "N5-grammar-p029-meanings.png",
+    "source_id": "N5_GRAMMAR",
+    "pdf_page": 29,
+    "crop_top_left_fraction": [
+      0.52,
+      0.12,
+      0.98,
+      0.92
+    ],
+    "language": "vi",
+    "purpose": "Vocabulary column comparison"
+  },
+  {
+    "image": "N5-grammar-p029-kana.png",
+    "source_id": "N5_GRAMMAR",
+    "pdf_page": 29,
+    "crop_top_left_fraction": [
+      0.12,
+      0.12,
+      0.32,
+      0.92
+    ],
+    "language": "ja",
+    "purpose": "Vocabulary column comparison"
+  },
+  {
+    "image": "N5-grammar-p029-kanji.png",
+    "source_id": "N5_GRAMMAR",
+    "pdf_page": 29,
+    "crop_top_left_fraction": [
+      0.32,
+      0.12,
+      0.52,
+      0.92
+    ],
+    "language": "ja",
+    "purpose": "Vocabulary column comparison"
+  },
+  {
+    "image": "N5-main-p022-patterns.png",
+    "source_id": "N5_MAIN",
+    "pdf_page": 22,
+    "crop_top_left_fraction": [
+      0.1,
+      0.12,
+      0.94,
+      0.35
+    ],
+    "language": "ja",
+    "purpose": "Sentence-pattern region comparison"
+  },
+  {
+    "image": "N4-grammar-p029-meanings.png",
+    "source_id": "N4_GRAMMAR",
+    "pdf_page": 29,
+    "crop_top_left_fraction": [
+      0.52,
+      0.12,
+      0.98,
+      0.92
+    ],
+    "language": "vi",
+    "purpose": "Vocabulary column comparison"
+  },
+  {
+    "image": "N4-grammar-p029-kana.png",
+    "source_id": "N4_GRAMMAR",
+    "pdf_page": 29,
+    "crop_top_left_fraction": [
+      0.12,
+      0.12,
+      0.32,
+      0.92
+    ],
+    "language": "ja",
+    "purpose": "Vocabulary column comparison"
+  },
+  {
+    "image": "N4-grammar-p029-kanji.png",
+    "source_id": "N4_GRAMMAR",
+    "pdf_page": 29,
+    "crop_top_left_fraction": [
+      0.32,
+      0.12,
+      0.52,
+      0.92
+    ],
+    "language": "ja",
+    "purpose": "Vocabulary column comparison"
+  },
+  {
+    "image": "N4-main-p022-patterns.png",
+    "source_id": "N4_MAIN",
+    "pdf_page": 22,
+    "crop_top_left_fraction": [
+      0.1,
+      0.12,
+      0.94,
+      0.35
+    ],
+    "language": "ja",
+    "purpose": "Sentence-pattern region comparison"
+  }
+]

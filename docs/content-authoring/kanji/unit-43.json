@@ -1,0 +1,635 @@
+{
+  "format_version": "0.1-draft",
+  "artifact_type": "editorial_kanji_unit",
+  "id": "46204a89-960a-403f-a5d4-d141d8d29cd4",
+  "editorial_key": "kanji_unit_43",
+  "reference_unit_number": 43,
+  "source_level_label": "N4",
+  "title": {
+    "en": "Kanji Unit 43: lesson 43 reading words",
+    "vi": "Kanji bài 43: từ đọc của bài 43"
+  },
+  "character_glyphs": [
+    "米",
+    "辞",
+    "符",
+    "暑",
+    "寒",
+    "暖",
+    "咲",
+    "書",
+    "切",
+    "消",
+    "増",
+    "迎",
+    "枚",
+    "火",
+    "変",
+    "楽",
+    "上",
+    "下",
+    "落",
+    "出",
+    "発",
+    "一",
+    "二",
+    "様",
+    "子"
+  ],
+  "word_examples": [
+    {
+      "id": "0e5e180a-89fe-4387-88b3-d8783d8f909c",
+      "japanese": {
+        "segments": [
+          {
+            "base": "米",
+            "ruby": "こめ"
+          }
+        ]
+      },
+      "kana_reading": "こめ",
+      "meanings": {
+        "en": "uncooked rice",
+        "vi": "gạo"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ef79c9a8-32a0-4b19-8a93-cfd6e69796ae",
+      "japanese": {
+        "segments": [
+          {
+            "base": "辞書",
+            "ruby": "じしょ"
+          }
+        ]
+      },
+      "kana_reading": "じしょ",
+      "meanings": {
+        "en": "dictionary",
+        "vi": "từ điển"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "13cc7bec-aafe-485c-9322-9eed93b4c957",
+      "japanese": {
+        "segments": [
+          {
+            "base": "切符",
+            "ruby": "きっぷ"
+          }
+        ]
+      },
+      "kana_reading": "きっぷ",
+      "meanings": {
+        "en": "ticket",
+        "vi": "vé"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "131d21be-1980-4657-bea0-146f5da6ed12",
+      "japanese": {
+        "segments": [
+          {
+            "base": "暑",
+            "ruby": "あつ"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "あつい",
+      "meanings": {
+        "en": "hot (weather)",
+        "vi": "nóng (thời tiết)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "cc0c5688-e1d4-4f7c-b860-de4013173d88",
+      "japanese": {
+        "segments": [
+          {
+            "base": "寒",
+            "ruby": "さむ"
+          },
+          {
+            "base": "い"
+          }
+        ]
+      },
+      "kana_reading": "さむい",
+      "meanings": {
+        "en": "cold (weather)",
+        "vi": "lạnh (thời tiết)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d6c0bcab-7659-4d32-b90e-2de8db855053",
+      "japanese": {
+        "segments": [
+          {
+            "base": "暖",
+            "ruby": "あたた"
+          },
+          {
+            "base": "かい"
+          }
+        ]
+      },
+      "kana_reading": "あたたかい",
+      "meanings": {
+        "en": "warm",
+        "vi": "ấm"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "edd6d3c9-eee7-4f47-9645-369c1feb9b82",
+      "japanese": {
+        "segments": [
+          {
+            "base": "咲",
+            "ruby": "さ"
+          },
+          {
+            "base": "く"
+          }
+        ]
+      },
+      "kana_reading": "さく",
+      "meanings": {
+        "en": "bloom",
+        "vi": "nở"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "d010da27-7dfb-4389-9b00-86d8846905c0",
+      "japanese": {
+        "segments": [
+          {
+            "base": "消",
+            "ruby": "き"
+          },
+          {
+            "base": "える"
+          }
+        ]
+      },
+      "kana_reading": "きえる",
+      "meanings": {
+        "en": "go out; disappear",
+        "vi": "tắt; biến mất"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "c18ff55b-ffd1-40a3-a784-3b31e3338019",
+      "japanese": {
+        "segments": [
+          {
+            "base": "増",
+            "ruby": "ふ"
+          },
+          {
+            "base": "える"
+          }
+        ]
+      },
+      "kana_reading": "ふえる",
+      "meanings": {
+        "en": "increase",
+        "vi": "tăng lên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "3eeff9b0-bade-449e-a7d9-cc4d7d711518",
+      "japanese": {
+        "segments": [
+          {
+            "base": "迎",
+            "ruby": "むか"
+          },
+          {
+            "base": "える"
+          }
+        ]
+      },
+      "kana_reading": "むかえる",
+      "meanings": {
+        "en": "welcome; meet",
+        "vi": "đón"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b10eafc9-e38d-4985-83f9-3af5ced3eec5",
+      "japanese": {
+        "segments": [
+          {
+            "base": "枚",
+            "ruby": "まい"
+          }
+        ]
+      },
+      "kana_reading": "まい",
+      "meanings": {
+        "en": "flat objects (counter)",
+        "vi": "tờ; chiếc (vật mỏng)"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "540d4b85-944c-467b-9b11-7493bf8c25ef",
+      "japanese": {
+        "segments": [
+          {
+            "base": "火",
+            "ruby": "ひ"
+          }
+        ]
+      },
+      "kana_reading": "ひ",
+      "meanings": {
+        "en": "fire; flame",
+        "vi": "lửa"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "81dc4a60-e852-4a4e-a6ba-0a8540dac64a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "変",
+            "ruby": "へん"
+          }
+        ]
+      },
+      "kana_reading": "へん",
+      "meanings": {
+        "en": "strange",
+        "vi": "lạ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a256c9c7-5e47-412f-9362-c3b4226bd055",
+      "japanese": {
+        "segments": [
+          {
+            "base": "楽",
+            "ruby": "らく"
+          }
+        ]
+      },
+      "kana_reading": "らく",
+      "meanings": {
+        "en": "easy; comfortable",
+        "vi": "nhàn; thoải mái"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f035bf97-cb97-4851-9c48-1d4158b5b734",
+      "japanese": {
+        "segments": [
+          {
+            "base": "上",
+            "ruby": "あ"
+          },
+          {
+            "base": "がる"
+          }
+        ]
+      },
+      "kana_reading": "あがる",
+      "meanings": {
+        "en": "rise",
+        "vi": "tăng lên"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "b5a560ea-ef89-4235-ad40-ad0c883245ee",
+      "japanese": {
+        "segments": [
+          {
+            "base": "下",
+            "ruby": "さ"
+          },
+          {
+            "base": "がる"
+          }
+        ]
+      },
+      "kana_reading": "さがる",
+      "meanings": {
+        "en": "fall; go down",
+        "vi": "hạ xuống"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "a45ed26c-7370-4596-a6c6-0f3b801e8c21",
+      "japanese": {
+        "segments": [
+          {
+            "base": "落",
+            "ruby": "お"
+          },
+          {
+            "base": "ちる"
+          }
+        ]
+      },
+      "kana_reading": "おちる",
+      "meanings": {
+        "en": "fall",
+        "vi": "rơi"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f73b5d73-e81c-4ecc-9ce3-425069ec3760",
+      "japanese": {
+        "segments": [
+          {
+            "base": "出発",
+            "ruby": "しゅっぱつ"
+          },
+          {
+            "base": "する"
+          }
+        ]
+      },
+      "kana_reading": "しゅっぱつする",
+      "meanings": {
+        "en": "depart",
+        "vi": "khởi hành"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "ebe5e5b5-a916-43bb-a0dd-1491f39a638a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "一枚",
+            "ruby": "いちまい"
+          }
+        ]
+      },
+      "kana_reading": "いちまい",
+      "meanings": {
+        "en": "one flat item",
+        "vi": "một tờ; một chiếc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "9ceff77d-3f90-4d51-967c-ed472d90146a",
+      "japanese": {
+        "segments": [
+          {
+            "base": "二枚",
+            "ruby": "にまい"
+          }
+        ]
+      },
+      "kana_reading": "にまい",
+      "meanings": {
+        "en": "two flat items",
+        "vi": "hai tờ; hai chiếc"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    },
+    {
+      "id": "f42fea15-3896-4d7c-b2d1-91e8fc5c084b",
+      "japanese": {
+        "segments": [
+          {
+            "base": "様子",
+            "ruby": "ようす"
+          }
+        ]
+      },
+      "kana_reading": "ようす",
+      "meanings": {
+        "en": "state; appearance",
+        "vi": "tình trạng; dáng vẻ"
+      },
+      "source_refs": [
+        {
+          "source_id": "N4_KANJI",
+          "pdf_page_start": 110,
+          "pdf_page_end": 113,
+          "basis": "unit_character_and_word_scope"
+        }
+      ],
+      "origin": "source_aligned_lexical_item"
+    }
+  ],
+  "publisher_lesson_milestone": {
+    "global_lesson_number": 43,
+    "reference_volume": "Elementary II",
+    "evidence": {
+      "source_id": "N4_KANJI",
+      "pdf_pages": [
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "reference_lesson_scope": {
+    "start": 43,
+    "end": 43,
+    "may_include_earlier_material": true
+  },
+  "relationship": "one_unit_per_lesson_including_earlier_material",
+  "source_refs": [
+    {
+      "source_id": "N4_KANJI",
+      "pdf_page_start": 110,
+      "pdf_page_end": 113,
+      "basis": "unit_character_and_word_scope"
+    }
+  ],
+  "review_state": {
+    "self_review": "accepted_for_batch_authoring",
+    "independent_review": "not_claimed",
+    "release_status": "draft_not_for_release"
+  }
+}

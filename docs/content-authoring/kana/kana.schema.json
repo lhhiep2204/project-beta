@@ -1,0 +1,263 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format_version",
+    "artifact_type",
+    "review_state",
+    "language_coverage",
+    "entries"
+  ],
+  "properties": {
+    "format_version": {
+      "const": "1.0"
+    },
+    "artifact_type": {
+      "const": "kana_inventory"
+    },
+    "review_state": {
+      "const": "draft_not_for_release"
+    },
+    "language_coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "authored",
+        "required_for_release",
+        "missing_for_release"
+      ],
+      "properties": {
+        "authored": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required_for_release": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "missing_for_release": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/entry"
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProjectBeta authored kana inventory v1",
+  "$defs": {
+    "bilingual": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "en",
+        "vi"
+      ],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "vi": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "example": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "japanese",
+        "reading",
+        "translation",
+        "kind",
+        "target_relation"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "japanese": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "segments"
+          ],
+          "properties": {
+            "segments": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "base"
+                ],
+                "properties": {
+                  "base": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "ruby": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "reading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "translation": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "word",
+            "sentence",
+            "phonetic_transcription",
+            "reference_context"
+          ]
+        },
+        "target_relation": {
+          "type": "string",
+          "enum": [
+            "contains",
+            "composition",
+            "vowel_pattern",
+            "historical_spelling",
+            "base_letter_context",
+            "expanded_repetition",
+            "expanded_ligature",
+            "modern_equivalent"
+          ]
+        }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "key",
+        "script",
+        "group",
+        "glyph",
+        "source_refs",
+        "examples",
+        "speech",
+        "guidance"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "script": {
+          "type": "string",
+          "enum": [
+            "hiragana",
+            "katakana",
+            "shared"
+          ]
+        },
+        "group": {
+          "type": "string",
+          "enum": [
+            "basic",
+            "voiced",
+            "contracted",
+            "extended",
+            "special",
+            "long_vowel",
+            "particle",
+            "reference"
+          ]
+        },
+        "glyph": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "source_id",
+              "locator"
+            ],
+            "properties": {
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "locator": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "examples": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/example"
+          }
+        },
+        "speech": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "mode",
+            "text"
+          ],
+          "properties": {
+            "mode": {
+              "type": "string",
+              "enum": [
+                "syllable",
+                "context"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "guidance": {
+          "$ref": "#/$defs/bilingual"
+        }
+      }
+    }
+  }
+}
